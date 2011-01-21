@@ -412,7 +412,7 @@ class Search(Form):
                 'context':str(context),
                 'user_id':rpc.session.uid
             }
-            result = rpc.session.execute('object', 'execute', 'ir.filters', 'create_or_replace', datas, rpc.session.context)
+            result = rpc.RPCProxy('ir.filters').create_or_replace(datas, rpc.session.context)
             return {'filter': (domain, name, group_by), 'new_id':result}
         return {}
 

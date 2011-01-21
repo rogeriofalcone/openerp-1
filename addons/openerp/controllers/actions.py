@@ -145,7 +145,7 @@ def execute_report(name, **data):
     del datas['ids']
 
     if not ids:
-        ids =  rpc.session.execute('object', 'execute', datas['model'], 'search', [])
+        ids =  rpc.RPCProxy(datas['model']).search([])
         if not ids:
             raise common.message(_('Nothing to print'))
 
@@ -154,12 +154,12 @@ def execute_report(name, **data):
     try:
         ctx = dict(rpc.session.context)
         ctx.update(datas.get('context', {}))
-        report_id = rpc.session.execute('report', 'report', name, ids, datas, ctx)
+        report_id = rpc.Report().report(name, ids, datas, ctx)
         state = False
         attempt = 0
         val = None
         while not state:
-            val = rpc.session.execute('report', 'report_get', report_id)
+            val = rpc.Report().report_get(report_id)
             if not val:
                 return False
             state = val['state']
@@ -199,8 +199,7 @@ def act_window(action, data):
                 'view_mode', 'limit', 'search_view'):
         data[key] = action.get(key, data.get(key))
     if not data.get('search_view') and data.get('search_view_id'):
-        data['search_view'] = str(rpc.session.execute(
-                'object', 'execute', data['res_model'], 'fields_view_get',
+        data['search_view'] = str(rpc.RPCProxy(data['res_model']).fields_view_get(
                 data['search_view_id'], 'search', data['context']))
     if data.get('limit'):
         data['limit'] = 20
@@ -431,7 +430,7 @@ def execute_by_id(act_id, type=None, **data):
         
     ctx = dict(rpc.session.context, **(data.get('context') or {}))   
 
-    res = rpc.session.execute('object', 'execute', type, 'read', act_id, False, ctx)
+    res = rpc.RPCProxy(type).read(act_id, False, ctx)
     return execute(res, **data)
 
 def execute_by_keyword(keyword, adds=None, **data):
@@ -448,7 +447,7 @@ def execute_by_keyword(keyword, adds=None, **data):
         try:
             id = data.get('id', False)
             if (id): id = int(id)
-            actions = rpc.session.execute('object', 'execute', 'ir.values', 'get', 'action', keyword, [(data['model'], id)], False, rpc.session.context)
+            actions = rpc.RPCProxy('ir.values').get('action', keyword, [(data['model'], id)], False, rpc.session.context)
             actions = map(lambda x: x[2], actions)
         except rpc.RPCException, e:
             raise e

@@ -99,7 +99,7 @@ class Translator(SecuredController):
                     value = {}
                     for lang in langs:
                         code = lang['code']
-                        val = rpc.session.execute('object', 'execute', tool['type'], 'read', [tool['id']], ['name'], {'lang': code})
+                        val = rpc.RPCPRoxy(tool['type']).read([tool['id']], ['name'], {'lang': code})
 
                         value[code] = val[0]['name'] or None
 
@@ -108,8 +108,10 @@ class Translator(SecuredController):
         if translate == 'view':
             for lang in langs:
                 code=lang['code']
-                view_item_ids = rpc.session.execute('object', 'execute', 'ir.translation', 'search', [('name', '=', params.model), ('type', '=', 'view'), ('lang', '=', code)])
-                view_items = rpc.session.execute('object', 'execute', 'ir.translation', 'read', view_item_ids, ['src', 'value'])
+                Translations = rpc.RPCProxy('ir.translation')
+                view_items = Translations.read(
+                        Translations.search([('name', '=', params.model), ('type', '=', 'view'), ('lang', '=', code)]),
+                        ['src', 'value'])
 
                 values = []
                 for val in view_items:
@@ -141,22 +143,22 @@ class Translator(SecuredController):
                         val = [val]
 
                     for v in val:
-                        rpc.session.execute('object', 'execute', params.model, 'write', [params.id], {name : v}, context)
+                        rpc.RPCProxy(params.model).write([params.id], {name : v}, context)
 
         if translate == 'labels':
             for lang, value in data.items():
                 for name, val in value.items():
-                    rpc.session.execute('object', 'execute', params.model, 'write_string', False, [lang], {name: val})
+                    rpc.RPCProxy(params.model).write_string(False, [lang], {name: val})
 
         if translate == 'relates':
             for lang, value in data.items():
                 for name, val in value.items():
-                    rpc.session.execute('object', 'execute', params.models[name], 'write', [int(name)], {'name': val}, {'lang': lang})
+                    rpc.RPCProxy(params.models[name]).write([int(name)], {'name': val}, {'lang': lang})
 
         if translate == 'view':
             for lang, value in data.items():
                 for id, val in value.items():
-                    rpc.session.execute('object', 'execute', 'ir.translation', 'write', [int(id)], {'value': val})
+                    rpc.RPCProxy('ir.translation').write([int(id)], {'value': val})
 
         return self.index(translate=translate, _terp_model=params.model, _terp_id=params.id, ctx=params.context)
 

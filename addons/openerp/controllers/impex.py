@@ -338,7 +338,7 @@ class ImpEx(SecuredController):
                     st_name = fields[field]['string'] or field
                     _fields[prefix_node+field] = st_name
                     if fields[field].get('relation', False) and level>0:
-                        fields2 = rpc.session.execute('object', 'execute', fields[field]['relation'], 'fields_get', False, rpc.session.context)
+                        fields2 = rpc.RPCProxy(fields[field]['relation']).fields_get(False)
                         model_populate(fields2, prefix_node+field+'/', None, st_name+'/', level-1)
             model_populate(fields)
 
@@ -436,7 +436,7 @@ class ImpEx(SecuredController):
                     _fields_invert[st_name] = prefix_node+field
 
                     if fields[field].get('type','')=='one2many' and level>0:
-                        fields2 = rpc.session.execute('object', 'execute', fields[field]['relation'], 'fields_get', False, rpc.session.context)
+                        fields2 = rpc.RPCProxy(fields[field]['relation']).fields_get(False)
                         model_populate(fields2, prefix_node+field+'/', None, st_name+'/', level-1)
 
                     if fields[field].get('relation',False) and level>0:
@@ -511,7 +511,7 @@ class ImpEx(SecuredController):
             except:
                 datas.append(map(lambda x:x.decode('latin').encode('utf-8'), line))
         try:
-            res = rpc.session.execute('object', 'execute', params.model, 'import_data', fields, datas, 'init', '', False, ctx)
+            res = rpc.RPCProxy(params.model).import_data(fields, datas, 'init', '', False, ctx)
         except Exception, e:
             error = {'message':ustr(e), 'title':_('XML-RPC error')}
             return self.imp(error=error, **kw)

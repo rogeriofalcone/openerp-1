@@ -256,7 +256,7 @@ class Search(TinyInputWidget):
         if self.frame:
             self.frame = self.frame[0]
 
-        my_acts = rpc.session.execute('object', 'execute', 'ir.filters', 'get_filters', model)
+        my_acts = rpc.RPCProxy('ir.filters').get_filters(model)
 
         sorted_filters = []
         for act in my_acts:

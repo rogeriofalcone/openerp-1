@@ -45,8 +45,7 @@ class View_Log(SecuredController):
 
         values = {}
         if id:
-            res = rpc.session.execute('object', 'execute', model,
-                                      'perm_read', [id], rpc.session.context)
+            res = rpc.RPCProxy(model).perm_read([id], rpc.session.context)
 
             for line in res:
                 for field, label in self.fields:
