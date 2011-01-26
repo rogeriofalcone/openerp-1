@@ -39,14 +39,15 @@ GanttCalendar.prototype = {
         this._makeEvents();
 
         MochiKit.DOM.removeElement('calBodySect');
-
+        this.gripper = DIV({'class': 'grip'});
         var tbl = TABLE(null,
                 TBODY(null,
                         TR(null,
-                                TD({'width': 200, 'nowrap': 'nowrap'}),
+                                TD({'width': 200, 'nowrap': 'nowrap', 'colspan': 2}),
                                 TD({}, DIV({'id': 'calHeaderC'}, this.header.elements))),
                         TR(null,
                                 TD({'width': 200, 'nowrap': 'nowrap'}, DIV({'id': 'calListC'})),
+                                TD({'width': 5, 'nowrap': 'nowrap'}, this.gripper),
                                 TD({}, DIV({'id': 'calGridC'})))));
 
         tbl.cellPadding = 0;
@@ -63,7 +64,8 @@ GanttCalendar.prototype = {
         this.gc = openobject.dom.get('calGridC');
         this.hc = openobject.dom.get('calHeaderC');
         this.lc = openobject.dom.get('calListC');
-
+        
+        this.mingripsize = getElementDimensions(this.lc).w;
         this.attachSignals();
 
     },
@@ -83,6 +85,7 @@ GanttCalendar.prototype = {
         this.evtEventDrag = MochiKit.Signal.connect(MochiKit.DragAndDrop.Draggables, 'drag', this, 'onEventDrag');
         this.evtEventDragged = MochiKit.Signal.connect(MochiKit.DragAndDrop.Draggables, 'end', this, 'onEventDragged');
         this.evtEventResized = MochiKit.Signal.connect(MochiKit.DragAndDrop.Resizables, 'end', this, 'onEventResized');
+        this.evtGripDown = MochiKit.Signal.connect(this.gripper, 'onmousedown', this, 'gripStart');
     },
 
     dettachSignals: function() {
@@ -93,6 +96,7 @@ GanttCalendar.prototype = {
         MochiKit.Signal.disconnect(this.evtEventDrag);
         MochiKit.Signal.disconnect(this.evtEventDragged);
         MochiKit.Signal.disconnect(this.evtEventResized);
+        MochiKit.Signal.disconnect(this.evtGripDown);
     },
 
     onResize: function(evt) {
@@ -333,7 +337,27 @@ GanttCalendar.prototype = {
                 self.grid.adjust();
             });
         }
-    }
+    },
+
+    gripStart : function(evt){
+        this.offset = elementDimensions(this.lc).w - evt.mouse().page.x;
+        this.signGridUpdate = MochiKit.Signal.connect(document, 'onmousemove', this, "gripUpdate");
+        this.signGridStop = MochiKit.Signal.connect(document, 'onmouseup', this, "gripStop");
+        evt.stop();
+    },
+
+    gripUpdate : function(evt){
+        var w = Math.max(this.mingripsize, this.offset + evt.mouse().page.x);
+        this.lc.style.width = w + 'px';
+        evt.stop();
+    },
+
+    gripStop : function(evt){
+        MochiKit.Signal.disconnect(this.signGridUpdate);
+        MochiKit.Signal.disconnect(this.signGridStop);
+        evt.stop();
+    },
+
 };
 
 /**
