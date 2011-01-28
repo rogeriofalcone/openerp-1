@@ -19,7 +19,7 @@
 #
 ###############################################################################
 from openerp.utils import rpc, expr_eval, TinyDict, TinyForm, TinyFormError
-
+from openobject.i18n.format import convert_date_format_in_domain
 import actions
 from form import Form
 from error_page import _ep
@@ -299,8 +299,9 @@ class Search(Form):
                     if bound == 'from': test = '>='
                     else: test = '<='
 
-                    domain.append((fieldname, test, value))
-                    search_data.setdefault(fieldname, {})[bound] = value
+                    convert_format = convert_date_format_in_domain([(fieldname, test, value)], res, context)
+                    domain.append(convert_format[0])
+                    search_data.setdefault(fieldname, {})[bound] = convert_format[0][2]
 
                 elif isinstance(value, bool) and value:
                     search_data[field] = 1
