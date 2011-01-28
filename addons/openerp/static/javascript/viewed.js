@@ -370,7 +370,7 @@ function onPreview() {
 
 function onNew(model){
     var act = openobject.http.getURL('/openerp/viewed/new_field/edit', {'for_model' : model});
-    openobject.tools.openWindow(act, {width: 650, height: 400});
+    jQuery.frame_dialog({src: act}, {'source-window': jQuery(window)[0]});
 }
 
 function onClose(){
