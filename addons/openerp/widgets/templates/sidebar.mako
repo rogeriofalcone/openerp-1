@@ -85,7 +85,7 @@
 	    <ul class="clean-a">
 	        <li>
 	            <a title="${_('Manage views of the current object')}"
-	               onclick="openobject.tools.openWindow('/openerp/viewlist?model=${model}', {height: 400})"
+	               onclick="jQuery.frame_dialog({src:openobject.http.getURL('/openerp/viewlist?model=${model}')});"
 	               href="javascript: void(0)">${_("Manage Views")}</a>
 	        </li>
 	        % if id:

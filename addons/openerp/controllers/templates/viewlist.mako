@@ -5,6 +5,7 @@
     <script type="text/javascript">
 
         function do_select(id, src){
+
             var radio = openobject.dom.get(src + '/' + id);
 			if (radio) {
 				radio.checked = true;
@@ -24,7 +25,7 @@
         }
 
         function doClose() {
-            window.close();
+            window.frameElement.close();
         }
 
         function onNew() {
@@ -50,10 +51,10 @@
 
             var act = openobject.http.getURL('/openerp/viewed', {view_id: boxes[0].value});
             if (window.opener) {
-                window.opener.setTimeout("openobject.tools.openWindow('" + act + "')", 0);
-                window.close();
+                window.top.setTimeout("jQuery.frame_dialog({src:'" +act+ "'})", 0);
+                window.frameElement.close()
             } else {
-                openobject.tools.openWindow(act);
+                jQuery.frame_dialog({src:act});
             }
         }
 
@@ -79,11 +80,10 @@
 
         jQuery(document).ready(function(){
 
-            if (!window.opener)
+            if (!window.top)
                 return;
 
-            var id = window.opener.document.getElementById('_terp_view_id').value;
-
+            var id = window.top.document.getElementById('_terp_view_id').value;
             if (!openobject.dom.get('_terp_list/' + id)) {
 
                 var list = new ListView('_terp_list');

@@ -362,10 +362,10 @@ function onPreview() {
                                              'view_type' : openobject.dom.get('view_type').value});
 
     if (window.browser.isGecko19) {
-        return openobject.tools.openWindow(act);
+        return jQuery.frame_dialog({src:act});
     }
 
-    window.open(act);
+    jQuery.frame_dialog({src:act});
 }
 
 function onNew(model){
@@ -374,8 +374,8 @@ function onNew(model){
 }
 
 function onClose(){
-    window.opener.setTimeout("window.location.reload()", 1);
-    window.close();
+    window.top.setTimeout('window.location.reload()', 1);
+    window.frameElement.close();
 }
 
 function toggleFields(selector) {
