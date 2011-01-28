@@ -54,7 +54,7 @@ class Search(Form):
         return dict(form=form, params=params, form_name = form.screen.widget.name)
 
     @expose()
-    def new(self, model, source=None, kind=0, text=None, domain=[], context={}, **kw):
+    def new(self, model, source=None, kind=0, text=None, domain=None, context=None, **kw):
         """Create new search view...
 
         @param model: the model
@@ -68,8 +68,8 @@ class Search(Form):
         params = TinyDict()
 
         params.model = model
-        params.domain = domain
-        params.context = context
+        params.domain = domain or []
+        params.context = context or {}
 
         params.source = source
         params.selectable = kind
@@ -171,8 +171,11 @@ class Search(Form):
         if isinstance(context, dict):
             context = expr_eval(context, ctx)
         parent_context.update(context)
-        if not isinstance(params.group_by, list):
+
+        if isinstance(params.group_by, basestring):
             params.group_by = params.group_by.split(',')
+        elif not isinstance(params.group_by, list):
+            params.group_by = []
 
         # Fixed header string problem for m2m,m2o field when parent context takes '_terp_view_name'
         parent_context.pop('_terp_view_name', None)

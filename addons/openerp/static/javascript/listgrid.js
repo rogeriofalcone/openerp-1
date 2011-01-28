@@ -87,7 +87,7 @@ ListView.prototype = {
             }).get();
 
             var selected_fields = sum_fields.join(",");
-
+            if(!selected_fields || selected_fields == ',') { return; }
             jQuery.ajax({
                 url: '/openerp/listgrid/count_sum',
                 type: 'POST',
