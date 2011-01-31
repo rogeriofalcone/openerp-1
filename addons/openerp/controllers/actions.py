@@ -352,7 +352,7 @@ def act_window_opener(action, data):
            urllib.urlencode({'payload': compressed_payload}))
 
     if open_new_tab:
-        url = '/?' + urllib.urlencode({'next': url})
+        url = '/openerp/?' + urllib.urlencode({'next': url})
 
     cherrypy.response.headers['X-Target'] = action['target']
     cherrypy.response.headers['Location'] = url
