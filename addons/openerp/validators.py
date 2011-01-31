@@ -108,8 +108,9 @@ class DateTime(BaseValidator):
 
     def _to_python(self, value, state):
         # do validation
+        locale.setlocale(locale.LC_ALL,"")
         try:
-            res = time.strptime(value, self.format)
+            res = time.strptime(value, str(self.format))
         except ValueError:
             raise formencode.api.Invalid(_('Invalid datetime format'), value, state)
         # return str instead of real datetime object
