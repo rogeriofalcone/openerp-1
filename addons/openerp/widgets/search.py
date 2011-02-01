@@ -395,28 +395,23 @@ class Search(TinyInputWidget):
                         if defval:
                             model = fields[name].get('relation')
                             type2 = fields[name].get('type2')
-
                             if kind == 'many2one' and model:
-                                try:
-                                    value = rpc.name_get(model, default_search, self.context)
-                                except Exception,e:
-                                    value = defval
-                                defval = value or ''
-
-                            if attrs.get('filter_domain'):
-                                domain = expr_eval(attrs['filter_domain'], {'self': defval})
+                                 domain = [(name, '=', int(defval))]
                             else:
-                                if field.kind == 'selection':
-                                    domain = [(name, '=', int(defval) if type2 == 'many2one' else defval)]
-
-                                elif field.kind in ('date','datetime'):
-                                    domain = [(name, '>=', defval)]
-                                    
-                                elif field.kind == 'boolean':
-                                    domain = [(name, '=', defval)]
-                                               
+                                if attrs.get('filter_domain'):
+                                    domain = expr_eval(attrs['filter_domain'], {'self': defval})
                                 else:
-                                    domain = [(name,fields[name].get('comparator','ilike'), defval)]
+                                    if field.kind == 'selection':
+                                        domain = [(name, '=', int(defval) if type2 == 'many2one' else defval)]
+
+                                    elif field.kind in ('date','datetime'):
+                                        domain = [(name, '>=', defval)]
+
+                                    elif field.kind == 'boolean':
+                                        domain = [(name, '=', defval)]
+
+                                    else:
+                                        domain = [(name,fields[name].get('comparator','ilike'), defval)]
 
                             field.set_value(defval)
                             self.listof_domain += [i for i in domain if not i in self.listof_domain]
