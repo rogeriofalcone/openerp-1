@@ -108,7 +108,10 @@ GanttCalendar.prototype = {
         if (!evt.mouse().button.left)
             return;
 
-        editCalendarRecord(null, null);
+        var trg = evt.target() || evt.src();
+        if(trg && trg.className && !jQuery(trg).hasClass('calEvent')){
+        	editCalendarRecord(null, null);
+        }
     },
 
     onScrollGrid: function(evt) {
