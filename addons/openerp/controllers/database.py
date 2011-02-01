@@ -49,13 +49,11 @@ def get_db_list():
 class DBForm(openobject.widgets.Form):
     strip_name = True
 
-    def post_init(self, *args, **kw):
+    def update_params(self, params):
         if self.validator is openobject.validators.DefaultValidator:
             self.validator = openobject.validators.Schema()
         for f in self.fields:
             self.validator.add_field(f.name, f.validator)
-
-    def update_params(self, params):
         super(DBForm, self).update_params(params)
         params['attrs']['action'] = url(self.action)
 
