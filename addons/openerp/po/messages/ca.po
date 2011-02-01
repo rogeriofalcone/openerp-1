@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-01-30 23:02+0000\n"
+"PO-Revision-Date: 2011-01-31 08:54+0000\n"
 "Last-Translator: Esther Xaus (Zikzakmedia) <Unknown>\n"
 "Language-Team: Catalan <ca@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-01-31 04:55+0000\n"
+"X-Launchpad-Export-Date: 2011-02-01 04:39+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 
 #: validators.py:75
@@ -348,7 +348,7 @@ msgstr "Obrir recurs"
 
 #: controllers/form.py:1076
 msgid "Set to default value"
-msgstr ""
+msgstr "Estableix amb el valor predeterminat"
 
 #: controllers/form.py:1077
 msgid "Set as default"
@@ -372,7 +372,7 @@ msgstr ""
 
 #: controllers/impex.py:373
 msgid "Export Error"
-msgstr ""
+msgstr "Error a l'exportar"
 
 #: controllers/impex.py:444
 msgid "Database ID"
@@ -447,6 +447,7 @@ msgstr "No es pot canviar la vostra contrasenya."
 #: controllers/preferences.py:104
 msgid "Original password incorrect, your password was not changed."
 msgstr ""
+"Contrasenya original incorrecta, la vostra contrasenya no s'ha canviat."
 
 #: controllers/root.py:170
 #, python-format
@@ -531,7 +532,7 @@ msgstr "Finestra nova"
 
 #: controllers/viewed.py:871
 msgid "Save Button"
-msgstr ""
+msgstr "Botó desa"
 
 #: controllers/viewed.py:871
 msgid "Cancel Button"
@@ -644,7 +645,7 @@ msgstr "﻿Contrasenya"
 #: controllers/templates/error_page.mako:77
 #, python-format
 msgid "An %(error_type)s has been reported."
-msgstr ""
+msgstr "S'ha informat d'un %(error_type)s."
 
 #: controllers/templates/error_page.mako:79
 msgid "Let me fix it"
@@ -1433,11 +1434,11 @@ msgstr "conté"
 
 #: widgets/search.py:282
 msgid "doesn't contain"
-msgstr ""
+msgstr "no conté"
 
 #: widgets/search.py:283
 msgid "is equal to"
-msgstr ""
+msgstr "és igual a"
 
 #: widgets/search.py:283
 msgid "is not equal to"
@@ -1461,21 +1462,21 @@ msgstr ""
 
 #: widgets/search.py:392
 msgid "Yes"
-msgstr ""
+msgstr "Sí"
 
 #: widgets/search.py:392
 msgid "No"
-msgstr ""
+msgstr "No"
 
 #: widgets/form/_action.py:46
 msgid "Action not found!"
-msgstr ""
+msgstr "Acció no trobada!"
 
 #: widgets/form/_o2m.py:73 widgets/templates/listgrid/listgrid.mako:138
 #: widgets/templates/listgrid/listgrid.mako:144
 #: widgets/templates/listgrid/listgroup.mako:20
 msgid "Create new record."
-msgstr ""
+msgstr "Crea un nou registre."
 
 #: widgets/form/_o2m.py:86
 msgid "Save/New"
@@ -1488,20 +1489,20 @@ msgstr ""
 #: widgets/form/_o2m.py:216
 #, python-format
 msgid "%d of %d"
-msgstr ""
+msgstr "%d de %d"
 
 #: widgets/form/_o2m.py:218
 #, python-format
 msgid "- of %d"
-msgstr ""
+msgstr "- de %d"
 
 #: widgets/form/templates/binary.mako:31
 msgid "add attachment"
-msgstr ""
+msgstr "afegeix adjunt"
 
 #: widgets/form/templates/image.mako:7 widgets/form/templates/image.mako:39
 msgid "Click here to add new image."
-msgstr ""
+msgstr "Feu clic aquí per afegir una nova imatge."
 
 #: widgets/form/templates/many2one.mako:2
 #: widgets/form/templates/reference.mako:30
@@ -1511,19 +1512,19 @@ msgstr ""
 #: widgets/form/templates/many2one.mako:2
 #: widgets/form/templates/reference.mako:30
 msgid "Open a resource"
-msgstr ""
+msgstr "Obre un registre"
 
 #: widgets/form/templates/one2many.mako:20
 msgid "Create new record..."
-msgstr ""
+msgstr "Crea registre nou..."
 
 #: widgets/form/templates/one2many.mako:22
 msgid "Delete record..."
-msgstr ""
+msgstr "Elimina registre..."
 
 #: widgets/form/templates/one2many.mako:28
 msgid "Translate me."
-msgstr ""
+msgstr "Tradueix-me."
 
 #: widgets/form/templates/one2many.mako:47
 msgid "Previous record..."
@@ -1531,39 +1532,39 @@ msgstr ""
 
 #: widgets/form/templates/one2many.mako:49
 msgid "Next record..."
-msgstr ""
+msgstr "Registre següent..."
 
 #: widgets/templates/logs.mako:22
 msgid "More..."
-msgstr ""
+msgstr "Més..."
 
 #: widgets/templates/logs.mako:35
 msgid "Less..."
-msgstr ""
+msgstr "Menys..."
 
 #: widgets/templates/pager.mako:9
 msgid "<< First"
-msgstr ""
+msgstr "<< Primer"
 
 #: widgets/templates/pager.mako:14
 msgid "< Previous"
-msgstr ""
+msgstr "< Anterior"
 
 #: widgets/templates/pager.mako:19
 msgid "of"
-msgstr ""
+msgstr "de"
 
 #: widgets/templates/pager.mako:24
 msgid "Next >"
-msgstr ""
+msgstr "Següent >"
 
 #: widgets/templates/pager.mako:29
 msgid "Last >>"
-msgstr ""
+msgstr "Últim >>"
 
 #: widgets/templates/pager.mako:37
 msgid "Change Limit:"
-msgstr ""
+msgstr "Cambiar límite:"
 
 #: widgets/templates/sidebar.mako:37
 msgid "Reports"
@@ -1571,55 +1572,55 @@ msgstr ""
 
 #: widgets/templates/sidebar.mako:41 widgets/templates/viewform.mako:51
 msgid "Actions"
-msgstr ""
+msgstr "Accions"
 
 #: widgets/templates/sidebar.mako:45
 msgid "Links"
-msgstr ""
+msgstr "Enllaços"
 
 #: widgets/templates/sidebar.mako:49
 msgid "Submenu"
-msgstr ""
+msgstr "Submenú"
 
 #: widgets/templates/sidebar.mako:54
 msgid "Attachments"
-msgstr ""
+msgstr "Adjunts"
 
 #: widgets/templates/sidebar.mako:74
 msgid "File"
-msgstr ""
+msgstr "Fitxer"
 
 #: widgets/templates/sidebar.mako:83
 msgid "Customize"
-msgstr ""
+msgstr "Personalitza"
 
 #: widgets/templates/sidebar.mako:87
 msgid "Manage views of the current object"
-msgstr ""
+msgstr "Gestiona les vistes de l'objecte actual"
 
 #: widgets/templates/sidebar.mako:89
 msgid "Manage Views"
-msgstr ""
+msgstr "Gestiona vistes"
 
 #: widgets/templates/sidebar.mako:93
 msgid "Edit workflow of the current object"
-msgstr ""
+msgstr "Edita flux de l'objecte actual"
 
 #: widgets/templates/sidebar.mako:94
 msgid "Edit Workflow"
-msgstr ""
+msgstr "Edita flux"
 
 #: widgets/templates/sidebar.mako:98
 msgid "Customize current object or create a new object"
-msgstr ""
+msgstr "Personalitza objecte actual o crea un nou objecte"
 
 #: widgets/templates/sidebar.mako:100
 msgid "Customize Object"
-msgstr ""
+msgstr "Personalitza objecte"
 
 #: widgets/templates/sidebar.mako:106
 msgid "Other Options"
-msgstr ""
+msgstr "Altres opcions"
 
 #: widgets/templates/sidebar.mako:111
 msgid "Import"
@@ -1627,7 +1628,7 @@ msgstr ""
 
 #: widgets/templates/sidebar.mako:114
 msgid "Export"
-msgstr ""
+msgstr "Exporta"
 
 #: widgets/templates/sidebar.mako:118
 msgid "Translate"
@@ -1635,11 +1636,11 @@ msgstr ""
 
 #: widgets/templates/sidebar.mako:123
 msgid "View Log"
-msgstr ""
+msgstr "Veure historial"
 
 #: widgets/templates/viewform.mako:25
 msgid "Filter records."
-msgstr ""
+msgstr "Filtra registres."
 
 #: widgets/templates/viewform.mako:33
 msgid "Clear all."
@@ -1651,27 +1652,27 @@ msgstr ""
 
 #: widgets/templates/viewform.mako:43
 msgid "Filters"
-msgstr ""
+msgstr "Filtres"
 
 #: widgets/templates/viewform.mako:45
 msgid "Saved Filters"
-msgstr ""
+msgstr "Filtres dessats"
 
 #: widgets/templates/viewform.mako:52
 msgid "New Filter"
-msgstr ""
+msgstr "Nou filtre"
 
 #: widgets/templates/viewform.mako:53
 msgid "Save Filter"
-msgstr ""
+msgstr "Desa filtre"
 
 #: widgets/templates/viewform.mako:54
 msgid "Manage Filters"
-msgstr ""
+msgstr "Gestiona filtres"
 
 #: widgets/templates/listgrid/listgrid.mako:19
 msgid "Update"
-msgstr ""
+msgstr "Actualitza"
 
 #: widgets/templates/listgrid/listgrid.mako:134
 msgid "Add records..."

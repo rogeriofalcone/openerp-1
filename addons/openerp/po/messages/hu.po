@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-01-28 15:06+0000\n"
+"PO-Revision-Date: 2011-01-31 10:30+0000\n"
 "Last-Translator: NOVOTRADE RENDSZERHÁZ <openerp@novotrade.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-01-29 04:54+0000\n"
+"X-Launchpad-Export-Date: 2011-02-01 04:39+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 
 #: validators.py:75
@@ -645,11 +645,11 @@ msgstr "Egy %(error_type)s-t jelentettek."
 
 #: controllers/templates/error_page.mako:79
 msgid "Let me fix it"
-msgstr ""
+msgstr "Hadd javítsam meg én"
 
 #: controllers/templates/error_page.mako:85
 msgid "Fix it for me"
-msgstr ""
+msgstr "Javítsd ki nekem"
 
 #: controllers/templates/error_page.mako:90
 msgid "You do not have a valid OpenERP publisher warranty contract !"
@@ -678,6 +678,25 @@ msgid ""
 "* Security alerts by email and automatic migration,\n"
 "* Access to the customer portal.\n"
 msgstr ""
+"Amennyiben az OpenERP-t gyártásra is szeretné használni, javasoljuk, hogy "
+"használja \n"
+"a kiadói/terjesztői garancia programot.\n"
+"\n"
+"Az OpenERP kiadói/terjesztői garancia szerződés biztosítja Ön számára a "
+"hibajavításokat és az\n"
+"automatikus migrációs rendszert, amely segítségével el tudunk kezdeni "
+"dolgozni a probláma elhárításán néhány\n"
+"órán belül.\n"
+"\n"
+"A kiadói/terjesztői garancia szerződéssel a hibákat közvetlenül az OpenERP "
+"csapatának tudja küldeni felülvizsgálatra és értékelésre.\n"
+"\n"
+"A kiadói/terjesztői garancia program az alábbiakat kínálja Önnek:\n"
+"* automatikus migráció az új verziókba,\n"
+"* hibajavító garancia,\n"
+"* havi jelentés az esetleges hibákról és azok javításáról,\n"
+"* biztonsági riasztások és automatikus migráció,\n"
+"* hozzáférés az ügyfélportálhoz.\n"
 
 #: controllers/templates/error_page.mako:113
 msgid ""
@@ -696,16 +715,33 @@ msgid ""
 "\n"
 "Here is the list of modules not covered by your publisher warranty contract:"
 msgstr ""
+"Az Ön kiadói/terjesztői garancia szerződése nem vonatkozik a rendszerébe "
+"telepített összes modulra !\n"
+"Ha gyártásra is szeretné használni az OpenERP-t, javasoljuk, hogy frissítse "
+"\n"
+"a szerződését.\n"
+"\n"
+"Ha Önnél feljesztették a moduljainkat, vagy telepített modult harmadik "
+"féltől, mi\n"
+"lehetőséget biztosítunk kiadói/terjesztői garancia szerződés megkötésére "
+"ezzekre a modulokra is. Miután\n"
+"ellenőriztük a modulokat, a csapatunk biztosítja ezek automatikus migrálását "
+"az OpenERP minden jövőbeni verziójába, külön költség nélkül.\n"
+"\n"
+"Íme azoknak a moduloknak a listája, amelyekre nem vonatkozik az Ön "
+"kiadói/terjesztői garancia szerződése:"
 
 #: controllers/templates/error_page.mako:135
 msgid "Publisher warranty contract."
-msgstr ""
+msgstr "Kiadói/terjesztői garancia szerződés"
 
 #: controllers/templates/error_page.mako:136
 msgid ""
 "Your request will be sent to OpenERP and publisher warranty team will reply "
 "you shortly."
 msgstr ""
+"Az OpenERP elküldte az Ön kérését és a kiadói/terjesztői garancia csapat "
+"hamarosan válaszolni fog Önnek."
 
 #: controllers/templates/error_page.mako:140
 msgid "Summary of the problem:"
@@ -721,7 +757,7 @@ msgstr "További megjegyzések"
 
 #: controllers/templates/error_page.mako:168
 msgid "Send to Publisher Warranty Team"
-msgstr ""
+msgstr "Küldés a kiadói/terjesztői garancia csapatnak"
 
 #: controllers/templates/error_page.mako:195
 msgid "Write concurrency warning :"
@@ -735,6 +771,11 @@ msgid ""
 "    - \"Cancel\" to cancel saving.\n"
 "    - \"Write anyway\" to save your current version."
 msgstr ""
+"Ez a dokumentum megváltozott, mialatt szerkesztette\n"
+"Válasszon:\n"
+"\n"
+"    - \"Mégse\" törli a mentést.\n"
+"    - \"Felülírás\" menti a jelenlegi verziót."
 
 #: controllers/templates/error_page.mako:214 controllers/templates/exp.mako:244
 #: controllers/templates/form.mako:140 controllers/templates/openo2m.mako:41
@@ -970,7 +1011,7 @@ msgstr "Rekord törlése"
 
 #: controllers/templates/form.mako:139
 msgid "Cancel editing the current resource"
-msgstr ""
+msgstr "Jelenlegi forrás szerkesztésének törlése"
 
 #: controllers/templates/form.mako:144
 msgid "Create new node"
@@ -986,7 +1027,7 @@ msgstr ""
 
 #: controllers/templates/form.mako:150
 msgid "Show grid"
-msgstr ""
+msgstr "Rács mutatása"
 
 #: controllers/templates/header.mako:33
 #, python-format
@@ -1057,7 +1098,7 @@ msgstr "2. Ellenőrizze a fájlformátumot"
 #: controllers/templates/imp.mako:131
 #, python-format
 msgid "The import failed due to: %(message)s"
-msgstr ""
+msgstr "Az importálás emiatt nem sikerült: %(message)s"
 
 #: controllers/templates/imp.mako:133
 msgid "Here is a preview of the file we could not import:"
@@ -1142,6 +1183,8 @@ msgid ""
 "Today's enterprise challenges are multiple. We provide one module for each "
 "need."
 msgstr ""
+"Manapság egyre több a vállalati kihívás. Biztosítunk egy modult, amelyben "
+"mindent megtalál, amire szüksége van."
 
 #: controllers/templates/login.mako:112
 msgid "Open Source"
