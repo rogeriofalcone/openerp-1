@@ -334,7 +334,7 @@ function onInherit() {
     var selected = tree.selection[0] || null;
 
     if (!selected) {
-        return;
+        return error_display(_('No Record Selected'));;
     }
 
     params = {

@@ -352,7 +352,15 @@ TreeNode.prototype = {
                         link.parents('tr.row').addClass('selected');
                         MochiKit.Signal.signal(this.tree, "onaction", this);
                     });
-                } else {
+                } else if(record.onclick) {
+					var tree = this.tree;
+					var element = this.element;
+					link.click(function(){
+						if(!element)
+							element = link.parents('tr.row').addClass('selected');
+						window[record.onclick](element, tree);
+					})
+				} else {
 					var self = this;
                     link.click(function () {
                         if (jQuery(this).parents('tr.row:first').find('td:first span').is('.collapse, .expand')) {
