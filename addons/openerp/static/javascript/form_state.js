@@ -91,14 +91,18 @@ function form_onStateChange(container, widget, states, evt) {
 function form_hookAttrChange() {
     var $items = jQuery('[attrs]');
     var fields = {};
-
+	
     $items.each(function(){
         var $this = jQuery(this);
+		
+		
         var attrs = $this.attr('attrs') || '{}';
         var widget = $this.attr('widget') || '';
         var container = this;
+		
         var prefix = widget.slice(0, widget.lastIndexOf('/')+1) || '';
-
+		var is_field_of_list = false;
+		
         // Convert Python statement into it's equivalent in JavaScript.
         attrs = attrs.replace(/\(/g, '[');
         attrs = attrs.replace(/\)/g, ']');
@@ -111,7 +115,7 @@ function form_hookAttrChange() {
         } catch(e){
             return;
         }
-
+		
         for (var attr in attrs) {
             var expr_fields = {}; // check if field appears more then once in the expr
 
@@ -126,13 +130,17 @@ function form_hookAttrChange() {
                 }
 
                 var name = prefix + n[0];
+				if ($this.hasClass('grid-cell')) {
+					is_field_of_list = true;
+					
+				}
                 var field = openobject.dom.get(name);
                 if (field && !expr_fields[field.id]) {
                     fields[field.id] = 1;
                     expr_fields[field.id] = 1;
                     // events disconnected during hook_onStateChange,
                     // don't redisconnect or may break onStateChange
-                    var $field = jQuery(field).bind('onAttrChange', partial(form_onAttrChange, container, widget, attr, attrs[attr], $this));
+                    var $field = jQuery(field).bind('onAttrChange', partial(form_onAttrChange, container, widget, attr, attrs[attr], $this, is_field_of_list));
                     $field.change(function () {
                         jQuery(this).trigger('onAttrChange');
                     });
@@ -146,13 +154,17 @@ function form_hookAttrChange() {
     }
 }
 
-function form_onAttrChange(container, widgetName, attr, expr, elem) {
-
+function form_onAttrChange(container, widgetName, attr, expr, elem, is_field_of_list) {
+	
     var prefix = widgetName.slice(0, widgetName.lastIndexOf('/') + 1);
-    var widget = openobject.dom.get(widgetName);
-
+    var widget;
+	if(is_field_of_list && jQuery(elem).children()) {
+		widget = jQuery(elem).children()[0];
+	} else {
+		widget = openobject.dom.get(widgetName);
+	}
+	
     var result = form_evalExpr(prefix, expr, elem);
-
     switch (attr) {
         case 'readonly': form_setReadonly(container, widget, result);
             break;
