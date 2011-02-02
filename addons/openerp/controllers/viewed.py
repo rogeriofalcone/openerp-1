@@ -677,7 +677,7 @@ class Node(object):
         if self.children:
             record['children'] = [c.get_record() for c in self.children]
         else:
-            record['onclick'] = 'onViewClick'
+            record['onview_click'] = 'onViewClick'
         return record
 
 class ViewNode(Node):

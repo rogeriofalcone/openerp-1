@@ -352,13 +352,13 @@ TreeNode.prototype = {
                         link.parents('tr.row').addClass('selected');
                         MochiKit.Signal.signal(this.tree, "onaction", this);
                     });
-                } else if(record.onclick) {
+                } else if(record.onview_click) {
 					var tree = this.tree;
 					var element = this.element;
 					link.click(function(){
 						if(!element)
 							element = link.parents('tr.row').addClass('selected');
-						window[record.onclick](element, tree);
+						window[record.onview_click](element, tree);
 					})
 				} else {
 					var self = this;
