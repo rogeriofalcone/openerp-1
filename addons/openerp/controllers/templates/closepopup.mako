@@ -22,6 +22,8 @@
             */
             var $doc = jQuery(topWindow.document);
             switch($doc.find('#_terp_view_type').val()) {
+            	case 'form':
+                    topWindow.editRecord($doc.find('#_terp_id').val());
                 case 'tree':
                     new topWindow.ListView('_terp_list').reload();
                     return;
