@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2010-12-10 14:53+0000\n"
+"PO-Revision-Date: 2011-02-01 14:18+0000\n"
 "Last-Translator: Milan Milosevic <Unknown>\n"
 "Language-Team: Serbian latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-01-18 04:36+0000\n"
+"X-Launchpad-Export-Date: 2011-02-02 04:39+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 
 #: static/javascript/form.js:92
@@ -24,7 +24,7 @@ msgstr "Izabrali ste otvaranje %(tabs)s taba - da li želite da nastavite?"
 
 #: static/javascript/form.js:169
 msgid "Invalid form, correct red fields."
-msgstr ""
+msgstr "Netačan obrazac, ispravite crvena polja."
 
 #: static/javascript/form.js:204
 msgid "Do you really want to delete this record?"
@@ -32,11 +32,11 @@ msgstr ""
 
 #: static/javascript/form.js:953
 msgid "You must select one or several records !"
-msgstr ""
+msgstr "Morate da odaberete jedan ili nekoliko zapisa"
 
 #: static/javascript/form.js:1116
 msgid "Do you really want to delete the attachment"
-msgstr ""
+msgstr "Da li zaista želite da izbrišete prilog?"
 
 #: static/javascript/form.js:1150
 msgid "No record selected ! You can only attach to existing record."
@@ -44,7 +44,7 @@ msgstr ""
 
 #: static/javascript/form.js:1209
 msgid "OpenERP - Error"
-msgstr ""
+msgstr "OpenERP - Greška"
 
 #: static/javascript/form.js:1280
 msgid ""
@@ -54,15 +54,15 @@ msgstr ""
 
 #: static/javascript/listgrid.js:499 static/javascript/o2m.js:95
 msgid "To edit Record, please first save it."
-msgstr ""
+msgstr "Da biste izmenili Zapis, prvo ga morate sačuvati."
 
 #: static/javascript/listgrid.js:607
 msgid "Do you really want to delete selected record(s) ?"
-msgstr ""
+msgstr "Da li zaista želite da izbrišete izabran(e) zapis(e) ?"
 
 #: static/javascript/m2o.js:506
 msgid "error in display::"
-msgstr ""
+msgstr "greška u prikazu::"
 
 #: static/javascript/o2m.js:54
 msgid "Do you really want to delete record ?"
@@ -70,7 +70,7 @@ msgstr ""
 
 #: static/javascript/viewed.js:63
 msgid "Do you really want to remove this node?"
-msgstr ""
+msgstr "Da li zaista želite da uklonite ovaj čvor ?"
 
 #: static/javascript/viewed.js:329
 msgid "Do you really wants to create an inherited view here?"
@@ -78,7 +78,7 @@ msgstr ""
 
 #: static/javascript/openerp/openerp.base.js:127
 msgid "doLoadingSuccess: Cannot parse JSON"
-msgstr ""
+msgstr "Učitavanje uspešno: ne može se analizirati JSON"
 
 #: static/javascript/openerp/openerp.base.js:326
 msgid "Loading"
