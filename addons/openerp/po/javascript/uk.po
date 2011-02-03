@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2010-11-24 07:04+0000\n"
-"Last-Translator: cpa(OpenERP) <cpa@tinyerp.com>\n"
+"PO-Revision-Date: 2011-02-02 08:09+0000\n"
+"Last-Translator: Casufi <Unknown>\n"
 "Language-Team: Ukrainian <uk@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-01-18 04:36+0000\n"
+"X-Launchpad-Export-Date: 2011-02-03 04:43+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 
 #: static/javascript/form.js:92
@@ -32,7 +32,7 @@ msgstr "Ви дійсно бажаєти видалити запис ?"
 
 #: static/javascript/form.js:953
 msgid "You must select one or several records !"
-msgstr ""
+msgstr "Ви повинні вибрати один або кількі записів !"
 
 #: static/javascript/form.js:1116
 msgid "Do you really want to delete the attachment"
@@ -40,21 +40,23 @@ msgstr "Ви дійсно бажаєте видалити прикріпленн
 
 #: static/javascript/form.js:1150
 msgid "No record selected ! You can only attach to existing record."
-msgstr ""
+msgstr "Не вибрано запис ! Ви можете приєднати тільки до існуючого запису."
 
 #: static/javascript/form.js:1209
 msgid "OpenERP - Error"
-msgstr ""
+msgstr "OpenERP - Помилка"
 
 #: static/javascript/form.js:1280
 msgid ""
 "Warning, the record has been modified,\n"
 "your changes will be discarded."
 msgstr ""
+"Попередження, запис змінено,\n"
+"ваші зміну будуть втрачені."
 
 #: static/javascript/listgrid.js:499 static/javascript/o2m.js:95
 msgid "To edit Record, please first save it."
-msgstr ""
+msgstr "Для того щоб редагувати запис потрібно зберегти його спочатку."
 
 #: static/javascript/listgrid.js:607
 msgid "Do you really want to delete selected record(s) ?"
@@ -62,7 +64,7 @@ msgstr "Ви дійсно бажаєте видалити обрані запи�
 
 #: static/javascript/m2o.js:506
 msgid "error in display::"
-msgstr ""
+msgstr "помилка у відображенні::"
 
 #: static/javascript/o2m.js:54
 msgid "Do you really want to delete record ?"
@@ -78,11 +80,11 @@ msgstr "Ви дійсно бажаєте створити залежний Ви�
 
 #: static/javascript/openerp/openerp.base.js:127
 msgid "doLoadingSuccess: Cannot parse JSON"
-msgstr ""
+msgstr "doLoadingSuccess: Не можу розібрати JSON"
 
 #: static/javascript/openerp/openerp.base.js:326
 msgid "Loading"
-msgstr ""
+msgstr "Завантаження"
 
 #: static/javascript/openerp/openerp.ui.tips.js:51
 msgid "Object"

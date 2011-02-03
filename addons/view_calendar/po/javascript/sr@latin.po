@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-02-01 14:33+0000\n"
+"PO-Revision-Date: 2011-02-02 15:16+0000\n"
 "Last-Translator: Milan Milosevic <Unknown>\n"
 "Language-Team: Serbian latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-02-02 04:39+0000\n"
+"X-Launchpad-Export-Date: 2011-02-03 04:43+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 
 #: static/javascript/calendar_box.js:50
@@ -27,11 +27,11 @@ msgstr "Izmeni"
 
 #: static/javascript/calendar_box.js:52
 msgid "Duplicate"
-msgstr ""
+msgstr "Udvostruči"
 
 #: static/javascript/calendar_box.js:53
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: static/javascript/calendar_box.js:80
 msgid "Creation User: "
@@ -39,7 +39,7 @@ msgstr "Korisnik autor: "
 
 #: static/javascript/calendar_box.js:81
 msgid "Creation Date: "
-msgstr ""
+msgstr "Datum Stvaranja: "
 
 #: static/javascript/calendar_box.js:82
 msgid "Latest Modification by: "

@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2010-12-10 15:00+0000\n"
+"PO-Revision-Date: 2011-02-02 15:07+0000\n"
 "Last-Translator: Milan Milosevic <Unknown>\n"
 "Language-Team: Serbian latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-01-18 04:38+0000\n"
+"X-Launchpad-Export-Date: 2011-02-03 04:43+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 
 #: controllers/_diagram.py:89 controllers/_diagram.py:210
 msgid "Could not delete state"
-msgstr "Status nije mogao da se obriše"
+msgstr "Nije bilo moguće obrisati stanje"
 
 #: controllers/_diagram.py:274
 msgid "No workflow associated!"
@@ -27,7 +27,7 @@ msgstr ""
 
 #: controllers/process.py:45
 msgid "Help: Not Defined"
-msgstr ""
+msgstr "Pomoć : Nije Definisano"
 
 #: controllers/process.py:85
 #, python-format
@@ -36,7 +36,7 @@ msgstr ""
 
 #: controllers/process.py:97
 msgid "Last modified by:"
-msgstr ""
+msgstr "Poslednji izmenio :"
 
 #: controllers/templates/process.mako:4 controllers/templates/process.mako:87
 #: controllers/templates/process_tip.mako:5
@@ -49,15 +49,15 @@ msgstr ""
 
 #: controllers/templates/process.mako:56
 msgid "Read Documentation Online"
-msgstr ""
+msgstr "Čitaj dokumentaciju na mreži"
 
 #: controllers/templates/process.mako:62
 msgid "Forum"
-msgstr ""
+msgstr "Forum"
 
 #: controllers/templates/process.mako:63
 msgid "Community Discussion"
-msgstr ""
+msgstr "Diskusija u okviru zajednice"
 
 #: controllers/templates/process.mako:68
 msgid "Books"
@@ -65,64 +65,64 @@ msgstr ""
 
 #: controllers/templates/process.mako:69
 msgid "Get the book on Amazon"
-msgstr ""
+msgstr "Nabavi knjigu na Amazon-u"
 
 #: controllers/templates/process.mako:74
 msgid "Support / Publisher Warranty"
-msgstr ""
+msgstr "Podrška / Garancija Izdavača"
 
 #: controllers/templates/process.mako:75
 msgid "Get the OpenERP Warranty"
-msgstr ""
+msgstr "Nabavi Garanciju OpenERP-a"
 
 #: controllers/templates/process.mako:97
 msgid "Select Process"
-msgstr ""
+msgstr "Izaberi Proces"
 
 #: controllers/templates/process.mako:103
 msgid "Select"
-msgstr ""
+msgstr "Izaberi"
 
 #: controllers/templates/process.mako:116
 msgid "[Edit Process]"
-msgstr ""
+msgstr "[Izmeni Proces]"
 
 #: controllers/templates/process.mako:117
 msgid "[show fields]"
-msgstr ""
+msgstr "[prikaži polja]"
 
 #: controllers/templates/process.mako:118
 msgid "[hide fields]"
-msgstr ""
+msgstr "[Sakrij polja]"
 
 #: controllers/templates/process_open.mako:54
 #: controllers/templates/process_tip.mako:20
 #: controllers/templates/wkf_popup.mako:52
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: controllers/templates/process_open.mako:55
 #: controllers/templates/wkf_popup.mako:49
 msgid "Save"
-msgstr ""
+msgstr "Sačuvaj"
 
 #: controllers/templates/workflow.mako:4
 msgid "Workflow"
-msgstr ""
+msgstr "Tok rada"
 
 #: controllers/templates/workflow.mako:20
 #, python-format
 msgid "Workflow (%s)"
-msgstr ""
+msgstr "Tok rada (%s)"
 
 #: widgets/_views.py:8
 msgid "Diagram"
-msgstr ""
+msgstr "Dijagram"
 
 #: widgets/_views.py:9
 msgid "Diagram view..."
-msgstr ""
+msgstr "Pregled dijagrama"
 
 #: widgets/templates/diagram.mako:27
 msgid "Loading..."
-msgstr ""
+msgstr "Učitavanje..."
