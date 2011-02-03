@@ -656,7 +656,13 @@ function onChange(caller){
                     case 'selection':
                         if (typeof(value)=='object') {
                             var opts = [OPTION({'value': ''})];
-                            opts.push(OPTION({'value': value[0], 'selected' : value[1] }, value[1]));
+                            for (i in value) {
+                        	var item = value[i];
+                        	opts.push(OPTION({
+                        	'value': item[0],
+                        	'selected': item[1]
+                        	}, item[1]));
+}
                             MochiKit.DOM.replaceChildNodes(fld, map(function(x){return x;}, opts));
                         }
                         else {
