@@ -662,8 +662,8 @@ function onChange(caller){
                         	'value': item[0],
                         	'selected': item[1]
                         	}, item[1]));
-}
-                            MochiKit.DOM.replaceChildNodes(fld, map(function(x){return x;}, opts));
+                        }
+                        MochiKit.DOM.replaceChildNodes(fld, map(function(x){return x;}, opts));
                         }
                         else {
                             fld.value = value;
