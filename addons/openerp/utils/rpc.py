@@ -353,9 +353,9 @@ class RPCSession(object):
             if not tools.resources.resource_exists("openerp", "static", link):
                 link = "jscal/lang/calendar-%s.js" % dblocale.split("_")[0]
                 if not tools.resources.resource_exists("openerp", "static", link):
-                    locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
+                    locale.setlocale(locale.LC_ALL, "")
         except:
-            locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
+            locale.setlocale(locale.LC_ALL, "")
             
         lang_ids = self.execute(
                 'object', 'execute', 'res.lang',
