@@ -94,11 +94,19 @@ class Tree(SecuredController):
         
         return {'tree': tree, 'model': model, 'can_shortcut': can_shortcut, 'shortcut_ids': shortcut_ids, 'tips': tips}
 
+    # Possible to create shortcut for particular object or not.
     def can_shortcut_create(self):
+        """ We only handle creating shortcuts to menu actions (for now
+        anyway), and those go through the execute routine, so only match
+        execute()d actions concerning ir.ui.menu. And trees, just because
+        """
+        action_data = cherrypy.request.params.get('data', {})
         return (rpc.session.is_logged() and
                 rpc.session.active_id and
-                cherrypy.request.path_info == '/openerp/tree/open' and
-                cherrypy.request.params.get('model') == 'ir.ui.menu')
+                ((cherrypy.request.path_info == '/openerp/execute'
+                  and action_data.get('model') == 'ir.ui.menu')
+                # FIXME: hack hack hack
+                 or cherrypy.request.params.get('_terp_source_view_type') == 'tree'))
 
     @expose()
     def default(self, id, model, view_id, domain, context):

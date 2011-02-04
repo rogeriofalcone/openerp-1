@@ -38,7 +38,7 @@
                 <div id="body_form">
 	                <h1>
 	                    % if can_shortcut:
-	                        <a id="shortcut_add_remove" href="javascript: void(0)" class="${shortcut_class}"></a>
+	                        <a id="shortcut_add_remove" title="${_('Add / Remove Shortcut...')}" href="javascript: void(0)" class="${shortcut_class}"></a>
 	                    % endif
 	                    ${tree.string}
 	                </h1>
