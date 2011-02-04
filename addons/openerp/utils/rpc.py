@@ -25,7 +25,7 @@ import socket
 import xmlrpclib
 
 from openobject.errors import AuthenticationError
-
+from openobject import tools
 import common
 
 from tiny_socket import TinySocket
@@ -345,11 +345,17 @@ class RPCSession(object):
 
         # set locale in session
         self.storage['locale'] = self.context.get('lang', 'en_US')
-        
+        dblocale = str(self.storage['locale'])
         try:
-            locale.setlocale(locale.LC_ALL, "%s.UTF-8" % str(self.storage['locale']))
+            locale.setlocale(locale.LC_ALL, "%s.UTF-8" % dblocale)
+            link = "jscal/lang/calendar-%s.js" % dblocale
+            
+            if not tools.resources.resource_exists("openerp", "static", link):
+                link = "jscal/lang/calendar-%s.js" % dblocale.split("_")[0]
+                if not tools.resources.resource_exists("openerp", "static", link):
+                    locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
         except:
-            locale.setlocale(locale.LC_ALL,"")
+            locale.setlocale(locale.LC_ALL, "en_US.UTF-8")
             
         lang_ids = self.execute(
                 'object', 'execute', 'res.lang',

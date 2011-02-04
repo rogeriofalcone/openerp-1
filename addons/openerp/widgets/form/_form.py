@@ -23,6 +23,7 @@
 This module implementes widget parser for form view, and
 several widget components.
 """
+import locale
 import os
 import random
 import re
@@ -544,15 +545,20 @@ class DTLink(JSLink):
 
     def update_params(self, params):
         super(DTLink, self).update_params(params)
-        locale = get_locale()
+        dblocale = get_locale()
+        syslocale = locale.getlocale()[0]
 
-        link = "jscal/lang/calendar-%s.js" % locale
-        if tools.resources.resource_exists("openerp", "static", link):
-            params['link'] = tools.url(["/openerp/static", link])
-        else:
-            link = "jscal/lang/calendar-%s.js" % locale.language
+        if dblocale == syslocale:
+            link = "jscal/lang/calendar-%s.js" % dblocale
             if tools.resources.resource_exists("openerp", "static", link):
                 params['link'] = tools.url(["/openerp/static", link])
+            else:
+                link = "jscal/lang/calendar-%s.js" % dblocale.language
+                if tools.resources.resource_exists("openerp", "static", link):
+                    params['link'] = tools.url(["/openerp/static", link])
+        else:
+            link = "jscal/lang/calendar-en.js"
+            params['link'] = tools.url(["/openerp/static", link])
 
 class DateTime(TinyInputWidget):
 
