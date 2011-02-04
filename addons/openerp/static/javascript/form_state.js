@@ -51,7 +51,7 @@ function form_hookStateChange() {
     });
     
     for(var field in fields) {
-        jQuery(field).trigger('onStateChange');
+        jQuery(idSelector(field)).trigger('onStateChange');
     }
 }
 
@@ -81,10 +81,16 @@ function form_onStateChange(container, widget, states, evt) {
     var attr = states[value];
 
     if (attr && has_readonly)
-        form_setReadonly(container, widget, attr['readonly']);
+    	form_setReadonly(container, widget, attr['readonly']);
 
-    if (attr && has_required)
-        form_setRequired(container, widget, attr['required']);
+    if (has_required) {
+    	if (attr) {
+        	form_setRequired(container, widget, attr['required']);
+    	}
+    	else {
+        	form_setRequired(container, widget, false);
+    	}
+    }
 
 }
 
@@ -251,7 +257,7 @@ function form_evalExpr(prefix, expr, ref_elem) {
 
 function form_setReadonly(container, fieldName, readonly) {
 
-    var $field = jQuery(fieldName) || jQuery(idSelector(fieldName));
+    var $field = jQuery(idSelector(fieldName));
 
     if (!$field.length) {
         return;
@@ -310,9 +316,9 @@ function form_setRequired(container, field, required) {
     if (!field) {
         field = container;
     }
-	var editable = getElement('_terp_editable').value;
+    var editable = getElement('_terp_editable').value;
 
-    var $field = jQuery(field);
+    var $field = jQuery(idSelector(field));
     if (editable == 'True') {
         $field.toggleClass('requiredfield', required);
     }
