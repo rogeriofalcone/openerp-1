@@ -90,7 +90,9 @@ class Tree(SecuredController):
             else:
                 shortcut_ids.append(sc['res_id'])
         
-        return {'tree': tree, 'model': model, 'can_shortcut': can_shortcut, 'shortcut_ids': shortcut_ids}
+        tips = params.display_menu_tip or None
+        
+        return {'tree': tree, 'model': model, 'can_shortcut': can_shortcut, 'shortcut_ids': shortcut_ids, 'tips': tips}
 
     def can_shortcut_create(self):
         return (rpc.session.is_logged() and

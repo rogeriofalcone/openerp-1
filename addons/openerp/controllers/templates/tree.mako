@@ -26,31 +26,41 @@
     %>
     <table id="treeview" class="view" width="100%" border="0" cellpadding="0" cellspacing="0">
         <tr>
-            <td id="body_form" width="100%" valign="top">
-                <h1>
-                    % if can_shortcut:
-                        <a id="shortcut_add_remove" href="javascript: void(0)" class="${shortcut_class}"></a>
-                    % endif
-                    ${tree.string}
-                </h1>
-                <div>
-                    % if tree.toolbar:
-                    <div>
-                        <select id="treeview-tree-selector">
-                            % for tool in tree.toolbar:
-                                <option value="${tool['id']}" data-ids="${tool['ids']}">
-                                    ${tool['name']}
-                                </option>
-                            % endfor
-                        </select>
+            <td width="100%" valign="top">
+            	% if tips:
+                    <div id="help-tips">
+                        <p>${tips}</p>
+                        <a href="/openerp/form/close_or_disable_tips" id="disable-tips" style="text-decoration: underline;">${_("Disable all Tips")}</a>
+                        <a href="#hide" id="hide-tips" style="text-decoration: underline;">${_("Hide this Tip")}</a>
+                        <br style="clear: both"/>
                     </div>
-                    % endif
-                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
-                        <tr>
-                            <td width="100%" valign="top" class="tree_grid">${tree.display()}</td>
-                        </tr>
-                    </table>
-                </div>
+                % endif
+                <div id="body_form">
+	                <h1>
+	                    % if can_shortcut:
+	                        <a id="shortcut_add_remove" href="javascript: void(0)" class="${shortcut_class}"></a>
+	                    % endif
+	                    ${tree.string}
+	                </h1>
+	                <div>
+	                    % if tree.toolbar:
+	                    <div>
+	                        <select id="treeview-tree-selector">
+	                            % for tool in tree.toolbar:
+	                                <option value="${tool['id']}" data-ids="${tool['ids']}">
+	                                    ${tool['name']}
+	                                </option>
+	                            % endfor
+	                        </select>
+	                    </div>
+	                    % endif
+	                    <table cellpadding="0" cellspacing="0" border="0" width="100%">
+	                        <tr>
+	                            <td width="100%" valign="top" class="tree_grid">${tree.display()}</td>
+	                        </tr>
+	                    </table>
+	                </div>
+            	</div>
             </td>
                 % if tree.sidebar:
                     <td width="163" valign="top">${tree.sidebar.display()}</td>
@@ -60,6 +70,20 @@
     
     <script type="text/javascript">
         var TREEVIEW = new TreeView(${tree.id});
+    </script>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function () {
+            var $hide = jQuery('#hide-tips').click(function () {
+                jQuery('#help-tips').hide();
+                return false;
+            });
+            jQuery('#disable-tips').click(function () {
+                jQuery.post(this.href);
+                $hide.click();
+                return false;
+            })
+        })
     </script>
     
 </%def>
