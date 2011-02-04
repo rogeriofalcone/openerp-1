@@ -774,7 +774,7 @@ function eval_domain_context_request(options){
         }
 
         if (obj.error) {
-            return error_popup(obj.error)
+            return error_display(obj.error)
         }
 
         return obj;
