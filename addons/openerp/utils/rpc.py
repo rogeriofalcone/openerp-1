@@ -19,6 +19,8 @@
 #
 ###############################################################################
 
+import locale
+
 import socket
 import xmlrpclib
 
@@ -343,6 +345,12 @@ class RPCSession(object):
 
         # set locale in session
         self.storage['locale'] = self.context.get('lang', 'en_US')
+        
+        try:
+            locale.setlocale(locale.LC_ALL, "%s.UTF-8" % str(self.storage['locale']))
+        except:
+            locale.setlocale(locale.LC_ALL,"")
+            
         lang_ids = self.execute(
                 'object', 'execute', 'res.lang',
                 'search', [('code', '=', self.storage['locale'])])
