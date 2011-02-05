@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-02-02 21:12+0000\n"
+"PO-Revision-Date: 2011-02-04 18:56+0000\n"
 "Last-Translator: Milan Milosevic <Unknown>\n"
 "Language-Team: Serbian latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-02-03 04:43+0000\n"
+"X-Launchpad-Export-Date: 2011-02-05 04:59+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 
 #: validators.py:75
@@ -313,7 +313,7 @@ msgstr ""
 #: controllers/form.py:553
 #, python-format
 msgid "Invalid button type \"%s\""
-msgstr ""
+msgstr "Nevažeći tip dugmeta \"%s\""
 
 #: controllers/form.py:891 controllers/tree.py:233
 msgid "No record selected"
@@ -321,12 +321,12 @@ msgstr ""
 
 #: controllers/form.py:896
 msgid "Print Screen"
-msgstr ""
+msgstr "Ekran štampe"
 
 #: controllers/form.py:965 utils/rpc.py:122 utils/rpc.py:133 utils/rpc.py:136
 #: widgets/listgrid.py:289 widgets/listgrid.py:353 widgets/form/_form.py:904
 msgid "Application Error"
-msgstr ""
+msgstr "Greška Aplikacije"
 
 #: controllers/form.py:965
 #, python-format
@@ -335,214 +335,217 @@ msgstr ""
 
 #: controllers/form.py:1073
 msgid "Open resource"
-msgstr ""
+msgstr "Otvoreni izvor"
 
 #: controllers/form.py:1076
 msgid "Set to default value"
-msgstr ""
+msgstr "Podesi na osnovne vrednosti"
 
 #: controllers/form.py:1077
 msgid "Set as default"
-msgstr ""
+msgstr "Postavi kao osnovnu vrednost"
 
 #: controllers/form.py:1084
 msgid "Action"
-msgstr ""
+msgstr "Radnja"
 
 #: controllers/form.py:1085
 msgid "Report"
-msgstr ""
+msgstr "Izveštaj"
 
 #: controllers/impex.py:66
 msgid ""
 "Operation failed\n"
 "I/O error"
 msgstr ""
+"Operacija neuspela\n"
+"I/O Greška"
 
 #: controllers/impex.py:373
 msgid "Export Error"
-msgstr ""
+msgstr "Izvezi Grešku"
 
 #: controllers/impex.py:444
 msgid "Database ID"
-msgstr ""
+msgstr "ID Baze Podataka"
 
 #: controllers/impex.py:451
 msgid "Error opening .CSV file"
-msgstr ""
+msgstr "Greška u otvaranju .CSV datoteke"
 
 #: controllers/impex.py:451
 msgid "Input Error."
-msgstr ""
+msgstr "Greška u Unosu"
 
 #: controllers/impex.py:473
 #, python-format
 msgid "You cannot import the field '%s', because we cannot auto-detect it"
-msgstr ""
+msgstr "Ne možete uvesti polje '%s', jer ga ne možemo autodetektovati"
 
 #: controllers/impex.py:476
 #, python-format
 msgid "Error processing the first line of the file. Field \"%s\" is unknown"
 msgstr ""
+"Greška u procesuiranju prvog reda datoteke. Polje ''%s'' je nepoznato"
 
 #: controllers/impex.py:476
 msgid "Import Error."
-msgstr ""
+msgstr "Greška  u Uvozu"
 
 #: controllers/impex.py:515
 msgid "XML-RPC error"
-msgstr ""
+msgstr "XML -RPC Greška"
 
 #: controllers/impex.py:520
 #, python-format
 msgid "Imported %d objects"
-msgstr ""
+msgstr "Uvezene %d stavke"
 
 #: controllers/impex.py:525
 #, python-format
 msgid "Error trying to import this record:%s. ErrorMessage:%s %s"
-msgstr ""
+msgstr "Greška tokom pokušaja uvoza ovog zapisa: %s. PorukaGreške:%s %s"
 
 #: controllers/impex.py:526
 msgid "ImportationError"
-msgstr ""
+msgstr "GreškaUvoza"
 
 #: controllers/listgrid.py:51
 msgid "Parent record doesn't exists..."
-msgstr ""
+msgstr "Roditeljski zapis ne postoji"
 
 #: controllers/preferences.py:34
 msgid "Change your password"
-msgstr ""
+msgstr "Promeni lozinku"
 
 #: controllers/preferences.py:64 controllers/templates/header.mako:59
 msgid "Preferences"
-msgstr ""
+msgstr "Podešavanja"
 
 #: controllers/preferences.py:91
 msgid "All passwords have to be filled."
-msgstr ""
+msgstr "Sve lozinke moraju biti unete."
 
 #: controllers/preferences.py:93
 msgid "The new password and its confirmation must be identical."
-msgstr ""
+msgstr "Nova lozinka i njena potvrda moraju biti istovetne."
 
 #: controllers/preferences.py:102
 msgid "Could not change your password."
-msgstr ""
+msgstr "Nije bilo moguće promeniti lozinku."
 
 #: controllers/preferences.py:104
 msgid "Original password incorrect, your password was not changed."
-msgstr ""
+msgstr "Prvobitna lozinka netačna, lozinka nije  promenjena."
 
 #: controllers/root.py:170
 #, python-format
 msgid "Version %s"
-msgstr ""
+msgstr "Verzija %s"
 
 #: controllers/translator.py:132
 msgid "You need to save the resource before adding translations."
-msgstr ""
+msgstr "Morate prvo sačuvati izvor da biste mogli da dodate prevode."
 
 #: controllers/tree.py:264
 msgid "No resource selected"
-msgstr ""
+msgstr "Nema izabranog izvora."
 
 #: controllers/utils.py:44
 msgid "Could not connect to server"
-msgstr ""
+msgstr "Nije bilo moguće povezati se na server"
 
 #: controllers/utils.py:131 controllers/templates/login_ajax.mako:111
 msgid "Bad username or password"
-msgstr ""
+msgstr "Pogrešno korisničko ime ili lozinka"
 
 #: controllers/view_log.py:32
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: controllers/view_log.py:33
 msgid "Creation User"
-msgstr ""
+msgstr "Novi Korisnik"
 
 #: controllers/view_log.py:34
 msgid "Creation Date"
-msgstr ""
+msgstr "Datum postavljanja"
 
 #: controllers/view_log.py:35
 msgid "Latest Modification by"
-msgstr ""
+msgstr "Poslednji izmenio/la"
 
 #: controllers/view_log.py:36
 msgid "Latest Modification Date"
-msgstr ""
+msgstr "Datum Poslednje Izmene"
 
 #: controllers/view_log.py:37
 msgid "Owner"
-msgstr ""
+msgstr "Vlasnik"
 
 #: controllers/view_log.py:38
 msgid "Group Owner"
-msgstr ""
+msgstr "Vlasnik Grupe"
 
 #: controllers/view_log.py:39
 msgid "Access Level"
-msgstr ""
+msgstr "stepen pristupa"
 
 #: controllers/view_log.py:40
 msgid "Internal module data ID"
-msgstr ""
+msgstr "ID podaci internog modula"
 
 #: controllers/viewed.py:220
 msgid "Invalid view id."
-msgstr ""
+msgstr "Nevažeći prikaz id."
 
 #: controllers/viewed.py:498
 msgid "Unable to create inherited view."
-msgstr ""
+msgstr "Nije moguće napraviti nasleđeni prikaz."
 
 #: controllers/viewed.py:500
 msgid "Can't create inherited view here."
-msgstr ""
+msgstr "Nije moguće napraviti nasleđeni prikaz ovde."
 
 #: controllers/viewed.py:503
 msgid "Not implemented yet!"
-msgstr ""
+msgstr "Još nije implementirano!"
 
 #: controllers/viewed.py:608
 msgid "Unable to update the view."
-msgstr ""
+msgstr "Nemoguće ažurirati pregled."
 
 #: controllers/viewed.py:859
 msgid "New Window"
-msgstr ""
+msgstr "Novi Prozor"
 
 #: controllers/viewed.py:871
 msgid "Save Button"
-msgstr ""
+msgstr "Dugme ''Sačuvaj''"
 
 #: controllers/viewed.py:871
 msgid "Cancel Button"
-msgstr ""
+msgstr "Dugme ''Prekini''"
 
 #: controllers/viewed.py:871
 msgid "Open Button"
-msgstr ""
+msgstr "Dugme ''Otvori''"
 
 #: controllers/viewed.py:877
 msgid "Left"
-msgstr ""
+msgstr "Levo"
 
 #: controllers/viewed.py:877
 msgid "Center"
-msgstr ""
+msgstr "Sredina"
 
 #: controllers/viewed.py:877
 msgid "Right"
-msgstr ""
+msgstr "Desno"
 
 #: controllers/templates/about.mako:4
 msgid "About the OpenERP Web"
-msgstr ""
+msgstr "O mreži OpenERP-a"
 
 #: controllers/templates/about.mako:27
 msgid "OpenERP Web"
@@ -554,12 +557,12 @@ msgstr ""
 
 #: controllers/templates/about.mako:31
 msgid "OpenERP is a trademark of the OpenERP SA Company."
-msgstr ""
+msgstr "OpenERP je registrovana marka OpenERP SA Preduzeća."
 
 #: controllers/templates/about.mako:33
 #, python-format
 msgid "%(ooweb)s is jointly developed by %(tiny)s and %(axelor)s."
-msgstr ""
+msgstr "%(ooweb)s je razvijen zajednički od strane %(tiny)s i %(axelor)s."
 
 #: controllers/templates/about.mako:39
 #, python-format
@@ -568,7 +571,7 @@ msgstr ""
 
 #: controllers/templates/about.mako:42
 msgid "About OpenERP"
-msgstr ""
+msgstr "O OpenERP-u"
 
 #: controllers/templates/about.mako:44
 #, python-format
@@ -594,22 +597,31 @@ msgid ""
 "                    production system and migration to a new version to be "
 "straightforward."
 msgstr ""
+"Sistem je nezavisan od platforme, može se instalirati na Windows-u, Mac OS X-"
+"u,\n"
+"                    i raznim Linuxovim i drugim Unix-baziranim proizvodima.\n"
+"Njegova arhitektura omogućava\n"
+"                    brzo pravljenje novih funkcionalnosti, promene na\n"
+"                    proizvodnom sistemu i neposredno prebacivanje na novu "
+"verziju."
 
 #: controllers/templates/about.mako:57
 msgid ""
 "Depending on your needs, OpenERP is available through a web or application "
 "client."
 msgstr ""
+"Zavisno od potrebâ, OpenERP je dostupan na mreži kao i u obliku klijenta "
+"aplikacije."
 
 #: controllers/templates/database.mako:50 controllers/templates/login.mako:4
 #: controllers/templates/login.mako:67 controllers/templates/login_ajax.mako:85
 #: controllers/templates/login_ajax.mako:104
 msgid "Login"
-msgstr ""
+msgstr "Prijava"
 
 #: controllers/templates/database.mako:60
 msgid "Password"
-msgstr ""
+msgstr "Lozinka"
 
 #: controllers/templates/error_page.mako:77
 #, python-format
@@ -618,15 +630,15 @@ msgstr ""
 
 #: controllers/templates/error_page.mako:79
 msgid "Let me fix it"
-msgstr ""
+msgstr "Pusti me da sredim to."
 
 #: controllers/templates/error_page.mako:85
 msgid "Fix it for me"
-msgstr ""
+msgstr "Sredi to za mene."
 
 #: controllers/templates/error_page.mako:90
 msgid "You do not have a valid OpenERP publisher warranty contract !"
-msgstr ""
+msgstr "Nemate važeći garantni ugovor od strane OpenERP izdavača  !"
 
 #: controllers/templates/error_page.mako:91
 msgid ""
@@ -678,26 +690,28 @@ msgid ""
 "Your request will be sent to OpenERP and publisher warranty team will reply "
 "you shortly."
 msgstr ""
+"Vaš zahtev biće poslat OpenERP-u i Garantni izdavački tim odgovoriće Vam "
+"ubrzo."
 
 #: controllers/templates/error_page.mako:140
 msgid "Summary of the problem:"
-msgstr ""
+msgstr "Rezime problema:"
 
 #: controllers/templates/error_page.mako:147
 msgid "Explain what you did:"
-msgstr ""
+msgstr "Objasnite šta ste uradili:"
 
 #: controllers/templates/error_page.mako:156
 msgid "Other Comments:"
-msgstr ""
+msgstr "Drugi Komentari:"
 
 #: controllers/templates/error_page.mako:168
 msgid "Send to Publisher Warranty Team"
-msgstr ""
+msgstr "Pošalji Garantnom Izdavačkom Timu"
 
 #: controllers/templates/error_page.mako:195
 msgid "Write concurrency warning :"
-msgstr ""
+msgstr "Napiši konkurentno upozorenje:"
 
 #: controllers/templates/error_page.mako:200
 msgid ""
