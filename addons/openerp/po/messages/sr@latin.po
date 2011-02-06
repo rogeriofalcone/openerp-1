@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-02-04 18:56+0000\n"
+"PO-Revision-Date: 2011-02-05 20:48+0000\n"
 "Last-Translator: Milan Milosevic <Unknown>\n"
 "Language-Team: Serbian latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-02-05 04:59+0000\n"
+"X-Launchpad-Export-Date: 2011-02-06 04:53+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 
 #: validators.py:75
@@ -729,52 +729,52 @@ msgstr ""
 #: controllers/templates/preferences/index.mako:38
 #: widgets/templates/listgrid/listgrid.mako:33
 msgid "Cancel"
-msgstr ""
+msgstr "Prekini"
 
 #: controllers/templates/error_page.mako:215
 msgid "Write Anyway"
-msgstr ""
+msgstr "Zapiši svejedno"
 
 #: controllers/templates/exp.mako:151
 msgid "Export Data"
-msgstr ""
+msgstr "Izvezi Podatke"
 
 #: controllers/templates/exp.mako:166
 msgid "Export Type:"
-msgstr ""
+msgstr "Izvezi kao:"
 
 #: controllers/templates/exp.mako:169
 msgid "Import Compatible Export"
-msgstr ""
+msgstr "Uvezi Kompatibilni Izvozni materijal"
 
 #: controllers/templates/exp.mako:172
 msgid "Export all Data"
-msgstr ""
+msgstr "Izvezi sve Podatke"
 
 #: controllers/templates/exp.mako:183
 msgid "Available fields"
-msgstr ""
+msgstr "Dostupna polja"
 
 #: controllers/templates/exp.mako:185
 msgid "Fields to export"
-msgstr ""
+msgstr "Polja za izvoz"
 
 #: controllers/templates/exp.mako:187
 msgid "Save fields list"
-msgstr ""
+msgstr "Sačuvaj spisak poljâ"
 
 #: controllers/templates/exp.mako:189
 msgid "Save as:"
-msgstr ""
+msgstr "Sačuvaj kao:"
 
 #: controllers/templates/exp.mako:191 controllers/templates/fieldpref.mako:102
 #: controllers/templates/selection.mako:45
 msgid "OK"
-msgstr ""
+msgstr "U redu"
 
 #: controllers/templates/exp.mako:195
 msgid "Saved exports:"
-msgstr ""
+msgstr "Sačuvani izvozni materijal:"
 
 #: controllers/templates/exp.mako:204 controllers/templates/form.mako:135
 #: controllers/templates/image.mako:67 widgets/form/templates/one2many.mako:22
@@ -786,61 +786,61 @@ msgstr ""
 #: widgets/templates/listgrid/listgroup.mako:131
 #: widgets/templates/listgrid/multiple_group.mako:81
 msgid "Delete"
-msgstr ""
+msgstr "Izbriši"
 
 #: controllers/templates/exp.mako:217 widgets/templates/sidebar.mako:56
 #: widgets/templates/listgrid/listgrid.mako:135
 msgid "Add"
-msgstr ""
+msgstr "Dodaj"
 
 #: controllers/templates/exp.mako:222 controllers/templates/viewlist.mako:125
 msgid "Remove"
-msgstr ""
+msgstr "Ukloni"
 
 #: controllers/templates/exp.mako:227
 msgid "Remove All"
-msgstr ""
+msgstr "Ukloni sve"
 
 #: controllers/templates/exp.mako:245
 msgid "Export to File"
-msgstr ""
+msgstr "Izvezi u Datoteku"
 
 #: controllers/templates/fieldpref.mako:4
 #: controllers/templates/fieldpref.mako:29
 msgid "Field Preferences"
-msgstr ""
+msgstr "Podešavanja Poljâ"
 
 #: controllers/templates/fieldpref.mako:39
 msgid "Field Name:"
-msgstr ""
+msgstr "Ime Polja:"
 
 #: controllers/templates/fieldpref.mako:43
 msgid "Domain:"
-msgstr ""
+msgstr "Domen:"
 
 #: controllers/templates/fieldpref.mako:47
 msgid "Default Value:"
-msgstr ""
+msgstr "Osnovna Vrednost:"
 
 #: controllers/templates/fieldpref.mako:57
 msgid "Value applicable for:"
-msgstr ""
+msgstr "Vrednost primenjiva za:"
 
 #: controllers/templates/fieldpref.mako:63
 msgid "Only for you"
-msgstr ""
+msgstr "Samo za Vas"
 
 #: controllers/templates/fieldpref.mako:67
 msgid "For all"
-msgstr ""
+msgstr "Za sve"
 
 #: controllers/templates/fieldpref.mako:76
 msgid "Value applicable if:"
-msgstr ""
+msgstr "Vrednost primenjiva ako:"
 
 #: controllers/templates/fieldpref.mako:79
 msgid "Always applicable!"
-msgstr ""
+msgstr "Uvek primenjiva !"
 
 #: controllers/templates/fieldpref.mako:99 controllers/templates/image.mako:70
 #: controllers/templates/imp.mako:205 controllers/templates/index.mako:198
@@ -856,45 +856,45 @@ msgstr ""
 #: controllers/templates/viewlist.mako:129 widgets/templates/sidebar.mako:67
 #: widgets/templates/viewform.mako:37
 msgid "Close"
-msgstr ""
+msgstr "Zatvori"
 
 #: controllers/templates/footer.mako:3
 #, python-format
 msgid "&copy; 2008-2010 %(ooweb)s  SA. All Rights Reserved "
-msgstr ""
+msgstr "&copy; 2008-2010 %(ooweb)s SA. Sva Prava Zadržana "
 
 #: controllers/templates/footer.mako:6
 msgid "Significant contributions to the web client have been made by"
-msgstr ""
+msgstr "Značajan doprinos za web-klijent od strane"
 
 #: controllers/templates/form.mako:63
 msgid "Disable all Tips"
-msgstr ""
+msgstr "Ukloni sve Savete"
 
 #: controllers/templates/form.mako:64
 msgid "Hide this Tip"
-msgstr ""
+msgstr "Prikrij ovaj Savet"
 
 #: controllers/templates/form.mako:82
 msgid "Add / Remove Shortcut..."
-msgstr ""
+msgstr "Dodaj / Ukloni Prečicu"
 
 #: controllers/templates/form.mako:86
 #, python-format
 msgid "Search: %s"
-msgstr ""
+msgstr "Pretraga: %s"
 
 #: controllers/templates/form.mako:93
 msgid "Corporate Intelligence..."
-msgstr ""
+msgstr "Korporativna Imteligencija..."
 
 #: controllers/templates/form.mako:99
 msgid "Show Logs..."
-msgstr ""
+msgstr "Prikaži Izveštaje..."
 
 #: controllers/templates/form.mako:111
 msgid "Create a new resource"
-msgstr ""
+msgstr "Napravite novi izvor"
 
 #: controllers/templates/form.mako:112 controllers/templates/search.mako:128
 #: controllers/templates/viewed_new_model.mako:36
@@ -904,11 +904,11 @@ msgstr ""
 #: widgets/templates/listgrid/listgrid.mako:144
 #: widgets/templates/listgrid/listgroup.mako:20
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: controllers/templates/form.mako:116
 msgid "Edit this resource"
-msgstr ""
+msgstr "Izmeni ovaj resurs"
 
 #: controllers/templates/form.mako:117 controllers/templates/viewlist.mako:122
 #: widgets/templates/listgrid/listgrid.mako:75
@@ -916,11 +916,11 @@ msgstr ""
 #: widgets/templates/listgrid/listgroup.mako:112
 #: widgets/templates/listgrid/multiple_group.mako:63
 msgid "Edit"
-msgstr ""
+msgstr "Izmeni"
 
 #: controllers/templates/form.mako:121
 msgid "Save this resource"
-msgstr ""
+msgstr "Sačuvaj ovaj izvor"
 
 #: controllers/templates/form.mako:122 controllers/templates/image.mako:65
 #: controllers/templates/openm2.mako:48
@@ -932,39 +932,39 @@ msgstr ""
 #: controllers/templates/viewlist.mako:157
 #: controllers/templates/preferences/index.mako:39
 msgid "Save"
-msgstr ""
+msgstr "Sačuvaj"
 
 #: controllers/templates/form.mako:124
 msgid "Save & Edit this resource"
-msgstr ""
+msgstr "Sačuvaj & Izmeni ovaj izvor"
 
 #: controllers/templates/form.mako:125
 msgid "Save & Edit"
-msgstr ""
+msgstr "Sačuvaj & Izmeni"
 
 #: controllers/templates/form.mako:129
 msgid "Duplicate this resource"
-msgstr ""
+msgstr "Udvostruči ovaj izvor"
 
 #: controllers/templates/form.mako:130
 msgid "Duplicate"
-msgstr ""
+msgstr "Udvostruči"
 
 #: controllers/templates/form.mako:134
 msgid "Delete this resource"
-msgstr ""
+msgstr "Izbriši ovaj resurs"
 
 #: controllers/templates/form.mako:139
 msgid "Cancel editing the current resource"
-msgstr ""
+msgstr "Prekini izmenu sadašnjeg izvora"
 
 #: controllers/templates/form.mako:144
 msgid "Create new node"
-msgstr ""
+msgstr "Napravi novi čvor"
 
 #: controllers/templates/form.mako:145
 msgid "New Node"
-msgstr ""
+msgstr "Novi Čvor"
 
 #: controllers/templates/form.mako:149
 msgid "Show grid in workflow canvas"
@@ -972,154 +972,156 @@ msgstr ""
 
 #: controllers/templates/form.mako:150
 msgid "Show grid"
-msgstr ""
+msgstr "Prikaži mrežu"
 
 #: controllers/templates/header.mako:33
 #, python-format
 msgid "%(company)s"
-msgstr ""
+msgstr "%(company)s"
 
 #: controllers/templates/header.mako:34 controllers/templates/index.mako:218
 #, python-format
 msgid "%(user)s"
-msgstr ""
+msgstr "%(user)s"
 
 #: controllers/templates/header.mako:45 controllers/templates/header.mako:47
 msgid "Home"
-msgstr ""
+msgstr "Početna Strana"
 
 #: controllers/templates/header.mako:53
 msgid "Requests"
-msgstr ""
+msgstr "Zahtevi"
 
 #: controllers/templates/header.mako:62
 msgid "Edit Preferences"
-msgstr ""
+msgstr "Izmeni Podešavanja"
 
 #: controllers/templates/header.mako:66 controllers/templates/header.mako:69
 msgid "About"
-msgstr ""
+msgstr "O"
 
 #: controllers/templates/header.mako:73 controllers/templates/header.mako:75
 msgid "Help"
-msgstr ""
+msgstr "Pomoć"
 
 #: controllers/templates/header.mako:81 controllers/templates/header.mako:84
 msgid "Clear Cache"
-msgstr ""
+msgstr "Izbriši Cache"
 
 #: controllers/templates/header.mako:89
 msgid "Logout"
-msgstr ""
+msgstr "Odjava"
 
 #: controllers/templates/image.mako:4 controllers/templates/image.mako:39
 msgid "Image"
-msgstr ""
+msgstr "Slika"
 
 #: controllers/templates/image.mako:55
 msgid "Add Resource:"
-msgstr ""
+msgstr "Dodaj Izvor:"
 
 #: controllers/templates/image.mako:66 widgets/form/templates/binary.mako:28
 msgid "Save As"
-msgstr ""
+msgstr "Sačuvaj kao"
 
 #: controllers/templates/imp.mako:80
 msgid "Import Data"
-msgstr ""
+msgstr "Uvezi Podatke"
 
 #: controllers/templates/imp.mako:90
 msgid "1. Import a .CSV file"
-msgstr ""
+msgstr "1. Uvezi kao .CSV datoteku"
 
 #: controllers/templates/imp.mako:106
 msgid "CSV File:"
-msgstr ""
+msgstr "CSV Datoteka:"
 
 #: controllers/templates/imp.mako:124
 msgid "2. Check your file format"
-msgstr ""
+msgstr "2. Proverite format svoje datoteke"
 
 #: controllers/templates/imp.mako:131
 #, python-format
 msgid "The import failed due to: %(message)s"
-msgstr ""
+msgstr "Uvoz neuspešan zbog: %(message)s"
 
 #: controllers/templates/imp.mako:133
 msgid "Here is a preview of the file we could not import:"
-msgstr ""
+msgstr "Pregled datoteke koju nismo uspeli uvesti:"
 
 #: controllers/templates/imp.mako:158
 msgid "CSV Options"
-msgstr ""
+msgstr "Opcije za CSV"
 
 #: controllers/templates/imp.mako:161
 msgid "Separator:"
-msgstr ""
+msgstr "Razdvajač:"
 
 #: controllers/templates/imp.mako:163
 msgid "Delimiter:"
-msgstr ""
+msgstr "Odvajač:"
 
 #: controllers/templates/imp.mako:167
 msgid "Encoding:"
-msgstr ""
+msgstr "Način zapisa:"
 
 #: controllers/templates/imp.mako:174
 msgid "Lines to skip:"
-msgstr ""
+msgstr "Redovi za preskakanje:"
 
 #: controllers/templates/imp.mako:188
 msgid "3. File imported"
-msgstr ""
+msgstr "3. Datoteka uvezena"
 
 #: controllers/templates/imp.mako:206
 msgid "Import File"
-msgstr ""
+msgstr "Uvezi Datoteku"
 
 #: controllers/templates/index.mako:164
 msgid "System Logs"
-msgstr ""
+msgstr "Sistemski Izveštaji"
 
 #: controllers/templates/index.mako:189
 msgid "More"
-msgstr ""
+msgstr "Više"
 
 #: controllers/templates/index.mako:190
 msgid "Widgets"
-msgstr ""
+msgstr "Vidžeti"
 
 #: controllers/templates/index.mako:221 controllers/templates/index.mako:226
 #, python-format
 msgid "Powered by %(openerp)s "
-msgstr ""
+msgstr "Omogućeno od strane %(openerp)s "
 
 #: controllers/templates/login.mako:53 controllers/templates/login_ajax.mako:72
 #: controllers/templates/login_ajax.mako:94
 msgid "User:"
-msgstr ""
+msgstr "Korisnik:"
 
 #: controllers/templates/login.mako:64
 msgid "Databases"
-msgstr ""
+msgstr "Baze podataka"
 
 #: controllers/templates/login.mako:84
 msgid "Top Contributor:"
-msgstr ""
+msgstr "Najviše doprineo/la:"
 
 #: controllers/templates/login.mako:94
 msgid ""
 "We think that daily job activities can be more intuitive, efficient, "
 "automated, .. and even fun."
 msgstr ""
+"Mislimo da svakodnevne poslovne aktivnosti mogu biti intuitivnije, "
+"delotvorne, automatizovane, .. i čak zabavne."
 
 #: controllers/templates/login.mako:95
 msgid "OpenERP's vision to be:"
-msgstr ""
+msgstr "OpenERp-ova buduća vizija:"
 
 #: controllers/templates/login.mako:103
 msgid "Full featured"
-msgstr ""
+msgstr "U celosti implementirano"
 
 #: controllers/templates/login.mako:104
 msgid ""
@@ -1129,98 +1131,102 @@ msgstr ""
 
 #: controllers/templates/login.mako:112
 msgid "Open Source"
-msgstr ""
+msgstr "Otvoreni Izvor"
 
 #: controllers/templates/login.mako:113
 msgid ""
 "To Build a great product, we rely on the knowledge of thousands of "
 "contributors."
 msgstr ""
+"Za Razvijanje odličnog proizvoda, oslanjamo se na znanje nekoliko hiljada "
+"saradnika."
 
 #: controllers/templates/login.mako:121
 msgid "User Friendly"
-msgstr ""
+msgstr "Lako za upotrebu"
 
 #: controllers/templates/login.mako:122
 msgid ""
 "In order to be productive, people need clean and easy to use interface."
 msgstr ""
+"Da bi mogli biti produktivni, ljudima je potrebnan čist interfejs, lak za "
+"upotrebu."
 
 #: controllers/templates/modules.mako:4
 msgid "Module Management"
-msgstr ""
+msgstr "Upravlanje Modulom"
 
 #: controllers/templates/modules.mako:17
 msgid "Web Modules"
-msgstr ""
+msgstr "Mrežni Moduli"
 
 #: controllers/templates/openo2m.mako:34
 msgid "Save & Close"
-msgstr ""
+msgstr "Sacuvaj & Zatvori"
 
 #: controllers/templates/openo2m.mako:37
 msgid "Save & New"
-msgstr ""
+msgstr "Sacuvaj & Novo"
 
 #: controllers/templates/save_filter.mako:18
 msgid "Save as Filter"
-msgstr ""
+msgstr "Sačuvaj kao Filter"
 
 #: controllers/templates/save_filter.mako:30
 msgid "Filter Name"
-msgstr ""
+msgstr "Naziv Filtera"
 
 #: controllers/templates/search.mako:110
 #, python-format
 msgid "Search %(name)s"
-msgstr ""
+msgstr "Traži %(name)s"
 
 #: controllers/templates/search.mako:125 widgets/form/templates/datetime.mako:8
 msgid "Select"
-msgstr ""
+msgstr "Izaberi"
 
 #: controllers/templates/search.mako:127 widgets/_views.py:83
 #: widgets/form/templates/many2one.mako:22
 #: widgets/form/templates/reference.mako:27 widgets/templates/viewform.mako:26
 msgid "Search"
-msgstr ""
+msgstr "Pretraga"
 
 #: controllers/templates/search.mako:143
 #, python-format
 msgid "No record found : '%(searched_string)s'."
-msgstr ""
+msgstr "Nije pronađen zapis: '%(searched_string)s'."
 
 #: controllers/templates/selection.mako:4
 msgid "Select action"
-msgstr ""
+msgstr "Izaberi postupak"
 
 #: controllers/templates/selection.mako:23
 msgid "Select your action"
-msgstr ""
+msgstr "Izaberite akciju"
 
 #: controllers/templates/server_log.mako:4
 msgid "Server Actions..."
-msgstr ""
+msgstr "Postupci Servera..."
 
 #: controllers/templates/server_log.mako:14
 msgid "Server Actions"
-msgstr ""
+msgstr "Postupci Servera"
 
 #: controllers/templates/translator.mako:4
 msgid "Add Translations"
-msgstr ""
+msgstr "Dodaj Prevode"
 
 #: controllers/templates/translator.mako:17
 msgid "Add Translation"
-msgstr ""
+msgstr "Dodaj Prevod"
 
 #: controllers/templates/translator.mako:27
 msgid "Add Translation for:"
-msgstr ""
+msgstr "Dodaj Prevod za:"
 
 #: controllers/templates/translator.mako:31
 msgid "Fields"
-msgstr ""
+msgstr "Polja"
 
 #: controllers/templates/translator.mako:32
 msgid "Labels"
