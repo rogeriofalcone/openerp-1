@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-01-13 09:15+0000\n"
+"PO-Revision-Date: 2011-02-06 15:08+0000\n"
 "Last-Translator: Wei \"oldrev\" Li <oldrev@gmail.com>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-01-18 04:38+0000\n"
+"X-Launchpad-Export-Date: 2011-02-07 05:19+0000\n"
 "X-Generator: Launchpad (build 12177)\n"
 "Generated-By: Babel None\n"
 
@@ -325,23 +325,23 @@ msgstr "错误的 on_change 事件触发器: %s"
 
 #: controllers/form.py:1073
 msgid "Open resource"
-msgstr ""
+msgstr "打开资源"
 
 #: controllers/form.py:1076
 msgid "Set to default value"
-msgstr ""
+msgstr "设为默认值"
 
 #: controllers/form.py:1077
 msgid "Set as default"
-msgstr ""
+msgstr "设置为默认"
 
 #: controllers/form.py:1084
 msgid "Action"
-msgstr ""
+msgstr "动作"
 
 #: controllers/form.py:1085
 msgid "Report"
-msgstr ""
+msgstr "报表"
 
 #: controllers/impex.py:66
 msgid ""
@@ -357,7 +357,7 @@ msgstr "导出错误"
 
 #: controllers/impex.py:444
 msgid "Database ID"
-msgstr ""
+msgstr "数据库标识"
 
 #: controllers/impex.py:451
 msgid "Error opening .CSV file"
@@ -370,12 +370,12 @@ msgstr "输入错误"
 #: controllers/impex.py:473
 #, python-format
 msgid "You cannot import the field '%s', because we cannot auto-detect it"
-msgstr ""
+msgstr "您不能导入“%s”字段，因为我们无法自动检测它。"
 
 #: controllers/impex.py:476
 #, python-format
 msgid "Error processing the first line of the file. Field \"%s\" is unknown"
-msgstr ""
+msgstr "处理第一行时发生错误：未知字段“%s”"
 
 #: controllers/impex.py:476
 msgid "Import Error."
@@ -542,11 +542,11 @@ msgstr "OpenERP Web 客户端"
 
 #: controllers/templates/about.mako:30
 msgid "Copyright &copy; 2006-TODAY OpenERP SA. All Rights Reserved."
-msgstr ""
+msgstr "版权所有 &copy; 2006—今日 OpenERP SA 公司。保留所有权利。"
 
 #: controllers/templates/about.mako:31
 msgid "OpenERP is a trademark of the OpenERP SA Company."
-msgstr ""
+msgstr "OpenERP 是 OpenERP SA 公司的注册商标。"
 
 #: controllers/templates/about.mako:33
 #, python-format
@@ -615,7 +615,7 @@ msgstr "密码"
 #: controllers/templates/error_page.mako:77
 #, python-format
 msgid "An %(error_type)s has been reported."
-msgstr ""
+msgstr "已经报告了错误“%(error_type)s”。"
 
 #: controllers/templates/error_page.mako:79
 msgid "Let me fix it"
@@ -756,19 +756,19 @@ msgstr "导出数据"
 
 #: controllers/templates/exp.mako:166
 msgid "Export Type:"
-msgstr ""
+msgstr "导出类型："
 
 #: controllers/templates/exp.mako:169
 msgid "Import Compatible Export"
-msgstr ""
+msgstr "导入兼容的导出结果"
 
 #: controllers/templates/exp.mako:172
 msgid "Export all Data"
-msgstr ""
+msgstr "导出所有数据"
 
 #: controllers/templates/exp.mako:183
 msgid "Available fields"
-msgstr ""
+msgstr "可用字段"
 
 #: controllers/templates/exp.mako:185
 msgid "Fields to export"
@@ -776,11 +776,11 @@ msgstr "要导出的字段"
 
 #: controllers/templates/exp.mako:187
 msgid "Save fields list"
-msgstr ""
+msgstr "保存字段列表"
 
 #: controllers/templates/exp.mako:189
 msgid "Save as:"
-msgstr ""
+msgstr "另存为："
 
 #: controllers/templates/exp.mako:191 controllers/templates/fieldpref.mako:102
 #: controllers/templates/selection.mako:45
@@ -789,7 +789,7 @@ msgstr "确认"
 
 #: controllers/templates/exp.mako:195
 msgid "Saved exports:"
-msgstr ""
+msgstr "已保存的导出结果："
 
 #: controllers/templates/exp.mako:204 controllers/templates/form.mako:135
 #: controllers/templates/image.mako:67 widgets/form/templates/one2many.mako:22
@@ -814,11 +814,11 @@ msgstr "移除"
 
 #: controllers/templates/exp.mako:227
 msgid "Remove All"
-msgstr ""
+msgstr "全部移除"
 
 #: controllers/templates/exp.mako:245
 msgid "Export to File"
-msgstr ""
+msgstr "导出到文件"
 
 #: controllers/templates/fieldpref.mako:4
 #: controllers/templates/fieldpref.mako:29
@@ -1045,28 +1045,28 @@ msgstr "导入数据"
 
 #: controllers/templates/imp.mako:90
 msgid "1. Import a .CSV file"
-msgstr ""
+msgstr "导入 .CSV 文件"
 
 #: controllers/templates/imp.mako:106
 msgid "CSV File:"
-msgstr ""
+msgstr "CSV 文件："
 
 #: controllers/templates/imp.mako:124
 msgid "2. Check your file format"
-msgstr ""
+msgstr "2. 检查您的文件格式"
 
 #: controllers/templates/imp.mako:131
 #, python-format
 msgid "The import failed due to: %(message)s"
-msgstr ""
+msgstr "导入失败：%(message)s"
 
 #: controllers/templates/imp.mako:133
 msgid "Here is a preview of the file we could not import:"
-msgstr ""
+msgstr "这是文件中无法导入部分的预览："
 
 #: controllers/templates/imp.mako:158
 msgid "CSV Options"
-msgstr ""
+msgstr "CSV  选项"
 
 #: controllers/templates/imp.mako:161
 msgid "Separator:"
@@ -1086,11 +1086,11 @@ msgstr "要跳过的行："
 
 #: controllers/templates/imp.mako:188
 msgid "3. File imported"
-msgstr ""
+msgstr "3. 文件已导入"
 
 #: controllers/templates/imp.mako:206
 msgid "Import File"
-msgstr ""
+msgstr "导入文件"
 
 #: controllers/templates/index.mako:164
 msgid "System Logs"
@@ -1360,7 +1360,7 @@ msgstr "搜索视图"
 
 #: widgets/listgrid.py:289
 msgid "Wrong on_change trigger"
-msgstr ""
+msgstr "错误的“on_change”触发器"
 
 #: widgets/listgrid.py:353 widgets/form/_form.py:904
 #, python-format
