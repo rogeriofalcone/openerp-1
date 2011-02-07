@@ -7,7 +7,7 @@
 #  Developed by OpenERP (http://openerp.com) and Axelor (http://axelor.com).
 #
 #  The OpenERP web client is distributed under the "OpenERP Public License".
-#  It's based on Mozilla Public License Version (MPL) 1.1 with following 
+#  It's based on Mozilla Public License Version (MPL) 1.1 with following
 #  restrictions:
 #
 #  -   All names, links and logos of OpenERP must be kept as in original
@@ -210,6 +210,13 @@ class ImpEx(SecuredController):
         for i, field in enumerate(fields_order):
             value = fields[field]
             record = {}
+
+            if import_compat and value.get('readonly', False):
+                ok = False
+                for sl in value.get('states', {}).values():
+                    for s in sl:
+                        ok = ok or (s==('readonly',False))
+                if not ok: continue
 
             id = prefix + (prefix and '/' or '') + field
             nm = name + (name and '/' or '') + value['string']
