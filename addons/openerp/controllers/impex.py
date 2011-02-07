@@ -235,7 +235,8 @@ class ImpEx(SecuredController):
 
                 record.update(id=id, items={'name': nm},
                               action='javascript: void(0)', target=None,
-                              icon=None, children=[])
+                              icon=None, children=[],
+                              required=value.get('required', False))
                 records.append(record)
 
 
