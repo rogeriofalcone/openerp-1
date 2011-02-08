@@ -183,7 +183,7 @@ class Form(SecuredController):
         params.count = params.count or 0
         params.view_type = params.view_type or params.view_mode[0]
 
-        return tw.form_view.ViewForm(params, name="view_form", action="/openerp/form/save")
+        return tw.form_view.ViewForm(params, name="view_form", action=self.path + "/save")
 
     @expose(template="/openerp/controllers/templates/form.mako")
     def create(self, params, tg_errors=None):
