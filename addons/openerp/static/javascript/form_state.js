@@ -257,7 +257,7 @@ function form_evalExpr(prefix, expr, ref_elem) {
 
 function form_setReadonly(container, fieldName, readonly) {
 
-    var $field = jQuery(idSelector(fieldName));
+    var $field = typeof(fieldName) == "string" ? jQuery(idSelector(fieldName)) : jQuery(fieldName);
 
     if (!$field.length) {
         return;
