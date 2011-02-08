@@ -167,7 +167,7 @@ function form_onAttrChange(container, widgetName, attr, expr, elem, is_field_of_
 	if(is_field_of_list && jQuery(elem).children()) {
 		widget = jQuery(elem).children()[0];
 	} else {
-		widget = openobject.dom.get(widgetName);
+		widget = jQuery(idSelector(widgetName));
 	}
 	
     var result = form_evalExpr(prefix, expr, elem);
@@ -318,7 +318,8 @@ function form_setRequired(container, field, required) {
     }
     var editable = getElement('_terp_editable').value;
 
-    var $field = jQuery(idSelector(field));
+    var $field = typeof(field) == "string" ? jQuery(idSelector(field)) : field;
+	
     if (editable == 'True') {
         $field.toggleClass('requiredfield', required);
     }
