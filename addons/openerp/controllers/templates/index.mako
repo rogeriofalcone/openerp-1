@@ -125,7 +125,7 @@
                     <td colspan="3" height="100%" valign="top">
                         <table width="100%" height="100%">
                             <tr>
-                                <td id="primary" class="first-page-primary">
+                                <td id="primary">
                                     <div class="wrap" style="padding: 10px;">
                                         <ul class="sections-a">
                                             % for parent in parents:
@@ -158,7 +158,10 @@
                                         </ul>
                                     </div>
                                 </td>
-                                <td class="tertiary">
+                           <td id="main_sidebar" valign="top">
+                    			<a class="toggle-sidebar open" href="javascript:void(0)">Toggle</a>
+                                <div id="tertiary" class="open">
+                                	<div id="tertiary_wrap">
                                     % if len(welcome_messages):
                                         <div class="sideheader-a">
                                             <h2>${_("System Logs")}</h2>
@@ -204,7 +207,16 @@
                                             </div>
                                         % endfor
                                     </div>
-                                </td>
+                                    </div>
+                                </div>
+                             </td>
+                <script type="text/javascript">
+                    jQuery('.toggle-sidebar').toggler('#tertiary', function (){
+                        jQuery(window).scrollLeft(
+                            jQuery(document).width() - jQuery(window).width());
+                    });
+                    jQuery('#tertiary').width(400);
+                </script>
                             </tr>
                         </table>
                     </td>
