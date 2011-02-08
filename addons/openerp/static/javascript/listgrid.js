@@ -82,7 +82,7 @@ ListView.prototype = {
         var $sum_fields = jQuery('.field_sum', idSelector(this.name));
         if ($sum_fields.length) {
             selected_ids = (!selected_ids.length
-                    ? this.ids
+                    ? (this.ids || '[]')
                     : '[' + selected_ids.join(',') + ']');
 
             var $sum_span_fields = jQuery('td.grid-cell span', $sum_fields);
@@ -313,7 +313,9 @@ MochiKit.Base.update(ListView.prototype, {
         }
 
         if((drag_record && drop_record) && (drag.attr('id')) == drop.attr('id')) {
-            _list_view.dragRow(drag, drop, view);
+            this.dragRow(
+                drag.attr('record'),
+                drag.prevAll().length);
         }
         else {
             jQuery.ajax({
@@ -328,19 +330,19 @@ MochiKit.Base.update(ListView.prototype, {
         }
     },
 
-    dragRow: function(drag, drop, view) {
-        var _list_view = new ListView(view);
+    dragRow: function(id, to_index) {
         jQuery.ajax({
             url: '/openerp/listgrid/dragRow',
             type: 'POST',
-            data: {'_terp_model': _list_view.model,
-                   '_terp_ids': _list_view.ids,
-                   '_terp_id': jQuery(drag).attr('record'),
-                   '_terp_swap_id': jQuery(drop).attr('record')
+            context: this,
+            data: {'_terp_model': this.model,
+                   '_terp_ids': this.ids,
+                   '_terp_id': id,
+                   '_terp_destination_index': to_index
                   },
             dataType: 'json',
             success: function() {
-                _list_view.reload();
+                this.reload();
             }
         });
     },
@@ -403,6 +405,27 @@ MochiKit.Base.update(ListView.prototype, {
         }
 
         if (evt.which == 13) {
+            /*
+            If field on which [Return] was hit has an onchange, by default
+            onchanges execute after onKeyDown has bubbled up, so the element
+            is not attached to the document anymore and there are two issues:
+                * Onchange call fails because we can't get all the
+                  information needed
+                * Even if onchange calls succeeded, the form is gone so we
+                  can't apply the result of the onchange
+            => explicitly call blur() on the field to force an onchange() event
+               before we save the line. Due to the AJAX_COUNT guard, the save()
+               call *will* wait after onchange() call is done before starting
+               so no problem of concurrent editions of the line conflicting.
+
+               And of course, if the field did not change (or there is no
+               openerp onchange on it), nothing happens, which is what we
+               want.
+
+            NOTE: using Node.blur() instead of jQuery.fn.blur due to
+                  http://bugs.jquery.com/ticket/8148 (see comment 5)
+            */
+            $src[0].blur();
             if ($src.is('.m2o')) {
                 var k = $src.attr('id');
                 k = k.slice(0, k.length - 5);
@@ -445,7 +468,6 @@ MochiKit.Base.update(ListView.prototype, {
     },
 
     onButtonClick: function(name, btype, id, sure, context) {
-
         if (sure && !confirm(sure)) {
             return;
         }
@@ -753,7 +775,7 @@ MochiKit.Base.update(ListView.prototype, {
                         current_id = obj.ids[0];
                     }
                     _terp_id.value = current_id > 0 ? current_id : 'False';
-                    _terp_ids.value = '[' + obj.ids.join(',') + ']';
+                    _terp_ids.value = self.ids = '[' + obj.ids.join(',') + ']';
                     _terp_count.value = obj.count;
                 }
 
