@@ -215,7 +215,7 @@
 				                        jQuery(window).scrollLeft(
 				                            jQuery(document).width() - jQuery(window).width());
 				                    });
-				                    jQuery('#tertiary').width(320);
+				                    jQuery('#tertiary').width(399);
 				                </script>
                             </tr>
                         </table>
