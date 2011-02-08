@@ -159,7 +159,12 @@ td#calOptions {
 td#calOptions dd {
 	padding-left: 0;
 }
-
+.calGantt .grip {
+    background:#EEEEEE url(../images/vertical-grip.png) no-repeat scroll center 2px;
+    width: 5px;
+    height: 27px;
+    cursor:e-resize;
+}
 /**
  * vim: sts=4 st=4 et
  *
