@@ -344,24 +344,16 @@ TreeNode.prototype = {
                 this.eventOnKeyDown = MochiKit.Signal.connect(value, 'onkeydown', this, this.onKeyDown);
 
                 var link = jQuery(value);
+                link.click(function () {
+                    link.parents('tbody.tree-body').find('tr.row').each(function (index, row) {
+                        jQuery(row).removeClass('selected')
+                     });
+                    link.parents('tr.row').addClass('selected');
+                });
                 if (record.action) {
-                    link.attr('href', record.action).click(function () {
-                        link.parents('tbody.tree-body').find('tr.row').each(function (index, row) {
-                            jQuery(row).removeClass('selected')
-                        });
-                        link.parents('tr.row').addClass('selected');
-                        MochiKit.Signal.signal(this.tree, "onaction", this);
-                    });
-                } else if(record.onview_click) {
-					var tree = this.tree;
-					var element = this.element;
-					link.click(function(){
-						if(!element)
-							element = link.parents('tr.row').addClass('selected');
-						window[record.onview_click](element, tree);
-					})
-				} else {
-					var self = this;
+                	link.attr('href', record.action);
+                } else {
+                  	var self = this;
                     link.click(function () {
                         if (jQuery(this).parents('tr.row:first').find('td:first span').is('.collapse, .expand')) {
                             self.toggle();

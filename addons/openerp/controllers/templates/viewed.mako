@@ -2,21 +2,10 @@
 
 <%def name="header()">
     <title>View Editor</title>
-    <script type="text/javascript" src="/openerp/static/javascript/viewed.js"></script>    
+    <script type="text/javascript" src="/openerp/static/javascript/viewed.js"></script>
     <script type="text/javascript" src="/openerp/static/javascript/modalbox.js"></script>
 
-    <link href="/openerp/static/css/modalbox.css" rel="stylesheet" type="text/css"/>
-	<script type="text/javascript">
-		function onViewClick(element, tree) {
-			if(tree.selection) {
-				forEach(tree.selection, function(node) {
-					jQuery(node.element).removeClass('selected');
-        		});
-			}
-			jQuery(element).addClass('selected');
-			
-		}
-	</script>
+    <link href="/openerp/static/css/modalbox.css" rel="stylesheet" type="text/css"/>s
 </%def>
 
 <%def name="content()">
