@@ -322,7 +322,7 @@ class List(SecuredController):
         try:
 
             if btype == 'workflow':
-                res = rpc.session.execute('object', 'exec_workflow', model, name, id)
+                res = rpc.Workflow(model)[name](id)
                 if isinstance(res, dict):
                     import actions
                     return actions.execute(res, ids=[id])
@@ -332,7 +332,7 @@ class List(SecuredController):
             elif btype == 'object':
                 ctx = params.context or {}
                 ctx.update(rpc.session.context.copy())
-                res = rpc.session.execute('object', 'execute', model, name, ids, ctx)
+                res = rpc.RPCProxy(model)[name](ids, ctx)
 
                 if isinstance(res, dict):
                     import actions

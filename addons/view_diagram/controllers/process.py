@@ -44,20 +44,21 @@ class Process(SecuredController):
         fields = rpc.RPCProxy(res_model).fields_get([], rpc.session.context)
 
         help = _('Help: Not Defined')
-        help_ids = rpc.session.execute('object', 'execute', 'ir.actions.act_window', 'search', [('res_model','=',res_model)])
+        ActWindow = rpc.RPCProxy('ir.actions.act_window')
+        help_ids = ActWindow.search([('res_model','=',res_model)])
         for help_id in help_ids:
-            field = rpc.session.execute('object', 'execute', 'ir.actions.act_window', 'read', help_id)
+            field = ActWindow.read(help_id)
             if field['help'] and (field['name'] == title):
                 help = field['help']
 
-        proxy = rpc.RPCProxy('process.process')
+        Process = rpc.RPCProxy('process.process')
         if id:
-            res = proxy.read([id], ['name'], rpc.session.context)[0]
+            res = Process.read([id], ['name'], rpc.session.context)[0]
             process_title = res['name']
         else:
-            selection = proxy.search_by_model(res_model, rpc.session.context)
+            selection = Process.search_by_model(res_model, rpc.session.context)
             if res_model and not selection:
-                selection = proxy.search_by_model(False, rpc.session.context)
+                selection = Process.search_by_model(False, rpc.session.context)
 
             if len(selection) == 1:
                 id, process_title = selection[0]

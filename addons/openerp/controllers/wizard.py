@@ -56,14 +56,14 @@ class Wizard(SecuredController):
         if 'form' not in datas:
             datas['form'] = {}
 
-        wiz_id = params.wiz_id or rpc.session.execute('wizard', 'create', action)
+        wiz_id = params.wiz_id or rpc.Wizard().create(action)
 
         while state != 'end':
 
             ctx = rpc.session.context.copy()
             ctx.update(datas.get('context' or {}) or {})
 
-            res = rpc.session.execute('wizard', 'execute', wiz_id, datas, state, ctx)
+            res = rpc.Wizard().execute(wiz_id, datas, state, ctx)
 
             if 'datas' in res:
                 datas['form'].update(res['datas'])

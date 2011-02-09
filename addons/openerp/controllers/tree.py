@@ -59,9 +59,8 @@ class Tree(SecuredController):
         model = params.model
 
         if view_id:
-            view_base =  rpc.session.execute(
-                    'object', 'execute', 'ir.ui.view', 'read', [view_id],
-                    ['model', 'type'], context)[0]
+            view_base =  rpc.RPCProxy('ir.ui.view').read(
+                    [view_id], ['model', 'type'], context)[0]
             model = view_base['model']
             view = cache.fields_view_get(model, view_id, view_base['type'], context)
         else:

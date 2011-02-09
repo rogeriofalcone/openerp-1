@@ -414,6 +414,9 @@ class RPCProxy(object):
             return self._attrs.setdefault(name, self._func_getter(name))
         return self._attrs[name]
 
+    def __getitem__(self, item):
+        return getattr(self, item)
+
     def __call__(self, *args):
         return self._session.execute('object', 'execute',
                                      self._resource, *args)
@@ -433,6 +436,38 @@ class RPCProxy(object):
         if context is None:
             context = self._session.context
         return self('search', criteria, offset, limit, order, context)
+
+class Workflow(object):
+    def __init__(self, model):
+        self.model = model
+        self.session = session
+    def __call__(self, method, *args):
+        return self.session.execute(
+            'object', 'exec_workflow', self.model, method, *args)
+    def __getattr__(self, method):
+        return lambda *args: self(method, *args)
+    def __getitem__(self, item):
+        return getattr(self, item)
+
+class Wizard(object):
+    def __init__(self):
+        self.session = session
+    def __call__(self, method, *args):
+        return self.session.execute('wizard', method, *args)
+    def create(self, action):
+        return self('create', action)
+    def execute(self, id, data, state, context):
+        return self('execute', id, data, state, context)
+
+class Report(object):
+    def __init__(self):
+        self.session = session
+    def __call__(self, method, *args):
+        return self.session.execute('report', method, *args)
+    def report(self, name, ids, data, ctx):
+        return self('report', name, ids, data, ctx)
+    def report_get(self, id):
+        return self('report_get, id')
 
 def name_get(model, id, context=None):
 

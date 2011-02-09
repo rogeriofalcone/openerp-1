@@ -493,7 +493,7 @@ class Form(SecuredController):
 
     def button_action_workflow(self, name, params):
         model, id, _, _ = self._get_button_infos(params)
-        res = rpc.session.execute('object', 'exec_workflow', model, name, id)
+        res = rpc.Workflow(model)[name](id)
         if isinstance(res, dict):
             import actions
             return actions.execute(res, ids=[id])
@@ -502,7 +502,7 @@ class Form(SecuredController):
     def button_action_object(self, name, params):
         model, id, ids, ctx = self._get_button_infos(params)
 
-        res = rpc.session.execute('object', 'execute', model, name, ids, ctx)
+        res = rpc.RPCProxy(model)[name](ids, ctx)
         # after installation of modules (esp. initial) we may
         # need values from the global context for some contexts & domains (e.g.
         # leads) => installer wizards are generally postfixed by '.installer'
@@ -976,7 +976,7 @@ class Form(SecuredController):
 
         if type is None:
             action_type = rpc.RPCProxy('ir.actions.actions').read(act_id, ['type'], context)['type']
-            action = rpc.session.execute('object', 'execute', action_type, 'read', act_id, False, context)
+            action = rpc.RPCProxy(action_type).read(act_id, False, context)
 
         if domain:
             if isinstance(domain, basestring):
@@ -1202,11 +1202,12 @@ class Form(SecuredController):
         params, data = TinyDict.split(kw)
 
         import actions
+        ModelData = rpc.RPCProxy('ir.model.data')
+        res_model = ModelData.read(
+            ModelData.search(['name', '=', params.action_id]),
+            ['res_id'])
 
-        act_id = rpc.session.execute('object', 'execute', 'ir.model.data', 'search', [('name','=', params.action_id)])
-        res_model = rpc.session.execute('object', 'execute', 'ir.model.data', 'read', act_id, ['res_id'])
-
-        res = rpc.session.execute('object', 'execute', 'ir.actions.act_window', 'read', res_model[0]['res_id'], False)
+        res = rpc.RPCProxy('ir.actions.act_window').read(res_model[0]['res_id'], False)
 
         if res:
             return actions.execute(res, model=params.model, id=params.id, context=rpc.session.context.copy())

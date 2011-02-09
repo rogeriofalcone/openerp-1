@@ -381,7 +381,7 @@ class ICalendar(TinyWidget):
         title = title.strip()
         description = ', '.join(description).strip()
         if isinstance(event['id'], int):
-            event_log = rpc.session.execute('object', 'execute', self.model, 'perm_read', [event['id']])[0]
+            event_log = rpc.RPCProxy(self.model).perm_read([event['id']])[0]
 
             event['create_date'] = event_log['create_date']
             event['create_uid'] = event_log['create_uid'][1]
