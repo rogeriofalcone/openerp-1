@@ -77,7 +77,7 @@ class Graph(TinyWidget):
         name = 'graph_%s' % (random.randint(0,10000))
         super(Graph, self).__init__(name=name, model=model, width=width, height=height)
 
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
         ctx.update(context or {})
         view = view or cache.fields_view_get(model, view_id, 'graph', ctx)
 
@@ -103,7 +103,7 @@ class GraphData(object):
     def __init__(self, model, view=False, view_id=False, ids=[], domain=[], view_mode=[], context={}, group_by=[]):
 
         ctx = {}
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
         ctx.update(context)
 
         view = view or cache.fields_view_get(model, view_id, 'graph', ctx)
@@ -121,7 +121,7 @@ class GraphData(object):
         self.group_by = group_by
         add_grp_field = ''
         if self.group_by and not fields.has_key(self.group_by[0]):
-            add_grp_field = cache.fields_get(self.model, [self.group_by[0]], rpc.session.context)
+            add_grp_field = cache.fields_get(self.model, [self.group_by[0]], rpc.get_session().context)
             fields.update(add_grp_field)
         axis, axis_data, axis_group = self.parse(root, fields)
 
@@ -130,7 +130,7 @@ class GraphData(object):
             axis_data.update(add_grp_field)
         proxy = rpc.RPCProxy(model)
 
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
         ctx.update(context)
         if ids is None:
             ids = proxy.search(domain, 0, 0, 0, ctx)
@@ -359,7 +359,7 @@ class BarChart(GraphData):
     def get_data(self):
 
         result = {}
-        ctx =  rpc.session.context.copy()
+        ctx =  rpc.get_session().context.copy()
         ctx.update(self.context)
         res = super(BarChart, self).get_graph_data()
 
@@ -559,7 +559,7 @@ class PieChart(GraphData):
     def get_data(self):
 
         result = {}
-        ctx =  rpc.session.context.copy()
+        ctx =  rpc.get_session().context.copy()
 
         res = super(PieChart, self).get_graph_data()
 

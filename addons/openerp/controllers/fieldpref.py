@@ -47,7 +47,7 @@ class FieldPref(SecuredController):
         pctx = TinyForm(**kw).to_python(safe=True)
         ctx = pctx.chain_get(prefix) or pctx
 
-        fields = rpc.RPCProxy(params.model).fields_get(False, rpc.session.context)
+        fields = rpc.RPCProxy(params.model).fields_get(False, rpc.get_session().context)
 
         if field not in fields:
             return {}

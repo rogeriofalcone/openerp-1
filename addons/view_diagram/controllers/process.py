@@ -41,7 +41,7 @@ class Process(SecuredController):
         selection = None
         process_title = None
 
-        fields = rpc.RPCProxy(res_model).fields_get([], rpc.session.context)
+        fields = rpc.RPCProxy(res_model).fields_get([], rpc.get_session().context)
 
         help = _('Help: Not Defined')
         ActWindow = rpc.RPCProxy('ir.actions.act_window')
@@ -53,19 +53,19 @@ class Process(SecuredController):
 
         Process = rpc.RPCProxy('process.process')
         if id:
-            res = Process.read([id], ['name'], rpc.session.context)[0]
+            res = Process.read([id], ['name'], rpc.get_session().context)[0]
             process_title = res['name']
         else:
-            selection = Process.search_by_model(res_model, rpc.session.context)
+            selection = Process.search_by_model(res_model, rpc.get_session().context)
             if res_model and not selection:
-                selection = Process.search_by_model(False, rpc.session.context)
+                selection = Process.search_by_model(False, rpc.get_session().context)
 
             if len(selection) == 1:
                 id, process_title = selection[0]
                 selection = None
 
         from openobject import release
-        lang = rpc.session.context.get('lang','en_US')
+        lang = rpc.get_session().context.get('lang','en_US')
         context_help = 'http://doc.openerp.com/index.php?model=%s&lang=%s&version=%s' % (res_model, lang, release.version)
         edit_process_url = ('/openerp/form/edit?'+urllib.urlencode({'model': 'process.process', 'id': id}))
         edit_process_url =  '/?' + urllib.urlencode({'next': edit_process_url})
@@ -81,9 +81,9 @@ class Process(SecuredController):
         res_id = eval(str(res_id))
 
         proxy = rpc.RPCProxy('process.process')
-        graph = proxy.graph_get(id, res_model, res_id, (80, 80, 150, 100), rpc.session.context)
+        graph = proxy.graph_get(id, res_model, res_id, (80, 80, 150, 100), rpc.get_session().context)
 
-        related = (res_model or None) and proxy.search_by_model(res_model, rpc.session.context)
+        related = (res_model or None) and proxy.search_by_model(res_model, rpc.get_session().context)
         graph['related'] = dict(related or {})
 
         if graph.get('resource'):

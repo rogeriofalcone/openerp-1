@@ -94,7 +94,7 @@ class TinyCalendar(Form):
 
         error = None
 
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
         ctx.update(params.context or {})
         ctx = context_with_concurrency_info(ctx, params.concurrency_info)
 
@@ -136,7 +136,7 @@ class TinyCalendar(Form):
 
             data[params.fields['date_delay']['name']] = n
 
-        ctx = dict(rpc.session.context,
+        ctx = dict(rpc.get_session().context,
                    **(params.context or {}))
         ctx = context_with_concurrency_info(ctx, params.concurrency_info)
 
@@ -181,7 +181,7 @@ class TinyCalendar(Form):
             }]
 
         proxy = rpc.RPCProxy(model)
-        ctx = dict(rpc.session.context)
+        ctx = dict(rpc.get_session().context)
 
         records = []
         for id in ids:
@@ -219,7 +219,7 @@ class TinyCalendar(Form):
         level = params.level
         level_value = params.level_value
 
-        fields = cache.fields_get(model, [], rpc.session.context)
+        fields = cache.fields_get(model, [], rpc.get_session().context)
 
         proxy = rpc.RPCProxy(model)
         if id and level and level_value:

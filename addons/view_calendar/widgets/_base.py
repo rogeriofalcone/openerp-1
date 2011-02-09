@@ -167,7 +167,7 @@ class ICalendar(TinyWidget):
 
         fields = list(set([x for x in fields if x]))
 
-        self.fields = cache.fields_get(model, fields, rpc.session.context)
+        self.fields = cache.fields_get(model, fields, rpc.get_session().context)
 
         if self.color_field and options and options.colors:
             self.colors = options.colors
@@ -245,7 +245,7 @@ class ICalendar(TinyWidget):
         if self.options and self.options.use_search:
             domain += self.options.search_domain
 
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
         ctx.update(self.context)
 
         order_by = ('sequence' in self.fields or 0) and 'sequence'

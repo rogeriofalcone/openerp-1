@@ -47,7 +47,7 @@ class Root(SecuredController):
         """Index page, loads the view defined by `action_id`.
         """
         if not next:
-            user_action_id = rpc.RPCProxy("res.users").read([rpc.session.uid], ['action_id'], rpc.session.context)[0]['action_id']
+            user_action_id = rpc.RPCProxy("res.users").read([rpc.get_session().uid], ['action_id'], rpc.get_session().context)[0]['action_id']
             if user_action_id:
                 next = '/openerp/home'
         if active:
@@ -56,7 +56,7 @@ class Root(SecuredController):
     
     @expose()
     def home(self):
-        user_action_id = rpc.RPCProxy("res.users").read([rpc.session.uid], ['action_id'], rpc.session.context)[0]['action_id']
+        user_action_id = rpc.RPCProxy("res.users").read([rpc.get_session().uid], ['action_id'], rpc.get_session().context)[0]['action_id']
         if user_action_id:
             from openerp import controllers
             return controllers.actions.execute_by_id(user_action_id[0], home_action=True)
@@ -70,11 +70,11 @@ class Root(SecuredController):
     @expose()
     def custom_action(self, action):
         menu_ids = rpc.RPCProxy('ir.ui.menu').search(
-                [('id', '=', int(action))], 0, 0, 0, rpc.session.context)
+                [('id', '=', int(action))], 0, 0, 0, rpc.get_session().context)
 
         return actions.execute_by_keyword(
                 'tree_but_open', model='ir.ui.menu', id=menu_ids[0], ids=menu_ids,
-                context=rpc.session.context, report_type='pdf')
+                context=rpc.get_session().context, report_type='pdf')
 
     @expose()
     def info(self):
@@ -98,7 +98,7 @@ class Root(SecuredController):
         except:
             id = False
             form.Form().reset_notebooks()
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
         menus = rpc.RPCProxy("ir.ui.menu")
         ids = menus.search([('parent_id', '=', False)], 0, 0, 0, ctx)
         parents = menus.read(ids, ['name', 'action', 'web_icon_data', 'web_icon_hover_data'], ctx)
@@ -135,7 +135,7 @@ class Root(SecuredController):
 
         return dict(parents=parents, tools=tools, load_content=(next and next or ''),
                     welcome_messages=rpc.RPCProxy('publisher_warranty.contract').get_last_user_messages(_MAXIMUM_NUMBER_WELCOME_MESSAGES),
-                    show_close_btn=rpc.session.uid == 1,
+                    show_close_btn=rpc.get_session().uid == 1,
                     widgets=openobject.pooler.get_pool()\
                                       .get_controller('/openerp/widgets')\
                                       .user_home_widgets(ctx))
@@ -146,7 +146,7 @@ class Root(SecuredController):
         location = url(location or '/', kw or {})
 
         if cherrypy.request.params.get('tg_format') == 'json':
-            if rpc.session.login(db, user, password) > 0:
+            if rpc.get_session().login(db, user, password) > 0:
                 return dict(result=1)
             return dict(result=0)
 
@@ -161,7 +161,7 @@ class Root(SecuredController):
     def logout(self):
         """ Logout method, will terminate the current session.
         """
-        rpc.session.logout()
+        rpc.get_session().logout()
         raise redirect('/')
 
     @expose(template="/openerp/controllers/templates/about.mako")

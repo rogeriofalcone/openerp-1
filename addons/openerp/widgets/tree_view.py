@@ -58,7 +58,7 @@ class ViewTree(Form):
         proxy = rpc.RPCProxy(self.model)
 
         ctx = dict(self.context,
-                   **rpc.session.context)
+                   **rpc.get_session().context)
                 
         dom = xml.dom.minidom.parseString(view['arch'].encode('utf-8'))
 

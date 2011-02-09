@@ -49,7 +49,7 @@ class Search(Form):
         form.screen.widget.show_links = 0
         if params.get('return_to'):
             proxy = rpc.RPCProxy(params.model)
-            records = proxy.read(params.ids, ['name'], rpc.session.context)
+            records = proxy.read(params.ids, ['name'], rpc.get_session().context)
             params['grp_records'] = records
         return dict(form=form, params=params, form_name = form.screen.widget.name)
 
@@ -75,7 +75,7 @@ class Search(Form):
         params.selectable = kind
         params.limit = params.limit or 50
 
-        ctx = dict(rpc.session.context,
+        ctx = dict(rpc.get_session().context,
                    **(params.context or {}))
         params.ids = []
         proxy = rpc.RPCProxy(model)
@@ -110,7 +110,7 @@ class Search(Form):
         context = params.context or {}
         params.context = params.context or {}
         parent_context = dict(params.parent_context or {},
-                              **rpc.session.context)
+                              **rpc.get_session().context)
         parent_context = self.context_get(params.context, params.parent_context) or {}
         if 'group_by' in parent_context:
             if isinstance(params.group_by, str):
@@ -196,7 +196,7 @@ class Search(Form):
         record = eval(record)
         proxy = rpc.RPCProxy(model)
         data = {}
-        res = proxy.fields_get(False, rpc.session.context)
+        res = proxy.fields_get(False, rpc.get_session().context)
 
         all_values = {}
         errors = []
@@ -259,7 +259,7 @@ class Search(Form):
             v = int(value)
         ctx = expr_eval(c, {'self':v})
 
-        context = rpc.session.context
+        context = rpc.get_session().context
         if ctx:
             ctx.update(context)
 
@@ -363,9 +363,9 @@ class Search(Form):
                  'type':'ir.actions.act_window',
                  'view_type':'form',
                  'view_mode':'tree,form',
-                 'domain':'[(\'model_id\',\'=\',\''+kw.get('model')+'\'),(\'user_id\',\'=\','+str(rpc.session.uid)+')]'}
+                 'domain':'[(\'model_id\',\'=\',\''+kw.get('model')+'\'),(\'user_id\',\'=\','+str(rpc.get_session().uid)+')]'}
 
-        return actions.execute(act, context=rpc.session.context)
+        return actions.execute(act, context=rpc.get_session().context)
 
     @expose(template="/openerp/controllers/templates/save_filter.mako")
     def save_filter(self, **kw):
@@ -409,9 +409,9 @@ class Search(Form):
                 'model_id':model,
                 'domain':domain,
                 'context':str(context),
-                'user_id':rpc.session.uid
+                'user_id':rpc.get_session().uid
             }
-            result = rpc.RPCProxy('ir.filters').create_or_replace(datas, rpc.session.context)
+            result = rpc.RPCProxy('ir.filters').create_or_replace(datas, rpc.get_session().context)
             return {'filter': (domain, name, group_by), 'new_id':result}
         return {}
 
@@ -424,13 +424,13 @@ class Search(Form):
 
     @expose('json')
     def get_name(self, model, id):
-        return dict(name=rpc.name_get(model, id, rpc.session.context))
+        return dict(name=rpc.name_get(model, id, rpc.get_session().context))
 
     @expose('json')
     def get_matched(self, model, text, limit=10, **kw):
         params, data = TinyDict.split(kw)
 
-        ctx = dict(rpc.session.context,
+        ctx = dict(rpc.get_session().context,
                    **(params.context or {}))
 
         try:

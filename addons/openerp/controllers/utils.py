@@ -34,12 +34,12 @@ __all__ = ["secured", "unsecured", "login"]
 @expose(template="/openerp/controllers/templates/login.mako")
 def login(target, db=None, user=None, password=None, action=None, message=None, origArgs={}):
 
-    url = rpc.session.connection_string
+    url = rpc.get_session().connection_string
     url = str(url[:-1])
 
     dblist = []
     try:
-        dblist = rpc.session.listdb()
+        dblist = rpc.get_session().listdb()
     except:
         message = _("Could not connect to server")
 
@@ -74,7 +74,7 @@ def login(target, db=None, user=None, password=None, action=None, message=None, 
 
     info = None
     try:
-        info = rpc.session.execute_noauth('common', 'login_message') or ''
+        info = rpc.get_session().execute_noauth('common', 'login_message') or ''
     except:
         pass
     return dict(target=target, url=url, dblist=dblist, db=db, user=user, password=password,
@@ -106,7 +106,7 @@ def secured(fn):
         """The wrapper function to secure exposed methods
         """
 
-        if rpc.session.is_logged() and kw.get('login_action') != 'login':
+        if rpc.get_session().is_logged() and kw.get('login_action') != 'login':
             # User is logged in; allow access
             clear_login_fields(kw)
             return fn(*args, **kw)
@@ -125,7 +125,7 @@ def secured(fn):
             password = kw.get('password', '')
 
             # See if the user just tried to log in
-            if rpc.session.login(db, user, password) <= 0:
+            if rpc.get_session().login(db, user, password) <= 0:
                 # Bad login attempt
                 if action == 'login':
                     message = _("Bad username or password")

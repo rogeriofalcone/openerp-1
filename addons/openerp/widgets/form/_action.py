@@ -41,11 +41,11 @@ class Action(TinyInputWidget):
         self.act_id= self.name
         
         proxy = rpc.RPCProxy("ir.actions.actions")
-        res = proxy.read([self.act_id], ['type'], rpc.session.context)
+        res = proxy.read([self.act_id], ['type'], rpc.get_session().context)
         if not res:
             raise _('Action not found!')
 
-        self.action = rpc.RPCProxy(res[0]['type']).read([self.act_id], False, rpc.session.context)[0]
+        self.action = rpc.RPCProxy(res[0]['type']).read([self.act_id], False, rpc.get_session().context)[0]
 
         if 'view_mode' in attrs:
             self.action['view_mode'] = attrs['view_mode']
@@ -55,7 +55,7 @@ class Action(TinyInputWidget):
             if not self.action.get('domain', False):
                 self.action['domain']='[]'
 
-            ctx = dict(rpc.session.context,
+            ctx = dict(rpc.get_session().context,
                        active_id=False,
                        active_ids=[])
 

@@ -38,7 +38,7 @@ class Shortcuts(SecuredController):
         Returns only the id of the resource, not the retrieved (id, name_get())
         '''
         shortcuts = rpc.RPCProxy('ir.ui.view_sc')\
-            .get_sc(rpc.session.uid, 'ir.ui.menu', rpc.session.context) or []
+            .get_sc(rpc.get_session().uid, 'ir.ui.menu', rpc.get_session().context) or []
         for shortcut in shortcuts:
             # if res_id is (id, name), only keep id
             if isinstance(shortcut['res_id'], (list, tuple)):
@@ -58,7 +58,7 @@ class Shortcuts(SecuredController):
             for shortcut in self.list()])
 
     def my(self):
-        if not rpc.session.is_logged():
+        if not rpc.get_session().is_logged():
             return []
         # return the shortcuts we have in session, or if none
         # (empty list or no list at all) go fetch them from the server
@@ -67,7 +67,7 @@ class Shortcuts(SecuredController):
     @expose()
     def default(self):
         import actions
-        domain = [('user_id', '=', rpc.session.uid), ('resource', '=', 'ir.ui.menu')]
+        domain = [('user_id', '=', rpc.get_session().uid), ('resource', '=', 'ir.ui.menu')]
         return actions.execute_window(False, 'ir.ui.view_sc', res_id=None, domain=domain, view_type='form', mode='tree,form')
 
     @expose('json')
@@ -79,8 +79,8 @@ class Shortcuts(SecuredController):
         id = int(id)
 
         if not self.by_res_id().get(id):
-            name = rpc.RPCProxy('ir.ui.menu').name_get([id], rpc.session.context)[0][1]
-            rpc.RPCProxy('ir.ui.view_sc').create({'user_id': rpc.session.uid, 'res_id': id, 'resource': 'ir.ui.menu', 'name': name})
+            name = rpc.RPCProxy('ir.ui.menu').name_get([id], rpc.get_session().context)[0][1]
+            rpc.RPCProxy('ir.ui.view_sc').create({'user_id': rpc.get_session().uid, 'res_id': id, 'resource': 'ir.ui.menu', 'name': name})
             self.refresh_session()
 
         raise redirect('/openerp/tree/open', id=id, model='ir.ui.menu')

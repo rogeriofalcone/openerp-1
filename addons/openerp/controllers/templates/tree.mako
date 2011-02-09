@@ -4,7 +4,7 @@
     <script type="text/javascript" src="/openerp/static/javascript/treeview.js"></script>
     
     <script type="text/javascript">
-        var RESOURCE_ID = '${rpc.session.active_id}';
+        var RESOURCE_ID = '${rpc.get_session().active_id}';
     </script>
     
     % if can_shortcut:
@@ -19,7 +19,7 @@
 <%def name="content()">
     <%
         if can_shortcut:
-            if rpc.session.active_id in shortcut_ids:
+            if rpc.get_session().active_id in shortcut_ids:
                 shortcut_class = "shortcut-remove"
             else:
                 shortcut_class = "shortcut-add"

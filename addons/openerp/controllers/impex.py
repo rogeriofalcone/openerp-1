@@ -34,7 +34,7 @@ from openobject.tools import expose, redirect, ast
 
 
 def datas_read(ids, model, flds, context=None):
-    ctx = dict((context or {}), **rpc.session.context)
+    ctx = dict((context or {}), **rpc.get_session().context)
     return rpc.RPCProxy(model).export_data(ids, flds, ctx)
 
 def export_csv(fields, result):
@@ -110,7 +110,7 @@ class ImpEx(SecuredController):
     def exp(self, import_compat="1", **kw):
 
         params, data = TinyDict.split(kw)
-        ctx = dict((params.context or {}), **rpc.session.context)
+        ctx = dict((params.context or {}), **rpc.get_session().context)
 
         views = {}
         if params.view_mode and params.view_ids:
@@ -184,7 +184,7 @@ class ImpEx(SecuredController):
         except:
             ctx = {}
 
-        ctx.update(**rpc.session.context)
+        ctx.update(**rpc.get_session().context)
 
         try:
             views = ast.literal_eval(kw['views'])
@@ -245,7 +245,7 @@ class ImpEx(SecuredController):
                 if import_compat or is_importing:
                     ref = value.pop('relation')
                     proxy = rpc.RPCProxy(ref)
-                    cfields = proxy.fields_get(False, rpc.session.context)
+                    cfields = proxy.fields_get(False, rpc.get_session().context)
                     if (value['type'] == 'many2many') and not is_importing:
                         record['children'] = None
                         record['params'] = {'model': ref, 'prefix': id, 'name': nm}
@@ -277,7 +277,7 @@ class ImpEx(SecuredController):
                 else:
                     ref = value.pop('relation')
                     proxy = rpc.RPCProxy(ref)
-                    cfields = proxy.fields_get(False, rpc.session.context)
+                    cfields = proxy.fields_get(False, rpc.get_session().context)
                     cfields_order = cfields.keys()
                     cfields_order.sort(lambda x,y: -cmp(cfields[x].get('string', ''), cfields[y].get('string', '')))
                     children = []
@@ -298,7 +298,7 @@ class ImpEx(SecuredController):
 
         params, data = TinyDict.split(kw)
 
-        ctx = dict((params.context or {}), **rpc.session.context)
+        ctx = dict((params.context or {}), **rpc.get_session().context)
 
         id = params.id
 
@@ -322,7 +322,7 @@ class ImpEx(SecuredController):
 
         fields_data = {}
         proxy = rpc.RPCProxy(model)
-        fields = proxy.fields_get(False, rpc.session.context)
+        fields = proxy.fields_get(False, rpc.get_session().context)
 
         # XXX: in GTK client, top fields comes from Screen
         if not ids:
@@ -370,7 +370,7 @@ class ImpEx(SecuredController):
             flds = [fields]
 
 
-        ctx = dict((params.context or {}), **rpc.session.context)
+        ctx = dict((params.context or {}), **rpc.get_session().context)
         ctx['import_comp'] = bool(int(import_compat))
 
         domain = params.seach_domain or []
@@ -392,7 +392,7 @@ class ImpEx(SecuredController):
     def imp(self, error=None, records=None, success=None, **kw):
         params, data = TinyDict.split(kw)
 
-        ctx = dict((params.context or {}), **rpc.session.context)
+        ctx = dict((params.context or {}), **rpc.get_session().context)
 
         views = {}
         if params.view_mode and params.view_ids:
@@ -422,7 +422,7 @@ class ImpEx(SecuredController):
         _fields_invert = {}
         error = None
 
-        fields = dict(rpc.RPCProxy(params.model).fields_get(False, rpc.session.context))
+        fields = dict(rpc.RPCProxy(params.model).fields_get(False, rpc.get_session().context))
         fields.update({'id': {'string': 'ID'}, '.id': {'string': 'Database ID'}})
 
         def model_populate(fields, prefix_node='', prefix=None, prefix_value='', level=2):
@@ -518,7 +518,7 @@ class ImpEx(SecuredController):
                 **kw)
 
         datas = []
-        ctx = dict(rpc.session.context)
+        ctx = dict(rpc.get_session().context)
 
         if not isinstance(fields, list):
             fields = [fields]

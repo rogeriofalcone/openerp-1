@@ -105,7 +105,7 @@ class OpenO2M(Form):
         if pprefix:
             data = eval(pprefix, TinyDict(**data)).make_dict()
 
-        ctx = context_with_concurrency_info(rpc.session.context, params.concurrency_info)
+        ctx = context_with_concurrency_info(rpc.get_session().context, params.concurrency_info)
         ctx.update(params.parent_context or {})
         ctx.update(params.o2m_context or {})
 

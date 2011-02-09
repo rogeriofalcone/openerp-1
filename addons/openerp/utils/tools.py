@@ -40,7 +40,7 @@ import rpc
 
 def expr_eval(string, context=None):
     context = dict(context or {},
-                   uid=rpc.session.uid,
+                   uid=rpc.get_session().uid,
                    current_date=time.strftime('%Y-%m-%d'),
                    time=time,
                    datetime=datetime,

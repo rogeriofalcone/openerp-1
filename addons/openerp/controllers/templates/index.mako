@@ -227,7 +227,7 @@
                     % if cp.config('server.environment') == 'development':
                         <div class="footer-a">
                             <p class="one">
-                                <span>${rpc.session.protocol}://${_("%(user)s", user=rpc.session.loginname)}@${rpc.session.host}:${rpc.session.port}</span>
+                                <span>${rpc.get_session().protocol}://${_("%(user)s", user=rpc.get_session().loginname)}@${rpc.get_session().host}:${rpc.get_session().port}</span>
                                 <span>${cp.locale()}</span>
                             </p>
                             <p class="powered">${_("Powered by %(openerp)s ",

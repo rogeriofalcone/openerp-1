@@ -175,7 +175,7 @@ class List(TinyWidget):
 
         if ids and len(ids) > 0:
 
-            ctx = rpc.session.context.copy()
+            ctx = rpc.get_session().context.copy()
             ctx.update(context)
             
             try:    
@@ -264,7 +264,7 @@ class List(TinyWidget):
         if not (self.editors and self.edit_inline):
             return super(List, self).display(value, **params)
 
-        ctx = dict(rpc.session.context,
+        ctx = dict(rpc.get_session().context,
                    **self.context)
 
         fields = [name for name, _ in chain(self.headers, self.hiddens)]
@@ -409,7 +409,7 @@ class List(TinyWidget):
                         for color, expr in self.colors.items():
                             try:
                                 if expr_eval(expr,
-                                     dict(row_value, active_id=rpc.session.active_id or False)):
+                                     dict(row_value, active_id=rpc.get_session().active_id or False)):
                                     cell.color = color
                                     break
                             except:
@@ -464,7 +464,7 @@ class M2O(Char):
     def get_text(self):
 
         if isinstance(self.value, int):
-            self.value = self.value, rpc.name_get(self.attrs['relation'], self.value, rpc.session.context)
+            self.value = self.value, rpc.name_get(self.attrs['relation'], self.value, rpc.get_session().context)
 
         if self.value and len(self.value) > 0:
             if isinstance(self.value, (tuple, list)):

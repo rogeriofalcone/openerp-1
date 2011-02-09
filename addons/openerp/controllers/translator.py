@@ -41,7 +41,7 @@ class Translator(SecuredController):
     def index(self, translate='fields', **kw):
         params, data = TinyDict.split(kw)
         
-        ctx = dict((params.context or {}), **rpc.session.context)
+        ctx = dict((params.context or {}), **rpc.get_session().context)
         params['context'] = ustr(ctx)
 
         proxy = rpc.RPCProxy('res.lang')
@@ -127,7 +127,7 @@ class Translator(SecuredController):
     def save(self, translate='fields', **kw):
         params, data = TinyDict.split(kw)
         
-        ctx = dict((params.context or {}), **rpc.session.context)
+        ctx = dict((params.context or {}), **rpc.get_session().context)
         params['context'] = ustr(ctx)
 
         if translate == 'fields':

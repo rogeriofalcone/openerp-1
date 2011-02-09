@@ -30,7 +30,7 @@ import rpc
 __cache = LRUCache(cherrypy.config.get('server.db_cache_size', 8))
 
 def clear():
-    __cache.pop(rpc.session.db, None)
+    __cache.pop(rpc.get_session().db, None)
 
 def memoize(limit=100, force=False):
 
@@ -44,7 +44,7 @@ def memoize(limit=100, force=False):
         @functools.wraps(func)
         def func_wrapper(*args, **kwargs):
 
-            store = __cache.setdefault(rpc.session.db, {}).setdefault(func_name, LRUCache(limit))
+            store = __cache.setdefault(rpc.get_session().db, {}).setdefault(func_name, LRUCache(limit))
 
             key = cPickle.dumps((args, kwargs))
             if key not in store:
@@ -59,14 +59,14 @@ def __fields_view_get(model, view_id, view_type, context, hastoolbar, hassubmenu
     return rpc.RPCProxy(model).fields_view_get(view_id, view_type, context, hastoolbar, hassubmenu)
 
 def fields_view_get(model, view_id, view_type, context, hastoolbar=False, hassubmenu=False):
-    return __fields_view_get(model, view_id, view_type, context, hastoolbar=hastoolbar, hassubmenu=hassubmenu, uid=rpc.session.uid)
+    return __fields_view_get(model, view_id, view_type, context, hastoolbar=hastoolbar, hassubmenu=hassubmenu, uid=rpc.get_session().uid)
 
 @memoize(1000)
 def __fields_get(model, fields, context, uid):
     return rpc.RPCProxy(model).fields_get(fields, context)
 
 def fields_get(model, fields, context):
-    return __fields_get(model, fields, context, uid=rpc.session.uid)
+    return __fields_get(model, fields, context, uid=rpc.get_session().uid)
 
 @memoize(1000)
 def __can_write(model, uid):
@@ -78,7 +78,7 @@ def __can_write(model, uid):
     return False
 
 def can_write(model):
-    return __can_write(model, uid=rpc.session.uid)
+    return __can_write(model, uid=rpc.get_session().uid)
 
 @memoize(1000)
 def __can_read(model, uid):
@@ -90,6 +90,6 @@ def __can_read(model, uid):
     return False
 
 def can_read(model):
-    return __can_read(model, uid=rpc.session.uid)
+    return __can_read(model, uid=rpc.get_session().uid)
 
 # vim: ts=4 sts=4 sw=4 si et

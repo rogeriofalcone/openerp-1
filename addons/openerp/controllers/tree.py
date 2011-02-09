@@ -100,8 +100,8 @@ class Tree(SecuredController):
         execute()d actions concerning ir.ui.menu. And trees, just because
         """
         action_data = cherrypy.request.params.get('data', {})
-        return (rpc.session.is_logged() and
-                rpc.session.active_id and
+        return (rpc.get_session().is_logged() and
+                rpc.get_session().active_id and
                 ((cherrypy.request.path_info == '/openerp/execute'
                   and action_data.get('model') == 'ir.ui.menu')
                 # FIXME: hack hack hack
@@ -168,7 +168,7 @@ class Tree(SecuredController):
         proxy = rpc.RPCProxy(model)
 
         ctx = dict(context,
-                   **rpc.session.context)
+                   **rpc.get_session().context)
 
         if icon_name:
             fields.append(icon_name)
@@ -226,7 +226,7 @@ class Tree(SecuredController):
         context = params._terp_context or {}
         ids = data.get('ids') or []
 
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
         ctx.update(context)
 
         if ids:

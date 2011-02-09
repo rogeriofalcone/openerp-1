@@ -83,7 +83,7 @@ def search(model, offset=0, limit=50, domain=[], context={}, data={}):
     data = data or {}
 
     proxy = rpc.RPCProxy(model)
-    fields = proxy.fields_get([], rpc.session.context)
+    fields = proxy.fields_get([], rpc.get_session().context)
 
     search_domain = domain[:]
     search_data = {}
@@ -102,7 +102,7 @@ def search(model, offset=0, limit=50, domain=[], context={}, data={}):
     if l < 1: l = 50
     if o < 0: o = 0
 
-    ctx = rpc.session.context.copy()
+    ctx = rpc.get_session().context.copy()
     ctx.update(context)
 
     ids = proxy.search(search_domain, o, l, 0, ctx)
@@ -246,7 +246,7 @@ class Form(SecuredController):
                     display_name = {'field': form.screen.view['fields']['name']['string'], 'value': ustr(form.screen.view['fields']['name']['value'])}
                     title= ustr(display_name['field']) + ':' + ustr(display_name['value'])
         elif params.view_type == 'diagram':
-            display_name = {'field': form.screen.view['fields']['name']['string'], 'value': rpc.RPCProxy(params.model).name_get(form.screen.id, rpc.session.context)[0][1]}
+            display_name = {'field': form.screen.view['fields']['name']['string'], 'value': rpc.RPCProxy(params.model).name_get(form.screen.id, rpc.get_session().context)[0][1]}
 
         # For Corporate Intelligence visibility.
         obj_process = rpc.RPCProxy('ir.model').search([('model', '=', 'process.process')]) or None
@@ -260,7 +260,7 @@ class Form(SecuredController):
 
     @expose('json', methods=('POST',))
     def close_or_disable_tips(self):
-        rpc.RPCProxy('res.users').write(rpc.session.uid,{'menu_tips':False}, rpc.session.context)
+        rpc.RPCProxy('res.users').write(rpc.get_session().uid,{'menu_tips':False}, rpc.get_session().context)
 
     def _read_form(self, context, count, domain, filter_domain, id, ids, kw,
                    limit, model, offset, search_data, search_domain, source,
@@ -398,7 +398,7 @@ class Form(SecuredController):
 
                 if params.default_o2m:
                     data.update(params.default_o2m)
-                ctx = dict((params.context or {}), **rpc.session.context)
+                ctx = dict((params.context or {}), **rpc.get_session().context)
                 params.id = int(Model.create(data, ctx))
                 params.ids = (params.ids or []) + [params.id]
                 params.count += 1
@@ -508,7 +508,7 @@ class Form(SecuredController):
         # leads) => installer wizards are generally postfixed by '.installer'
         # so use this characteristic to setup context reloads
         if model.endswith('.installer'):
-            rpc.session.context_reload()
+            rpc.get_session().context_reload()
         if isinstance(res, dict):
             import actions
             return actions.execute(res, ids=[id], context=ctx)
@@ -546,7 +546,7 @@ class Form(SecuredController):
         id = params.button.id or params.id
         id = (id or False) and (id)
         ids = (id or []) and [id]
-        ctx = dict((params.context or {}), **rpc.session.context)
+        ctx = dict((params.context or {}), **rpc.get_session().context)
         ctx.update(params.button.context or {})
         return model, id, ids, ctx
 
@@ -649,7 +649,7 @@ class Form(SecuredController):
         
         elif params.id:
             proxy = rpc.RPCProxy(params.model)
-            res = proxy.read([params.id],[params.field], rpc.session.context)
+            res = proxy.read([params.id],[params.field], rpc.get_session().context)
             return base64.decodestring(res[0][params.field])
         else:
             return base64.decodestring(data[params.field])
@@ -731,7 +731,7 @@ class Form(SecuredController):
     def filter(self, **kw):
         params, data = TinyDict.split(kw)
         if params.get('_terp_save_current_id'):
-            ctx = dict((params.context or {}), **rpc.session.context)
+            ctx = dict((params.context or {}), **rpc.get_session().context)
             if params.id:
                 rpc.RPCProxy(params.model).write([params.id], data, ctx)
             else:
@@ -782,7 +782,7 @@ class Form(SecuredController):
                 data = params.search_data
 
             ctx = params.context or {}
-            ctx.update(rpc.session.context.copy())
+            ctx.update(rpc.get_session().context.copy())
             res = search(params.model, o, l, domain=domain, context=ctx, data=data)
 
             o = res['offset']
@@ -854,7 +854,7 @@ class Form(SecuredController):
         params, data = TinyDict.split(kw)
         
         if params.get('_terp_save_current_id'):
-            ctx = dict((params.context or {}), **rpc.session.context)
+            ctx = dict((params.context or {}), **rpc.get_session().context)
             if params.id:
                 rpc.RPCProxy(params.model).write([params.id], data, ctx)
             else:
@@ -910,7 +910,7 @@ class Form(SecuredController):
     def switch(self, **kw):
         params, data = TinyDict.split(kw)
         if params.get('_terp_save_current_id'):
-            ctx = dict((params.context or {}), **rpc.session.context)
+            ctx = dict((params.context or {}), **rpc.get_session().context)
             if params.id:
                 rpc.RPCProxy(params.model).write([params.id], data, ctx)
             else:
@@ -1037,7 +1037,7 @@ class Form(SecuredController):
                 pprefix = prefix.rsplit('/', 1)[0]
                 pctx = pctx.chain_get(pprefix)
 
-        ctx2 = dict(rpc.session.context,
+        ctx2 = dict(rpc.get_session().context,
                     **context or {})
 
         ctx['parent'] = pctx
@@ -1132,7 +1132,7 @@ class Form(SecuredController):
             actions = [{'text': _('Action'), 'relation': relation, 'field': field, 'action': act and "do_action(this, true)"},
                        {'text': _('Report'), 'action': act and "do_report('%s', '%s')" %(field, relation)}]
             
-            res = rpc.RPCProxy('ir.values').get('action', 'client_action_relate', [(relation, False)], False, rpc.session.context)
+            res = rpc.RPCProxy('ir.values').get('action', 'client_action_relate', [(relation, False)], False, rpc.get_session().context)
             res = [x[2] for x in res]
 
             for x in res:
@@ -1167,7 +1167,7 @@ class Form(SecuredController):
     def change_default_get(self, **kw):
         params, data = TinyDict.split(kw)
 
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
         ctx.update(params.context or {})
 
         model = params.model
@@ -1190,8 +1190,8 @@ class Form(SecuredController):
         execute()d actions concerning ir.ui.menu. And trees, just because
         """
         action_data = cherrypy.request.params.get('data', {})
-        return (rpc.session.is_logged() and
-                rpc.session.active_id and
+        return (rpc.get_session().is_logged() and
+                rpc.get_session().active_id and
                 ((cherrypy.request.path_info == '/openerp/execute'
                   and action_data.get('model') == 'ir.ui.menu')
                 # FIXME: hack hack hack
@@ -1210,7 +1210,7 @@ class Form(SecuredController):
         res = rpc.RPCProxy('ir.actions.act_window').read(res_model[0]['res_id'], False)
 
         if res:
-            return actions.execute(res, model=params.model, id=params.id, context=rpc.session.context.copy())
+            return actions.execute(res, model=params.model, id=params.id, context=rpc.get_session().context.copy())
 
 # vim: ts=4 sts=4 sw=4 si et
 

@@ -134,7 +134,7 @@ class List(SecuredController):
     def get_m2m(self, name, model, view_id, view_type, ids):
         view_id = ast.literal_eval(view_id) or False
         ids = ast.literal_eval(ids) or []
-        view = cache.fields_view_get(model, view_id, view_type, rpc.session.context)
+        view = cache.fields_view_get(model, view_id, view_type, rpc.get_session().context)
 
         m2m_view = listgrid.List(name, model, view, ids,limit=20, editable=True, m2m=1)
         m2m_view = ustr(m2m_view.render())
@@ -153,7 +153,7 @@ class List(SecuredController):
         view_id = view_id or False
         o2m_view_id = ast.literal_eval(o2m_view_id) or False
         o2m_view_type = o2m_view_type or 'form'
-        context = dict(ast.literal_eval(o2m_context), **rpc.session.context)
+        context = dict(ast.literal_eval(o2m_context), **rpc.get_session().context)
         o2m_values = simplejson.loads(o2m_values)
 
         for o2m in o2m_values:
@@ -162,7 +162,7 @@ class List(SecuredController):
         if o2m_view_id:
             view = cache.fields_view_get(o2m_model, o2m_view_id, o2m_view_type, context)
         else:
-            view = cache.fields_view_get(model, view_id, view_type, rpc.session.context)
+            view = cache.fields_view_get(model, view_id, view_type, rpc.get_session().context)
             view = view['fields'][name]['views'][o2m_view_type]
 
         list_view = listgrid.List(name, model, view, ids=None, domain=o2m_domain, context=context, default_data=copy.deepcopy(o2m_values), limit=20, editable= editable,o2m=1)
@@ -177,7 +177,7 @@ class List(SecuredController):
     @expose()
     def multiple_groupby(self, model, name, grp_domain, group_by, view_id, view_type, parent_group, group_level, groups, no_leaf, **kw):
         grp_domain = ast.literal_eval(grp_domain)
-        view = cache.fields_view_get(model, view_id, view_type, rpc.session.context.copy())
+        view = cache.fields_view_get(model, view_id, view_type, rpc.get_session().context.copy())
         group_by = ast.literal_eval(group_by)
         domain = grp_domain
         group_level = ast.literal_eval(group_level)
@@ -310,7 +310,7 @@ class List(SecuredController):
 
         name = params.button_name
         btype = params.button_type
-        ctx = dict((params.context or {}), **rpc.session.context)
+        ctx = dict((params.context or {}), **rpc.get_session().context)
 
         id = params.id
         model = params.model
@@ -331,7 +331,7 @@ class List(SecuredController):
 
             elif btype == 'object':
                 ctx = params.context or {}
-                ctx.update(rpc.session.context.copy())
+                ctx.update(rpc.get_session().context.copy())
                 res = rpc.RPCProxy(model)[name](ids, ctx)
 
                 if isinstance(res, dict):
@@ -388,14 +388,14 @@ class List(SecuredController):
         for index, id in enumerate(ids):
             Model.write([id], {
                 'sequence': index+1
-            }, rpc.session.context)
+            }, rpc.get_session().context)
         return {}
 
     @expose('json')
     def count_sum(self, model, ids, sum_fields):
         selected_ids = ast.literal_eval(ids)
         sum_fields = sum_fields.split(",")
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
 
         proxy = rpc.RPCProxy(model)
         res = proxy.read(selected_ids, sum_fields, ctx)
@@ -425,7 +425,7 @@ class List(SecuredController):
             return dict()
 
         proxy = rpc.RPCProxy(params.model)
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
 
         prev_id = ids[ids.index(id)-1]
 
@@ -456,7 +456,7 @@ class List(SecuredController):
             return dict()
 
         proxy = rpc.RPCProxy(params.model)
-        ctx = rpc.session.context.copy()
+        ctx = rpc.get_session().context.copy()
 
         next_id = ids[ids.index(id)+1]
 

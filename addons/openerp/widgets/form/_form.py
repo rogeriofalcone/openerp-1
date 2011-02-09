@@ -503,7 +503,7 @@ class Selection(TinyInputWidget):
                     except:
                         domain = []
                 ids = proxy.search(domain)
-                ctx = rpc.session.context.copy()
+                ctx = rpc.get_session().context.copy()
 #                ctx.update(attrs.get('context', {})) # In search view this will create problem for m2o field having widget='selection' and context as attr.
                 self.options = proxy.name_get(ids, ctx)
             except:
@@ -762,7 +762,7 @@ class Form(TinyInputWidget):
 
         proxy = rpc.RPCProxy(model)
 
-        self.context = dict(rpc.session.context,
+        self.context = dict(rpc.get_session().context,
                                 **(context or {}))
         self.context['bin_size'] = True
 

@@ -210,7 +210,7 @@ class Search(TinyInputWidget):
         if values == "undefined":
             values = {}
 
-        ctx = dict(rpc.session.context, **self.context)
+        ctx = dict(rpc.get_session().context, **self.context)
         if not self.groupby and (values and values.get('group_by_ctx')):
             self.groupby = values['group_by_ctx']
         
@@ -238,7 +238,7 @@ class Search(TinyInputWidget):
 
         self.fields_type = {}
 
-        all_fields = cache.fields_get(model, [], rpc.session.context)
+        all_fields = cache.fields_get(model, [], rpc.get_session().context)
 
         self.fields = dict(all_fields, **fields)
 

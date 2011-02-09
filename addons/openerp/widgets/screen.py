@@ -112,7 +112,7 @@ class Screen(TinyInputWidget):
         if view_type in self.views_preloaded:
             view = self.views_preloaded[view_type]
         else:
-            ctx = rpc.session.context.copy()
+            ctx = rpc.get_session().context.copy()
             ctx.update(self.context)
             if ctx.get('view_id'):
                 view_id = ctx['view_id']

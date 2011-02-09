@@ -31,7 +31,7 @@ class Requests(SecuredController):
 
     def my(self):
 
-        if not rpc.session.is_logged():
+        if not rpc.get_session().is_logged():
             return [],[]
         
         ids, ids2 = rpc.RPCProxy('res.request').request_get()

@@ -155,7 +155,7 @@ def execute_report(name, **data):
         datas['id'] = ids[0]
 
     try:
-        ctx = dict(rpc.session.context)
+        ctx = dict(rpc.get_session().context)
         ctx.update(datas.get('context', {}))
         report_id = rpc.Report().report(name, ids, datas, ctx)
         state = False
@@ -208,7 +208,7 @@ def act_window(action, data):
         data['limit'] = 20
     
     if action.get('target') and action['target'] == 'popup' and action.get('res_model') and isinstance(action.get('context'), dict):
-        search_view_id = rpc.RPCProxy('ir.ui.view').search([('type','=', 'search'), ('model','=',action['res_model'])], 0, 0, 0, rpc.session.context)
+        search_view_id = rpc.RPCProxy('ir.ui.view').search([('type','=', 'search'), ('model','=',action['res_model'])], 0, 0, 0, rpc.get_session().context)
         if search_view_id and action['context'].get('search_view'):
             action['context']['search_view'] = search_view_id[0]
     
@@ -243,7 +243,7 @@ def act_window(action, data):
             ctx['search_view'] = search_view
 
         # save active_id in session
-    rpc.session.active_id = data.get('id')
+    rpc.get_session().active_id = data.get('id')
     domain = expr_eval(action['domain'], ctx)
     if data.get('domain'):
         domain.append(data['domain'])
@@ -357,8 +357,8 @@ def act_window_opener(action, data):
     if open_new_tab:
         parent_id = False
         if data['context'] and data['context'].get('active_id') and not data.get('model'):
-            parent = rpc.RPCProxy('ir.ui.menu').read([int(data['context']['active_id'])],['complete_name'], rpc.session.context)[0]['complete_name'].split('/')[0]
-            parent_id = rpc.RPCProxy('ir.ui.menu').search([('name','=', parent),('parent_id','=',False)],0,0,0, rpc.session.context)
+            parent = rpc.RPCProxy('ir.ui.menu').read([int(data['context']['active_id'])],['complete_name'], rpc.get_session().context)[0]['complete_name'].split('/')[0]
+            parent_id = rpc.RPCProxy('ir.ui.menu').search([('name','=', parent),('parent_id','=',False)],0,0,0, rpc.get_session().context)
         if parent_id:
             url = '/openerp/?' + urllib.urlencode({'active': parent_id[0],'next': url})
         else:
@@ -417,7 +417,7 @@ def get_action_type(act_id):
     """
 
     proxy = rpc.RPCProxy("ir.actions.actions")
-    res = proxy.read([act_id], ["type"], rpc.session.context)[0]
+    res = proxy.read([act_id], ["type"], rpc.get_session().context)[0]
 
     if not (res and len(res)):
         raise common.message(_('Action not found'))
@@ -437,7 +437,7 @@ def execute_by_id(act_id, type=None, **data):
     if type is None:
         type = get_action_type(act_id)
         
-    ctx = dict(rpc.session.context, **(data.get('context') or {}))   
+    ctx = dict(rpc.get_session().context, **(data.get('context') or {}))
 
     res = rpc.RPCProxy(type).read(act_id, False, ctx)
     return execute(res, **data)
@@ -456,7 +456,7 @@ def execute_by_keyword(keyword, adds=None, **data):
         try:
             id = data.get('id', False)
             if (id): id = int(id)
-            actions = rpc.RPCProxy('ir.values').get('action', keyword, [(data['model'], id)], False, rpc.session.context)
+            actions = rpc.RPCProxy('ir.values').get('action', keyword, [(data['model'], id)], False, rpc.get_session().context)
             actions = map(lambda x: x[2], actions)
         except rpc.RPCException, e:
             raise e
@@ -474,7 +474,7 @@ def execute_by_keyword(keyword, adds=None, **data):
     if len(keyact) == 1:
         key = keyact.keys()[0]
         if data.get('context'):
-            data['context'].update(rpc.session.context)
+            data['context'].update(rpc.get_session().context)
         return execute(keyact[key], **data)
     else:
         return Selection().create(keyact, **data)

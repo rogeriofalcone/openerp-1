@@ -78,7 +78,7 @@
     </div>
     % endif
 	
-	% if rpc.session.uid == 1:
+	% if rpc.get_session().uid == 1:
 	    <div class="sideheader-a">
 	        <h2>${_("Customize")}</h2>
 	    </div>
@@ -112,7 +112,7 @@
         <li>
             <a href="javascript: void(0)" onclick="new ListView('_terp_list').exportData()">${_("Export")}</a>
         </li>
-        % if view_type == 'form' and rpc.session.uid == 1:
+        % if view_type == 'form' and rpc.get_session().uid == 1:
         <li>
             <a xid="translate_fields" href="javascript: void(0)" data="${ctx}" relation="${model}" id="${id}" onclick="translate_fields(this)">${_('Translate')}</a>
         </li>

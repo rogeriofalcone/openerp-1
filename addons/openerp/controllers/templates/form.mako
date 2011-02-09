@@ -3,8 +3,8 @@
 <%def name="header()">
     <script type="text/javascript">
         var form_controller = '${path}';
-        var USER_ID = '${rpc.session.uid}';
-        var RESOURCE_ID = '${rpc.session.active_id}';
+        var USER_ID = '${rpc.get_session().uid}';
+        var RESOURCE_ID = '${rpc.get_session().active_id}';
 
         function do_select(id, src) {
             viewRecord(id, src);
@@ -49,7 +49,7 @@
 <%def name="content()">
     <%
         if can_shortcut:
-            if rpc.session.active_id in shortcut_ids:
+            if rpc.get_session().active_id in shortcut_ids:
                 shortcut_class = "shortcut-remove"
             else:
                 shortcut_class = "shortcut-add"

@@ -24,6 +24,8 @@ import locale
 import socket
 import xmlrpclib
 
+import cherrypy
+
 from openobject.errors import AuthenticationError
 from openobject import tools
 import common
@@ -376,20 +378,44 @@ class RPCSession(object):
     def execute_db(self, method, *args):
         return self.execute_noauth('db', method, *args)
 
-
 # global session variable, will be initialized with connect
 session = None
+class CPSessionWrapper(object):
 
+    def __setattr__(self, name, value):
+        cherrypy.session[name] = value
 
-def initialize(host, port, protocol='socket', storage=None):
-    """ Initialize the default rpc session.
-    """
+    def __getattr__(self, name):
+        return cherrypy.session.get(name)
+
+    def __delattr__(self, name):
+        if name in cherrypy.session:
+            del cherrypy.session[name]
+
+    __getitem__ = __getattr__
+    __setitem__ = __setattr__
+
+    def get(self, name, default=None):
+        return cherrypy.session.get(name, default)
+
+    def clear(self):
+        cherrypy.session.clear()
+
+def get_session():
     global session
-    session = RPCSession(host, port, protocol, storage=storage)
+    if session is None:
+        config = cherrypy.config
 
+        # initialize the rpc session
+        host = config.get('openerp.server.host')
+        port = config.get('openerp.server.port')
+        protocol = config.get('openerp.server.protocol')
+
+        session = RPCSession(host, port, protocol, storage=CPSessionWrapper())
+    return session
 
 class RPCProxy(object):
-    """A wrapper arround xmlrpclib, provides pythonic way to access tiny resources.
+    """A wrapper around xmlrpclib, provides pythonic way to access tiny resources.
 
     For example,
 
@@ -403,7 +429,6 @@ class RPCProxy(object):
         @param resource: the tinyresource
         """
         self._resource = resource
-        self._session = session
         self._attrs = {}
 
     def _func_getter(self, name):
@@ -418,31 +443,30 @@ class RPCProxy(object):
         return getattr(self, item)
 
     def __call__(self, *args):
-        return self._session.execute('object', 'execute',
+        return get_session().execute('object', 'execute',
                                      self._resource, *args)
 
     def fields_get(self, fields, context=None):
         if context is None:
-            context = self._session.context
+            context = get_session().context
         return self('fields_get', fields, context)
     def fields_view_get(self, view_id, view_type, context=None,
                         hastoolbar=False, hassubmenu=False):
         if context is None:
-            context = self._session.context
+            context = get_session().context
         return self('fields_view_get', view_id or False, view_type, context,
                     hastoolbar, hassubmenu)
 
     def search(self, criteria, offset=0, limit=False, order=False, context=None):
         if context is None:
-            context = self._session.context
+            context = get_session().context
         return self('search', criteria, offset, limit, order, context)
 
 class Workflow(object):
     def __init__(self, model):
         self.model = model
-        self.session = session
     def __call__(self, method, *args):
-        return self.session.execute(
+        return get_session().execute(
             'object', 'exec_workflow', self.model, method, *args)
     def __getattr__(self, method):
         return lambda *args: self(method, *args)
@@ -450,20 +474,16 @@ class Workflow(object):
         return getattr(self, item)
 
 class Wizard(object):
-    def __init__(self):
-        self.session = session
     def __call__(self, method, *args):
-        return self.session.execute('wizard', method, *args)
+        return get_session().execute('wizard', method, *args)
     def create(self, action):
         return self('create', action)
     def execute(self, id, data, state, context):
         return self('execute', id, data, state, context)
 
 class Report(object):
-    def __init__(self):
-        self.session = session
     def __call__(self, method, *args):
-        return self.session.execute('report', method, *args)
+        return get_session().execute('report', method, *args)
     def report(self, name, ids, data, ctx):
         return self('report', name, ids, data, ctx)
     def report_get(self, id):
@@ -476,7 +496,7 @@ def name_get(model, id, context=None):
 
     if model and id:
 
-        ctx = session.context.copy()
+        ctx = get_session().context.copy()
         ctx.update(context or {})
 
         proxy = RPCProxy(model)
@@ -488,26 +508,3 @@ def name_get(model, id, context=None):
             name = _("== Access Denied ==")
 
     return name
-
-
-if __name__=="__main__":
-
-    host = 'localhost'
-    port = 8070
-    protocol = 'socket'
-
-    initialize(host, port, protocol, storage=dict())
-
-    res = session.listdb()
-    print res
-
-    res = session.login('t1', 'admin', 'admin')
-    print res
-
-    res = RPCProxy('res.users').read([session.uid], ['name'])
-    print res
-
-    print session.context
-
-
-# vim: ts=4 sts=4 sw=4 si et

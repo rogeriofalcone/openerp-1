@@ -14,7 +14,7 @@ except:
     requests = []
     requests_message = None
 
-if rpc.session.is_logged():
+if rpc.get_session().is_logged():
     logged = True
 else:
     logged = False
@@ -30,8 +30,8 @@ version = release.version
     </p>
     % if logged:
         <h1 id="title-menu">
-           ${_("%(company)s", company=rpc.session.company_name or '')} (${rpc.session.db})
-           <small>${_("%(user)s", user=rpc.session.user_name)}</small>
+           ${_("%(company)s", company=rpc.get_session().company_name or '')} (${rpc.get_session().db})
+           <small>${_("%(user)s", user=rpc.get_session().user_name)}</small>
         </h1>
     % endif
     <ul id="skip-links">

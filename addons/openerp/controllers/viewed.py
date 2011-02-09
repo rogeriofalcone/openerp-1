@@ -181,7 +181,7 @@ def _get_model(node, parent_model):
     parents.reverse()
 
     for parent in parents:
-        field = rpc.RPCProxy(parent_model).fields_get([parent], rpc.session.context)
+        field = rpc.RPCProxy(parent_model).fields_get([parent], rpc.get_session().context)
 
         if field:
             if field[parent].get('relation'):
@@ -197,7 +197,7 @@ def _get_field_attrs(node, parent_model):
     model = _get_model(node, parent_model)
 
     name = node.getAttribute('name')
-    field = cache.fields_get(model, [name], rpc.session.context)
+    field = cache.fields_get(model, [name], rpc.get_session().context)
 
     if field:
          field = field[name]
@@ -398,7 +398,7 @@ class ViewEd(SecuredController):
             kind = 'char'
             try:
                 model = _get_model(field, parent_model=res['model'])
-                attrs2 = cache.fields_get(model, [attrs['name']], rpc.session.context)[attrs['name']]
+                attrs2 = cache.fields_get(model, [attrs['name']], rpc.get_session().context)[attrs['name']]
 
                 attrs2.update(attrs)
 
@@ -440,7 +440,7 @@ class ViewEd(SecuredController):
         model = _get_model(field_node, parent_model=model)
 
         # get the fields
-        fields = rpc.RPCProxy(model).fields_get(False, rpc.session.context).keys()
+        fields = rpc.RPCProxy(model).fields_get(False, rpc.get_session().context).keys()
 
         nodes = _CHILDREN.keys()
         nodes.remove('view')

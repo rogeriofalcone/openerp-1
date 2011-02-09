@@ -35,14 +35,14 @@ from openerp.utils import common, rpc
 def get_lang_list():
     langs = [('en_US', 'English (US)')]
     try:
-        return langs + (rpc.session.execute_db('list_lang') or [])
+        return langs + (rpc.get_session().execute_db('list_lang') or [])
     except Exception, e:
         pass
     return langs
 
 def get_db_list():
     try:
-        return rpc.session.execute_db('list') or []
+        return rpc.get_session().execute_db('list') or []
     except:
         return []
 
@@ -175,14 +175,14 @@ class Database(BaseController):
 
         ok = False
         try:
-            res = rpc.session.execute_db('create', password, dbname, demo_data, language, admin_password)
+            res = rpc.get_session().execute_db('create', password, dbname, demo_data, language, admin_password)
             while True:
                 try:
-                    progress, users = rpc.session.execute_db('get_progress', password, res)
+                    progress, users = rpc.get_session().execute_db('get_progress', password, res)
                     if progress == 1.0:
                         for x in users:
                             if x['login'] == 'admin':
-                                rpc.session.login(dbname, 'admin', x['password'])
+                                rpc.get_session().login(dbname, 'admin', x['password'])
                                 ok = True
                         break
                     else:
@@ -219,7 +219,7 @@ class Database(BaseController):
     def do_drop(self, dbname, password, **kw):
         self.msg = {}
         try:
-            rpc.session.execute_db('drop', password, dbname)
+            rpc.get_session().execute_db('drop', password, dbname)
         except common.AccessDenied, e:
             self.msg = {'message': _('Bad super admin password'),
                         'title' : e.title}
@@ -241,7 +241,7 @@ class Database(BaseController):
     def do_backup(self, dbname, password, **kw):
         self.msg = {}
         try:
-            res = rpc.session.execute_db('dump', password, dbname)
+            res = rpc.get_session().execute_db('dump', password, dbname)
             if res:
                 cherrypy.response.headers['Content-Type'] = "application/data"
                 cherrypy.response.headers['Content-Disposition'] = 'filename="' + dbname + '.dump"'
@@ -265,7 +265,7 @@ class Database(BaseController):
         self.msg = {}
         try:
             data = base64.encodestring(filename.file.read())
-            rpc.session.execute_db('restore', password, dbname, data)
+            rpc.get_session().execute_db('restore', password, dbname, data)
         except common.AccessDenied, e:
             self.msg = {'message': _('Bad super admin password'),
                         'title' : e.title}
@@ -288,7 +288,7 @@ class Database(BaseController):
     def do_password(self, old_password, new_password, confirm_password, **kw):
         self.msg = {}
         try:
-            rpc.session.execute_db('change_admin_password', old_password, new_password)
+            rpc.get_session().execute_db('change_admin_password', old_password, new_password)
         except common.AccessDenied, e:
             self.msg = {'message': _('Bad super admin password'),
                         'title' : e.title}

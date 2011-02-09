@@ -17,7 +17,7 @@ class Widgets(SecuredController):
         error = None
         try:
             openerp.utils.rpc.RPCProxy('res.widget.user').unlink(
-                    int(widget_id), openerp.utils.rpc.session.context)
+                    int(widget_id), openerp.utils.rpc.get_session().context)
         except Exception, e:
             error = e
         return dict(error=error)
@@ -40,7 +40,7 @@ class Widgets(SecuredController):
         user_widgets = openerp.utils.rpc.RPCProxy('res.widget.user')
         widget_ids = user_widgets.search(
                 ['|',
-                 ('user_id', '=', openerp.utils.rpc.session.uid),
+                 ('user_id', '=', openerp.utils.rpc.get_session().uid),
                  ('user_id', '=', False)],
                 0, 0, 0, ctx)
         return [

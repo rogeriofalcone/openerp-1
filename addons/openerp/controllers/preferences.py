@@ -45,7 +45,7 @@ class Preferences(Form):
         proxy = rpc.RPCProxy('res.users')
         action_id = proxy.action_get({})
 
-        action = rpc.RPCProxy('ir.actions.act_window').read([action_id], False, rpc.session.context)[0]
+        action = rpc.RPCProxy('ir.actions.act_window').read([action_id], False, rpc.get_session().context)[0]
 
         view_ids=[]
         if action.get('views', []):
@@ -54,7 +54,7 @@ class Preferences(Form):
             view_ids=[action['view_id'][0]]
 
         params = TinyDict()
-        params.id = rpc.session.uid
+        params.id = rpc.get_session().uid
         params.ids = [params.id]
         params.model = 'res.users'
         params.view_type = 'form'
@@ -77,8 +77,8 @@ class Preferences(Form):
             if not data[key]: data[key] = False
             elif int_pattern.match(data[key]):
                 data[key] = int(data[key])
-        proxy.write([rpc.session.uid], data)
-        rpc.session.context_reload()
+        proxy.write([rpc.get_session().uid], data)
+        rpc.get_session().context_reload()
         raise redirect('/openerp/pref/create', saved=True)
 
     @expose(template='/openerp/controllers/templates/preferences/password.mako')
@@ -95,8 +95,8 @@ class Preferences(Form):
 
         try:
             if openerp.utils.rpc.RPCProxy('res.users').change_password(
-                    old_password, new_password, rpc.session.context):
-                rpc.session.password = new_password
+                    old_password, new_password, rpc.get_session().context):
+                rpc.get_session().password = new_password
                 return dict(context, changed=True)
             context['errors'].append(
                 _('Could not change your password.'))

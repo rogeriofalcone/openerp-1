@@ -365,7 +365,7 @@ class GanttCalendar(ICalendar):
 
         if self.level:
             field = self.level['link']
-            fields = rpc.RPCProxy(self.model).fields_get([field], rpc.session.context)
+            fields = rpc.RPCProxy(self.model).fields_get([field], rpc.get_session().context)
             self.fields.update(fields)
 
         self.events = self.get_events(self.days)
@@ -415,7 +415,7 @@ class GanttCalendar(ICalendar):
             if isinstance(group_id, (list, tuple)):
                 group_id, group_title = evt.record[field]
             elif group_id:
-                group_id, group_title = rpc.RPCProxy(obj).name_get([group_id], rpc.session.context)[0]
+                group_id, group_title = rpc.RPCProxy(obj).name_get([group_id], rpc.get_session().context)[0]
 
             group = groups.setdefault(group_id, {'id': str(group_id), 'title': group_title, 'model': obj, 'items': []})
 

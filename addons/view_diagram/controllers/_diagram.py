@@ -42,8 +42,8 @@ class State(Form):
             params.context = {'o2m_model': params.o2m_model, 'o2m_id': params.o2m_id}
 
         proxy_field = rpc.RPCProxy('ir.model.fields')
-        field_ids = proxy_field.search([('model', '=', params.o2m_model or params.context.get('o2m_model')), ('relation', '=', params.model)], 0, 0, 0, rpc.session.context)
-        m2o_field = proxy_field.read(field_ids, ['relation_field'], rpc.session.context)[0]['relation_field']
+        field_ids = proxy_field.search([('model', '=', params.o2m_model or params.context.get('o2m_model')), ('relation', '=', params.model)], 0, 0, 0, rpc.get_session().context)
+        m2o_field = proxy_field.read(field_ids, ['relation_field'], rpc.get_session().context)[0]['relation_field']
 
         params.hidden_fields = [
             tw.form.Hidden(name=m2o_field, default=params.o2m_id or params.context.get('o2m_id', False)),
@@ -109,8 +109,8 @@ class State(Form):
                 shapes[colour] = test
 
         proxy_act = rpc.RPCProxy(node_obj)
-        search_act = proxy_act.search([('id', '=', int(id))], 0, 0, 0, rpc.session.context)
-        result = proxy_act.read(search_act, [in_transition_field, out_transition_field] + node_flds_visible + node_flds_hidden, rpc.session.context)[0]
+        search_act = proxy_act.search([('id', '=', int(id))], 0, 0, 0, rpc.get_session().context)
+        result = proxy_act.read(search_act, [in_transition_field, out_transition_field] + node_flds_visible + node_flds_hidden, rpc.get_session().context)[0]
 
         data = {
             'id': result['id'],
@@ -161,10 +161,10 @@ class Connector(Form):
 
         fields = map(lambda field: field['name'],
                      proxy_field.read(field_ids, ['name'],
-                                      rpc.session.context))
+                                      rpc.get_session().context))
 
         connector = rpc.RPCProxy(params.model).read(params.id, fields,
-                                                    rpc.session.context)
+                                                    rpc.get_session().context)
 
         params.hidden_fields = [
             tw.form.Hidden(name=fields[0], default=connector[fields[0]][0]),
@@ -225,7 +225,7 @@ class Connector(Form):
         if src not in conn_flds: conn_flds.append(src)
         if des not in conn_flds: conn_flds.append(des)
 
-        result = proxy_tr.read(id, conn_flds, rpc.session.context)
+        result = proxy_tr.read(id, conn_flds, rpc.get_session().context)
 
         data = {
             'id': result['id'],
@@ -247,15 +247,15 @@ class Connector(Form):
     @expose('json')
     def get_info(self, conn_obj, id, **kw):
         proxy_tr = rpc.RPCProxy(conn_obj)
-        search_tr = proxy_tr.search([('id', '=', int(id))], 0, 0, 0, rpc.session.context)
-        data = proxy_tr.read(search_tr, [], rpc.session.context)
+        search_tr = proxy_tr.search([('id', '=', int(id))], 0, 0, 0, rpc.get_session().context)
+        data = proxy_tr.read(search_tr, [], rpc.get_session().context)
 
         return dict(data=data[0])
 
     @expose('json', methods=('POST',))
     def change_ends(self, conn_obj, id, field, value):
         proxy_tr = rpc.RPCProxy(conn_obj)
-        proxy_tr.write([int(id)], {field: int(value)}, rpc.session.context)
+        proxy_tr.write([int(id)], {field: int(value)}, rpc.get_session().context)
         return dict()
 
 
@@ -307,7 +307,7 @@ class Workflow(Form):
                 shapes[colour] = test
 
         proxy = rpc.RPCProxy('ir.ui.view')
-        graph_search = proxy.graph_get(int(id), model, node_obj, conn_obj, src_node, des_node, False, (140, 180), rpc.session.context)
+        graph_search = proxy.graph_get(int(id), model, node_obj, conn_obj, src_node, des_node, False, (140, 180), rpc.get_session().context)
         nodes = graph_search['nodes']
         transitions = graph_search['transitions']
         isolate_nodes = {}
@@ -330,8 +330,8 @@ class Workflow(Form):
             })
 
         proxy_tr = rpc.RPCProxy(conn_obj)
-        search_trs = proxy_tr.search([('id', 'in', list_tr)], 0, 0, 0, rpc.session.context)
-        data_trs = proxy_tr.read(search_trs, conn_flds, rpc.session.context)
+        search_trs = proxy_tr.search([('id', 'in', list_tr)], 0, 0, 0, rpc.get_session().context)
+        data_trs = proxy_tr.read(search_trs, conn_flds, rpc.get_session().context)
 
         for tr in data_trs:
             t = connectors.get(str(tr['id']))
@@ -345,12 +345,12 @@ class Workflow(Form):
                 t['options'][conn_flds_string[i]] = tr[fld]
 
         proxy_field = rpc.RPCProxy('ir.model.fields')
-        field_ids = proxy_field.search([('model', '=', model), ('relation', '=', node_obj)], 0, 0, 0, rpc.session.context)
-        field_data = proxy_field.read(field_ids, ['relation_field'], rpc.session.context)
+        field_ids = proxy_field.search([('model', '=', model), ('relation', '=', node_obj)], 0, 0, 0, rpc.get_session().context)
+        field_data = proxy_field.read(field_ids, ['relation_field'], rpc.get_session().context)
 
         proxy_act = rpc.RPCProxy(node_obj)
-        search_acts = proxy_act.search([(field_data[0]['relation_field'], '=', int(id))], 0, 0, 0, rpc.session.context)
-        data_acts = proxy_act.read(search_acts, node_flds_hidden + node_flds_visible, rpc.session.context)
+        search_acts = proxy_act.search([(field_data[0]['relation_field'], '=', int(id))], 0, 0, 0, rpc.get_session().context)
+        data_acts = proxy_act.read(search_acts, node_flds_hidden + node_flds_visible, rpc.get_session().context)
 
         for act in data_acts:
             n = nodes.get(str(act['id']))
@@ -379,10 +379,10 @@ class Workflow(Form):
                 n['options'][node_flds_string[i]] = act[fld]
 
         #to relate m2o field of transition to corresponding o2m in activity
-        in_transition_field_id = proxy_field.search([('relation', '=', conn_obj), ('relation_field', '=', des_node), ('model', '=', node_obj)], 0, 0, 0, rpc.session.context)
-        in_transition_field = proxy_field.read(in_transition_field_id[0], ['name'], rpc.session.context)['name']
+        in_transition_field_id = proxy_field.search([('relation', '=', conn_obj), ('relation_field', '=', des_node), ('model', '=', node_obj)], 0, 0, 0, rpc.get_session().context)
+        in_transition_field = proxy_field.read(in_transition_field_id[0], ['name'], rpc.get_session().context)['name']
 
-        out_transition_field_id = proxy_field.search([('relation', '=', conn_obj), ('relation_field', '=', src_node), ('model', '=', node_obj)], 0, 0, 0, rpc.session.context)
-        out_transition_field = proxy_field.read(out_transition_field_id[0], ['name'], rpc.session.context)['name']
+        out_transition_field_id = proxy_field.search([('relation', '=', conn_obj), ('relation_field', '=', src_node), ('model', '=', node_obj)], 0, 0, 0, rpc.get_session().context)
+        out_transition_field = proxy_field.read(out_transition_field_id[0], ['name'], rpc.get_session().context)['name']
 
         return dict(nodes=nodes, conn=connectors, in_transition_field=in_transition_field, out_transition_field=out_transition_field)

@@ -39,7 +39,7 @@ class Attachment(SecuredController):
         id = int(id)
 
         if id:
-            ctx = dict(rpc.session.context)
+            ctx = dict(rpc.get_session().context)
 
             action = dict(
                 rpc.RPCProxy('ir.attachment').action_get(ctx),
@@ -56,7 +56,7 @@ class Attachment(SecuredController):
     @expose(content_type="application/octet-stream")
     def get(self, record=False):
         record = int(record)
-        attachment = rpc.RPCProxy('ir.attachment').read(record, [], rpc.session.context)
+        attachment = rpc.RPCProxy('ir.attachment').read(record, [], rpc.get_session().context)
 
         if attachment['type'] == 'binary':
             cherrypy.response.headers["Content-Disposition"] = 'attachment; filename="%s"' % attachment['name']
@@ -68,7 +68,7 @@ class Attachment(SecuredController):
     @expose('json', methods=('POST',))
     def save(self, datas, **kwargs):
         params, data = TinyDict.split(cherrypy.session['params'])
-        ctx = dict(rpc.session.context,
+        ctx = dict(rpc.get_session().context,
                    default_res_model=params.model, default_res_id=params.id,
                    active_id=False, active_ids=[])
 
@@ -82,11 +82,7 @@ class Attachment(SecuredController):
     def remove(self, id=False, **kw):
         proxy = rpc.RPCProxy('ir.attachment')
         try:
-            proxy.unlink([int(id)], rpc.session.context)
+            proxy.unlink([int(id)], rpc.get_session().context)
             return {}
         except Exception, e:
             return {'error': ustr(e)}
-
-
-# vim: ts=4 sts=4 sw=4 si et
-

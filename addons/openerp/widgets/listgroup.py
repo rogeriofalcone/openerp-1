@@ -177,7 +177,7 @@ class ListGroup(List):
         fields = view['fields']
         self.grp_records = []
 
-        self.context.update(rpc.session.context.copy())
+        self.context.update(rpc.get_session().context.copy())
 
         super(ListGroup, self).__init__(
             name=name, model=model, view=view, ids=self.ids, domain=self.domain,
@@ -242,14 +242,14 @@ class MultipleGroup(List):
         proxy = rpc.RPCProxy(model)
         if ids is None:
             if self.limit > 0:
-                ids = proxy.search(self.domain, self.offset, self.limit, 0, rpc.session.context.copy())
+                ids = proxy.search(self.domain, self.offset, self.limit, 0, rpc.get_session().context.copy())
             else:
-                ids = proxy.search(self.domain, 0, 0, 0, rpc.session.context.copy())
+                ids = proxy.search(self.domain, 0, 0, 0, rpc.get_session().context.copy())
 
             if len(ids) < self.limit:
                 self.count = len(ids)
             else:
-                self.count = proxy.search_count(domain, rpc.session.context.copy())
+                self.count = proxy.search_count(domain, rpc.get_session().context.copy())
 
         if ids and not isinstance(ids, list):
             ids = [ids]
@@ -285,4 +285,4 @@ class MultipleGroup(List):
             else:
                 rev = False
             self.grp_records = sorted(self.grp_records, key=itemgetter(sort_key), reverse=rev)
-        self.grouped, grp_ids = parse_groups(self.group_by_ctx, self.grp_records, self.headers, self.ids, model,  self.offset, self.limit, rpc.session.context.copy(), self.data, self.field_total, fields)
+        self.grouped, grp_ids = parse_groups(self.group_by_ctx, self.grp_records, self.headers, self.ids, model,  self.offset, self.limit, rpc.get_session().context.copy(), self.data, self.field_total, fields)

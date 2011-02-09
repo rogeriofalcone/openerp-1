@@ -276,8 +276,8 @@ class TinyForm(object):
 
                         from openerp.utils import rpc
                         Relation = rpc.RPCProxy(attrs['relation'])
-                        relation_objects = Relation.read(o2m_ids, [], rpc.session.context)
-                        relation_fields = Relation.fields_get(False, rpc.session.context)
+                        relation_objects = Relation.read(o2m_ids, [], rpc.get_session().context)
+                        relation_fields = Relation.fields_get(False, rpc.get_session().context)
                         for relation_record in relation_objects:
                             for field_name, field_value in relation_record.items():
                                 if field_name in relation_fields and relation_fields[field_name]['type'] == 'many2many':
