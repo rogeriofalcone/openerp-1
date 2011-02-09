@@ -26,14 +26,14 @@ import xmlrpclib
 
 import cherrypy
 
-from openobject.errors import AuthenticationError
+import openobject.errors
 from openobject import tools
 import common
 
 from tiny_socket import TinySocket
 from tiny_socket import TinySocketError
 
-class NotLoggedIn(common.TinyError, AuthenticationError): pass
+class NotLoggedIn(openobject.errors.TinyError, openobject.errors.AuthenticationError): pass
 
 class RPCException(Exception):
     """A common exeption class for RPC errors.
@@ -123,7 +123,7 @@ class RPCGateway(object):
             result = self.__rpc__(obj, method, args, auth=auth)
             return self.__convert(result)
         except socket.error, e:
-            raise common.TinyException(e.message or e.strerror, title=_('Application Error'))
+            raise openobject.errors.TinyException(e.message or e.strerror, title=_('Application Error'))
 
         except RPCException, err:
             if err.type in ('warning', 'UserError'):
@@ -132,7 +132,7 @@ class RPCGateway(object):
                 else:
                     common.warning(err.data)
             elif err.code.startswith('AccessDenied'):
-                raise common.AccessDenied(err.code, _('Access Denied'))
+                raise openobject.errors.AccessDenied(err.code, _('Access Denied'))
             else:
                 common.error(_('Application Error'), err.backtrace)
 
@@ -281,7 +281,7 @@ class RPCSession(object):
     def listdb(self):
         try:
             return self.execute_noauth('db', 'list')
-        except common.TinyError, e:
+        except openobject.errors.TinyError, e:
             if e.message == 'AccessDenied':
                 return None
             raise
@@ -504,7 +504,7 @@ def name_get(model, id, context=None):
         try:
             name = proxy.name_get([id], ctx)
             name = name and name[0][1] or ''
-        except common.TinyWarning:
+        except openobject.errors.TinyWarning:
             name = _("== Access Denied ==")
 
     return name
