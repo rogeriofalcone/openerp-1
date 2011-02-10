@@ -63,7 +63,20 @@
             	</div>
             </td>
                 % if tree.sidebar:
-                    <td width="163" valign="top">${tree.sidebar.display()}</td>
+                    <td id="main_sidebar" valign="top">
+	                    <a class="toggle-sidebar closed" href="javascript:void(0)">Toggle</a>
+	                    <div id="tertiary" class="closed">
+	                        <div id="tertiary_wrap">
+	                            ${tree.sidebar.display()}
+	                        </div>
+	                    </div>
+	                </td>
+	                <script type="text/javascript">
+	                    jQuery('.toggle-sidebar').toggler('#tertiary', function (){
+	                        jQuery(window).scrollLeft(
+	                            jQuery(document).width() - jQuery(window).width());
+	                    });
+	                </script>
                 % endif
         </tr>
     </table>

@@ -97,13 +97,19 @@ class ViewTree(Form):
                                       fields_info=fields_info)
         self.id = id
         self.ids = ids
+        self.view_type = view.get('type')
 
         toolbar = {}
         for item, value in view.get('toolbar', {}).items():
-            if value: toolbar[item] = value
-        if toolbar:
-            self.sidebar = Sidebar(self.model, None, toolbar, context=self.context)
+            if value: 
+                toolbar[item] = value
 
+        if toolbar:
+            self.sidebar = Sidebar(self.model, None, toolbar, self.id, self.view_type, context=self.context)
+        else:
+            if attrs.get('toolbar') and attrs['toolbar']:
+                self.sidebar = Sidebar(self.model, None, None, self.id, self.view_type, context=self.context)
+        
         # get the correct view title
         self.string = self.context.get('_terp_view_name', self.string) or self.string
 
