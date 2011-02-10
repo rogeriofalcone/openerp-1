@@ -5,7 +5,7 @@
     <script type="text/javascript" src="/openerp/static/javascript/viewed.js"></script>
     <script type="text/javascript" src="/openerp/static/javascript/modalbox.js"></script>
 
-    <link href="/openerp/static/css/modalbox.css" rel="stylesheet" type="text/css"/>s
+    <link href="/openerp/static/css/modalbox.css" rel="stylesheet" type="text/css"/>
 </%def>
 
 <%def name="content()">
