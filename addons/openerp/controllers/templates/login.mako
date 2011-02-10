@@ -10,8 +10,12 @@
                 var separator = (form.attr('action').indexOf('?') == -1) ? '?' : '&';
                 form.attr('action',
                           form.attr('action') + separator + jQuery.param({'next': url}));
-            })
+            });
         }
+        
+        jQuery(document).ready(function() {
+        	check_capskey();
+       	});
     </script>
 </%def>
 

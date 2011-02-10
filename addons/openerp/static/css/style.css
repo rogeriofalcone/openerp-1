@@ -1041,3 +1041,8 @@ iframe.ui-dialog-content {
     padding: 0 !important;
     width: 100% !important;
 }
+
+img#caps_on_img {
+	position: fixed;
+	margin: 2px 0 0 -20px;	
+}

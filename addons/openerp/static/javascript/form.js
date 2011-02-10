@@ -1317,3 +1317,22 @@ function validate_action() {
     }
     return true;
 }
+
+function check_capskey() {
+	jQuery('input[type=password]').each(function() {
+		jQuery(this).focus(function() {
+			var img_class = jQuery(this).attr('id') + '_warn_img';
+			var options = {
+				caps_lock_on: function() {
+					if (jQuery('img.' + img_class).length == 0) {
+						jQuery("<img class=" + img_class + " src='/openerp/static/images/caps-warning.png' title='Caps lock is ON' id='caps_on_img'></img>").insertAfter(jQuery(this));
+					}
+				},
+				caps_lock_off: function() {
+					if (jQuery('img.' + img_class)) jQuery('img.' + img_class).remove();
+				}
+			};
+			jQuery(this).capslock(options);
+		});
+	});
+}

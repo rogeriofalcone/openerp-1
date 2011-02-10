@@ -25,6 +25,7 @@
             /*
             % endif
             */
+            check_capskey(); // Will check if caps lock is on for password field. 
         });
     </script>
 

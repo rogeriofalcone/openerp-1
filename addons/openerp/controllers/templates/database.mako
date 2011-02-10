@@ -11,6 +11,10 @@
     <link rel="stylesheet" type="text/css" href="/openerp/static/css/database.css"/>
 
     <script type="text/javascript">
+    	jQuery(document).ready(function() {
+        	check_capskey();
+       	});
+       	
         function on_create() {
             new openerp.ui.WaitBox().showAfter(2000);
             return true;
