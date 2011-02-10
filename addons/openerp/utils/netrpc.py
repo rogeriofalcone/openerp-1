@@ -23,8 +23,6 @@ import socket
 import cPickle
 import sys
 
-import cherrypy
-
 DNS_CACHE = {}
 
 class NetRPCError(Exception):
@@ -34,17 +32,13 @@ class NetRPCError(Exception):
         self.faultString = faultString
         self.args = (faultCode, faultString)
 
-SOCKET_TIMEOUT = cherrypy.config.get('openerp.server.timeout')
-socket.setdefaulttimeout(SOCKET_TIMEOUT)
 class NetRPCSocket(object):
-
     def __init__(self, sock=None):
         if sock is None:
             self.sock = socket.socket(
             socket.AF_INET, socket.SOCK_STREAM)
         else:
             self.sock = sock
-        self.sock.settimeout(SOCKET_TIMEOUT)
         # disables Nagle algorithm (avoids 200ms default delay on Windows)
         self.sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
 
