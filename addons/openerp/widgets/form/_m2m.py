@@ -150,6 +150,8 @@ class M2M(TinyInputWidget):
         if not params.filter_action:
             try:
                 current.ids = eval(cherrypy.request.terp_data.get(self.name))
+                if not isinstance(current.ids, list):
+                    current.ids = [current.ids]
             except:
                 pass
 

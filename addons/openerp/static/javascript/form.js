@@ -637,6 +637,7 @@ function onChange(caller){
                             var fld_val = '['+ value.join(',') + ']';
                             var old_m2m = jQuery(idSelector(fld_name)).closest('.list-a');
                             jQuery.ajax({
+                                async : false,
                                 url: '/openerp/listgrid/get_m2m',
                                 data: {
                                     'name': fld_name,
