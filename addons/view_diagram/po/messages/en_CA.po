@@ -1,4 +1,4 @@
-# Arabic translation for openobject-client-web
+# English (Canada) translation for openobject-client-web
 # Copyright (c) 2011 Rosetta Contributors and Canonical Ltd 2011
 # This file is distributed under the same license as the openobject-client-web package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2011.
@@ -8,9 +8,9 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-02-10 02:55+0000\n"
-"Last-Translator: kifcaliph <kifcaliph@hotmail.com>\n"
-"Language-Team: Arabic <ar@li.org>\n"
+"PO-Revision-Date: 2011-02-09 16:52+0000\n"
+"Last-Translator: Daniel U. Thibault <Unknown>\n"
+"Language-Team: English (Canada) <en_CA@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -19,110 +19,110 @@ msgstr ""
 
 #: controllers/_diagram.py:89 controllers/_diagram.py:210
 msgid "Could not delete state"
-msgstr "لا يمكن حذف الحالة"
+msgstr "Could not delete state"
 
 #: controllers/_diagram.py:274
 msgid "No workflow associated!"
-msgstr "مسار العملية غير مرتبط !!"
+msgstr "No workflow associated!"
 
 #: controllers/process.py:45
 msgid "Help: Not Defined"
-msgstr "مساعدة: غير معرفة"
+msgstr "Help: Not Defined"
 
 #: controllers/process.py:85
 #, python-format
 msgid "%(name)s - Resource: %(resource)s, State: %(state)s"
-msgstr "%(name)s - مصدر: %(resource)s, حالة: %(state)s"
+msgstr "%(name)s - Resource: %(resource)s, State: %(state)s"
 
 #: controllers/process.py:97
 msgid "Last modified by:"
-msgstr "آخر تعديل بواسطة:"
+msgstr "Last modified by:"
 
 #: controllers/templates/process.mako:4 controllers/templates/process.mako:87
 #: controllers/templates/process_tip.mako:5
 msgid "Process"
-msgstr "عمليّة"
+msgstr "Process"
 
 #: controllers/templates/process.mako:55
 msgid "Documentation"
-msgstr "وثائق"
+msgstr "Documentation"
 
 #: controllers/templates/process.mako:56
 msgid "Read Documentation Online"
-msgstr "اقرأ الوثائق من علي الإنترنت"
+msgstr "Read Documentation Online"
 
 #: controllers/templates/process.mako:62
 msgid "Forum"
-msgstr "منتدى"
+msgstr "Forum"
 
 #: controllers/templates/process.mako:63
 msgid "Community Discussion"
-msgstr "نقاش المجتمع"
+msgstr "Community Discussion"
 
 #: controllers/templates/process.mako:68
 msgid "Books"
-msgstr "كتب"
+msgstr "Books"
 
 #: controllers/templates/process.mako:69
 msgid "Get the book on Amazon"
-msgstr "قم بشرائه من موقع Amazon"
+msgstr "Get the book on Amazon"
 
 #: controllers/templates/process.mako:74
 msgid "Support / Publisher Warranty"
-msgstr "ضمان الدعم و النشر"
+msgstr "Support / Publisher Warranty"
 
 #: controllers/templates/process.mako:75
 msgid "Get the OpenERP Warranty"
-msgstr "احصل علي ضمان OpenERP"
+msgstr "Get the OpenERP Warranty"
 
 #: controllers/templates/process.mako:97
 msgid "Select Process"
-msgstr "اختر العملية"
+msgstr "Select Process"
 
 #: controllers/templates/process.mako:103
 msgid "Select"
-msgstr "اختر"
+msgstr "Select"
 
 #: controllers/templates/process.mako:116
 msgid "[Edit Process]"
-msgstr "<حرر العملية>"
+msgstr "[Edit Process]"
 
 #: controllers/templates/process.mako:117
 msgid "[show fields]"
-msgstr "<اظهر الحقول>"
+msgstr "[show fields]"
 
 #: controllers/templates/process.mako:118
 msgid "[hide fields]"
-msgstr "<إخفاء الحقول>"
+msgstr "[hide fields]"
 
 #: controllers/templates/process_open.mako:54
 #: controllers/templates/process_tip.mako:20
 #: controllers/templates/wkf_popup.mako:52
 msgid "Close"
-msgstr "إغلاق"
+msgstr "Close"
 
 #: controllers/templates/process_open.mako:55
 #: controllers/templates/wkf_popup.mako:49
 msgid "Save"
-msgstr "احفظ"
+msgstr "Save"
 
 #: controllers/templates/workflow.mako:4
 msgid "Workflow"
-msgstr "مسار العمل"
+msgstr "Workflow"
 
 #: controllers/templates/workflow.mako:20
 #, python-format
 msgid "Workflow (%s)"
-msgstr "مسار العمل - (%s)"
+msgstr "Workflow (%s)"
 
 #: widgets/_views.py:8
 msgid "Diagram"
-msgstr "الرسم التخطيطي"
+msgstr "Diagram"
 
 #: widgets/_views.py:9
 msgid "Diagram view..."
-msgstr "عرض الرسم التخطيطي"
+msgstr "Diagram view..."
 
 #: widgets/templates/diagram.mako:27
 msgid "Loading..."
-msgstr "تحميل..."
+msgstr "Loading..."
