@@ -28,7 +28,6 @@ import cherrypy
 
 import openobject.errors
 from openobject import tools
-import common
 
 from netrpc import NetRPCSocket, NetRPCError
 
@@ -127,16 +126,16 @@ class RPCGateway(object):
         except RPCException, err:
             if err.type in ('warning', 'UserError'):
                 if err.message in ('ConcurrencyException') and len(args) > 4:
-                    common.concurrency(err.message, err.data, args)
+                    openobject.errors.Concurrency(err.message, err.data, args)
                 else:
-                    common.warning(err.data)
+                    openobject.errors.TinyWarning(err.data)
             elif err.code.startswith('AccessDenied'):
                 raise openobject.errors.AccessDenied(err.code, _('Access Denied'))
             else:
-                common.error(_('Application Error'), err.backtrace)
+                openobject.errors.TinyError(err.backtrace, _('Application Error'))
 
         except Exception, e:
-            common.error(_('Application Error'), str(e))
+            openobject.errors.TinyError(str(e), _('Application Error'))
 
     def execute(self, obj, method, *args):
         """Excecute the method of the obj with the given arguments.
@@ -238,7 +237,7 @@ class RPCSession(object):
             self.gateway = NETRPCGateway(self)
 
         else:
-            raise common.message(_("Unsupported protocol."))
+            raise openobject.errors.TinyMessage(_("Unsupported protocol."))
 
     def __getattr__(self, name):
         try:
@@ -342,7 +341,7 @@ class RPCSession(object):
             try:
                 import pytz
             except:
-                raise common.warning(_('You select a timezone but OpenERP could not find pytz library!\nThe timezone functionality will be disable.'))
+                raise openobject.errors.TinyWarning(_('You select a timezone but OpenERP could not find pytz library!\nThe timezone functionality will be disable.'))
 
         # set locale in session
         self.storage['locale'] = self.context.get('lang', 'en_US')
