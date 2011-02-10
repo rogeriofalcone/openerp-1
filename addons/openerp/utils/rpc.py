@@ -30,8 +30,7 @@ import openobject.errors
 from openobject import tools
 import common
 
-from tiny_socket import TinySocket
-from tiny_socket import TinySocketError
+from netrpc import NetRPCSocket, NetRPCError
 
 class NotLoggedIn(openobject.errors.TinyError, openobject.errors.AuthenticationError): pass
 
@@ -189,7 +188,7 @@ class NETRPCGateway(RPCGateway):
     """
 
     def __rpc__(self, obj, method, args=(), auth=True):
-        sock = TinySocket()
+        sock = NetRPCSocket()
         try:
             sock.connect(self.session.host, self.session.port)
             if auth:
@@ -202,7 +201,7 @@ class NETRPCGateway(RPCGateway):
         except xmlrpclib.Fault, err:
             raise RPCException(err.faultCode, err.faultString)
 
-        except TinySocketError, err:
+        except NetRPCError, err:
             raise RPCException(err.faultCode, err.faultString)
 
 
