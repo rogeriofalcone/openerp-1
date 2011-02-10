@@ -164,12 +164,12 @@ function form_onAttrChange(container, widgetName, attr, expr, elem, is_field_of_
 	
     var prefix = widgetName.slice(0, widgetName.lastIndexOf('/') + 1);
     var widget;
-	if(is_field_of_list && jQuery(elem).children()) {
-		widget = jQuery(elem).children()[0];
-	} else {
-		widget = jQuery(idSelector(widgetName));
-	}
-	
+    if(is_field_of_list && jQuery(elem).children()) {
+    	widget = jQuery(elem).children()[0];
+    } else {
+    	widget = widgetName ? jQuery(idSelector(widgetName)) : jQuery(elem);
+    }
+
     var result = form_evalExpr(prefix, expr, elem);
     switch (attr) {
         case 'readonly': form_setReadonly(container, widget, result);
@@ -319,7 +319,7 @@ function form_setRequired(container, field, required) {
     var editable = getElement('_terp_editable').value;
 
     var $field = typeof(field) == "string" ? jQuery(idSelector(field)) : field;
-	
+
     if (editable == 'True') {
         $field.toggleClass('requiredfield', required);
     }
@@ -329,9 +329,9 @@ function form_setRequired(container, field, required) {
     $field.removeClass('errorfield');
 
     var kind = $field.attr('kind');
-    
-    if (field.type == 'hidden' && kind == 'many2one') {
-        form_setRequired(container, openobject.dom.get(field.name + '_text'), required);
+
+    if ($field.attr('type') == 'hidden' && kind == 'many2one') {
+        form_setRequired(container, jQuery(idSelector($field.attr('name')) + '_text'), required);
     }
 }
 
