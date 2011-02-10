@@ -23,7 +23,7 @@ from operator import itemgetter
 
 import cherrypy
 
-from openerp.utils import rpc
+from openobject import rpc
 from openobject.i18n import format
 
 from listgrid import List, CELLTYPES

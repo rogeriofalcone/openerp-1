@@ -19,11 +19,13 @@
 #
 ###############################################################################
 import cherrypy
-from openerp.utils import rpc, TinyDict, context_with_concurrency_info
+from openobject import rpc
+from openobject.tools import expose, validate, error_handler, exception_handler
+
+from openerp.utils import TinyDict, context_with_concurrency_info
 from openerp.widgets.form import Hidden
 
 from form import Form, get_validation_schema, default_error_handler, default_exception_handler
-from openobject.tools import expose, validate, error_handler, exception_handler
 
 
 class OpenM2O(Form):

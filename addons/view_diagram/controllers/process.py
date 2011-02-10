@@ -18,14 +18,12 @@
 #  You can see the MPL licence at: http://www.mozilla.org/MPL/MPL-1.1.html
 #
 ###############################################################################
-import cherrypy
-from openerp.controllers import SecuredController
-from openerp.utils import rpc, TinyDict
-
-import openerp.controllers.actions as actions
-import openerp.controllers.form as form
-from openobject.tools import expose
 import urllib
+
+from openobject import rpc
+from openobject.tools import expose
+
+from openerp.controllers import SecuredController
 
 
 class Process(SecuredController):

@@ -20,11 +20,12 @@
 ###############################################################################
 import cherrypy
 import re
-import openerp.utils.rpc
+import openobject.rpc
 import openobject.errors
+from openobject import rpc
 from openobject.tools import expose, redirect
 
-from openerp.utils import rpc, TinyDict, cache
+from openerp.utils import TinyDict, cache
 
 import database
 from form import Form
@@ -94,7 +95,7 @@ class Preferences(Form):
         if context['errors']: return context
 
         try:
-            if openerp.utils.rpc.RPCProxy('res.users').change_password(
+            if openobject.rpc.RPCProxy('res.users').change_password(
                     old_password, new_password, rpc.get_session().context):
                 rpc.get_session().password = new_password
                 return dict(context, changed=True)

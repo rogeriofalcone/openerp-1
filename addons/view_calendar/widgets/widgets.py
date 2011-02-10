@@ -23,10 +23,11 @@ import itertools
 import time
 import xml.dom.minidom
 
+from openobject import rpc
 from openobject.widgets import JSLink, CSSLink
 from openobject.i18n.format import format_date_custom
 
-from openerp.utils import rpc, node_attributes
+from openerp.utils import node_attributes
 from openerp.widgets import TinyWidget
 
 from _base import ICalendar, TinyCalendar

@@ -18,11 +18,12 @@
 #  You can see the MPL licence at: http://www.mozilla.org/MPL/MPL-1.1.html
 #
 ###############################################################################
-from openerp.utils import rpc, expr_eval, TinyDict, TinyForm, TinyFormError
+from openerp.utils import expr_eval, TinyDict, TinyForm, TinyFormError
 from openobject.i18n.format import convert_date_format_in_domain
 import actions
 from form import Form
 from error_page import _ep
+from openobject import rpc
 from openobject.tools import expose, ast
 import simplejson
 

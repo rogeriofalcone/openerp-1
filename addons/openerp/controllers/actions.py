@@ -26,10 +26,10 @@ import time
 import zlib
 
 import cherrypy
-from openerp.utils import rpc, common, expr_eval, TinyDict
+from openerp.utils import common, expr_eval, TinyDict
 
 from form import Form
-from openobject import tools
+from openobject import tools, rpc
 from selection import Selection
 from tree import Tree
 from wizard import Wizard

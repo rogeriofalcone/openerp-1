@@ -21,8 +21,9 @@
 import copy
 
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, cache, common, TinyDict
+from openerp.utils import cache, common, TinyDict
 
+from openobject import rpc
 from openobject.tools import expose
 
 

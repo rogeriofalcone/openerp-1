@@ -25,7 +25,7 @@ import functools
 import cherrypy
 from mako.util import LRUCache
 
-import rpc
+from openobject import rpc
 
 __cache = LRUCache(cherrypy.config.get('server.db_cache_size', 8))
 

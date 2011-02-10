@@ -18,10 +18,12 @@
 #  You can see the MPL licence at: http://www.mozilla.org/MPL/MPL-1.1.html
 #
 ###############################################################################
-from openerp.controllers import SecuredController
-from openerp.utils import rpc, TinyDict, TinyForm
-
+from openobject import rpc
 from openobject.tools import expose
+
+from openerp.controllers import SecuredController
+from openerp.utils import TinyDict, TinyForm
+
 
 class FieldPref(SecuredController):
 

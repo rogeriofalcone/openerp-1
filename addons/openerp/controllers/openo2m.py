@@ -22,9 +22,10 @@ import urllib
 
 import cherrypy
 from openerp import widgets as tw
-from openerp.utils import rpc, TinyDict, context_with_concurrency_info
+from openerp.utils import TinyDict, context_with_concurrency_info
 
 from form import Form, get_validation_schema, default_error_handler, default_exception_handler
+from openobject import rpc
 from openobject.tools import expose, validate, error_handler, exception_handler
 
 

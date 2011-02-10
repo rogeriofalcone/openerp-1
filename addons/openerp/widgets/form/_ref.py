@@ -18,8 +18,7 @@
 #  You can see the MPL licence at: http://www.mozilla.org/MPL/MPL-1.1.html
 #
 ###############################################################################
-
-from openerp.utils import rpc
+from openobject import rpc
 
 from openerp import validators
 

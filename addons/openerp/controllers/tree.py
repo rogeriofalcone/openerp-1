@@ -29,11 +29,12 @@ import cherrypy
 
 import actions
 
+from openobject import rpc
 from openobject.i18n.format import DT_SERVER_FORMATS
 from openobject.tools import url, expose
 
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, cache, icons, common, TinyDict
+from openerp.utils import cache, icons, common, TinyDict
 from openerp.widgets import tree_view
 
 FORMATTERS = {

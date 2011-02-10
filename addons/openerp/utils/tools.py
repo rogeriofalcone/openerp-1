@@ -36,11 +36,11 @@ import tempfile
 import cherrypy
 from dateutil.relativedelta import relativedelta
 
-import rpc
+import openobject.rpc
 
 def expr_eval(string, context=None):
     context = dict(context or {},
-                   uid=rpc.get_session().uid,
+                   uid=openobject.rpc.get_session().uid,
                    current_date=time.strftime('%Y-%m-%d'),
                    time=time,
                    datetime=datetime,

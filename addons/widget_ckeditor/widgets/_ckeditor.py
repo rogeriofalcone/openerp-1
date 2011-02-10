@@ -19,7 +19,7 @@
 #
 ###############################################################################
 
-from openobject.widgets import JSLink, CSSLink
+from openobject.widgets import JSLink
 
 from openerp import validators
 

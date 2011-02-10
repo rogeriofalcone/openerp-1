@@ -21,10 +21,10 @@
 
 import xml.dom.minidom
 
+from openobject import rpc
 from openobject.tools import url
 from openobject.widgets import Form
 
-from openerp.utils import rpc
 from openerp.utils import node_attributes
 
 from sidebar import Sidebar

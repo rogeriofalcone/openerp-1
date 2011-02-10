@@ -19,8 +19,8 @@
 #
 ###############################################################################
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, TinyDict
 
+from openobject import rpc
 from openobject.tools import expose
 
 

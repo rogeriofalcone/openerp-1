@@ -23,28 +23,22 @@ import socket
 import cPickle
 import sys
 
-import cherrypy
-
 DNS_CACHE = {}
 
-class TinySocketError(Exception):
+class NetRPCError(Exception):
 
     def __init__(self, faultCode, faultString):
         self.faultCode = faultCode
         self.faultString = faultString
         self.args = (faultCode, faultString)
 
-SOCKET_TIMEOUT = cherrypy.config.get('openerp.server.timeout')
-socket.setdefaulttimeout(SOCKET_TIMEOUT)
-class TinySocket(object):
-
+class NetRPCSocket(object):
     def __init__(self, sock=None):
         if sock is None:
             self.sock = socket.socket(
             socket.AF_INET, socket.SOCK_STREAM)
         else:
             self.sock = sock
-        self.sock.settimeout(SOCKET_TIMEOUT)
         # disables Nagle algorithm (avoids 200ms default delay on Windows)
         self.sock.setsockopt(socket.IPPROTO_TCP, socket.TCP_NODELAY, 1)
 
@@ -86,9 +80,7 @@ class TinySocket(object):
 
         if isinstance(res[0],Exception):
             if exception:
-                raise TinySocketError(ustr(res[0]), ustr(res[1]))
+                raise NetRPCError(ustr(res[0]), ustr(res[1]))
             raise res[0]
         else:
             return res[0]
-
-# vim: ts=4 sts=4 sw=4 si et

@@ -6,9 +6,8 @@ import tempfile
 from cStringIO import StringIO
 
 from openerp.controllers import form
-from openerp.utils import rpc
 
-from openobject import paths, addons, pooler
+from openobject import paths, addons, rpc
 from openobject.tools import extract_zip_file
 
 class ModuleForm(form.Form):

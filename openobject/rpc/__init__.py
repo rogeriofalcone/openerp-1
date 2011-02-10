@@ -27,11 +27,9 @@ import xmlrpclib
 import cherrypy
 
 import openobject.errors
-from openobject import tools
-import common
+import openobject.tools.resources
 
-from tiny_socket import TinySocket
-from tiny_socket import TinySocketError
+from netrpc import NetRPCSocket, NetRPCError
 
 class NotLoggedIn(openobject.errors.TinyError, openobject.errors.AuthenticationError): pass
 
@@ -128,16 +126,16 @@ class RPCGateway(object):
         except RPCException, err:
             if err.type in ('warning', 'UserError'):
                 if err.message in ('ConcurrencyException') and len(args) > 4:
-                    common.concurrency(err.message, err.data, args)
+                    openobject.errors.Concurrency(err.message, err.data, args)
                 else:
-                    common.warning(err.data)
+                    openobject.errors.TinyWarning(err.data)
             elif err.code.startswith('AccessDenied'):
                 raise openobject.errors.AccessDenied(err.code, _('Access Denied'))
             else:
-                common.error(_('Application Error'), err.backtrace)
+                openobject.errors.TinyError(err.backtrace, _('Application Error'))
 
         except Exception, e:
-            common.error(_('Application Error'), str(e))
+            openobject.errors.TinyError(str(e), _('Application Error'))
 
     def execute(self, obj, method, *args):
         """Excecute the method of the obj with the given arguments.
@@ -189,7 +187,7 @@ class NETRPCGateway(RPCGateway):
     """
 
     def __rpc__(self, obj, method, args=(), auth=True):
-        sock = TinySocket()
+        sock = NetRPCSocket()
         try:
             sock.connect(self.session.host, self.session.port)
             if auth:
@@ -202,7 +200,7 @@ class NETRPCGateway(RPCGateway):
         except xmlrpclib.Fault, err:
             raise RPCException(err.faultCode, err.faultString)
 
-        except TinySocketError, err:
+        except NetRPCError, err:
             raise RPCException(err.faultCode, err.faultString)
 
 
@@ -239,7 +237,7 @@ class RPCSession(object):
             self.gateway = NETRPCGateway(self)
 
         else:
-            raise common.message(_("Unsupported protocol."))
+            raise openobject.errors.TinyMessage(_("Unsupported protocol."))
 
     def __getattr__(self, name):
         try:
@@ -343,7 +341,7 @@ class RPCSession(object):
             try:
                 import pytz
             except:
-                raise common.warning(_('You select a timezone but OpenERP could not find pytz library!\nThe timezone functionality will be disable.'))
+                raise openobject.errors.TinyWarning(_('You select a timezone but OpenERP could not find pytz library!\nThe timezone functionality will be disable.'))
 
         # set locale in session
         self.storage['locale'] = self.context.get('lang', 'en_US')
@@ -352,9 +350,9 @@ class RPCSession(object):
             locale.setlocale(locale.LC_ALL, "%s.UTF-8" % dblocale)
             link = "jscal/lang/calendar-%s.js" % dblocale
             
-            if not tools.resources.resource_exists("openerp", "static", link):
+            if not openobject.tools.resources.resource_exists("openerp", "static", link):
                 link = "jscal/lang/calendar-%s.js" % dblocale.split("_")[0]
-                if not tools.resources.resource_exists("openerp", "static", link):
+                if not openobject.tools.resources.resource_exists("openerp", "static", link):
                     locale.setlocale(locale.LC_ALL, "")
         except:
             locale.setlocale(locale.LC_ALL, "")
@@ -405,6 +403,9 @@ def get_session():
     global session
     if session is None:
         config = cherrypy.config
+
+        SOCKET_TIMEOUT = cherrypy.config.get('openerp.server.timeout')
+        socket.setdefaulttimeout(SOCKET_TIMEOUT)
 
         # initialize the rpc session
         host = config.get('openerp.server.host')

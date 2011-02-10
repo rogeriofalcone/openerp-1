@@ -1,11 +1,5 @@
+from openobject import pooler, rpc
 
-import copy
-import datetime
-import re
-
-from openobject import pooler
-
-from openerp.utils import rpc
 from openobject.i18n.format import convert_date_format_in_domain
 
 import form

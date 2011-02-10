@@ -19,16 +19,12 @@
 #
 ###############################################################################
 
-import random, time
+import random
 
 from openobject import tools
 from openerp import utils
 
-from openerp.utils import rpc
 from openerp.utils import icons
-from openerp.utils import cache
-from openerp.utils import TempFileName
-
 from openerp import validators
 
 from openerp.widgets import TinyInputWidget

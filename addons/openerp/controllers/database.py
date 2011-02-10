@@ -29,9 +29,9 @@ from openobject.controllers import BaseController
 from openobject.tools import url, expose, redirect, validate, error_handler
 import openobject
 import openobject.errors
+from openobject import rpc
 
 from openerp import validators
-from openerp.utils import rpc
 
 def get_lang_list():
     langs = [('en_US', 'English (US)')]
