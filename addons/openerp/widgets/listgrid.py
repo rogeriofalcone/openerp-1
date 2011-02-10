@@ -22,15 +22,14 @@ import copy
 import math
 import xml.dom.minidom
 import re
-from openerp import utils
 from itertools import chain, count
 
 import cherrypy
-from openerp.utils import rpc, icons, common, expr_eval, node_attributes
+from openerp.utils import icons, common, expr_eval, node_attributes
 from openerp.widgets import TinyWidget, TinyInputWidget, ConcurrencyInfo, get_widget
 
 import form
-from openobject import tools
+from openobject import tools, rpc
 from openobject.tools import ast
 from openobject.i18n import format
 from pager import Pager

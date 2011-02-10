@@ -24,7 +24,7 @@ import simplejson
 from mako.template import Template
 from mako.lookup import TemplateLookup
 
-from openobject import templating, paths, pooler
+from openobject import templating, paths, pooler, rpc
 
 from openobject import i18n
 import _utils as utils
@@ -105,8 +105,14 @@ def _py_vars():
         'disabled': lambda e: utils.attr_if('disabled', e),
     }
 
+def _root_vars():
+    return {
+        'rpc': rpc,
+    }
+
 register_template_vars(_cp_vars, 'cp')
 register_template_vars(_py_vars, 'py')
+register_template_vars(_root_vars, None)
 
 def _get_vars():
 

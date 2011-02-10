@@ -32,11 +32,11 @@ import xml.dom.minidom
 import cherrypy
 import simplejson
 from openerp import validators
-from openerp.utils import rpc, icons, common, TinyDict, node_attributes, get_node_xpath
+from openerp.utils import icons, common, TinyDict, node_attributes, get_node_xpath
 from openerp.widgets import TinyWidget, TinyInputWidget, InputWidgetLabel, ConcurrencyInfo, get_widget, register_widget
 
 from _binary import Image
-from openobject import tools
+from openobject import tools, rpc
 from openobject.i18n import get_locale, format
 from openobject.widgets import JSLink, locations
 

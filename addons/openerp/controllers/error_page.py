@@ -22,7 +22,7 @@ import cgitb
 import sys
 
 import cherrypy
-from openerp.utils import rpc
+from openobject import rpc
 
 import openobject.errors
 from openobject.controllers import BaseController

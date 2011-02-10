@@ -24,10 +24,11 @@ import time
 import datetime
 import xml.dom.minidom
 
+from openobject import rpc
 from openobject.i18n import format
 from openobject.widgets import JSLink, CSSLink
 
-from openerp.utils import rpc, node_attributes, cache
+from openerp.utils import node_attributes, cache
 
 from openerp.widgets import TinyWidget, ConcurrencyInfo, get_widget
 

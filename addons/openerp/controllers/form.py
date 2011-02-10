@@ -18,17 +18,17 @@
 #  You can see the MPL licence at: http://www.mozilla.org/MPL/MPL-1.1.html
 #
 ###############################################################################
-import base64,os,re
+import base64, re
 
 import cherrypy
-from openerp import utils, widgets as tw, validators
+from openerp import utils, widgets as tw
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, common, TinyDict, TinyForm, expr_eval
+from openerp.utils import common, TinyDict, TinyForm, expr_eval
 from error_page import _ep
 from openobject.tools import expose, redirect, validate, error_handler, exception_handler
 import openobject
 import openobject.paths
-import simplejson
+from openobject import rpc
 
 def make_domain(name, value, kind='char'):
     """A helper function to generate domain for the given name, value pair.

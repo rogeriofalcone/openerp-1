@@ -20,8 +20,8 @@
 ###############################################################################
 import cherrypy
 from openerp.controllers import SecuredController
-from openerp.utils import rpc
 
+from openobject import rpc
 from openobject.tools import expose, redirect
 
 

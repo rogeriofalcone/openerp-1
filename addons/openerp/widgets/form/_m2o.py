@@ -18,8 +18,10 @@
 #  You can see the MPL licence at: http://www.mozilla.org/MPL/MPL-1.1.html
 #
 ###############################################################################
+from openobject import rpc
+
 from openerp import validators
-from openerp.utils import rpc, expr_eval
+from openerp.utils import expr_eval
 from openerp.widgets import TinyInputWidget, InputWidgetLabel, register_widget
 
 

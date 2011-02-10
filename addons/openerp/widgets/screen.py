@@ -21,9 +21,9 @@
 
 import cherrypy
 
-from openerp.utils import rpc
-from openerp.utils import cache
+from openobject import rpc
 
+from openerp.utils import cache
 from openerp.widgets import TinyInputWidget
 
 

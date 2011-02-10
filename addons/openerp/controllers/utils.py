@@ -21,9 +21,8 @@
 import re
 
 import cherrypy
-from openerp.utils import rpc
 
-from openobject import tools
+from openobject import tools, rpc
 from openobject.tools import expose
 import openobject
 

@@ -24,13 +24,11 @@ import xml.dom.minidom
 import cherrypy
 
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, common, TinyDict, node_attributes
+from openerp.utils import common, TinyDict, node_attributes
 from openerp.widgets import treegrid
 
-from openobject import tools
+from openobject import tools, rpc
 from openobject.tools import expose, redirect, ast
-
-
 
 
 def datas_read(ids, model, flds, context=None):

@@ -20,7 +20,9 @@
 ###############################################################################
 import cherrypy
 
-from openerp.utils import rpc, expr_eval, TinyDict
+from openobject import rpc
+
+from openerp.utils import expr_eval, TinyDict
 from openerp.widgets import screen, TinyInputWidget, register_widget
 
 

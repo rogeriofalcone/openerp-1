@@ -28,11 +28,13 @@ import urllib
 import xml.dom.minidom
 
 import simplejson
-from openerp.utils import rpc, cache, node_attributes
-from openerp.widgets import TinyWidget
+from openobject import rpc
 from openobject.tools import url_plus
-from openobject.widgets import JSSource, JSLink
+from openobject.widgets import JSLink
 from openobject.i18n.format import DT_SERVER_FORMATS, tz_convert
+
+from openerp.utils import cache, node_attributes
+from openerp.widgets import TinyWidget
 
 if not hasattr(locale, 'nl_langinfo'):
     locale.nl_langinfo = lambda *a: '%x'

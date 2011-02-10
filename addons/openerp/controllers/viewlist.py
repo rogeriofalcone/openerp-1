@@ -19,9 +19,10 @@
 #
 ###############################################################################
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, TinyDict
+from openerp.utils import TinyDict
 from openerp.widgets.screen import Screen
 
+from openobject import rpc
 from openobject.tools import expose, redirect
 
 

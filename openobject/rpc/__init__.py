@@ -27,7 +27,7 @@ import xmlrpclib
 import cherrypy
 
 import openobject.errors
-from openobject import tools
+import openobject.tools.resources
 
 from netrpc import NetRPCSocket, NetRPCError
 
@@ -350,9 +350,9 @@ class RPCSession(object):
             locale.setlocale(locale.LC_ALL, "%s.UTF-8" % dblocale)
             link = "jscal/lang/calendar-%s.js" % dblocale
             
-            if not tools.resources.resource_exists("openerp", "static", link):
+            if not openobject.tools.resources.resource_exists("openerp", "static", link):
                 link = "jscal/lang/calendar-%s.js" % dblocale.split("_")[0]
-                if not tools.resources.resource_exists("openerp", "static", link):
+                if not openobject.tools.resources.resource_exists("openerp", "static", link):
                     locale.setlocale(locale.LC_ALL, "")
         except:
             locale.setlocale(locale.LC_ALL, "")

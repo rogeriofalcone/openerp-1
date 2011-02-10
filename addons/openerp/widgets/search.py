@@ -29,11 +29,11 @@ import xml.dom.minidom
 import cherrypy
 import copy
 
-from openerp.utils import rpc, cache, icons, node_attributes, expr_eval
+from openerp.utils import cache, icons, node_attributes, expr_eval
 from openerp.widgets import TinyInputWidget, InputWidgetLabel, form
 
+from openobject import rpc
 from openobject.widgets import JSLink, locations
-
 from openobject.i18n.format import convert_date_format_in_domain
 
 

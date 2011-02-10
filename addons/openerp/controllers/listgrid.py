@@ -23,11 +23,12 @@ import simplejson
 
 import cherrypy
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, TinyDict, TinyForm, TinyFormError, context_with_concurrency_info, cache
+from openerp.utils import TinyDict, TinyForm, TinyFormError, context_with_concurrency_info, cache
 from openerp.widgets import listgrid, listgroup
 
 import form
 import wizard
+from openobject import rpc
 from openobject.tools import expose, ast
 
 class List(SecuredController):

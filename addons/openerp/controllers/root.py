@@ -21,8 +21,9 @@
 import cherrypy
 
 import openobject
+from openobject import rpc
 from openerp.controllers import SecuredController, unsecured, actions, login as tiny_login, form, widgets
-from openerp.utils import rpc, cache, TinyDict
+from openerp.utils import cache, TinyDict
 
 from openobject.tools import url, expose, redirect
 

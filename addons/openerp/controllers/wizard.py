@@ -21,13 +21,13 @@
 import re
 
 import cherrypy
-from openerp import widgets as tw, validators
+from openerp import widgets as tw
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, icons, TinyDict
+from openerp.utils import icons, TinyDict
 
 import form
 from openobject.tools import expose, redirect, validate, error_handler
-from openobject import pooler
+from openobject import pooler, rpc
 import openobject
 
 class Wizard(SecuredController):

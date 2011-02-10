@@ -19,11 +19,13 @@
 #
 ###############################################################################
 import cherrypy
-from openerp import widgets as tw, validators
-from openerp.utils import rpc, common, TinyDict
 
-from openerp.controllers.form import Form
+from openobject import rpc
 from openobject.tools import expose
+
+from openerp import widgets as tw, validators
+from openerp.utils import common, TinyDict
+from openerp.controllers.form import Form
 
 
 class State(Form):

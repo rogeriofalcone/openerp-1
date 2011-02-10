@@ -24,10 +24,11 @@ import math
 
 import cherrypy
 
+from openobject import rpc
 from openobject.tools import expose
 from openobject.i18n import format
 
-from openerp.utils import rpc, TinyDict, context_with_concurrency_info, cache
+from openerp.utils import TinyDict, context_with_concurrency_info, cache
 
 from openerp.controllers.form import Form
 

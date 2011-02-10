@@ -18,8 +18,6 @@
 #  You can see the MPL licence at: http://www.mozilla.org/MPL/MPL-1.1.html
 #
 ###############################################################################
-import time
-
 from openerp.utils import expr_eval, TinyDict
 from openerp.widgets import TinyWidget, TinyInputWidget
 

@@ -22,8 +22,9 @@ import base64
 
 import cherrypy
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, common, TinyDict
+from openerp.utils import common, TinyDict
 
+from openobject import rpc
 from openobject.tools import expose, redirect
 
 import actions

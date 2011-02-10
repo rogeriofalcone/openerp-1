@@ -27,8 +27,6 @@ import pytz
 from babel import dates, numbers
 
 from openobject.i18n.utils import get_locale
-#from openerp.utils import cache
-#from openerp.utils import rpc
 
 __all__ = ['DT_SERVER_FORMATS', 'get_datetime_format',
            'format_datetime', 'parse_datetime',
@@ -214,7 +212,6 @@ def convert_date_format_in_domain(domain, fields, context):
 
 def _convert_date_format_in_domain(domain, fields, context):
     from view_calendar.widgets.utils import DT_FORMAT_INFO
-    from openerp.utils import rpc
 
     date_fields = dict([(field_name, field_def['type'])
                             for field_name, field_def

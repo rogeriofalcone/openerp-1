@@ -24,9 +24,10 @@ import xml
 import cherrypy
 from openerp import utils, widgets, validators
 from openerp.controllers import SecuredController
-from openerp.utils import rpc, common, icons, cache, TinyDict
+from openerp.utils import common, icons, cache, TinyDict
 
 from form import Form
+from openobject import rpc
 from openobject.tools import url, expose
 
 
