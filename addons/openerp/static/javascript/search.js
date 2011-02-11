@@ -285,7 +285,7 @@ function display_Customfilters(all_domains, group_by_ctx) {
                 rec[$fieldname.attr('value')] = $constraint_value.val();
                 record[id] = rec;
             } else {
-				$constraint_value.addClass('errorfield').val(_('InValid Value')).click(function() {
+				$constraint_value.addClass('errorfield').val(_('Invalid Value')).click(function() {
 					jQuery(this).val('').removeClass('errorfield')
 				})
 				error = true;
