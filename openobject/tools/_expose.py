@@ -209,13 +209,13 @@ def expose(format='html', template=None, content_type=None, allow_json=False, me
                 if _template:
 
                     from openobject.widgets import Widget, OrderedSet
-                    from openobject.widgets import js_i18n
+                    from openobject.widgets import JSI18n
 
                     res['widget_css'] = css = OrderedSet()
                     res['widget_javascript'] = js = {}
 
                     jset = js.setdefault('head', OrderedSet())
-                    jset.add_all([js_i18n])
+                    jset.add_all([JSI18n(None, None)])
 
                     for value in res.itervalues():
 

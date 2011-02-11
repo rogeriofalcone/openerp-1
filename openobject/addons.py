@@ -205,6 +205,7 @@ def load_addons(db_name, config):
         return
     cherrypy.request.loading_addons = True
     _loaded[db_name] = {}
+    pooler.get_pool().load('openobject')
 
     base_addons = [m for m in get_local_addons() if get_info(m).get("active")]
 

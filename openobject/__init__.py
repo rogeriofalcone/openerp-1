@@ -8,8 +8,9 @@ if os.path.exists(libdir) and libdir not in sys.path:
     sys.path.insert(0, libdir)
 
 import cherrypy
-import controllers._root
 import openobject
+import openobject.controllers
+import openobject.widgets
 
 __all__ = ['ustr', 'application', 'configure', 'enable_static_paths',
            'WSGI_STATIC_PATHS']
@@ -59,7 +60,7 @@ __builtins__['ustr'] = ustr
 import i18n
 i18n.install()
 
-application = cherrypy.tree.mount(controllers._root.Root(), '/')
+application = cherrypy.tree.mount(openobject.controllers._root.Root(), '/')
 def enable_static_paths():
     ''' Enables handling of static paths by CherryPy:
     * /openobject/static
