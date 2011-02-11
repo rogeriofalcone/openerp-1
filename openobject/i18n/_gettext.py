@@ -181,7 +181,10 @@ def lazify(func):
 _lazy_gettext = lazify(_gettext)
 
 def gettext(key, locale=None, domain=None):
-    if cherrypy.request.loading_addons:
+    # We need a cherrypy request active and addons being fully loaded to get
+    # our translations
+    if cherrypy.request.stage is None\
+        or cherrypy.request.loading_addons:
         return _lazy_gettext(key, locale, domain)
     return _gettext(key, locale, domain)
 
