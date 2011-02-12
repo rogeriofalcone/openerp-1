@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-02-11 02:56+0000\n"
+"PO-Revision-Date: 2011-02-12 00:11+0000\n"
 "Last-Translator: kifcaliph <kifcaliph@hotmail.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-02-11 04:58+0000\n"
-"X-Generator: Launchpad (build 12177)\n"
+"X-Launchpad-Export-Date: 2011-02-12 05:00+0000\n"
+"X-Generator: Launchpad (build 12351)\n"
 
 #: validators.py:75
 msgid "Invalid literal for float"
@@ -583,6 +583,13 @@ msgid ""
 "                    project management, production, services, CRM, etc..\n"
 "                    "
 msgstr ""
+"%(openobject)s هو برنامج مجاني للشركات و المنشآت و ليساعدهما علي \n"
+"                        الأنتاجية و الربح من خلال تكامل البيانات. هذا "
+"بالإضافة إلي انه يربط، و يدعم،\n"
+"\t\t\tو ينظم العمليات للأعمال التجارية في مجالات مثل المبيعات، المالية، "
+"المخزون،\n"
+"                        إدارةالمشروعات، الإنتاج، الخدمات، CRM، إلخ..\n"
+"                    "
 
 #: controllers/templates/about.mako:51
 msgid ""
@@ -600,30 +607,30 @@ msgstr ""
 msgid ""
 "Depending on your needs, OpenERP is available through a web or application "
 "client."
-msgstr ""
+msgstr "يمكن تهئة البرنامج حسب إحتياجك."
 
 #: controllers/templates/database.mako:50 controllers/templates/login.mako:4
 #: controllers/templates/login.mako:67 controllers/templates/login_ajax.mako:85
 #: controllers/templates/login_ajax.mako:104
 msgid "Login"
-msgstr ""
+msgstr "تسجيل الدخول"
 
 #: controllers/templates/database.mako:60
 msgid "Password"
-msgstr ""
+msgstr "كلمة المرور"
 
 #: controllers/templates/error_page.mako:77
 #, python-format
 msgid "An %(error_type)s has been reported."
-msgstr ""
+msgstr "حدوث خطأ في %(error_type)s تم تسجيله."
 
 #: controllers/templates/error_page.mako:79
 msgid "Let me fix it"
-msgstr ""
+msgstr "اجعلني اصلحه"
 
 #: controllers/templates/error_page.mako:85
 msgid "Fix it for me"
-msgstr ""
+msgstr "اصلحه من أجلي"
 
 #: controllers/templates/error_page.mako:90
 msgid "You do not have a valid OpenERP publisher warranty contract !"
@@ -672,7 +679,7 @@ msgstr ""
 
 #: controllers/templates/error_page.mako:135
 msgid "Publisher warranty contract."
-msgstr ""
+msgstr "عقد الضمان للناشر"
 
 #: controllers/templates/error_page.mako:136
 msgid ""
@@ -682,23 +689,23 @@ msgstr ""
 
 #: controllers/templates/error_page.mako:140
 msgid "Summary of the problem:"
-msgstr ""
+msgstr "ملخص المشكلة:"
 
 #: controllers/templates/error_page.mako:147
 msgid "Explain what you did:"
-msgstr ""
+msgstr "إشرح ما فعلت:"
 
 #: controllers/templates/error_page.mako:156
 msgid "Other Comments:"
-msgstr ""
+msgstr "تعليقات أخري:"
 
 #: controllers/templates/error_page.mako:168
 msgid "Send to Publisher Warranty Team"
-msgstr ""
+msgstr "إرسال إلي فريق الضمان و النشر"
 
 #: controllers/templates/error_page.mako:195
 msgid "Write concurrency warning :"
-msgstr ""
+msgstr "اكتب تحذير تزامني:"
 
 #: controllers/templates/error_page.mako:200
 msgid ""
@@ -716,52 +723,52 @@ msgstr ""
 #: controllers/templates/preferences/index.mako:38
 #: widgets/templates/listgrid/listgrid.mako:33
 msgid "Cancel"
-msgstr ""
+msgstr "إلغاء"
 
 #: controllers/templates/error_page.mako:215
 msgid "Write Anyway"
-msgstr ""
+msgstr "الكتابة على أية حال"
 
 #: controllers/templates/exp.mako:151
 msgid "Export Data"
-msgstr ""
+msgstr "تصدير البيانات"
 
 #: controllers/templates/exp.mako:166
 msgid "Export Type:"
-msgstr ""
+msgstr "نوع التصدير:"
 
 #: controllers/templates/exp.mako:169
 msgid "Import Compatible Export"
-msgstr ""
+msgstr "إستيراد بيانات ملائمة للتصدير"
 
 #: controllers/templates/exp.mako:172
 msgid "Export all Data"
-msgstr ""
+msgstr "تصدير جميع البيانات"
 
 #: controllers/templates/exp.mako:183
 msgid "Available fields"
-msgstr ""
+msgstr "الحقول المتوفرة"
 
 #: controllers/templates/exp.mako:185
 msgid "Fields to export"
-msgstr ""
+msgstr "حقول للتصدير"
 
 #: controllers/templates/exp.mako:187
 msgid "Save fields list"
-msgstr ""
+msgstr "حفظ قائمة الحقول"
 
 #: controllers/templates/exp.mako:189
 msgid "Save as:"
-msgstr ""
+msgstr "حفظ باسم:"
 
 #: controllers/templates/exp.mako:191 controllers/templates/fieldpref.mako:102
 #: controllers/templates/selection.mako:45
 msgid "OK"
-msgstr ""
+msgstr "موافق"
 
 #: controllers/templates/exp.mako:195
 msgid "Saved exports:"
-msgstr ""
+msgstr "مُصدرة محفوظة:"
 
 #: controllers/templates/exp.mako:204 controllers/templates/form.mako:135
 #: controllers/templates/image.mako:67 widgets/form/templates/one2many.mako:22
@@ -773,41 +780,41 @@ msgstr ""
 #: widgets/templates/listgrid/listgroup.mako:131
 #: widgets/templates/listgrid/multiple_group.mako:81
 msgid "Delete"
-msgstr ""
+msgstr "حذف"
 
 #: controllers/templates/exp.mako:217 widgets/templates/sidebar.mako:56
 #: widgets/templates/listgrid/listgrid.mako:135
 msgid "Add"
-msgstr ""
+msgstr "إضافة"
 
 #: controllers/templates/exp.mako:222 controllers/templates/viewlist.mako:125
 msgid "Remove"
-msgstr ""
+msgstr "إزالة"
 
 #: controllers/templates/exp.mako:227
 msgid "Remove All"
-msgstr ""
+msgstr "إزالة الكل"
 
 #: controllers/templates/exp.mako:245
 msgid "Export to File"
-msgstr ""
+msgstr "تصدير لملف"
 
 #: controllers/templates/fieldpref.mako:4
 #: controllers/templates/fieldpref.mako:29
 msgid "Field Preferences"
-msgstr ""
+msgstr "التفضيلات للحقول"
 
 #: controllers/templates/fieldpref.mako:39
 msgid "Field Name:"
-msgstr ""
+msgstr "اسم الحقل:"
 
 #: controllers/templates/fieldpref.mako:43
 msgid "Domain:"
-msgstr ""
+msgstr "النطاق:"
 
 #: controllers/templates/fieldpref.mako:47
 msgid "Default Value:"
-msgstr ""
+msgstr "القيمة الإفتراضية:"
 
 #: controllers/templates/fieldpref.mako:57
 msgid "Value applicable for:"
@@ -815,11 +822,11 @@ msgstr ""
 
 #: controllers/templates/fieldpref.mako:63
 msgid "Only for you"
-msgstr ""
+msgstr "لك فقط"
 
 #: controllers/templates/fieldpref.mako:67
 msgid "For all"
-msgstr ""
+msgstr "للكل"
 
 #: controllers/templates/fieldpref.mako:76
 msgid "Value applicable if:"
@@ -843,7 +850,7 @@ msgstr ""
 #: controllers/templates/viewlist.mako:129 widgets/templates/sidebar.mako:67
 #: widgets/templates/viewform.mako:37
 msgid "Close"
-msgstr ""
+msgstr "إغلاق"
 
 #: controllers/templates/footer.mako:3
 #, python-format
@@ -852,15 +859,15 @@ msgstr ""
 
 #: controllers/templates/footer.mako:6
 msgid "Significant contributions to the web client have been made by"
-msgstr ""
+msgstr "تمت المساهمة الأكبر للويب من قبل بواسطة kifcaliph و"
 
 #: controllers/templates/form.mako:63
 msgid "Disable all Tips"
-msgstr ""
+msgstr "ألغ النصائح"
 
 #: controllers/templates/form.mako:64
 msgid "Hide this Tip"
-msgstr ""
+msgstr "أخف هذه النصيحة"
 
 #: controllers/templates/form.mako:82
 msgid "Add / Remove Shortcut..."
