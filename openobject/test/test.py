@@ -1,52 +1,41 @@
-import os
-import sys
-
-from openobject import commands
-
-from cherrypy.test import test, helper
-test.prefer_parent_path()
-
 import cherrypy
+import unittest2
+import openobject.tools._tools
 
-__all__ = ["TestCase", "setup_server"]
+class TestCustomHeadersOnRedirection(unittest2.TestCase):
+    def setUp(self):
+        cherrypy.response.status = 303
+        cherrypy.request.headers['X-Requested-With'] = 'header'
+        cherrypy.request.headers['Location'] = 'http://example.org/foo?bar=true'
+        cherrypy.request.params = {'requested_with': 'param'}
+        self.fixer = openobject.tools._tools.CustomHeadersRedirectionFix()
+        self.fixer.custom_headers = [
+            ('X-Requested-With', 'requested_with')
+        ]
+    def tearDown(self):
+        del cherrypy.request.headers['X-Requested-With']
+        del cherrypy.request.headers['Location']
+        del cherrypy.request.params
+        del cherrypy.response.status
 
-class TestCase(helper.CPWebCase):
-    pass
+    def testHeaderToParam(self):
+        self.assertEqual(
+            'http://example.org/foo?bar=true',
+            cherrypy.request.headers['Location'])
+        self.fixer.header_to_parameter_on_redirection()
+        self.assertEqual(
+            'http://example.org/foo?bar=true&requested_with=header',
+            cherrypy.request.headers['Location'])
 
-commands.CPSessionWrapper = dict
-
-class CPSessionWrapper(dict):
-    
-    def __setattr__(self, name, value):
-        self[name] = value
-
-    def __getattr__(self, name):
-        return self.get(name)
-
-    def __delattr__(self, name):
-        if name in self:
-            del self[name]
-
-commands.CPSessionWrapper = CPSessionWrapper
-
-def setup_server():
-    configfile = commands.get_config_file()
-    commands.setup_server(configfile)
-    cherrypy.config.update({'environment': 'test_suite'})
-
-def run():
-    
-    testList = [
-        'test_root_controller',
-    ]
-    
-    clp = test.CommandLineParser(testList)
-    success = clp.run()
-    if clp.interactive:
-        print
-        raw_input('hit enter')
-    sys.exit(success)
-
-
-if __name__ == '__main__':
-    run()
+    def testParamToHeader(self):
+        self.assertEqual(
+            'header',
+            cherrypy.request.headers['X-Requested-With'])
+        self.assertEqual(
+            {'requested_with': 'param'},
+            cherrypy.request.params)
+        self.fixer.pop_parameter_to_header()
+        self.assertEqual(
+                'param',
+                cherrypy.request.headers['X-Requested-With'])
+        self.assertEqual({}, cherrypy.request.params)

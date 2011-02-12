@@ -88,7 +88,14 @@ def enable_static_paths():
 
 BASE_CONFIG = {
     # Conversion of input parameters via formencode.variabledecode.NestedVariables
-    'tools.nestedvars.on': True
+    'tools.nestedvars.on': True,
+    'tools.fix_custom_headers_redirection.on': True,
+    'tools.fix_custom_headers_redirection.custom_headers': [
+        # Header set by XHR requests, used to know whether the client needs
+        # a full template (including JS and CSS files) or just the content
+        # area of the HTML
+        ('X-Requested-With', 'requested_with')
+    ]
 }
 def configure(app_config):
     ''' Configures OpenERP Web Client. Takes a configuration dict
