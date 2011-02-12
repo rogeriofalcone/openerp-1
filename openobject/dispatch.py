@@ -1,22 +1,32 @@
 import cherrypy
 
 from openobject import pooler
-from openobject.tools import expose
 from openobject.errors import AuthenticationError
 
-from _base import BaseController
 
+class Dispatcher(cherrypy.dispatch.Dispatcher):
+    """ The custom OpenObject dispatcher, using the object pool for its
+    dispatching.
 
-class Root(BaseController):
-    """Custom root controller to dispatch requests to pooled controllers.
-    Based on cherrypy.dispatch.Dispatcher
+    Because it needs session data (among other things) and session data is not
+    available during dispatch, this dispatcher is actually used as a CherryPy
+    tool, running after the session tool has been initialized but before the
+    handler is called (so it can replace it)
     """
+    def __call__(self, path_info=None):
+        request = cherrypy.request
+        if not isinstance(request.handler, cherrypy.NotFound):
+            return
 
-    @expose()
-    def default(self, *args, **kw):
+        if path_info is None:
+            path_info = request.path_info
+
+        if path_info.endswith('default.html'):
+            return
+
         # If we don't set it to a `False` default, we're probably going to
         # throw *a lot* which we don't want.
-        cherrypy.request.loading_addons = False
+        request.loading_addons = False
         autoreloader_enabled = bool(
                 getattr(cherrypy.engine.autoreload, 'thread', None))
         if autoreloader_enabled:
@@ -35,21 +45,10 @@ class Root(BaseController):
             # re-enable auto-reloading if it was enabled before
             cherrypy.engine.autoreload.subscribe()
 
+        super(Dispatcher, self).__call__(path_info)
+
+    def find_handler(self, path):
         request = cherrypy.request
-        func, vpath = self.find_handler()
-
-        if func:
-        # Decode any leftover %2F in the virtual_path atoms.
-            vpath = [x.replace("%2F", "/") for x in vpath]
-            request.handler = cherrypy.dispatch.LateParamPageHandler(func, *vpath)
-        else:
-            request.handler = cherrypy.NotFound()
-
-        return request.handler()
-
-    def find_handler(self):
-        request = cherrypy.request
-        path = request.path_info
 
         pool = request.pool = pooler.get_pool()
 

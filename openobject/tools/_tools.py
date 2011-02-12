@@ -29,6 +29,8 @@ import cherrypy
 import cherrypy._cptools
 from formencode import NestedVariables
 
+import openobject.dispatch
+
 def nestedvars_tool():
     if hasattr(cherrypy.request, 'params'):
         cherrypy.request.params = NestedVariables.to_python(cherrypy.request.params or {})
@@ -126,3 +128,6 @@ def clear_cache_buster():
         del params['_']
 cherrypy.tools.clear_cache_buster = cherrypy.Tool(
     'on_start_resource', clear_cache_buster, priority=0)
+
+cherrypy.tools.openobject_dispatcher = cherrypy.Tool(
+    'before_handler', openobject.dispatch.Dispatcher(), priority=70)

@@ -60,7 +60,7 @@ __builtins__['ustr'] = ustr
 import i18n
 i18n.install()
 
-application = cherrypy.tree.mount(openobject.controllers._root.Root(), '/')
+application = cherrypy.tree.mount(None, '/')
 def enable_static_paths():
     ''' Enables handling of static paths by CherryPy:
     * /openobject/static
@@ -96,7 +96,8 @@ BASE_CONFIG = {
         # area of the HTML
         ('X-Requested-With', 'requested_with')
     ],
-    'tools.clear_cache_buster.on': True
+    'tools.clear_cache_buster.on': True,
+    'tools.openobject_dispatcher.on': True
 }
 def configure(app_config):
     ''' Configures OpenERP Web Client. Takes a configuration dict
