@@ -95,7 +95,8 @@ BASE_CONFIG = {
         # a full template (including JS and CSS files) or just the content
         # area of the HTML
         ('X-Requested-With', 'requested_with')
-    ]
+    ],
+    'tools.clear_cache_buster.on': True
 }
 def configure(app_config):
     ''' Configures OpenERP Web Client. Takes a configuration dict

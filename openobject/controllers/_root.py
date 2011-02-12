@@ -1,4 +1,3 @@
-import urlparse
 import cherrypy
 
 from openobject import pooler
@@ -12,11 +11,6 @@ class Root(BaseController):
     """Custom root controller to dispatch requests to pooled controllers.
     Based on cherrypy.dispatch.Dispatcher
     """
-
-    def clean_headers_params(self, request):
-        # clear cache parameter added to prevent ie to cache
-        if '_' in request.params:
-            del request.params['_']
 
     @expose()
     def default(self, *args, **kw):
@@ -42,7 +36,6 @@ class Root(BaseController):
             cherrypy.engine.autoreload.subscribe()
 
         request = cherrypy.request
-        self.clean_headers_params(request)
         func, vpath = self.find_handler()
 
         if func:

@@ -114,3 +114,15 @@ class CustomHeadersRedirectionFix(cherrypy._cptools.Tool):
                 urllib.urlencode(params, True),
                 ''))
 cherrypy.tools.fix_custom_headers_redirection = CustomHeadersRedirectionFix()
+
+def clear_cache_buster():
+    """ There are situations where we use jQuery's cache buster against IE's
+    propensity to cache stuff it's not supposed to. But our CherryPy handlers
+    tend to be strict in the params they accept, so we need to clean the
+    cache-busting GET parameter if it's present.
+    """
+    params = cherrypy.request.params
+    if '_' in params:
+        del params['_']
+cherrypy.tools.clear_cache_buster = cherrypy.Tool(
+    'on_start_resource', clear_cache_buster, priority=0)
