@@ -30,6 +30,8 @@ import cherrypy._cptools
 from formencode import NestedVariables
 
 import openobject.dispatch
+import openobject.errors
+import openobject.pooler
 
 def nestedvars_tool():
     if hasattr(cherrypy.request, 'params'):
@@ -129,5 +131,31 @@ def clear_cache_buster():
 cherrypy.tools.clear_cache_buster = cherrypy.Tool(
     'on_start_resource', clear_cache_buster, priority=0)
 
+def check_web_modules():
+    # If we don't set it to a `False` default, we're probably going to
+    # throw *a lot* which we don't want.
+    cherrypy.request.loading_addons = False
+    autoreloader_enabled = bool(
+            getattr(cherrypy.engine.autoreload, 'thread', None))
+    if autoreloader_enabled:
+        # stop (actually don't listen to) the auto-reloader the process
+        # doesn't restart due to downloading new add-ons or refreshing
+        # existing ones
+        cherrypy.engine.autoreload.unsubscribe()
+    try:
+        obj = openobject.pooler.get_pool().get_controller("/openerp/modules")
+        if obj.has_new_modules():
+            openobject.pooler.restart_pool()
+    except openobject.errors.AuthenticationError:
+        pass
+
+    if autoreloader_enabled:
+        # re-enable auto-reloading if it was enabled before
+        cherrypy.engine.autoreload.subscribe()
+cherrypy.tools.web_modules = cherrypy.Tool(
+    'before_handler', check_web_modules, priority=60)
+
+# The dispatcher has to run after we've (potentially) reloaded the
+# web modules
 cherrypy.tools.openobject_dispatcher = cherrypy.Tool(
     'before_handler', openobject.dispatch.Dispatcher(), priority=70)

@@ -1,8 +1,6 @@
 import cherrypy
 
 from openobject import pooler
-from openobject.errors import AuthenticationError
-
 
 class Dispatcher(cherrypy.dispatch.Dispatcher):
     """ The custom OpenObject dispatcher, using the object pool for its
@@ -27,27 +25,6 @@ class Dispatcher(cherrypy.dispatch.Dispatcher):
         # 'default.html'
         if path_info.endswith('default.html'):
             return
-
-        # If we don't set it to a `False` default, we're probably going to
-        # throw *a lot* which we don't want.
-        request.loading_addons = False
-        autoreloader_enabled = bool(
-                getattr(cherrypy.engine.autoreload, 'thread', None))
-        if autoreloader_enabled:
-            # stop (actually don't listen to) the auto-reloader the process
-            # doesn't restart due to downloading new add-ons or refreshing
-            # existing ones
-            cherrypy.engine.autoreload.unsubscribe()
-        try:
-            obj = pooler.get_pool().get_controller("/openerp/modules")
-            if obj.has_new_modules():
-                pooler.restart_pool()
-        except AuthenticationError:
-            pass
-
-        if autoreloader_enabled:
-            # re-enable auto-reloading if it was enabled before
-            cherrypy.engine.autoreload.subscribe()
 
         super(Dispatcher, self).__call__(path_info)
 

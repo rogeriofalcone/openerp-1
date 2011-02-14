@@ -89,6 +89,7 @@ def enable_static_paths():
 BASE_CONFIG = {
     # Conversion of input parameters via formencode.variabledecode.NestedVariables
     'tools.nestedvars.on': True,
+    'tools.web_modules.on': True,
     'tools.fix_custom_headers_redirection.on': True,
     'tools.fix_custom_headers_redirection.custom_headers': [
         # Header set by XHR requests, used to know whether the client needs
