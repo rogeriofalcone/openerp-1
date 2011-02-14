@@ -576,6 +576,10 @@ function search_filter(src, id) {
 	jQuery('div#no-record-warning').hide();
     var all_domains = parse_filters(src, id);
     
+    if (group_by == 'False') {
+		group_by = [];
+	}
+    
     if(jQuery('#filter_table').is(':visible') || jQuery('#_terp_filter_domain').val() != '[]') {
         display_Customfilters(all_domains, group_by);
     } else {
