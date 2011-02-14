@@ -1,5 +1,5 @@
 <%inherit file="/openerp/controllers/templates/base_dispatch.mako"/>
-
+	
 <%def name="header()">
     <script type="text/javascript">    
         jQuery(document).ready(function(){
@@ -23,7 +23,13 @@
             var $doc = jQuery(topWindow.document);
             switch($doc.find('#_terp_view_type').val()) {
             	case 'form':
-                    topWindow.editRecord($doc.find('#_terp_id').val());
+					var terp_id = jQuery(idSelector('_terp_id'),$doc).val();
+					if(terp_id == 'False' || !terp_id) {
+						topWindow.location.href = '/openerp';
+						return;
+					} else {
+						topWindow.editRecord($doc.find('#_terp_id').val());
+					}
                 case 'tree':
                     new topWindow.ListView('_terp_list').reload();
                     return;
