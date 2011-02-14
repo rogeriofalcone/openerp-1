@@ -140,14 +140,13 @@ ManyToOne.prototype.open = function(id) {
     var domain = jQuery(this.field).attr('domain');
     var context = jQuery(this.field).attr('context');
 
-    var model = this.relation;
+    var model = this.relation || jQuery(this.field).attr('relation');
     var source = this.name;
 
     var editable = this.editable;
     if(editable && jQuery(this.field).hasClass('readonlyfield')) {
         editable = false;
     }
-
     eval_domain_context_request({
         source: source,
         domain: domain,

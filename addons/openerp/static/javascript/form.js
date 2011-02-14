@@ -648,6 +648,20 @@ function onChange(caller){
                             });
                         }
                         break;
+					case 'reference':
+						var _val = value.split(',');
+						var ref_val = _val[0];
+						var ref_id = _val[1];
+						
+						jQuery('option[value="'+ref_val+'"]', idSelector(k+'_reference')).attr('selected', 'selected')
+						if($caller.attr('kind') == 'many2one') {
+							var caller_id = $caller.attr('id');
+							$fld.val(ref_id);
+							$fld.attr('relation', ref_val);
+							jQuery(idSelector(prefix + k + '_text')).attr('relation', ref_val);
+							jQuery(idSelector(prefix + k + '_text')).val(jQuery(idSelector(caller_id+'_text')).val())
+						}
+						break;
                     case 'many2one':
                         fld.value = value[0] || '';
                         try {
