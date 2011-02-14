@@ -21,6 +21,10 @@ class Dispatcher(cherrypy.dispatch.Dispatcher):
         if path_info is None:
             path_info = request.path_info
 
+        # cherrypy performs a request on this to force staticfile's
+        # configuration (will request default.html on every
+        # staticfile path), ignore it as we don't have files called
+        # 'default.html'
         if path_info.endswith('default.html'):
             return
 
