@@ -136,6 +136,7 @@ def check_web_modules():
     if not any(media.value == 'text/html'
                for media in cherrypy.request.headers.elements('Accept')):
         return
+    cherrypy.request.loading_addons = False
     autoreloader_enabled = bool(
             getattr(cherrypy.engine.autoreload, 'thread', None))
     if autoreloader_enabled:
