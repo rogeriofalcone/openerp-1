@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-02-12 00:11+0000\n"
+"PO-Revision-Date: 2011-02-13 18:37+0000\n"
 "Last-Translator: kifcaliph <kifcaliph@hotmail.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-02-13 04:38+0000\n"
+"X-Launchpad-Export-Date: 2011-02-14 04:51+0000\n"
 "X-Generator: Launchpad (build 12351)\n"
 
 #: validators.py:75
@@ -602,6 +602,14 @@ msgid ""
 "                    production system and migration to a new version to be "
 "straightforward."
 msgstr ""
+"يعتبر نظام البرنامج مستقل عن الأنظمة التي يعمل عليها، فيمكن تنصيبه علي أنظمة "
+"الماك و الويندوز\n"
+"                    و العديد من أنظمة اللينوكس بالإضافة إلي توزيعات اليونكس. "
+"فتصميم البرنامج يسمح\n"
+"                    بالإضافات الجديدة أن تنشأ بسهولة و بالتعديلات التي تتم "
+"بأن تضاف بسرعة و ذلك من\n"
+"                   أجل تفعيل إنتاجية النظام و سهولة إنتقالها في الإصدارات "
+"الجديدة مباشرة."
 
 #: controllers/templates/about.mako:57
 msgid ""
@@ -634,7 +642,7 @@ msgstr "اصلحه من أجلي"
 
 #: controllers/templates/error_page.mako:90
 msgid "You do not have a valid OpenERP publisher warranty contract !"
-msgstr ""
+msgstr "لا يوجد لديك عقد ضمان صحيح من الناشر للـ OpenERP"
 
 #: controllers/templates/error_page.mako:91
 msgid ""
@@ -658,6 +666,20 @@ msgid ""
 "* Security alerts by email and automatic migration,\n"
 "* Access to the customer portal.\n"
 msgstr ""
+"إذا كنت تستخدم OpenERP للإنتاج، فإنه من المفضل الحصول\n"
+"علي عقد ضمان من الناشر.\n"
+"\n"
+"يتضمن عقد الضمان من الناشر توفير حلول لمشاكل النظام و نقل\n"
+"تلقائي للنظام و ذلك للبدء في حل مشاكلك في ساعات قليلة.\n"
+"\n"
+"مع عقد الضمان، مثل هذه الأخطاء يتم إرسالها مباشرة إلي فريق عمل\n"
+"OpenERP للنظر فيها و التحليل.\n"
+"\n"
+"إن عقد الضمان يتيح لك:\n"
+"* النقل التلقائي للإصدارات الجديدة.\n"
+"* ضمان تصحيح أخطاء البرنامج.\n"
+"* سلامة أمن النظام\n"
+"* الدع م الفني اللازم\n"
 
 #: controllers/templates/error_page.mako:113
 msgid ""
@@ -676,6 +698,17 @@ msgid ""
 "\n"
 "Here is the list of modules not covered by your publisher warranty contract:"
 msgstr ""
+"لا يشمل عقد الضمان جميع الأكواد التي تم تنصيبها علي النظام!\n"
+"إذا كنت تستخدم OpenERP للإنتاج، فإنه من الأفضل لك تحديث\n"
+"عقد الضمان.\n"
+"\n"
+"إذا قمت بتطوير أكواد خاصة لك أو إستخدمت أكواد من شركات أخري غير OpenERP، "
+"فنحن\n"
+"يمكننا أيضاً تقديم عقد ضمان نشر إضافي لهذه الأكواد ايضاً، و ذلك بعد\n"
+"ان يتم إستعراض هذه الأكواد، ليقوم فريق الجودة لتأكيد و لدعم النقل\n"
+"التلقائي لكل الإصدارات الحديثة لنظام OpenERP و ذلك دون أي تكلفة\n"
+"\n"
+"هذه قائمة بـ بجميع الأكواد التي لا تشتمل علي ضمان الناشر:"
 
 #: controllers/templates/error_page.mako:135
 msgid "Publisher warranty contract."
@@ -685,7 +718,7 @@ msgstr "عقد الضمان للناشر"
 msgid ""
 "Your request will be sent to OpenERP and publisher warranty team will reply "
 "you shortly."
-msgstr ""
+msgstr "سيتم إرسال طلبك إلي فريق OpenERP و الناشر و ذلك للإجابة الفورية."
 
 #: controllers/templates/error_page.mako:140
 msgid "Summary of the problem:"
@@ -715,6 +748,11 @@ msgid ""
 "    - \"Cancel\" to cancel saving.\n"
 "    - \"Write anyway\" to save your current version."
 msgstr ""
+"هذا الملف قد تم تعديله بينما كنت انت تحرره.\n"
+"اخر:\n"
+"\n"
+"    - \"إلغاء\" و ذلك لإلغاء الحفظ.\n"
+"    - \"إضافة التحرير\" و ذلك لحفظ النسخة الحالية."
 
 #: controllers/templates/error_page.mako:214 controllers/templates/exp.mako:244
 #: controllers/templates/form.mako:140 controllers/templates/openo2m.mako:41
@@ -818,7 +856,7 @@ msgstr "القيمة الإفتراضية:"
 
 #: controllers/templates/fieldpref.mako:57
 msgid "Value applicable for:"
-msgstr ""
+msgstr "القيمة الملائمة لـ:"
 
 #: controllers/templates/fieldpref.mako:63
 msgid "Only for you"
@@ -830,11 +868,11 @@ msgstr "للكل"
 
 #: controllers/templates/fieldpref.mako:76
 msgid "Value applicable if:"
-msgstr ""
+msgstr "القيمة ملائمة لو:"
 
 #: controllers/templates/fieldpref.mako:79
 msgid "Always applicable!"
-msgstr ""
+msgstr "دائماً!"
 
 #: controllers/templates/fieldpref.mako:99 controllers/templates/image.mako:70
 #: controllers/templates/imp.mako:205 controllers/templates/index.mako:198
@@ -855,7 +893,7 @@ msgstr "إغلاق"
 #: controllers/templates/footer.mako:3
 #, python-format
 msgid "&copy; 2008-2010 %(ooweb)s  SA. All Rights Reserved "
-msgstr ""
+msgstr "&copy; 2008-2010 %(ooweb)s  SA. جميع الحقوق محفوظة "
 
 #: controllers/templates/footer.mako:6
 msgid "Significant contributions to the web client have been made by"
@@ -880,7 +918,7 @@ msgstr "بحث: %s"
 
 #: controllers/templates/form.mako:93
 msgid "Corporate Intelligence..."
-msgstr ""
+msgstr "الاستخبارات التنافسية..."
 
 #: controllers/templates/form.mako:99
 msgid "Show Logs..."
