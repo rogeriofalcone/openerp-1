@@ -132,9 +132,10 @@ cherrypy.tools.clear_cache_buster = cherrypy.Tool(
     'on_start_resource', clear_cache_buster, priority=0)
 
 def check_web_modules():
-    # If we don't set it to a `False` default, we're probably going to
-    # throw *a lot* which we don't want.
-    cherrypy.request.loading_addons = False
+    # only execute if text/html request, not e.g. JS
+    if not any(media.value == 'text/html'
+               for media in cherrypy.request.headers.elements('Accept')):
+        return
     autoreloader_enabled = bool(
             getattr(cherrypy.engine.autoreload, 'thread', None))
     if autoreloader_enabled:

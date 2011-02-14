@@ -26,6 +26,10 @@ class Dispatcher(cherrypy.dispatch.Dispatcher):
         if path_info.endswith('default.html'):
             return
 
+        # If we don't set it to a `False` default, we're probably going to
+        # throw *a lot* which we don't want.
+        # TODO: fix loading so this crap isn't needed anymore
+        request.loading_addons = False
         super(Dispatcher, self).__call__(path_info)
 
     def find_handler(self, path):
