@@ -701,8 +701,7 @@ function onChange(caller){
                     default:
                     // do nothing on default
                 }
-
-                MochiKit.Signal.signal(fld, 'onchange');
+                $fld.trigger('change');
                 MochiKit.Signal.signal(window.document, 'onfieldchange', fld);
             }
 
