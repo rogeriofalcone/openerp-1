@@ -168,6 +168,9 @@ function form_onAttrChange(container, widgetName, attr, expr, elem, is_field_of_
     	widget = jQuery(elem).children()[0];
     } else {
     	widget = widgetName ? jQuery(idSelector(widgetName)) : jQuery(elem);
+		if(!widget.length) {
+			widget = jQuery(elem)
+		}
     }
 
     var result = form_evalExpr(prefix, expr, elem);
@@ -266,7 +269,7 @@ function form_setReadonly(container, fieldName, readonly) {
     var kind = $field.attr('kind');
     var field_id = $field.attr('id');
     var field_name = $field.attr('name');
-
+	var widget = $field.attr('widget');
     if (kind == 'boolean') {
         var boolean_field = jQuery('input#'+field_id+'_checkbox_');
         boolean_field.attr({'disabled':readonly, 'readOnly': readonly});
@@ -309,6 +312,10 @@ function form_setReadonly(container, fieldName, readonly) {
     if (kind == 'date' || kind == 'datetime' || kind == 'time') {
         jQuery(idSelector(field_name+'_trigger')).toggle(!readonly);
     }
+	
+	if(widget == '_fake') {
+		jQuery('[kind]',$field).toggleClass('readonlyfield')
+	}
 }
 
 function form_setRequired(container, field, required) {
