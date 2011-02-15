@@ -32,6 +32,7 @@ from formencode import NestedVariables
 import openobject.dispatch
 import openobject.errors
 import openobject.pooler
+import openobject.addons
 
 def nestedvars_tool():
     if hasattr(cherrypy.request, 'params'):
@@ -145,8 +146,7 @@ def check_web_modules():
         # existing ones
         cherrypy.engine.autoreload.unsubscribe()
     try:
-        obj = openobject.pooler.get_pool().get_controller("/openerp/modules")
-        if obj.has_new_modules():
+        if openobject.addons.has_new_modules():
             openobject.pooler.restart_pool()
     except openobject.errors.AuthenticationError:
         pass
