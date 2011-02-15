@@ -23,13 +23,17 @@
             var $doc = jQuery(topWindow.document);
             switch($doc.find('#_terp_view_type').val()) {
             	case 'form':
-					var terp_id = jQuery(idSelector('_terp_id'),$doc).val();
-					if(terp_id == 'False' || !terp_id) {
-						topWindow.location.href = '/openerp';
-						return;
-					} else {
-						topWindow.editRecord($doc.find('#_terp_id').val());
-					}
+                    var terp_id = jQuery(idSelector('_terp_id'),$doc).val();
+                    if(terp_id == "False") {
+                    	terp_id = '${active_id}';
+                    }
+                    if(terp_id == "False" || !terp_id) {
+                    	topWindow.location.href = '/openerp';
+                    	return;
+                    } else {
+                    	topWindow.editRecord(terp_id);
+                    	return;
+                    }
                 case 'tree':
                     new topWindow.ListView('_terp_list').reload();
                     return;

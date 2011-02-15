@@ -230,7 +230,7 @@ def act_window(action, data):
         active_ids=data.get('ids', []),
         active_model=data.get('model', False)
     )
-    
+
     if action.get('context') and isinstance(action['context'], dict):
         if not action['context'].get('active_ids'):
             action['context']['active_ids'] = ctx['active_ids'] or []
@@ -490,7 +490,11 @@ def close_popup(reload=True):
     :return: the rendered popup-closing template
     :rtype: str
     """
-    return {'reload': reload}
+    active_id = False
+    if getattr(cherrypy.request, 'params', []):
+        if getattr(cherrypy.request.params, 'context', {}):
+            active_id = cherrypy.request.params.context.get('active_id')
+    return {'reload': reload, 'active_id': active_id}
 
 @tools.expose(template="/openerp/controllers/templates/report.mako")
 def report_link(report_name, **kw):
