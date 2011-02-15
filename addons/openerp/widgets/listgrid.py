@@ -635,7 +635,7 @@ class Button(TinyInputWidget):
 class Hidden(TinyInputWidget):
     template = "openerp/widgets/templates/listgrid/hidden.mako"
 
-    params = ['relation', 'field_id']
+    params = ['relation', 'field_id', 'value']
     member_widgets = ['widget']
 
     def __init__(self, **attrs):
@@ -650,6 +650,7 @@ class Hidden(TinyInputWidget):
 
     def set_value(self, value):
         self.widget.set_value(value)
+        self.value = value
         self.default = self.widget.default
 
     def get_sortable_text(self):
