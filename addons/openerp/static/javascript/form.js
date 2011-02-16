@@ -1342,3 +1342,33 @@ function check_capskey() {
 		});
 	});
 }
+
+function form_exportData() {
+
+    jQuery.frame_dialog({src:openobject.http.getURL('/openerp/impex/exp', {
+	        _terp_model: jQuery(idSelector('_terp_model')).val(),
+	        _terp_context: jQuery(idSelector('_terp_context')).val(),
+	        _terp_search_domain: jQuery(idSelector('_terp_search_domain')).val(),
+	        _terp_ids: jQuery(idSelector('_terp_ids')).val(),
+	        _terp_view_ids : jQuery(idSelector('_terp_view_ids')).val(),
+	        _terp_view_mode : jQuery(idSelector('#_terp_view_mode')).val() 
+		})
+    }, null, {
+        height: '98%',
+        max_height: 600
+    });
+}
+
+function form_importData() {
+
+    jQuery.frame_dialog({src:openobject.http.getURL('/openerp/impex/imp', {
+	        _terp_model: jQuery(idSelector('_terp_model')).val(),
+	        _terp_context: jQuery(idSelector('#_terp_context')).val(),
+	        _terp_view_ids : jQuery(idSelector('_terp_view_ids')).val(),
+	        _terp_view_mode : jQuery(idSelector('#_terp_view_mode')).val() 
+		})
+    }, null, {
+        height: '98%',
+        max_height: 550
+    });
+}

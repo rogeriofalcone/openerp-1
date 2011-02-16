@@ -106,6 +106,14 @@
         <h2>${_("Other Options")}</h2>
     </div>
     <ul class="clean-a">
+    	% if view_type == 'form':
+    		<li>
+	            <a href="javascript: void(0)" onclick="form_importData()">${_("Import")}</a>
+	        </li>
+	        <li>
+	            <a href="javascript: void(0)" onclick="form_exportData()">${_("Export")}</a>
+	        </li>
+	    % endif
     	% if view_type == 'tree':
 	        <li>
 	            <a href="javascript: void(0)" onclick="new ListView('_terp_list').importData()">${_("Import")}</a>
