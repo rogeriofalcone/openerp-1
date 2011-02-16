@@ -135,8 +135,7 @@ class ImpEx(SecuredController):
             [], ctx)
 
         return dict(existing_exports=existing_exports, model=params.model, ids=params.ids, ctx=ctx,
-                    search_domain=params.search_domain, source=params.source,
-                    tree=tree, import_compat=import_compat)
+                    search_domain=params.search_domain, tree=tree, import_compat=import_compat)
 
     @expose()
     def save_exp(self, **kw):
@@ -409,8 +408,7 @@ class ImpEx(SecuredController):
 
         tree.show_headers = False
         return dict(error=error, records=records, success=success,
-                    model=params.model, source=params.source,
-                    tree=tree, fields=kw.get('fields', {}))
+                    model=params.model, tree=tree, fields=kw.get('fields', {}))
 
     @expose()
     def detect_data(self, csvfile, csvsep, csvdel, csvcode, csvskip, **kw):

@@ -67,7 +67,6 @@
 <%def name="content()">
 <form name="import_data" id="import_data" action="/openerp/impex/import_data" method="post" enctype="multipart/form-data">
 
-    <input type="hidden" id="_terp_source" name="_terp_source" value="${source}"/>
     <input type="hidden" id="_terp_model" name="_terp_model" value="${model}"/>
     <input type="hidden" id="_terp_ids" name="_terp_ids" value="[]"/>
     <input type="hidden" id="_terp_fields2" name="_terp_fields2" value="[]"/>
