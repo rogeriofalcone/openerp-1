@@ -106,21 +106,22 @@
         <h2>${_("Other Options")}</h2>
     </div>
     <ul class="clean-a">
-        <li>
-            <a href="javascript: void(0)" onclick="new ListView('_terp_list').importData()">${_("Import")}</a>
-        </li>
-        <li>
-            <a href="javascript: void(0)" onclick="new ListView('_terp_list').exportData()">${_("Export")}</a>
-        </li>
-        % if view_type == 'form' and rpc.get_session().uid == 1:
-        <li>
-            <a xid="translate_fields" href="javascript: void(0)" data="${ctx}" relation="${model}" id="${id}" onclick="translate_fields(this)">${_('Translate')}</a>
-        </li>
+    	% if view_type == 'tree':
+	        <li>
+	            <a href="javascript: void(0)" onclick="new ListView('_terp_list').importData()">${_("Import")}</a>
+	        </li>
+	        <li>
+	            <a href="javascript: void(0)" onclick="new ListView('_terp_list').exportData()">${_("Export")}</a>
+	        </li>
+        % elif view_type == 'form' and rpc.get_session().uid == 1:
+	        <li>
+	            <a xid="translate_fields" href="javascript: void(0)" data="${ctx}" relation="${model}" id="${id}" onclick="translate_fields(this)">${_('Translate')}</a>
+	        </li>
         % endif
         % if id:
-        <li>
-            <a href="${py.url('/openerp/viewlog', id=id, model=model)}" id="sidebar_view_log">${_('View Log')}</a>
-        </li>
+	        <li>
+	            <a href="${py.url('/openerp/viewlog', id=id, model=model)}" id="sidebar_view_log">${_('View Log')}</a>
+	        </li>
         % endif
     </ul>
 </div>
