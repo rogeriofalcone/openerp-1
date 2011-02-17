@@ -211,6 +211,8 @@ class Search(Form):
                         'value': val[field],
                         'type': res[field].get('type')
                     }
+                    if fld['type'] == 'many2many':
+                        fld['type'] = 'char'
                     datas = {field: fld}
                     frm_datas[field] = fld
                     try:
@@ -285,9 +287,11 @@ class Search(Form):
                 else:
                     fieldname = field
                     bound = ''
-                    
+
                 data = {}
-                fld['type'] = res[fieldname].get('type')    
+                fld['type'] = res[fieldname].get('type')
+                if fld['type'] == 'many2many':
+                    fld['type'] = 'char'
                 fld['value'] = value
                 data[field] = fld
 
