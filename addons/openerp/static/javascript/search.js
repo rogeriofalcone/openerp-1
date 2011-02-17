@@ -417,7 +417,7 @@ function display_Customfilters(all_domains, group_by_ctx) {
 	}
 }
 
-var group_by = new Array();
+var group_by = [];
 var filter_context = [];
 var previous_filter = 0;
 function parse_filters(src, id) {
