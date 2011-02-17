@@ -1,4 +1,14 @@
 <%
+    import pprint
+    pprint.pprint({
+        'name':name,
+        'parent_id':parent_id,
+        'source':source,
+        'screen.id':screen.id,
+        'source':source,
+        'attrs':attrs,
+        'context':context
+    })
     if view_type == 'form':
         pager_width = '35%'
         o2m_css_class = ''

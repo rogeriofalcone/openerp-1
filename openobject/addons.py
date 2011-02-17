@@ -242,12 +242,16 @@ def has_new_modules():
 
     :rtype bool:
     """
-    return bool([
-        name for (name, version) in rpc.RPCProxy('ir.module.module').list_web()
-        if (not exists(name)
-            or version > get_info(name).get('version', '0')
-            or name not in _loaded[cherrypy.session.get('db')])
-    ])
+    try:
+        return bool([
+            name for (name, version) in rpc.RPCProxy('ir.module.module').list_web()
+            if (not exists(name)
+                or version > get_info(name).get('version', '0')
+                or name not in _loaded[cherrypy.session.get('db')])
+        ])
+    except KeyError:
+        # db has not been loaded yet
+        return False
 
 def get_new_modules():
     if not writeable: return []
