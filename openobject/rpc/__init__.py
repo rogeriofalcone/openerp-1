@@ -126,16 +126,16 @@ class RPCGateway(object):
         except RPCException, err:
             if err.type in ('warning', 'UserError'):
                 if err.message in ('ConcurrencyException') and len(args) > 4:
-                    openobject.errors.Concurrency(err.message, err.data, args)
+                    raise openobject.errors.Concurrency(err.message, err.data, args)
                 else:
-                    openobject.errors.TinyWarning(err.data)
+                    raise openobject.errors.TinyWarning(err.data)
             elif err.code.startswith('AccessDenied'):
                 raise openobject.errors.AccessDenied(err.code, _('Access Denied'))
             else:
-                openobject.errors.TinyError(err.backtrace, _('Application Error'))
+                raise openobject.errors.TinyError(err.backtrace, _('Application Error'))
 
         except Exception, e:
-            openobject.errors.TinyError(str(e), _('Application Error'))
+            raise openobject.errors.TinyError(str(e), _('Application Error'))
 
     def execute(self, obj, method, *args):
         """Excecute the method of the obj with the given arguments.
