@@ -488,7 +488,7 @@ class Report(object):
     def report(self, name, ids, data, ctx):
         return self('report', name, ids, data, ctx)
     def report_get(self, id):
-        return self('report_get, id')
+        return self('report_get', id)
 
 def name_get(model, id, context=None):
 
