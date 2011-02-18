@@ -97,7 +97,7 @@ class ICalendar(TinyWidget):
     date_delay = None
     date_stop = None
     color_field = None
-    day_length = 24
+    day_length = 8
     use_search = False
     selected_day = None
     date_format = '%Y-%m-%d'
@@ -154,7 +154,7 @@ class ICalendar(TinyWidget):
         self.date_delay = attrs.get('date_delay')
         self.date_stop = attrs.get('date_stop')
         self.color_field = attrs.get('color')
-        self.day_length = int(attrs.get('day_length', 24))
+        self.day_length = int(attrs.get('day_length', 8))
 
         if options and options.mode:
             self.mode = options.mode
