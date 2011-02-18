@@ -120,7 +120,7 @@
             });
             openobject.dom.get('_terp_fields2').value = '[' + fields2.join(',') + ']';
             jQuery(idSelector(form)).attr('action', openobject.http.getURL(
-                '/openerp/impex/export_data/data.csv')
+                '/openerp/impex/export_data/data.' + openobject.dom.get('export_format').value)
             ).submit();
         }
 
@@ -176,6 +176,23 @@
                 </table>
             </td>
         </tr> 
+        <tr>
+            <td class="side_spacing">
+                <fieldset>
+                    <legend>${_("Options")}</legend>
+                    <table>
+                        <tr>
+                            <td>
+                                <select id="export_format" name="export_format">
+                                    <option value="csv">${_("Export to CSV")}</option>
+                                    <option value="xls">${_("Export to Excel")}</option>
+                                </select>
+                            </td>
+                        </tr>
+                    </table>
+                </fieldset>
+            </td>
+        </tr>
         <tr>
             <td class="side_spacing">
                 <table class="fields-selector-export" cellspacing="5" border="0">

@@ -20,6 +20,7 @@
 ###############################################################################
 import StringIO
 import csv
+import re
 import xml.dom.minidom
 import cherrypy
 
@@ -63,6 +64,33 @@ def export_csv(fields, result):
         return data
     except IOError, (errno, strerror):
         raise common.message(_("Operation failed\nI/O error")+"(%s)" % (errno,))
+
+def export_xls(fieldnames, table):
+    try:
+        import xlwt
+    except ImportError, e:
+        raise common.warning(_('Please install xlwt library to export to MS Excel.'), _('Import Error.'))
+
+    workbook = xlwt.Workbook()
+    worksheet = workbook.add_sheet('Sheet 1')
+
+    for i, fieldname in enumerate(fieldnames):
+        worksheet.write(0, i, ustr(fieldname))
+        worksheet.col(i).width = 8000 # around 220 pixels
+
+    style = xlwt.easyxf('align: wrap yes')
+
+    for row_index, row in enumerate(table):
+        for cell_index, cell_value in enumerate(row):
+            cell_value = ustr(cell_value)
+            cell_value = re.sub("\r", " ", cell_value)
+            worksheet.write(row_index + 1, cell_index, cell_value, style)
+
+    fp = StringIO.StringIO()
+    workbook.save(fp)
+    fp.seek(0)
+    data = fp.read()
+    return data
 
 def _fields_get_all(model, views, context=None):
 
@@ -352,7 +380,7 @@ class ImpEx(SecuredController):
         return rec(fields)
 
     @expose(content_type="application/octet-stream")
-    def export_data(self, fname, fields, import_compat=False, **kw):
+    def export_data(self, fname, fields, import_compat=False, export_format='csv', **kw):
 
         params, data_index = TinyDict.split(kw)
         proxy = rpc.RPCProxy(params.model)
@@ -383,7 +411,10 @@ class ImpEx(SecuredController):
         if import_compat:
             params.fields2 = flds
 
-        return export_csv(params.fields2, result)
+        if export_format == 'xls':
+            return export_xls(params.fields2, result)
+        else:
+            return export_csv(params.fields2, result)
 
     @expose(template="/openerp/controllers/templates/imp.mako")
     def imp(self, error=None, records=None, success=None, **kw):
