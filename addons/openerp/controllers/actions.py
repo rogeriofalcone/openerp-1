@@ -361,7 +361,7 @@ def act_window_opener(action, data):
         url = '/?' + urllib.urlencode({'next': url})
 
     cherrypy.response.headers['X-Target'] = action['target']
-    cherrypy.response.headers['Location'] = url
+    cherrypy.response.headers['X-Location'] = url
     return """<script type="text/javascript">
         window.top.openAction('%s', '%s');
     </script>
@@ -393,7 +393,7 @@ def execute_url(**data):
     # Unknown URL required to open in new window/tab.
     if data['target'] != 'self' or url.startswith('http://') or url.startswith('http://'):
         cherrypy.response.headers['X-Target'] = 'popup'
-        cherrypy.response.headers['Location'] = url
+        cherrypy.response.headers['X-Location'] = url
         return """<script type="text/javascript">
                         window.open('%s')
                     </script>
@@ -491,7 +491,7 @@ def close_popup(reload=True):
 @tools.expose(template="/openerp/controllers/templates/report.mako")
 def report_link(report_name, **kw):
     cherrypy.response.headers['X-Target'] = 'download'
-    cherrypy.response.headers['Location'] = tools.url(
+    cherrypy.response.headers['X-Location'] = tools.url(
             '/openerp/report', report_name=report_name, **kw)
     return dict(name=report_name, data=kw)
     

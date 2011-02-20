@@ -100,7 +100,7 @@ function doLoadingSuccess(app/*, url*/) {
             } else {
                 _openAction = openAction;
             }
-            _openAction(xhr.getResponseHeader('Location'), target);
+            _openAction(xhr.getResponseHeader('X-Location'), target);
             return;
         }
         if(url) {
