@@ -231,6 +231,8 @@ def act_window(action, data):
         active_model=data.get('model', False)
     )
 
+    ctx.update(expr_eval(action.get('context', '{}'), ctx))
+
     if action.get('context') and isinstance(action['context'], dict):
         if not action['context'].get('active_ids'):
             action['context']['active_ids'] = ctx['active_ids'] or []
@@ -384,7 +386,7 @@ def execute(action, **data):
         #raise common.error('Error', 'Invalid action...')
         return;
 
-    data.setdefault('context', {}).update(expr_eval(action.get('context','{}'), data.get('context', {})))
+    data.setdefault('context', {}).update(expr_eval(action.get('context') or action.get('form_context', '{}'), data.get('context', {})))
 
     action_executor = ACTIONS_BY_TYPE[action['type']]
     return action_executor(action, data)
