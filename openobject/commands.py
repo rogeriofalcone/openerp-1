@@ -42,7 +42,7 @@ def configure_babel():
 
 def start():
 
-    parser = OptionParser(version="%s" % (openobject.release.version))
+    parser = OptionParser(version=openobject.release.version)
     parser.add_option("-c", "--config", metavar="FILE", dest="config",
                       help="configuration file", default=get_config_file())
     parser.add_option("-a", "--address", help="host address, overrides server.socket_host")
