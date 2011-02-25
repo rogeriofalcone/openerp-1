@@ -173,4 +173,7 @@ def configure_logging(logging_config=None, loggers=None):
         for logger, level in loggers.iteritems():
             if isinstance(level, basestring):
                 level = getattr(logging, level)
-            logging.getLogger(logger).setLevel(level)
+            if isinstance(logger, logging.Logger):
+                logger.setLevel(level)
+            else:
+                logging.getLogger(logger).setLevel(level)
