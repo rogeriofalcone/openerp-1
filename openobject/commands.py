@@ -14,7 +14,7 @@ import openobject.paths
 class ConfigurationError(Exception):
     pass
 
-DISTRIBUTION_CONFIG = os.path.join('doc', 'openerp-web.cfg')
+DISTRIBUTION_CONFIG = 'openerp-web.cfg'
 def get_config_file():
     if hasattr(sys, 'frozen'):
         configfile = os.path.join(openobject.paths.root(), DISTRIBUTION_CONFIG)

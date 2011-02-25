@@ -1,0 +1,203 @@
+=============
+Configuration
+=============
+
+The OpenERP Web Client's configuration mostly relies on `CherryPy's
+configuration system
+<http://docs.cherrypy.org/dev/refman/_cpconfig.html#architecture>`_.
+
+A basic understanding of CherryPy's configuration is therefore a good
+starting point, but will not be covered in this document.
+
+Configuration Process
+=====================
+
+The Web Client starts by configuring a number of default properties,
+mostly to set up CherryPy itself and various tools.
+
+Some of the default options can be overridden if need be, those will
+be described in the `configuration keys`_ section.
+
+Following the loading of the default keys, the Web Client finds its
+external configuration file by looking up, in order (when launched
+from the command-line):
+
+#. A file path specified via the ``-c`` (or ``--config``) command-line
+   argument
+
+#. A file path specified via the ``OPENERP_WEB_SETTINGS`` environment
+   key
+
+#. The file ``.openerp-web`` in the current user's home directory
+   (``~/.openerp-web``) on unices only (Linux, BSDs, Mac OSX, ...)
+
+#. ``openerp-web/config.ini`` in the current user's ``%APPDATA%`` on
+   Windows
+
+#. ``/etc/openerp-web.conf`` on unices only
+
+.. should we also put a plist file in ~/Library/Application
+   Support/OpenERP Web in OSX?
+
+The web client will stop as soon as it finds a configuration file and
+load it and it only. If all previous steps fail, it will try to find a
+configuration file in its own directory called ``openerp-web.conf``.
+
+If it is unable to find any configuration file, the web client will
+print an error message and exit with the status ``2``.
+
+Note that the first two options can contain references to environment
+variables or home directories (``~foo``), they will be expanded.
+
+Configuration API
+=================
+
+The process above was for the command-line configuration process
+(using the ``openerp-web.py`` script), but a similar process is be
+used when configuring and launching the Web Client via code (in order
+to use an arbitrary WSGI server for instance).
+
+Configuration is performed by calling the ``openobject.configure``
+function. It is mandatory to configure the web client before using it,
+or it will not behave correctly. ``openobject.configure`` takes the
+following optional arguments:
+
+.. link to the code or whatever when this gets sphinxified
+
+``config``
+  A path to a configuration file (corresponds to the first option of
+  the `configuration process`_), this path can contain home directory
+  references or environment variables, they will be expanded.
+
+  ``config`` can also be a CherryPy configuration dictionary, in which
+  case the discovery and parsing of configuration files will be
+  bypassed and the dictionary will be used as-is.
+
+
+Configuration Keys
+==================
+
+Titles correspond to configuration file sections, sub-titles to actual
+keys.
+
+global
+------
+
+The ``global`` section is mostly dedicated to CherryPy and
+CherryPy-related settings.
+
+environment
++++++++++++
+
+CherryPy environment configuration, for CherryPy's built-in
+environment templates.
+
+See `CherryPy Config API: Environment
+<http://www.cherrypy.org/wiki/ConfigAPI#environments>` for details.
+
+server.*
+++++++++
+
+Configuration of the CherryPy server. See the `CherryPy Server API
+<http://www.cherrypy.org/wiki/ServerAPI>`_ for reference.
+
+tools.sessions.*
+++++++++++++++++
+
+Configuration for the CherryPy session tool. See the `CherryPy
+Sessions Tool <http://www.cherrypy.org/wiki/CherryPySessions>`_ for
+reference.
+
+The session tools are enabled by default
+
+tools.proxy.*
++++++++++++++
+
+Configuration for the CherryPy proxy tool. See `CherryPy Builtin
+Tools: Proxy <http://www.cherrypy.org/wiki/BuiltinTools#tools.proxy>`_
+for reference.
+
+The proxy tool is needed if you set up the Web Client behind a server
+proxy (Apache mod_proxy for instance): it tells CherryPy that it is
+behind a proxy and correctly interprets some important
+informations. Without this, the web client behind a proxy will not
+work correctly.
+
+Depending on your precise proxy software and configuration, you may
+not need it or may need specific configurations. See your proxy's and
+CherryPy's documentation for details.
+
+tools.csrf.on
++++++++++++++
+
+OpenERP Web Client's `Cross-Site Request Forgery
+<http://en.wikipedia.org/wiki/Cross-site_request_forgery>`_
+protection.
+
+Enabled by default, simply add this key and set its value to ``False``
+if you need to disable the CSRF tool.
+
+tools.cgitb.*
++++++++++++++
+
+Web Client's extended error logging tool: in case of error within the
+Web Client, logs more extensive information than the normal CherryPy
+output.
+
+Enabled by default, you can disable it by setting ``tools.cgitb.on =
+False``.
+
+It is possible to filter the errors logged by ignoring specific errors
+via the ``tools.cgitb.ignore`` key: it's a sequence of error class
+names (full).
+
+openerp-web
+-----------
+
+This section is dedicated to the web client's own configuration and
+needs.
+
+opener.server.*
++++++++++++++++
+
+Configuration of the communication settings with an OpenERP server.
+
+``openerp.server.host`` is the host name of the server,
+``openerp.server.port`` is the port name for contacting the server,
+``openerp.server.protocol`` is the communication protocol with the
+OpenERP server (current values are ``'socket'`` for NetRPC and
+``'http'`` or ``'https'`` for XMLRPC).
+
+The last value is ``openerp.server.timeout``, it is used by the web
+client to cut off communications with the server when the server
+doesn't reply after the specified length of time (in seconds). The
+more powerful your OpenERP server, the lower this value can be.
+
+By default, it is set to 450 seconds (7mn 30s).
+
+dblist.filter
++++++++++++++
+
+Should the list of databases (on the login screen) be filtered by the
+client based on the host name of the site.
+
+Possible values are:
+
+``None``
+  Do not filter the database names
+``'EXACT'``
+  Display only the database whose name is the same as the host name
+``'UNDERSCORE'``
+  Display only the databases whose name starts with the host name and
+  an underscore (if the host is ``somehost``, will allow any database
+  name starting with ``somehost_``)
+``'BOTH'``
+  Display any database matching the conditions for ``EXACT`` *or*
+  ``UNDERSCORE``.
+
+
+dbbutton.visible
+++++++++++++++++
+
+Set to ``True`` if the database-management button should appear on the
+login screen, ``False`` otherwise.

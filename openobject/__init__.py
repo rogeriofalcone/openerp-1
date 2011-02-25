@@ -60,7 +60,7 @@ __builtins__['ustr'] = ustr
 import i18n
 i18n.install()
 
-application = cherrypy.tree.mount(None, '/')
+application = cherrypy.tree.mount(None)
 def enable_static_paths():
     ''' Enables handling of static paths by CherryPy:
     * /openobject/static
@@ -86,7 +86,9 @@ def enable_static_paths():
                                                       'doc', 'LICENSE.txt')
     }})
 
-BASE_CONFIG = {
+BASE_GLOBAL = {
+    'tools.sessions.on': True,
+    'tools.csrf.on': True,
     # Conversion of input parameters via formencode.variabledecode.NestedVariables
     'tools.nestedvars.on': True,
     'tools.web_modules.on': True,
@@ -98,26 +100,33 @@ BASE_CONFIG = {
         ('X-Requested-With', 'requested_with')
     ],
     'tools.clear_cache_buster.on': True,
-    'tools.openobject_dispatcher.on': True
+    'tools.openobject_dispatcher.on': True,
+
+    'tools.log_traceback.on': False,
+    'tools.cgitb.on': True
+}
+BASE_APP = {
+    'openerp.server.timeout': 450
 }
 def configure(app_config):
     ''' Configures OpenERP Web Client. Takes a configuration dict
     (as output by cherrypy._cpconfig.as_dict), from it configures
     cherrypy globally and configure the OpenERP WSGI Application.
     '''
-    _global = app_config.pop('global', {})
-    _environ = _global.setdefault('server.environment', 'development')
-    if _environ != 'development':
-        _global['environment'] = _environ
-    cherrypy.config.update(BASE_CONFIG)
-    cherrypy.config.update(_global)
+    # global config
+    cherrypy.config.update(
+        BASE_GLOBAL)
+    cherrypy.config.update(
+        app_config.pop('global', {}))
+
+    application.merge({'openerp-web': BASE_APP})
     application.merge(app_config)
 
     # logging config
     error_level = logging._levelNames.get(
-        _global.get('log.error_level'), 'WARNING')
+        cherrypy.config.get('log.error_level'), 'WARNING')
     access_level = logging._levelNames.get(
-        _global.get('log.access_level'), 'INFO')
+        cherrypy.config.get('log.access_level'), 'INFO')
 
     cherrypy.log.error_log.setLevel(error_level)
     cherrypy.log.access_log.setLevel(access_level)
