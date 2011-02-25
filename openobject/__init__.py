@@ -120,10 +120,11 @@ def configure(config=None,
 
     :param config: a configuration file path, a configuration file or a
                    configuration dict (anything which can be used by
-                   ``cherrypy._cpconfig.as_dict``, really). If none is
-                   provided, the web client will go through its automatic
-                   configuration discovery process
-                   (see openobject.config.find_file)
+                   ``cherrypy._cpconfig.as_dict``, really).
+
+                   If none is provided, the web client will go through its
+                   automatic configuration discovery process (see
+                   :func:`openobject.config.find_file`)
     :type config: ``str | < read :: () -> str > | dict | None``
     :param enable_static: configure CherryPy to handle the distribution of
                           static resources by itself (via static tools)
@@ -134,12 +135,13 @@ def configure(config=None,
                                   is already a logging configuration file
                                   path in ``config``, will replace the value
                                   in ``config``
-    :type logging_configuration: str | < readline :: () -> str >
+    :type logging_configuration: ``str | < readline :: () -> str >``
     :param loggers: mapping of loggers to logging levels, lighter
                     configuration method than a full-blown configuration file
 
-                    cf openobject.config.configure_logging for exact signature
-    :type loggers: {str: (int|str)}
+                    cf :func:`openobject.config.configure_logging` for exact
+                    signature
+    :type loggers: ``{str: (int|str)}``
     :param overrides: additional configuration information, has the same
                       structure as normal CherryPy configuration dicts,
                       merged into CherryPy's configuration *after* ``config``.
@@ -148,7 +150,6 @@ def configure(config=None,
                       file-like object, in order to provide or override
                       settings without needing to parse the configuration
                       file from outside this function.
-    :return: ``None``
     '''
     if not config:
         configuration = openobject.config.find_file()

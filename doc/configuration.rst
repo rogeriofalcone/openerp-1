@@ -53,39 +53,17 @@ Configuration API
 =================
 
 The process above was for the command-line configuration process
-(using the ``openerp-web.py`` script), but a similar process is be
-used when configuring and launching the Web Client via code (in order
-to use an arbitrary WSGI server for instance).
+(using the ``openerp-web.py`` script), but a similar process is used
+when configuring and launching the Web Client via code (in order to
+use an arbitrary WSGI server for instance).
 
-Configuration is performed by calling the ``openobject.configure``
-function. It is mandatory to configure the web client before using it,
-or it will not behave correctly. ``openobject.configure`` takes the
-following optional arguments:
+Configuration is performed by calling :func:`openobject.configure`.
 
-.. link to the code or whatever when this gets sphinxified
+.. warning:: Configuring the Web Client is not an option, an
+   unconfigured web client will either fail to start at all or behave
+   incorrectly.
 
-``config``
-  A path to a configuration file (corresponds to the first option of
-  the `configuration process`_), this path can contain home directory
-  references or environment variables, they will be expanded.
-
-  ``config`` can also be a CherryPy configuration dictionary, in which
-  case the discovery and parsing of configuration files will be
-  bypassed and the dictionary will be used as-is.
-``enable_static``
-  A boolean specifying whether the web client should handle static
-  files via CherryPy's static tools.
-``logging_configuration``
-  A file path or file-like object to a `logging configuration file
-  <http://docs.python.org/library/logging.html#configuration-file-format>`_
-``loggers``
-  A dict of logger names to logging levels, intended as a lighter alternative
-  to using logging configuration files
-``**overrides``
-  A CherryPy configuration dict used to override ``config``, generally
-  of use if ``config`` is a file path or a file-like object and the
-  caller still needs to provide overrides (if ``config`` is a dict,
-  the caller can merge the overridden settings on its side)
+.. autofunction:: openobject.configure
 
 Configuration Keys
 ==================
@@ -106,7 +84,7 @@ CherryPy environment configuration, for CherryPy's built-in
 environment templates.
 
 See `CherryPy Config API: Environment
-<http://www.cherrypy.org/wiki/ConfigAPI#environments>` for details.
+<http://www.cherrypy.org/wiki/ConfigAPI#environments>`_ for details.
 
 server.*
 ++++++++
