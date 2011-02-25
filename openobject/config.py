@@ -2,16 +2,21 @@
 """
 Collection of configuration-related helpers for the OpenERP Web Client
 """
+import logging
+import logging.config
 import os
 import os.path
 import platform
 import sys
 
 import babel.localedata
+import cherrypy
 
+import openobject
 import openobject.paths
 
-__all__ = ['configure_babel', 'find_file', 'ConfigurationError']
+__all__ = ['configure_babel', 'find_file', 'unbreak_cherrypy_logging',
+           'ConfigurationError']
 
 class ConfigurationError(Exception):
     pass
@@ -93,3 +98,79 @@ def find_file():
 
     raise ConfigurationError("Failed to find a configuration file for "
                              "the OpenERP Web Client")
+
+
+def unbreak_cherrypy_logging():
+    """
+    Because it builds its own logging layer on top of Python's, cherrypy
+    sets a number of logging attributes:
+
+    * All logging formatters on ``cherrypy.*`` handlers are set to
+      ``%(message)s`` with the message content generated manually during
+      logging
+    * the logging level on ``cherrypy.error`` is explicitly set to
+      ``logging.DEBUG``
+    * the logging level on ``cherrypy.access`` is explicitly set to
+      ``logging.INFO``
+    * cherrypy *will also set those on the cherrypy.{access,error}.\*
+      loggers*
+
+    This function does not touch ``cherrypy.access``, but it removes all
+    handlers on ``cherrypy.error`` so that CherryPy's own logging follows
+    the policies set by configuring Python's own ``logging``.
+    """
+    # cherrypy.log.error_log is the root ``cherrypy.error`` logger,
+    # ``openobject.application.log.error_log`` is the application's
+    # ``cherrypy.logger.{bunch of digits}`` error logger
+    #
+    # we need to set both because cherrypy is kind-of a pain in the ass like
+    # that
+    for logger in (cherrypy.log.error_log,
+                   openobject.application.log.error_log):
+        logger.setLevel(logging.NOTSET)
+        for handler in list(logger.handlers):
+            logger.removeHandler(handler)
+            if hasattr(handler, 'flush'):
+                handler.flush()
+            if hasattr(handler, 'close'):
+                handler.close()
+
+def configure_logging(logging_config=None, loggers=None):
+    """
+    Sets up logging for the OpenERP Web Client (apart from
+    ``cherrypy.access``, mostly):
+
+    * Fixes the handling of the ``cherrypy.error`` logger subtree (removes
+      all handlers set up on it by ``cherrypy._cplogging``)
+    * Prevents ``cherrypy.access`` messages from propagating to the root
+      logger
+    * If a logging configuration file is provided, calls
+      ``logging.config.fileConfig``
+    * Otherwise calls ``logging.basicConfig`` with the following attributes:
+      * level=logging.WARNING
+      * format=%(asctime)s|%(name)s:%(levelname)s|%(message)s
+    * Merges any additional logging configuration from the mapping
+
+    :param logging_config: the path to a ``logging`` configuration file, or
+                           a file-like ``logging`` configuration object
+    :type logging_config: str | < readline :: () -> str > | None
+    :param loggers: a mapping of logger names to logger levels, the levels
+                    can be either integers (actual ``logging`` levels) or
+                    strings (``logging`` level names).
+    :type loggers: {str: (int|"NOTSET"|"DEBUG"|"INFO"|"WARNING"|"ERROR"|"CRITICAL")}
+    """
+    unbreak_cherrypy_logging()
+    logging.getLogger('cherrypy.access').propagate = False
+
+    if logging_config:
+        logging.config.fileConfig(logging_config)
+    else:
+        logging.basicConfig(
+            level=logging.WARNING,
+            format="%(asctime)s|%(name)s:%(levelname)s|%(message)s")
+
+    if loggers:
+        for logger, level in loggers.iteritems():
+            if isinstance(level, basestring):
+                level = getattr(logging, level)
+            logging.getLogger(logger).setLevel(level)

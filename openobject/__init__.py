@@ -1,4 +1,3 @@
-import logging
 import os
 import sys
 
@@ -109,7 +108,11 @@ BASE_GLOBAL = {
 BASE_APP = {
     'openerp.server.timeout': 450
 }
-def configure(config=None, enable_static=False, **overrides):
+def configure(config=None,
+              enable_static=False,
+              logging_configuration=None,
+              loggers=None,
+              **overrides):
     ''' Configures OpenERP Web Client.
 
     Takes a CherryPy configuration with two sections (``global``
@@ -125,6 +128,18 @@ def configure(config=None, enable_static=False, **overrides):
     :param enable_static: configure CherryPy to handle the distribution of
                           static resources by itself (via static tools)
     :type enable_static: ``bool``
+    :param logging_configuration: the path to a ``logging`` configuration
+                                  file, or a ``logging`` configuration
+                                  file-like object, if specified and there
+                                  is already a logging configuration file
+                                  path in ``config``, will replace the value
+                                  in ``config``
+    :type logging_configuration: str | < readline :: () -> str >
+    :param loggers: mapping of loggers to logging levels, lighter
+                    configuration method than a full-blown configuration file
+
+                    cf openobject.config.configure_logging for exact signature
+    :type loggers: {str: (int|str)}
     :param overrides: additional configuration information, has the same
                       structure as normal CherryPy configuration dicts,
                       merged into CherryPy's configuration *after* ``config``.
@@ -160,14 +175,9 @@ def configure(config=None, enable_static=False, **overrides):
     application.merge(config_dict)
     application.merge(overrides)
 
-    # logging config
-    error_level = logging._levelNames.get(
-        cherrypy.config.get('log.error_level'), 'WARNING')
-    access_level = logging._levelNames.get(
-        cherrypy.config.get('log.access_level'), 'INFO')
-
-    cherrypy.log.error_log.setLevel(error_level)
-    cherrypy.log.access_log.setLevel(access_level)
+    openobject.config.configure_logging(
+        logging_config=logging_configuration,
+        loggers=loggers)
 
     openobject.config.configure_babel()
     if enable_static:
