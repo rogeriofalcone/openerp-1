@@ -1,7 +1,6 @@
 import logging
 import os
 import sys
-from locale import getlocale
 
 libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib')
 if os.path.exists(libdir) and libdir not in sys.path:
@@ -9,6 +8,7 @@ if os.path.exists(libdir) and libdir not in sys.path:
 
 import cherrypy
 import openobject
+import openobject.config
 import openobject.controllers
 import openobject.widgets
 
@@ -68,6 +68,7 @@ def enable_static_paths():
     * LICENSE.txt
     '''
     global WSGI_STATIC_PATHS
+    if WSGI_STATIC_PATHS: return
     WSGI_STATIC_PATHS = True
 
     static_dir = os.path.abspath(
@@ -108,19 +109,29 @@ BASE_GLOBAL = {
 BASE_APP = {
     'openerp.server.timeout': 450
 }
-def configure(app_config):
-    ''' Configures OpenERP Web Client. Takes a configuration dict
-    (as output by cherrypy._cpconfig.as_dict), from it configures
-    cherrypy globally and configure the OpenERP WSGI Application.
+def configure(config, enable_static=False):
+    ''' Configures OpenERP Web Client.
+
+    Takes a CherryPy configuration with two sections (``global``
+    and ``openerp-web``)
+
+    :param config: a configuration file path, a configuration file or a
+                       configuration dict (anything which can be used by
+                       ``cherrypy._cpconfig.as_dict``, really).
+    :type config: ``str | < read :: () -> str > | dict``
+    :param enable_static: configure CherryPy to handle the distribution of
+                          static resources by itself (via static tools)
+    :type enable_static: ``bool``
+    :return: ``None``
     '''
     # global config
     cherrypy.config.update(
         BASE_GLOBAL)
     cherrypy.config.update(
-        app_config.pop('global', {}))
+        config.pop('global', {}))
 
     application.merge({'openerp-web': BASE_APP})
-    application.merge(app_config)
+    application.merge(config)
 
     # logging config
     error_level = logging._levelNames.get(
@@ -130,3 +141,7 @@ def configure(app_config):
 
     cherrypy.log.error_log.setLevel(error_level)
     cherrypy.log.access_log.setLevel(access_level)
+
+    openobject.config.configure_babel()
+    if enable_static:
+        enable_static_paths()

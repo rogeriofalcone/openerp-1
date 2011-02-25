@@ -2,8 +2,6 @@ import os
 import sys
 from optparse import OptionParser
 
-import babel.localedata
-
 import cherrypy
 from cherrypy._cpconfig import as_dict
 
@@ -26,20 +24,6 @@ def get_config_file():
             configfile = os.path.join(setupdir, DISTRIBUTION_CONFIG)
     return configfile
 
-def configure_babel():
-    """ If we are in a py2exe bundle, rather than babel being installed in
-    a site-packages directory in an unzipped form with all its meta- and
-    package- data it is split between the code files within py2exe's archive
-    file and the metadata being stored at the toplevel of the py2exe
-    distribution.
-    """
-    if not hasattr(sys, 'frozen'): return
-
-    # the locale-specific data files are in babel/localedata/*.dat, babel
-    # finds these data files via the babel.localedata._dirname filesystem
-    # path.
-    babel.localedata._dirname = openobject.paths.root('babel', 'localedata')
-
 def start():
 
     parser = OptionParser(version=openobject.release.version)
@@ -55,22 +39,17 @@ def start():
     if not os.path.exists(options.config):
         raise ConfigurationError(_("Could not find configuration file: %s") %
                                  options.config)
-                                 
+    
     app_config = as_dict(options.config)
-    
-    openobject.configure(app_config)
-    if options.static:
-        openobject.enable_static_paths()
-    
     if options.address:
-        cherrypy.config['server.socket_host'] = options.address
+        app_config['global']['server.socket_host'] = options.address
     if options.port:
         try:
-            cherrypy.config['server.socket_port'] = int(options.port)
-        except:
+            app_config['global']['server.socket_port'] = int(options.port)
+        except ValueError:
             pass
 
-    configure_babel()
+    openobject.configure(app_config, enable_static=options.static)
 
     cherrypy.engine.start()
     cherrypy.engine.block()

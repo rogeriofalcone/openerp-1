@@ -73,6 +73,10 @@ following optional arguments:
   case the discovery and parsing of configuration files will be
   bypassed and the dictionary will be used as-is.
 
+``enable_static``
+  A boolean specifying whether the web client should handle static
+  files via CherryPy's static tools.
+
 
 Configuration Keys
 ==================
