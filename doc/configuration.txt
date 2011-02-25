@@ -34,14 +34,14 @@ from the command-line):
 #. ``openerp-web/config.ini`` in the current user's ``%APPDATA%`` on
    Windows
 
-#. ``/etc/openerp-web.conf`` on unices only
+#. ``/etc/openerp-web.cfg`` on unices only
 
 .. should we also put a plist file in ~/Library/Application
    Support/OpenERP Web in OSX?
 
 The web client will stop as soon as it finds a configuration file and
 load it and it only. If all previous steps fail, it will try to find a
-configuration file in its own directory called ``openerp-web.conf``.
+configuration file in its own directory called ``openerp-web.cfg``.
 
 If it is unable to find any configuration file, the web client will
 print an error message and exit with the status ``2``.
@@ -72,11 +72,14 @@ following optional arguments:
   ``config`` can also be a CherryPy configuration dictionary, in which
   case the discovery and parsing of configuration files will be
   bypassed and the dictionary will be used as-is.
-
 ``enable_static``
   A boolean specifying whether the web client should handle static
   files via CherryPy's static tools.
-
+``**overrides``
+  A CherryPy configuration dict used to override ``config``, generally
+  of use if ``config`` is a file path or a file-like object and the
+  caller still needs to provide overrides (if ``config`` is a dict,
+  the caller can merge the overridden settings on its side)
 
 Configuration Keys
 ==================

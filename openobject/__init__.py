@@ -109,29 +109,56 @@ BASE_GLOBAL = {
 BASE_APP = {
     'openerp.server.timeout': 450
 }
-def configure(config, enable_static=False):
+def configure(config=None, enable_static=False, **overrides):
     ''' Configures OpenERP Web Client.
 
     Takes a CherryPy configuration with two sections (``global``
     and ``openerp-web``)
 
     :param config: a configuration file path, a configuration file or a
-                       configuration dict (anything which can be used by
-                       ``cherrypy._cpconfig.as_dict``, really).
-    :type config: ``str | < read :: () -> str > | dict``
+                   configuration dict (anything which can be used by
+                   ``cherrypy._cpconfig.as_dict``, really). If none is
+                   provided, the web client will go through its automatic
+                   configuration discovery process
+                   (see openobject.config.find_file)
+    :type config: ``str | < read :: () -> str > | dict | None``
     :param enable_static: configure CherryPy to handle the distribution of
                           static resources by itself (via static tools)
     :type enable_static: ``bool``
+    :param overrides: additional configuration information, has the same
+                      structure as normal CherryPy configuration dicts,
+                      merged into CherryPy's configuration *after* ``config``.
+
+                      Generally used when ``config`` is a file path or a
+                      file-like object, in order to provide or override
+                      settings without needing to parse the configuration
+                      file from outside this function.
     :return: ``None``
     '''
-    # global config
+    if not config:
+        configuration = openobject.config.find_file()
+    elif isinstance(config, basestring):
+        configuration = os.path.expanduser(
+            os.path.expandvars(config))
+        if not os.path.isfile(configuration):
+            raise openobject.config.ConfigurationError(
+                "The file '%s' could not be found "
+                "or is not a valid file path" % config)
+    else:
+        configuration = config
+
+    config_dict = cherrypy._cpconfig.as_dict(configuration)
+
     cherrypy.config.update(
         BASE_GLOBAL)
     cherrypy.config.update(
-        config.pop('global', {}))
+        config_dict.pop('global', {}))
+    cherrypy.config.update(
+        overrides.pop('global', {}))
 
     application.merge({'openerp-web': BASE_APP})
-    application.merge(config)
+    application.merge(config_dict)
+    application.merge(overrides)
 
     # logging config
     error_level = logging._levelNames.get(
