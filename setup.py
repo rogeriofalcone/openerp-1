@@ -72,7 +72,8 @@ setup(
         'Topic :: Office/Business :: Financial',
         ],
     scripts=['scripts/openerp-web'],
-    data_files=(find_data_files('addons/openerp')
+    data_files=(['openerp-web.cfg']
+              + find_data_files('addons/openerp')
               + find_data_files('addons/view_calendar')
               + find_data_files('addons/view_diagram')
               + find_data_files('addons/view_graph')
