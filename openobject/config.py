@@ -4,6 +4,7 @@ Collection of configuration-related helpers for the OpenERP Web Client
 """
 import logging
 import logging.config
+import operator
 import os
 import os.path
 import platform
@@ -74,27 +75,20 @@ def find_file():
                     config_path, SETTINGS_ENVIRON_KEY))
         return expanded_path
 
-    # per-user config
-    if platform.system() == 'Windows':
-        config_path = os.path.join(
-            expand('%APPDATA%'), 'openerp-web', 'config.ini')
-        if os.path.isfile(config_path):
-            return config_path
-    else:
-        config_path = expand('~/.openerp-web')
-        if os.path.isfile(config_path):
-            return config_path
+    config_files_sequence = [
+        # per-user config
+        (platform.system() != 'Windows', expand('~/.openerp-web')),
+        (platform.system() == 'Windows', os.path.join(
+            expand('%APPDATA%'), 'openerp-web', 'config.ini')),
+        # system
+        (platform.system() != 'Windows', '/etc/openerp-web.cfg'),
+        # local fallback
+        (True, openobject.paths.root('openerp-web.cfg'))
+    ]
 
-    # system
-    if platform.system() != 'Windows':
-        config_path = '/etc/openerp-web.cfg'
+    for _, config_path in filter(operator.itemgetter(0), config_files_sequence):
         if os.path.isfile(config_path):
             return config_path
-
-    # local fallback
-    config_path = openobject.paths.root('openerp-web.cfg')
-    if os.path.isfile(config_path):
-        return config_path
 
     raise ConfigurationError("Failed to find a configuration file for "
                              "the OpenERP Web Client")
