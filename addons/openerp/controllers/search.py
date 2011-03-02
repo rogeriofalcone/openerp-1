@@ -25,8 +25,6 @@ from form import Form
 from error_page import _ep
 from openobject import rpc
 from openobject.tools import expose, ast
-import simplejson
-
 
 class Search(Form):
 
@@ -339,7 +337,7 @@ class Search(Form):
         if not custom_domains:
             custom_domains = []
         else:
-            custom_domains = simplejson.loads(custom_domains)
+            custom_domains = ast.literal_eval(custom_domains)
         
         # conversion of the pseudo domain from the javascript to a valid domain
         ncustom_domain = []
