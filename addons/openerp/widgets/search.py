@@ -23,6 +23,7 @@
 This module implementes widget parser for form view, and
 several widget components.
 """
+import logging
 import random
 import xml.dom.minidom
 
@@ -181,6 +182,8 @@ class M2O_search(form.M2O):
 
         super(M2O_search, self).__init__(**attrs)
 
+parse_logger = logging.getLogger('openobject.addons.openerp.widgets'
+                                 '.search.Search.parse')
 class Search(TinyInputWidget):
     template = "/openerp/widgets/templates/search/search.mako"
     javascript = [JSLink("openerp", "javascript/search.js", location=locations.bodytop)]
@@ -355,8 +358,9 @@ class Search(TinyInputWidget):
                     try:
                         fields[name].update(attrs)
                     except:
-                        print "-"*30,"\n malformed tag for:", attrs
-                        print "-"*30
+                        parse_logger.debug(
+                            "Malformed tag for field %s, with %s",
+                            name, attrs)
                         raise
 
                     if attrs.get('widget'):

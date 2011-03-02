@@ -328,27 +328,3 @@ class TinyForm(object):
 
     def to_python(self, safe=False):
         return self._convert(True, safe=safe)
-
-
-
-if __name__ == "__main__":
-
-    kw = {'_terp_view_ids': "[False, 45]",
-          'view_ids/_terp_view_ids': '[False, False]',
-          'view_ids/child/_terp_view_ids': '[112, 111]'
-    }
-
-    params, data = TinyDict.split(kw)
-
-    params.domain = "[1]"
-    params.setdefault('domain', 'something...')
-    params.context = "{}"
-    params['context'] = "{'id': False}"
-
-    print params
-    print params.view_ids
-    print params.chain_get('view_ids')
-    print params.chain_get('view_ids.child')
-    print params.chain_get('view_ids.child').view_ids
-
-# vim: ts=4 sts=4 sw=4 si et
