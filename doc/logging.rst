@@ -62,6 +62,25 @@ options.
 Logging usage and conventions
 -----------------------------
 
+.. todo::
+   Need an API doing the equivalent of Python 2.7's `Logger.getChild
+   <http://docs.python.org/library/logging.html#logging.Logger.getChild>`_
+   to make getting the children of an existing logger easier (instead
+   of having to write everything by hand)
+
+.. todo::
+   Need an API which does the prefixing crap on its own when getting a
+   logger, and maybe even checks from which module it's called to
+   setup the whole module prefix e.g.::
+
+       openobject.logging.getLogger()
+
+   from within ``openerp.widgets.listgrid`` would return the logger
+   ``openobject.addons.openerp.widgets.listgrid``, and a (string)
+   parameter would be appended. That way, the loggerizer would only
+   need to give the function/class/method he's logging from, if
+   desired.
+
 * Logger names should contain at least the complete module name
 
   * In Web Client addons, the module name should be prefixed by
