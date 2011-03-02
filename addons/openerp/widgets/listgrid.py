@@ -19,6 +19,7 @@
 #
 ###############################################################################
 import copy
+import logging
 import math
 import xml.dom.minidom
 import re
@@ -387,7 +388,9 @@ class List(TinyWidget):
                         visval = fields[name].get('invisible', 'False')
                         invisible = eval(visval, {'context': self.context})
                     except NameError, e:
-                        cherrypy.log.error(e, context='listgrid.List.parse')
+                        logging.getLogger('openobject.addons.openerp'
+                                          '.widgets.listgrid.List.parse')\
+                            .info(e)
                         invisible = False
 
                     if invisible:

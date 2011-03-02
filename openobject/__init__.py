@@ -177,7 +177,7 @@ def configure(config=None,
     application.merge(overrides)
 
     openobject.config.configure_logging(
-        logging_config=logging_configuration,
+        logging_config=logging_configuration or application.config['openerp-web'].get('logging.config.file'),
         loggers=loggers)
 
     openobject.config.configure_babel()

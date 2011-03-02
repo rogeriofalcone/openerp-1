@@ -86,6 +86,27 @@ Depending on your precise proxy software and configuration, you may
 not need it or may need specific configurations. See your proxy's and
 CherryPy's documentation for details.
 
+.. _access-log-configuration:
+
+log.*
++++++
+
+Configuration for `CherryPy's logging system
+<http://www.cherrypy.org/wiki/Logging>`_. In the Web Client,
+CherryPy's logging is used *only* for `Apache/NCSA Combined Log Format
+access log <http://httpd.apache.org/docs/2.0/logs.html#combined>`_,
+all other logging is handled directly via Python's logging library.
+
+There are two important keys for access logging:
+
+* ``log.screen`` indicates whether the access logging should be sent
+  to ``stderr``, it is ``True`` by default. Set to ``False`` if you
+  want to disable access logging to stderr.
+
+* ``log.access_file`` is used to send access logging to an arbitrary
+  file on the filesystem. The user having launched the Web Client
+  needs to have write access on the file.
+
 tools.csrf.on
 +++++++++++++
 
@@ -160,6 +181,17 @@ dbbutton.visible
 
 Set to ``True`` if the database-management button should appear on the
 login screen, ``False`` otherwise.
+
+.. _error-log-configuration:
+
+logging.config.file
++++++++++++++++++++
+
+If set, provides a configuration file path for the :doc:`logging
+<logging>` subsystem.
+
+The file must use the `Python logging configuration file format
+<http://docs.python.org/library/logging.html#configuration-file-format>`_.
 
 Other docs I don't know how to name
 ===================================

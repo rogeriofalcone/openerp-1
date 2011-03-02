@@ -40,10 +40,12 @@ of options to customize its behavior:
    separate server for static files, you need to disable the web
    client's handling of them.
 
+.. _commandline-logging-configuration:
+
 Logging options
 ---------------
 
-These options are specific to the configuration of the :ref:`logging
+These options are specific to the configuration of the :doc:`logging
 subsystem <logging>`.
 
 .. option:: -q, --quiet
@@ -72,6 +74,8 @@ subsystem <logging>`.
    Can be used to increase the logging on a given subsystem or -- in
    conjunction with ``-v`` -- to lower the logging verbosity on some
    sub-systems in order to ignore them.
+
+.. _commandline-logging-configuration-file:
 
 .. option:: --logging-config <file>
 

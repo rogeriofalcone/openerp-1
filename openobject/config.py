@@ -161,7 +161,7 @@ def configure_logging(logging_config=None, loggers=None):
     logging.getLogger('cherrypy.access').propagate = False
 
     if logging_config:
-        logging.config.fileConfig(logging_config)
+        logging.config.fileConfig(expand(logging_config))
     else:
         logging.basicConfig(
             level=logging.WARNING,

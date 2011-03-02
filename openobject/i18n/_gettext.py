@@ -21,6 +21,7 @@ from openobject.i18n.utils import get_locale
 
 __all__ = ['get_translations', 'load_translations', 'gettext', 'install']
 
+logger = logging.getLogger('openobject.i18n._gettext')
 
 _translations = {}
 _machine_objects_cache = tempfile.mkdtemp()
@@ -87,17 +88,17 @@ def _load_translations(path, locales, domain):
             translation = _load_translation(path, locale, domain)
         except babel.core.UnknownLocaleError, e:
             # don't load unknown locales such as Klingon (tlh)
-            cherrypy.log.error("%s, ignoring translation file" % e, context='i18n', severity=logging.WARN)
+            logger.warn("%s, ignoring translation file", e)
         except SyntaxError:
+            logging_message = (
+                'Could not load translation domain "%s" '
+                'for locale "%s" in addon %s',
+                domain, locale, basename(path))
             # http://babel.edgewall.org/ticket/213
-            cherrypy.log.error(
-                    'Could not load translation domain "%s" for'
-                    ' locale "%s" in addon %s' % (
-                        domain, locale, basename(path)),
-                    context="i18n",
-                    severity=logging.WARNING)
-            cherrypy.log.error(context='i18n', severity=logging.DEBUG,
-                               traceback=True)
+            if logger.isEnabledFor(logging.DEBUG):
+                logger.debug(*logging_message, exc_info=True)
+            else:
+                logger.warn(*logging_message)
         if isinstance(translation, babel.support.Translations):
             if locale in catalog:
                 catalog[locale].merge(translation)

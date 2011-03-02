@@ -13,6 +13,7 @@ Contents:
 
    commandline
    configuration
+   logging
 
 Indices and tables
 ==================
