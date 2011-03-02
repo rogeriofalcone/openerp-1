@@ -19,45 +19,13 @@ Some of the default options can be overridden if need be, those will
 be described in the `configuration keys`_ section.
 
 Following the loading of the default keys, the Web Client finds its
-external configuration file by looking up, in order (when launched
-from the command-line):
-
-#. A file path specified via the ``-c`` (or ``--config``) command-line
-   argument
-
-#. A file path specified via the ``OPENERP_WEB_SETTINGS`` environment
-   key
-
-#. The file ``.openerp-web`` in the current user's home directory
-   (``~/.openerp-web``) on unices only (Linux, BSDs, Mac OSX, ...)
-
-#. ``openerp-web/config.ini`` in the current user's ``%APPDATA%`` on
-   Windows
-
-#. ``/etc/openerp-web.cfg`` on unices only
-
-.. should we also put a plist file in ~/Library/Application
-   Support/OpenERP Web in OSX?
-
-The web client will stop as soon as it finds a configuration file and
-load it and it only. If all previous steps fail, it will try to find a
-configuration file in its own directory called ``openerp-web.cfg``.
-
-If it is unable to find any configuration file, the web client will
-print an error message and exit with the status ``2``.
-
-Note that the first two options can contain references to environment
-variables or home directories (``~foo``), they will be expanded.
+external configuration file by using a file or file-like object
+explicitly provided to :func:`openobject.configure` or -- if none is
+provided -- calling :func:`openobject.config.find_file`. See its
+documentation for the precise configuration discovery steps.
 
 Configuration API
 =================
-
-The process above was for the command-line configuration process
-(using the ``openerp-web.py`` script), but a similar process is used
-when configuring and launching the Web Client via code (in order to
-use an arbitrary WSGI server for instance).
-
-Configuration is performed by calling :func:`openobject.configure`.
 
 .. warning:: Configuring the Web Client is not an option, an
    unconfigured web client will either fail to start at all or behave
@@ -192,3 +160,15 @@ dbbutton.visible
 
 Set to ``True`` if the database-management button should appear on the
 login screen, ``False`` otherwise.
+
+Other docs I don't know how to name
+===================================
+
+.. autofunction:: openobject.config.find_file
+
+.. envvar:: OPENERP_WEB_SERVER
+
+   Filesystem path to an Openerp Web Client configuration file. Can
+   contain references to other environment variables or to ``~``
+   (e.g. ``~foo/config`` or ``%APPDATA%/stuff.ini``), they will be
+   expanded (once).

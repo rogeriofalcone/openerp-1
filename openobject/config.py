@@ -52,14 +52,18 @@ def find_file():
     Configuration File Discovery Process for the OpenERP Web Client (steps
     tried in order, the function returns as soon as a step yields a result):
 
-    #. If the environment variable ``OPENERP_WEB_SETTINGS`` is set, checks
-       that it is a valid file path and returns it. If
-       ``OPENERP_WEB_SETTINGS`` is not a valid file path, raises an error.
+    #. If :envvar:`OPENERP_WEB_SETTINGS` is set, checks that it is a
+       valid file path and returns it. If
+       :envvar:`OPENERP_WEB_SETTINGS` is not a valid file path, raises
+       an error.
     #. On unices (Linux, Mac OS X, BSDs), looks for the file
        ``~/.openerp-web``
     #. On Windows, looks for the file ``%APPDATA%\openerp-web\config.ini``
     #. On unices, looks for the file ``/etc/openerp-web.cfg``
     #. Looks for the file ``openerp-web.cfg`` in the client's own directory
+
+    .. should we also put a plist file in ~/Library/Application
+       Support/OpenERP Web in OSX?
 
     :return: configuration file path
     :rtype: str
