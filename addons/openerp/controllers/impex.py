@@ -92,7 +92,7 @@ def export_xls(fieldnames, table):
     data = fp.read()
     return data
 
-def _fields_get_all(model, views, context=None):
+def _fields_get_all(model, context=None):
 
     context = context or {}
 
@@ -118,8 +118,8 @@ def _fields_get_all(model, views, context=None):
 
     proxy = rpc.RPCProxy(model)
 
-    tree_view = proxy.fields_view_get(views.get('tree', False), 'tree', context)
-    form_view = proxy.fields_view_get(views.get('form', False), 'form', context)
+    tree_view = proxy.fields_view_get(False, 'tree', context)
+    form_view = proxy.fields_view_get(False, 'form', context)
 
     fields = {}
     fields.update(get_view_fields(tree_view))
@@ -138,12 +138,6 @@ class ImpEx(SecuredController):
         params, data = TinyDict.split(kw)
         ctx = dict((params.context or {}), **rpc.get_session().context)
 
-        views = {}
-        if params.view_mode and params.view_ids:
-            for i, view in enumerate(params.view_mode):
-                views[view] = params.view_ids[i]
-
-
         exports = rpc.RPCProxy('ir.exports')
 
         headers = [{'string' : 'Name', 'name' : 'name', 'type' : 'char'}]
@@ -153,7 +147,6 @@ class ImpEx(SecuredController):
                                  url=tools.url('/openerp/impex/get_fields'),
                                  field_parent='relation',
                                  context=ctx,
-                                 views=views,
                                  import_compat=int(import_compat))
 
         tree.show_headers = False
@@ -216,7 +209,7 @@ class ImpEx(SecuredController):
         except:
             views = {}
 
-        fields = _fields_get_all(model, views, ctx)
+        fields = _fields_get_all(model, ctx)
         m2ofields = cherrypy.session.get('fld')
         if m2ofields:
             for i in m2ofields:
@@ -358,7 +351,7 @@ class ImpEx(SecuredController):
             fields.update(f2)
 
         def rec(fields):
-            _fields = {'id': 'ID' , '.id': 'Database ID' }
+            _fields = {}
 
             def model_populate(fields, prefix_node='', prefix=None, prefix_value='', level=2):
                 fields_order = fields.keys()
@@ -372,7 +365,9 @@ class ImpEx(SecuredController):
                     _fields[prefix_node+field] = st_name
                     if fields[field].get('relation', False) and level>0:
                         fields2 = rpc.RPCProxy(fields[field]['relation']).fields_get(False)
+                        fields2.update({'id': {'type': 'char', 'string': 'ID'}, '.id': {'type': 'char', 'string': 'Database ID'}})
                         model_populate(fields2, prefix_node+field+'/', None, st_name+'/', level-1)
+            fields.update({'id': {'string': 'ID'}, '.id': {'string': 'Database ID'}})
             model_populate(fields)
 
             return _fields
@@ -422,18 +417,12 @@ class ImpEx(SecuredController):
 
         ctx = dict((params.context or {}), **rpc.get_session().context)
 
-        views = {}
-        if params.view_mode and params.view_ids:
-            for i, view in enumerate(params.view_mode):
-                views[view] = params.view_ids[i]
-
         headers = [{'string' : 'Name', 'name' : 'name', 'type' : 'char'}]
         tree = treegrid.TreeGrid('import_fields',
                                     model=params.model,
                                     headers=headers,
                                     url=tools.url('/openerp/impex/get_fields'),
                                     field_parent='relation',
-                                    views=views,
                                     context=ctx,
                                     is_importing=1)
 
