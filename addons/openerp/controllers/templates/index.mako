@@ -159,7 +159,7 @@
                                     </div>
                                 </td>
 	                           	<td id="main_sidebar" valign="top">
-	                    			<a class="toggle-sidebar open" href="javascript:void(0)" style="right: 1px;">Toggle</a>
+	                    			<a class="toggle-sidebar open" href="javascript:void(0)">Toggle</a>
 	                                <div id="tertiary" class="open">
 	                                	<div id="tertiary_wrap">
 		                                    % if len(welcome_messages):
@@ -189,7 +189,7 @@
 		                                    <div class="sideheader-a">
 		                                        <a href="${py.url('/openerp/widgets/add')}"
 		                                           id="add_user_widget" class="button-a"
-		                                                style="right: 175px;">${_("More")}</a>
+		                                                style="right: 30px;">${_("More")}</a>
 		                                        <h2>${_("Widgets")}</h2>
 		                                    </div>
 		                                    <div class="box-a" id="user_widgets">
