@@ -323,8 +323,8 @@ class Search(Form):
                         val = int(value.split('selection_')[1])
                     except:
                         val = value.split('selection_')[1]
-                        
-                    domain.append(field, '=', val)
+                                                
+                    domain.append((field, '=', val))
                     search_data[field] = val
                 else:
                     if not 'm2o_' in value:
