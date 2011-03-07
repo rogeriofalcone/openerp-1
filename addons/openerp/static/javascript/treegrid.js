@@ -351,7 +351,12 @@ TreeNode.prototype = {
                     link.parents('tr.row').addClass('selected');
                 });
                 if (record.action) {
-                	link.attr('href', record.action);
+                	if (record.action.indexOf('javascript') == 0 && jQuery(record).closest(idSelector('export_fields'))) {
+	                	link.attr('style', 'cursor: pointer');
+	                	jQuery(link).removeAttr('href');
+	                } else {
+	                	link.attr('href', record.action);
+	                }	                
                 } else {
                   	var self = this;
                     link.click(function () {
