@@ -1,79 +1,84 @@
-import os
+import logging
+from optparse import OptionParser, OptionGroup
 import sys
-from optparse import OptionParser
-
-import babel.localedata
 
 import cherrypy
-try:
-    from cherrypy.lib.reprconf import as_dict
-except ImportError:
-    from cherrypy._cpconfig import as_dict
 
 import openobject
+import openobject.config
 import openobject.release
 import openobject.paths
 
-class ConfigurationError(Exception):
-    pass
-
-DISTRIBUTION_CONFIG = os.path.join('doc', 'openerp-web.cfg')
-def get_config_file():
-    if hasattr(sys, 'frozen'):
-        configfile = os.path.join(openobject.paths.root(), DISTRIBUTION_CONFIG)
-    else:
-        setupdir = os.path.dirname(os.path.dirname(__file__))
-        isdevdir = os.path.isfile(os.path.join(setupdir, 'setup.py'))
-        configfile = '/etc/openerp-web.cfg'
-        if isdevdir or not os.path.exists(configfile):
-            configfile = os.path.join(setupdir, DISTRIBUTION_CONFIG)
-    return configfile
-
-def configure_babel():
-    """ If we are in a py2exe bundle, rather than babel being installed in
-    a site-packages directory in an unzipped form with all its meta- and
-    package- data it is split between the code files within py2exe's archive
-    file and the metadata being stored at the toplevel of the py2exe
-    distribution.
-    """
-    if not hasattr(sys, 'frozen'): return
-
-    # the locale-specific data files are in babel/localedata/*.dat, babel
-    # finds these data files via the babel.localedata._dirname filesystem
-    # path.
-    babel.localedata._dirname = openobject.paths.root('babel', 'localedata')
+def loglevel(option, str_opt, value, parser):
+    if ':' not in value:
+        parser.values.log.append((value, 'DEBUG'))
+        return
+    logger, level = value.rsplit(':', 1)
+    if level.isdigit():
+        level = int(level)
+    parser.values.log.append((logger, level))
 
 def start():
-
-    parser = OptionParser(version="%s" % (openobject.release.version))
-    parser.add_option("-c", "--config", metavar="FILE", dest="config",
-                      help="configuration file", default=get_config_file())
+    parser = OptionParser(version=openobject.release.version)
+    parser.add_option("-c", "--config", metavar="FILE",
+                      help="configuration file", default=None)
     parser.add_option("-a", "--address", help="host address, overrides server.socket_host")
     parser.add_option("-p", "--port", help="port number, overrides server.socket_port")
     parser.add_option("--no-static", dest="static",
                       action="store_false", default=True,
                       help="Disables serving static files through CherryPy")
+
+    logging_options = parser.add_option_group(
+        "Logging", description="Alternatives to providing a logging "
+                               "configuration file via the Web Client's "
+                               "config file, the `verbose` and `quiet` "
+                               "options configure the logging level of the "
+                               "root logger itself (from a default of "
+                               "'WARNING')")
+    logging_options.add_option('-q', '--quiet', action='count', default=0,
+                               help="Makes the web client talk less")
+    logging_options.add_option('-v', '--verbose', action='count', default=0,
+                               help="Makes the web client talk more")
+    logging_options.add_option('-l', '--log', metavar='LOGGER[:LEVEL=DEBUG]',
+                               default=[], action="callback",
+                               callback=loglevel, type="str",
+                               help="Fast logger configuration: changes the "
+                                    "logging level of the provided logger. "
+                                    "This option can be called several times "
+                                    "to set up multiple loggers. Available "
+                                    "levels are NOTSET (to reset an existing "
+                                    "level), DEBUG, INFO, WARNING, ERROR and "
+                                    "CRITICAL in order of gravity. A given "
+                                    "level implies all previous levels. It is "
+                                    "also possible to use values between 0 "
+                                    "(NOTSET) and 50 (CRITICAL)")
+    logging_options.add_option("--logging-config", metavar="FILE",
+                               help="path to a configuration file for "
+                                    "Python's logging module, will be used "
+                                    "to configure the web client's logging")
+
     options, args = parser.parse_args(sys.argv)
 
-    if not os.path.exists(options.config):
-        raise ConfigurationError(_("Could not find configuration file: %s") %
-                                 options.config)
-                                 
-    app_config = as_dict(options.config)
-    
-    openobject.configure(app_config)
-    if options.static:
-        openobject.enable_static_paths()
-    
+    overrides = {'global': {}}
     if options.address:
-        cherrypy.config['server.socket_host'] = options.address
+        overrides['global']['server.socket_host'] = options.address
     if options.port:
         try:
-            cherrypy.config['server.socket_port'] = int(options.port)
-        except:
+            overrides['global']['server.socket_port'] = int(options.port)
+        except ValueError:
             pass
-
-    configure_babel()
+    if options.verbose or options.quiet:
+        options.log.append(
+            (logging.root,
+             logging.WARNING - 10 * options.verbose + 10 * options.quiet))
+    try:
+        openobject.configure(options.config,
+                             enable_static=options.static,
+                             logging_configuration=options.logging_config,
+                             loggers=dict(options.log),
+                             **overrides)
+    except openobject.config.ConfigurationError, e:
+        parser.error(e.args[0])
 
     cherrypy.engine.start()
     cherrypy.engine.block()

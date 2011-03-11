@@ -5,7 +5,6 @@ import cherrypy
 import babel.core
 import logging
 
-
 __all__ = ['get_locale']
 
 def lang_in_gettext_format(lang):
@@ -58,18 +57,17 @@ def get_accept_languages(accept):
     return map(lang_in_gettext_format,
                parse_http_accept_header(accept))
 
+locale_logger = logging.getLogger('openobject.i18n.utils.get_locale')
 def get_locale(locale=None):
-
     if locale:
         return locale
 
     try:
         return babel.core.Locale.parse(cherrypy.session['locale'])
     except AttributeError:
-        cherrypy.log.error(
+        locale_logger.exception(
             'Error when trying to get locale, likely due to session tools '
-            'not being enabled yet\n',
-            '[startup]', severity=logging.ERROR, traceback=True)
+            'not being enabled yet')
     except (ImportError, KeyError):
         pass # we're at the login page and apparently it cannot get rpc
     except babel.core.UnknownLocaleError:
@@ -81,9 +79,8 @@ def get_locale(locale=None):
             try:
                 return babel.core.Locale.parse(candidate_language)
             except babel.core.UnknownLocaleError:
-                cherrypy.log.error("Unknown locale '%s' from Accept-Language "
-                                   "header '%s', skipping to next locale",
-                                   context="i18n", severity=logging.WARN)
+                locale_logger.warn("Unknown locale '%s' from Accept-Language "
+                                   "header '%s', skipping to next locale")
                 # Locale Babel does not know about, go to next
                 pass
     except AttributeError:

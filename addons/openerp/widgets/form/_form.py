@@ -23,6 +23,7 @@
 This module implementes widget parser for form view, and
 several widget components.
 """
+import logging
 import locale
 import os
 import random
@@ -739,6 +740,8 @@ class HtmlView(TinyWidget):
 
 register_widget(HtmlView, ["html"])
 
+parse_logger = logging.getLogger('openobject.addons.openerp.widgets'
+                                 '.form.Form.parse')
 class Form(TinyInputWidget):
     """A generic form widget
     """
@@ -893,8 +896,8 @@ class Form(TinyInputWidget):
                     fields[name]['link'] = attrs.get('link', '1')
                     fields[name].update(attrs)
                 except:
-                    print "-"*30,"\n malformed tag for:", attrs
-                    print "-"*30
+                    parse_logger.debug("Malformed tag for field %s, with %s",
+                                       name, attrs)
                     raise
 
                 kind = fields[name]['type']
@@ -903,11 +906,10 @@ class Form(TinyInputWidget):
                     continue
 
                 if name in self.view_fields:
-                    print "-"*30
-                    print " malformed view for:", self.model
-                    print " duplicate field:", name
-                    print "-"*30
-                    raise common.error(_('Application Error'), _('Invalid view, duplicate field: %s') % name)
+                    raise common.error(
+                        _('Application Error'),
+                        _("Invalid view for model '%(model)s', duplicate field: %(field)s",
+                          model=self.model, name=name))
 
                 self.view_fields.append(name)
 

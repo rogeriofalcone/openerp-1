@@ -1,4 +1,4 @@
-include admin.py openerp-web.py run-tests.py py2exe_utils.py setup.nsi
+include admin.py openerp-web.py run-tests.py py2exe_utils.py setup.nsi openerp-web.cfg
 graft doc
 prune dist
 prune lib

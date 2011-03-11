@@ -19,6 +19,7 @@
 #
 ###############################################################################
 import copy
+import logging
 import math
 import xml.dom.minidom
 import re
@@ -34,7 +35,8 @@ from openobject.tools import ast
 from openobject.i18n import format
 from pager import Pager
 
-
+parse_logger = logging.getLogger('openobject.addons.openerp'
+                                 '.widgets.listgrid.List.parse')
 class List(TinyWidget):
 
     template = "/openerp/widgets/templates/listgrid/listgrid.mako"
@@ -356,11 +358,10 @@ class List(TinyWidget):
                     name = attrs['name']
 
                     if name in myfields:
-                        print "-"*30
-                        print " malformed view for:", self.model
-                        print " duplicate field:", name
-                        print "-"*30
-                        raise common.error(_('Application Error'), _('Invalid view, duplicate field: %s') % name)
+                        raise common.error(
+                            _('Application Error'),
+                            _("Invalid view for model '%(model)s', duplicate field: %(field)s",
+                              model=self.model, name=name))
 
                     myfields.append(name)
 
@@ -372,8 +373,9 @@ class List(TinyWidget):
                     try:
                         fields[name].update(attrs)
                     except:
-                        print "-"*30,"\n malformed tag for:", attrs
-                        print "-"*30
+                        parse_logger.debug(
+                            "Malformed tag for field %s, with %s",
+                            name, attrs)
                         raise
 
                     kind = fields[name]['type']
@@ -387,7 +389,7 @@ class List(TinyWidget):
                         visval = fields[name].get('invisible', 'False')
                         invisible = eval(visval, {'context': self.context})
                     except NameError, e:
-                        cherrypy.log.error(e, context='listgrid.List.parse')
+                        parse_logger.info(e)
                         invisible = False
 
                     if invisible:

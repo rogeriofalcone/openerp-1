@@ -18,7 +18,7 @@
 #  You can see the MPL licence at: http://www.mozilla.org/MPL/MPL-1.1.html
 #
 ###############################################################################
-import re
+import urlparse
 
 import cherrypy
 
@@ -44,20 +44,17 @@ def login(target, db=None, user=None, password=None, action=None, message=None, 
 
     dbfilter = cherrypy.request.app.config['openerp-web'].get('dblist.filter')
     if dbfilter:
-        headers = cherrypy.request.headers
-        host = headers.get('X-Forwarded-Host', headers.get('Host'))
-
-        base = re.split('\.|:|/', host)[0]
+        hostname = urlparse.urlsplit(cherrypy.request.base).hostname
 
         if dbfilter == 'EXACT':
             if dblist is None:
-                db = base
+                db = hostname
                 dblist = [db]
             else:
-                dblist = [d for d in dblist if d == base]
+                dblist = [d for d in dblist if d == hostname]
 
         elif dbfilter == 'UNDERSCORE':
-            base = base + '_'
+            base = hostname + '_'
             if dblist is None:
                 if db and not db.startswith(base):
                     db = None
@@ -66,10 +63,10 @@ def login(target, db=None, user=None, password=None, action=None, message=None, 
 
         elif dbfilter == 'BOTH':
             if dblist is None:
-                if db and db != base and not db.startswith(base + '_'):
+                if db and db != hostname and not db.startswith(hostname + '_'):
                     db = None
             else:
-                dblist = [d for d in dblist if d.startswith(base + '_') or d == base]
+                dblist = [d for d in dblist if d.startswith(hostname + '_') or d == hostname]
 
     info = None
     try:

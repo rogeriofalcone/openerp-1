@@ -13,6 +13,7 @@ import openobject.tools.ast
 import openobject.tools.zip
 from openobject import errors, paths, rpc
 
+logger = logging.getLogger('openobject.addons')
 
 class Graph(dict):
 
@@ -231,10 +232,10 @@ def load_addons(db_name, config):
 
 writeable = os.access(paths.addons(), os.W_OK)
 if not writeable:
-    cherrypy.log.error(
+    logger.warn(
         "Can not write to the addons directory '%s', "
-        "will not be able to download web modules" % paths.addons(),
-        "WARNING", severity=logging.WARNING)
+        "will not be able to download web modules",
+        paths.addons())
 
 def has_new_modules():
     """ Returns whether there are new web modules available for download

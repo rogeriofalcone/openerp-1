@@ -38,6 +38,8 @@ from dateutil.relativedelta import relativedelta
 
 import openobject.rpc
 
+logger = logging.getLogger('openobject.addons.openerp.utils.tools')
+
 def expr_eval(string, context=None):
     context = dict(context or {},
                    uid=openobject.rpc.get_session().uid,
@@ -49,10 +51,7 @@ def expr_eval(string, context=None):
         try:
             value = eval(string, context)
         except:
-            cherrypy.log.error("Error while parsing %r\n" % string,
-                               context='expr_eval',
-                               severity=logging.WARNING,
-                               traceback=True)
+            logger.warn("Error while parsing %r", string, exc_info=True)
             return {}
     else:
         value = string

@@ -402,15 +402,15 @@ class CPSessionWrapper(object):
 def get_session():
     global session
     if session is None:
-        config = cherrypy.config
+        config = cherrypy.request.app.config['openerp-web']
 
-        SOCKET_TIMEOUT = cherrypy.config.get('openerp.server.timeout')
+        SOCKET_TIMEOUT = config['openerp.server.timeout']
         socket.setdefaulttimeout(SOCKET_TIMEOUT)
 
         # initialize the rpc session
-        host = config.get('openerp.server.host')
-        port = config.get('openerp.server.port')
-        protocol = config.get('openerp.server.protocol')
+        host = config['openerp.server.host']
+        port = config['openerp.server.port']
+        protocol = config['openerp.server.protocol']
 
         session = RPCSession(host, port, protocol, storage=CPSessionWrapper())
     return session

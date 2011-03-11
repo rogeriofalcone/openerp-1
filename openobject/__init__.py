@@ -1,14 +1,17 @@
-import logging
 import os
 import sys
-from locale import getlocale
 
 libdir = os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), 'lib')
 if os.path.exists(libdir) and libdir not in sys.path:
     sys.path.insert(0, libdir)
 
 import cherrypy
+try:
+    from cherrypy.lib.reprconf import as_dict
+except ImportError:
+    from cherrypy._cpconfig import as_dict
 import openobject
+import openobject.config
 import openobject.controllers
 import openobject.widgets
 
@@ -60,7 +63,7 @@ __builtins__['ustr'] = ustr
 import i18n
 i18n.install()
 
-application = cherrypy.tree.mount(None, '/')
+application = cherrypy.tree.mount(None)
 def enable_static_paths():
     ''' Enables handling of static paths by CherryPy:
     * /openobject/static
@@ -68,6 +71,7 @@ def enable_static_paths():
     * LICENSE.txt
     '''
     global WSGI_STATIC_PATHS
+    if WSGI_STATIC_PATHS: return
     WSGI_STATIC_PATHS = True
 
     static_dir = os.path.abspath(
@@ -86,7 +90,9 @@ def enable_static_paths():
                                                       'doc', 'LICENSE.txt')
     }})
 
-BASE_CONFIG = {
+BASE_GLOBAL = {
+    'tools.sessions.on': True,
+    'tools.csrf.on': True,
     # Conversion of input parameters via formencode.variabledecode.NestedVariables
     'tools.nestedvars.on': True,
     'tools.web_modules.on': True,
@@ -98,26 +104,86 @@ BASE_CONFIG = {
         ('X-Requested-With', 'requested_with')
     ],
     'tools.clear_cache_buster.on': True,
-    'tools.openobject_dispatcher.on': True
+    'tools.openobject_dispatcher.on': True,
+
+    'tools.log_traceback.on': False,
+    'tools.cgitb.on': True
 }
-def configure(app_config):
-    ''' Configures OpenERP Web Client. Takes a configuration dict
-    (as output by cherrypy._cpconfig.as_dict), from it configures
-    cherrypy globally and configure the OpenERP WSGI Application.
+BASE_APP = {
+    'openerp.server.timeout': 450
+}
+def configure(config=None,
+              enable_static=False,
+              logging_configuration=None,
+              loggers=None,
+              **overrides):
+    ''' Configures OpenERP Web Client.
+
+    Takes a CherryPy configuration with two sections (``global``
+    and ``openerp-web``)
+
+    :param config: a configuration file path, a configuration file or a
+                   configuration dict (anything which can be used by
+                   cherrypy's ``as_dict``, really).
+
+                   If none is provided, the web client will go through its
+                   automatic configuration discovery process (see
+                   :func:`openobject.config.find_file`)
+    :type config: ``str | < read :: () -> str > | dict | None``
+    :param enable_static: configure CherryPy to handle the distribution of
+                          static resources by itself (via static tools)
+    :type enable_static: ``bool``
+    :param logging_configuration: the path to a ``logging`` configuration
+                                  file, or a ``logging`` configuration
+                                  file-like object, if specified and there
+                                  is already a logging configuration file
+                                  path in ``config``, will replace the value
+                                  in ``config``
+    :type logging_configuration: ``str | < readline :: () -> str >``
+    :param loggers: mapping of loggers to logging levels, lighter
+                    configuration method than a full-blown configuration file
+
+                    cf :func:`openobject.config.configure_logging` for exact
+                    signature
+    :type loggers: ``{str: (int|str)}``
+    :param overrides: additional configuration information, has the same
+                      structure as normal CherryPy configuration dicts,
+                      merged into CherryPy's configuration *after* ``config``.
+
+                      Generally used when ``config`` is a file path or a
+                      file-like object, in order to provide or override
+                      settings without needing to parse the configuration
+                      file from outside this function.
     '''
-    _global = app_config.pop('global', {})
-    _environ = _global.setdefault('server.environment', 'development')
-    if _environ != 'development':
-        _global['environment'] = _environ
-    cherrypy.config.update(BASE_CONFIG)
-    cherrypy.config.update(_global)
-    application.merge(app_config)
+    if not config:
+        configuration = openobject.config.find_file()
+    elif isinstance(config, basestring):
+        configuration = os.path.expanduser(
+            os.path.expandvars(config))
+        if not os.path.isfile(configuration):
+            raise openobject.config.ConfigurationError(
+                "The file '%s' could not be found "
+                "or is not a valid file path" % config)
+    else:
+        configuration = config
 
-    # logging config
-    error_level = logging._levelNames.get(
-        _global.get('log.error_level'), 'WARNING')
-    access_level = logging._levelNames.get(
-        _global.get('log.access_level'), 'INFO')
+    config_dict = as_dict(configuration)
 
-    cherrypy.log.error_log.setLevel(error_level)
-    cherrypy.log.access_log.setLevel(access_level)
+    cherrypy.config.update(
+        BASE_GLOBAL)
+    cherrypy.config.update(
+        config_dict.pop('global', {}))
+    cherrypy.config.update(
+        overrides.pop('global', {}))
+
+    application.merge({'openerp-web': BASE_APP})
+    application.merge(config_dict)
+    application.merge(overrides)
+
+    openobject.config.configure_logging(
+        logging_config=logging_configuration or application.config['openerp-web'].get('logging.config.file'),
+        loggers=loggers)
+
+    openobject.config.configure_babel()
+    if enable_static:
+        enable_static_paths()

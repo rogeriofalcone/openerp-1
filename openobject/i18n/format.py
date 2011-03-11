@@ -19,6 +19,7 @@
 #
 ###############################################################################
 import datetime as DT
+import logging
 import re
 import time
 
@@ -33,6 +34,8 @@ __all__ = ['DT_SERVER_FORMATS', 'get_datetime_format',
            'format_decimal', 'parse_decimal',
            'tz_convert'
           ]
+
+logger = logging.getLogger('openobject.i18n.format')
 
 DT_SERVER_FORMATS = {
   'datetime' : '%Y-%m-%d %H:%M:%S',
@@ -150,7 +153,7 @@ def format_datetime(value, kind="datetime", as_timetuple=False):
         try:
             value = tz_convert(value, 'format')
         except Exception:
-            cherrypy.log.error("Error in timezone formatting:\n", traceback=True)
+            logger.exception("Error in timezone formatting")
 
     if as_timetuple:
         return value
@@ -196,7 +199,7 @@ def parse_datetime(value, kind="datetime", as_timetuple=False):
         try:
             value = tz_convert(value, 'parse')
         except Exception:
-            cherrypy.log.error("Error in timezone parsing:\n", traceback=True)
+            logger.exception("Error in timezone parsing")
 
     if as_timetuple:
         return value
@@ -206,8 +209,8 @@ def parse_datetime(value, kind="datetime", as_timetuple=False):
 def convert_date_format_in_domain(domain, fields, context):
     try:
         return _convert_date_format_in_domain(domain, fields, context)
-    except Exception, e:
-        cherrypy.log.error("Error in convert_date_format_in_domain:\n", traceback=True)
+    except Exception:
+        logger.exception("Error in convert_date_format_in_domain")
         return domain
 
 def _convert_date_format_in_domain(domain, fields, context):
