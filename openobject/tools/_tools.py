@@ -97,12 +97,12 @@ class CustomHeadersRedirectionFix(cherrypy._cptools.Tool):
         # You can have a redirect without a location?
         # Apparently since I'm getting one, but it's weird.
         if not 300 <= response.status < 400\
-            or 'Location' not in headers:
+            or 'Location' not in response.headers:
             return
 
         # get the redirection URL
         scheme, netloc, path, query, _fragment =\
-            urlparse.urlsplit(headers['Location'])
+            urlparse.urlsplit(response.headers['Location'])
         params = cgi.parse_qs(query)
 
         for header, param in self.custom_headers:
@@ -111,7 +111,7 @@ class CustomHeadersRedirectionFix(cherrypy._cptools.Tool):
             # through the redirection
             params[param] = headers[header]
 
-        headers['Location'] = \
+        response.headers['Location'] = \
             urlparse.urlunsplit((
                 scheme,
                 netloc,

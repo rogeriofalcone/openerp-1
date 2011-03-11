@@ -4,28 +4,28 @@ import openobject.tools._tools
 
 class TestCustomHeadersOnRedirection(unittest2.TestCase):
     def setUp(self):
-        cherrypy.response.status = 303
         cherrypy.request.headers['X-Requested-With'] = 'header'
-        cherrypy.request.headers['Location'] = 'http://example.org/foo?bar=true'
         cherrypy.request.params = {'requested_with': 'param'}
+        cherrypy.response.status = 303
+        cherrypy.response.headers['Location'] = 'http://example.org/foo?bar=true'
         self.fixer = openobject.tools._tools.CustomHeadersRedirectionFix()
         self.fixer.custom_headers = [
             ('X-Requested-With', 'requested_with')
         ]
     def tearDown(self):
         del cherrypy.request.headers['X-Requested-With']
-        del cherrypy.request.headers['Location']
         del cherrypy.request.params
         del cherrypy.response.status
+        del cherrypy.response.headers['Location']
 
     def testHeaderToParam(self):
         self.assertEqual(
             'http://example.org/foo?bar=true',
-            cherrypy.request.headers['Location'])
+            cherrypy.response.headers['Location'])
         self.fixer.header_to_parameter_on_redirection()
         self.assertEqual(
             'http://example.org/foo?bar=true&requested_with=header',
-            cherrypy.request.headers['Location'])
+            cherrypy.response.headers['Location'])
 
     def testParamToHeader(self):
         self.assertEqual(
