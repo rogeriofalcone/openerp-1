@@ -323,9 +323,14 @@ class Search(Form):
                         val = int(value.split('selection_')[1])
                     except:
                         val = value.split('selection_')[1]
-                                                
+
                     domain.append((field, '=', val))
                     search_data[field] = val
+
+                elif fld['type'] == 'selection':
+                    domain.append((field, '=', value))
+                    search_data[field] = value
+
                 else:
                     if not 'm2o_' in value:
                         operator = 'ilike'
