@@ -44,29 +44,29 @@ def login(target, db=None, user=None, password=None, action=None, message=None, 
 
     dbfilter = cherrypy.request.app.config['openerp-web'].get('dblist.filter')
     if dbfilter:
-        hostname = urlparse.urlsplit(cherrypy.request.base).hostname
+        base, _ = urlparse.urlsplit(cherrypy.request.base)\
+                    .hostname.split('.', 1)
 
         if dbfilter == 'EXACT':
             if dblist is None:
-                db = hostname
+                db = base
                 dblist = [db]
             else:
-                dblist = [d for d in dblist if d == hostname]
+                dblist = [d for d in dblist if d == base]
 
         elif dbfilter == 'UNDERSCORE':
-            base = hostname + '_'
             if dblist is None:
-                if db and not db.startswith(base):
+                if db and not db.startswith(base + '_'):
                     db = None
             else:
-                dblist = [d for d in dblist if d.startswith(base)]
+                dblist = [d for d in dblist if d.startswith(base + '_')]
 
         elif dbfilter == 'BOTH':
             if dblist is None:
-                if db and db != hostname and not db.startswith(hostname + '_'):
+                if db and db != base and not db.startswith(base + '_'):
                     db = None
             else:
-                dblist = [d for d in dblist if d.startswith(hostname + '_') or d == hostname]
+                dblist = [d for d in dblist if d.startswith(base + '_') or d == base]
 
     info = None
     try:
