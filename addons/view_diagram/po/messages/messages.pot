@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2011-03-18 11:53+0100\n"
+"POT-Creation-Date: 2011-03-18 11:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,24 +17,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 0.9.5\n"
 
-#: controllers/_diagram.py:89 controllers/_diagram.py:210
+#: controllers/_diagram.py:91 controllers/_diagram.py:212
 msgid "Could not delete state"
 msgstr ""
 
-#: controllers/_diagram.py:274
+#: controllers/_diagram.py:276
 msgid "No workflow associated!"
 msgstr ""
 
-#: controllers/process.py:46
+#: controllers/process.py:44
 msgid "Help: Not Defined"
 msgstr ""
 
-#: controllers/process.py:89
+#: controllers/process.py:88
 #, python-format
 msgid "%(name)s - Resource: %(resource)s, State: %(state)s"
 msgstr ""
 
-#: controllers/process.py:101
+#: controllers/process.py:100
 msgid "Last modified by:"
 msgstr ""
 

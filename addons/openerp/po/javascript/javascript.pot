@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
-"POT-Creation-Date: 2011-03-18 11:53+0100\n"
+"POT-Creation-Date: 2011-03-18 11:58+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -22,49 +22,49 @@ msgstr ""
 msgid "You selected to open %(tabs)s tabs - do you want to continue?"
 msgstr ""
 
-#: static/javascript/form.js:169
+#: static/javascript/form.js:185
 msgid "Invalid form, correct red fields."
 msgstr ""
 
-#: static/javascript/form.js:204
+#: static/javascript/form.js:220
 msgid "Do you really want to delete this record?"
 msgstr ""
 
-#: static/javascript/form.js:960
+#: static/javascript/form.js:988
 msgid "You must select one or several records !"
 msgstr ""
 
-#: static/javascript/form.js:967
+#: static/javascript/form.js:995
 msgid "You must save this record to perform the action !"
 msgstr ""
 
-#: static/javascript/form.js:1127
+#: static/javascript/form.js:1155
 msgid "Do you really want to delete the attachment"
 msgstr ""
 
-#: static/javascript/form.js:1161
+#: static/javascript/form.js:1189
 msgid "No record selected ! You can only attach to existing record."
 msgstr ""
 
-#: static/javascript/form.js:1220
+#: static/javascript/form.js:1248
 msgid "OpenERP - Error"
 msgstr ""
 
-#: static/javascript/form.js:1291
+#: static/javascript/form.js:1319
 msgid ""
 "Warning, the record has been modified,\n"
 "your changes will be discarded."
 msgstr ""
 
-#: static/javascript/listgrid.js:542 static/javascript/o2m.js:123
+#: static/javascript/listgrid.js:543 static/javascript/o2m.js:123
 msgid "To edit Record, please first save it."
 msgstr ""
 
-#: static/javascript/listgrid.js:650
+#: static/javascript/listgrid.js:651
 msgid "Do you really want to delete selected record(s) ?"
 msgstr ""
 
-#: static/javascript/m2o.js:526
+#: static/javascript/m2o.js:525
 msgid "error in display::"
 msgstr ""
 
@@ -82,6 +82,10 @@ msgstr ""
 
 #: static/javascript/viewed.js:329
 msgid "Do you really wants to create an inherited view here?"
+msgstr ""
+
+#: static/javascript/viewed.js:337
+msgid "No Record Selected"
 msgstr ""
 
 #: static/javascript/openerp/openerp.base.js:127
