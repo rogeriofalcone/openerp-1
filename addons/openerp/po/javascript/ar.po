@@ -7,14 +7,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
-"POT-Creation-Date: 2011-01-17 13:09+0100\n"
-"PO-Revision-Date: 2011-02-12 03:10+0000\n"
+"POT-Creation-Date: 2011-03-18 11:58+0100\n"
+"PO-Revision-Date: 2011-03-18 23:57+0000\n"
 "Last-Translator: kifcaliph <kifcaliph@hotmail.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-03-11 04:45+0000\n"
+"X-Launchpad-Export-Date: 2011-03-19 05:17+0000\n"
 "X-Generator: Launchpad (build 12559)\n"
 
 #: static/javascript/form.js:92
@@ -22,31 +22,35 @@ msgstr ""
 msgid "You selected to open %(tabs)s tabs - do you want to continue?"
 msgstr "لقد اخترت فتح المبوبة  %(tabs)s - هل تريد الإكمال؟"
 
-#: static/javascript/form.js:169
+#: static/javascript/form.js:185
 msgid "Invalid form, correct red fields."
 msgstr "نموذج خاطئ، رجاء تصحيح الحقول الحمراء."
 
-#: static/javascript/form.js:204
+#: static/javascript/form.js:220
 msgid "Do you really want to delete this record?"
 msgstr "هل تريد حذف هذا السجل؟"
 
-#: static/javascript/form.js:953
+#: static/javascript/form.js:988
 msgid "You must select one or several records !"
 msgstr "يجب ان تختار سجل او مجموعة من السجلات !"
 
-#: static/javascript/form.js:1116
+#: static/javascript/form.js:995
+msgid "You must save this record to perform the action !"
+msgstr "يجب حفظ السجل قبل إجراء الأمر!"
+
+#: static/javascript/form.js:1155
 msgid "Do you really want to delete the attachment"
 msgstr "هل تريد حذف المرفقات"
 
-#: static/javascript/form.js:1150
+#: static/javascript/form.js:1189
 msgid "No record selected ! You can only attach to existing record."
 msgstr "لم يتم إختيار سجل ! يمكنك الإرفاق من خلال سجل."
 
-#: static/javascript/form.js:1209
+#: static/javascript/form.js:1248
 msgid "OpenERP - Error"
 msgstr "خطأ بالبرنامج - OpenERP"
 
-#: static/javascript/form.js:1280
+#: static/javascript/form.js:1319
 msgid ""
 "Warning, the record has been modified,\n"
 "your changes will be discarded."
@@ -54,21 +58,25 @@ msgstr ""
 "تحذير، قد تم تعديل السجل،\n"
 "لم تحفظ التعديلات."
 
-#: static/javascript/listgrid.js:499 static/javascript/o2m.js:95
+#: static/javascript/listgrid.js:543 static/javascript/o2m.js:123
 msgid "To edit Record, please first save it."
 msgstr "لتحرير السجل، رجاء احفظه."
 
-#: static/javascript/listgrid.js:607
+#: static/javascript/listgrid.js:651
 msgid "Do you really want to delete selected record(s) ?"
 msgstr "هل تريد حذف السجل/السجلات؟"
 
-#: static/javascript/m2o.js:506
+#: static/javascript/m2o.js:525
 msgid "error in display::"
 msgstr "خطأ في العرض::"
 
-#: static/javascript/o2m.js:54
+#: static/javascript/o2m.js:67
 msgid "Do you really want to delete record ?"
 msgstr "هل تريد حذف السجل؟"
+
+#: static/javascript/search.js:285
+msgid "Invalid Value"
+msgstr "قيمة غير صالحة"
 
 #: static/javascript/viewed.js:63
 msgid "Do you really want to remove this node?"
@@ -78,11 +86,15 @@ msgstr "هل تريد إزالة هذا الطرف؟"
 msgid "Do you really wants to create an inherited view here?"
 msgstr "هل تريد إنشاء عرض من الموروث؟"
 
+#: static/javascript/viewed.js:337
+msgid "No Record Selected"
+msgstr "لا يوجد سجل مختار"
+
 #: static/javascript/openerp/openerp.base.js:127
 msgid "doLoadingSuccess: Cannot parse JSON"
 msgstr "تم التحميل بنجاح: و لكن لا يمكن قراءة الـ JSON"
 
-#: static/javascript/openerp/openerp.base.js:326
+#: static/javascript/openerp/openerp.base.js:335
 msgid "Loading"
 msgstr "جاري التحميل"
 
