@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-03-18 23:59+0000\n"
+"PO-Revision-Date: 2011-03-19 07:04+0000\n"
 "Last-Translator: kifcaliph <kifcaliph@hotmail.com>\n"
 "Language-Team: Arabic <ar@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-03-19 05:17+0000\n"
+"X-Launchpad-Export-Date: 2011-03-20 04:45+0000\n"
 "X-Generator: Launchpad (build 12559)\n"
 
 #: validators.py:75
@@ -732,7 +732,7 @@ msgstr "تصدير الهيئة:"
 
 #: controllers/templates/exp.mako:178
 msgid "CSV"
-msgstr ""
+msgstr "CVS"
 
 #: controllers/templates/exp.mako:179
 msgid "Excel"
@@ -1295,7 +1295,7 @@ msgstr "خطأ بكود on_change"
 #: widgets/listgrid.py:367 widgets/form/_form.py:911
 #, python-format
 msgid "Invalid view for model '%(model)s', duplicate field: %(field)s"
-msgstr ""
+msgstr "عرض خاطئ للنموذج '%(model)s', حقول مكررة: %(field)s"
 
 #: widgets/pager.py:56
 #, python-format
