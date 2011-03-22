@@ -251,7 +251,16 @@ function remove_filter_row(element) {
  * @param type the field's type to consider for operator replacement
  */
 function isOrderable(type) {
-    return jQuery.inArray(type, ['integer', 'float', 'date', 'datetime', 'boolean']) != -1;
+    switch(type) {
+        case 'integer':
+        case 'float':
+        case 'date':
+        case 'datetime':
+        case 'time':
+        case 'boolean':
+            return true;
+    }
+    return false;
 }
 
 /**
@@ -742,7 +751,7 @@ function initialize_search() {
             (fil_dom.length && fil_dom.val() != '[]')) {
         filter_table.show();
     }
-    jQuery('#search_filter_data').keydown(search_on_return);
+    jQuery('#search_filter_data, #filter_option_table').keydown(search_on_return);
 }
 
 jQuery(document).ready(initialize_search);
