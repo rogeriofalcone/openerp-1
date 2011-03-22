@@ -135,21 +135,6 @@ function validate_required(form){
     }
 
 
-	var inactive_notebook_length = jQuery('.notebook-tabs-strip li:hidden', '.notebook:visible').length;
-	if(inactive_notebook_length) {
-		var inactive_notebooks = [];
-		jQuery('.notebook-tabs-strip li:hidden', '.notebook:visible').each(function() {
-			var inactive_notebook_index = jQuery('.notebook-tabs-strip li', '.notebook:visible').index(jQuery(this));
-			inactive_notebooks.push(jQuery('div.notebook-pages div.notebook-page').get(inactive_notebook_index))
-		});
-
-		jQuery(inactive_notebooks).each(function(){
-			jQuery('.requiredfield', this).each(function() {
-				jQuery(this).attr('disabled', 'disabled')
-			})
-		});
-	}
-
     var elements = MochiKit.Base.filter(function(el){
         return !el.disabled && el.id && el.name && el.id.indexOf('_terp_listfields/') == -1 && hasElementClass(el, 'requiredfield');
     }, form.elements);
