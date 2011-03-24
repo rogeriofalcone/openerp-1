@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-01-19 08:24+0000\n"
+"PO-Revision-Date: 2011-03-23 07:55+0000\n"
 "Last-Translator: Douwe Wullink (Dypalio) <Unknown>\n"
 "Language-Team: nl <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-03-19 05:17+0000\n"
+"X-Launchpad-Export-Date: 2011-03-24 04:49+0000\n"
 "X-Generator: Launchpad (build 12559)\n"
 "Generated-By: Babel None\n"
 
@@ -37,7 +37,7 @@ msgstr "Kies één of meerdere regels!"
 
 #: static/javascript/form.js:995
 msgid "You must save this record to perform the action !"
-msgstr ""
+msgstr "U moet dit record opslaan om de actie uit te voeren !"
 
 #: static/javascript/form.js:1155
 msgid "Do you really want to delete the attachment"
@@ -79,7 +79,7 @@ msgstr "Wilt u dit record werkelijk verwijderen?"
 
 #: static/javascript/search.js:285
 msgid "Invalid Value"
-msgstr ""
+msgstr "Ongeldige waarde"
 
 #: static/javascript/viewed.js:63
 msgid "Do you really want to remove this node?"
@@ -91,7 +91,7 @@ msgstr "Wilt u hier werkelijk een overerfde weergave maken?"
 
 #: static/javascript/viewed.js:337
 msgid "No Record Selected"
-msgstr ""
+msgstr "Geen record geselecteerd"
 
 #: static/javascript/openerp/openerp.base.js:127
 msgid "doLoadingSuccess: Cannot parse JSON"

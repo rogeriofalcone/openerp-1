@@ -8,13 +8,13 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-01-19 08:20+0000\n"
+"PO-Revision-Date: 2011-03-23 07:58+0000\n"
 "Last-Translator: Douwe Wullink (Dypalio) <Unknown>\n"
 "Language-Team: nl <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-03-19 05:18+0000\n"
+"X-Launchpad-Export-Date: 2011-03-24 04:49+0000\n"
 "X-Generator: Launchpad (build 12559)\n"
 "Generated-By: Babel None\n"
 
@@ -376,6 +376,7 @@ msgstr "Importfout"
 #: controllers/impex.py:72
 msgid "Please install xlwt library to export to MS Excel."
 msgstr ""
+"Installeer eerst de xlwt library om naar MS Excel te kunnen exporteren."
 
 #: controllers/impex.py:402
 msgid "Export Error"
@@ -408,11 +409,11 @@ msgstr ""
 
 #: controllers/impex.py:520
 msgid "The CSV delimiter must be a single character"
-msgstr ""
+msgstr "Het CSV scheidingsteken moet een enkel teken zijn"
 
 #: controllers/impex.py:532
 msgid "File Format Error"
-msgstr ""
+msgstr "Fout in bestandsindeling"
 
 #: controllers/impex.py:550
 msgid "XML-RPC error"
@@ -744,15 +745,15 @@ msgstr "Alle gegevens exporteren"
 
 #: controllers/templates/exp.mako:175
 msgid "Export Format:"
-msgstr ""
+msgstr "Export formaat:"
 
 #: controllers/templates/exp.mako:178
 msgid "CSV"
-msgstr ""
+msgstr "CSV"
 
 #: controllers/templates/exp.mako:179
 msgid "Excel"
-msgstr ""
+msgstr "Excel"
 
 #: controllers/templates/exp.mako:190
 msgid "Available fields"
@@ -1318,7 +1319,7 @@ msgstr "Verkeerde on_change trigger"
 #: widgets/listgrid.py:367 widgets/form/_form.py:911
 #, python-format
 msgid "Invalid view for model '%(model)s', duplicate field: %(field)s"
-msgstr ""
+msgstr "Ongeldige weergave voor model '%(model)s', dubbel veld: %(field)s"
 
 #: widgets/pager.py:56
 #, python-format
@@ -1408,7 +1409,7 @@ msgstr "bijlage toevoegen"
 
 #: widgets/form/templates/image.mako:6
 msgid "Replace image"
-msgstr ""
+msgstr "Afbeelding vervangen"
 
 #: widgets/form/templates/many2one.mako:2
 #: widgets/form/templates/reference.mako:30
