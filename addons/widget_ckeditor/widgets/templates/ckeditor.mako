@@ -5,12 +5,12 @@
 % endif
 
 <script type="text/javascript">
-	$('#${name}').ckeditor(function(){
-        this.readOnly(${(readonly or 0) and 1});
+    $('#${name}').ckeditor(function(){
+        this.readOnly(${int(readonly)});
     },
     {
-	% if (readonly or 0) and 1:
-		toolbarStartupExpanded : false
-	% endif
+    % if readonly:
+        toolbarStartupExpanded : false
+    % endif
     });
 </script>

@@ -61,8 +61,9 @@ function form_onStateChange(container, widget, states, evt) {
         src = evt.src();
     else
         src = evt.target;
-    
+
     var value = typeof(src.value) == "undefined" ? getNodeAttribute(src, 'value') || src.innerHTML : src.value;
+    var $field = jQuery(idSelector(widget));
 
     if (MochiKit.Base.isArrayLike(states)) {
         form_setVisible(container, widget, findIdentical(states, value) > -1);
@@ -79,13 +80,22 @@ function form_onStateChange(container, widget, states, evt) {
     }
 
     var attr = states[value];
-
-    if (attr && has_readonly)
-        form_setReadonly(container, widget, attr['readonly']);
-
-    if (attr && has_required)
-        form_setRequired(container, widget, attr['required']);
-
+    if (has_readonly) {
+    	if (attr) {
+        	form_setReadonly(container, widget, attr['readonly']);
+    	}
+    	else {
+        	form_setReadonly(container, widget, parseInt($field.attr('fld_readonly')));
+    	}
+    }
+    if (has_required) {
+    	if (attr) {
+        	form_setRequired(container, widget, attr['required']);
+    	}
+        else {
+        	form_setRequired(container, widget, parseInt($field.attr('required')));
+        }
+    }
 }
 
 function form_hookAttrChange() {
@@ -245,7 +255,7 @@ function form_evalExpr(prefix, expr, ref_elem) {
     for (var j=stack.length-1; j>-1; j--) {
         if(stack[j] == '|'){
             var result = stack[j+1] || stack[j+2];
-            stack.splice(j, 3, result)
+            stack.splice(j, 3, result);
         }
     }
     // shouldn't find any `false` left at this point
@@ -300,7 +310,7 @@ function form_setReadonly(container, fieldName, readonly) {
 
     if (!kind && (jQuery(idSelector(field_id+'_btn_')).length || jQuery(idSelector('_o2m'+field_id)).length)) { // one2many
         new One2Many(field_id).setReadonly(readonly);
-        return
+        return;
     }
 
     if (kind == 'date' || kind == 'datetime' || kind == 'time') {
@@ -308,7 +318,7 @@ function form_setReadonly(container, fieldName, readonly) {
     }
 	
 	if(widget == '_fake') {
-		jQuery('[kind]',$field).toggleClass('readonlyfield')
+		jQuery('[kind]',$field).toggleClass('readonlyfield');
 	}
 }
 
@@ -320,9 +330,11 @@ function form_setRequired(container, field, required) {
     var editable = getElement('_terp_editable').value;
 
     var $field = typeof(field) == "string" ? jQuery(idSelector(field)) : field;
-
-    if (editable == 'True') {
+    
+    if (editable == 'True' && required) {
         $field.toggleClass('requiredfield', required);
+    } else {
+    	$field.removeClass('requiredfield');
     }
     if(required) {
         $field.removeClass('readonlyfield');
