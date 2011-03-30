@@ -563,8 +563,11 @@ function parse_filters(src, id) {
             if($fld.attr('m2o_filter_domain')){
                 fld_value = 'm2o_'+ fld_value;
             }
+            else {
+            	fld_value = parseInt(jQuery(idSelector(fld_name)).val()) || fld_value;
+            }
         }
-        
+
         if(kind == 'boolean' && fld_value) {
             fld_value = parseInt(fld_value);
             domains[fld_name] = fld_value;
