@@ -96,7 +96,7 @@ def _load_translations(path, locales, domain):
                 domain, locale, basename(path))
             # http://babel.edgewall.org/ticket/213
             if logger.isEnabledFor(logging.DEBUG):
-                logger.debug(*logging_message, exc_info=True)
+                logger.debug(exc_info=True, *logging_message)
             else:
                 logger.warn(*logging_message)
         if isinstance(translation, babel.support.Translations):
