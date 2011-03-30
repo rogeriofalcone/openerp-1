@@ -51,7 +51,7 @@ function form_hookStateChange() {
     });
     
     for(var field in fields) {
-        jQuery(idSelector(field)).trigger('onStateChange');
+        jQuery(field).trigger('onStateChange');
     }
 }
 
@@ -81,16 +81,10 @@ function form_onStateChange(container, widget, states, evt) {
     var attr = states[value];
 
     if (attr && has_readonly)
-    	form_setReadonly(container, widget, attr['readonly']);
+        form_setReadonly(container, widget, attr['readonly']);
 
-    if (has_required) {
-    	if (attr) {
-        	form_setRequired(container, widget, attr['required']);
-    	}
-    	else {
-        	form_setRequired(container, widget, false);
-    	}
-    }
+    if (attr && has_required)
+        form_setRequired(container, widget, attr['required']);
 
 }
 
