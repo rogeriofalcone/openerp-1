@@ -209,12 +209,12 @@ class Tree(SecuredController):
                 icon = item.pop(icon_name)
                 record['icon'] = icons.get_icon(icon)
 
-                if icon == 'STOCK_OPEN':
-                    record['action'] = None
-                    record['target'] = None
-
             if field_parent and field_parent in item:
                 record['children'] = item.pop(field_parent) or None
+
+                # don't put an action for menu items with children
+                if model == 'ir.ui.menu' and record['children']:
+                    record['action'] = None
 
             records.append(record)
 
