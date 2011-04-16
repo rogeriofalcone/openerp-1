@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-03-19 05:17+0000\n"
-"X-Generator: Launchpad (build 12559)\n"
+"X-Launchpad-Export-Date: 2011-04-16 04:56+0000\n"
+"X-Generator: Launchpad (build 12735)\n"
 
 #: validators.py:75
 msgid "Invalid literal for float"
@@ -43,13 +43,15 @@ msgid ""
 "The username portion of the email address is invalid (the portion before the "
 "@: %(username)s)"
 msgstr ""
+"Потребителското име, част от имейл адреса е невалидна (това е часта преди @: "
+"%(username)s)"
 
 #: validators.py:250
 #, python-format
 msgid ""
 "The domain portion of the email address is invalid (the portion after the @: "
 "%(domain)s)"
-msgstr ""
+msgstr "Невалидна е частта за домейна от имейла (частта след  @: %(domain)s)"
 
 #: validators.py:254
 msgid "You must start your URL with http://, https://, etc"
@@ -86,7 +88,7 @@ msgstr "Няма нищо за отпечатване"
 
 #: controllers/actions.py:173
 msgid "Printing aborted, too long delay"
-msgstr ""
+msgstr "Принтирането е отхвърлено. Отне прекалено много време"
 
 #: controllers/actions.py:397
 msgid "Relative URLs are not supported"
@@ -394,11 +396,11 @@ msgstr ""
 
 #: controllers/impex.py:520
 msgid "The CSV delimiter must be a single character"
-msgstr ""
+msgstr "Разделителят при CSV-формата трябва да бъде един символ"
 
 #: controllers/impex.py:532
 msgid "File Format Error"
-msgstr ""
+msgstr "Грешка във формата на файла"
 
 #: controllers/impex.py:550
 msgid "XML-RPC error"
@@ -517,7 +519,7 @@ msgstr "Тук не може да бъде създаден наследен и�
 
 #: controllers/viewed.py:504
 msgid "Not implemented yet!"
-msgstr ""
+msgstr "Не е внедрено все още !"
 
 #: controllers/viewed.py:609
 msgid "Unable to update the view."
@@ -647,7 +649,7 @@ msgstr "Поправете ми го"
 
 #: controllers/templates/error_page.mako:99
 msgid "Publisher warranty contract."
-msgstr ""
+msgstr "Договор за ганционно обслужване."
 
 #: controllers/templates/error_page.mako:100
 msgid ""
@@ -661,7 +663,7 @@ msgstr "Преглед на проблема:"
 
 #: controllers/templates/error_page.mako:111
 msgid "Explain what you did:"
-msgstr ""
+msgstr "Обяснете какво направихте"
 
 #: controllers/templates/error_page.mako:120
 msgid "Other Comments:"
@@ -707,7 +709,7 @@ msgstr "Тип на експорта:"
 
 #: controllers/templates/exp.mako:169
 msgid "Import Compatible Export"
-msgstr ""
+msgstr "Импортиране на съвместим импорт"
 
 #: controllers/templates/exp.mako:172
 msgid "Export all Data"
@@ -859,7 +861,7 @@ msgstr "Търси: %s"
 
 #: controllers/templates/form.mako:94
 msgid "Corporate Intelligence..."
-msgstr ""
+msgstr "Корпоративно разузнаване ..."
 
 #: controllers/templates/form.mako:100
 msgid "Show Logs..."
@@ -916,7 +918,7 @@ msgstr "Запази и редактирай"
 
 #: controllers/templates/form.mako:130
 msgid "Duplicate this resource"
-msgstr ""
+msgstr "Дублирай на този ресурс"
 
 #: controllers/templates/form.mako:131
 msgid "Duplicate"
@@ -932,15 +934,15 @@ msgstr "Откажете редактирането на текущия ресу
 
 #: controllers/templates/form.mako:145
 msgid "Create new node"
-msgstr ""
+msgstr "Създай ново разклонение"
 
 #: controllers/templates/form.mako:146
 msgid "New Node"
-msgstr ""
+msgstr "Ново разклонение"
 
 #: controllers/templates/form.mako:150
 msgid "Show grid in workflow canvas"
-msgstr ""
+msgstr "Покажи мрежата върху работното табло"
 
 #: controllers/templates/form.mako:151
 msgid "Show grid"
@@ -949,12 +951,12 @@ msgstr "Показване на мрежа"
 #: controllers/templates/header.mako:33
 #, python-format
 msgid "%(company)s"
-msgstr ""
+msgstr "%(company)s"
 
 #: controllers/templates/header.mako:34 controllers/templates/index.mako:230
 #, python-format
 msgid "%(user)s"
-msgstr ""
+msgstr "%(user)s"
 
 #: controllers/templates/header.mako:45 controllers/templates/header.mako:47
 msgid "Home"
@@ -962,7 +964,7 @@ msgstr "Начало"
 
 #: controllers/templates/header.mako:53
 msgid "Requests"
-msgstr ""
+msgstr "Искания"
 
 #: controllers/templates/header.mako:62
 msgid "Edit Preferences"
@@ -1003,11 +1005,11 @@ msgstr "Проверете формата на файла"
 #: controllers/templates/imp.mako:130
 #, python-format
 msgid "The import failed due to: %(message)s"
-msgstr ""
+msgstr "Внасянето(импортирането) се провали защото: %(message)s"
 
 #: controllers/templates/imp.mako:132
 msgid "Here is a preview of the file we could not import:"
-msgstr ""
+msgstr "Тук прегледай файла, който не се внесе(импортира):"
 
 #: controllers/templates/imp.mako:157
 msgid "CSV Options"
@@ -1072,14 +1074,16 @@ msgid ""
 "We think that daily job activities can be more intuitive, efficient, "
 "automated, .. and even fun."
 msgstr ""
+"Ние смятаме, че ежедневните дейности на работното място могат да бъдат по-"
+"интуитивни, ефективни, автоматизирани, .. и дори забавни."
 
 #: controllers/templates/login.mako:99
 msgid "OpenERP's vision to be:"
-msgstr ""
+msgstr "OpenERP's визията може да е:"
 
 #: controllers/templates/login.mako:107
 msgid "Full featured"
-msgstr ""
+msgstr "Пълна поддръжка"
 
 #: controllers/templates/login.mako:108
 msgid ""
@@ -1178,7 +1182,7 @@ msgstr "Добавете превод"
 
 #: controllers/templates/translator.mako:27
 msgid "Add Translation for:"
-msgstr ""
+msgstr "Добавяне на превод за:"
 
 #: controllers/templates/translator.mako:31
 msgid "Fields"
@@ -1237,12 +1241,12 @@ msgstr "Позиция:"
 #: controllers/templates/viewlist.mako:108
 #, python-format
 msgid "Manage Views (%s)"
-msgstr ""
+msgstr "Управление на изгледи (%s)"
 
 #: controllers/templates/viewlist.mako:146
 #, python-format
 msgid "Create a view (%s)"
-msgstr ""
+msgstr "Създаване на изглед (%s)"
 
 #: controllers/templates/viewlist.mako:174
 msgid "View Name:"
@@ -1293,7 +1297,7 @@ msgstr "%s"
 #: widgets/pager.py:68
 #, python-format
 msgid "%s - %s"
-msgstr ""
+msgstr "%s - %s"
 
 #: widgets/search.py:280
 msgid "contains"
@@ -1347,7 +1351,7 @@ msgstr "Създаване на нов запис."
 
 #: widgets/form/_o2m.py:110
 msgid "Save/New"
-msgstr ""
+msgstr "Запазване/Нов"
 
 #: widgets/form/_o2m.py:110
 msgid "Save parent record."
@@ -1361,7 +1365,7 @@ msgstr "%d of %d"
 #: widgets/form/_o2m.py:231
 #, python-format
 msgid "- of %d"
-msgstr ""
+msgstr "- от %d"
 
 #: widgets/form/templates/binary.mako:28
 msgid "Save As"
@@ -1373,7 +1377,7 @@ msgstr "добави притурка"
 
 #: widgets/form/templates/image.mako:6
 msgid "Replace image"
-msgstr ""
+msgstr "Подмяна на изображение"
 
 #: widgets/form/templates/many2one.mako:2
 #: widgets/form/templates/reference.mako:30
@@ -1415,7 +1419,7 @@ msgstr "По-малко..."
 
 #: widgets/templates/pager.mako:9
 msgid "<< First"
-msgstr ""
+msgstr "<< Първи"
 
 #: widgets/templates/pager.mako:14
 msgid "< Previous"
@@ -1475,7 +1479,7 @@ msgstr "Управление на изгледи"
 
 #: widgets/templates/sidebar.mako:93
 msgid "Edit workflow of the current object"
-msgstr ""
+msgstr "Редактиране на работния поток по текущият обект"
 
 #: widgets/templates/sidebar.mako:94
 msgid "Edit Workflow"
@@ -1515,7 +1519,7 @@ msgstr "Филтриране на записи."
 
 #: widgets/templates/viewform.mako:33
 msgid "Clear all."
-msgstr ""
+msgstr "Изчистване на всички."
 
 #: widgets/templates/viewform.mako:35
 msgid "Clear"
