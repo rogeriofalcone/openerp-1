@@ -118,8 +118,8 @@ function form_hookAttrChange() {
         attrs = attrs.replace(/\)/g, ']');
         attrs = attrs.replace(/True/g, '1');
         attrs = attrs.replace(/False/g, '0');
-        attrs = attrs.replace(/uid/g, window.USER_ID);
-        
+        attrs = attrs.replace(/\buid\b/g, window.USER_ID);
+
         try {
             attrs = eval('(' + attrs + ')');
         } catch(e){
@@ -288,6 +288,13 @@ function form_setReadonly(container, fieldName, readonly) {
     }
 
     var type = $field.attr('type');
+
+    if (!type && ($field.hasClass('item-group'))) {
+        jQuery($field).find(':input')
+                .toggleClass('readonlyfield', readonly)
+                .attr({'disabled': readonly, 'readOnly': readonly});
+        return;
+    }
     $field.attr({'disabled':readonly, 'readOnly': readonly});
 
     if (readonly) {
