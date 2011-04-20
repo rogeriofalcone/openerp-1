@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-04-05 13:45+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-04-19 10:48+0000\n"
+"Last-Translator: Rolv Råen (adEgo) <Unknown>\n"
 "Language-Team: Norwegian Bokmal <nb@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-16 04:55+0000\n"
-"X-Generator: Launchpad (build 12735)\n"
+"X-Launchpad-Export-Date: 2011-04-20 04:36+0000\n"
+"X-Generator: Launchpad (build 12758)\n"
 
 #: static/javascript/form.js:92
 #, python-format
@@ -28,23 +28,25 @@ msgstr ""
 
 #: static/javascript/form.js:220
 msgid "Do you really want to delete this record?"
-msgstr ""
+msgstr "Vil du virkelig slette denne posten ?"
 
 #: static/javascript/form.js:988
 msgid "You must select one or several records !"
-msgstr ""
+msgstr "Du må velge en eller flere poster !"
 
 #: static/javascript/form.js:995
 msgid "You must save this record to perform the action !"
-msgstr ""
+msgstr "Du må lagre denne posten for å utføre handlingen !"
 
 #: static/javascript/form.js:1155
 msgid "Do you really want to delete the attachment"
-msgstr ""
+msgstr "Vil du virkelig slette dette vedlegget"
 
 #: static/javascript/form.js:1189
 msgid "No record selected ! You can only attach to existing record."
 msgstr ""
+"Ingen post er valgt! Du kan bare legge ved dokumenter til en eksisterende "
+"post."
 
 #: static/javascript/form.js:1248
 msgid "OpenERP - Error"
@@ -58,7 +60,7 @@ msgstr ""
 
 #: static/javascript/listgrid.js:543 static/javascript/o2m.js:123
 msgid "To edit Record, please first save it."
-msgstr ""
+msgstr "For å redigere posten må du først lagre den"
 
 #: static/javascript/listgrid.js:651
 msgid "Do you really want to delete selected record(s) ?"
