@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-16 04:57+0000\n"
-"X-Generator: Launchpad (build 12735)\n"
+"X-Launchpad-Export-Date: 2011-04-29 04:42+0000\n"
+"X-Generator: Launchpad (build 12758)\n"
 
 #: validators.py:75
 msgid "Invalid literal for float"
@@ -82,7 +82,7 @@ msgstr ""
 
 #: controllers/actions.py:153
 msgid "Nothing to print"
-msgstr ""
+msgstr "Nimic de tipărit"
 
 #: controllers/actions.py:173
 msgid "Printing aborted, too long delay"
@@ -98,7 +98,7 @@ msgstr ""
 
 #: controllers/actions.py:474
 msgid "No action defined"
-msgstr ""
+msgstr "Nici o acţiune definită"
 
 #: controllers/attachment.py:55
 msgid "No record selected, You can only attach to existing record..."
@@ -212,7 +212,7 @@ msgstr "Parola:"
 
 #: controllers/database.py:88
 msgid "Backup database"
-msgstr ""
+msgstr "Salvează baza de date"
 
 #: controllers/database.py:90 controllers/templates/database.mako:60
 msgid "Backup"
@@ -285,7 +285,7 @@ msgstr ""
 
 #: controllers/database.py:251
 msgid "Could not create backup."
-msgstr ""
+msgstr "Nu s-a creat salvarea."
 
 #: controllers/database.py:275
 msgid "Could not restore database"
