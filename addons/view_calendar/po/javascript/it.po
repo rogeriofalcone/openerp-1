@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-01-05 19:24+0000\n"
-"Last-Translator: Vincenzo Marino <Unknown>\n"
+"PO-Revision-Date: 2011-05-06 10:45+0000\n"
+"Last-Translator: simone.sandri <lexluxsox@hotmail.it>\n"
 "Language-Team: it <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-29 04:40+0000\n"
-"X-Generator: Launchpad (build 12758)\n"
+"X-Launchpad-Export-Date: 2011-05-07 04:53+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
 "Generated-By: Babel None\n"
 
 #: static/javascript/calendar_box.js:50
@@ -59,9 +59,9 @@ msgstr "Vuoi veramente eliminare questo record?"
 #: static/javascript/calendar_week.js:270
 #: static/javascript/calendar_week.js:673
 msgid "This calendar object can no longer be moved !"
-msgstr ""
+msgstr "Questo oggetto del calendario non può essere più spostato !"
 
 #: static/javascript/calendar_gantt.js:327
 #: static/javascript/calendar_week.js:97
 msgid "This calendar object can no longer be resized !"
-msgstr ""
+msgstr "Questo oggetto del calendario non può essere più ridimensionato !"
