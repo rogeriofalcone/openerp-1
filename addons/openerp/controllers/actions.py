@@ -232,11 +232,11 @@ def act_window(action, data):
         active_model=data.get('model', False)
     )
 
-    ctx.update(expr_eval(action.get('context', '{}'), ctx))
-
     if action.get('context') and isinstance(action['context'], dict):
         if not action['context'].get('active_ids'):
             action['context']['active_ids'] = ctx['active_ids'] or []
+
+    ctx.update(expr_eval(action.get('context', '{}'), ctx))
 
     search_view = action.get('search_view_id')
     if search_view:
@@ -465,11 +465,12 @@ def execute_by_keyword(keyword, adds=None, **data):
     """
 
     actions = None
+    ctx = dict(data.get('context', {}), **rpc.get_session().context)
     if 'id' in data:
         try:
             id = data.get('id', False)
             if (id): id = int(id)
-            actions = rpc.RPCProxy('ir.values').get('action', keyword, [(data['model'], id)], False, rpc.get_session().context)
+            actions = rpc.RPCProxy('ir.values').get('action', keyword, [(data['model'], id)], False, ctx)
             actions = map(lambda x: x[2], actions)
         except rpc.RPCException, e:
             raise e

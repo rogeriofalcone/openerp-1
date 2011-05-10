@@ -10,11 +10,11 @@
     <script type="text/javascript">
         jQuery(document).ready(function() {
 
-            var lc = parseInt(jQuery(idSelector('_terp_id')).val()) || 0;
-            
+            var lc = parseInt(jQuery('#_terp_id').val(), 10) || 0;
+
             if (lc > 0) {
-                window.top.jQuery(window.frameElement).data('source-window').addNewFieldName(jQuery(idSelector('name')).val());
-                window.frameElement.close();
+               window.top.jQuery(window.frameElement).data('source-window').addNewFieldName(jQuery('#name').val());
+               window.frameElement.close();
             }
         });
     </script>
@@ -37,10 +37,10 @@
                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
                         <tr>
                             <td class="save_close">
-                            	<a class="button-a" href="javascript: void(0)" onclick="submit_form('save')">${_("Save")}</a>
+                            	<a class="button-a" href="javascript: void(0);" onclick="submit_form('save');">${_("Save")}</a>
                             </td>
                             <td class="save_close">
-                            	<a class="button-a" href="javascript: void(0)" onclick="window.close()">${_("Close")}</a>
+                            	<a class="button-a" href="javascript: void(0);" onclick="window.frameElement.close();">${_("Close")}</a>
                             </td>
                             <td width="100%">
                             </td>
