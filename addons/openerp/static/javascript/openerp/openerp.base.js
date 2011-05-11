@@ -79,7 +79,7 @@ function loadingError(/*url*/) {
                 break;
             case 401: // Redirect to login, probably
                 window.location.assign(
-                        xhr.getResponseHeader('Location'));
+                        xhr.getResponseHeader('X-Location') || xhr.getResponseHeader('Location'));
                 break;
             default:
                 if(window.console) {
@@ -113,7 +113,7 @@ function doLoadingSuccess(app/*, url*/) {
             } else {
                 _openAction = openAction;
             }
-            _openAction(xhr.getResponseHeader('Location'), target, active_id);
+            _openAction(xhr.getResponseHeader('X-Location'), target, active_id);
             return;
         }
         if(url) {

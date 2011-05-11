@@ -375,7 +375,7 @@ def act_window_opener(action, data):
             url = '/openerp/?' + urllib.urlencode({'next': url})
 
     cherrypy.response.headers['X-Target'] = action['target']
-    cherrypy.response.headers['Location'] = url
+    cherrypy.response.headers['X-Location'] = url
     return """<script type="text/javascript">
         window.top.openAction('%s', '%s');
     </script>
@@ -513,7 +513,7 @@ def close_popup(reload=True):
 @tools.expose(template="/openerp/controllers/templates/report.mako")
 def report_link(report_name, **kw):
     cherrypy.response.headers['X-Target'] = 'download'
-    cherrypy.response.headers['Location'] = tools.url(
+    cherrypy.response.headers['X-Location'] = tools.url(
             '/openerp/report', report_name=report_name, **kw)
     return dict(name=report_name, data=kw)
     
