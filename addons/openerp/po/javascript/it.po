@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-02-08 18:09+0000\n"
-"Last-Translator: newlife <Unknown>\n"
+"PO-Revision-Date: 2011-05-13 13:03+0000\n"
+"Last-Translator: simone.sandri <lexluxsox@hotmail.it>\n"
 "Language-Team: it <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-29 04:40+0000\n"
-"X-Generator: Launchpad (build 12758)\n"
+"X-Launchpad-Export-Date: 2011-05-14 04:53+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
 "Generated-By: Babel None\n"
 
 #: static/javascript/form.js:92
@@ -46,6 +46,8 @@ msgstr "Vuoi veramente eliminare l'allegato?"
 #: static/javascript/form.js:1189
 msgid "No record selected ! You can only attach to existing record."
 msgstr ""
+"Non è stato selezionato alcun record ! Si può solo agganciare ad un record "
+"esistente."
 
 #: static/javascript/form.js:1248
 msgid "OpenERP - Error"
@@ -69,7 +71,7 @@ msgstr "Vuoi veramente eliminare i/il record selezionato/i?"
 
 #: static/javascript/m2o.js:525
 msgid "error in display::"
-msgstr ""
+msgstr "errore nella visualizzazione:"
 
 #: static/javascript/o2m.js:67
 msgid "Do you really want to delete record ?"
@@ -89,7 +91,7 @@ msgstr "Vuoi veramente creare una vista ereditata in questa posizione?"
 
 #: static/javascript/viewed.js:337
 msgid "No Record Selected"
-msgstr ""
+msgstr "Nessun record selezionato"
 
 #: static/javascript/openerp/openerp.base.js:127
 msgid "doLoadingSuccess: Cannot parse JSON"
@@ -97,7 +99,7 @@ msgstr "doLoadingSuccess: impossibile analizzare il JSON"
 
 #: static/javascript/openerp/openerp.base.js:335
 msgid "Loading"
-msgstr ""
+msgstr "Caricamento"
 
 #: static/javascript/openerp/openerp.ui.tips.js:51
 msgid "Object"
