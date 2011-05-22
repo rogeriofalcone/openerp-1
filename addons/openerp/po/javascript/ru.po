@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-01-08 10:08+0000\n"
-"Last-Translator: Nkolay Parukhin <parukhin@gmail.com>\n"
+"PO-Revision-Date: 2011-05-21 16:12+0000\n"
+"Last-Translator: Chertykov Denis <chertykov@gmail.com>\n"
 "Language-Team: Russian <ru@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-04-29 04:40+0000\n"
-"X-Generator: Launchpad (build 12758)\n"
+"X-Launchpad-Export-Date: 2011-05-22 04:47+0000\n"
+"X-Generator: Launchpad (build 12959)\n"
 
 #: static/javascript/form.js:92
 #, python-format
@@ -36,7 +36,7 @@ msgstr "Вы должны выбрать одну или несколько за
 
 #: static/javascript/form.js:995
 msgid "You must save this record to perform the action !"
-msgstr ""
+msgstr "Вы должны сохранить эту запись для выполнения действия!"
 
 #: static/javascript/form.js:1155
 msgid "Do you really want to delete the attachment"
@@ -78,7 +78,7 @@ msgstr "Вы действительно хотите удалить запись
 
 #: static/javascript/search.js:285
 msgid "Invalid Value"
-msgstr ""
+msgstr "Недопустимое значение"
 
 #: static/javascript/viewed.js:63
 msgid "Do you really want to remove this node?"
@@ -90,7 +90,7 @@ msgstr "Вы действительно хотите создать наслед
 
 #: static/javascript/viewed.js:337
 msgid "No Record Selected"
-msgstr ""
+msgstr "Запись не выбрана"
 
 #: static/javascript/openerp/openerp.base.js:127
 msgid "doLoadingSuccess: Cannot parse JSON"
