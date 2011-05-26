@@ -65,11 +65,11 @@ i18n.install()
 
 application = cherrypy.tree.mount(None)
 def enable_static_paths():
-    ''' Enables handling of static paths by CherryPy:
+    """ Enables handling of static paths by CherryPy:
     * /openobject/static
     * /favicon.ico
     * LICENSE.txt
-    '''
+    """
     global WSGI_STATIC_PATHS
     if WSGI_STATIC_PATHS: return
     WSGI_STATIC_PATHS = True
@@ -106,7 +106,7 @@ BASE_GLOBAL = {
     'tools.clear_cache_buster.on': True,
     'tools.openobject_dispatcher.on': True,
 
-    'tools.log_traceback.on': False,
+    'tools.log_tracebacks.on': False,
     'tools.cgitb.on': True
 }
 BASE_APP = {
@@ -117,7 +117,7 @@ def configure(config=None,
               logging_configuration=None,
               loggers=None,
               **overrides):
-    ''' Configures OpenERP Web Client.
+    """ Configures OpenERP Web Client.
 
     Takes a CherryPy configuration with two sections (``global``
     and ``openerp-web``)
@@ -154,7 +154,9 @@ def configure(config=None,
                       file-like object, in order to provide or override
                       settings without needing to parse the configuration
                       file from outside this function.
-    '''
+    """
+    openobject.config.configure_cherrypy()
+
     if not config:
         configuration = openobject.config.find_file()
     elif isinstance(config, basestring):

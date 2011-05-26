@@ -175,3 +175,19 @@ def configure_logging(logging_config=None, loggers=None):
                 logger.setLevel(level)
             else:
                 logging.getLogger(logger).setLevel(level)
+
+
+def configure_cherrypy():
+    """ Sets up CherryPy environment data
+    """
+    cherrypy.config.defaults.update({
+        'engine.autoreload_on': True,
+        'checker.on': True,
+        'openerp.caching': False,
+        'openerp.debug.footer': True,
+    })
+    cherrypy._cpconfig.environments['production'].update({
+        'openerp.caching': True,
+        'openerp.debug.footer': False,
+    })
+    cherrypy.config.reset()

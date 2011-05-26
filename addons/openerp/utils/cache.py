@@ -37,7 +37,7 @@ def memoize(limit=100, force=False):
     def memoize_wrapper(func):
 
         # Don't use cache for development environment
-        if not force and cherrypy.config.get('server.environment') == 'development':
+        if not force and not cherrypy.config.get('openerp.caching'):
             return func
 
         func_name = "%s.%s.%s" % (func.__module__, func.func_code.co_firstlineno, func.func_name)

@@ -224,7 +224,7 @@
             % endif
             <tr>
                 <td id="footer_section" colspan="3">
-                    % if cp.config('server.environment') == 'development':
+                    % if cp.config('openerp.debug.footer'):
                         <div class="footer-a">
                             <p class="one">
                                 <span>${rpc.get_session().protocol}://${_("%(user)s", user=rpc.get_session().loginname)}@${rpc.get_session().host}:${rpc.get_session().port}</span>

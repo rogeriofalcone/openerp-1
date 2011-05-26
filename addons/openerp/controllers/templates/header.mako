@@ -76,7 +76,7 @@ version = release.version
                     </ul>
                 </li>
 
-                % if cp.config('server.environment') == 'production':
+                % if cp.config('openerp.caching'):
                     <li id="clear_cache"><a href="${py.url('/openerp/pref/clear_cache')}"
                                             class="clear_cache" target="_top">${_("Clear Cache")}</a>
                         <ul>
