@@ -337,7 +337,6 @@ class ImpEx(SecuredController):
 
         ids = []
         context = context or {}
-
         fields_data = {}
         proxy = rpc.RPCProxy(model)
         fields = proxy.fields_get(False, rpc.get_session().context)
@@ -511,6 +510,7 @@ class ImpEx(SecuredController):
 
         params, data = TinyDict.split(kw)
         res = None
+        
         content = csvfile.file.read()
         input=StringIO.StringIO(content)
         limit = 0
@@ -521,6 +521,9 @@ class ImpEx(SecuredController):
 
         try:
             for j, line in enumerate(csv.reader(input, quotechar=str(csvdel), delimiter=str(csvsep))):
+                # If the line contains no data, we should skip it.
+                if not line:
+                    continue
                 if j == limit:
                     fields = line
                 else:
@@ -544,6 +547,13 @@ class ImpEx(SecuredController):
                 datas.append(map(lambda x:x.decode(csvcode).encode('utf-8'), line))
             except:
                 datas.append(map(lambda x:x.decode('latin').encode('utf-8'), line))
+        
+        # If the file contains nothing,
+        if not datas:
+            error = {'message': _('The file is empty !'), 'title': _('Importation !')}
+            return self.imp(error=error, **kw)
+        
+        #Inverting the header into column names
         try:
             res = rpc.RPCProxy(params.model).import_data(fields, datas, 'init', '', False, ctx)
         except Exception, e:
