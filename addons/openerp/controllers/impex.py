@@ -92,7 +92,7 @@ def export_xls(fieldnames, table):
     data = fp.read()
     return data
 
-def _fields_get_all(model, context=None):
+def _fields_get_all(model, views, context=None):
 
     context = context or {}
 
@@ -118,8 +118,8 @@ def _fields_get_all(model, context=None):
 
     proxy = rpc.RPCProxy(model)
 
-    tree_view = proxy.fields_view_get(False, 'tree', context)
-    form_view = proxy.fields_view_get(False, 'form', context)
+    tree_view = proxy.fields_view_get(views.get('tree', False), 'tree', context)
+    form_view = proxy.fields_view_get(views.get('form', False), 'form', context)
 
     fields = {}
     fields.update(get_view_fields(tree_view))
@@ -138,6 +138,11 @@ class ImpEx(SecuredController):
         params, data = TinyDict.split(kw)
         ctx = dict((params.context or {}), **rpc.get_session().context)
 
+        views = {}
+        if params.view_mode and params.view_ids:
+            for i, view in enumerate(params.view_mode):
+                views[view] = params.view_ids[i]
+
         exports = rpc.RPCProxy('ir.exports')
 
         headers = [{'string' : 'Name', 'name' : 'name', 'type' : 'char'}]
@@ -147,6 +152,7 @@ class ImpEx(SecuredController):
                                  url=tools.url('/openerp/impex/get_fields'),
                                  field_parent='relation',
                                  context=ctx,
+                                 views=views,
                                  import_compat=int(import_compat))
 
         tree.show_headers = False
@@ -156,7 +162,8 @@ class ImpEx(SecuredController):
             [], ctx)
 
         return dict(existing_exports=existing_exports, model=params.model, ids=params.ids, ctx=ctx,
-                    search_domain=params.search_domain, tree=tree, import_compat=import_compat)
+                    search_domain=params.search_domain, source=params.source,
+                    tree=tree, import_compat=import_compat)
 
     @expose()
     def save_exp(self, **kw):
@@ -209,7 +216,7 @@ class ImpEx(SecuredController):
         except:
             views = {}
 
-        fields = _fields_get_all(model, ctx)
+        fields = _fields_get_all(model, views, ctx)
         m2ofields = cherrypy.session.get('fld')
         if m2ofields:
             for i in m2ofields:
@@ -416,18 +423,25 @@ class ImpEx(SecuredController):
 
         ctx = dict((params.context or {}), **rpc.get_session().context)
 
+        views = {}
+        if params.view_mode and params.view_ids:
+            for i, view in enumerate(params.view_mode):
+                views[view] = params.view_ids[i]
+
         headers = [{'string' : 'Name', 'name' : 'name', 'type' : 'char'}]
         tree = treegrid.TreeGrid('import_fields',
                                     model=params.model,
                                     headers=headers,
                                     url=tools.url('/openerp/impex/get_fields'),
                                     field_parent='relation',
+                                    views=views,
                                     context=ctx,
                                     is_importing=1)
 
         tree.show_headers = False
         return dict(error=error, records=records, success=success,
-                    model=params.model, tree=tree, fields=kw.get('fields', {}))
+                    model=params.model, source=params.source,
+                    tree=tree, fields=kw.get('fields', {}))
 
     @expose()
     def detect_data(self, csvfile, csvsep, csvdel, csvcode, csvskip, **kw):
