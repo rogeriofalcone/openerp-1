@@ -53,9 +53,10 @@ class Root(SecuredController):
             if user_action_id:
                 next = '/openerp/home'
         if active:
-            return self.menu(active, next)
+            return self.menu(next, active)
+
         return self.menu(next=next)
-    
+
     @expose()
     def home(self):
         context = rpc.session.context
