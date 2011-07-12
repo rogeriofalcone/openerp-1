@@ -14,7 +14,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-06-27 04:46+0000\n"
+"X-Launchpad-Export-Date: 2011-07-12 04:35+0000\n"
 "X-Generator: Launchpad (build 13168)\n"
 
 #: static/javascript/form.js:92
@@ -36,7 +36,7 @@ msgstr ""
 
 #: static/javascript/form.js:995
 msgid "You must save this record to perform the action !"
-msgstr ""
+msgstr "คุณต้องบันทึกระเบียนนี้ก่อนที่จะดำเนินการ !"
 
 #: static/javascript/form.js:1155
 msgid "Do you really want to delete the attachment"
@@ -74,7 +74,7 @@ msgstr ""
 
 #: static/javascript/search.js:285
 msgid "Invalid Value"
-msgstr ""
+msgstr "ค่าไม่ถูกต้อง"
 
 #: static/javascript/viewed.js:63
 msgid "Do you really want to remove this node?"
