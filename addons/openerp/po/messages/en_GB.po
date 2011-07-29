@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-03-29 18:43+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2011-07-28 15:27+0000\n"
+"Last-Translator: John Bradshaw <Unknown>\n"
 "Language-Team: English (United Kingdom) <en_GB@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-12 04:38+0000\n"
-"X-Generator: Launchpad (build 13168)\n"
+"X-Launchpad-Export-Date: 2011-07-29 04:47+0000\n"
+"X-Generator: Launchpad (build 13405)\n"
 
 #: validators.py:75
 msgid "Invalid literal for float"
@@ -90,7 +90,7 @@ msgstr "Nothing to print"
 
 #: controllers/actions.py:173
 msgid "Printing aborted, too long delay"
-msgstr ""
+msgstr "Printing aborted, delay too long"
 
 #: controllers/actions.py:397
 msgid "Relative URLs are not supported"
@@ -374,7 +374,7 @@ msgstr "Import Error."
 
 #: controllers/impex.py:72
 msgid "Please install xlwt library to export to MS Excel."
-msgstr ""
+msgstr "Please install xlwt library to export to MS Excel."
 
 #: controllers/impex.py:402
 msgid "Export Error"
@@ -741,15 +741,15 @@ msgstr "Export all Data"
 
 #: controllers/templates/exp.mako:175
 msgid "Export Format:"
-msgstr ""
+msgstr "Export Format:"
 
 #: controllers/templates/exp.mako:178
 msgid "CSV"
-msgstr ""
+msgstr "CSV"
 
 #: controllers/templates/exp.mako:179
 msgid "Excel"
-msgstr ""
+msgstr "Excel"
 
 #: controllers/templates/exp.mako:190
 msgid "Available fields"
@@ -1313,7 +1313,7 @@ msgstr "Wrong on_change trigger"
 #: widgets/listgrid.py:367 widgets/form/_form.py:911
 #, python-format
 msgid "Invalid view for model '%(model)s', duplicate field: %(field)s"
-msgstr ""
+msgstr "Invalid view for model '%(model)s', duplicate field: %(field)s"
 
 #: widgets/pager.py:56
 #, python-format
