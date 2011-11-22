@@ -203,3 +203,5 @@ def gettext2(key, locale=None, domain=None, **kw):
 
 def install():
     __builtins__['_'] = gettext2
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

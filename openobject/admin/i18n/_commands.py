@@ -125,3 +125,5 @@ class BabelCommand(BaseCommand):
         for m, p in modules:
             for d in domains:
                 self.extract(options.locale, d, p)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

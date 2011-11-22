@@ -6,3 +6,5 @@ class Extends(object):
     The extension and validation behaviors *have* to be implemented by the object's metaclasses.
     """
     pass
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

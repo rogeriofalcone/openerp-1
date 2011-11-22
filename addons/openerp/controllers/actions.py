@@ -517,3 +517,5 @@ def report_link(report_name, **kw):
             '/openerp/report', report_name=report_name, **kw)
     return dict(name=report_name, data=kw)
     
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

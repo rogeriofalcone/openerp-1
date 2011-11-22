@@ -285,3 +285,5 @@ class Tree(SecuredController):
                 '_terp_context': kw.get('context', {}),
                 '_terp_domain': kw.get('domain', []),
                 'ids': kw.get('id')})
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

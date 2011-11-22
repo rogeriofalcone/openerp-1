@@ -6,3 +6,5 @@ from _o2m import *
 from _ref import *
 from _action import *
         
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

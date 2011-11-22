@@ -161,3 +161,5 @@ cherrypy.tools.web_modules = cherrypy.Tool(
 # web modules
 cherrypy.tools.openobject_dispatcher = cherrypy.Tool(
     'before_handler', openobject.dispatch.Dispatcher(), priority=70)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

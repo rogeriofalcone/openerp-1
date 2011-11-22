@@ -14,3 +14,5 @@ openobject.enable_static_paths() # serve static file via the wsgi server
 
 application = openobject.application
 
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

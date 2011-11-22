@@ -110,3 +110,5 @@ def error_handler(handler):
 
 def exception_handler(*args, **kw):
     return lambda f: f
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

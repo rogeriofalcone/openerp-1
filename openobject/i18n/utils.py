@@ -87,3 +87,5 @@ def get_locale(locale=None):
         pass
 
     return babel.core.Locale("en")
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

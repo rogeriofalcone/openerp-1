@@ -75,3 +75,5 @@ class CommandLine(object):
 def main():
     CommandLine().run(sys.argv)
 
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

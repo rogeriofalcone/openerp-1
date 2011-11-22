@@ -467,3 +467,5 @@ class Search(Form):
                 del context_own[ctx[0]]
 
         return context_own
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

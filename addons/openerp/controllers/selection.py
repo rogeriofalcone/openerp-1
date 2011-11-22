@@ -38,3 +38,5 @@ class Selection(SecuredController):
 
         import actions
         return actions.execute(params.action, **params.data)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

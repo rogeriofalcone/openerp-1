@@ -61,3 +61,5 @@ class Record(dict):
                 expr, dict(self,
                            context=self.params.context or {},
                            active_id=self.get('id', False)))
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

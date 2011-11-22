@@ -16,3 +16,5 @@ class RootTest(TestCase):
         self.getPage("/menu")
         self.assertStatus(200)
         self.assertInBody("new TreeGrid")
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

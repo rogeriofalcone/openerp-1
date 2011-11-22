@@ -426,3 +426,5 @@ class GanttCalendar(ICalendar):
                 keys.append(group_id)
 
         return [groups[i] for i in keys]
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

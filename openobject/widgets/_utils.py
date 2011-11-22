@@ -33,3 +33,5 @@ class OrderedSet(set):
     def discard(self, value):
         if value in self._items:
             self._items.remove(value)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

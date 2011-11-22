@@ -30,3 +30,5 @@ class J18N(openobject.controllers.BaseController):
             return catalog
         except KeyError:
             return {}
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

@@ -49,3 +49,5 @@ class Requests(SecuredController):
             rpc.RPCProxy('ir.actions.act_window')\
                     .for_xml_id('base', 'res_request-act'), domain=('id', 'in', ids)
         )
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

@@ -39,3 +39,5 @@ class TestCustomHeadersOnRedirection(unittest2.TestCase):
                 'param',
                 cherrypy.request.headers['X-Requested-With'])
         self.assertEqual({}, cherrypy.request.params)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

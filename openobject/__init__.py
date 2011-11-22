@@ -189,3 +189,5 @@ def configure(config=None,
     openobject.config.configure_babel()
     if enable_static:
         enable_static_paths()
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

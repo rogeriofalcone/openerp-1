@@ -350,3 +350,5 @@ class Year(object):
 
     def __repr__(self):
         return "Year %s" % self.year
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

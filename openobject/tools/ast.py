@@ -41,3 +41,5 @@ except ImportError:
                     return _safe_names[node.id]
             raise ValueError('malformed string')
         return _convert(node_or_string)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

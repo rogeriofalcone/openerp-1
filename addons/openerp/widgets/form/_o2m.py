@@ -243,3 +243,5 @@ class O2M(TinyInputWidget):
         return [(1, val.get('id', False), val) for val in values]
 
 register_widget(O2M, ["one2many", "one2many_form", "one2many_list"])
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

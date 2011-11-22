@@ -295,3 +295,5 @@ def get_new_modules():
         },))
         descriptor.close()
     return addons_to_load
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

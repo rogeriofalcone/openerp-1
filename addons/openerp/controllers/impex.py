@@ -585,3 +585,5 @@ class ImpEx(SecuredController):
         error = {'message':ustr(msg), 'title':_('ImportationError')}
 
         return self.imp(error=error, **kw)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

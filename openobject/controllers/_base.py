@@ -48,3 +48,5 @@ class BaseController(object):
         return self._cp_path
 
     path = property(_get_path)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

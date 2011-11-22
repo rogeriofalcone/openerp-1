@@ -82,3 +82,5 @@ def start():
 
     cherrypy.engine.start()
     cherrypy.engine.block()
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

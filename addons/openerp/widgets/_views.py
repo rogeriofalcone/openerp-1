@@ -141,3 +141,5 @@ def get_registered_views():
     views.sort(lambda a, b: cmp(a[1].priority, b[1].priority))
 
     return views
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
