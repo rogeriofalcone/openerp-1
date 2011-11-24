@@ -82,3 +82,5 @@ class Dispatcher(cherrypy.dispatch.Dispatcher):
                 return candidate, names[i:-1]
 
         return None, []
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

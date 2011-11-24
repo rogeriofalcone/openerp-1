@@ -19,3 +19,5 @@ class Execute(controllers.SecuredController):
         action, data = decoded_payload['action'], decoded_payload['data']
         cherrypy.request.params.update(decoded_payload)
         return actions.execute(action, **data)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

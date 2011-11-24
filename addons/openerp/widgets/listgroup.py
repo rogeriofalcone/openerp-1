@@ -290,3 +290,5 @@ class MultipleGroup(List):
                 rev = False
             self.grp_records = sorted(self.grp_records, key=itemgetter(sort_key), reverse=rev)
         self.grouped, grp_ids = parse_groups(self.group_by_ctx, self.grp_records, self.headers, self.ids, model,  self.offset, self.limit, rpc.get_session().context.copy(), self.data, self.field_total, fields)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

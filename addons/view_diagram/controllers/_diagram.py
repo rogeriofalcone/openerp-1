@@ -388,3 +388,5 @@ class Workflow(Form):
         out_transition_field = proxy_field.read(out_transition_field_id[0], ['name'], rpc.get_session().context)['name']
 
         return dict(nodes=nodes, conn=connectors, in_transition_field=in_transition_field, out_transition_field=out_transition_field)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

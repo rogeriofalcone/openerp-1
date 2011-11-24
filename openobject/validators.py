@@ -51,3 +51,5 @@ class Schema(formencode.schema.Schema):
         # The Schema shouldn't do any from_python conversion because
         # adjust_value already takes care of that for all children.
         return value
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

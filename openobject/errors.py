@@ -51,3 +51,5 @@ class Concurrency(Exception):
         return self.title
 
 class AccessDenied(TinyError): pass
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

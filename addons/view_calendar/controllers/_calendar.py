@@ -300,3 +300,5 @@ class CalendarPopup(Form):
         data[params.fields['date_start']['name']] = format.format_datetime(ds.timetuple(), kind)
 
         return data
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

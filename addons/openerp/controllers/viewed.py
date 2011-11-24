@@ -899,3 +899,5 @@ _PROPERTY_WIDGETS_BUTTON = {
 def get_property_widget(name, value=None):
     wid = _PROPERTY_WIDGETS.get(name, widgets.TextField)
     return wid(name=name, default=value)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

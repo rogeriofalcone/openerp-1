@@ -31,3 +31,5 @@ def find_resources(package_or_module, path=None, patterns=None):
         # blew up because we're inside a zip, only used for mako
         # template reloading anyway so who cares
         return
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

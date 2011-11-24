@@ -106,3 +106,5 @@ class Diagram(TinyWidget):
                         name = node_attributes(fld)['name']
                         self.conn_flds_string.append(fields[name].get('string', name.title()))
                         self.conn_flds.append(str(name))
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

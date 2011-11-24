@@ -31,3 +31,5 @@ sys.path.insert(0, ADDONS_PATH)
 
 def addons(*sections): return os.path.join(ADDONS_PATH, *sections)
 def root(*sections): return os.path.join(ROOT_PATH, *sections)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

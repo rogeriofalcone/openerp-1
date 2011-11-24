@@ -27,3 +27,5 @@ support_email = 'support@openerp.com'
 url = "http://www.openerp.com/"
 download_url = ''
 license = "OEPL"
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

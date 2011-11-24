@@ -10,3 +10,5 @@ class JSI18n(JSLink):
     def update_params(self, params):
         super(JSLink, self).update_params(params)
         params['locale'] = i18n.get_locale()
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

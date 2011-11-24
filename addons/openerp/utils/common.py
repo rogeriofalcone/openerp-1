@@ -31,3 +31,5 @@ def message(msg):
 
 def concurrency(msg, title=None, datas=None):
     raise openobject.errors.Concurrency(message=msg, title=title, datas=datas)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

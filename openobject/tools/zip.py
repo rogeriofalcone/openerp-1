@@ -18,3 +18,5 @@ def extract_zip_file(zip_file, outdirectory):
     zf.close()
 
 
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

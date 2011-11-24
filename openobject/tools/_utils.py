@@ -164,3 +164,5 @@ def decorated(wrapper, func, **attrs):
             pass
 
     return wrapper
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

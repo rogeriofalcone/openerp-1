@@ -105,3 +105,5 @@ class OpenM2M(Form):
         params.editable = params.get('_terp_editable', True)
 
         return self.create(params)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

@@ -336,3 +336,5 @@ class TinyForm(object):
 
     def to_python(self, safe=False):
         return self._convert(True, safe=safe)
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

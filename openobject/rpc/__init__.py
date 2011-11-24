@@ -509,3 +509,5 @@ def name_get(model, id, context=None):
             name = _("== Access Denied ==")
 
     return name
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

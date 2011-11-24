@@ -10,3 +10,5 @@ import openobject.commands
 
 if __name__ == "__main__":
     openobject.commands.start()
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

@@ -30,3 +30,5 @@ import viewed
 import viewlist
 import execute
 import j18n
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

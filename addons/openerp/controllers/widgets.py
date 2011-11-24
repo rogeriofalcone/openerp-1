@@ -51,3 +51,5 @@ class Widgets(SecuredController):
             for wid in user_widgets.read(
                     widget_ids, ['widget_id', 'user_id'], ctx)
         ]
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

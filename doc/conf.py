@@ -254,3 +254,5 @@ epub_copyright = u'2011, OpenERP SA'
 
 # Allow duplicate toc entries.
 #epub_tocdup = True
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

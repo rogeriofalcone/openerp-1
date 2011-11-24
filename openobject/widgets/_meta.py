@@ -33,3 +33,5 @@ def _frozenset_from_bases(attrs, bases, name):
             items.update(getattr(b, name))
     fs = attrs[name] = frozenset(items)
     return fs
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:

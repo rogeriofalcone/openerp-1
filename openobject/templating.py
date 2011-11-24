@@ -62,3 +62,5 @@ class TemplateEditor(object):
         :rtype: unicode
         """
         return template_text
+
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
