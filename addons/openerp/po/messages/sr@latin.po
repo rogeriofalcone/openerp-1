@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-12 04:38+0000\n"
-"X-Generator: Launchpad (build 13168)\n"
+"X-Launchpad-Export-Date: 2011-12-02 04:47+0000\n"
+"X-Generator: Launchpad (build 14414)\n"
 
 #: validators.py:75
 msgid "Invalid literal for float"
@@ -1569,15 +1569,6 @@ msgstr "Dodaj zapise..."
 msgid "Delete record(s)."
 msgstr "Izbriši zapis(e)."
 
-#~ msgid "You do not have a valid OpenERP publisher warranty contract !"
-#~ msgstr "Nemate važeći garantni ugovor od strane OpenERP izdavača  !"
-
-#~ msgid "Image"
-#~ msgstr "Slika"
-
-#~ msgid "Add Resource:"
-#~ msgstr "Dodaj Izvor:"
-
 #~ msgid "Access Denied"
 #~ msgstr "Odbijen pristup"
 
@@ -1603,6 +1594,3 @@ msgstr "Izbriši zapis(e)."
 #~ msgstr ""
 #~ "Birate vremesku zonu, ali OpenERP nije mogao da pronađe pytz library !\n"
 #~ "Funkcija vremenskih zona biće ukinuta."
-
-#~ msgid "Click here to add new image."
-#~ msgstr "Kliknite ovde da biste dodali sliku."

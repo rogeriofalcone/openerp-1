@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-12 04:37+0000\n"
-"X-Generator: Launchpad (build 13168)\n"
+"X-Launchpad-Export-Date: 2011-12-02 04:46+0000\n"
+"X-Generator: Launchpad (build 14414)\n"
 
 #: validators.py:75
 msgid "Invalid literal for float"
@@ -1593,66 +1593,6 @@ msgstr "Slett post(er)."
 #, python-format
 #~ msgid "Invalid view, duplicate field: %s"
 #~ msgstr "Ugyldig visning, duplikatfelt: %s"
-
-#~ msgid "Maintenance contract."
-#~ msgstr "Vedlikeholdskontrakt."
-
-#~ msgid "Name of This Export:"
-#~ msgstr "Navn på denne eksporten"
-
-#~ msgid "Export as CSV"
-#~ msgstr "Eksporter som CVS"
-
-#~ msgid "Export as Excel"
-#~ msgstr "Eksporter som Excel"
-
-#~ msgid "Add field names"
-#~ msgstr "Legg til feltnavn"
-
-#~ msgid "Customise"
-#~ msgstr "Tilpass"
-
-#~ msgid "Image"
-#~ msgstr "Bilde"
-
-#~ msgid "Add Resource:"
-#~ msgstr "Opprett ressurs:"
-
-#~ msgid "Fields to import"
-#~ msgstr "Importere felter"
-
-#~ msgid "Auto Detect"
-#~ msgstr "Auto-søk"
-
-#~ msgid "Toolbar"
-#~ msgstr "Verktøylinje"
-
-#~ msgid "The Axelor Company"
-#~ msgstr "Firmaet Axelor"
-
-#~ msgid "The Tiny Company"
-#~ msgstr "Firmaet Tiny"
-
-#~ msgid "RESOURCES"
-#~ msgstr "Ressurser"
-
-#~ msgid "Homepage"
-#~ msgstr "Hjemmeside"
-
-#~ msgid "Documentation"
-#~ msgstr "Dokumentasjon"
-
-#~ msgid "Download"
-#~ msgstr "Last ned"
-
-#~ msgid "SaaS Offers"
-#~ msgstr "SaaS Tilbud"
-
-#~ msgid "Trainings"
-#~ msgstr "Opplæring"
-
-#~ msgid "Services"
-#~ msgstr "Tjenester"
 
 #~ msgid "Unsupported protocol."
 #~ msgstr "Ikke supportert protokoll"

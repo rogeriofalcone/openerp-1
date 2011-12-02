@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-08-11 04:50+0000\n"
-"X-Generator: Launchpad (build 13644)\n"
+"X-Launchpad-Export-Date: 2011-12-02 04:47+0000\n"
+"X-Generator: Launchpad (build 14414)\n"
 
 #: controllers/_diagram.py:91 controllers/_diagram.py:212
 msgid "Could not delete state"

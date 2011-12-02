@@ -9,13 +9,13 @@ msgstr ""
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
 "PO-Revision-Date: 2010-12-24 07:59+0000\n"
-"Last-Translator: Registry Administrators <registry@lists.launchpad.net>\n"
+"Last-Translator: Registry Administrators <Unknown>\n"
 "Language-Team: Basque <eu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-12 04:35+0000\n"
-"X-Generator: Launchpad (build 13168)\n"
+"X-Launchpad-Export-Date: 2011-12-02 04:45+0000\n"
+"X-Generator: Launchpad (build 14414)\n"
 
 #: static/javascript/form.js:92
 #, python-format
@@ -105,6 +105,3 @@ msgstr "Objektua"
 #: static/javascript/openerp/openerp.ui.tips.js:52
 msgid "Field"
 msgstr "Eremua"
-
-#~ msgid "You must select at least one record."
-#~ msgstr "Gutxienez erregistro bat hautatu behar duzu."

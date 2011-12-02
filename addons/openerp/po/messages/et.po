@@ -14,8 +14,8 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-07-12 04:37+0000\n"
-"X-Generator: Launchpad (build 13168)\n"
+"X-Launchpad-Export-Date: 2011-12-02 04:46+0000\n"
+"X-Generator: Launchpad (build 14414)\n"
 
 #: validators.py:75
 msgid "Invalid literal for float"
@@ -1525,54 +1525,6 @@ msgstr ""
 #: widgets/templates/listgrid/listgrid.mako:194
 msgid "Delete record(s)."
 msgstr ""
-
-#~ msgid "RESOURCES"
-#~ msgstr "RESSURSID"
-
-#~ msgid "Homepage"
-#~ msgstr "Koduleht"
-
-#~ msgid "Modules"
-#~ msgstr "Moodulid"
-
-#~ msgid "Trainings"
-#~ msgstr "Treeningud"
-
-#~ msgid "Services"
-#~ msgstr "Teenused"
-
-#~ msgid "All fields"
-#~ msgstr "Kõik väljad"
-
-#~ msgid "Nothing"
-#~ msgstr "Midagi"
-
-#~ msgid "Save List"
-#~ msgstr "Salvesta nimekiri"
-
-#~ msgid "Name of This Export:"
-#~ msgstr "Selle ekspordi nimi:"
-
-#~ msgid "Export as CSV"
-#~ msgstr "Ekspordi CSF"
-
-#~ msgid "Export as Excel"
-#~ msgstr "Ekspordi Exel"
-
-#~ msgid "Add field names"
-#~ msgstr "Lisa välja nimed"
-
-#~ msgid "Add Resource:"
-#~ msgstr "Lisa ressurss:"
-
-#~ msgid "Fields to import"
-#~ msgstr "Väljad mida importida"
-
-#~ msgid "Auto Detect"
-#~ msgstr "Auto dedekteeri"
-
-#~ msgid "File to import"
-#~ msgstr "Fail importimiseks"
 
 #~ msgid "Access Denied"
 #~ msgstr "Ligipääs keelatud"
