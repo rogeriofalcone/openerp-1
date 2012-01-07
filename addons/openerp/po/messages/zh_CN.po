@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-02-06 15:08+0000\n"
+"PO-Revision-Date: 2012-01-07 04:57+0000\n"
 "Last-Translator: Wei \"oldrev\" Li <oldrev@gmail.com>\n"
 "Language-Team: zh_CN <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-02 04:47+0000\n"
-"X-Generator: Launchpad (build 14414)\n"
+"X-Launchpad-Export-Date: 2012-01-07 05:20+0000\n"
+"X-Generator: Launchpad (build 14640)\n"
 "Generated-By: Babel None\n"
 
 #: validators.py:75
@@ -357,7 +357,7 @@ msgstr "导入错误"
 
 #: controllers/impex.py:72
 msgid "Please install xlwt library to export to MS Excel."
-msgstr ""
+msgstr "请安装“xlwt”库以便导出到 MS Excel 中。"
 
 #: controllers/impex.py:402
 msgid "Export Error"
@@ -713,15 +713,15 @@ msgstr "导出所有数据"
 
 #: controllers/templates/exp.mako:175
 msgid "Export Format:"
-msgstr ""
+msgstr "导出格式："
 
 #: controllers/templates/exp.mako:178
 msgid "CSV"
-msgstr ""
+msgstr "CSV"
 
 #: controllers/templates/exp.mako:179
 msgid "Excel"
-msgstr ""
+msgstr "Excel"
 
 #: controllers/templates/exp.mako:190
 msgid "Available fields"
@@ -1279,7 +1279,7 @@ msgstr "错误的“on_change”触发器"
 #: widgets/listgrid.py:367 widgets/form/_form.py:911
 #, python-format
 msgid "Invalid view for model '%(model)s', duplicate field: %(field)s"
-msgstr ""
+msgstr "领域模型 “%(model)s” 的视图无效，重复字段：%(field)s"
 
 #: widgets/pager.py:56
 #, python-format
