@@ -8,7 +8,7 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2012-02-04 15:30+0000\n"
+"PO-Revision-Date: 2012-02-04 15:31+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Danish <da@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -17,30 +17,10 @@ msgstr ""
 "X-Launchpad-Export-Date: 2012-02-05 04:48+0000\n"
 "X-Generator: Launchpad (build 14738)\n"
 
-#: static/javascript/infobox.js:135
-msgid "Do you really want to delete this record?"
+#: widgets/_views.py:8
+msgid "Graph"
 msgstr ""
 
-#: static/javascript/process.js:170
-msgid "Notes:"
-msgstr ""
-
-#: static/javascript/process.js:178
-msgid "Subflows:"
-msgstr ""
-
-#: static/javascript/process.js:182
-msgid "Related:"
-msgstr ""
-
-#: static/javascript/process.js:266
-msgid "Help"
-msgstr ""
-
-#: static/javascript/workflow.js:317
-msgid "state could not be created"
-msgstr ""
-
-#: static/javascript/workflow.js:354
-msgid "Could not create transaction at server"
+#: widgets/_views.py:9
+msgid "Graph view..."
 msgstr ""
