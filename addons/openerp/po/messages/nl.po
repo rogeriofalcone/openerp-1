@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-03-23 07:58+0000\n"
-"Last-Translator: Douwe Wullink (Dypalio) <Unknown>\n"
+"PO-Revision-Date: 2012-02-15 08:51+0000\n"
+"Last-Translator: Erwin <Unknown>\n"
 "Language-Team: nl <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-02 04:46+0000\n"
-"X-Generator: Launchpad (build 14414)\n"
+"X-Launchpad-Export-Date: 2012-02-16 05:04+0000\n"
+"X-Generator: Launchpad (build 14781)\n"
 "Generated-By: Babel None\n"
 
 #: validators.py:75
@@ -1166,7 +1166,7 @@ msgstr "Opslaan als filter"
 
 #: controllers/templates/save_filter.mako:30
 msgid "Filter Name"
-msgstr "Filternaam"
+msgstr "Filter Naam"
 
 #: controllers/templates/search.mako:110
 #, python-format
