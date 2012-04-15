@@ -8,18 +8,18 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-09-21 15:16+0000\n"
-"Last-Translator: jfalarconc <Unknown>\n"
+"PO-Revision-Date: 2012-04-14 14:47+0000\n"
+"Last-Translator: Héctor Rojas <hrojasb@gmail.com>\n"
 "Language-Team: Spanish (Chile) <es_CL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-02 04:45+0000\n"
-"X-Generator: Launchpad (build 14414)\n"
+"X-Launchpad-Export-Date: 2012-04-15 04:42+0000\n"
+"X-Generator: Launchpad (build 15070)\n"
 
 #: static/javascript/infobox.js:135
 msgid "Do you really want to delete this record?"
-msgstr ""
+msgstr "¿Realmente desea eliminar este registro?"
 
 #: static/javascript/process.js:170
 msgid "Notes:"
@@ -43,4 +43,4 @@ msgstr "estado no ha podido ser creado"
 
 #: static/javascript/workflow.js:354
 msgid "Could not create transaction at server"
-msgstr ""
+msgstr "No se ha podido crear una transacción en el servidor"
