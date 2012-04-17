@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client-web\n"
 "Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-02-08 11:59+0000\n"
-"Last-Translator: Milan Milosevic <Unknown>\n"
+"PO-Revision-Date: 2012-04-16 16:26+0000\n"
+"Last-Translator: Maroje Delibasic <maroje.delibasic@gmail.com>\n"
 "Language-Team: Serbian latin <sr@latin@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-02 04:45+0000\n"
-"X-Generator: Launchpad (build 14414)\n"
+"X-Launchpad-Export-Date: 2012-04-17 04:51+0000\n"
+"X-Generator: Launchpad (build 15099)\n"
 
 #: static/javascript/form.js:92
 #, python-format
@@ -28,7 +28,7 @@ msgstr "Netačan obrazac, ispravite crvena polja."
 
 #: static/javascript/form.js:220
 msgid "Do you really want to delete this record?"
-msgstr ""
+msgstr "Da li zaista želite da izbrišete ovaj zapis?"
 
 #: static/javascript/form.js:988
 msgid "You must select one or several records !"
@@ -76,7 +76,7 @@ msgstr "Da li zaista želite da izbrišete zapis ?"
 
 #: static/javascript/search.js:285
 msgid "Invalid Value"
-msgstr ""
+msgstr "Vrednost nije ispravna"
 
 #: static/javascript/viewed.js:63
 msgid "Do you really want to remove this node?"
@@ -88,7 +88,7 @@ msgstr "Da li zaista želite da napravite nasleđeni prikaz"
 
 #: static/javascript/viewed.js:337
 msgid "No Record Selected"
-msgstr ""
+msgstr "Zapis nije izabran"
 
 #: static/javascript/openerp/openerp.base.js:127
 msgid "doLoadingSuccess: Cannot parse JSON"
