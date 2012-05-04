@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
 "POT-Creation-Date: 2011-03-18 11:58+0100\n"
-"PO-Revision-Date: 2011-01-11 05:17+0000\n"
-"Last-Translator: Registry Administrators <Unknown>\n"
+"PO-Revision-Date: 2012-05-03 09:00+0000\n"
+"Last-Translator: gobi <Unknown>\n"
 "Language-Team: mn <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2011-12-02 04:46+0000\n"
-"X-Generator: Launchpad (build 14414)\n"
+"X-Launchpad-Export-Date: 2012-05-04 04:47+0000\n"
+"X-Generator: Launchpad (build 15195)\n"
 "Generated-By: Babel None\n"
 
 #: validators.py:75
@@ -847,7 +847,7 @@ msgstr ""
 #: controllers/templates/form.mako:87
 #, python-format
 msgid "Search: %s"
-msgstr ""
+msgstr "Хайлт: %s"
 
 #: controllers/templates/form.mako:94
 msgid "Corporate Intelligence..."
