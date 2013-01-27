@@ -1,0 +1,45 @@
+warning: Not updating refs/tags/5.0.7rc1 (new tip 5d90c0691fddad23e6adc7079f673f5ed49d662e does not contain 08f720f9a678813d5f6468c64c9f16e9dc8cdb96)
+warning: Not updating refs/tags/5.0.7rc2 (new tip e348e8c30dedb1d2f9eb76990a9903b6be2f8dc5 does not contain e90c097fe4b630b7222276d722284cab27831585)
+warning: Not updating refs/tags/5.0.10 (new tip 1ccc5989377f50ec9e6264973798b744007fb0bf does not contain 0b9cd557beb66509772191e97897e203dcf52882)
+warning: Not updating refs/tags/5.0.11 (new tip 95e17881c4cf32992880afe98573224373754e7e does not contain d0cb452ba3bc880e6dce1a52a203798ae6e54ddd)
+warning: Not updating refs/tags/5.0.12 (new tip 075afab3e64f9fdb0777f2b8a8c3607ae8d54c39 does not contain 49fd156bc226a55188feeeda5e081b57f162d974)
+warning: Not updating refs/tags/5.0.13 (new tip f95cf9443f8ed01209e303172cad8e6c48829a18 does not contain 6e5fc316e453aff5b5f55083d2b4e2dd4094e329)
+warning: Not updating refs/tags/5.0.14 (new tip f28a5a03d251300d0d445d6824f2d7245ea80aac does not contain cbe6dd99e7c4080c277040a2ca0ae626af1591a0)
+warning: Not updating refs/tags/5.0.15 (new tip 092cd66481e5d16b2e81ba732b94afc6098cd73e does not contain 16941b8658f790c256e48df81c559aa389d7a23f)
+warning: Not updating refs/tags/5.0.16 (new tip 0851a7299c1788b627bed03021b9acecdfa0a8a0 does not contain 2b6de4399ec492206bde6555f7e3828342fa1bec)
+warning: Not updating refs/tags/5.0.0-2 (new tip da317509e805107e8b1766e0f2c744bf2781239b does not contain 8471ebe26c282fbc7075e1ab599f43d785d7c04a)
+warning: Not updating refs/tags/5.0.0-3 (new tip ad6163b0fc3c3247cc419014ffdb8a451562c3d4 does not contain c248497ca6aa1275d37939e3bf8725ef42f25bf9)
+warning: Not updating refs/tags/5.0.0 (new tip 33dff3e75cbf091d75091acbd549607de14283a6 does not contain 289db6b718a33989c2ed466787805a947bb4a19c)
+warning: Not updating refs/tags/5.0.1 (new tip f529e148168874bc0b2a88d265ca6eb372f15593 does not contain b17d285442b5747e8af84c511c91712b1dcc8da7)
+warning: Not updating refs/tags/5.0.2 (new tip 58847635d1e62c2ff0da4e14c35bdccfff6fa6aa does not contain 3e8d053ac04d2adf19dab7a74feddc76238f296c)
+warning: Not updating refs/tags/5.0.3 (new tip 09821fc0cbc2cb104a72120332373a131b2eb20a does not contain 2d6f0776c3b1a1f2194b2f462da15b5f7ebe59b3)
+warning: Not updating refs/tags/5.0.4 (new tip 0d9c01ebdaffd550914a09e1138f2d9d5d9ad6e4 does not contain e5e604145a29dfdba46c6c6e202cab6d4186268e)
+warning: Not updating refs/tags/5.0.5 (new tip 22ab4b0f4c691afd6da233d8fe45f4938a5a9ac8 does not contain 05e24d3a4f62fdd7980eddf055660b230c0ab1be)
+warning: Not updating refs/tags/5.0.6 (new tip 22ab4b0f4c691afd6da233d8fe45f4938a5a9ac8 does not contain 5a98ca00856b402481d6c276960242b769d1bbe5)
+warning: Not updating refs/tags/5.0.7 (new tip 70ad98af554540de2b6abf0c98f6bf6cd78d5c70 does not contain 8b35ba8ae4e1cbfcbafdae8f7e91d32d2e4c394f)
+warning: Not updating refs/tags/5.0.8 (new tip 6d516ef92155832ff0197e8b35928beadfd3d74d does not contain a91283a336487780483235235132107ba8feb982)
+warning: Not updating refs/tags/5.0.9 (new tip 08d95fc3e33df8b14c4f7c30ec63a332eb1b6ac2 does not contain 2e9d804bebac31d8edf05e0363e28c5da66a3773)
+git-fast-import statistics:
+---------------------------------------------------------------------
+Alloc'd objects:       5000
+Total objects:            0 (         0 duplicates                  )
+      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
+      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
+      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
+      tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
+Total branches:          25 (         0 loads     )
+      marks:        1048576 (      3336 unique    )
+      atoms:              0
+Memory total:          2282 KiB
+       pools:          2048 KiB
+     objects:           234 KiB
+---------------------------------------------------------------------
+pack_report: getpagesize()            =       4096
+pack_report: core.packedGitWindowSize = 1073741824
+pack_report: core.packedGitLimit      = 8589934592
+pack_report: pack_used_ctr            =       9840
+pack_report: pack_mmap_calls          =          1
+pack_report: pack_open_windows        =          1 /          1
+pack_report: pack_mapped              =  584776344 /  584776344
+---------------------------------------------------------------------
+
