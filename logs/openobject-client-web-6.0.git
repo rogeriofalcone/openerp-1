@@ -1,0 +1,38 @@
+warning: Not updating refs/tags/6.0.0-rc1 (new tip 47850edc217645f6d3a19122f95a52475cf3c29d does not contain 98620f1d76372f74036ae6ae732f012f73d5bc64)
+warning: Not updating refs/tags/6.0.0-rc2 (new tip ce34b0295ede1baaddb2801eb6c0e7c1ad2b4b67 does not contain bf9b68239ab610dd94b6ba9fc22879c45784a1dc)
+warning: Not updating refs/tags/6.0.0 (new tip 6a5eacca891498d8fab9f70dfc33c8bb54c0d52b does not contain 6fdca26b834e0790e6e5e64f87ee0afa956698e9)
+warning: Not updating refs/tags/6.0.1 (new tip 6e72245d2d5fc03afe98a616521b394d7ae1d632 does not contain f35f58202e3572e8f563140cbbbb4e33922e4757)
+warning: Not updating refs/tags/6.0.2 (new tip 76536876705ce0b5193a8164598ab187b410126d does not contain 464e5c8fbf5b6ccb2b764c8e712d4e51db8b416a)
+warning: Not updating refs/tags/6.0.3 (new tip 42037a215cc21bd83d10744e8bf239c9aeb43403 does not contain b1b935891aede04923ed29d727daa11394a32578)
+warning: Not updating refs/tags/6.0.4 (new tip 9d09044159c937de1cef2fc7a95b11a20739bbad does not contain d722316b67dea2d26aed5fcd1ce12d13f789bd76)
+warning: Not updating refs/tags/5.0.0-2 (new tip da317509e805107e8b1766e0f2c744bf2781239b does not contain 8471ebe26c282fbc7075e1ab599f43d785d7c04a)
+warning: Not updating refs/tags/5.0.0-3 (new tip ad6163b0fc3c3247cc419014ffdb8a451562c3d4 does not contain c248497ca6aa1275d37939e3bf8725ef42f25bf9)
+warning: Not updating refs/tags/5.0.0 (new tip 33dff3e75cbf091d75091acbd549607de14283a6 does not contain 289db6b718a33989c2ed466787805a947bb4a19c)
+warning: Not updating refs/tags/5.0.1 (new tip f529e148168874bc0b2a88d265ca6eb372f15593 does not contain b17d285442b5747e8af84c511c91712b1dcc8da7)
+warning: Not updating refs/tags/5.0.2 (new tip 58847635d1e62c2ff0da4e14c35bdccfff6fa6aa does not contain 3e8d053ac04d2adf19dab7a74feddc76238f296c)
+warning: Not updating refs/tags/5.0.3 (new tip 09821fc0cbc2cb104a72120332373a131b2eb20a does not contain 2d6f0776c3b1a1f2194b2f462da15b5f7ebe59b3)
+warning: Not updating refs/tags/5.0.4 (new tip 0d9c01ebdaffd550914a09e1138f2d9d5d9ad6e4 does not contain e5e604145a29dfdba46c6c6e202cab6d4186268e)
+git-fast-import statistics:
+---------------------------------------------------------------------
+Alloc'd objects:      10000
+Total objects:            7 (         0 duplicates                  )
+      blobs  :            1 (         0 duplicates          0 deltas of          1 attempts)
+      trees  :            5 (         0 duplicates          0 deltas of          5 attempts)
+      commits:            1 (         0 duplicates          0 deltas of          0 attempts)
+      tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
+Total branches:          17 (         1 loads     )
+      marks:        1048576 (      7292 unique    )
+      atoms:             80
+Memory total:          2579 KiB
+       pools:          2110 KiB
+     objects:           468 KiB
+---------------------------------------------------------------------
+pack_report: getpagesize()            =       4096
+pack_report: core.packedGitWindowSize = 1073741824
+pack_report: core.packedGitLimit      = 8589934592
+pack_report: pack_used_ctr            =      21155
+pack_report: pack_mmap_calls          =          2
+pack_report: pack_open_windows        =          2 /          2
+pack_report: pack_mapped              =  584790412 /  584790412
+---------------------------------------------------------------------
+
