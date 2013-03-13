@@ -33,7 +33,7 @@ save-changes:
 	echo "Saving changes in master branch..."
 	git checkout master
 	git add marks/*$(VERSION).bzr marks/*$(VERSION).git logs/*$(VERSION).bzr logs/*$(VERSION).git
-	git commit -m "[IMP] Updated $(VERSION) branches"
+	-git commit -m "[IMP] Updated $(VERSION) branches"
 
 ###
 # Branches update
