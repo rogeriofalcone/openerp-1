@@ -1,14 +1,14 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      15000
-Total objects:          301 (        16 duplicates                  )
-      blobs  :          111 (         6 duplicates         96 deltas of        105 attempts)
-      trees  :          149 (        10 duplicates        122 deltas of        142 attempts)
-      commits:           41 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:           53 (         4 duplicates                  )
+      blobs  :           11 (         1 duplicates          6 deltas of         11 attempts)
+      trees  :           34 (         3 duplicates         20 deltas of         34 attempts)
+      commits:            8 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:         193 (         1 loads     )
-      marks:        1048576 (     11957 unique    )
-      atoms:            261
+      marks:        1048576 (     11965 unique    )
+      atoms:            222
 Memory total:          2813 KiB
        pools:          2110 KiB
      objects:           703 KiB
@@ -16,9 +16,9 @@ Memory total:          2813 KiB
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      13134
-pack_report: pack_mmap_calls          =         71
+pack_report: pack_used_ctr            =      12718
+pack_report: pack_mmap_calls          =         14
 pack_report: pack_open_windows        =          2 /          2
-pack_report: pack_mapped              =  622977509 /  622977509
+pack_report: pack_mapped              =  641469237 /  641469237
 ---------------------------------------------------------------------
 
