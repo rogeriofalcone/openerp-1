@@ -19,6 +19,6 @@ pack_report: core.packedGitLimit      = 8589934592
 pack_report: pack_used_ctr            =       3155
 pack_report: pack_mmap_calls          =          1
 pack_report: pack_open_windows        =          1 /          1
-pack_report: pack_mapped              =  618933451 /  618933451
+pack_report: pack_mapped              =  641038488 /  641038488
 ---------------------------------------------------------------------
 
