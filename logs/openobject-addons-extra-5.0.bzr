@@ -1,27 +1,27 @@
-15:00:27 Calculating the revisions to include ...
-15:00:30 Starting export of 7932 revisions ...
-15:00:31 WARNING: not creating tag u'qa_5.0.15_017' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110513112244-sdt7ah5czh26iol1
-15:00:31 WARNING: not creating tag u'qa_5.0.15_016' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110510085723-bqfzv7buwst82wfu
-15:00:31 WARNING: not creating tag u'qa_5.0.15_015' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110429111944-gu7r55q0dtsa67iv
-15:00:31 WARNING: not creating tag u'qa_5.0.15_014' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110428150826-1tyl54qc37npb7us
-15:00:31 WARNING: not creating tag u'qa_5.0.15_013' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110426140302-vlu515oikq4kr825
-15:00:31 WARNING: not creating tag u'qa_5.0.15_012' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110421145003-59ez39hwdyvlc9jh
-15:00:31 WARNING: not creating tag u'qa_5.0.15_011' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110419111332-5vfpk37c4pgw4fao
-15:00:31 WARNING: not creating tag u'qa_5.0.15_010' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110404060122-tirhta3fjvmpaspl
-15:00:31 WARNING: not creating tag u'wingo v0.1' pointing to non-existent revision nicolas.bessi@camptocamp.com-20100930085821-ds1t5liveeo9an8z
-15:00:31 WARNING: not creating tag u'qa_5.0.15_001' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110208160442-sumvjgwvu4h124mb
-15:00:31 WARNING: not creating tag u'qa_5.0.15_002' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110209085245-2jhgsruypkr8pn9d
-15:00:31 WARNING: not creating tag u'qa_5.0.15_003' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110209091118-j2wq3v8sf79uh2o6
-15:00:31 WARNING: not creating tag u'qa_5.0.15_004' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110215121446-q3x8we4rrvqznx6x
-15:00:31 WARNING: not creating tag u'qa_5.0.15_005' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110224123213-x5mh8vfvtwaygu2x
-15:00:31 WARNING: not creating tag u'qa_5.0.15_006' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110301142608-bef9q53qkmwrjatl
-15:00:31 WARNING: not creating tag u'qa_5.0.15_007' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110301161633-afpx0w7trhdor85x
-15:00:31 WARNING: not creating tag u'qa_5.0.15_008' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110302143520-7923englyjoxqk2p
-15:00:31 WARNING: not creating tag u'qa_5.0.15_009' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110329145245-rumd2de9y21x51og
-15:00:31 WARNING: not creating tag u'qa_5.0.14_001' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110113153723-i2e7ibcyqdjskgm1
-15:00:31 WARNING: not creating tag u'qa_5.0.14_003' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110128140923-il80pku37nsy1w32
-15:00:31 WARNING: not creating tag u'qa_5.0.14_002' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110119080309-f1xb8mu62mlzkit7
-15:00:31 WARNING: not creating tag u'5.0.2' pointing to non-existent revision christophe@tinyerp.com-20090812114232-hn49hutnqbqvn661
-15:00:31 WARNING: not creating tag u'5.0.4' pointing to non-existent revision dsh@tinyerp.com-20090909064136-8hw2nqq1ngbptkwh
-15:00:31 WARNING: not creating tag u'qa' pointing to non-existent revision guewen.baconnier@camptocamp.com-20101208142015-8hrlznw5azr2tamm
-15:00:31 Exported 7932 revisions in 0:00:03
+09:19:17 Calculating the revisions to include ...
+09:19:21 Starting export of 7934 revisions ...
+09:19:27 WARNING: not creating tag u'qa_5.0.15_017' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110513112244-sdt7ah5czh26iol1
+09:19:27 WARNING: not creating tag u'qa_5.0.15_016' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110510085723-bqfzv7buwst82wfu
+09:19:27 WARNING: not creating tag u'qa_5.0.15_015' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110429111944-gu7r55q0dtsa67iv
+09:19:27 WARNING: not creating tag u'qa_5.0.15_014' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110428150826-1tyl54qc37npb7us
+09:19:27 WARNING: not creating tag u'qa_5.0.15_013' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110426140302-vlu515oikq4kr825
+09:19:27 WARNING: not creating tag u'qa_5.0.15_012' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110421145003-59ez39hwdyvlc9jh
+09:19:27 WARNING: not creating tag u'qa_5.0.15_011' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110419111332-5vfpk37c4pgw4fao
+09:19:27 WARNING: not creating tag u'qa_5.0.15_010' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110404060122-tirhta3fjvmpaspl
+09:19:27 WARNING: not creating tag u'wingo v0.1' pointing to non-existent revision nicolas.bessi@camptocamp.com-20100930085821-ds1t5liveeo9an8z
+09:19:27 WARNING: not creating tag u'qa_5.0.15_001' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110208160442-sumvjgwvu4h124mb
+09:19:27 WARNING: not creating tag u'qa_5.0.15_002' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110209085245-2jhgsruypkr8pn9d
+09:19:27 WARNING: not creating tag u'qa_5.0.15_003' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110209091118-j2wq3v8sf79uh2o6
+09:19:27 WARNING: not creating tag u'qa_5.0.15_004' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110215121446-q3x8we4rrvqznx6x
+09:19:27 WARNING: not creating tag u'qa_5.0.15_005' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110224123213-x5mh8vfvtwaygu2x
+09:19:27 WARNING: not creating tag u'qa_5.0.15_006' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110301142608-bef9q53qkmwrjatl
+09:19:27 WARNING: not creating tag u'qa_5.0.15_007' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110301161633-afpx0w7trhdor85x
+09:19:27 WARNING: not creating tag u'qa_5.0.15_008' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110302143520-7923englyjoxqk2p
+09:19:27 WARNING: not creating tag u'qa_5.0.15_009' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110329145245-rumd2de9y21x51og
+09:19:27 WARNING: not creating tag u'qa_5.0.14_001' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110113153723-i2e7ibcyqdjskgm1
+09:19:27 WARNING: not creating tag u'qa_5.0.14_003' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110128140923-il80pku37nsy1w32
+09:19:27 WARNING: not creating tag u'qa_5.0.14_002' pointing to non-existent revision guewen.baconnier@camptocamp.com-20110119080309-f1xb8mu62mlzkit7
+09:19:27 WARNING: not creating tag u'5.0.2' pointing to non-existent revision christophe@tinyerp.com-20090812114232-hn49hutnqbqvn661
+09:19:27 WARNING: not creating tag u'5.0.4' pointing to non-existent revision dsh@tinyerp.com-20090909064136-8hw2nqq1ngbptkwh
+09:19:27 WARNING: not creating tag u'qa' pointing to non-existent revision guewen.baconnier@camptocamp.com-20101208142015-8hrlznw5azr2tamm
+09:19:27 Exported 7934 revisions in 0:00:10
