@@ -7,7 +7,7 @@
 #
 
 REMOTE = origin
-BRANCHES = "openerp-web/" "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/"
+BRANCHES = "openerp-web/" "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/" "ocb-server/" "ocb-addons/" "ocb-web/"
 
 .SILENT: help update-master save-changes $(BRANCHES) update-all update-5.0 update-6.0 update-6.1 update-7.0
 
@@ -64,8 +64,8 @@ update-6.0: VERSION = 6.0
 update-6.0: update-master "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/" save-changes
 
 update-6.1: VERSION = 6.1
-update-6.1: update-master "openerp-web/" "openobject-addons/" "openobject-client/" "openobject-server/" save-changes
+update-6.1: update-master "openerp-web/" "openobject-addons/" "openobject-client/" "openobject-server/" "ocb-server/" "ocb-addons/" "ocb-web/" save-changes
 
 update-7.0: VERSION = 7.0
-update-7.0: update-master "openerp-web/" "openobject-addons/" "openobject-server/" save-changes
+update-7.0: update-master "openerp-web/" "openobject-addons/" "openobject-server/" "ocb-server/" "ocb-addons/" "ocb-web/" save-changes
 
