@@ -1,24 +1,24 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      10000
-Total objects:            0 (         0 duplicates                  )
-      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:            0 (        97 duplicates                  )
+      blobs  :            0 (        72 duplicates          0 deltas of          0 attempts)
+      trees  :            0 (        21 duplicates          0 deltas of          0 attempts)
+      commits:            0 (         4 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:         189 (         0 loads     )
-      marks:        1048576 (      8964 unique    )
-      atoms:              0
-Memory total:          2516 KiB
-       pools:          2048 KiB
+Total branches:         190 (         1 loads     )
+      marks:        1048576 (      8968 unique    )
+      atoms:            153
+Memory total:          2579 KiB
+       pools:          2110 KiB
      objects:           468 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =       9527
-pack_report: pack_mmap_calls          =          3
-pack_report: pack_open_windows        =          3 /          3
-pack_report: pack_mapped              =  661494924 /  661494924
+pack_report: pack_used_ctr            =       9560
+pack_report: pack_mmap_calls          =          4
+pack_report: pack_open_windows        =          4 /          4
+pack_report: pack_mapped              =  664263169 /  664263169
 ---------------------------------------------------------------------
 
