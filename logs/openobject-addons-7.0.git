@@ -27,24 +27,24 @@ warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa8
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      60000
-Total objects:          112 (       366 duplicates                  )
-      blobs  :           35 (       106 duplicates         27 deltas of         33 attempts)
-      trees  :           59 (       208 duplicates         13 deltas of         59 attempts)
-      commits:           18 (        52 duplicates          0 deltas of          0 attempts)
+Total objects:           73 (        11 duplicates                  )
+      blobs  :           13 (         7 duplicates          7 deltas of         13 attempts)
+      trees  :           44 (         4 duplicates         13 deltas of         44 attempts)
+      commits:           16 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:        1940 (         1 loads     )
-      marks:        1048576 (     58452 unique    )
-      atoms:            750
-Memory total:          4985 KiB
-       pools:          2173 KiB
+      marks:        1048576 (     58468 unique    )
+      atoms:            379
+Memory total:          4923 KiB
+       pools:          2110 KiB
      objects:          2812 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     136033
-pack_report: pack_mmap_calls          =         22
-pack_report: pack_open_windows        =          7 /          7
-pack_report: pack_mapped              =  673595780 /  673595780
+pack_report: pack_used_ctr            =     135451
+pack_report: pack_mmap_calls          =         14
+pack_report: pack_open_windows        =          2 /          2
+pack_report: pack_mapped              =  694742169 /  694742169
 ---------------------------------------------------------------------
 
