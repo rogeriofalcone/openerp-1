@@ -1,24 +1,2 @@
-git-fast-import statistics:
----------------------------------------------------------------------
-Alloc'd objects:      15000
-Total objects:           67 (         9 duplicates                  )
-      blobs  :           14 (         3 duplicates         12 deltas of         14 attempts)
-      trees  :           43 (         6 duplicates         36 deltas of         43 attempts)
-      commits:           10 (         0 duplicates          0 deltas of          0 attempts)
-      tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:         193 (         1 loads     )
-      marks:        1048576 (     12177 unique    )
-      atoms:            173
-Memory total:          2813 KiB
-       pools:          2110 KiB
-     objects:           703 KiB
----------------------------------------------------------------------
-pack_report: getpagesize()            =       4096
-pack_report: core.packedGitWindowSize = 1073741824
-pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      12971
-pack_report: pack_mmap_calls          =         24
-pack_report: pack_open_windows        =          8 /          8
-pack_report: pack_mapped              =  705043665 /  705043665
----------------------------------------------------------------------
-
+fatal: unknown option --import-marks-if-exists=marks/openobject-server-7.0.git
+fast-import: dumping crash report to .git/fast_import_crash_2554
