@@ -1,2 +1,24 @@
-fatal: unknown option --import-marks-if-exists=marks/openerp-web-7.0.git
-fast-import: dumping crash report to .git/fast_import_crash_1950
+git-fast-import statistics:
+---------------------------------------------------------------------
+Alloc'd objects:      10000
+Total objects:          128 (         3 duplicates                  )
+      blobs  :           22 (         2 duplicates         17 deltas of         22 attempts)
+      trees  :           90 (         1 duplicates         49 deltas of         87 attempts)
+      commits:           16 (         0 duplicates          0 deltas of          0 attempts)
+      tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
+Total branches:           5 (         1 loads     )
+      marks:        1048576 (      9264 unique    )
+      atoms:            116
+Memory total:          2579 KiB
+       pools:          2110 KiB
+     objects:           468 KiB
+---------------------------------------------------------------------
+pack_report: getpagesize()            =       4096
+pack_report: core.packedGitWindowSize = 1073741824
+pack_report: core.packedGitLimit      = 8589934592
+pack_report: pack_used_ctr            =      10061
+pack_report: pack_mmap_calls          =         30
+pack_report: pack_open_windows        =          7 /          7
+pack_report: pack_mapped              =  812705268 /  812705268
+---------------------------------------------------------------------
+

@@ -1,2 +1,24 @@
-fatal: unknown option --import-marks-if-exists=marks/ocb-web-7.0.git
-fast-import: dumping crash report to .git/fast_import_crash_1988
+git-fast-import statistics:
+---------------------------------------------------------------------
+Alloc'd objects:      10000
+Total objects:           61 (       149 duplicates                  )
+      blobs  :            2 (        37 duplicates          0 deltas of          2 attempts)
+      trees  :           48 (        97 duplicates         41 deltas of         48 attempts)
+      commits:           11 (        15 duplicates          0 deltas of          0 attempts)
+      tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
+Total branches:           5 (         1 loads     )
+      marks:        1048576 (      9551 unique    )
+      atoms:            116
+Memory total:          2579 KiB
+       pools:          2110 KiB
+     objects:           468 KiB
+---------------------------------------------------------------------
+pack_report: getpagesize()            =       4096
+pack_report: core.packedGitWindowSize = 1073741824
+pack_report: core.packedGitLimit      = 8589934592
+pack_report: pack_used_ctr            =      10716
+pack_report: pack_mmap_calls          =         20
+pack_report: pack_open_windows        =          8 /          8
+pack_report: pack_mapped              =  812769362 /  812769362
+---------------------------------------------------------------------
+
