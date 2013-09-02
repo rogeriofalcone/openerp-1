@@ -1,6 +1,1 @@
-'marks/openobject-client-5.0.bzr' doesn't look like a marks file - not importing marks
-You have not informed bzr of your Launchpad ID, and you must do this to
-write to Launchpad or access private data.  See "bzr help launchpad-login".
-07:14:01 Calculating the revisions to include ...
-07:14:01 Starting export of 1300 revisions ...
-bzr: broken pipe
+bzr: ERROR: Unable to import library "fastimport": bzr-fastimport requires the fastimport python module
