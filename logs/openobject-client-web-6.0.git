@@ -1,7 +1,7 @@
 warning: Not updating refs/tags/6.0.0-rc1 (new tip 47850edc217645f6d3a19122f95a52475cf3c29d does not contain 688d6ae60081efd5158be35696b23c1c88652c9d)
 warning: Not updating refs/tags/6.0.0-rc2 (new tip ce34b0295ede1baaddb2801eb6c0e7c1ad2b4b67 does not contain 12167e4419ef9622adc68cada0478dcc55dd0652)
 warning: Not updating refs/tags/6.0.0 (new tip 6a5eacca891498d8fab9f70dfc33c8bb54c0d52b does not contain affcf6fbd7cc9424734a193340fc7c5383e879f9)
-warning: Not updating refs/tags/6.0.1 (new tip 6e72245d2d5fc03afe98a616521b394d7ae1d632 does not contain 254c385dfaddf26499d3183b3780c98fbfaee8c3)
+warning: Not updating refs/tags/6.0.1 (new tip 6e72245d2d5fc03afe98a616521b394d7ae1d632 does not contain 4379d005c92a5525e58afe5ee0074b4f152d81c9)
 warning: Not updating refs/tags/6.0.2 (new tip 76536876705ce0b5193a8164598ab187b410126d does not contain 550ffa00fb428ae21c648efe4d6821fb4a707f83)
 warning: Not updating refs/tags/6.0.3 (new tip 42037a215cc21bd83d10744e8bf239c9aeb43403 does not contain 5f4e192efceed186538bbc0b4986e3701b5ff0ee)
 warning: Not updating refs/tags/6.0.4 (new tip 9d09044159c937de1cef2fc7a95b11a20739bbad does not contain be4c6cc6be9e8e3f8265d415967b7e8daebdedbe)
