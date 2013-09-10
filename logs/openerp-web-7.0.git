@@ -1,24 +1,24 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      10000
-Total objects:            0 (         0 duplicates                  )
-      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:           23 (         1 duplicates                  )
+      blobs  :            2 (         1 duplicates          1 deltas of          2 attempts)
+      trees  :           18 (         0 duplicates          6 deltas of         18 attempts)
+      commits:            3 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:           4 (         0 loads     )
-      marks:        1048576 (      9267 unique    )
-      atoms:              0
-Memory total:          2516 KiB
-       pools:          2048 KiB
+Total branches:           5 (         1 loads     )
+      marks:        1048576 (      9270 unique    )
+      atoms:             51
+Memory total:          2579 KiB
+       pools:          2110 KiB
      objects:           468 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =       9315
-pack_report: pack_mmap_calls          =         10
-pack_report: pack_open_windows        =         10 /         10
-pack_report: pack_mapped              =  812751908 /  812751908
+pack_report: pack_used_ctr            =       9419
+pack_report: pack_mmap_calls          =         13
+pack_report: pack_open_windows        =         11 /         11
+pack_report: pack_mapped              =  812810012 /  812810012
 ---------------------------------------------------------------------
 
