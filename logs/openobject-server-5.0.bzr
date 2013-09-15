@@ -594,4 +594,4 @@ write to Launchpad or access private data.  See "bzr help launchpad-login".
 02:00:27 WARNING: not creating tag u'openerp-buildfail-9-1928' pointing to non-existent revision vth@tinyerp.com-20101027124959-phubwje70rmbec4p
 02:00:27 WARNING: not creating tag u'openerp-buildfail-3-1177' pointing to non-existent revision hmo@tinyerp.com-20101011132252-wcej9vlsb6582w5x
 02:00:27 WARNING: not creating tag u'openerp-buildfail-10-767' pointing to non-existent revision sbh@tinyerp.com-20101004052515-lz0t7uccgmetsc5h
-02:00:27 Exported 3038 revisions in 0:00:01
+02:00:27 Exported 3038 revisions in 0:00:00
