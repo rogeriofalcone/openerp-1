@@ -711,4 +711,4 @@ write to Launchpad or access private data.  See "bzr help launchpad-login".
 02:00:33 WARNING: not creating tag u'openerp-buildfail-14-3243' pointing to non-existent revision jni@tinyerp.com-20101112101730-vhsqmn144q2r846b
 02:00:33 WARNING: not creating tag u'openerp-buildfail-9-1928' pointing to non-existent revision vth@tinyerp.com-20101027124959-phubwje70rmbec4p
 02:00:33 WARNING: not creating tag u'openerp-buildfail-10-767' pointing to non-existent revision sbh@tinyerp.com-20101004052515-lz0t7uccgmetsc5h
-02:00:33 Exported 3183 revisions in 0:00:00
+02:00:33 Exported 3183 revisions in 0:00:01
