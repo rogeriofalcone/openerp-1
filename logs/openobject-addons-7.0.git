@@ -6,24 +6,24 @@ warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa8
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      60000
-Total objects:           59 (         5 duplicates                  )
-      blobs  :           20 (         4 duplicates         17 deltas of         19 attempts)
-      trees  :           36 (         1 duplicates          1 deltas of         36 attempts)
-      commits:            3 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:           12 (         0 duplicates                  )
+      blobs  :            4 (         0 duplicates          3 deltas of          4 attempts)
+      trees  :            7 (         0 duplicates          0 deltas of          7 attempts)
+      commits:            1 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:        1940 (         1 loads     )
-      marks:        1048576 (     59128 unique    )
-      atoms:            407
-Memory total:          4985 KiB
-       pools:          2173 KiB
+      marks:        1048576 (     59129 unique    )
+      atoms:            343
+Memory total:          4923 KiB
+       pools:          2110 KiB
      objects:          2812 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     128794
+pack_report: pack_used_ctr            =     128711
 pack_report: pack_mmap_calls          =         45
-pack_report: pack_open_windows        =         44 /         44
-pack_report: pack_mapped              =  821258666 /  821258666
+pack_report: pack_open_windows        =         45 /         45
+pack_report: pack_mapped              =  821417036 /  821417036
 ---------------------------------------------------------------------
 
