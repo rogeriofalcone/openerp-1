@@ -6,24 +6,24 @@ warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa8
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      65000
-Total objects:           19 (       401 duplicates                  )
-      blobs  :            0 (       168 duplicates          0 deltas of          0 attempts)
-      trees  :           18 (       232 duplicates          0 deltas of         18 attempts)
-      commits:            1 (         1 duplicates          0 deltas of          0 attempts)
+Total objects:           21 (       171 duplicates                  )
+      blobs  :            1 (        65 duplicates          0 deltas of          1 attempts)
+      trees  :           17 (       105 duplicates          2 deltas of         17 attempts)
+      commits:            3 (         1 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:        1940 (         1 loads     )
-      marks:        1048576 (     60353 unique    )
-      atoms:            711
-Memory total:          5344 KiB
-       pools:          2298 KiB
+      marks:        1048576 (     60357 unique    )
+      atoms:            541
+Memory total:          5282 KiB
+       pools:          2235 KiB
      objects:          3046 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     130208
-pack_report: pack_mmap_calls          =        141
-pack_report: pack_open_windows        =        141 /        141
-pack_report: pack_mapped              =  830278187 /  830278187
+pack_report: pack_used_ctr            =     130346
+pack_report: pack_mmap_calls          =        144
+pack_report: pack_open_windows        =        143 /        143
+pack_report: pack_mapped              =  830665992 /  830665992
 ---------------------------------------------------------------------
 
