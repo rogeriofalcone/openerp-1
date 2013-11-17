@@ -11,7 +11,7 @@ Total objects:            5 (         0 duplicates                  )
       commits:            1 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:        1939 (         1 loads     )
-      marks:        1048576 (     40134 unique    )
+      marks:        1048576 (     40135 unique    )
       atoms:            237
 Memory total:          4219 KiB
        pools:          2110 KiB
@@ -20,9 +20,9 @@ Memory total:          4219 KiB
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      86924
-pack_report: pack_mmap_calls          =         32
-pack_report: pack_open_windows        =         32 /         32
-pack_report: pack_mapped              =  804497420 /  804497420
+pack_report: pack_used_ctr            =      86921
+pack_report: pack_mmap_calls          =         33
+pack_report: pack_open_windows        =         33 /         33
+pack_report: pack_mapped              =  804507096 /  804507096
 ---------------------------------------------------------------------
 
