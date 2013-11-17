@@ -6,24 +6,24 @@ warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa8
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      60000
-Total objects:           51 (         1 duplicates                  )
-      blobs  :           15 (         1 duplicates         12 deltas of         14 attempts)
-      trees  :           33 (         0 duplicates          1 deltas of         33 attempts)
-      commits:            3 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:           56 (         0 duplicates                  )
+      blobs  :           18 (         0 duplicates         16 deltas of         17 attempts)
+      trees  :           37 (         0 duplicates          0 deltas of         37 attempts)
+      commits:            1 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:        1940 (         1 loads     )
-      marks:        1048576 (     59232 unique    )
-      atoms:            408
-Memory total:          4923 KiB
-       pools:          2110 KiB
+      marks:        1048576 (     59233 unique    )
+      atoms:            379
+Memory total:          4985 KiB
+       pools:          2173 KiB
      objects:          2812 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     128898
+pack_report: pack_used_ctr            =     128845
 pack_report: pack_mmap_calls          =         79
-pack_report: pack_open_windows        =         78 /         78
-pack_report: pack_mapped              =  829233103 /  829233103
+pack_report: pack_open_windows        =         79 /         79
+pack_report: pack_mapped              =  829349020 /  829349020
 ---------------------------------------------------------------------
 
