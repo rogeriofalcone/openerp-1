@@ -26,24 +26,24 @@ warning: Not updating refs/tags/7.0 (new tip 77a5478504b3f18c62d84cf44c155c6ac72
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      15000
-Total objects:            0 (         0 duplicates                  )
-      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:           21 (        50 duplicates                  )
+      blobs  :            0 (         9 duplicates          0 deltas of          0 attempts)
+      trees  :           17 (        34 duplicates         11 deltas of         17 attempts)
+      commits:            4 (         7 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:         192 (         0 loads     )
-      marks:        1048576 (     12805 unique    )
-      atoms:              0
-Memory total:          2751 KiB
-       pools:          2048 KiB
+Total branches:         193 (         1 loads     )
+      marks:        1048576 (     12816 unique    )
+      atoms:            136
+Memory total:          2813 KiB
+       pools:          2110 KiB
      objects:           703 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      63359
-pack_report: pack_mmap_calls          =        160
-pack_report: pack_open_windows        =        160 /        160
-pack_report: pack_mapped              =  827152248 /  827152248
+pack_report: pack_used_ctr            =      64561
+pack_report: pack_mmap_calls          =        165
+pack_report: pack_open_windows        =        162 /        162
+pack_report: pack_mapped              =  827190324 /  827190324
 ---------------------------------------------------------------------
 
