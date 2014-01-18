@@ -1,24 +1,24 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
-Alloc'd objects:      15000
-Total objects:            4 (       746 duplicates                  )
-      blobs  :            0 (       704 duplicates          0 deltas of          0 attempts)
-      trees  :            3 (        41 duplicates          0 deltas of          3 attempts)
-      commits:            1 (         1 duplicates          0 deltas of          0 attempts)
+Alloc'd objects:      10000
+Total objects:           14 (        30 duplicates                  )
+      blobs  :            0 (         6 duplicates          0 deltas of          0 attempts)
+      trees  :           11 (        21 duplicates          5 deltas of         11 attempts)
+      commits:            3 (         3 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:           5 (         1 loads     )
-      marks:        1048576 (      9749 unique    )
-      atoms:             93
-Memory total:          2813 KiB
+      marks:        1048576 (      9755 unique    )
+      atoms:             54
+Memory total:          2579 KiB
        pools:          2110 KiB
-     objects:           703 KiB
+     objects:           468 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =       9872
-pack_report: pack_mmap_calls          =        147
-pack_report: pack_open_windows        =        147 /        147
-pack_report: pack_mapped              =  816179872 /  816179872
+pack_report: pack_used_ctr            =       9874
+pack_report: pack_mmap_calls          =        151
+pack_report: pack_open_windows        =        149 /        149
+pack_report: pack_mapped              =  816219180 /  816219180
 ---------------------------------------------------------------------
 
