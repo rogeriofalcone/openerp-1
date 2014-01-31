@@ -26,23 +26,23 @@ warning: Not updating refs/tags/7.0 (new tip 77a5478504b3f18c62d84cf44c155c6ac72
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      15000
-Total objects:           54 (         6 duplicates                  )
-      blobs  :            9 (         2 duplicates          8 deltas of          9 attempts)
-      trees  :           37 (         4 duplicates         28 deltas of         37 attempts)
-      commits:            8 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:            0 (         0 duplicates                  )
+      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
+      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
+      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:         193 (         1 loads     )
+Total branches:         192 (         0 loads     )
       marks:        1048576 (     12415 unique    )
-      atoms:            101
-Memory total:          2813 KiB
-       pools:          2110 KiB
+      atoms:              0
+Memory total:          2751 KiB
+       pools:          2048 KiB
      objects:           703 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      63065
-pack_report: pack_mmap_calls          =        125
+pack_report: pack_used_ctr            =      62958
+pack_report: pack_mmap_calls          =        113
 pack_report: pack_open_windows        =        113 /        113
 pack_report: pack_mapped              =  829704855 /  829704855
 ---------------------------------------------------------------------
