@@ -47,6 +47,28 @@ $(BRANCHES):
 	-bzr fast-export --marks=marks/$(BRANCH_FILE).bzr --git-branch=$(BRANCH) lp:$(BRANCH) 2> logs/$(BRANCH_FILE).bzr \
 	    | git fast-import --import-marks-if-exists=marks/$(BRANCH_FILE).git --export-marks=marks/$(BRANCH_FILE).git > logs/$(BRANCH_FILE).git 2>&1
 
+demo-old:
+	git checkout demo/$(VERSION)
+	git merge -Xsubtree=server openobject-server/$(VERSION)
+	git merge -Xsubtree=addons openobject-addons/$(VERSION)
+	git merge -Xsubtree=addons-extra openobject-addons/extra-$(VERSION)
+	git merge -Xsubtree=web openobject-client-web/$(VERSION)
+	git checkout master
+
+demo:
+	git checkout demo/$(VERSION)
+	git merge -Xsubtree=server openobject-server/$(VERSION)
+	git merge -Xsubtree=addons openobject-addons/$(VERSION)
+	git merge -Xsubtree=web openerp-web/$(VERSION)
+	git checkout master
+
+demo-ocb:
+	git checkout demo-ocb/$(VERSION)
+	git merge -Xsubtree=server ocb-server/$(VERSION)
+	git merge -Xsubtree=addons ocb-addons/$(VERSION)
+	git merge -Xsubtree=web ocb-web/$(VERSION)
+	git checkout master
+
 ###
 # Versions update
 #
@@ -68,4 +90,16 @@ update-6.1: update-master "openerp-web/" "openobject-addons/" "openobject-client
 
 update-7.0: VERSION = 7.0
 update-7.0: update-master "openerp-web/" "openobject-addons/" "openobject-server/" "ocb-server/" "ocb-addons/" "ocb-web/" save-changes
+
+update-demo-5.0: VERSION = 5.0
+update-demo-5.0: demo-old
+
+update-demo-6.0: VERSION = 6.0
+update-demo-6.0: demo-old
+
+update-demo-6.1: VERSION = 6.1
+update-demo-6.1: demo demo-ocb
+
+update-demo-7.0: VERSION = 7.0
+update-demo-7.0: demo demo-ocb
 
