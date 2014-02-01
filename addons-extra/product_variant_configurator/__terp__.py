@@ -1,0 +1,50 @@
+# -*- encoding: utf-8 -*-
+##############################################################################
+#
+#    OpenERP, Open Source Management Solution	
+#    Copyright (C) 2009 Smile.fr. All Rights Reserved
+#    authors: Raphaël Valyi, Xavier Fernandez
+#
+#    This program is free software: you can redistribute it and/or modify
+#    it under the terms of the GNU General Public License as published by
+#    the Free Software Foundation, either version 3 of the License, or
+#    (at your option) any later version.
+#
+#    This program is distributed in the hope that it will be useful,
+#    but WITHOUT ANY WARRANTY; without even the implied warranty of
+#    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#    GNU General Public License for more details.
+#
+#    You should have received a copy of the GNU General Public License
+#    along with this program.  If not, see <http://www.gnu.org/licenses/>.
+#
+##############################################################################
+{
+    "name" : "Products with multi-level variants configurator",
+    "description":"""Product Variant Configurator. Assists the product variant selection in the sale order form.
+For each product template dimension a dimension value is asked. Then the matching product variants
+are proposed for selection.
+Should be used along with the product_variant_multi module.
+Might not work well in the web-client due to web-client current limitations.
+
+Please notice that the product configurator user interface could me more user friendly
+if some OpenObject framework enhancements were implemented, especially:
+- allow select box widget to select dimension values instead of many2one popups:
+https://blueprints.launchpad.net/openobject-server/+spec/dynamic-domain-on-selection-widget
+- automatically select the product variant if unique once dimensions are set:
+https://blueprints.launchpad.net/openobject-server/+spec/form-parent-field-update-on-change
+""",
+    "version" : "0.5",
+    "author" : "Smile.fr",
+    "website": "http://www.smile.fr",
+    "category" : "Generic Modules/Sales",
+    "depends" : ["product_variant_multi", "sale", "sale_product_multistep_configurator"],
+    "init_xml" : [],
+    "demo_xml" : [],
+    "update_xml" : ['security/ir.model.access.csv',
+                    "configurator_view.xml",
+                    "sale_view.xml"],
+    "active": False,
+    "installable": True
+}
+# vim:expandtab:smartindent:tabstop=4:softtabstop=4:shiftwidth=4:
