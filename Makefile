@@ -78,6 +78,10 @@ update-all:
 	$(MAKE) -s update-6.0
 	$(MAKE) -s update-6.1
 	$(MAKE) -s update-7.0
+	$(MAKE) -s update-demo-5.0
+	$(MAKE) -s update-demo-6.0
+	$(MAKE) -s update-demo-6.1
+	$(MAKE) -s update-demo-7.0
 
 update-5.0: VERSION = 5.0
 update-5.0: update-master "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/" save-changes
