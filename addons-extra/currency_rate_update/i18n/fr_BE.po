@@ -1,0 +1,210 @@
+# Translation of OpenERP Server.
+# This file contains the translation of the following modules:
+#	* c2c_currency_rate_update
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenERP Server 5.0.6\n"
+"Report-Msgid-Bugs-To: support@openerp.com\n"
+"POT-Creation-Date: 2009-11-26 07:10:46+0000\n"
+"PO-Revision-Date: 2009-11-26 07:10:46+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: c2c_currency_rate_update
+#: view:res.company:0
+msgid "Currency auto update configuration"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: view:res.company:0
+msgid "Currency updates services"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: field:currency.rate.update.service,company_id:0
+msgid "linked company"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: view:currency.rate.update.service:0
+msgid "Rates"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: constraint:ir.model:0
+msgid "The Object name must start with x_ and not contain any special character !"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: field:res.company,multi_company_currency_enable:0
+msgid "Multi company currency"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: field:res.company,interval_type:0
+msgid "Currency update frequence"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: selection:res.company,interval_type:0
+msgid "Day(s)"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: field:currency.rate.update.service,currency_to_update:0
+msgid "currency to update with this service"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "Narodowy Bank Polski"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: field:currency.rate.update.service,note:0
+msgid "update notice"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: field:currency.rate.update.service,service:0
+msgid "Webservice to use"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: selection:res.company,interval_type:0
+msgid "Month(s)"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: view:currency.rate.update.service:0
+msgid "note"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: field:res.company,services_to_use:0
+msgid "Currency update services"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: view:currency.rate.update.service:0
+msgid "Currencies to update with this services"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: code:addons/c2c_currency_rate_update/currency_rate_update.py:0
+#, python-format
+msgid "You can use a service one time per company !"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "Yahoo Finance "
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: constraint:ir.ui.view:0
+msgid "Invalid XML for View Architecture!"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "Admin.ch"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: model:ir.module.module,description:c2c_currency_rate_update.module_meta_information
+msgid "\n"
+"Import exchange rates from three different sources on the internet :\n"
+"\n"
+"1. Admin.ch\n"
+"   Updated daily, source in CHF. Source type is XML based.\n"
+"\n"
+"\n"
+"3. European Central Bank (ported by Grzegorz Grzelak)\n"
+"   The reference rates are based on the regular daily concertation procedure between\n"
+"   central banks within and outside the European System of Central Banks,\n"
+"   which normally takes place at 2.15 p.m. (14:15) ECB time. Source in EUR.\n"
+"   http://www.ecb.europa.eu/stats/exchange/eurofxref/html/index.en.html\n"
+"\n"
+"4. Google Finance !!! TO be ported\n"
+"   Updated daily from Citibank N.A., source in EUR. Information may be delayed.\n"
+"   This is parsed from an HTML page, so it may be broken at anytime.\n"
+"\n"
+"5. Yahoo Finance\n"
+"    Updated daily\n"
+"\n"
+"6. Polish National Bank (Narodowy Bank Polski) (contribution by Grzegorz Grzelak)\n"
+"    Takes official rates from www.nbp.pl. Adds rate table symbol in log. Works only\n"
+"    when main currency is PLN. \n"
+"    You should check when rates should apply to bookkeeping. If next day you should \n"
+"    change the update hour in schedule settings because in OpenERP they apply from \n"
+"    date of update (date - no hours).\n"
+"\n"
+"The update can be set under de company form. \n"
+"You can set for each services wich currency you want to update\n"
+"The log of the update are visible under the service note\n"
+"You can active or deactivate the update\n"
+"The module uses internal ir_cron feature from OpenERP, so the job is launched once\n"
+"the server starts if the 'first execute date' is before the current day.\n"
+"the module support multy company currency in two way :\n"
+"    the currencies are shared, you can set currency update only on one \n"
+"    company\n"
+"    the currency are separated, you can set currency on every company\n"
+"    separately\n"
+"Afunction field let you know your currency configuration    \n"
+"\n"
+"If in multi-company mode, the base currency will be the first company's currency\n"
+"found in database.\n"
+""
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: selection:res.company,interval_type:0
+msgid "Week(s)"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: help:res.company,multi_company_currency_enable:0
+msgid "if this case is not check you can not set currency is active on two company"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: code:addons/c2c_currency_rate_update/currency_rate_update.py:0
+#: model:ir.model,name:c2c_currency_rate_update.model_currency_rate_update
+#: model:ir.model,name:c2c_currency_rate_update.model_currency_rate_update_service
+#: model:ir.module.module,shortdesc:c2c_currency_rate_update.module_meta_information
+#, python-format
+msgid "Currency Rate Update"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: field:res.company,auto_currency_up:0
+msgid "Automatical update of the currency this company"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: view:currency.rate.update.service:0
+msgid "Rate"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: selection:currency.rate.update.service,service:0
+msgid "European Central Bank"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: help:res.company,interval_type:0
+msgid "changing this value will\n"
+"                                                 also affect other compagnies"
+msgstr ""
+
+#. module: c2c_currency_rate_update
+#: view:res.company:0
+msgid "Refresh currencies"
+msgstr ""
+
