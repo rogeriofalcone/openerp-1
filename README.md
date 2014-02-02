@@ -40,3 +40,22 @@ This repository is updated daily.
 * demo/7.0
 * demo-ocb/6.1
 * demo-ocb/7.0
+
+## Quick creation of a new project's repo
+
+To start a new project, you can import official branches from this repository as subtrees of your project repo.
+
+```bash
+git init new_project
+cd new_project
+git remote add -f openerp https://github.com/syleam/openerp.git
+git merge -s ours --no-commit openerp/openobject-server/<VERSION>
+git read-tree --prefix=server -u openerp/openobject-server/<VERSION>
+git commit -m "[ADD] Add server <VERSION>"
+git merge -s ours --no-commit openerp/openobject-addons/<VERSION>
+git read-tree --prefix=addons -u openerp/openobject-addons/<VERSION>
+git commit -m "[ADD] Add addons <VERSION>"
+git merge -s ours --no-commit openerp/openerp-web/<VERSION>
+git read-tree --prefix=web -u openerp/openerp-web/<VERSION>
+git commit -m "[ADD] Add web addons <VERSION>"
+```
