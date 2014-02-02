@@ -41,7 +41,9 @@ This repository is updated daily.
 * demo-ocb/6.1
 * demo-ocb/7.0
 
-## Quick creation of a new project's repo
+## Quick creation and update of a new project's repo
+
+### Creation
 
 To start a new project, you can import official branches from this repository as subtrees of your project repo.
 
@@ -58,4 +60,13 @@ git commit -m "[ADD] Add addons <VERSION>"
 git merge -s ours --no-commit openerp/openerp-web/<VERSION>
 git read-tree --prefix=web -u openerp/openerp-web/<VERSION>
 git commit -m "[ADD] Add web addons <VERSION>"
+```
+## Update
+
+Git allows you to update the branches with a simple merge.
+
+```bash
+git merge -Xsubtree=server openerp/openobject-server/<VERSION>
+git merge -Xsubtree=addons openerp/openobject-addons/<VERSION>
+git merge -Xsubtree=web openerp/openerp-web/<VERSION>
 ```
