@@ -40,9 +40,9 @@ Memory total:          2516 KiB
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      52175
-pack_report: pack_mmap_calls          =         14
-pack_report: pack_open_windows        =         14 /         14
-pack_report: pack_mapped              =  800902189 /  800902189
+pack_report: pack_used_ctr            =      52178
+pack_report: pack_mmap_calls          =          1
+pack_report: pack_open_windows        =          1 /          1
+pack_report: pack_mapped              =  823935030 /  823935030
 ---------------------------------------------------------------------
 
