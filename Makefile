@@ -49,6 +49,7 @@ $(BRANCHES):
 
 demo-old:
 	git checkout demo/$(VERSION)
+	git pull --ff-only $(REMOTE) demo/$(VERSION)
 	git merge -Xsubtree=server openobject-server/$(VERSION)
 	git merge -Xsubtree=addons openobject-addons/$(VERSION)
 	git merge -Xsubtree=addons-extra openobject-addons/extra-$(VERSION)
@@ -57,6 +58,7 @@ demo-old:
 
 demo:
 	git checkout demo/$(VERSION)
+	git pull --ff-only $(REMOTE) demo/$(VERSION)
 	git merge -Xsubtree=server openobject-server/$(VERSION)
 	git merge -Xsubtree=addons openobject-addons/$(VERSION)
 	git merge -Xsubtree=web openerp-web/$(VERSION)
@@ -64,6 +66,7 @@ demo:
 
 demo-ocb:
 	git checkout demo-ocb/$(VERSION)
+	git pull --ff-only $(REMOTE) demo-ocb/$(VERSION)
 	git merge -Xsubtree=server ocb-server/$(VERSION)
 	git merge -Xsubtree=addons ocb-addons/$(VERSION)
 	git merge -Xsubtree=web ocb-web/$(VERSION)
