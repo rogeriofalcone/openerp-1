@@ -1,24 +1,29 @@
+warning: Not updating refs/tags/6.1.0-rc1 (new tip f9527ed1b5862447e9f3f07d3f75f734f9010c2a does not contain 0d63706015f3e8fcc6859e92701f050d4bd71625)
+warning: Not updating refs/tags/6.1.0 (new tip 7886bde977467ffb063a52aad8abecbd0fcd324f does not contain e6b3dcfb988d7e76f095fb945a49cc24b9dbcec8)
+warning: Not updating refs/tags/6.1.1 (new tip 27a1ccd5799831c156b49c8d277bd73ec02b3092 does not contain 2a41a1126dace14b40c670f4656be12fbafb217c)
+warning: Not updating refs/tags/5.0.7 (new tip cbefc1cc55a4c197d78fb3626cda2d9caf0094fd does not contain 2ed8b942d905fcba0ad8e95b20f6be4431d62ff5)
+warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa85d7ba does not contain 0062bddbd99ea93ece955a2600b02a8ed026784f)
 git-fast-import statistics:
 ---------------------------------------------------------------------
-Alloc'd objects:       5000
-Total objects:            0 (      1053 duplicates                  )
-      blobs  :            0 (       889 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (       163 duplicates          0 deltas of          0 attempts)
-      commits:            0 (         1 duplicates          0 deltas of          0 attempts)
+Alloc'd objects:     890000
+Total objects:        99297 (   7436936 duplicates                  )
+      blobs  :        51943 (   5997380 duplicates      42596 deltas of      48442 attempts)
+      trees  :        39581 (   1380016 duplicates      32395 deltas of      37151 attempts)
+      commits:         7773 (     59540 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:           1 (         1 loads     )
-      marks:           1024 (         1 unique    )
-      atoms:            598
-Memory total:          2407 KiB
-       pools:          2173 KiB
-     objects:           234 KiB
+Total branches:        1947 (         8 loads     )
+      marks:        1048576 (     67314 unique    )
+      atoms:          11901
+Memory total:         44516 KiB
+       pools:          2798 KiB
+     objects:         41718 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =          1
-pack_report: pack_mmap_calls          =          1
-pack_report: pack_open_windows        =          1 /          1
-pack_report: pack_mapped              =  869869527 /  869869527
+pack_report: pack_used_ctr            =   12491553
+pack_report: pack_mmap_calls          =      22034
+pack_report: pack_open_windows        =          4 /          4
+pack_report: pack_mapped              = 1077317918 / 1077317918
 ---------------------------------------------------------------------
 
