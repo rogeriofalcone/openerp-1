@@ -81,6 +81,7 @@ update-all:
 	$(MAKE) -s update-6.0
 	$(MAKE) -s update-6.1
 	$(MAKE) -s update-7.0
+	$(MAKE) -s update-trunk
 	$(MAKE) -s update-demo-5.0
 	$(MAKE) -s update-demo-6.0
 	$(MAKE) -s update-demo-6.1
@@ -97,6 +98,9 @@ update-6.1: update-master "openerp-web/" "openobject-addons/" "openobject-client
 
 update-7.0: VERSION = 7.0
 update-7.0: update-master "openerp-web/" "openobject-addons/" "openobject-server/" "ocb-server/" "ocb-addons/" "ocb-web/" save-changes
+
+update-trunk: VERSION = trunk
+update-trunk: update-master "openerp-web/" "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/" save-changes
 
 update-demo-5.0: VERSION = 5.0
 update-demo-5.0: demo-old
