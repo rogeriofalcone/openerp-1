@@ -9,7 +9,7 @@
 REMOTE = origin
 BRANCHES = "openerp-web/" "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/" "ocb-server/" "ocb-addons/" "ocb-web/"
 
-.SILENT: help update-master save-changes $(BRANCHES) update-all update-5.0 update-6.0 update-6.1 update-7.0
+.SILENT: help update-master save-changes $(BRANCHES) update-all update-5.0 update-6.0 update-6.1 update-7.0 update-trunk update-demo-5.0 update-demo-6.0 update-demo-6.1 update-demo-7.0
 
 ###
 # Base commands
@@ -22,6 +22,11 @@ help:
 	echo "  update-6.0"
 	echo "  update-6.1"
 	echo "  update-7.0"
+	echo "  update-trunk"
+	echo "  update-demo-5.0"
+	echo "  update-demo-6.0"
+	echo "  update-demo-6.1"
+	echo "  update-demo-7.0"
 	echo "You can supply REMOTE=foobar argument to change the used remote. The default is origin"
 
 update-master:
