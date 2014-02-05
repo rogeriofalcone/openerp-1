@@ -46,10 +46,14 @@ This repository is updated daily.
 ### Creation
 
 To start a new project, you can import official branches from this repository as subtrees of your project repo.
+You must have at least one commit on your repo for the `git merge -s ours` commands work as expected, this is why we add an empty `.gitignore` file in this example.
 
 ```bash
 git init new_project
 cd new_project
+touch .gitignore
+git add .gitignore
+git ci -m "[INIT] Initialize new project"
 git remote add -f openerp https://github.com/syleam/openerp.git
 git merge -s ours --no-commit openerp/openobject-server/<VERSION>
 git read-tree --prefix=server -u openerp/openobject-server/<VERSION>
@@ -61,7 +65,7 @@ git merge -s ours --no-commit openerp/openerp-web/<VERSION>
 git read-tree --prefix=web -u openerp/openerp-web/<VERSION>
 git commit -m "[ADD] Add web addons <VERSION>"
 ```
-## Update
+### Update
 
 Git allows you to update the branches with a simple merge.
 
