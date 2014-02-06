@@ -53,7 +53,7 @@ git init new_project
 cd new_project
 touch .gitignore
 git add .gitignore
-git ci -m "[INIT] Initialize new project"
+git commit -m "[INIT] Initialize new project"
 git remote add -f openerp https://github.com/syleam/openerp.git
 git merge -s ours --no-commit openerp/openobject-server/<VERSION>
 git read-tree --prefix=server -u openerp/openobject-server/<VERSION>
