@@ -3,7 +3,6 @@ warning: Not updating refs/tags/5.0.0-rc2 (new tip e12a6191883083596373af9150d07
 warning: Not updating refs/tags/5.0.0-rc3 (new tip 889ca450caac5c38259343ad7a1b60a41b7dc7a7 does not contain eeaa1fd9de7cd7e0128c4dc400b2945924427dfa)
 warning: Not updating refs/tags/5.0.7rc1 (new tip 08f720f9a678813d5f6468c64c9f16e9dc8cdb96 does not contain 9d0dc3a6857aee0721b711f360a423d6e38fec9e)
 warning: Not updating refs/tags/5.0.7rc2 (new tip e90c097fe4b630b7222276d722284cab27831585 does not contain 9ef71b03bb04845ab453da481ca57fe9b6353681)
-warning: Not updating refs/heads/tmp (new tip bcd193f1b3d264d7f7f68f98483f2ce277e49c51 does not contain c9759233dc4fa66a1ecdcecfced3b29350d6b791)
 warning: Not updating refs/tags/6.0.0-rc1 (new tip 98620f1d76372f74036ae6ae732f012f73d5bc64 does not contain 688d6ae60081efd5158be35696b23c1c88652c9d)
 warning: Not updating refs/tags/6.0.0-rc2 (new tip bf9b68239ab610dd94b6ba9fc22879c45784a1dc does not contain 12167e4419ef9622adc68cada0478dcc55dd0652)
 warning: Not updating refs/tags/5.0.0-alpha (new tip 209d2d67ff4549916f68983462d17c975b890aef does not contain f09a6ee55e60d3eb1a37d55e79c8536ccca073bf)
@@ -26,25 +25,25 @@ warning: Not updating refs/tags/5.0.0-rc1.1 (new tip d437d0ab474050be8b729912b91
 warning: Not updating refs/tags/7.0 (new tip 77a5478504b3f18c62d84cf44c155c6ac72dc3ef does not contain 0062bddbd99ea93ece955a2600b02a8ed026784f)
 git-fast-import statistics:
 ---------------------------------------------------------------------
-Alloc'd objects:     105000
-Total objects:            0 (    182113 duplicates                  )
-      blobs  :            0 (     93301 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (     74932 duplicates          0 deltas of          0 attempts)
-      commits:            0 (     13880 duplicates          0 deltas of          0 attempts)
+Alloc'd objects:      15000
+Total objects:           15 (         6 duplicates                  )
+      blobs  :            2 (         1 duplicates          1 deltas of          2 attempts)
+      trees  :           10 (         5 duplicates          5 deltas of         10 attempts)
+      commits:            3 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:         194 (         2 loads     )
-      marks:        1048576 (     13880 unique    )
-      atoms:           1367
-Memory total:          7032 KiB
+Total branches:         193 (         1 loads     )
+      marks:        1048576 (     13883 unique    )
+      atoms:             91
+Memory total:          2813 KiB
        pools:          2110 KiB
-     objects:          4921 KiB
+     objects:           703 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     276764
-pack_report: pack_mmap_calls          =          2
-pack_report: pack_open_windows        =          2 /          2
-pack_report: pack_mapped              =  958615564 /  958615564
+pack_report: pack_used_ctr            =      66576
+pack_report: pack_mmap_calls          =          5
+pack_report: pack_open_windows        =          3 /          3
+pack_report: pack_mapped              =  958633290 /  958633290
 ---------------------------------------------------------------------
 
