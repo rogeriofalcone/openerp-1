@@ -206,7 +206,7 @@ class mail_thread(osv.AbstractModel):
         'message_is_follower': fields.function(_get_followers,
             type='boolean', string='Is a Follower', multi='_get_followers,'),
         'message_follower_ids': fields.function(_get_followers, fnct_inv=_set_followers,
-                fnct_search=_search_followers, type='many2many',
+                fnct_search=_search_followers, type='many2many', priority=-10,
                 obj='res.partner', string='Followers', multi='_get_followers'),
         'message_ids': fields.one2many('mail.message', 'res_id',
             domain=lambda self: [('model', '=', self._name)],
@@ -1203,6 +1203,9 @@ class mail_thread(osv.AbstractModel):
         """ Add partners to the records followers. """
         if context is None:
             context = {}
+        # not necessary for computation, but saves an access right check
+        if not partner_ids:
+            return True
 
         mail_followers_obj = self.pool.get('mail.followers')
         subtype_obj = self.pool.get('mail.message.subtype')
@@ -1261,6 +1264,9 @@ class mail_thread(osv.AbstractModel):
 
     def message_unsubscribe(self, cr, uid, ids, partner_ids, context=None):
         """ Remove partners from the records followers. """
+        # not necessary for computation, but saves an access right check
+        if not partner_ids:
+            return True
         user_pid = self.pool.get('res.users').read(cr, uid, uid, ['partner_id'], context=context)['partner_id'][0]
         if set(partner_ids) == set([user_pid]):
             self.check_access_rights(cr, uid, 'read')
