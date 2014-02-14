@@ -3,22 +3,22 @@ This may indicate an installation problem.
 bzrlib from ['/usr/local/lib/python2.6/dist-packages/bzrlib'] is version (2, 6, 0, 'final', 0)
 You have not informed bzr of your Launchpad ID, and you must do this to
 write to Launchpad or access private data.  See "bzr help launchpad-login".
-02:00:30 Calculating the revisions to include ...
-02:00:31 Starting export of 7311 revisions ...
-02:00:31 WARNING: not creating tag u'help' pointing to non-existent revision odo@openerp.com-20100618151740-042vjfgx080wlwsb
-02:00:31 WARNING: not creating tag u'5.0.12' pointing to non-existent revision stephane@openerp.com-20100709143508-oykqgbrnkzofdbnk
-02:00:31 WARNING: not creating tag u'5.0.13' pointing to non-existent revision stephane@openerp.com-20100903150433-a7c9zrxchl0jbl8d
-02:00:31 WARNING: not creating tag u'5.0.10' pointing to non-existent revision stephane@openerp.com-20100505152307-at4xzouefay0ilnc
-02:00:31 WARNING: not creating tag u'5.0.11' pointing to non-existent revision stephane@openerp.com-20100607075648-s235f871mrfjn5e8
-02:00:31 WARNING: not creating tag u'5.0.14' pointing to non-existent revision stephane@openerp.com-20100903162413-0j0ji24xnsrvnwsj
-02:00:31 WARNING: not creating tag u'5.0.7rc1' pointing to non-existent revision chs@tinyerp.com-20091203135620-mlhcyzty7a53hzxm
-02:00:31 WARNING: not creating tag u'5.0.7rc2' pointing to non-existent revision sma@tinyerp.com-20100120104836-fcomkskqwzdx1q37
-02:00:31 WARNING: not creating tag u'test' pointing to non-existent revision jth@openerp.com-20101110122442-lseomwzl2wju6jpx
-02:00:31 WARNING: not creating tag u'5.0.5' pointing to non-existent revision ame@tinyerp.com-20090922110646-q9v96mpxkz2ja86y
-02:00:31 WARNING: not creating tag u'5.0.6' pointing to non-existent revision ame@tinyerp.com-20090922110646-q9v96mpxkz2ja86y
-02:00:31 WARNING: not creating tag u'groupes-0.9.0.1' pointing to non-existent revision olivier.ligot@groupes.be-20101124144533-qqhc126cx73l4c6x
-02:00:31 WARNING: not creating tag u'5.0.8' pointing to non-existent revision stephane@openerp.com-20100402150024-z930tdsdst6ntpt5
-02:00:31 WARNING: not creating tag u'5.0.9' pointing to non-existent revision stephane@openerp.com-20100406170651-ff72duo0h0idgew0
-02:00:31 WARNING: not creating tag u'5.0.7' pointing to non-existent revision sma@tinyerp.com-20100226104649-78zi1cqn670newb0
-02:00:31 WARNING: not creating tag u'delete' pointing to non-existent revision noz@tinyerp.com-20100421071024-5tel2fo0isgbhhz0
-02:00:31 Exported 7311 revisions in 0:00:01
+02:00:29 Calculating the revisions to include ...
+02:00:30 Starting export of 7311 revisions ...
+02:00:30 WARNING: not creating tag u'help' pointing to non-existent revision odo@openerp.com-20100618151740-042vjfgx080wlwsb
+02:00:30 WARNING: not creating tag u'5.0.12' pointing to non-existent revision stephane@openerp.com-20100709143508-oykqgbrnkzofdbnk
+02:00:30 WARNING: not creating tag u'5.0.13' pointing to non-existent revision stephane@openerp.com-20100903150433-a7c9zrxchl0jbl8d
+02:00:30 WARNING: not creating tag u'5.0.10' pointing to non-existent revision stephane@openerp.com-20100505152307-at4xzouefay0ilnc
+02:00:30 WARNING: not creating tag u'5.0.11' pointing to non-existent revision stephane@openerp.com-20100607075648-s235f871mrfjn5e8
+02:00:30 WARNING: not creating tag u'5.0.14' pointing to non-existent revision stephane@openerp.com-20100903162413-0j0ji24xnsrvnwsj
+02:00:30 WARNING: not creating tag u'5.0.7rc1' pointing to non-existent revision chs@tinyerp.com-20091203135620-mlhcyzty7a53hzxm
+02:00:30 WARNING: not creating tag u'5.0.7rc2' pointing to non-existent revision sma@tinyerp.com-20100120104836-fcomkskqwzdx1q37
+02:00:30 WARNING: not creating tag u'test' pointing to non-existent revision jth@openerp.com-20101110122442-lseomwzl2wju6jpx
+02:00:30 WARNING: not creating tag u'5.0.5' pointing to non-existent revision ame@tinyerp.com-20090922110646-q9v96mpxkz2ja86y
+02:00:30 WARNING: not creating tag u'5.0.6' pointing to non-existent revision ame@tinyerp.com-20090922110646-q9v96mpxkz2ja86y
+02:00:30 WARNING: not creating tag u'groupes-0.9.0.1' pointing to non-existent revision olivier.ligot@groupes.be-20101124144533-qqhc126cx73l4c6x
+02:00:30 WARNING: not creating tag u'5.0.8' pointing to non-existent revision stephane@openerp.com-20100402150024-z930tdsdst6ntpt5
+02:00:30 WARNING: not creating tag u'5.0.9' pointing to non-existent revision stephane@openerp.com-20100406170651-ff72duo0h0idgew0
+02:00:30 WARNING: not creating tag u'5.0.7' pointing to non-existent revision sma@tinyerp.com-20100226104649-78zi1cqn670newb0
+02:00:30 WARNING: not creating tag u'delete' pointing to non-existent revision noz@tinyerp.com-20100421071024-5tel2fo0isgbhhz0
+02:00:30 Exported 7311 revisions in 0:00:01
