@@ -1,24 +1,24 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
-Alloc'd objects:      10000
-Total objects:           18 (        31 duplicates                  )
-      blobs  :            3 (         8 duplicates          2 deltas of          3 attempts)
-      trees  :           13 (        20 duplicates          6 deltas of         13 attempts)
-      commits:            2 (         3 duplicates          0 deltas of          0 attempts)
+Alloc'd objects:      15000
+Total objects:           14 (       784 duplicates                  )
+      blobs  :            0 (       710 duplicates          0 deltas of          0 attempts)
+      trees  :           11 (        69 duplicates          5 deltas of         11 attempts)
+      commits:            3 (         5 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:           5 (         1 loads     )
-      marks:        1048576 (      9814 unique    )
-      atoms:             56
-Memory total:          2579 KiB
+      marks:        1048576 (      9822 unique    )
+      atoms:            120
+Memory total:          2813 KiB
        pools:          2110 KiB
-     objects:           468 KiB
+     objects:           703 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =       9911
-pack_report: pack_mmap_calls          =          6
-pack_report: pack_open_windows        =          3 /          3
-pack_report: pack_mapped              = 1073928101 / 1073928101
+pack_report: pack_used_ctr            =      10006
+pack_report: pack_mmap_calls          =          7
+pack_report: pack_open_windows        =          5 /          5
+pack_report: pack_mapped              = 1074392853 / 1074392853
 ---------------------------------------------------------------------
 
