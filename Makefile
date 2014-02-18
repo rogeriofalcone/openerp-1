@@ -1,9 +1,20 @@
 # Auto-configure a demo openerp instance, with a specific virtualenv, postgres user and configuration file
 
 CWD         = $(shell pwd)
-VENV        = .virtualenv
+VENV_PATH   = .virtualenv
 PROJECT     = demo_70
 CONFIGFILE  = openerp.conf
+
+# Python
+HAVE_VENV   := $(shell which virtualenv)
+LOAD_VENV   = . $(VENV_PATH)/bin/activate
+INIT_DEPS   = python postgresql config
+
+ifndef HAVE_VENV
+	# Do not try to use virtualenv if not available
+	LOAD_VENV   = true
+	INIT_DEPS   = postgresql config
+endif
 
 # PostgreSQL
 DBHOST      = localhost
@@ -27,8 +38,8 @@ help:
 
 python:
 	@echo "Initialize python virtual environment"
-	@virtualenv $(VENV)
-	@. $(VENV)/bin/activate && pip install -r requirement.pip
+	@virtualenv $(VENV_PATH)
+	@$(LOAD_VENV) && pip install -r requirement.pip
 
 postgresql:
 	@echo "Create the PostgreSQL user $(DBUSER)"
@@ -37,10 +48,10 @@ postgresql:
 
 config:
 	@echo "Create config file for OpenERP"
-	. $(VENV)/bin/activate && ./server/openerp-server -c $(CONFIGFILE) -s --load=base $(DBOPTIONS) --addons-path=$(ADDONS) --stop-after-init
+	@$(LOAD_VENV) && ./server/openerp-server -c $(CONFIGFILE) -s --load=base $(DBOPTIONS) --addons-path=$(ADDONS) --stop-after-init
 
-init: python postgresql config
+init: $(INIT_DEPS)
 
 run:
-	. $(VENV)/bin/activate && ./server/openerp-server -c $(CONFIGFILE)
+	@$(LOAD_VENV) && ./server/openerp-server -c $(CONFIGFILE)
 
