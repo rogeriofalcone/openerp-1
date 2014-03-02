@@ -1,4 +1,3 @@
-:1615 qdp-efa2dc5e3603768576db612019c59471cca306c9
 :643 pmo-87f75fae66ff8aaae00738ceeca542900059913d
 :5988 mra@tinyerp.com-20090508070234-75t2g81816r373dx
 :5989 hmo@tinyerp.com-20090508072527-5a39lk72jcythc8u
@@ -43,7 +42,7 @@
 :9252 sharoonthomas@teagarden.in-20100204090425-zn3gyt4aof1ur1mp
 :9253 sharoonthomas@teagarden.in-20100204090918-95yky15tjzcuqhmt
 :9522 launchpad_translations_on_behalf_of_openerp-commiter-20110302141453-o55rl58ki7oyuxc5
-:9523 launchpad_translations_on_behalf_of_openerp-commiter-20110303060208-hr7zr3f8ufb5v61c
+:9251 sebastien.beau@akretion.com.br-20101116152033-9w9wu876zm9psfaj
 :1370 hda@tinyerp.com-ab830414d281bedca88ce17992f90f1eb503bf0b
 :1212 qdp-a31cc25b8214d139b2bc2344a59e0647b5a5b8f7
 :2143 mga@tinyerp.com-235023fbfad179ef23c155055afe4b7a920985b0
@@ -136,7 +135,7 @@
 :2034 dra-1ca955a8ce91b6061566510f786b5899d76ce444
 :2033 hda@tinyerp.com-ecfcc6ea853c885bf00ffbb87975f3c1991f99f5
 :4849 svn-v3-trunk0:10d1edec-8d52-0410-9712-ab945b9a1f9d:trunk:122
-:2747 qdp-5b0e4674deba590d897f1269c3dfbf5445973dfb
+:2031 dra-713c60099de3dcb0ce17b04b0365462ab2a7285d
 :2746 qdp-831be40161a2cf833073d68396ae1815368407af
 :4844 svn-v3-trunk0:10d1edec-8d52-0410-9712-ab945b9a1f9d:trunk:117
 :6795 sharoonthomas@teagarden.in-20090816042855-7cpmh10wwfphfbly
@@ -146,7 +145,7 @@
 :6536 christophe@tinyerp.com-20090622094149-fh87b90c9h37a6st
 :4599 jvo@tinyerp.com-20090210114437-txldg10c28dir6zr
 :4734 mga@tinyerp.com-20090219111740-9ep6b3zwdce8vxj5
-:6537 mra@tinyerp.com-20090622100701-hrm6f9fomzxh618r
+:8290 fabian@fabian-openerp-20100303155717-chnyxk3cl50sgi2b
 :4735 sso@tinyerp.com-20090219110910-8wq9nn7zk5ezhr9p
 :6534 dsh@tinyerp.com-20090622080035-1r6ntje32wkd32a5
 :6535 jvo@tinyerp.com-20090622084500-oz6obyjwc7kp5ifv
@@ -157,7 +156,6 @@
 :8294 olt@tinyerp.com-20100304112128-ouyv33gfh9e86zew
 :2315 jvo@tinyerp.com-da3080faa529ed1968b861b7eaf4058df14d3532
 :8297 dsh@tinyerp.com-20100304120611-0xg15ia9zx5m1eij
-:1987 mga@tinyerp.com-ddb0aa4995b44ed7d45c97fea03ecfff0db8d031
 :8296 dsh@tinyerp.com-20100304115719-9pr9o99shnoqe0cj
 :393 mra@tinyerp.com-dd5543a2c6b7034598dba5971a450cec47b7abed
 :392 mra@tinyerp.com-4ee7b4b97967c15b069f8bd2ffa27be4fd2e586f
@@ -333,7 +331,6 @@
 :8719 nel@tinyerp.com-20100610095120-yadxrwpxry57h3qh
 :5618 mra@tinyerp.com-20090506124803-xov8816in52yltng
 :5619 mra@tinyerp.com-20090506130117-n3fbhfb37238rfx7
-:5719 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::74
 :9330 neopolus@kami.es-20101214113539-vguh6xe9spy0n3k5
 :5612 mra@tinyerp.com-20090506101211-pz65pc1uw1kjgfxj
 :5613 mra@tinyerp.com-20090506104111-5hnsk0s8505f9v9q
@@ -347,6 +344,7 @@
 :10253 launchpad_translations_on_behalf_of_openerp-commiter-20120306050007-0hyurvgi238ghkg6
 :4668 vda@tinyerp.com-20090217122529-4f1ajcwz4pxwv8nz
 :7118 ysa@tinyerp.co.in-20091023103647-bynaqpi3ldq15o13
+:10252 jesteve@zikzakmedia.com-20120305164032-7a3497uo6ph4s1ru
 :9256 rvalyi@gmail.com-20101116185605-oa4gbnuqtkhrgk7r
 :9257 rvalyi@gmail.com-20101116191036-n47wedqc0i0v2nw5
 :9526 omar@pexego.es-20110304180830-q70353rxds6oe3nv
@@ -356,7 +354,7 @@
 :9521 lorenzo.battistini@agilebg.com-20110302112929-57g8p1db0p6b5zhc
 :9250 sebastien.beau@akretion.com.br-20101115192659-o3efwq97t9h1738l
 :367 nel-99e6a8073fea53f67452199c42783a81c73d2463
-:9251 sebastien.beau@akretion.com.br-20101116152033-9w9wu876zm9psfaj
+:9523 launchpad_translations_on_behalf_of_openerp-commiter-20110303060208-hr7zr3f8ufb5v61c
 :1983 mga@tinyerp.com-bf32719c60b7367bd6838248c65018aee773f204
 :6778 hda@hda-20090812135326-90a8cp5k73mwdqke
 :6779 jesteve@fontanilles-20090813100221-frht3gvdlyrl31bf
@@ -379,7 +377,6 @@
 :9968 jesteve@zikzakmedia.com-20110715142524-1h3ya9gt6kku3rkm
 :9969 guewen.baconnier@camptocamp.com-20110715143036-vb4ldrsmvjfep3x6
 :4664 nva@tinyerp.com-20090217112520-anb4ancblfrgfy0j
-:3580 fp@tinyerp.com-20081027075328-as07su5u9pf0nsdj
 :258 nel-ed50bc1e27a64e6a3c0e0b5ad93da2c19f6ffe7f
 :259 nel-5e250d2fedecd33f0a80bb41076e74f233eb9310
 :252 hmo@tinyerp.com-1aa6b958de60db4fe13a84e5767b39c33e49f2df
@@ -451,7 +448,6 @@
 :10182 jesteve@zikzakmedia.com-20120110163725-zf8euurzernrbs1a
 :10189 support@serpentcs.com-20120111211749-5axbjkt0xky155k0
 :10188 support@serpentcs.com-20120111205636-3dbpp32gradb6w27
-:8746 olt@tinyerp.com-20100615124519-axavdwmp5f6b3nkz
 :1159 mra@tinyerp.com-17fecf05a0dbacc7a1f43d6317ba93432fd5ffdd
 :1158 mra@tinyerp.com-fac27482992855c7fafc56349cd25aac05d343f9
 :1155 qdp-8335f8412fefa56255f95d64c58510edf9e2fa31
@@ -540,6 +536,7 @@
 :6907 mga@tinyerp.com-20090911163359-ugud9bhjj33llvzy
 :6450 fabian@fabian-openerp-20090610073519-wd303uehbp3utiao
 :6453 nch@tinyerp.com-20090610105147-a3ju1dga04hqxsrc
+:10437 launchpad_translations_on_behalf_of_openerp-commiter-20130105051721-o3g3ts6pqltfpn4v
 :6904 dsh@tinyerp.com-20090909064136-8hw2nqq1ngbptkwh
 :6903 dsh@tinyerp.com-20090909054735-brf9eucos9g7r2ne
 :8687 sharoonthomas@sharoonthomas-laptop-20100531082208-o6h3a93y4fj09u04
@@ -560,7 +557,7 @@
 :8136 qdp-launchpad@tinyerp.com-20100203095336-rjcdc11hgjnmagqd
 :8689 sharoonthomas@sharoonthomas-laptop-20100531083159-97uptxa3y85w9uj3
 :6187 sso@tinyerp.com-20090520130959-i8d42boh6khuubpt
-:9290 launchpad_translations_on_behalf_of_openerp-commiter-20101125050502-1qmcqrfhknro82ay
+:6186 dsh@tinyerp.com-20090520130345-21kfddoem2alpp54
 :6185 sso@tinyerp.com-20090520123709-qr3rvc13rsajfo9v
 :6184 sso@tinyerp.com-20090520121644-trv9vnnr2xerxnap
 :6183 olt@tinyerp.com-20090520121019-0sm5tz7rmxj1yh2y
@@ -580,7 +577,7 @@
 :2720 mga@tinyerp.com-2907b8c2e403fe16ded7f00bd9cbe04d4dd5decc
 :2729 mra@tinyerp.com-c31f2db9c77bdbb62af98b8c8e5db36a55dd8116
 :2728 mra@tinyerp.com-8b6acdcad310ee051ef4138dcf7e167d82ee22ad
-:9191 rvalyi@gmail.com-20101029175414-b9bx01ptw88t1sza
+:7236 qdp@cyan-20091109093728-yk51zpgpjkrtrboy
 :7237 ssi@tinyerp.co.in-20091109101911-qcb3lx88rge34qyf
 :7234 dsh@tinyerp.com-20091109061029-ca916fjm2hchajhn
 :7235 dsh@tinyerp.com-20091109065121-yf8qg09sxt79vwka
@@ -704,8 +701,7 @@
 :8358 olt@tinyerp.com-20100317130015-crxp4fmumbca8to5
 :9395 pso@tinyerp.com-20101229074235-au4w379923u5mag5
 :9394 jesteve@zikzakmedia.com-20101228124115-n8zfqkjzv3h18uu9
-:473 pmo-29b72ee9d03cd313e7d51470cd3587320e990e82
-:6437 fp@tinyerp.com-20090426104055-9ccyq8uyzrznmwf2
+:8192 olt@tinyerp.com-20100212145515-x8jw69y2xg2cv7f3
 :6436 fp@tinyerp.com-20090421074304-hfceo2tv8dk7vyl0
 :6435 fp@tinyerp.com-20090420060159-7k8cgljzk05xcm0l
 :8191 ssi@tinyerp.co.in-20100215070132-51mjy7g948g7f74u
@@ -739,7 +735,6 @@
 :9948 albert@nan-tic.com-20110707155515-a60w07qeb9hdu20h
 :9949 albert@nan-tic.com-20110708002442-sxhfauk8c1os1sjm
 :9390 launchpad_translations_on_behalf_of_openerp-commiter-20101226050302-63bbv0pufiu04slg
-:10342 launchpad_translations_on_behalf_of_openerp-commiter-20120602055707-hupd2pbauaukcbvf
 :238 pmo-a1cd8c615451a34ce90c2dfb5d3e10193f95b428
 :239 pmo-62a971f547aaf8f6a1258aa8506b525c8ec02353
 :234 pmo-44377889cde0ba92d6b6efa4f94863492d4ee2c0
@@ -752,6 +747,7 @@
 :233 pmo-9238a111b22ffcb016ce54114ee3fe73407087ff
 :475 pmo-516bb542e5aa3f8a2bf731742c907685e1f3c288
 :7673 jvo@tinyerp.com-20091222054431-0dqh03p5us2yp0av
+:38 hda@tinyerp.com-edd759c6ce4152ec470b101d6f56be3af4420b44
 :1537 mra@tinyerp.com-1b6e99d9d80ac02213828be69750df5d44b0c655
 :2538 qdp-9cc0f74b231e065391d5010f870f4dddc462f299
 :2539 qdp-057902b064b575815f1da5d092194d38dbbaacd5
@@ -827,6 +823,7 @@
 :1135 mra@tinyerp.com-fb24415467aadbc654322d84224c71defb301c16
 :1134 jvo@tinyerp.com-f841ecc0807db05fcbfa2af743bbc710bf08f4a1
 :2419 qdp-59818c24b77f6b48b4b7abf1967b951b711c8254
+:9144 philmer@linux-openerp-20100930160801-batreesrd3dpclne
 :4975 rpa@tinyerp.com-20090310133423-33m4ixgobz7162td
 :675 nel-594b785c52327ed6df65e3b1500e193bbdb3ec0f
 :7148 sharoonthomas@teagarden.in-20091029104852-rfwy31jwyt8o2ivb
@@ -848,7 +845,7 @@
 :8505 pso@tinyerp.com-20100416133632-fonkjmmwklsq6rdk
 :8504 ssi@tinyerp.com-20100416123737-f8586ll668hwcjd6
 :8507 codehost@crowberry-20100418035431-otbsh4bh037fvh1b
-:8506 codehost@crowberry-20100417042954-ws5vh75vau0i4kc8
+:8054 codehost@crowberry-20100122044238-m5c2fkxheg6ulq64
 :8509 olt@tinyerp.com-20100419094504-t09pmu94cpl6so5w
 :8508 codehost@crowberry-20100419035105-aavo8ym2xx3ltp9s
 :8059 qdp-launchpad@tinyerp.com-20100124185814-4u61hjbubf49w428
@@ -873,7 +870,7 @@
 :1920 sma@tinyerp.com-dba582a4ec89067f568a8dde0ca1063c62487516
 :1921 sma@tinyerp.com-f929d92cad64f03ac86057659cd22ecde90f2cbb
 :3274 mra@tinyerp.com-20080808130342-8428s14469pkvyr5
-:3275 jvo@tinyerp.com-20080808131149-7pw691evjr82qwtb
+:1923 sso-fa341c4d9b10565bb841ebbd88a5e84bc94e4453
 :1924 sso-c761730ed72c76e2a1b4ad0811d69ea3d192f7c3
 :1925 sso-b2331084103e2c5e03c718be694933220e176a25
 :3270 vinusoft85@gmail.com-20080808110522-4xufo2dcn8pybvhs
@@ -907,7 +904,7 @@
 :687 fp@tinyerp.com-ffe8a40088850951672f288ce25090fb3e2b4337
 :1570 qdp-e8331b5ef1e92a9ef8c569208d170c0b54c717c5
 :8769 codehost@crowberry-20100628035341-6jna75qbndxfvvis
-:680 nel-88dd8ddb19afc4d0c507b3beddb46cc1f7c8e92e
+:8768 codehost@crowberry-20100627035259-q2clyafdrwrrh1hm
 :683 kap-aa1c1ea090806659e3461587d2d16f4d24cb2977
 :1574 mra@tinyerp.com-db7434a6af0217ef5e247e727f01f410632a8039
 :6935 mga@tinyerp.com-20090915181630-5pbf9r7p5egbafie
@@ -917,7 +914,7 @@
 :10356 jesteve@zikzakmedia.com-20120628122048-uiyrx7ilhq9nfba3
 :10357 launchpad_translations_on_behalf_of_openerp-commiter-20120629044945-4bszpdkzo4sbu5zl
 :10350 launchpad_translations_on_behalf_of_openerp-commiter-20120620050419-h292h1otu7ie1dag
-:2708 mra@tinyerp.com-d21941dd77b7a7449fa63b320c679f0a77746af7
+:10351 jesteve@zikzakmedia.com-20120620182447-uc2qiynwl5ny04ha
 :10352 launchpad_translations_on_behalf_of_openerp-commiter-20120622045707-7p2u3xd0q7sgr1vr
 :10353 launchpad_translations_on_behalf_of_openerp-commiter-20120626054034-yuz9rztkf6235dky
 :2705 mra@tinyerp.com-425f344aab724d878d9ef6b4142f1ac1f00e0314
@@ -968,7 +965,7 @@
 :9715 neopolus@kami.es-20110416104952-di98x102vnjxapna
 :9714 neopolus@kami.es-20110416104718-yuckceh8i34ednpc
 :3474 qdp@tinyerp.com-20081009073617-jb37r322onsart1p
-:3475 qdp@tinyerp.com-20081009073827-g0so0yc9ll0rcjx0
+:833 qdp-badb94039c7f879ca399acd34e853d1bc2e10c64
 :3476 qdp@tinyerp.com-20081009101501-xzusmqe9d4zkgyjd
 :3477 nch@tinyerp.com-20081010080811-2j1yg522tqd2vq6n
 :3470 sahibsofia@gmail.com-20081008095512-x5qih55sjtxc6hwv
@@ -1027,7 +1024,7 @@
 :1589 mra@tinyerp.com-94c5280c1a290ca2df72af837970539e682bfa5c
 :9108 rvalyi@gmail.com-20100928030634-bhx1aj7lmxr9jhi4
 :1582 qdp-4f9d626ac92e88f9fbfb132ca4bf01266248287a
-:3315 mra@tinyerp.com-20080820083119-4ey34793dldi2f2f
+:1583 fp@tinyerp.com-f026868f674ffa3177b6e648b817d32d1964eb00
 :1580 qdp-22e0ed86d0f90cb72240b80193a641fd68f89f29
 :1581 qdp-920708bf5d3750cd9d3aa82f282fd3c67061233e
 :1586 mra@tinyerp.com-ae4f5c5337b0bb264aa2a32466766ff8bfd3d3bd
@@ -1037,12 +1034,13 @@
 :9106 rvalyi@gmail.com-20100928030538-9ipz2grqc6ec5f3a
 :5481 apa@tinyerp.com-20090427133852-r2h309wkar0aobz2
 :7938 mga@tinyerp.com-20100120115430-l9awq8ltpi9ybq5u
+:8633 borjals@pexego.es-20100520171042-iot70m8r9b80uyko
 :3316 mra@tinyerp.com-20080820085033-pwphr9s0l1eizsmq
 :7289 qdp@cyan-20091119111935-eymbhzeeca9jkxxn
 :9457 jesteve@zikzakmedia.com-20110118170834-wcftvbrkc1hmlhue
 :9450 alexis@via.ecp.fr-20110113001951-q0i0lb5jfdu8i7lz
 :9451 launchpad_translations_on_behalf_of_openerp-commiter-20110118053013-44nt6csuqeovzkr1
-:9100 alexis@via.ecp.fr-20100922194248-aswuitidrizd3cxk
+:9452 sebastien.beau@akretion.com.br-20110118100029-rz8e2617yhulgeso
 :5658 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::13
 :5659 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::14
 :5656 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::11
@@ -1206,7 +1204,7 @@
 :8076 vra@tinyerp.com-20100128092553-00psfv4yv50bixjy
 :633 nel-9a44f03d6c1c380d3baddf5f35a2289703c0a00a
 :1216 qdp-11d7c7faf7f0a1855d52d315706d58a97663da75
-:1217 qdp-38047a3c2c02774fc830ed93d267407442f43622
+:635 pmo-8072e2f07fb0256c55b685be4e621a4df2fdb467
 :1214 mra@tinyerp.com-76f0f05ccedca6ac5d2dfea0b96df9e1105e7720
 :1215 mra@tinyerp.com-ff778cc0568772a2c861e0f8dda1c7228f05cba3
 :1447 mra@tinyerp.com-f8db5acccccf549c584fc0d5f4ca33c9f6a13703
@@ -1235,7 +1233,7 @@
 :4725 mga@tinyerp.com-20090219074134-c66fvmo0r12jkt7u
 :4851 svn-v3-trunk0:10d1edec-8d52-0410-9712-ab945b9a1f9d:trunk:124
 :2300 dsh@tinyerp.com-934337e46189eb9e730a6b4bf685dd1551dcc044
-:6525 mra@tinyerp.com-20090619081401-7qjqlavv8yrf5sdb
+:8268 codehost@crowberry-20100228050104-q3zkgu06gtw1b2i0
 :4850 svn-v3-trunk0:10d1edec-8d52-0410-9712-ab945b9a1f9d:trunk:123
 :4727 sma@tinyerp.com-20090219082306-tgxfrnf87zjncwet
 :6524 rvalyi@rvalyi-laptop-20090619083537-by0w0c9kmkyxr4ri
@@ -1244,7 +1242,6 @@
 :4721 vinusoft85@gmail.com-20090218102934-ohgb7he78eht7xs1
 :4720 vinusoft85@gmail.com-20090218090512-ozm5d76d2l5cid10
 :8264 dsh@tinyerp.com-20100226135731-n2ihoydsj7gctwbv
-:4913 vda@tinyerp.com-20090305123908-mbqpn7kn3jzgsy5w
 :2307 dsh@tinyerp.com-f884dda713a9138d10dcf97030fb34451bb087e6
 :4789 christophe@tinyerp.com-20090225110039-iocqkyu0iefsqjn8
 :4788 mra@tinyerp.com-20090225105404-0c38xp98s1p2vh03
@@ -1271,7 +1268,6 @@
 :1801 sso-c1c2cd7fe6bd1cb86f9bbbf96763945d12825e1f
 :7914 ysa@tinyerp.co.in-20100112065712-yba8dcyz0nqtsogb
 :9674 christophe.chauvet@syleam.fr-20110414121157-0chxs7n8d8rjh3fu
-:1182 fp@tinyerp.com-11c5c7589455d06ecdaaf596d06577d033a0c1e3
 :9675 sebastien.lange@syleam.fr-20110403194611-a3j2g6jyipoofe8o
 :10451 launchpad_translations_on_behalf_of_openerp-commiter-20130209051407-xrtfl2qzcwhy86mf
 :10450 launchpad_translations_on_behalf_of_openerp-commiter-20130208044441-72spy2tvhl9q2n7u
@@ -1292,7 +1288,7 @@
 :3748 hmo@tinyerp.com-20081125133746-mklv3rczayoqc635
 :9678 rvalyi@gmail.com-20110404152153-3n93lmo8g0keimm7
 :10100 launchpad_translations_on_behalf_of_openerp-commiter-20111103053544-slbm9pm95ta0todr
-:9155 rpa@tinyerp.com-20101011131924-ci0aresuqpm5qwb2
+:10332 launchpad_translations_on_behalf_of_openerp-commiter-20120516051704-5bydtah7twf7uhlh
 :9154 launchpad_translations_on_behalf_of_openerp-commiter-20101011045221-nsrml3ntw1bn06g7
 :2769 mga@tinyerp.com-ca1400fae198e2b64d960b388cff9520de275791
 :2768 jvo@tinyerp.com-2422e9f401c137dc6082a44da378d391c8d54524
@@ -1316,7 +1312,7 @@
 :7901 ysa@tinyerp.co.in-20100111085033-nddlnyfxlrpjh2lf
 :7902 ysa@tinyerp.co.in-20100111092922-c166x00ncnzwuc9n
 :7903 ysa@tinyerp.co.in-20100111094919-8op7uglwnukodtkc
-:7904 hda@tinyerp.com-20100111105446-9dq3far6xrggtfzq
+:9487 joel.grandguillaume@camptocamp.com-20110214132010-x3cwrwp25y93w6c7
 :9486 joel.grandguillaume@camptocamp.com-20110214112921-jct8o8vlj6g1fijd
 :7906 dsh@tinyerp.com-20100111122343-1redm6lz7kexi70e
 :7907 apa@tinyerp.com-20100111132845-r0vhv1cvq85p54or
@@ -1377,13 +1373,12 @@
 :3064 fabian@tinyerp.com-20080715113850-5967ae7vms4o3itt
 :3069 fabian@tinyerp.com-20080715143643-t6e21uip1vwa5lgc
 :3068 dsh@tinyerp.com-20080715132009-ko3shufbqqsf6ave
-:7466 mra@tinyerp.com-20091209051427-mx3yie5acllgcrrq
 :4267 nch@tinyerp.com-20090119114152-0obpw3behvxs8nja
 :10015 launchpad_translations_on_behalf_of_openerp-commiter-20110827062821-3dezdgunj7azs2hr
 :7575 ysa@tinyerp.co.in-20091214143011-u957v1rk31834ijm
 :7574 ysa@tinyerp.co.in-20091214141424-g6ivl5r2eacp1268
 :4269 hmo@tinyerp.com-20090119132942-5jw661xylmcfhpnb
-:7579 mra@tinyerp.com-20091215050202-6pmp1mfy3r883c31
+:9814 alexis@via.ecp.fr-20110530153748-ovu44t1tbt6v4212
 :9815 alexis@via.ecp.fr-20110530171209-o9nvqha5732mojaa
 :3260 vinusoft85@gmail.com-20080808094418-gs6j64twl72fsiab
 :1304 mra@tinyerp.com-f7d456da46a486c6a8b4f29e745fc5517132c667
@@ -1438,7 +1433,7 @@
 :3931 jvo@tinyerp.com-20081223060916-d52aeptill1bzhgx
 :3930 mga@tinyerp.com-20081223050111-0tjsu2odprefb2l8
 :3933 mra@tinyerp.com-20081223063638-or103jdpk423vguf
-:9532 albert@nan-tic.com-20110306122048-ic13ce95j4gw3f8s
+:9244 alexis@via.ecp.fr-20101001210521-dh2dq308vocz083t
 :1241 jvo@tinyerp.com-71c15a695b463c2ba5fbac3927ddadfd26f8feaf
 :8333 olt@tinyerp.com-20100312083249-hrx5918x3ktgn38l
 :8330 olt@tinyerp.com-20100312080221-38i570iadtgbpr36
@@ -1509,7 +1504,7 @@
 :5039 rpa@tinyerp.com-20090319100826-2hdfh2ne6kgi31zp
 :5036 hmo@tinyerp.com-20090319060747-5omby54tfr44ke1s
 :5037 hmo@tinyerp.com-20090319074459-xod028efk784n24k
-:5034 hmo@tinyerp.com-20090318125134-ywp6lsse5u9ffcbs
+:3599 fp@tinyerp.com-20081103192208-vhy79jeffwjidl9v
 :5035 hmo@tinyerp.com-20090318142426-5zun6hhym11q159a
 :5032 rvalyi@gmail.com-20090318100425-ulwu94v6l1kxbz9m
 :5033 rvalyi@gmail.com-20090318103834-lhjkihqq4wtk0ts2
@@ -1537,7 +1532,6 @@
 :978 mra@tinyerp.com-74be6520851154f2af4d8ee2e5793acfdaee1e2a
 :871 nel-1d1ca4067858e3b91fcf2726b7c71a3d7c9cca44
 :5808 stephane@tinyerp.com-20090323145718-2jgtaqwnlassl98q
-:10125 resteve@zikzakmedia.com-20111208075629-acw8evkai4wvbj8o
 :8756 codehost@crowberry-20100619035634-3xhqke4m82ns5np0
 :10124 resteve@zikzakmedia.com-20111208075117-qbbmxsukn6hunpai
 :10475 launchpad_translations_on_behalf_of_openerp-commiter-20130611060506-7neb4npnuquy3xd5
@@ -1588,7 +1582,6 @@
 :1686 dra-e7fbb6909a9938027ff0af6b7a04b753d806a117
 :1689 qdp-2611f4a7313a3afd9dd3b0bbd9d02f73088f003d
 :1688 fp@tinyerp.com-237bd1dbe5abd7350c05fee6faa1cb7cc0075b78
-:5419 nel@tinyerp.com-20090422125528-fkbo701xvx6l9vcp
 :1469 jvo@tinyerp.com-bcb1f234910056856457c9982dca092502ff1daa
 :1468 mra@tinyerp.com-278ae7cfde3f7d491584a58e445c92c977952c67
 :1465 jvo@tinyerp.com-5e94710586c380a30dbcb4e0d596c3c9d8ae311b
@@ -1642,7 +1635,6 @@
 :7970 apa@tinyerp.com-20100118085017-tywqvdh0q5rhvro8
 :6936 mga@tinyerp.com-20090915181828-jdzxw0f0e38rpt97
 :4673 sma@tinyerp.com-20090212103741-g24haml37xdly3qb
-:7973 dsh@tinyerp.com-20100118113311-68ux8bjglbvinlrl
 :6937 mga@tinyerp.com-20090915182503-34xatm5xu9jou62b
 :2299 chs@tinyerp.com-8834d34131cd4ef7d5f74d53a648b4daf990f537
 :2298 chs@tinyerp.com-64010b7db7aaba81f1198d30d966548d8a129b73
@@ -1679,9 +1671,10 @@
 :9138 launchpad_translations_on_behalf_of_openerp-commiter-20100929053205-2xjbfr8bmzp7jamd
 :10314 alexis@via.ecp.fr-20120425160359-la9g306x4ua5vspq
 :10315 alexis@via.ecp.fr-20120425173044-ffdt23w1rs22c6qe
-:7928 ysa@tinyerp.co.in-20100113083836-p3d7vckoe01veqyi
+:10316 alexis@via.ecp.fr-20120425182613-58p9xvrvr9qgzegz
 :10317 alexis@via.ecp.fr-20120425185721-t0pdn41cg3fbldpr
-:38 hda@tinyerp.com-edd759c6ce4152ec470b101d6f56be3af4420b44
+:7705 ssi@tinyerp.co.in-20091224130524-1awubekkafxior5w
+:6537 mra@tinyerp.com-20090622100701-hrm6f9fomzxh618r
 :6299 sma@tinyerp.com-20090528111948-pm7pc7q8qls3wnnq
 :6298 sma@tinyerp.com-20090528111208-dp5yauinac3likp9
 :6297 sbh@tinyerp.com-20090528105203-oeusikglc5mcit76
@@ -1707,13 +1700,13 @@
 :3435 planetmail@pm-test-srv-20080919140532-66ccvukckwxz3axd
 :3436 jesteve@alba-20080921185436-gt0eg37se5f51243
 :3437 sahibsofia@gmail.com-20080922073401-ttcdy622noq75gco
-:2741 dsh@tinyerp.com-21fdcf4297aac5572835373c603fe4e142d75601
+:4592 nch@tinyerp.com-20090210072715-puhjptcs9hvcdjsv
 :2740 mra@tinyerp.com-673d5c2f5296d2210794570dd4c320fb2a99c397
 :4590 noz@tinyerp.com-20090210064850-smlkwyg2b5u8prs7
 :2742 mga@tinyerp.com-ccc49a076fda74d1db9884c19097aa6e64683eb4
 :4596 nch@tinyerp.com-20090210104108-qa043nwl5thom2ep
 :2744 mga@tinyerp.com-119cb6898d5bd56c5ba9d71ade664f9fd5638294
-:4594 stephane@tinyerp.com-20090210100305-9p78bnf0g3nk6cgq
+:2747 qdp-5b0e4674deba590d897f1269c3dfbf5445973dfb
 :2030 dra-23caea5af7280ccb56990fdcaf9e888317d2e53e
 :2749 dsh@tinyerp.com-456f51bc9bce566ec2dd9aa867f6107dc4d11378
 :2748 dsh@tinyerp.com-768623b19bbb7bd49bea88ea7a219d7615958ba6
@@ -1745,7 +1738,6 @@
 :3044 fbs-70b1c13ba666149e7523acf0a4b826fa774881d7
 :3047 fp@tinyerp.com-055ec3d162e1c93198cad15ae64475ccb7d6224e
 :3046 olt-9f2efc8a42aec6124c05a8eaa4b13a0102055468
-:4568 jvo@tinyerp.com-20090209074234-p3jr13va9jxqds23
 :1913 sso-a6736f2a846541aeabda090939fcc8e6c4ac9fe9
 :1094 mra@tinyerp.com-0172e18256c2543d96823ec656b1e062c17653fc
 :1095 jvo@tinyerp.com-46f399f0929f3cbbf007bd81987cd18e3fa513cf
@@ -1902,7 +1894,6 @@
 :10103 launchpad_translations_on_behalf_of_openerp-commiter-20111109051412-2e7ae2x5809n8sun
 :10102 launchpad_translations_on_behalf_of_openerp-commiter-20111108061753-99hub4mff9mvojk3
 :6065 mga@tinyerp.com-20090513091030-q4re2li4nthj9jtn
-:2171 rpa-3c6e2b12b6e9425c9bfb23697e7618d1fd68999b
 :8909 nel@tinyerp.com-20100823123515-xkg0je4tseu96giu
 :8908 nel@tinyerp.com-20100823120119-uz1vrae9pvtzagmt
 :8905 codehost@crowberry-20100822035725-nxgk17xp88swod5d
@@ -1968,7 +1959,7 @@
 :5413 mga@tinyerp.com-20090422192656-q77zuafw72c4q5kz
 :1490 fp@tinyerp.com-3cafe248777b2d7adbe5c60ddde2325395ba7de1
 :5418 sma@tinyerp.com-20090422111323-c85rjv9rm3anxzn1
-:3964 qdp@tinyerp.com-20081230095953-rxwgcx5t0qcnywtk
+:5419 nel@tinyerp.com-20090422125528-fkbo701xvx6l9vcp
 :3388 sahibsofia@gmail.com-20080909075837-1wnihawiqc7i9xrc
 :3389 fabian@tinyerp.com-20080909110333-dwga71871dm76fl0
 :1409 fp@tinyerp.com-0427688577649b3d2e0a289d6459419ba4fa4b0d
@@ -1991,7 +1982,7 @@
 :4212 fp@tinyerp.com-20090115121926-37jy8tdbdg9rjykl
 :3961 qdp@tinyerp.com-20081230095131-am3flbrmmlxoeuja
 :4219 fp@tinyerp.com-20090115142607-e14x1ncnd9v06w82
-:690 ced-c9a8c2d90df2b4672c6b0f16d8b52189d326c326
+:4218 fp@tinyerp.com-20090115140000-nbhqmsb29npupkfx
 :691 ced-da93b22f0a8afcfe4493341570fe3742df5d0fdd
 :696 dsh@tinyerp.com-7d5d4e7a6f9d3bd9c621000d8ead88ae280d947d
 :697 dsh@tinyerp.com-c1b4cf799e734fa610abe50c309c275a20fe1df2
@@ -2025,7 +2016,7 @@
 :332 hmo@tinyerp.com-1ff184ee8ce918df15495f57d20320f24328fe03
 :3269 vinusoft85@gmail.com-20080808105728-txsg9yp79oy5xekf
 :3268 vinusoft85@gmail.com-20080808105004-z2y5ccr3eelata26
-:5126 vinusoft85@gmail.com-20090310123344-x10dmtays53czmqy
+:1939 sma@tinyerp.com-f47bb2ef2fab27c45a816de6cc1c4faee2e9bebe
 :1938 sma@tinyerp.com-cdf4d9e14edd3a7faf7e20c5455b561324ddc3b2
 :1495 fp@tinyerp.com-0908cdec451717398ece34f571c49d6c6b9b65c6
 :5000 christophe@tinyerp.com-20090313093324-jn8k08c9k6df5jft
@@ -2053,6 +2044,7 @@
 :9114 rvalyi@gmail.com-20100928040958-lu0vl6mqf7ttqjmw
 :9117 rvalyi@gmail.com-20100928041113-dy4jxqq97opd9j9w
 :9116 rvalyi@gmail.com-20100928041045-cl1zo8yoqsek70ug
+:5905 stephane@tinyerp.com-20090416102824-jummfn7yzvs48tvd
 :8029 apa@tinyerp.com-20100120093615-byy3zycqggkryqba
 :7958 olt@tinyerp.com-20100115095204-72el5wuqtfgz8mz5
 :3416 sahibsofia@gmail.com-20080916112656-6wemm23uigpd1ym2
@@ -2087,18 +2079,17 @@
 :2013 sso-7b860903c87cf90006e4db9bdd30760aa97c30aa
 :2012 qdp-566dfcd70bdf0ce934e23a53d65463a07a051c1d
 :9454 sebastien.beau@akretion.com.br-20110118153924-ravkbfzl5fq12ktu
-:9032 rvalyi@gmail.com-20091104055103-so3mebp0ewgvsyoh
+:10259 launchpad_translations_on_behalf_of_openerp-commiter-20120308050942-lluolh1zq2a3cs11
 :10258 launchpad_translations_on_behalf_of_openerp-commiter-20120307054859-x74al3ldvd7h9c5w
 :1936 sso-ddd4cbe8015a7b763b1c471b3aaf01387d7e241d
 :9034 rvalyi@gmail.com-20091105035156-uopxs6hq26a79faz
-:9195 launchpad_translations_on_behalf_of_openerp-commiter-20101101051927-ituv4f17zajy8zr9
 :4892 xafer@apophis-20090303122556-wa6yd00fgthtfihd
 :7019 mra@tinyerp.com-20091008071001-1modoqam27qeatua
 :1935 fp@tinyerp.com-210533cee612897f79bc7abc9e59bf8dd80d5e2a
 :7016 ssi@tinyerp.co.in-20091008060703-zkbw2jjzarib17fe
 :10250 jesteve@zikzakmedia.com-20120302192750-9e7db3ghs40ryt0t
 :9038 rvalyi@gmail.com-20091105071252-vmiotnmj63xxi66s
-:7015 rpa@tinyerp.com-20091007111833-0rwpq5n89xihde3n
+:9039 rvalyi@gmail.com-20091111130752-90feb79khdd9hcyt
 :7012 ssi@tinyerp.co.in-20091007101353-m42j0lbxd7up7428
 :7013 rpa@tinyerp.com-20091007102154-1yl9wl9sredhigzr
 :9447 office@chricar.at-20110117114318-e285v7qx126mrfe3
@@ -2112,6 +2103,7 @@
 :9442 jesteve@zikzakmedia.com-20110115123314-hgctfsyid303bpl3
 :9441 launchpad_translations_on_behalf_of_openerp-commiter-20110115061510-2peo2uywhzsbqj8l
 :9440 office@chricar.at-20110116194212-xo0hdkgm0oqjpkfa
+:10286 resteve@zikzakmedia.com-20120411153803-3u1ls7h4h4gpaszu
 :1348 hmo@tinyerp.com-be5dc5bf92cca769860f378b5db4214b6962eb2a
 :459 nel-c176c57cb8044ba1eec11ecefe732ad7cc0c3c15
 :1340 mra@tinyerp.com-1844baa5d2b814fe380e50f2680a11c6cdead074
@@ -2154,7 +2146,6 @@
 :8373 qdp-launchpad@tinyerp.com-20100319145720-g617418un2ikdd9h
 :8370 ysa@tinyerp.co.in-20100319122314-sv6wamxhrqc0sqd4
 :8371 ysa@tinyerp.co.in-20100319123559-xxb9ll3ji0ch893e
-:833 qdp-badb94039c7f879ca399acd34e853d1bc2e10c64
 :8378 codehost@crowberry-20100322045119-twljpr2bjxzcxbls
 :8379 mra@tinyerp.com-20100322130404-p7mxsfa6x4g7u2xp
 :8074 ssi@tinyerp.co.in-20100128091459-jnysx6ae3x8ukixh
@@ -2194,7 +2185,6 @@
 :3627 fabian@tinyerp.com-20081110091035-pvx0b8iduhrmc3c5
 :3626 nch@tinyerp.com-20081107134935-8qpl0ppjwhqcvi92
 :8142 codehost@crowberry-20100204045229-i7qnwn8d4yd3dmzi
-:6446 pso@tinyerp.com-20090609152621-w4ek3efvn7vrvb59
 :4479 hmo@tinyerp.com-20090203132832-h3w3jarwa8gpx9ww
 :4478 jvo@tinyerp.com-20090203132603-jp6bgg1fyj2nffjc
 :2955 mra@tinyerp.com-d91e4962c4f8e79d84a64f6a6bdcda8a51ae0a12
@@ -2211,7 +2201,7 @@
 :2465 jvo@tinyerp.com-73bc6450ab1b459e254d6d0fba885de8b810a64f
 :2466 sso-509dabcc4d56cd93d4a0ac2022f914ab661713d8
 :2467 sso-2d4d47a378345e30a4518eb12caf31343bd0b331
-:2460 qdp-16df7af54883c8c7e965b1800140ebb637aa206c
+:6444 jra@jra-20090609134929-egxifgnxc0qivyb3
 :2461 jvo@tinyerp.com-1e96a90c1fd85370b826d5331834139ea0861568
 :2462 qdp-4b0fb6057d0ede51f2e4582f7483805ac3c1fbbf
 :2463 mra@tinyerp.com-91f22a96ff0395fab717b9a80d966b7bd9bac507
@@ -2220,7 +2210,7 @@
 :5347 jvo@tinyerp.com-20090415112847-rnf68ah0vilmofws
 :5340 dsh@tinyerp.com-20090414094854-thodlfaxffnfi7q0
 :1020 mra@tinyerp.com-3e94e2058adc2fa4f72d8e46fcf0fca9bf69a4db
-:5342 mra@tinyerp.com-20090414114104-s6en9clafv9037ve
+:1023 mra@tinyerp.com-1b637078883bfecdd3693bf5bdfc4dc4ec5f01d8
 :1022 mra@tinyerp.com-78fdc2701a8263c9a96f9d68a9fe79212ea2ffd7
 :6312 mra@tinyerp.com-20090529095817-owg6thgg2z72i6wn
 :6313 vda@tinyerp.com-20090529113250-v25t116f0r2081mg
@@ -2233,9 +2223,9 @@
 :8530 codehost@crowberry-20100423035424-leziqv7bq6xhzptg
 :6318 sso@tinyerp.com-20090530133650-9t5711z7bpt870pe
 :6319 dsh@tinyerp.com-20090530140951-vijr83d40p265w2r
-:1029 mra@tinyerp.com-1186af94c5ce656e963a224db9865531f1f6e4b2
+:5348 rpa@tinyerp.com-20090415133808-s0trdhxhfagb0jly
 :3411 qdp@tinyerp.com-20080916081459-h1y6u4mzktmbpl06
-:1028 mra@tinyerp.com-08eadc3b3ce444f368a3f62522d92daa447dbec1
+:5349 mga@tinyerp.com-20090409070602-5au6m63d986uwooo
 :10439 launchpad_translations_on_behalf_of_openerp-commiter-20130110050422-wxgqps96z391xp7b
 :9653 launchpad_translations_on_behalf_of_openerp-commiter-20110331063628-28brpf6c62xpajgb
 :9650 ovnicraft@gmail.com-20110329170137-dq6hg8oe7ub6ok9z
@@ -2250,7 +2240,7 @@
 :10432 launchpad_translations_on_behalf_of_openerp-commiter-20121228052004-u5c3flwaqtwa3z6s
 :10435 launchpad_translations_on_behalf_of_openerp-commiter-20130101045416-devgd9exiiqr9ulj
 :9301 launchpad_translations_on_behalf_of_openerp-commiter-20101129050600-o5qv6n83ufw8xgf9
-:10437 launchpad_translations_on_behalf_of_openerp-commiter-20130105051721-o3g3ts6pqltfpn4v
+:9302 launchpad_translations_on_behalf_of_openerp-commiter-20101130050329-iokk1azzlek6f81e
 :10436 launchpad_translations_on_behalf_of_openerp-commiter-20130102044726-0ky4isttxk99yv5i
 :8969 rvalyi@gmail.com-20091021071929-tge9vv4xbevicx9j
 :8968 sharoonthomas@teagarden.in-20091019192854-x6a239jrbf4xu5lg
@@ -2263,7 +2253,6 @@
 :8965 rvalyi@rvalyi-laptop-20091018214916-vy3iay1grgc7dvvf
 :8964 sharoonthomas@teagarden.in-20091018155912-d5504i1h3gukihyw
 :9455 rvalyi@gmail.com-20110118162313-qxzomfccxeud9tgg
-:6441 fp@tinyerp.com-20090603105046-nzmg1fzu0u76qm1o
 :1645 sso-e186c3b58c98ec74db7c300e681c65e356e67959
 :1644 hmo@tinyerp.com-d91c276393742cbc332a3f284106e3f660bf3716
 :1647 mra@tinyerp.com-83278b0063d89af7560746ccc815503de1e97aca
@@ -2277,6 +2266,7 @@
 :9456 jesteve@zikzakmedia.com-20110118170515-dzbq69gljgo29b1p
 :579 fp@tinyerp.com-396a9d7d07da63374741f8e18025cbddf0f2f4b1
 :578 mra@tinyerp.com-5aac06b125ec92a72316c2bb4567c2dbcc4ca14b
+:4987 christophe@tinyerp.com-20090311170208-m4vyp0g2vc6y72ha
 :573 mra@tinyerp.com-9b05c3ad9ce8a1a050e608d3c33f6f7b314d8924
 :572 nel-492dfc088f8fb7874a6e48e75d2a5880280b6369
 :571 fp@tinyerp.com-5b6f431f4563a31d4e61a240ec49944f3c68da7f
@@ -2448,7 +2438,6 @@
 :2076 mra@tinyerp.com-8fb01454d8e1ebef6926df82b55224b294afdb11
 :2075 mra@tinyerp.com-a791fba79af9144d38c79c51e8363f9c39c64a90
 :2074 mra@tinyerp.com-287e8c71e63f88ad2f14fe0a045bf9722860f37c
-:8790 ksa@tinyerp.co.in-20100706064727-1na1rj6iw508ik2s
 :9610 albert@nan-tic.com-20110326231952-uf52juwjjehy9zpx
 :9793 jesteve@zikzakmedia.com-20110520165730-zigzs4cl7doq71nc
 :9792 jesteve@zikzakmedia.com-20110520161937-5iwa2ghj5m2vyeyt
@@ -2480,7 +2469,7 @@
 :8171 pso@tinyerp.com-20100211113107-2br7ccdtm91ghjq0
 :8172 ssi@tinyerp.co.in-20100211114826-51ag7c66mm6ws6eb
 :8173 ssi@tinyerp.co.in-20100211115030-rve8zf9bg7z9bv7o
-:8174 ssi@tinyerp.co.in-20100211115854-7i4g46m17natecn8
+:6491 rvalyi@rvalyi-laptop-20090616163248-5vl8auwxv1u0zkx0
 :8175 ssi@tinyerp.co.in-20100211121632-96o8vm4fh4tdzdpr
 :6493 rvalyi@rvalyi-laptop-20090616163708-ebntw7kzwrkljb42
 :6492 rvalyi@rvalyi-laptop-20090616163427-asylwzvp90sv2g4o
@@ -2636,11 +2625,11 @@
 :3390 fp@tinyerp.com-20080922080007-1fw3yng8tu1jvkex
 :3393 mansuri.sananaz@gmail.com-20080910123647-2ag1a4dvzw5jt3pz
 :5404 sma@tinyerp.com-20090421060220-t7uy6u01fn4mxllj
-:1432 jvo@tinyerp.com-b6c0b8855e24cb045d7e421023d8dd8f68dd25b8
+:5403 fp@tinyerp.com-20090422192414-rke20j736h6dx9j7
 :5402 hmo@tinyerp.com-20090420140738-z0ptb2iv6i7u3g75
 :3207 vinusoft85@gmail.com-20080804073316-yjy86mi16o5dl8ab
 :1990 sso-c4d0d25ced8482c8387845c3f9d6714268efe4ac
-:1993 sso-ceaf974440d36677ea3bfe2ab3223fe0fb2a7f4c
+:1621 mra@tinyerp.com-557cc618c9ff48bd621175d9b2a72fc0f26e90f4
 :1620 mga@tinyerp.com-58e71d3e23d30b32bbbeb8051ec51196d556a12a
 :1627 jvo@tinyerp.com-9386f47a9d0d8f94a6ac0258859ef7c3cfb34877
 :3202 vinusoft85@gmail.com-20080801090923-ez408m1455zw7xke
@@ -2767,7 +2756,6 @@
 :377 mra@tinyerp.com-421949299390aeba48f6292822f75652a9de039a
 :376 mra@tinyerp.com-a40287b8395a9f4ef8b000d9268e879d4e6dde37
 :5107 asb@tinyerp.com-20090326060526-3hkeouu2joo3qm3d
-:3205 dsh@tinyerp.com-20080801131120-3ffrfa2i74la8aik
 :6143 mitesh.patel1119@gmail.com-20090518114958-ym7pcweqvh1h5si1
 :6142 vinusoft85@gmail.com-20090518110308-dkizcj7lhw60b7no
 :6141 vinusoft85@gmail.com-20090518102116-fa5gbdygw2761vj4
@@ -2786,13 +2774,13 @@
 :6922 ssi@tinyerp.co.in-20090914134735-s5l7bupuzjhui4uo
 :3203 vinusoft85@gmail.com-20080801094313-6wspmz2ynjzasn8t
 :2275 mra@tinyerp.com-4df542d9407723d10c5f99ed7e6e8cee98a16d7f
-:9762 vpa@tinyerp.com-20110505110019-l3dm67ripslsrj46
+:2274 sso-eb277f9c20e8931b40f615f82c0d7d45f8982341
 :2277 dsh@tinyerp.com-045059194019d2a06e43d8db39cba7e02bf5b372
 :2276 sso-4620b62d17901763b1418d991c99bae8aa995777
 :2271 jvo@tinyerp.com-309ab85e8f834955c2338fe5e092a67aa7ca7001
 :2270 jvo@tinyerp.com-8b4ae4a09b882f73d9b7463a6662b342b31b5216
 :2273 fbs-8c73e8aa79a5447e7dafbe975ed0f78eb9a80c9f
-:2272 jvo@tinyerp.com-d55589b80fbe4e49622b46820bc8fabbe2ec728b
+:9763 jesteve@zikzakmedia.com-20110505191741-61xquntnmiz0bh6a
 :2279 mga@tinyerp.com-9b5a022271a7ce540fb64795af175cc0ae31971b
 :2278 hda@tinyerp.com-ad30a5372a586b4e08abd80ac1043f7f31b1a071
 :5543 sbh@tinyerp.com-20090504131008-3c0p1uwx68htxdt1
@@ -2814,12 +2802,12 @@
 :4530 jra@tinyerp.com-20090205102712-we0njga1gvnfzg8q
 :4531 vda@tinyerp.com-20090205104417-7nczey0yssnr38qt
 :4532 jvo@tinyerp.com-20090205110249-sh12mcxurqm51kl7
-:4821 fp@tinyerp.com-20090227122830-yk16trl7iz20z8bw
+:4533 jvo@tinyerp.com-20090205115706-mv0r7ivkberhp8cq
 :9403 alexis@via.ecp.fr-20101229184308-t5bmm7g4e71k9tqa
 :7981 ssi@tinyerp.co.in-20100119054828-xd92uokk6u4tz5ol
 :9401 alexis@via.ecp.fr-20101229111938-pvrtfu6vl1uulhcs
 :7983 apa@tinyerp.com-20100119062522-4s8h2qy4y3v2zioj
-:7984 apa@tinyerp.com-20100119063735-vth9a0owmvwtv83z
+:9407 rvalyi@gmail.com-20101231204649-bd26dshj7y0im9pz
 :9406 launchpad_translations_on_behalf_of_openerp-commiter-20101231053950-2o89zelpwdj1btxx
 :7986 pso@tinyerp.com-20100119073047-f6wz73l55ph4zvx9
 :7987 dsh@tinyerp.com-20100119083642-e4sigblhve8uria2
@@ -2872,7 +2860,7 @@
 :6966 mga@tinyerp.com-20090923142137-h13kw5al3uawyn0d
 :8156 ssi@tinyerp.co.in-20100209062529-d1d3fuug07qgk4pw
 :8157 vra@tinyerp.com-20100209072736-23lsgritthn5inua
-:8154 fabian@fabian-openerp-20100208131618-knmywemyr8pp6dyb
+:8626 nel@tinyerp.com-20100518140052-7e4ibp9b2k6fxojt
 :8627 borjals@pexego.es-20100518144216-xzpf10901aqqstgv
 :8152 qdp-launchpad@tinyerp.com-20100205155813-g9up2vp9rj1kl9db
 :8621 codehost@crowberry-20100518052932-wx27zr7j61yo89tb
@@ -2973,7 +2961,7 @@
 :9345 maxime.chambreuil@savoirfairelinux.com-20101202133030-5t2rj6vjwmw7xzlx
 :10169 viktor.nagy@toolpart.hu-20111227084102-bicsxumzbyv02pzh
 :9347 maxime.chambreuil@savoirfairelinux.com-20101202235051-303s5b08n1x07ecz
-:9348 maxime.chambreuil@savoirfairelinux.com-20101203144820-a5gf0ioze5ddmxjf
+:10167 viktor.nagy@toolpart.hu-20111107102810-tjz1egsozxuk7czl
 :9349 maxime.chambreuil@savoirfairelinux.com-20101203154154-5xi4fxosox72i0yn
 :10165 viktor.nagy@toolpart.hu-20111107090759-f2erlbt4tlglqxlg
 :10164 viktor.nagy@toolpart.hu-20111227083116-zbt5lp68fx5xi1bj
@@ -3067,7 +3055,7 @@
 :538 mra@tinyerp.com-07d09a1d83ec5727928f2565c5ad35cd1d64fc3a
 :10028 sbh@tinyerp.com-20110901133034-k2lu3ickizgsx3mz
 :10029 sbh@tinyerp.com-20110902094823-wd066bd4c3edj8b3
-:3294 sahibsofia@gmail.com-20080813135614-zhu7jzlpywl5y0j9
+:5137 vinusoft85@gmail.com-20090323133203-h3qvatvy3lw9bwyb
 :1907 sso-59b8d986bc250421ff63fac94c58cfe4135f604b
 :1904 mra@tinyerp.com-a9259988eab173f734693650babe7fb8cceecaa4
 :6518 fabian@fabian-openerp-20090618124454-htec1g7hm6aof7gz
@@ -3080,7 +3068,7 @@
 :6514 pso@tinyerp.com-20090618092738-x0072d77wcw6vu92
 :6515 sso@tinyerp.com-20090618095611-jv8ibv1lp8ks8n4z
 :6516 fabian@fabian-openerp-20090618105639-0gkplyzwycrh2z44
-:3291 sahibsofia@gmail.com-20080813103559-39v9wadg3va6ggwo
+:5132 vinusoft85@gmail.com-20090317134309-emn4vdv5xa4c1x7s
 :1900 mra@tinyerp.com-a4770ff45343ba1688a8cd9ecad42a6470763e85
 :5130 mga@tinyerp.com-20090312102516-u5sgixowhpa23u1b
 :9778 jesteve@zikzakmedia.com-20110511145847-y8vr6uuqkbwilgi3
@@ -3173,7 +3161,7 @@
 :7615 mga@tinyerp.com-20091215183449-hx6csh65mwmw85bt
 :7294 dsh@tinyerp.com-20091119130113-dtrdffgqqpgzw6q3
 :9025 rvalyi@gmail.com-20091208070504-9hhqx5s3surfrt5y
-:7000 rpa@tinyerp.com-20091006082608-ja5ixpz2pimgan0f
+:10243 launchpad_translations_on_behalf_of_openerp-commiter-20120302045709-h7pddk8xge3a8pdu
 :6406 sma@tinyerp.com-20090605133946-x5g77pm0i8ht7jxo
 :7003 rpa@tinyerp.com-20091006095102-p8sfgizkx4o33vcw
 :7302 mga@tinyerp.com-20091123085425-tg072t2hspwxn9em
@@ -3195,6 +3183,7 @@
 :10244 jesteve@zikzakmedia.com-20120302172708-vg09qdz6gshag6c7
 :6407 pso@tinyerp.com-20090605143108-b55up13bedwqky1l
 :9022 rvalyi@gmail.com-20091127173226-x9iijgyr79j7qdli
+:10060 launchpad_translations_on_behalf_of_openerp-commiter-20111004051504-rrw5injpbrbax1pd
 :9490 rvalyi@gmail.com-20110204102356-4390t9et2dg5wlh6
 :9477 jesteve@zikzakmedia.com-20110211203829-dwm1r9oh2x3m5j4k
 :10206 launchpad_translations_on_behalf_of_openerp-commiter-20120125054041-otuyd5tbz2h081t8
@@ -3279,9 +3268,12 @@
 :5701 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::56
 :5702 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::57
 :5703 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::58
+:3315 mra@tinyerp.com-20080820083119-4ey34793dldi2f2f
 :1434 jvo@tinyerp.com-a82a1bef28ac6a07d3e7f43f66cd9803f3aecf5c
 :1435 qdp-54c46dd623ae15bcd1d4151e127dfde8383e77c6
 :9101 rvalyi@gmail.com-20100923154608-ii24kibywkezc3uk
+:1432 jvo@tinyerp.com-b6c0b8855e24cb045d7e421023d8dd8f68dd25b8
+:2460 qdp-16df7af54883c8c7e965b1800140ebb637aa206c
 :1050 mra@tinyerp.com-19742003624c1587afaf4a050a4a787a3ab47a66
 :1051 mra@tinyerp.com-9c715f2e7e96ab952c144ccc6bc38b36b27e9fd7
 :9652 jesteve@zikzakmedia.com-20110330142714-vetqu1y9rdj4yp2f
@@ -3322,7 +3314,7 @@
 :1833 sso-47f7dff26e4850298248018f22057364a25053c9
 :1830 sso-b246d6764b9c76d38980124bcaffad9d221241b0
 :1831 qdp-316122b5a2baaf016b0f0c7c2a21c437215261f7
-:1836 fp@tinyerp.com-46fc990e271f57596ab944235f5507e3519b33f0
+:3799 fp@tinyerp.com-20081207124543-ypbt9g3b29tgtou4
 :3798 dsh@tinyerp.com-20081204061025-z1rjd7qv4n77hyar
 :1834 fp@tinyerp.com-59220383e9b71cf5fb447b31d2f56c1d3e88af66
 :1835 jvo@tinyerp.com-bcee20197c6c691b2cde62e6d31ce62543c84327
@@ -3340,8 +3332,8 @@
 :4982 sbh@tinyerp.com-20090312063329-us0vpy2i4pwnxtnd
 :2150 mga@tinyerp.com-5ad478da89660b0332a4e1ddd72d2f0b87d78821
 :4984 mra@tinyerp.com-20090312070039-5s6pri18vyjeu8co
-:2400 fbs-ff72ce5d9c449118ba6cf78d8af3dd9c722ba046
-:2153 mga@tinyerp.com-bad84640709e4c1b88e41a3acd17e6e9c4de490b
+:2152 mga@tinyerp.com-def40c9dccdced8b0143ad997fd3f39c90313c43
+:4986 fp@tinyerp.com-20090312092149-9fuaowtyu11wr2lr
 :4989 qdp@tinyerp.com-20090312103838-d4ey3opnpkflhqvl
 :4988 mga@tinyerp.com-20090312100507-tkhnis2pd8t65w7f
 :2158 rus-6f8a1a85f93c8442988c0eaf21765fcc70027d67
@@ -3368,7 +3360,7 @@
 :3246 vinusoft85@gmail.com-20080807131045-2ut0g14m2khp551h
 :3245 vinusoft85@gmail.com-20080807130932-m00j29dp6z0sfzqi
 :3244 vinusoft85@gmail.com-20080807130834-uz4k2i5s97atqwbh
-:4925 mra@tinyerp.com-20090306111439-idfq1b3xmbs9nlza
+:1993 sso-ceaf974440d36677ea3bfe2ab3223fe0fb2a7f4c
 :1483 dsh@tinyerp.com-8af3a042b104083db049be73abd8a67e8c519540
 :1482 dsh@tinyerp.com-7197e94d1e551e0ffb0601679435bbb20ef55442
 :1481 jvo@tinyerp.com-ed4d540fbc0ebeaeddd582e317b35c059a6102fa
@@ -3379,14 +3371,14 @@
 :3309 sahibsofia@gmail.com-20080819120627-ki5nz2qos1xdyuvc
 :3306 hda@tinyerp.com-20080819073553-r7uxb246u7otkres
 :3307 christophe@tinyerp.com-20080819112319-dahdo65pp0jcke3l
-:1489 dsh@tinyerp.com-e81d7411695adf6226de2fbf39d445c8b193e9f3
+:3304 hda@tinyerp.com-20080818134051-ysyclnwnti02afrq
 :1488 dsh@tinyerp.com-25b03d019e00860504dc6e3313a6f76914297a63
 :5490 jvo@tinyerp.com-20090428085843-wr3g0xiumnuplyyr
 :3303 fp@tinyerp.com-20080821131059-fowcgw1oqv0w9qyz
 :3300 mra@tinyerp.com-20080814070631-upjbz29rmzu1q71q
 :5493 mra@tinyerp.com-20090428104003-3t42vqktxe6fs062
 :1992 sso-65ab5aff737e432092acc741f58365b5e4a21b1c
-:1270 mra@tinyerp.com-6bb209086881d3c3de56c530a8678098a1bda8b1
+:612 pmo-57dd73a7d92756ce4ffa3e13dd6176eea1c1628f
 :1271 mra@tinyerp.com-a361bb2839987cf1331723815276c90e9f6fbf18
 :9396 pso@tinyerp.com-20101229080851-wwsnin9mf6g0t8os
 :1272 jvo@tinyerp.com-9b3611a4962df6c8b9f45d90e761b90938e23865
@@ -3427,7 +3419,7 @@
 :1229 mra@tinyerp.com-1cfa1b810e86284609fd091b7ea9b30d66a5587d
 :1228 mra@tinyerp.com-6954507f803ce0bacef92f0c4eabda295b26a756
 :8291 codehost@crowberry-20100304050404-blc131prqinivnwv
-:8290 fabian@fabian-openerp-20100303155717-chnyxk3cl50sgi2b
+:8790 ksa@tinyerp.co.in-20100706064727-1na1rj6iw508ik2s
 :8293 olt@tinyerp.com-20100304090246-8i1p3awjhiaxl2ip
 :8292 olt@tinyerp.com-20100304090201-5dligca99uetxj2f
 :6532 sso@tinyerp.com-20090622070440-z22jw8sed123s5dt
@@ -3492,7 +3484,7 @@
 :10127 launchpad_translations_on_behalf_of_openerp-commiter-20111209052243-3ht0lf9fnrenc7zj
 :4169 fp@tinyerp.com-20090113153825-4100fvxx6xpfukio
 :10126 guewen.baconnier@camptocamp.com-20111208160038-5slj91pqu677zp0h
-:9302 launchpad_translations_on_behalf_of_openerp-commiter-20101130050329-iokk1azzlek6f81e
+:10125 resteve@zikzakmedia.com-20111208075629-acw8evkai4wvbj8o
 :9303 launchpad_translations_on_behalf_of_openerp-commiter-20101201051026-diza62mmqyyhjv24
 :2239 noz@tinyerp.com-cebe8c92be4368f8ac22dd6727864c149f7862c5
 :2238 noz@tinyerp.com-6ef9d10ac5350ac900cc5cb3c1dafd581afb891a
@@ -3573,7 +3565,6 @@
 :9008 rvalyi@gmail.com-20091105042252-zmw3qvh3ilcyc9et
 :9832 openerp@tienda-20110605200204-0uvoxn0mpseiyc2e
 :9833 openerp@tienda-20110606033147-b2p13us8z5m4uemd
-:10068 esamyn@gmail.com-20111013140731-hegj0dycmzez9yqh
 :7595 pso@tinyerp.com-20091215111323-bewsmkmm0f72b67h
 :9831 openerp@tienda-20110605185841-psvqlt2hejh20qq4
 :9836 jesteve@zikzakmedia.com-20110606181215-8vdhze11xxc686m4
@@ -3651,10 +3642,8 @@
 :8083 dsh@tinyerp.com-20100129142149-d1z2qs1kh14d75lp
 :8088 fabian@fabian-openerp-20100129143339-ebfhv057or3g1isz
 :8089 olt@tinyerp.com-20100129144601-xihb6gcfnj9hbyat
-:9207 philmer@linux-openerp-20101103074101-2sjnnwqta8ft3u3h
 :6648 sso@tinyerp.com-20090714112855-v9er4bqv9kielcgh
 :6649 mra@tinyerp.com-20090714114406-mzgd4eldu4uo1960
-:6186 dsh@tinyerp.com-20090520130345-21kfddoem2alpp54
 :6644 mra@tinyerp.com-20090714054114-dolcixwq0fty8nnv
 :6645 vda@tinyerp.com-20090714054914-fzup3ddbuzkji745
 :6646 dsh@tinyerp.com-20090714073401-vrsv0nmgtv1845pn
@@ -3708,7 +3697,7 @@
 :2172 rpa-d84e569343a9848c13799fe1e0dba768739c05d1
 :2173 rpa-c0ba63863da510b88a72b7462f7b5f1ac753dcc3
 :2170 rpa-29ffe40194a693a4b6e4e2699555b76fcbe1a2d3
-:3842 mra@tinyerp.com-20081210120059-29krw0ny4sgzolgc
+:2171 rpa-3c6e2b12b6e9425c9bfb23697e7618d1fd68999b
 :2176 jvo@tinyerp.com-df90dd1897ef80685f1893069644538b74df0d48
 :2177 jvo@tinyerp.com-b31a8ebb9e2beb63bf57e54b3f6152c5a765e5e4
 :2174 rpa-ad96a740dc061f0ee49d2969d7f670d05396f7c5
@@ -3736,7 +3725,7 @@
 :1934 fp@tinyerp.com-b5d2cdff7c638f8ba810a42ffcc8001149edcd7c
 :5124 asb@tinyerp.com-20090327054104-6mfj6l1a7ky487so
 :5436 jra@tinyerp.com-20090423073024-4ua2sjvdrjnviodu
-:1939 sma@tinyerp.com-f47bb2ef2fab27c45a816de6cc1c4faee2e9bebe
+:5126 vinusoft85@gmail.com-20090310123344-x10dmtays53czmqy
 :5127 vinusoft85@gmail.com-20090310124745-cbd8r0tgkkradm2z
 :5120 rpa@tinyerp.com-20090326140630-8eq38boa2umrl9fv
 :5121 hmo@tinyerp.com-20090326141931-sk3mvxdq8kc72acr
@@ -3750,7 +3739,7 @@
 :3364 jesteve@fontanilles-20080828181228-boygiguktbvaeost
 :9192 launchpad_translations_on_behalf_of_openerp-commiter-20101030060312-n6jwtgu8vnlwyjze
 :3365 mga@tinyerp.com-20080829082256-5vk0xpbahz9jltcu
-:7232 dsh@tinyerp.com-20091109055814-bp8j9hetsq96242t
+:9195 launchpad_translations_on_behalf_of_openerp-commiter-20101101051927-ituv4f17zajy8zr9
 :3366 mga@tinyerp.com-20080829070916-je8xvusym1no7j11
 :9194 ovnicraft@gmail.com-20101031180710-3kpzg5cnyyjw7wb8
 :5439 olt@tinyerp.com-20090423095146-vi0azu70p5bblqx3
@@ -3860,7 +3849,6 @@
 :3858 mra@tinyerp.com-20081212061603-6euwm0aakp7n6m7q
 :3859 mra@tinyerp.com-20081212063333-i711si03x3rlc4og
 :2661 sso-3840e96c96a66466a82f7ccb3c2fc070f67a6571
-:5403 fp@tinyerp.com-20090422192414-rke20j736h6dx9j7
 :5919 sbh@tinyerp.com-20090416132440-aii5qtu5r37dh38f
 :5918 stephane@tinyerp.com-20090416131432-q4ye222kc3cu0uo4
 :5915 sbh@tinyerp.com-20090416122223-724gi0c4beabyui9
@@ -4010,7 +3998,7 @@
 :5747 stephane@tinyerp.com-20090305070004-tr4jhc63dvejbi53
 :5748 stephane@tinyerp.com-20090305070102-mn6xmwqkuclit3tp
 :5749 stephane@tinyerp.com-20090305071051-9hy0wu87hxrs0sj2
-:3185 qdp@tinyerp.com-20080730130225-lpe985yr8p47u1ww
+:3184 qdp@tinyerp.com-20080730125632-eafrc3a1kdm5j2vu
 :1700 mra@tinyerp.com-6b7bd72d76430ef23aec1309d0906e6e9d5de43b
 :9380 rvalyi@gmail.com-20101221132517-h15070cvtrzi2x8d
 :5266 sbh@tinyerp.com-20090407064946-9zlauuefo2eacfqh
@@ -4034,7 +4022,6 @@
 :6665 hda@hda-20090716125047-rswfhvaaxqvamh80
 :7 pmo-28ba953a313c36fd944e63dcd2a4e99c0ff87e76
 :2134 sso-f5163f537abc1eefcd49ccec6033cd0ee18839a3
-:2135 sso-8fd862b41b22666c288a27e6f1a69cc916295f05
 :2378 pso-1277d2d79ba9e131a536cbe6c5dea5f5f058ad94
 :2379 jvo@tinyerp.com-03a2449166812d882b00fbed4ab6e013486d0833
 :2374 dsh@tinyerp.com-d205fb5ba5d3d2419518a48633b03f2d06eabe8d
@@ -4068,6 +4055,7 @@
 :4948 vinusoft85@gmail.com-20090220050252-any8l40ko1geggx7
 :2118 rpa-be1c39a8a7c8e3cca7313a83837dea69b3c5837d
 :2119 rpa-a9c4b2e9648231323e6c110a755f1b3428f04a20
+:6041 khatri.jatin7@gmail.com-20090511135457-vmpa6bc8ckc0l0sr
 :2130 sso-9660a64fc04c62ba9c7bd606961f6de5d051e5b4
 :2110 rpa-08fcb60302e68234987c50a68669fc996c1cecc1
 :2111 rpa-a23765c1bb44419cd849bc2afe33faf7979fe934
@@ -4149,7 +4137,7 @@
 :9584 rvalyi@gmail.com-20110317174828-v1ws7me0ppp5di6f
 :669 kap-e8af92aa12ec3143206b698594043d0858d89b04
 :8252 fabian@fabian-openerp-20100223183427-4ck2tpojai0zal9v
-:667 kap-86991e9eeb33203d900ddb135a5f3b681e9d4b28
+:1263 mra@tinyerp.com-e32ba8d0e7cdb76a0a1fadd938b507f3de7cd87e
 :666 kap-fb18de48120c5cf14d1f5f0db32c3b3765431ab3
 :1261 mra@tinyerp.com-dde08a6314d46f6d5d5ef4cef586dffd514166c0
 :7356 ssi@tinyerp.co.in-20091126084039-q2xh9dtyybcigpb1
@@ -4351,7 +4339,7 @@
 :5376 mga@tinyerp.com-20090416141957-cdfcem3m2p2e4nln
 :1072 mra@tinyerp.com-e942b8a071a3bb9af7c62fa3e21142290ce312d4
 :5370 mga@tinyerp.com-20090416125944-7b0rfz11spm6eflb
-:5373 mga@tinyerp.com-20090416131613-nkxcs2mx833rg4o8
+:1070 mra@tinyerp.com-2dc54ef7c73541c7f3fef81676934d018df3ecc3
 :1071 mra@tinyerp.com-daa79adc5f5757de53791b42edb4163b200c6119
 :4338 jesteve@alba-20090125010658-pkzfxa584xpnseri
 :4339 jesteve@alba-20090125113610-kf4m29hm54nckw52
@@ -4392,7 +4380,7 @@
 :5761 stephane@tinyerp.com-20090309134829-tpnbi351wppjeu07
 :1531 mra@tinyerp.com-1a925253c65d971a6f384d557f9555918049b268
 :5181 sso@tinyerp.com-20090331120341-oajgxav9z3qg9a7w
-:8192 olt@tinyerp.com-20100212145515-x8jw69y2xg2cv7f3
+:6437 fp@tinyerp.com-20090426104055-9ccyq8uyzrznmwf2
 :8193 olt@tinyerp.com-20100215104902-16cwy4ybipjsuhdt
 :5186 sbh@tinyerp.com-20090331151340-4mqes5q9tjluxpjk
 :8190 ssi@tinyerp.co.in-20100215063931-jvpcj65u7nh5b4x2
@@ -4404,7 +4392,7 @@
 :8194 olt@tinyerp.com-20100215111553-ep8d73u20hvmtij2
 :1626 jvo@tinyerp.com-584a81b2de30dafc1d131a07b33fbcb6b8a6b946
 :6430 ysa-openerp@ysa-20090609071616-ge1i4sucu75prg7w
-:75 hda@tinyerp.com-548f4c020df9f117a7c2becb11fab85b734d4433
+:2978 jvo@tinyerp.com-ccaf0d2587e97ccf09e592890c0e77d0e517f915
 :7427 mra@tinyerp.com-20091204065008-hsotz1t55pglxgdi
 :7426 mra@tinyerp.com-20091204062729-nrtx2lho60f3f1j1
 :7425 pso@tinyerp.com-20091204051433-qsv7scfd3ogndc9v
@@ -4430,7 +4418,7 @@
 :7501 sbh@tinyerp.com-20091210082304-1q7anxcv50ugcmdt
 :5185 fabian@tinyerp.com-20090331150303-yw04saucsc00y2rn
 :9300 launchpad_translations_on_behalf_of_openerp-commiter-20101128050220-4dncf3z6uzs8r3rs
-:79 pmo-557f52e3dae0c45ffa1f570374a9d70a4b66a2cf
+:2974 qdp-db9cbfd3e970896b9bbeb56813a68b231c743b24
 :2975 qdp-a94d7eccbadc41aff1ae71391644f448f455a834
 :1043 mra@tinyerp.com-67028f3f6194355301db01efd72262389fd9ae81
 :4570 jvo@tinyerp.com-20090209081448-k2yne9pa0ndj7uys
@@ -4467,12 +4455,12 @@
 :3733 hmo@tinyerp.com-20081124132855-hl1f0h3xs9ozyf36
 :1891 fp@tinyerp.com-8ae6025ca14e0446cfd992c4ae842e5d2bf5e206
 :3731 mansuri.sananaz@gmail.com-20081124120824-rzxjq18hhx8aztab
-:3730 mra@tinyerp.com-20081124104706-6mtiqrzea06y4gmb
+:1893 jvo@tinyerp.com-56c63a5739db86fd2995e8f3bbda2e544a20b64c
 :2136 rpa-a66f818cb99ca34fcc6af3f7cb8c9a126c615f24
 :4690 mga@tinyerp.com-20090219062023-ueu80nt2dk6j332w
 :4921 fabian@tinyerp.com-20090305170123-b76mrupmoy03tjvb
 :4692 jvo@tinyerp.com-20090219071339-h0qj5yl13wu0fkkp
-:4695 mga@mga-laptop-20081016065927-err968i0qnvxegi2
+:4927 mra@tinyerp.com-20090306134449-bz6g26mm1frgiceg
 :4694 mga@mga-laptop-20081010134943-45pyp4zla2g91d3r
 :4697 ruchakpatel@gmail.com-20081016090628-7ddfkic325z6q58r
 :4924 rvalyi@gmail.com-20090306105134-h6y5abb6gst9dsf4
@@ -4514,7 +4502,7 @@
 :8253 fabian@fabian-openerp-20100223185506-3p0vx1bck1f2u6jt
 :668 pmo-473b870a05d3579f70a68d461b9b2fa09bee3b6a
 :9467 openerp@nhomar-desktop-20110129135258-ltrbdqzto2oa3n0w
-:1263 mra@tinyerp.com-e32ba8d0e7cdb76a0a1fadd938b507f3de7cd87e
+:667 kap-86991e9eeb33203d900ddb135a5f3b681e9d4b28
 :9466 joel.grandguillaume@camptocamp.com-20110124080233-97qixyn6yvt2no5q
 :1262 mra@tinyerp.com-c3de80691c501b45ad0dfef689ee8a80574cbbd4
 :665 pmo-ce0979fec9c2171573525041873c338152ffec3f
@@ -4564,6 +4552,7 @@
 :7637 dsh@tinyerp.com-20091217070158-ygmkmguu4qkrixm1
 :7634 olt@tinyerp.com-20091216155107-tfu8j1tu5fanj0vx
 :7635 ysa@tinyerp.co.in-20091217062000-azsk3czwstfyzufv
+:2651 stw-2ed7ee0dc5c8b577bf24165313a7110f292e86be
 :1025 mra@tinyerp.com-aa0823bcbf22b02cefdef2e6c7b1d13fad97b942
 :9169 nel@tinyerp.com-20101015131619-c0c3o0rffu67yi2g
 :9843 guewen.baconnier@camptocamp.com-20110609135549-t8z99s7gc0os9iri
@@ -4583,16 +4572,15 @@
 :3091 qdp@tinyerp.com-20080718072033-l9trp15xjn4iy35f
 :645 pmo-ba17aeb9375693dd6f2d9aebd30c02c83b94b4b0
 :1244 jvo@tinyerp.com-42126cc6f0a08078e7d5408618e30b8c456a7568
-:1247 jvo@tinyerp.com-dbaa41b13565db6fd87fde3ee6ec4a3f1adf3daf
+:3094 qdp@tinyerp.com-20080718081845-3wlq1iln80584txl
 :1246 jvo@tinyerp.com-289d68d1a4a101fb4187e9e888a5534a2ca32d9b
 :1249 qdp-8bb98113f0a9b2195e8baf514351bc35da2f85ab
 :648 pmo-29d45b54943f27aba5e1d17bb6bdad3db157bb02
 :3098 mra@tinyerp.com-20080722063039-sjzhiw686um6g85j
 :3099 mra@tinyerp.com-20080722085024-9lk7356k3pecfah7
-:1027 mra@tinyerp.com-8edc0bdf9d2ff6b4c6133bee2b06785577bee394
+:5346 mra@tinyerp.com-20090415070915-sb3ssxg273pxoj0u
 :1539 mra@tinyerp.com-f5cef265f6e3f001d87d76cc1e076dbb09b47fe9
 :1538 mra@tinyerp.com-c31d04bbbdd180bdbeef38cf3f9ddc4e0e0c28f1
-:3127 qdp@tinyerp.com-20080723144745-glfgn0rzol3hqy00
 :4101 noz@tinyerp.com-20090107141424-79xu2k871dmdkzub
 :4100 noz@tinyerp.com-20090107141239-j37tkhjod2f80rmz
 :4103 fp@tinyerp.com-20090107145555-h2g8xl668v3a9b56
@@ -4622,6 +4610,7 @@
 :3897 dsh@dhara-desktop-20081217133214-chqycix0s0xrx2bi
 :3894 rvalyi@gmail.com-20081217100732-gz5a5gk5fsbr3yur
 :3895 rvalyi@gmail.com-20081217101550-cf9m61w7n7qdqtl3
+:9165 vra@tinyerp.com-20101015053147-l9gi8ttr99n4xvr5
 :3376 sahibsofia@gmail.com-20080902055036-pzgpf7mj7stbbxbr
 :6986 hmo@tinyerp.com-20090930094848-42536lwibcsxeb5a
 :5951 sbh@tinyerp.com-20090417113246-o3su5k3wb6b9awy6
@@ -4637,6 +4626,8 @@
 :3375 mra@tinyerp.com-20080901101804-lxh2t4acb16zh2vq
 :3374 christophe@tinyerp.com-20080901082929-a7snvquesoucyqs2
 :3265 vinusoft85@gmail.com-20080808101856-gksjwcatr0g5dnbx
+:3373 fp@tinyerp.com-20080909134410-x5e03k0zr4aamw5o
+:4616 vda@tinyerp.com-20090211094723-m6ftsispazzs671a
 :9161 nel@tinyerp.com-20101014144450-5nizsfkv6vtne92w
 :3372 fp@tinyerp.com-20080904234109-aiboeg2p6a722iib
 :9162 nel@tinyerp.com-20101014145439-ap74rp6yco3cqzol
@@ -4651,17 +4642,17 @@
 :6036 dsh@tinyerp.com-20090512061331-1u7eo5u12ftys3aw
 :6035 rpa@tinyerp.com-20090512052035-d8ni41560258u19j
 :6034 rvalyi@gmail.com-20090511235857-oxwg8aih85l0eqsu
-:9205 neopolus@kami.es-20101102154016-77l6zqyciasz75lg
+:10062 omar@pexego.es-20111004174602-qc3b2lnqdsvtbw0a
 :10063 omar@pexego.es-20111006082554-4jsek0lc21xdpndh
-:2659 fp@tinyerp.com-b03b57f297b23487c0f4202e2f42e55ee30ca7cc
+:9207 philmer@linux-openerp-20101103074101-2sjnnwqta8ft3u3h
 :9206 launchpad_translations_on_behalf_of_openerp-commiter-20101103050926-jcamf5u76qg18mug
 :9201 philmer@linux-openerp-20101102095159-skwwutibou1fl755
-:10067 maxime.chambreuil@savoirfairelinux.com-20111012141600-q7joqyhfdj3gp94n
+:9200 philmer@linux-openerp-20101102094521-cus5i3tjt27goxom
 :10064 launchpad_translations_on_behalf_of_openerp-commiter-20111007050437-1q2188ivhgajtcf8
 :9202 philmer@linux-openerp-20101102095221-7fa1gv0rcil5a5jj
 :2653 stw-7cb3f9740aa675c1062ed4210b43403ae809be79
 :2652 stw-70f3c0e6053d4a1418ca3001f30e4921c1976cb8
-:2651 stw-2ed7ee0dc5c8b577bf24165313a7110f292e86be
+:10068 esamyn@gmail.com-20111013140731-hegj0dycmzez9yqh
 :10069 esamyn@gmail.com-20111014135228-n6b5j65i837m68dd
 :2657 mra@tinyerp.com-e4bd09356980e5c4f3e30496f9a906f964a55c48
 :9208 philmer@linux-openerp-20101103074132-253vo6837541msc4
@@ -4684,7 +4675,7 @@
 :9065 stephane@openerp.com-20100809134102-yyqqnnf00b3l57vd
 :9064 rvalyi@gmail.com-20100802212646-jgu1deipg8jtmhm2
 :10288 resteve@zikzakmedia.com-20120413074737-n8m9bijxw8makf0b
-:10289 launchpad_translations_on_behalf_of_openerp-commiter-20120414050844-irn6qihsj8jz8wej
+:9066 nva@tinyerp.com-20100819125339-6m6tu0lcez13e8ol
 :9069 codehost@crowberry-20100826040810-z10ldamtmwcjarz1
 :9068 rvalyi@gmail.com-20100826011659-x5jvasuso6vbo0x2
 :10284 launchpad_translations_on_behalf_of_openerp-commiter-20120411045026-hj0712hm87tvlckd
@@ -4730,6 +4721,7 @@
 :702 fp@tinyerp.com-83672b7eefee217389cda25c8badb6eebafd0820
 :703 fp@tinyerp.com-b18bbc22d022536c789ae9b2b5d5f681fcdc70ef
 :145 fp@tinyerp.com-094328ddaec7a1b1168e10e53ec3ab4af24f0c39
+:2486 sso-ae0bb2745d34447668cd9b348e56f54bbd33483e
 :5319 fp@tinyerp.com-20090406134036-k9rd606ltiab2ux3
 :5318 fp@tinyerp.com-20090406123639-jvapju39hmwuri36
 :5313 nicolas.bessi@camptocamp.com-20090408150228-6eu2hkp2ebw0k53t
@@ -4741,7 +4733,7 @@
 :5315 fp@tinyerp.com-20090315173446-d6ats8psmennlvce
 :5314 fp@tinyerp.com-20090408151445-835zjv6ny2dfa9xt
 :3214 dsh@tinyerp.com-20080805103838-wohu9ozqebf697nx
-:3215 dsh@tinyerp.com-20080805112728-k45ogln42ob1h31h
+:1987 mga@tinyerp.com-ddb0aa4995b44ed7d45c97fea03ecfff0db8d031
 :3216 dsh@tinyerp.com-20080805133002-6eakrqmszqvtzi1u
 :3153 qdp@tinyerp.com-20080725080545-se7pvx34qhu3b5tp
 :3152 vinusoft85@gmail.com-20080725072127-266f3fesscdiayyh
@@ -4759,7 +4751,6 @@
 :1637 mra@tinyerp.com-eaed45f58b0e18e22e91f7cfb913c94af1a4ef4a
 :1260 mra@tinyerp.com-46e987a84d83ea0e18b85889f45ee80d18bb3ef7
 :2485 mra@tinyerp.com-fefa515265fcc364489729a85103be01cb0b4394
-:9039 rvalyi@gmail.com-20091111130752-90feb79khdd9hcyt
 :1267 mra@tinyerp.com-92a2940a9e3e9a8fdc66c3a37ae57f1ca5b4885e
 :2482 mra@tinyerp.com-90bf3dc773b2d352b8a04577101b79864603bee1
 :2480 mra@tinyerp.com-ebfe10eda5767098c0788a55ccbfdf31a1b7200b
@@ -4775,6 +4766,7 @@
 :8579 codehost@crowberry-20100506041006-gtnmo8jul5aih592
 :2015 dra-7fcf646f1a0c366843418d9d0423eb3de36c8b82
 :2481 mra@tinyerp.com-bac383ee0c80b3a9811db2b5ca233fb98c627d7d
+:1247 jvo@tinyerp.com-dbaa41b13565db6fd87fde3ee6ec4a3f1adf3daf
 :7409 fabian@fabian-openerp-20091202175234-a391ini1j334x6cx
 :7408 fabian@fabian-openerp-20091202171809-wot85mqki3z2b6an
 :7405 ssi@tinyerp.co.in-20091202135711-b7wb283amub7r56n
@@ -4860,7 +4852,7 @@
 :128 pmo-9293da9c4ac68b004cb47fd118e954da0065acf6
 :129 pmo-9aac4ad7ff5ed8ab4b9e52e1628940ac2b8e4868
 :7957 olt@tinyerp.com-20100114091544-s3zhgofojwy4agmg
-:3379 dhara@dhara-openerp-20080903113800-wr4z99orx1t3y78g
+:1188 mra@tinyerp.com-f883e0358b070cee2f2a84cac6360f8e1067abc6
 :7956 olt@tinyerp.com-20100114082725-lb55uy06mwl0iv0c
 :1189 mra@tinyerp.com-ec753ee8530b5a9b33bb4060845f0c63f2e11d22
 :7955 ysa@tinyerp.co.in-20100113144544-dceo7elxuzp8jkk3
@@ -4872,12 +4864,12 @@
 :7952 pso@tinyerp.com-20100113135740-z0azw6h5tqgaytk3
 :1185 mra@tinyerp.com-2739068161d3cf7fa85e7da12f33749aeec5c188
 :7951 pso@tinyerp.com-20100113135705-4jtxal5nq7vnnht3
-:3373 fp@tinyerp.com-20080909134410-x5e03k0zr4aamw5o
+:1182 fp@tinyerp.com-11c5c7589455d06ecdaaf596d06577d033a0c1e3
 :7950 mra@tinyerp.com-20100113134616-2tc5i04m1188b6yb
 :5420 sso@tinyerp.com-20090422125528-vgpbdh6ib54614nj
 :7229 ssi@tinyerp.co.in-20091106123907-qbq2fczd3yns4sc2
 :3371 jesteve@alba-20080830174105-5opb3ni4mshfe6lx
-:9165 vra@tinyerp.com-20101015053147-l9gi8ttr99n4xvr5
+:10342 launchpad_translations_on_behalf_of_openerp-commiter-20120602055707-hupd2pbauaukcbvf
 :1181 qdp-73881a6804b7c22d5c41112c78bfe8d69c2c3125
 :9166 dhs@tinyerp.com-20101015075741-y58zuriq1bh1ieq5
 :7247 pso@tinyerp.com-20091110125722-hj8t0pxsiv9qzt3r
@@ -4922,9 +4914,9 @@
 :8749 codehost@crowberry-20100618033813-969jfg8dhkqqjkwv
 :8748 olt@tinyerp.com-20100617145857-1xh00mkvcfacsidn
 :8211 codehost@crowberry-20100217050524-vsf0uiqiqmonpdra
-:8210 olt@tinyerp.com-20100216141828-ry7j9n59b9y9m6g6
+:8746 olt@tinyerp.com-20100615124519-axavdwmp5f6b3nkz
 :8745 codehost@crowberry-20100617033921-8460zj81khnyfj0y
-:8212 ssi@tinyerp.co.in-20100217093447-x0m0c00kkvt5qk09
+:8744 mra@mra-laptop-20100616073355-ktc7jzohtfroqph9
 :8743 mra@mra-laptop-20100616071154-c82s608bix01uxoi
 :8742 codehost@crowberry-20100616035539-k1bwbsl0n0d50dqv
 :8741 borjals@pexego.es-20100615104732-gw4vm8mp0d91uiy7
@@ -4938,7 +4930,7 @@
 :7656 ysa@tinyerp.co.in-20091218063820-a099rz8l6myo3zjb
 :7657 ysa@tinyerp.co.in-20091218093639-nln8trzxt8jp3oi1
 :7658 ysa@tinyerp.co.in-20091218100246-s04q35grdlf5eip0
-:6491 rvalyi@rvalyi-laptop-20090616163248-5vl8auwxv1u0zkx0
+:8174 ssi@tinyerp.co.in-20100211115854-7i4g46m17natecn8
 :6490 rvalyi@rvalyi-laptop-20090615124302-0kcv2xpwwu5xkg28
 :1997 dra-e7c8836e04c2d0b8956b9653b917af33ff8d5597
 :8176 fabian@fabian-openerp-20100211122735-e105rzceqwc5y3vo
@@ -4974,6 +4966,7 @@
 :1996 sso-130aef541f1b875f0c39fc643ae2d9226709df72
 :3397 qdp@tinyerp.com-20080911094153-j1jlsxq1vrl6rmns
 :3783 stephane@tinyerp.com-20081201154604-hg0mql2m34eym0hj
+:6969 mga@tinyerp.com-20090925065139-69xyi4y4sp50zwyy
 :2544 sso-25bb57449232815e6009e7a49679b93f49b46ffb
 :263 pmo-91d4c7571d61db4654bcc2b64346f4e63ded3db8
 :262 nel-8eded082dd7c3846edf57d068ac02065ec67c3a4
@@ -5029,7 +5022,7 @@
 :5088 dsh@tinyerp.com-20090325084919-nz6w5aqufu7qoczs
 :3500 fp@tinyerp.com-20081013162925-kxuw1rtvspppmg7l
 :3501 qdp@tinyerp.com-20081013165216-3eqzi8vjua31ro8o
-:5081 pso@tinyerp.com-20090324130319-c9h25evcv37q0j51
+:3502 mansuri.sananaz@gmail.com-20081014085322-od071rvt6sslwyag
 :3503 mansuri.sananaz@gmail.com-20081014114801-e3755olt14qu6x6v
 :5087 dsh@tinyerp.com-20090325084716-19oynzr44hejv1yk
 :5086 sso@tinyerp.com-20090325084204-w6ke3dmxk8lnf7un
@@ -5100,7 +5093,7 @@
 :1169 fp@tinyerp.com-96c00dfad6b8284539ec0c0d2223d973d2dcce2a
 :2035 dra-5ebf5d0e876435f85d9ac0f7169d58226369b697
 :472 pmo-206aa107878e6d1624fdde33ede5839920f5dcb5
-:3196 qdp@tinyerp.com-20080731144224-ti5l1z3ofeolg85z
+:473 pmo-29b72ee9d03cd313e7d51470cd3587320e990e82
 :3195 qdp@tinyerp.com-20080731143609-3tfqg9dd315ei9lx
 :1380 mra@tinyerp.com-ccfc96e7d43ad87fa430c45cd410837f39b58fcd
 :3194 qdp@tinyerp.com-20080731143430-1eegqpxsidvlv9on
@@ -5109,7 +5102,7 @@
 :3192 dsh@tinyerp.com-20080731135124-9ltiqx26651p9fch
 :797 fp@tinyerp.com-221f5f66f830fc2e497d0512bd7d50ad0493a9f1
 :474 pmo-fe30fe301b53053a434803c33a1772d157eb83dc
-:9385 alexis@via.ecp.fr-20101213202902-osg052b07bwnq8ld
+:5253 asb@tinyerp.com-20090406063118-6r2oz843aehzshn7
 :3190 fabian@tinyerp.com-20080731125802-h864vxrul0tb2wf9
 :9386 launchpad_translations_on_behalf_of_openerp-commiter-20101223052213-ylcdl2v63ot5d159
 :8552 ssi@tinyerp.com-20100428095705-iwjgkg57pldq7l8s
@@ -5123,7 +5116,7 @@
 :8004 ysa@tinyerp.co.in-20100119111749-mmq4u11yfv950gzl
 :8005 ysa@tinyerp.co.in-20100119120208-3dmtjh1y51nk8124
 :8006 apa@tinyerp.com-20100119125810-vvlsymu3cng6f2il
-:8007 apa@tinyerp.com-20100119131934-bath1rtcieni7hhv
+:8559 qdp-launchpad@tinyerp.com-20100428152933-h5jziga32x1zqlwc
 :8000 dsh@tinyerp.com-20100119101436-ojre9xqjouhnrllb
 :8001 dsh@tinyerp.com-20100119101636-uxqikle2q7k9s3t0
 :8002 ysa@tinyerp.co.in-20100119103414-9wfupu334mnmmtyt
@@ -5139,14 +5132,12 @@
 :7461 pso@tinyerp.com-20091208131902-hkiz73y6nqliqnzp
 :7460 olt@tinyerp.com-20091208131650-e2btefl91lg1rgbl
 :7467 mra@tinyerp.com-20091209051544-4dwutecjoawfsf2v
-:1719 sso-ea17794a3872d254cf9a7a4b3221c049de0fc525
+:7466 mra@tinyerp.com-20091209051427-mx3yie5acllgcrrq
 :7465 mga@tinyerp.com-20091208143611-i07orjz3ql6z5h3j
 :7464 pso@tinyerp.com-20091208132519-wexekdqc5c1n0kq5
-:5329 rvalyi@gmail.com-20090409164247-2avz5xaph33sbnlv
 :5259 rpa@tinyerp.com-20090406130029-lscj21t6uwqhhnxf
-:2031 dra-713c60099de3dcb0ce17b04b0365462ab2a7285d
-:3724 dsh@tinyerp.com-20081124070456-8ipyxcr2bv2j4wt2
-:3725 dsh@tinyerp.com-20081124071559-t308ojgy70r3dspp
+:1869 sso-0ecc748335eee97708020e98096de2c359fad4bf
+:1868 sso-5621e5ff55a075ec96f063a46773afa4e23bc9dd
 :2918 dsh@tinyerp.com-2154cd6907572c2c3fe63bdcdc4a8dac458427d0
 :4930 mra@tinyerp.com-20090306141150-4b3m6el9i31gemut
 :4931 rpa@tinyerp.com-20090306142028-gy43h0umzx8wyf7o
@@ -5161,7 +5152,7 @@
 :4730 mga@tinyerp.com-20090219092817-3uag8lbq2voy15az
 :4731 mga@tinyerp.com-20090219095225-bks6t2nd7x9c2rbd
 :4736 mga@tinyerp.com-20090219111948-byti5x7o7vo01gaq
-:4936 xafer@apophis-20090306163508-n3ahjuwf1gpuwuk5
+:4680 dsh@dsh-20090218065741-0b4gqj6n3z1qdrus
 :2318 jvo@tinyerp.com-0097f25b3daaa1eb4dcf1ffdb07d22be61940f74
 :2319 mra@tinyerp.com-c7e30e2f621bf47ceddec1403ada16fe6201abba
 :2316 mra@tinyerp.com-3c5351fe4d3da81a5a241d76de054030597daa35
@@ -5224,7 +5215,6 @@
 :104 pmo-b63088aef0703070b16702d9b316caff61b2d54a
 :105 fp@tinyerp.com-09405f0c026a88cd35f55ba5c3bd1bbdbfee600d
 :7036 rpa@tinyerp.com-20091012132853-m3aifrrnrdngupen
-:7037 jvo@tinyerp.com-20091012134243-qx7qyo51f0opxbqf
 :10387 support@serpentcs.com-20120914143422-xl3k8vov8sm3gw7b
 :10386 amp@tinyerp.com-20120912093354-5fcxnk595gnxp0am
 :10385 launchpad_translations_on_behalf_of_openerp-commiter-20120912044928-xmjdruxd284mchqb
@@ -5259,7 +5249,7 @@
 :340 hmo@tinyerp.com-1f2431f20c64eedfb79c79fba664c744941eb796
 :6208 mra@tinyerp.com-20090522063833-luyh2y5x0pc4cr45
 :6209 rvalyi@gmail.com-20090522073521-bhz3zpdxycw436fd
-:341 hmo@tinyerp.com-77c20978f6479a48aa7f4c6a5f4bc53bb6f6018e
+:7512 mra@tinyerp.com-20091210112325-xqlf0q0nm7bohydl
 :342 fp@tinyerp.com-889363c32d608c3da2b1081a03ad87651adeee30
 :6808 nch@tinyerp.com-20090819101208-skp15kdzhb20281k
 :6809 olt@tinyerp.com-20090822121607-qa6j3dd49tumwwuh
@@ -5355,7 +5345,7 @@
 :5627 fabian@tinyerp.com-20090506164837-k2m5a2ds8zd8cqdx
 :1243 jvo@tinyerp.com-14fc4a7f41ef8e7846682911055029a68579345d
 :5625 mra@tinyerp.com-20090506145628-avh15iogveb7nkk5
-:8054 codehost@crowberry-20100122044238-m5c2fkxheg6ulq64
+:8506 codehost@crowberry-20100417042954-ws5vh75vau0i4kc8
 :5623 mra@tinyerp.com-20090506143605-qc386met7ap83xns
 :5622 mra@tinyerp.com-20090506134854-qw6y8g7ibbpq0yof
 :5621 fabian@tinyerp.com-20090506133351-hi8f0whd5v5owc0p
@@ -5416,7 +5406,7 @@
 :9535 albert@nan-tic.com-20110306151529-77ynb2mfebknwo6e
 :9242 nel@tinyerp.com-20101115151613-g5htrsxo0kx10vbz
 :9533 albert@nan-tic.com-20110306122151-hiv7i6znhvmc5dlt
-:9244 alexis@via.ecp.fr-20101001210521-dh2dq308vocz083t
+:9532 albert@nan-tic.com-20110306122048-ic13ce95j4gw3f8s
 :9247 alexis@via.ecp.fr-20101030194611-u397q19uq1w66nla
 :9246 alexis@via.ecp.fr-20101027123353-2mb9ytkdx201bnww
 :2155 mga@tinyerp.com-8702ad7709106ec440f5c6757c21ca646c2ab61a
@@ -5518,6 +5508,7 @@
 :18 pmo-c969763cdeae5988071e8920fef9c3da00450054
 :8187 fabian@fabian-openerp-20100213153600-98ogtbcylatzvrye
 :8186 fabian@fabian-openerp-20100213140535-32so2lwhke0k7hjs
+:10509 launchpad_translations_on_behalf_of_openerp-commiter-20140201064002-gv0lgmt8jwlrxpcm
 :4282 hmo@tinyerp.com-20090120074330-ux7ip0hfk5tr2sxp
 :4283 fp@tinyerp.com-20090120075038-io28ladhz17ihmp3
 :4280 sma@tinyerp.com-20090120061021-9ipkb08tx2dn02zz
@@ -5588,6 +5579,7 @@
 :10425 launchpad_translations_on_behalf_of_openerp-commiter-20121212045754-ec2sk8yptal0g134
 :2046 dra-d8b04a0e9c987387238beedad24b57547282e823
 :4812 mra@tinyerp.com-20090226124043-egoe1sbyciz4r0g8
+:39 bch-87e3f5a317c6a76aa4e37ff666dbb4df1fe8b46d
 :2044 jvo@tinyerp.com-30bcc0ddf4f6d2af1d330d95616e60ae7ae8c3be
 :4810 hmo@tinyerp.com-20090226112602-2vzpkg5u3l6eua8r
 :168 bch-aa2a0780f3b3a5383786d6e69a2998bd172bdc68
@@ -5600,7 +5592,7 @@
 :161 pmo-2412c7c487a9393c26db18724c229a2d699dde38
 :162 kap-6693ddadd860a178c8009b6ad7119e5ecac8e3b3
 :163 kap-92ec03e8b116270aff293ece53b2de4999697079
-:4815 hmo@tinyerp.com-20090226151556-74w0g3b8y5buasz0
+:2040 jvo@tinyerp.com-08ab92bcec17d3e43b9c990520377ab51b24a463
 :4760 qdp@tinyerp.com-20090223144559-v28k4vucldxxnqns
 :4814 vda@tinyerp.com-20090226133055-qq6qqpf54hr3nxua
 :6194 mra@tinyerp.com-20090520140623-yuqdsbwv85nbm9bi
@@ -5659,7 +5651,7 @@
 :6225 mra@tinyerp.com-20090523121105-jojud2u997l8higy
 :6228 planetmail@pm-test-srv-20090525062851-ovl54w1tsrtns419
 :6229 rpa@tinyerp.com-20090525064413-7r8yqka5f7p6lfg0
-:10509 launchpad_translations_on_behalf_of_openerp-commiter-20140201064002-gv0lgmt8jwlrxpcm
+:9762 vpa@tinyerp.com-20110505110019-l3dm67ripslsrj46
 :10508 launchpad_translations_on_behalf_of_openerp-commiter-20140131061311-q9gd1jlgb83mqp2v
 :9760 nicolas.bessi@camptocamp.com-20110505085051-tvxjlc9plut0ka0j
 :9761 amp@tinyerp.com-20110505095157-9r2rxx4nwwd36s0l
@@ -5708,7 +5700,6 @@
 :9287 nel@tinyerp.com-20101123104909-veeoc3avbwdjog7i
 :10228 jesteve@zikzakmedia.com-20120216100706-qblhxtxboeu3p2c8
 :10319 resteve@zikzakmedia.com-20120427085145-0tsor8papcl3jogf
-:9286 launchpad_translations_on_behalf_of_openerp-commiter-20101123051457-mfopo2ehg4ojv2yz
 :378 pmo-2192aca6b9de28f117ce7c34ead483ae3e730f87
 :1551 mra@tinyerp.com-f9b4f4e1c87ddbc4efb47ad55d979ad01b940810
 :1550 mra@tinyerp.com-35da210bf4b73a81e4170c18314c8c85320b9910
@@ -5764,6 +5755,7 @@
 :6423 gdukai@gmail.com-20090608130143-oof6cuf0v0peyj5q
 :6428 rvalyi@gmail.com-20090608233034-8ij1n6wj56fa6bgc
 :6429 jvo@tinyerp.com-20090609070656-24oju5laahvcp0yw
+:4695 mga@mga-laptop-20081016065927-err968i0qnvxegi2
 :10227 resteve@zikzakmedia.com-20120215194351-0zckxoysgweacpl0
 :6769 suniljagyasi@gmail.com-20090807121824-e1epvimm7takulqy
 :6768 hmo@tinyerp.com-20090806134202-10ws403xm9hjx72z
@@ -5809,7 +5801,6 @@
 :2502 dsh@tinyerp.com-79b4563c84d7e72d8dc6a2bac33c794d58e00dde
 :2501 sso-49f9a19201e869e57062158b88be8024a0ed40c0
 :2500 sso-781d65a2cb86f4ddf2a544eb0c98b8adfaa60973
-:1712 sso-5739e65e2210e2a5a8072960d58ec399601e3b1d
 :5049 fp@tinyerp.com-20090325155430-dltyokciigwqz9p6
 :5048 fp@tinyerp.com-20090320105117-72mspg7dgu7d1oyo
 :5047 vinusoft85@gmail.com-20090320101016-ieywvaynqpl2uvoa
@@ -5834,14 +5825,14 @@
 :1257 mra@tinyerp.com-a5bef2212ef26649b4a8409ff32d6c10e326f336
 :1254 mra@tinyerp.com-deded88dda6bc5927007c6f74a3fb8421837887c
 :1527 jvo@tinyerp.com-c43fd0b96571bf1b294941fa4794e48848f32966
-:1252 mra@tinyerp.com-a2afbdd6f87692d542f35199932532aa66e83cf7
+:1520 mra@tinyerp.com-2c674476c3c6a62add1775aad227cfb7f295496f
 :6404 jvo@tinyerp.com-20090605125510-e23v9mzrpwnzknv5
 :1253 mra@tinyerp.com-17e8556339f107c68108ee2fd8cd96379aed5a16
 :5182 dsh@tinyerp.com-20090331130953-d3z5ge1qvgx80mc6
 :1250 mra@tinyerp.com-d9f9cc932fd5361c735c1014e37c6580a80476e4
 :5183 sbh@tinyerp.com-20090331143127-5hea6xobbhex4p3i
 :1523 dsh@tinyerp.com-dfa96ed2021f52fcf83ff68c4d22b6acfd5a1bb1
-:1621 mra@tinyerp.com-557cc618c9ff48bd621175d9b2a72fc0f26e90f4
+:3205 dsh@tinyerp.com-20080801131120-3ffrfa2i74la8aik
 :3204 dsh@tinyerp.com-20080801123459-8oc65hx7phvpo7iq
 :10057 maxime.chambreuil@savoirfairelinux.com-20111002211022-cndwvp1uqnxbgvuh
 :1995 sso-9fa4a499ffee1a61eeafef9ccc6a90adb551791a
@@ -5923,7 +5914,7 @@
 :4615 nch@tinyerp.com-20090211094055-8xmkr2cyycxq70vv
 :4614 pso@tinyerp.com-20090211083338-x1pip9981pixj1e7
 :4617 pso@tinyerp.com-20090211104804-1p6w4mt23vgu8cvz
-:4616 vda@tinyerp.com-20090211094723-m6ftsispazzs671a
+:2708 mra@tinyerp.com-d21941dd77b7a7449fa63b320c679f0a77746af7
 :4880 vinusoft85@gmail.com-20090303052406-4v3h5grdathqehuq
 :7424 jvo@tinyerp.com-20091203154200-65u5dsmp3gmog40d
 :4881 jvo@tinyerp.com-20090303060847-7x6zgk8qsge7smha
@@ -6028,7 +6019,7 @@
 :8167 rpa@openerp.co.in-20100210123536-q21nvame3t4j1a5i
 :8166 rpa@openerp.co.in-20100210122301-h34zy1i6htvq4jwx
 :5252 asb@tinyerp.com-20090406062554-d8rlw6upnj9ss5jj
-:3094 qdp@tinyerp.com-20080718081845-3wlq1iln80584txl
+:1712 sso-5739e65e2210e2a5a8072960d58ec399601e3b1d
 :5250 mra@tinyerp.com-20090406054657-dam8ta3pd5lcnv7j
 :5251 hmo@tinyerp.com-20090406055920-s3sbjqc553udixs2
 :1717 sso-a0fb5f4a1abd24ecda2ac57ba9dd6256c3466da3
@@ -6083,8 +6074,11 @@
 :10202 nh@agaplan.eu-20120123172545-ch2ch3ubvygxghja
 :3093 olt@tinyerp.com-20080718080759-grs4b3ymm0ls6ptu
 :10333 resteve@zikzakmedia.com-20120523064745-m4kmd6bdaqsxd64z
+:9385 alexis@via.ecp.fr-20101213202902-osg052b07bwnq8ld
+:3196 qdp@tinyerp.com-20080731144224-ti5l1z3ofeolg85z
 :10330 jesteve@zikzakmedia.com-20120515152911-1wlg6lfbm2pf356e
 :355 kap-dff35a641f6f341a8be8ee165c4c98cc90072d35
+:2741 dsh@tinyerp.com-21fdcf4297aac5572835373c603fe4e142d75601
 :10200 resteve@zikzakmedia.com-20120123152001-lcfzyv45t17brmsq
 :6402 sbh@tinyerp.com-20090605102904-vxcoh246guz3g5sc
 :6403 jvo@tinyerp.com-20090605114627-2rxsc9an2vgan7sv
@@ -6233,7 +6227,6 @@
 :5394 sso@tinyerp.com-20090417123640-s64zqyr01ltngobm
 :5399 fp@tinyerp.com-20090420060412-wpq13mgs4u73oaux
 :5398 mga@tinyerp.com-20090418165723-z4h5bsd9kirf9qhy
-:6990 pap@tinyerp.co.in-20091005082149-ky6qn199874icfzo
 :688 pmo-49d7f86fff0bf184e5552ce2cec6ffeba99811d8
 :784 fmr-38354d3eafcc9e28d464602b9621c6b07f49bf90
 :785 fmr-956a839efca1ac45d77a3caec2f33fc3dc430799
@@ -6249,6 +6242,7 @@
 :9399 alexis@via.ecp.fr-20101228234329-sqp4lyyc7cn58m4w
 :9398 alexis@via.ecp.fr-20101228215856-5hm4lcneshg8v1p0
 :6592 dsh@tinyerp.com-20090701065814-f12d89f6amwq724w
+:1719 sso-ea17794a3872d254cf9a7a4b3221c049de0fc525
 :407 fp@tinyerp.com-68b1bd13307c6652e89f8bb247580739edd4c26f
 :6593 dsh@tinyerp.com-20090701071235-z81o6rz7704fh8v7
 :7159 sharoonthomas@teagarden.in-20091030154447-hiyvpx4k60iyo7kh
@@ -6321,19 +6315,19 @@
 :3735 jesteve@alba-20081124151902-wrn3dbba91of8tod
 :1897 mra@tinyerp.com-b63f6ab6d10c9868fbc0d24f0167afa42487995b
 :1890 sso-5d32debba5405b370554bf2baf4390b9d321214f
+:1837 fp@tinyerp.com-7d362b6e3e3be40895c910d52c85edb25a259176
 :3732 hmo@tinyerp.com-20081124130747-513wonoo83tazdcd
 :1892 fp@tinyerp.com-953dbee5b750f741aa0ba8f2daf4c8d43119611a
-:1893 jvo@tinyerp.com-56c63a5739db86fd2995e8f3bbda2e544a20b64c
+:3730 mra@tinyerp.com-20081124104706-6mtiqrzea06y4gmb
 :4923 jesteve@fontanilles-20090305201349-rfl2awp6yd2ntj28
-:10243 launchpad_translations_on_behalf_of_openerp-commiter-20120302045709-h7pddk8xge3a8pdu
 :4922 xafer@apophis-20090305173911-4nos45h4x1tsb1ok
 :4693 jvo@tinyerp.com-20090219071616-mwvcqjqt22g9fo8u
-:4920 rpa@tinyerp.com-20090305143230-3hvd9y1khscat8uo
+:2135 sso-8fd862b41b22666c288a27e6f1a69cc916295f05
 :4798 christophe@tinyerp.com-20090225140027-ny0vesxwjadv482g
 :4799 mra@tinyerp.com-20090225144941-rfh80ozao4clkp7a
 :6905 rvalyi@rvalyi-laptop-20090909072621-whmrw2plrood0738
 :4794 fabian@tinyerp.com-20090225112426-yw63qhthdefi2o24
-:4927 mra@tinyerp.com-20090306134449-bz6g26mm1frgiceg
+:4795 mra@tinyerp.com-20090225120537-rubu29vxc67acvi0
 :4796 nch@tinyerp.com-20090225123054-90h2oqk7ab8kmjbv
 :4797 mra@tinyerp.com-20090225131457-nbahzp32ief6l335
 :4790 christophe@tinyerp.com-20090225114637-b073sp8fckdzrnhx
@@ -6381,14 +6375,13 @@
 :9149 rvalyi@gmail.com-20101005163514-q9gnpp3lr9vp3rd6
 :7979 p.j.kersten@edusense.nl-20100118194953-awm9qv07gsmt1fmt
 :7978 p.j.kersten@edusense.nl-20100118194411-cpbsprerlrhlo9aj
-:4901 mra@tinyerp.com-20090304133047-jswjkmrqbxqne7jy
 :7975 apa@tinyerp.com-20100118133324-fwzpqzzv3cn3uheb
 :9143 philmer@linux-openerp-20100930160544-y2j32u69p1o5t95l
 :9492 guewen.baconnier@camptocamp.com-20110215151756-d3ay7tgfcelrns8e
 :9141 philmer@linux-openerp-20100930155831-yxrewpagv14hq1zv
 :9146 odo@openerp.com-20101001114728-n3e1qx60y7jachhg
 :9147 rvalyi@gmail.com-20101001160429-1hu9pc34v983bli3
-:9144 philmer@linux-openerp-20100930160801-batreesrd3dpclne
+:9496 launchpad_translations_on_behalf_of_openerp-commiter-20110217053945-l8grw3q585z9vigj
 :7972 dsh@tinyerp.com-20100118095147-eskp92ux33uz5h09
 :6266 mra@tinyerp.com-20090526132438-5mmge8xdlmdm97ap
 :379 kap-e7c4eccde6605a6c05fe1c5d121162827355c065
@@ -6401,7 +6394,7 @@
 :5167 dsh@tinyerp.com-20090330130715-l0yvqss5t00doakg
 :6268 mra@tinyerp.com-20090526133734-bknc85nx9ufslbug
 :3008 qdp-d3940c8d39b87d924aeffbef0add5d58c043df82
-:2640 dsh@tinyerp.com-d9e8111057460fee3c771aa99c7fddff1b9189cd
+:10079 maxime.chambreuil@savoirfairelinux.com-20111020143445-l33ujjtuavq720df
 :10078 resteve@zikzakmedia.com-20111020074738-olgguco0mg9vgfqd
 :9726 launchpad_translations_on_behalf_of_openerp-commiter-20110420055741-lqlqgep1jiwy0txl
 :9727 guewen.baconnier@camptocamp.com-20110420113411-44dzfclc2nrbic8q
@@ -6417,7 +6410,7 @@
 :847 fp@tinyerp.com-da20870a7adfe167b0f76ff341e7a6adb14a74e8
 :846 fp@tinyerp.com-772e0d6ae56075ff0b3366c5ac6b3a4d97b6deb9
 :3465 sahibsofia@gmail.com-20081006054815-mb5wm1q5w63cya34
-:3464 jesteve@alba-20081005223427-hqyq7fmcq58su2gz
+:844 kap-6f9f42341ca046377048ebb4e99f4b1d813f7112
 :3463 jesteve@alba-20081005165643-6r0ukl7ame4uy704
 :3462 fp@tinyerp.com-20081011075300-z10occmzt381a0f4
 :8899 nel@tinyerp.com-20100819122505-sohjwj2yploh7peo
@@ -6431,7 +6424,6 @@
 :849 ced-26242b2bba198beac108ef6cbefa23f30fc77124
 :3468 nch@tinyerp.com-20081008054005-u70wx5p3tu2v5krt
 :664 kap-55bea123255d6b24659a6774357ed3a2193c336e
-:1583 fp@tinyerp.com-f026868f674ffa3177b6e648b817d32d1964eb00
 :663 pmo-228031899d1265ada34895bf45abc61a380bf1ad
 :7152 ysa@tinyerp.co.in-20091030050102-bfajgzd93z5zoucm
 :1585 mra@tinyerp.com-0456984474a7b839052d6a6013f5d4329f4ba0d2
@@ -6521,7 +6513,7 @@
 :6726 fabian@fabian-openerp-20090724133534-9v8mhl50ot0ubwi0
 :6725 jesteve@fontanilles-20090724133021-3n8ninf7oh27et81
 :8300 qdp-launchpad@tinyerp.com-20100304191222-6w6mblubz9uews3d
-:10299 jesteve@zikzakmedia.com-20120418172007-zp48ozq2abx2b7o1
+:9072 renato@renato-laptop-20100830190205-3ciobwxynd65p4r5
 :6729 mra@tinyerp.com-20090727071827-2tz0kerhlw6is8b5
 :6728 rvalyi@rvalyi-laptop-20090726011922-pyqfb75y7cnv3vvd
 :8309 dsh@tinyerp.com-20100308120346-npgc9a8x8iac2s6e
@@ -6552,7 +6544,6 @@
 :2898 apa-a087c87c5800f3c8fb17fb3f4c02beac8cb02b35
 :4823 fp@tinyerp.com-20090227122954-dm72beujqla44ps3
 :3295 fabian@tinyerp.com-20080813140228-3xfja5m0awamoklt
-:10351 jesteve@zikzakmedia.com-20120620182447-uc2qiynwl5ny04ha
 :3678 fabian@tinyerp.com-20081117175020-90v8csf4o7fef3hh
 :3679 fp@tinyerp.com-20081117190818-by6tdz4u8fd2ukwx
 :3672 ruchakpatel@gmail.com-20081117133223-oz1z949z5p40bsx2
@@ -6608,6 +6599,7 @@
 :4425 fp@tinyerp.com-20090202184051-vg2738o1url0fbsm
 :9559 jesteve@zikzakmedia.com-20110308153716-jtn9ojubrhhk5e34
 :9558 jesteve@zikzakmedia.com-20110308153250-4spahwj2od4hy96y
+:3291 sahibsofia@gmail.com-20080813103559-39v9wadg3va6ggwo
 :9551 rvalyi@gmail.com-20110308032832-nznqx5h1s1lkkqr6
 :9550 rvalyi@gmail.com-20110307132935-wo17xfulug38cg4c
 :9553 rvalyi@gmail.com-20110308052547-7tydit42zuityz88
@@ -6618,8 +6610,8 @@
 :9556 rvalyi@gmail.com-20110308142101-8djycxf63k7f1lfw
 :3292 mra@tinyerp.com-20080813104358-duhxmv3hrbemdj01
 :3293 mra@tinyerp.com-20080813112043-f4fvdozjm5mj9q57
-:2274 sso-eb277f9c20e8931b40f615f82c0d7d45f8982341
 :10358 launchpad_translations_on_behalf_of_openerp-commiter-20120630052300-ped76gwibg3njuc7
+:2272 jvo@tinyerp.com-d55589b80fbe4e49622b46820bc8fabbe2ec728b
 :8934 sharoonthomas@teagarden.in-20091009140059-3848al8nfnke5bhd
 :8935 sharoonthomas@teagarden.in-20091010115459-qjm7pxzlxqcnjw0z
 :8936 sharoonthomas@teagarden.in-20091010115645-mf0rasumhjgnhp9q
@@ -6666,7 +6658,6 @@
 :1479 mra@tinyerp.com-1687f7eeea302d305543adbe5ac9b50a5015e5b1
 :4228 fp@tinyerp.com-20090115174132-x3qkmrgeie0nf2k2
 :4229 fp@tinyerp.com-20090116080459-lwq1pyubowwjocht
-:8624 mra@tinyerp.com-20100518130721-tr0kf3gtpvl3tzl9
 :4224 fp@tinyerp.com-20090115170217-zl9x1b8o4mdy6xqx
 :4225 olt@tinyerp.com-20090115173531-67h6psby69ct2w43
 :4226 rvalyi@gmail.com-20090115161210-mpot7zgvfy2au0tq
@@ -6675,7 +6666,7 @@
 :4221 fp@tinyerp.com-20090115143936-7dxxre72h115bt29
 :4222 fp@tinyerp.com-20090115144354-hzyl8519icbsrs3q
 :4223 fp@tinyerp.com-20090115150947-jdb21tvh7864qlun
-:24 fp@tinyerp.com-5c6382f3100a134b924dceda3554d672e4ad2a74
+:5586 mga@tinyerp.com-20090505151639-coxtvxnqeskkjxvk
 :25 hda@tinyerp.com-ec34173f3bdaae4ad35c088172526b6f6a54d8a2
 :26 hda@tinyerp.com-34dd96c9c92429907d749d3f63ed58b269f986ce
 :5585 mga@tinyerp.com-20090505151557-skeq0huu5qjulip0
@@ -6691,6 +6682,7 @@
 :2145 sso-3c55063a42ecd9ae07594cd09af6a8e750f91fc2
 :5308 tiny@aka-20090408124326-aydn4ow5snu7u3mg
 :5309 mga@tinyerp.com-20090408125953-x754v0r0ux84mh35
+:7904 hda@tinyerp.com-20100111105446-9dq3far6xrggtfzq
 :1061 mra@tinyerp.com-00fd19512a8ed7ca5326c48913f8efc62e16bc71
 :1060 mra@tinyerp.com-4c0c0b1051b26e91b2a50315577ef677ac11add8
 :5302 mra@tinyerp.com-20090408091844-g0jn6tevpjf9vdxq
@@ -6710,6 +6702,7 @@
 :2286 mra@tinyerp.com-dda501b68c130735b37a17e8cb9f1f7b8c799842
 :2287 jvo@tinyerp.com-5e49cfbb036f2049556afef7ee05828fe0bc79c1
 :4538 hmo@tinyerp.com-20090205145129-m19xahchq469f6h5
+:4920 rpa@tinyerp.com-20090305143230-3hvd9y1khscat8uo
 :2054 dra-c63fa6df5a2722d324e4908acea27bcd5a8f73b2
 :6730 mra@tinyerp.com-20090727091557-uknxqjkpkv3km3g0
 :2057 dra-d5021ddacea215763c82273fae052715cac78127
@@ -6741,11 +6734,10 @@
 :7919 ysa@tinyerp.co.in-20100112111129-94o4qrxqqk0l8kr3
 :7918 ysa@tinyerp.co.in-20100112110112-v4b1ednck053qwi6
 :4820 fp@tinyerp.com-20090227082552-xq5hyobfstt2y3rc
-:4795 mra@tinyerp.com-20090225120537-rubu29vxc67acvi0
 :7913 ysa@tinyerp.co.in-20100112052946-7q9hbx485jxxj6w4
 :7912 codehost@crowberry-20100112045320-iw92h47rlzoz643w
 :7911 ysa@tinyerp.co.in-20100111140603-6addoqlftt0abl98
-:4533 jvo@tinyerp.com-20090205115706-mv0r7ivkberhp8cq
+:4821 fp@tinyerp.com-20090227122830-yk16trl7iz20z8bw
 :7917 mra@tinyerp.com-20100112100839-8mahdzqc5c5t53n8
 :7916 ls@numerigraphe.fr-20100112090607-vm6p883tlf8vfvlg
 :7915 ysa@tinyerp.co.in-20100112082927-7okbdznin4b0rcpq
@@ -6765,19 +6757,18 @@
 :182 pmo-de518981dee87ad16bcc9ed32fa93942f4efe80d
 :183 nel-3ba7efce7039070abc32d5030b8b4478aaa14954
 :180 fp@tinyerp.com-f08db2760c8fc7bad4e056405f1bf78447ea05a5
-:181 pmo-6bd3f7559f5b222edf2f86b3b9005ff4b7039bdc
+:9400 alexis@via.ecp.fr-20101229010839-c2531m37fk6l40q2
 :186 hmo@tinyerp.com-7073dfbc826ce8834411b20500455130e51f8c07
 :187 pmo-e9a438a3c2a54d2c0ff883728454ddd9d7ce1aca
 :184 nel-a3d00d96f5b9755ce8ec470ebde581e56bf5e443
-:185 bch-fa8fed42220c2b5b831756ade0b1a08ef5089c09
-:9407 rvalyi@gmail.com-20101231204649-bd26dshj7y0im9pz
+:4925 mra@tinyerp.com-20090306111439-idfq1b3xmbs9nlza
+:7984 apa@tinyerp.com-20100119063735-vth9a0owmvwtv83z
 :188 pmo-86aa28d402b173e21e315b40805ab8bfd5f6489f
 :4793 sso@tinyerp.com-20090225110808-8i7y9vdjx1o2yk7i
 :10019 resteve@zikzakmedia.com-20110831124020-s8dr2x52e6k23w3h
 :7985 pso@tinyerp.com-20100119072752-vk6tg6o6rupuccmf
 :9405 launchpad_translations_on_behalf_of_openerp-commiter-20101230050351-i2fm8xxe2ttv5anx
 :9404 alexis@via.ecp.fr-20101229233657-lghh70aqbdopsl9c
-:4592 nch@tinyerp.com-20090210072715-puhjptcs9hvcdjsv
 :10018 jesteve@zikzakmedia.com-20110829174217-20xe0p310e8j3v29
 :869 nel-af95cc51055278adcb60701b208531a68c5d25f6
 :868 ced-d2c372769712728678908cc53b588d720e75b80a
@@ -6792,12 +6783,12 @@
 :3443 sahibsofia@gmail.com-20080922105714-o7b3c6fo1wa4qmo9
 :866 hda@tinyerp.com-6aa6e597273351ab1aba092a0c5fd756e81e37e3
 :2024 sso-b3e597fd1d92926524d12fbe42564db1ff38c16e
-:2025 sso-bbd694c60fd4f933b9889b9397654121e0fec024
+:2757 qdp-7c028bb7742108342ddb522c137bdb9d5411bc9d
 :2754 mra@tinyerp.com-8e412a0499dd9199015666f9b56f35757925176f
 :2027 sso-992f69f6bddcb8647bd87e5459c14422bf0fd811
-:2020 dra-fd84ae96515ce90f3c9befdc53b20ff7dc12d392
+:2752 fp@tinyerp.com-8dd26d359c6b828af769672d43ec04e42554fe69
 :2021 sso-ee3dd1c665edcd5fcf1d287a520bde21fc84158d
-:2022 sso-20ecb36da20d443568ff8ba87ea0020398f5c979
+:2750 apa-ef19479fb3742974a50e13300daf7e9fc3604c92
 :2751 mra@tinyerp.com-bc48fc6cb2d270cf98f7fd72f93a103f7735d447
 :6364 rvalyi@gmail.com-20090603003701-b8lsx1mxfgsun242
 :2028 sso-b97cdf334818c55086666881ffe7cefd49f8ce69
@@ -6835,6 +6826,7 @@
 :4597 jvo@tinyerp.com-20090210111950-c3dntxlw52wb0m64
 :10013 root@test-openerp-603-01-20110826071455-p67heex2le96p4gf
 :7499 sbh@tinyerp.com-20091210080713-tguvzf0yb1di0zxh
+:4594 stephane@tinyerp.com-20090210100305-9p78bnf0g3nk6cgq
 :10012 root@test-openerp-603-01-20110825132802-ks48zfk8lk3pslnv
 :4595 nch@tinyerp.com-20090210101538-ta1zkawwfg15nf82
 :10011 launchpad_translations_on_behalf_of_openerp-commiter-20110824051240-tyrxh2qc2lm3gmun
@@ -6857,7 +6849,7 @@
 :6442 fp@tinyerp.com-20090613110607-y7m99odbc1k26p69
 :6443 pso@tinyerp.com-20090609114905-6a41frvfcg3qupbz
 :6912 jesteve@fontanilles-20090909190930-tqfii58mmuxslxpk
-:6913 vra@tinyerp.com-20090910092128-qvab5xokrp70x02h
+:6441 fp@tinyerp.com-20090603105046-nzmg1fzu0u76qm1o
 :6918 ssi@tinyerp.co.in-20090914065346-wg2fstgplljvuezr
 :6919 ssi@tinyerp.co.in-20090914083549-p1lkz28ij78seqrz
 :6448 fabian@fabian-openerp-20090609193733-vi8t1gabb7oxnb7k
@@ -6890,7 +6882,7 @@
 :6701 vra@tinyerp.com-20090722090204-gv6jgezu9n026bcv
 :6700 mra@tinyerp.com-20090722070548-pu897593xnxb9abt
 :8327 pso@tinyerp.com-20100312065410-v9ov145513brmlm1
-:6702 dsh@tinyerp.com-20090722092737-4isjckb221rsvy5w
+:8326 pso@tinyerp.com-20100312065246-d4t07kgbcpvr0tcs
 :6705 pso@tinyerp.com-20090722111800-4cl7g1yuuxn5jlhy
 :8320 dsh@tinyerp.com-20100311091842-mb62q6rx0bs4by4p
 :8323 ls@numerigraphe.fr-20100311150218-m9bwb12zfq2ey9oz
@@ -6907,7 +6899,6 @@
 :9918 launchpad_translations_on_behalf_of_openerp-commiter-20110706051759-2ktoofzta4gd9mof
 :7535 mga@tinyerp.com-20091211162435-7sovdgatyojaakdc
 :10014 odo@openerp.com-20110826101300-yegb40hvhet149bm
-:4218 fp@tinyerp.com-20090115140000-nbhqmsb29npupkfx
 :4057 jvo@tinyerp.com-20090105052842-svb3656w2env41x8
 :4056 sso@tinyerp.com-20090105051917-hqauaird95w1tj3g
 :4055 jvo@tinyerp.com-20090105051453-rwojcumplf25x3wq
@@ -6928,6 +6919,7 @@
 :3617 nch@tinyerp.com-20081105095148-sl7xa412cv1mj8b7
 :3618 ruchakpatel@gmail.com-20081105130819-9ytqg7jm554g7jh6
 :3619 fp@tinyerp.com-20081106165425-kkqj704o8pz8a2wn
+:3842 mra@tinyerp.com-20081210120059-29krw0ny4sgzolgc
 :2569 sso-c022079bc8e6c0a6baad8ef72848da1adf7a844b
 :2568 qdp-0ad20ef22334bcf0832a2614c99d158766e4fb1d
 :2140 rpa-7bc0bb8a68fa41a1b77edd1944aa5a8d0fbdfb26
@@ -7003,7 +6995,7 @@
 :8918 rvalyi@rvalyi-laptop-20091005080702-mkyz2alwkvbunuzf
 :8919 rvalyi@rvalyi-laptop-20091005080920-xiqnmpm83pdni0ij
 :1966 dsh@tinyerp.com-2f562c2ce5f421bc99e4df497d2cc95a6e68d1f7
-:1967 dsh@tinyerp.com-f23be7ee672d9c7d59e6903c15e0d0f0afae2264
+:5196 rpa@tinyerp.com-20090401094736-vmts6bed8xvv4pim
 :1960 sso-490f5a59b0a83a40c47d7831898752b52a6b492b
 :640 nel-5e7ff21c7854085833cc18c2c05ed4b853f4141f
 :10081 resteve@zikzakmedia.com-20111024095916-71c6um3zg5z101l3
@@ -7018,6 +7010,7 @@
 :7119 mra@tinyerp.com-20091023125422-ebyj741ncyxh27qq
 :1963 cza-76f799d41d9c1c91f61aecd261408c418a09559f
 :3471 sahibsofia@gmail.com-20081008095923-7atuh8swwecmq6qd
+:3964 qdp@tinyerp.com-20081230095953-rxwgcx5t0qcnywtk
 :7290 dsh@tinyerp.com-20091119112417-2mi7kljeophhkb1y
 :1678 hda@tinyerp.com-95568eed0941b3180e36ef9d3dc33ff72543e311
 :1679 mga@tinyerp.com-b63b189cbc571a9c0f9cd0b05e776eb76f041016
@@ -7082,10 +7075,10 @@
 :3357 mra@tinyerp.com-20080828085218-1cshgky4fk9iatqo
 :1485 dsh@tinyerp.com-6438938e64721efecfc1640753cb350af44d1e15
 :3820 nch@tinyerp.com-20081205133317-pq601ruap3viqgjb
-:7704 ssi@tinyerp.co.in-20091224130119-or314cirhoojffn2
 :2778 nch-883a02f6c28e6e79d7ae60e1c4c2f98232a29ced
 :7297 ssi@tinyerp.co.in-20091120084504-fj99ksm8slzcfnf8
 :2779 hda@tinyerp.com-2dfac842d762848d7b51339a8aadbd88bd8d134c
+:1484 dsh@tinyerp.com-1527a66a30eefb966ae05f40371a647d751b88cf
 :4899 jvo@tinyerp.com-20090304115148-8g6x5m33gj18lfck
 :4898 mra@tinyerp.com-20090304094604-ic9obyxvqcwdy5hg
 :7298 nicolas.bessi@camptocamp.com-20091120092411-0jjbg0h3wdabkfg3
@@ -7125,7 +7118,7 @@
 :9105 rvalyi@gmail.com-20100928030427-kndic0mld8jhqexo
 :9102 rvalyi@gmail.com-20100923155214-693osv7efhszb78v
 :9103 jma@tinyerp.com-20100927133846-b8vuyrz4mv6mewhw
-:9452 sebastien.beau@akretion.com.br-20110118100029-rz8e2617yhulgeso
+:9100 alexis@via.ecp.fr-20100922194248-aswuitidrizd3cxk
 :9453 sebastien.beau@akretion.com.br-20110118140210-eme3hf02orlp7jah
 :9142 philmer@linux-openerp-20100930160440-76o3h303zww72k11
 :7974 dsh@tinyerp.com-20100118120946-np5vxdsnl191zk44
@@ -7133,7 +7126,7 @@
 :7976 ysa@tinyerp.co.in-20100118135719-jfpq14j8c290td36
 :7971 olt@tinyerp.com-20100118091904-7koe990v7rcvkxi2
 :9495 joel.grandguillaume@camptocamp.com-20110216074648-6l92014nghpjdg6k
-:9496 launchpad_translations_on_behalf_of_openerp-commiter-20110217053945-l8grw3q585z9vigj
+:7973 dsh@tinyerp.com-20100118113311-68ux8bjglbvinlrl
 :9497 jesteve@zikzakmedia.com-20110218201926-udtjj7xvfc5riznl
 :7396 mra@tinyerp.com-20091202092238-i05660aac28ui0lx
 :6267 mra@tinyerp.com-20090526133023-13ljck7pwiisa1jp
@@ -7173,14 +7166,15 @@
 :6967 vir@tinyerp.com-20090924062312-uebbgbn0wq8z6go8
 :8159 al@openerp.com-20100209231329-qexclllcbl6dquhe
 :5170 mra@tinyerp.com-20090330140711-30wcctu1og6wxwuc
-:6969 mga@tinyerp.com-20090925065139-69xyi4y4sp50zwyy
+:8624 mra@tinyerp.com-20100518130721-tr0kf3gtpvl3tzl9
 :6968 sma@tinyerp.com-20090924065200-nwj675pes1mole3d
 :2997 jvo@tinyerp.com-1e794e256539242d820fdbf063b2bbe3bbfac008
-:8626 nel@tinyerp.com-20100518140052-7e4ibp9b2k6fxojt
+:8154 fabian@fabian-openerp-20100208131618-knmywemyr8pp6dyb
 :8155 ssi@tinyerp.co.in-20100209062056-4q8819veankflhkj
 :8620 ls@numerigraphe.fr-20100517092835-p5bn67jgqtmsfwf4
 :8153 qdp-launchpad@tinyerp.com-20100205172808-dmkdth9h0iuv7lw8
 :915 jvo@tinyerp.com-0f4f3083c70687854101c6560a39cd4395cc6852
+:6173 rvalyi@gmail.com-20090520105939-8ij2k9b8gy8atph0
 :8150 hda@tinyerp.com-20100205152258-nfnv231wlyt6j5ma
 :914 qdp-dcea7751a8c7d285c599c5ec08aca89aaa6812f6
 :8151 mra@tinyerp.com-20100205152723-lnrj3i7wkrpv22v4
@@ -7233,8 +7227,8 @@
 :8692 sharoonthomas@sharoonthomas-laptop-20100531104329-s6emfiq3j0hsw3sy
 :7706 ssi@tinyerp.co.in-20091224130939-u2i1dbf5t8eq67m7
 :7707 fabian@fabian-openerp-20091225185621-7giifydko29exoxv
-:39 bch-87e3f5a317c6a76aa4e37ff666dbb4df1fe8b46d
-:7705 ssi@tinyerp.co.in-20091224130524-1awubekkafxior5w
+:7704 ssi@tinyerp.co.in-20091224130119-or314cirhoojffn2
+:7515 sbh@tinyerp.com-20091210125621-4nd724yxjj5wq13h
 :7702 ssi@tinyerp.co.in-20091224123647-u1u3xcnq7cxld55s
 :7703 ssi@tinyerp.co.in-20091224125955-hpcsl5bzx391cty1
 :7700 apa@tinyerp.com-20091224115658-dcfkam4xwitqq6fk
@@ -7263,7 +7257,7 @@
 :3466 hmo@tinyerp.com-20081007074537-lkt2ht0lj1h6t67u
 :5133 mga@tinyerp.com-20090318050150-lnsxxzbmb74b28ot
 :845 fp@tinyerp.com-a9ab1eaa4bf310387ec3edde6dac1f779946e499
-:844 kap-6f9f42341ca046377048ebb4e99f4b1d813f7112
+:3464 jesteve@alba-20081005223427-hqyq7fmcq58su2gz
 :843 qdp-0b64f3afa95a88c5666725fd7eedaf8f6c74aeab
 :842 fmr-21af47c922ec89210b3d0363dcd5ce5cc89ff2d5
 :4079 nch@tinyerp.com-20090105125039-ca9xbze27te5dqvz
@@ -7298,7 +7292,6 @@
 :3631 fabian@tinyerp.com-20081110113212-4d568921czjshkxu
 :8891 nel@tinyerp.com-20100817124431-bwhb364eke6lc9ar
 :8890 ach@tinyerp.com-20100817130523-pkwtaea44ufjl4yn
-:8768 codehost@crowberry-20100627035259-q2clyafdrwrrh1hm
 :8857 jam@tinyerp.com-20100803123745-356b35p9jc6rc2ig
 :4468 asb@tinyerp.com-20090203105852-t9vw66mx43q3nm7g
 :4469 rvalyi@gmail.com-20090203112114-d1wlwikxebtn1tq0
@@ -7434,7 +7427,7 @@
 :1734 sso-8c59fcfe78dde7a646a229b15fe26b755023b0a0
 :1887 sso-9c9d7639c44c679018d52b4ac3562bcdcc52ec32
 :5236 dsh@tinyerp.com-20090402142602-yj7zeojuge0ccbew
-:1886 sso-a0d0ac3103281075283c7ae5251b7822b5e52afd
+:3703 fabian@tinyerp.com-20081120130528-uto5gu24panj0uv4
 :5237 sbh@tinyerp.com-20090402143715-59sfx3ssar5zo7od
 :3700 fp@tinyerp.com-20081122014418-1kv8dl4ta22buggi
 :3822 dsh@tinyerp.com-20081205140654-zkmgk9y1u2mesrnm
@@ -7459,6 +7452,7 @@
 :8593 pso@tinyerp.com-20100510060612-o0uth3cev3qvg0kt
 :8590 pso@tinyerp.com-20100510055815-t2cfb5xoy6n8imib
 :8591 pso@tinyerp.com-20100510060049-k2mgviczfac4wzhz
+:2120 rpa-4744684ccf043a4c72e6754af5689b4f8a2b46f9
 :5890 stephane@tinyerp.com-20090416084927-2idu4b7gk2f6ju7u
 :5891 sbh@tinyerp.com-20090416084402-fwjuue29uywcexcz
 :5892 sbh@tinyerp.com-20090416084801-cmvr1q60h5gjplc2
@@ -7479,7 +7473,7 @@
 :4915 vda@tinyerp.com-20090305131239-bzz68b1q87eynkj0
 :4912 rvalyi@gmail.com-20090305120634-gr9i4lh2w70my531
 :4661 claude.brule@alternatique.com-20090216052907-m6tjh40d59dv25t0
-:4662 fp@tinyerp.com-20090216213703-444ugy6i3ufyu167
+:4910 fp@tinyerp.com-20090306132947-ing2gcl6kegrif5s
 :4663 fp@tinyerp.com-20090217140838-mc4lcddnxz3q8ve7
 :7941 apa@tinyerp.com-20100113122919-opwexv0afccfrmi8
 :9894 alexis@via.ecp.fr-20110629094721-8o3sbtm5uzul4oym
@@ -7495,7 +7489,6 @@
 :9898 jesteve@zikzakmedia.com-20110629180624-6hk1q27tliun4acx
 :9899 jesteve@zikzakmedia.com-20110629180838-e1wzdwl1n4n4jrjz
 :9601 jesteve@zikzakmedia.com-20110325120456-bgc0uckhn6pkkvuh
-:5253 asb@tinyerp.com-20090406063118-6r2oz843aehzshn7
 :3070 hda@tinyerp.com-20080716084940-agxlyye8cosuw0jw
 :6138 dsh@tinyerp.com-20090518084014-20a55bg6gk5nx9sc
 :6139 dsh@tinyerp.com-20090518084436-y7qo6f89hpzqmbfs
@@ -7511,7 +7504,7 @@
 :1596 mra@tinyerp.com-ed14fc2eeddf738c66b5645979107eaecca6f4db
 :1591 mra@tinyerp.com-a058798d95ed6ea8aa35efc2c41f3d54ad37ba70
 :1590 mra@tinyerp.com-22c816a57c17aa859bd9901bbe7b3621c2aa33f7
-:10062 omar@pexego.es-20111004174602-qc3b2lnqdsvtbw0a
+:9205 neopolus@kami.es-20101102154016-77l6zqyciasz75lg
 :9478 jesteve@zikzakmedia.com-20110211204234-4vbsqguxazkmupz5
 :9479 jesteve@zikzakmedia.com-20110211204715-zxmlhx2sf9ozyz8n
 :3076 fabian@tinyerp.com-20080716152702-soaeramnkz6xi5qc
@@ -7521,13 +7514,13 @@
 :9470 nhomar@openerp.com.ve-20110129150949-b52gwqwwdsxopg3u
 :9471 james.jesudason@canonical.com-20110203180903-cdnu3chxtd9nnrq9
 :9476 jesteve@zikzakmedia.com-20110211202625-p0podmek0teng6r7
-:10060 launchpad_translations_on_behalf_of_openerp-commiter-20111004051504-rrw5injpbrbax1pd
+:2659 fp@tinyerp.com-b03b57f297b23487c0f4202e2f42e55ee30ca7cc
 :9474 lorenzo.battistini@agilebg.com-20110204140821-p70brjx672q37yg2
 :9475 jesteve@zikzakmedia.com-20110211202048-dpair2kgqf6r1ipv
 :10061 amp@tinyerp.com-20111004062700-p57z5ue6gr86a941
 :10229 launchpad_translations_on_behalf_of_openerp-commiter-20120217052610-uy19zsjv93a8a6bz
 :10066 maxime.chambreuil@savoirfairelinux.com-20111012141353-8ysewnjt0q6hx0xk
-:9200 philmer@linux-openerp-20101102094521-cus5i3tjt27goxom
+:10067 maxime.chambreuil@savoirfairelinux.com-20111012141600-q7joqyhfdj3gp94n
 :9203 omar_pexego-20101029170716-kaa2gqjqozlxqk3o
 :10065 launchpad_translations_on_behalf_of_openerp-commiter-20111012045602-g04awcpbrboa4eu9
 :3252 vinusoft85@gmail.com-20080808060942-quiqa8fi0ubh4njv
@@ -7596,7 +7589,6 @@
 :4855 svn-v3-trunk0:10d1edec-8d52-0410-9712-ab945b9a1f9d:trunk:130
 :9608 sebastien.lange@syleam.fr-20110326171400-6lxsgf7aexe2n3n8
 :6596 sso@tinyerp.com-20090701104437-gau6m91azec6trsl
-:9400 alexis@via.ecp.fr-20101229010839-c2531m37fk6l40q2
 :1554 mra@tinyerp.com-5aa71fe203cebc64208e629dadfa1cbd447aa71a
 :7096 dsh@tinyerp.com-20091020131036-ljbtanm7iqoh8c0o
 :7097 olt@tinyerp.com-20091021072809-r5i3qmzshgq08ezb
@@ -7652,9 +7644,9 @@
 :8368 codehost@crowberry-20100319075637-76c2vxu4p3duo4lf
 :8217 dsh@tinyerp.com-20100217125834-5fq82t79bz8mp5c5
 :9067 rvalyi@gmail.com-20100826011426-2e100t5ip2p43v18
-:9066 nva@tinyerp.com-20100819125339-6m6tu0lcez13e8ol
-:3184 qdp@tinyerp.com-20080730125632-eafrc3a1kdm5j2vu
-:10286 resteve@zikzakmedia.com-20120411153803-3u1ls7h4h4gpaszu
+:10289 launchpad_translations_on_behalf_of_openerp-commiter-20120414050844-irn6qihsj8jz8wej
+:8216 ssi@tinyerp.co.in-20100217111330-iid0mpi8s6def6c3
+:3185 qdp@tinyerp.com-20080730130225-lpe985yr8p47u1ww
 :3186 dsh@tinyerp.com-20080730135027-8mv7tz089w20ovpr
 :3187 mra@tinyerp.com-20080731084132-4t4p9cwv54u56qps
 :3180 olt@tinyerp.com-20080730123504-bghiufu9qtmocpg1
@@ -7724,6 +7716,7 @@
 :7873 codehost@crowberry-20100109075423-m64g54r7gi49hb2o
 :7878 apa@tinyerp.com-20100109091238-z3vgxelqk44harbi
 :7879 mra@tinyerp.com-20100109093436-ht46bj2fbf3l477g
+:6913 vra@tinyerp.com-20090910092128-qvab5xokrp70x02h
 :6309 sso@tinyerp.com-20090529092608-vp8cg2pitgdp2thj
 :6308 qdp@tinyerp.com-20090529083115-e3h7m4zcvi05dpu7
 :6305 sso@tinyerp.com-20090529063113-4bcmg6vmd2t4922p
@@ -7804,7 +7797,7 @@
 :8541 olt@tinyerp.com-20100427060528-9uqmxr1ld2joxqna
 :5429 mga@tinyerp.com-20090422193458-ipmugdob6bcnozj9
 :5428 mra@tinyerp.com-20090422153346-c6jo7zu14o5tda2g
-:1188 mra@tinyerp.com-f883e0358b070cee2f2a84cac6360f8e1067abc6
+:3379 dhara@dhara-openerp-20080903113800-wr4z99orx1t3y78g
 :3378 jesteve@fontanilles-20080902105449-q4hws01i8dx0575t
 :3377 mra@tinyerp.com-20080902090045-6lhzso8g53nv5nom
 :1187 fp@tinyerp.com-dd54f36fb5d09c841109c275fc52a6dcac19417c
@@ -7864,7 +7857,7 @@
 :346 pmo-eb4a0ce614f154c46412514512172f868ea216de
 :347 fp@tinyerp.com-203b42bb8b1189d168d371babffbfd112744ef30
 :7513 fabian@fabian-openerp-20091210112857-06fhyt8udmue52ox
-:7512 mra@tinyerp.com-20091210112325-xqlf0q0nm7bohydl
+:341 hmo@tinyerp.com-77c20978f6479a48aa7f4c6a5f4bc53bb6f6018e
 :7511 fabian@fabian-openerp-20091210112214-9gfme60xp7q5o376
 :7510 fabian@fabian-openerp-20091210111921-clfqbkib3pm4c0d6
 :348 kap-8f14a9512ea6f8487a10faa412ecaa0681dca377
@@ -7933,7 +7926,7 @@
 :2045 dra-d27ec9668758d9ccc501b8b19e6293c01e254168
 :4817 fp@tinyerp.com-20090226163642-9ppl62hzitflap92
 :4816 olt@tinyerp.com-20090226154925-nz812ojhs05t14ts
-:2040 jvo@tinyerp.com-08ab92bcec17d3e43b9c990520377ab51b24a463
+:4815 hmo@tinyerp.com-20090226151556-74w0g3b8y5buasz0
 :2041 jvo@tinyerp.com-c38bf1e225b060540822d2b1fa7363f702a04aa4
 :8232 qdp-launchpad@tinyerp.com-20100219133321-12vh4evjuzk9g7jt
 :4819 mra@tinyerp.com-20090227060839-5vry9fuj4y5aba9b
@@ -7958,7 +7951,7 @@
 :9613 albert@nan-tic.com-20110326232245-r8qozvl8z052018l
 :9346 maxime.chambreuil@savoirfairelinux.com-20101202234100-ch4igaau5mmbj6x3
 :10168 viktor.nagy@toolpart.hu-20111107102824-gizbbx7yk4pigyqz
-:10167 viktor.nagy@toolpart.hu-20111107102810-tjz1egsozxuk7czl
+:9348 maxime.chambreuil@savoirfairelinux.com-20101203144820-a5gf0ioze5ddmxjf
 :10166 viktor.nagy@toolpart.hu-20111227083314-35sbxqxxdx2oti6i
 :10161 support@serpentcs.com-20111222105942-w7xxpry0ct3yfclw
 :10160 support@serpentcs.com-20111222104714-gryqms93me2ii8yu
@@ -8107,6 +8100,7 @@
 :9624 albert@nan-tic.com-20110327002904-3hm0f0sva2pnbh8e
 :1509 mra@tinyerp.com-eba588fa767e86ff0f92d83c293c37d4a3ce9717
 :9294 nel@tinyerp.com-20101126133259-mq8p4plxx7xpqofx
+:5496 mra@tinyerp.com-20090428120528-2yow4j5t9xqwp5yq
 :7330 dsh@tinyerp.com-20091125062624-13pg31slht21vrb2
 :4985 mra@tinyerp.com-20090312091000-wdisx0p5hc3uivy0
 :1601 dsh@tinyerp.com-26fef0ce2f72612c503cb93ff8247b1ec66f7028
@@ -8190,6 +8184,7 @@
 :548 mra@tinyerp.com-1010684fdc1ccd07501af2669a34c9ca1c82db0e
 :549 mra@tinyerp.com-aad28616c2cff1fe900be65291e974695e988bb1
 :5138 mga@tinyerp.com-20090327065328-obd1rq3ulgwm4tvx
+:1941 dsh@tinyerp.com-e4e556ee99153e053ae0c0b633261f1937e94274
 :5476 tiny@aka-20090427100948-n9817ffep6aznwn7
 :6569 rvalyi@rvalyi-laptop-20090629075603-042tnn6w2kzlnf08
 :6568 mga@tinyerp.com-20090629073031-50t3pr4ih8jty4dk
@@ -8214,7 +8209,7 @@
 :7689 sbh@tinyerp.com-20091223085535-tl4zzc8xm0a1495l
 :7688 sbh@tinyerp.com-20091223063730-ddxgkgb7an8l4nhv
 :3827 rvalyi@gmail.com-20081207101107-08h7940uo1yxgfgy
-:10332 launchpad_translations_on_behalf_of_openerp-commiter-20120516051704-5bydtah7twf7uhlh
+:3580 fp@tinyerp.com-20081027075328-as07su5u9pf0nsdj
 :3825 fabian@tinyerp.com-20081205144223-cywnwv35h8dp7dtu
 :3824 dsh@tinyerp.com-20081205140900-dme4rgyt0u3nfr0p
 :3823 dsh@tinyerp.com-20081205140814-87gmm6lft7zcuucp
@@ -8263,10 +8258,9 @@
 :6174 rpa@tinyerp.com-20090520060617-aong0qpi9mr9sry7
 :6175 rpa@tinyerp.com-20090520061814-98oadkwx6uy40eyg
 :6172 rvalyi@gmail.com-20090520055125-8s86wix5nnbri0k0
-:6173 rvalyi@gmail.com-20090520105939-8ij2k9b8gy8atph0
+:3215 dsh@tinyerp.com-20080805112728-k45ogln42ob1h31h
 :6170 mra@tinyerp.com-20090520051255-5ih0l4pfuxi07erg
 :6171 rvalyi@gmail.com-20090520053505-wzahm0b5zeg23i0j
-:5132 vinusoft85@gmail.com-20090317134309-emn4vdv5xa4c1x7s
 :9483 joel.grandguillaume@camptocamp.com-20110214110634-s5hzz2o81t42ra2q
 :9482 joel.grandguillaume@camptocamp.com-20110214104602-z0hyu0412387mtnb
 :9481 jesteve@zikzakmedia.com-20110211205635-amx8efs9exmge6ni
@@ -8283,6 +8277,7 @@
 :7905 mra@tinyerp.com-20100111115505-i0apuggmfm9s1pjx
 :9485 joel.grandguillaume@camptocamp.com-20110214112253-6syhyg9j77jzd6ld
 :3210 mra@tinyerp.com-20080805054432-koxwyk3p03cejsxm
+:680 nel-88dd8ddb19afc4d0c507b3beddb46cc1f7c8e92e
 :9484 joel.grandguillaume@camptocamp.com-20110214111312-co8jh9z0mzd7khmp
 :4428 mra@tinyerp.com-20090202073052-dy5jdjqe18uavhan
 :4429 mra@tinyerp.com-20090202091240-8aerdtpguys87n3g
@@ -8331,12 +8326,12 @@
 :8143 p.j.kersten@edusense.nl-20100204090421-0hoslj849s5046wl
 :8634 codehost@crowberry-20100521034728-qvh2q25509sz5n05
 :8145 mra@tinyerp.com-20100204121948-7xramsmdihcav8s5
-:8632 dsh@tinyerp.com-20100520113645-fms632507idbynx1
+:8144 ssi@tinyerp.co.in-20100204095718-mgntsj90tkvnzkij
 :8147 qdp-launchpad@tinyerp.com-20100205093409-54agobsq37llukkb
 :6993 pap@tinyerp.co.in-20091005094555-0i6ggpm5xq30lnxa
 :9292 nel@tinyerp.com-20101125092759-x7ufazflb1wh0my7
 :9293 nel@tinyerp.com-20101126125324-hk2ktzvxs7vn1hjr
-:4987 christophe@tinyerp.com-20090311170208-m4vyp0g2vc6y72ha
+:9290 launchpad_translations_on_behalf_of_openerp-commiter-20101125050502-1qmcqrfhknro82ay
 :9291 nel@tinyerp.com-20101125084553-vo26jnsewnapu2t6
 :9296 jesteve@zikzakmedia.com-20101126204013-6bhsee2xr09oir0r
 :7332 dsh@tinyerp.com-20091125071343-1ur2ch4kjyk6vhci
@@ -8378,11 +8373,10 @@
 :8636 ssi@tinyerp.com-20100521100833-uqhgc2e1a3anrbj9
 :6996 mra@tinyerp.com-20091005132912-xo5abz0lf44wc9fb
 :6997 mra@tinyerp.com-20091005133219-r6uf03qe780o9htm
-:8633 borjals@pexego.es-20100520171042-iot70m8r9b80uyko
-:8144 ssi@tinyerp.co.in-20100204095718-mgntsj90tkvnzkij
+:6990 pap@tinyerp.co.in-20091005082149-ky6qn199874icfzo
+:8632 dsh@tinyerp.com-20100520113645-fms632507idbynx1
 :8631 olt@tinyerp.com-20100519150140-mz0rdnlavfppfx5p
 :8630 olt@tinyerp.com-20100519132247-lruz1xm90oq12a9k
-:9487 joel.grandguillaume@camptocamp.com-20110214132010-x3cwrwp25y93w6c7
 :9021 rvalyi@gmail.com-20091127172705-0zl7auuy6mr10xqw
 :2998 fp@tinyerp.com-053408288cb0fc31b6d7054614296865054b54d8
 :2999 jvo@tinyerp.com-dd5200f87d0b049e3ddcfd8feca70c1b4dca3944
@@ -8414,7 +8408,6 @@
 :9994 launchpad_translations_on_behalf_of_openerp-commiter-20110803051334-v0tan6ssz751qwzr
 :9997 jean-sebastien.suzanne@syleam.fr-20110805111417-tscp8qre62r883bo
 :9996 launchpad_translations_on_behalf_of_openerp-commiter-20110804051516-vd017o2pkrajtgek
-:7236 qdp@cyan-20091109093728-yk51zpgpjkrtrboy
 :429 pmo-d6bd753c84759fa82b360ca39f61aae41a5c953c
 :428 bch-7417ff064bb6b78b48c3038d075c1b281c97887b
 :1399 mra@tinyerp.com-b2b2f9b2411fe479884be11c6a4ce648e1d28311
@@ -8436,10 +8429,12 @@
 :3457 jesteve@alba-20080930182800-e8bmdtkannampeoe
 :852 ced-b27a79c96c12e2f9dc24e2578e4690aeee8db7e9
 :3455 hmo@tinyerp.com-20080930081942-jgwok4d9yayxdxq8
+:7232 dsh@tinyerp.com-20091109055814-bp8j9hetsq96242t
 :8258 olt@tinyerp.com-20100225075003-3hfhrn5ifq6erpov
 :4714 vinusoft85@gmail.com-20090211091432-0n8sfiwvuc3gx9de
 :1424 fp@tinyerp.com-45794340a522aff4698e8efbd517e3b8afc05cce
 :2331 rpa-31eec6993a773677b653f82c43c1656abb97dca2
+:3475 qdp@tinyerp.com-20081009073827-g0so0yc9ll0rcjx0
 :4716 vinusoft85@gmail.com-20090216043638-i1x21fd6b3slhvbd
 :5474 mra@tinyerp.com-20090427122202-qnqzx4wndv7inz5k
 :4717 vinusoft85@gmail.com-20090216051935-lletcphwevga04ki
@@ -8579,7 +8574,7 @@
 :4078 vinusoft85@gmail.com-20090105122208-rjjywgkp2x07sjhr
 :524 mra@tinyerp.com-2c7459274ce8ae561d6b227778e0a7843d3ea9fa
 :525 mra@tinyerp.com-847bb300cce4ca27566971d2f569b713995d03c1
-:9763 jesteve@zikzakmedia.com-20110505191741-61xquntnmiz0bh6a
+:526 mra@tinyerp.com-69da4de0f0ec1b2408e8f69babcc64aa6fb0bdaf
 :527 mra@tinyerp.com-acee49b9c7fc5a8cb4863c475a4f8e9f562c76f9
 :520 nel-e143752c179c7d908bd9c80438095417f9389afb
 :521 mra@tinyerp.com-b5dc203e8491dba4e45d61f29ed7e0271afedfeb
@@ -8620,7 +8615,7 @@
 :6505 mra@tinyerp.com-20090617104303-w7e3hn910k62ckm4
 :6504 mra@tinyerp.com-20090617091604-fkx8oi693rsvptw3
 :9359 maxime.chambreuil@savoirfairelinux.com-20101214030638-it6ua6hv6lta1h59
-:2486 sso-ae0bb2745d34447668cd9b348e56f54bbd33483e
+:4901 mra@tinyerp.com-20090304133047-jswjkmrqbxqne7jy
 :2487 sso-3a5deb844a2de9f4c8d3b53cf80013332d031bc7
 :4903 mra@tinyerp.com-20090304151709-euhnp9p9fn41slc3
 :4674 sma@tinyerp.com-20090213122215-u8kjk0g82agdc5tb
@@ -8644,6 +8639,7 @@
 :8465 codehost@crowberry-20100411041903-c72tk66mdn84q5cb
 :8468 ssi@tinyerp.com-20100412122114-0kfg8xfxv1hpw2qo
 :4670 nva@tinyerp.com-20090217133426-s2z54xfdh7gkvna2
+:1967 dsh@tinyerp.com-f23be7ee672d9c7d59e6903c15e0d0f0afae2264
 :7559 ssi@tinyerp.co.in-20091214071422-9bklovujl9qgmrer
 :7558 ysa@tinyerp.co.in-20091214065455-e7gz3n0xnv6sj026
 :7553 mga@tinyerp.com-20091214172233-l93v12w73fzehaon
@@ -8683,7 +8679,7 @@
 :2223 rpa-c8a8d77ec6f072fab390959a2e3ec5b06fb10505
 :2220 nel-38ad1f12516b00b7429bc7443ca2d450a4dd3559
 :2221 mra@tinyerp.com-ba279d8d3ee139e86aa98f7f49ccae971a304196
-:1 fp@tinyerp.com-4e9a8b8aaf7f88969cad49cf877c92dc38d3a702
+:5924 sbh@tinyerp.com-20090416144232-95w73t1vf1bvamfv
 :357 kap-9c7b23d64325a46db8d43682999ab28bc42a6c69
 :5926 sbh@tinyerp.com-20090417063834-y4alz3zpf6wgjggq
 :5927 sbh@tinyerp.com-20090417064528-jg8kxprb16i07dlu
@@ -8736,7 +8732,7 @@
 :9010 rvalyi@gmail.com-20091105043529-dh7uyah3fptr00kr
 :9011 rvalyi@gmail.com-20091105071252-0rabhv61327g9uqz
 :10235 jesteve@zikzakmedia.com-20120224104245-0wdkw8rw4ndw8a5t
-:10234 support@serpentcs.com-20120223112622-crv8qwf7hneyj32v
+:7037 jvo@tinyerp.com-20091012134243-qx7qyo51f0opxbqf
 :7038 ssi@tinyerp.co.in-20091013050526-4tgxsorqhafe7umg
 :7039 mra@tinyerp.com-20091013064645-p7a4715qljn5i7xk
 :10239 launchpad_translations_on_behalf_of_openerp-commiter-20120228060854-n0l34ajj5pl0jbo2
@@ -8786,7 +8782,7 @@
 :8612 codehost@crowberry-20100513044844-wwtvidnopfivcbb6
 :8619 ls@numerigraphe.fr-20100514095038-dmnemwkclumr7nxl
 :8618 ls@numerigraphe.fr-20100514092302-c7haf2xsb0vi22mm
-:3304 hda@tinyerp.com-20080818134051-ysyclnwnti02afrq
+:5719 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::74
 :5718 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::73
 :5717 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::72
 :5716 svn-v3-none:5d1a821f-d359-0410-b2f4-f40c4455f12e::71
@@ -8824,7 +8820,7 @@
 :2667 sso-dda9d41ac0f9002d5913432656e31fa54614cbc8
 :9588 amp@tinyerp.com-20110321095816-y3nkp9wsapty7hm1
 :2664 mra@tinyerp.com-d35228ab8cd149c055eac7946aaa9963bc846149
-:4494 rvalyi@gmail.com-20090203185748-reby2frbtrdxrita
+:2665 sso-870a21f96ee2067857b80af7231dbf2c4e23c149
 :4493 rvalyi@gmail.com-20090203180121-m92712htv5soii70
 :9277 sebastien.beau@akretion.com.br-20101119090820-347lyp5dcrwsrs79
 :2663 mra@tinyerp.com-723c602cb6e5a3da7ea8c2b10fd28f5251beaa96
@@ -8868,7 +8864,7 @@
 :3276 dsh@tinyerp.com-20080808133645-b0p2zq1wpher4j0h
 :3277 vinusoft85@gmail.com-20080811054017-d2f8t9b5zvzn53y0
 :1922 sma@tinyerp.com-1fac02cd40b2d4d05ed2aada7be1c9941b470ac5
-:1923 sso-fa341c4d9b10565bb841ebbd88a5e84bc94e4453
+:3275 jvo@tinyerp.com-20080808131149-7pw691evjr82qwtb
 :3272 mra@tinyerp.com-20080808123458-71ofdwf3qeqi2di0
 :3273 mra@tinyerp.com-20080808130100-o8dwf1eujduu9v98
 :1926 sma@tinyerp.com-c3ac114c2be43d435028321ed9a05c887e266bbf
@@ -8878,7 +8874,7 @@
 :3278 hda@tinyerp.com-20080811065911-2rcaxfl53l41asmg
 :3279 sahibsofia@gmail.com-20080811123604-7f8kpgj7oy1gc7z1
 :1986 jvo@tinyerp.com-9a6294456fa3cfe7bec539a3c14fdd2d494d030b
-:5586 mga@tinyerp.com-20090505151639-coxtvxnqeskkjxvk
+:24 fp@tinyerp.com-5c6382f3100a134b924dceda3554d672e4ad2a74
 :5587 fabian@tinyerp.com-20090505152336-m8x6gtnwk27518n7
 :5584 mga@tinyerp.com-20090505150959-6nwyjlvpvdxhvqmt
 :3319 sahibsofia@gmail.com-20080820120208-3hx23f2mtbudffbi
@@ -8896,7 +8892,6 @@
 :5480 pso@tinyerp.com-20090427133042-duc684wt89xqvypz
 :5580 mga@tinyerp.com-20090505150751-idmv1bp42imou8rz
 :23 pmo-fbd72a69f2ce6671a71efaa6c08429d2a36b24f9
-:7515 sbh@tinyerp.com-20091210125621-4nd724yxjj5wq13h
 :60 bch-45a3e38476afb5d3bb471a7144b77bff3088424c
 :61 bch-38b86dc50e687de269630f59bb56be820e743214
 :62 bch-7452899be8b5aa0ee1d72970dc1bac13a3e6b9e8
@@ -8922,7 +8917,7 @@
 :1210 mra@tinyerp.com-6ef06d3f66e588f1e4bebde2d49bc1acc1572ec4
 :1211 mra@tinyerp.com-d609b4465ab423c28322f447b871d9f0ed5ebca9
 :634 kap-6c49d6d5ca350f2fddd9667bc198c305b5e61ba4
-:635 pmo-8072e2f07fb0256c55b685be4e621a4df2fdb467
+:1217 qdp-38047a3c2c02774fc830ed93d267407442f43622
 :636 nel-b81214d866daa412e1839ab4fc5db74c09f5ce47
 :637 kap-7900d6dfeeefc4dcf982fd2a7db059c1fad10a60
 :638 kap-f7070deb4dcf62cd73f937e2636aae46a3fd541d
@@ -8933,7 +8928,7 @@
 :6520 fp@tinyerp.com-20090619102102-306hwmozh67dtj66
 :6523 rvalyi@rvalyi-laptop-20090619083356-hrmnql4slsk7prkq
 :6522 rvalyi@rvalyi-laptop-20090619082252-nuaufsoefgktoc5b
-:8268 codehost@crowberry-20100228050104-q3zkgu06gtw1b2i0
+:6525 mra@tinyerp.com-20090619081401-7qjqlavv8yrf5sdb
 :8269 codehost@crowberry-20100301050713-lbcacpd4f7szhfjt
 :6527 fp@tinyerp.com-20090619102200-pis5hm62ww5wocm0
 :6526 rvalyi@rvalyi-laptop-20090619084248-86oxljrsd7s0m9ep
@@ -8975,7 +8970,7 @@
 :9819 jesteve@zikzakmedia.com-20110531111025-bj5efc4l8t443p5e
 :7577 mga@tinyerp.com-20091215163455-2374egfpsrz1krsk
 :7576 fabian@fabian-openerp-20091214153626-cnawx3rm62lj1lz3
-:9814 alexis@via.ecp.fr-20110530153748-ovu44t1tbt6v4212
+:7579 mra@tinyerp.com-20091215050202-6pmp1mfy3r883c31
 :7578 odo@openerp.com-20091214210633-6cc63irbbldl526b
 :9816 rvalyi@gmail.com-20110530215631-o66g05zur1ohoy6k
 :9817 launchpad_translations_on_behalf_of_openerp-commiter-20110531055418-g6psag9l0yiisncx
@@ -9008,13 +9003,13 @@
 :5906 stephane@tinyerp.com-20090416104114-zqjqiukvqoovhahj
 :5907 sbh@tinyerp.com-20090416103758-l2m8guo4f62mbomy
 :5904 sbh@tinyerp.com-20090416101812-q7jnxvii5lbb5r02
-:5905 stephane@tinyerp.com-20090416102824-jummfn7yzvs48tvd
+:8210 olt@tinyerp.com-20100216141828-ry7j9n59b9y9m6g6
 :5908 stephane@tinyerp.com-20090416104207-nrabijijub0vxx0f
 :5909 stephane@tinyerp.com-20090416104402-v3lfq90sz9sy1ehd
 :8213 ssi@tinyerp.co.in-20100217093920-s89mq7mcw2olk4bz
 :3489 mga@mga-laptop-20081010131056-d819kzxvsvouz5dq
 :3488 mga@mga-laptop-20081010130921-vc1cq9ea1ntnqclq
-:8744 mra@mra-laptop-20100616073355-ktc7jzohtfroqph9
+:8212 ssi@tinyerp.co.in-20100217093447-x0m0c00kkvt5qk09
 :981 qdp-f1baf7ab9871949955c096fb850faa4a823af652
 :3481 qdp@tinyerp.com-20081010090111-im937qkq5loh5hbe
 :3480 qdp@tinyerp.com-20081010090027-hcoppdz1bf523wb5
@@ -9033,7 +9028,7 @@
 :4565 vda@tinyerp.com-20090209070641-l06yh4swgcny7hfa
 :4564 jvo@tinyerp.com-20090209065108-hkt876795fpauozh
 :4569 jvo@tinyerp.com-20090209080354-gojis3kzpsrdsuv1
-:8216 ssi@tinyerp.co.in-20100217111330-iid0mpi8s6def6c3
+:4568 jvo@tinyerp.com-20090209074234-p3jr13va9jxqds23
 :7653 mga@tinyerp.com-20091218131638-l44ds3sx7se2n149
 :9353 maxime.chambreuil@savoirfairelinux.com-20101207025109-t0e08x2l4t8crhfa
 :10179 launchpad_translations_on_behalf_of_openerp-commiter-20120107055927-y6n5p76u58oxbq1k
@@ -9087,7 +9082,8 @@
 :7375 ssi@tinyerp.co.in-20091130110351-dqpnum67n97w0ju5
 :7374 mra@tinyerp.com-20091130100347-jj05dkzmtvbdndxr
 :1193 nel-c100234932048b57924b5bcc3f4e9c835f20c478
-:10259 launchpad_translations_on_behalf_of_openerp-commiter-20120308050942-lluolh1zq2a3cs11
+:9155 rpa@tinyerp.com-20101011131924-ci0aresuqpm5qwb2
+:9032 rvalyi@gmail.com-20091104055103-so3mebp0ewgvsyoh
 :9033 rvalyi@gmail.com-20091104065559-yz5x0izmezljnqgn
 :9030 rvalyi@gmail.com-20091104010800-du9xt7wgg1p12hyl
 :9031 rvalyi@gmail.com-20091104025737-ya2uddi3zkhgeabd
@@ -9098,7 +9094,7 @@
 :10251 launchpad_translations_on_behalf_of_openerp-commiter-20120303053913-juphb8mnmqp4fj8t
 :7017 ssi@tinyerp.co.in-20091008061745-pss5dprnnpcro5db
 :7014 dsh@tinyerp.com-20091007103547-ujpzt3wqqr4v0trl
-:10252 jesteve@zikzakmedia.com-20120305164032-7a3497uo6ph4s1ru
+:7015 rpa@tinyerp.com-20091007111833-0rwpq5n89xihde3n
 :10255 jesteve@zikzakmedia.com-20120306213719-wd1jkbqq10worw7u
 :10254 albert@nan-tic.com-20120306194511-7h7aucsqxeb6hegc
 :7010 dsh@tinyerp.com-20091007063521-vvecbwntjq8xlm8j
@@ -9130,15 +9126,15 @@
 :2953 mra@tinyerp.com-5771209ac3827f3767de4ed8b53e9caa0833f725
 :5344 fabian@tinyerp.com-20090414161837-u7g5edi6e5pcqqk6
 :1024 mra@tinyerp.com-efb2a4b1405a6b0356a0cf12984f9a3f2f98c9d4
-:5346 mra@tinyerp.com-20090415070915-sb3ssxg273pxoj0u
+:1027 mra@tinyerp.com-8edc0bdf9d2ff6b4c6133bee2b06785577bee394
 :1026 mra@tinyerp.com-221ca9d096fad31d1aeaef67b7ec644caf45612d
 :1021 mra@tinyerp.com-ff7a9dd8ae7fcafb83833a100fb23c70d5e38377
 :5341 sso@tinyerp.com-20090414102102-7emslj0jf9rnaxfy
-:1023 mra@tinyerp.com-1b637078883bfecdd3693bf5bdfc4dc4ec5f01d8
+:5342 mra@tinyerp.com-20090414114104-s6en9clafv9037ve
 :5343 vda@vda-20090414131710-ddpeijk01ag0y24i
 :1800 sso-508e531e85d4cda91e14427a5b225e817b19a2e5
-:5348 rpa@tinyerp.com-20090415133808-s0trdhxhfagb0jly
-:5349 mga@tinyerp.com-20090409070602-5au6m63d986uwooo
+:1029 mra@tinyerp.com-1186af94c5ce656e963a224db9865531f1f6e4b2
+:1028 mra@tinyerp.com-08eadc3b3ce444f368a3f62522d92daa447dbec1
 :3323 mra@tinyerp.com-20080821100348-22zo831ic1zm5h6o
 :10071 launchpad_translations_on_behalf_of_openerp-commiter-20111018050415-eci6cdxu51tc2d3y
 :1197 mra@tinyerp.com-7f44415c494bcf6d79616bc235347719be493d63
@@ -9267,14 +9263,14 @@
 :2160 rpa-de4dda38145a0fe5cfbd5402396c4a9986b0c15a
 :2163 rpa-3850fd04d2a2dffbf3622f4f35607c5517abbf7e
 :4955 vinusoft85@gmail.com-20090309052344-o0cajao4tg7w5ejo
-:1941 dsh@tinyerp.com-e4e556ee99153e053ae0c0b633261f1937e94274
+:9286 launchpad_translations_on_behalf_of_openerp-commiter-20101123051457-mfopo2ehg4ojv2yz
 :3254 vinusoft85@gmail.com-20080808062915-jqra1tas7kfyrghu
 :1947 dra-6edcd8904332048235e214e70f3c57d448fc12be
 :3298 qdp-launchpad@tinyerp.com-20080813143419-pubj28sf8co1mcj5
 :3299 qdp-launchpad@tinyerp.com-20080813143729-sg47qw95h6p3gjoi
 :5139 rpa@tinyerp.com-20090327092738-er3t0sq8d6cn68bi
 :1909 sma@tinyerp.com-365ca22a273a17ee654e2ba37ad0757bb927c83c
-:5137 vinusoft85@gmail.com-20090323133203-h3qvatvy3lw9bwyb
+:3294 sahibsofia@gmail.com-20080813135614-zhu7jzlpywl5y0j9
 :5136 vinusoft85@gmail.com-20090320072808-xuv0il1fynmmxbqf
 :3296 qdp-launchpad@tinyerp.com-20080813142934-f25rvohllw9uz7lx
 :5134 vinusoft85@gmail.com-20090319090243-gj1sogrxgigkpcnq
@@ -9303,7 +9299,7 @@
 :618 nel-809608f32be3c2d1c8cda071e8b76761b15de1be
 :619 nel-01109e29b8886a8079b4edd43f037bf6fec3b267
 :2042 sma@tinyerp.com-aa7f19972eb12c7d3bb24bd7b12141777e5736ed
-:612 pmo-57dd73a7d92756ce4ffa3e13dd6176eea1c1628f
+:1270 mra@tinyerp.com-6bb209086881d3c3de56c530a8678098a1bda8b1
 :613 nel-b2fec6ec2606ac1961c5f477f2667acd7ca12614
 :610 pmo-b91d73c29f13932c6a1698cbe54d8bfd3788be1d
 :1273 jvo@tinyerp.com-c77927e7efe0cdc95b3619fc4ff72cddf7f0c64f
@@ -9359,7 +9355,7 @@
 :7590 pso@tinyerp.com-20091215111023-bgwuyt4e8rfr0otv
 :10307 launchpad_translations_on_behalf_of_openerp-commiter-20120420050330-6k096ayjacdrymfg
 :9129 rvalyi@gmail.com-20100928041518-8dk0v2zr9zy2rhfi
-:3599 fp@tinyerp.com-20081103192208-vhy79jeffwjidl9v
+:5034 hmo@tinyerp.com-20090318125134-ywp6lsse5u9ffcbs
 :3598 qdp-launchpad@tinyerp.com-20081103141505-d8ee32l5dmgjss51
 :4138 fp@tinyerp.com-20090112165425-f039y00flh92azrd
 :4139 fp@tinyerp.com-20090112201529-foco0gunti0vs7oo
@@ -9418,11 +9414,11 @@
 :2598 sma@tinyerp.com-964a7cc9a870dea58d93b537414dd937444f0d56
 :2599 sma@tinyerp.com-1c6ece3648ae31b553dc7a568128bd5862a6dd61
 :6281 mra@tinyerp.com-20090527125343-n7yshoybubqum4qv
-:1070 mra@tinyerp.com-2dc54ef7c73541c7f3fef81676934d018df3ecc3
+:5373 mga@tinyerp.com-20090416131613-nkxcs2mx833rg4o8
 :6042 khatri.jatin7@gmail.com-20090512055243-mod7qae5cb7axerz
 :6043 mra@tinyerp.com-20090512075437-ensv4uldmdww7kp1
 :6040 khatri.jatin7@gmail.com-20090511123911-wcj4geeb81i2l7v9
-:6041 khatri.jatin7@gmail.com-20090511135457-vmpa6bc8ckc0l0sr
+:181 pmo-6bd3f7559f5b222edf2f86b3b9005ff4b7039bdc
 :6046 rpa@tinyerp.com-20090512104533-j89c95qlvycodj0r
 :6047 gkh@tinyerp.com-20090512105320-azr9vgkukeoq3180
 :6044 mra@tinyerp.com-20090512080035-tdzk3laait3hn2xd
@@ -9496,7 +9492,7 @@
 :7334 mga@tinyerp.com-20091125095036-daugjojd3o3eq2bu
 :77 pmo-f101c9a2927306dae27918aad73b2fa32ae94c7c
 :76 fp@tinyerp.com-1d509b51aeae671f833d2656d21064fdc8a8ed62
-:2978 jvo@tinyerp.com-ccaf0d2587e97ccf09e592890c0e77d0e517f915
+:75 hda@tinyerp.com-548f4c020df9f117a7c2becb11fab85b734d4433
 :2979 fp@tinyerp.com-95a50b71c97ebf79becbdd04d43f098414b32f1b
 :73 hda@tinyerp.com-6080f5d8c0efdc39c44f1740203ff74f6d49090f
 :72 bch-686e913721bd083dd3dff8d54dff3ee4ad55fd3d
@@ -9508,7 +9504,7 @@
 :2971 dsh@tinyerp.com-963769ef1c670801323da6384c86e52727b686fe
 :2976 qdp-62be1d89fb55288f4252ead654c1fa3db818b92a
 :2977 qdp-bbc49eee7e1b82c33b41022cdde02bb1c661eb7c
-:2974 qdp-db9cbfd3e970896b9bbeb56813a68b231c743b24
+:79 pmo-557f52e3dae0c45ffa1f570374a9d70a4b66a2cf
 :78 pmo-5f8834976b42fa2c285fe647861386fb283ff69e
 :5362 olt@tinyerp.com-20090416120752-6h1t9c0efsf8du9g
 :1042 mra@tinyerp.com-144cbc97e1490cf1c4937cc1d8fc84658f12c842
@@ -9539,7 +9535,7 @@
 :3120 solanki.priyesh@gmail.com-20080724051013-l2wz30rttyx1jz0g
 :3121 nch@tinyerp.com-20080723130206-2ri8ywr341t4rphs
 :3126 christophe@tinyerp.com-20080723153518-bqnz8euwzjfdheyx
-:526 mra@tinyerp.com-69da4de0f0ec1b2408e8f69babcc64aa6fb0bdaf
+:3127 qdp@tinyerp.com-20080723144745-glfgn0rzol3hqy00
 :3124 christophe@tinyerp.com-20080723121201-c2a0hu09mmus2a0o
 :3125 christophe@tinyerp.com-20080723142453-cey69g1rtr2x51vr
 :8659 mga@tinyerp.com-20100526171256-821mxtm0sqvvmpx5
@@ -9574,7 +9570,7 @@
 :867 qdp-0e6a9087b2e14a412a66fb7c807c7c0519659529
 :3442 mansuri.sananaz@gmail.com-20080922113430-11ph2giy9tlxcv95
 :2756 qdp-2a09b57ff698f0265114d5063b3626f867857274
-:2757 qdp-7c028bb7742108342ddb522c137bdb9d5411bc9d
+:2025 sso-bbd694c60fd4f933b9889b9397654121e0fec024
 :2026 sso-827dbdb38a236c3d2c1664f16b0e9b3a674f9b2d
 :7434 sbh@tinyerp.com-20091204102803-ec2ww37gcympc3y4
 :7435 sbh@tinyerp.com-20091204104111-p5ejlkdthmmscewv
@@ -9584,12 +9580,12 @@
 :7431 pso@tinyerp.com-20091204094624-s01dumne12bc0l72
 :7432 olt@tinyerp.com-20091204101955-l3hol9yon4dgfrw3
 :7433 olt@tinyerp.com-20091204102756-cszji3wekf8j358j
-:2752 fp@tinyerp.com-8dd26d359c6b828af769672d43ec04e42554fe69
+:2020 dra-fd84ae96515ce90f3c9befdc53b20ff7dc12d392
 :7438 mra@tinyerp.com-20091204112402-1wx0h3f02xir2ia1
 :7439 mra@tinyerp.com-20091204132452-gvb3224hpkkk5xu8
 :2753 mra@tinyerp.com-7465e44f77398673e9575b89ec143810a1138162
 :4707 vinusoft85@gmail.com-20090210060434-cx6ap0vho41tz6g4
-:2750 apa-ef19479fb3742974a50e13300daf7e9fc3604c92
+:2022 sso-20ecb36da20d443568ff8ba87ea0020398f5c979
 :2322 sso-a403f5fa2a9180e6fdc96f5c04287f90e3493599
 :2023 sso-faad737faf1936f73591d109ca9c52d78e211d66
 :4604 noz@tinyerp.com-20090210131359-bt607jaics6nkgl8
@@ -9614,7 +9610,7 @@
 :1713 sso-bc8f0cf0bd1aa40c6a23434996cb377aabf29bad
 :9310 nicolas.bessi@camptocamp.com-20101207104209-ogz8hbz18q7q7481
 :1914 qdp-b94070878b7b67d02f972295379e86f383adf1df
-:5196 rpa@tinyerp.com-20090401094736-vmts6bed8xvv4pim
+:1615 qdp-efa2dc5e3603768576db612019c59471cca306c9
 :2369 fbs-c860ff25150fd7fe76bbd74934fe2814583961d2
 :2368 fbs-989fd33f8fe52b82480a901d3b3f0f6cc98da9d3
 :2367 jvo@tinyerp.com-5b8602210c67f563cf44210762f7e98fa6939e5c
@@ -9634,8 +9630,8 @@
 :3729 qdp@tinyerp.com-20081124103932-ral0y206208wl3x4
 :1867 sso-0b6f9359db2a3540ef9adc9e93233c87349c0d9f
 :1866 sso-eb099fe55adda26bfacaf3a562dbcac2c1ddd2e4
-:1869 sso-0ecc748335eee97708020e98096de2c359fad4bf
-:1868 sso-5621e5ff55a075ec96f063a46773afa4e23bc9dd
+:3724 dsh@tinyerp.com-20081124070456-8ipyxcr2bv2j4wt2
+:3725 dsh@tinyerp.com-20081124071559-t308ojgy70r3dspp
 :3726 dsh@tinyerp.com-20081124071646-2lhqsd8rsc2ic57y
 :3727 dsh@tinyerp.com-20081124073153-q2l7u205kgyumbcx
 :3720 fp@tinyerp.com-20081123112930-e3e0p9gruepqik03
@@ -9648,7 +9644,7 @@
 :4933 rvalyi@gmail.com-20090306150610-dg921k407yyb1lij
 :4682 dsh@dsh-20090218070154-aptgwcrkeoampgw6
 :4935 fp@tinyerp.com-20090309133629-xweskfepfrgtg3bp
-:4680 dsh@dsh-20090218065741-0b4gqj6n3z1qdrus
+:4936 xafer@apophis-20090306163508-n3ahjuwf1gpuwuk5
 :4681 sma@tinyerp.com-20090218070548-3shyp4o0x596c7jy
 :4938 jvo@tinyerp.com-20090511101957-ytva1sqpgh3neztg
 :1613 mra@tinyerp.com-71b880263b8dd8b71125c4456dece98a149ac0b6
@@ -9773,7 +9769,7 @@
 :1525 dsh@tinyerp.com-d3e8b9dd7c847c0bf798d565bb8b84b916733cda
 :1526 jvo@tinyerp.com-828bfddd64c42602a23adc208088c2a1bc825559
 :1255 mra@tinyerp.com-dacf59285a9dc8050faf63a22f8cc6d02d4a4b87
-:1520 mra@tinyerp.com-2c674476c3c6a62add1775aad227cfb7f295496f
+:1252 mra@tinyerp.com-a2afbdd6f87692d542f35199932532aa66e83cf7
 :1521 mra@tinyerp.com-2ac2241eb3cbe09455c8167b2b6dd3d28b54ae70
 :1522 dsh@tinyerp.com-b8e40d50e94103278e55704697aabc3424c045c0
 :1251 mra@tinyerp.com-b4699fb559950503525b68bd5269773a3412d8df
@@ -9841,7 +9837,7 @@
 :10074 resteve@zikzakmedia.com-20111019081206-7gr5rgdxq8u71oi9
 :10077 joel.grandguillaume@camptocamp.com-20111020065301-26aid55f364c0duk
 :10076 sebastien.lange@syleam.fr-20111019133209-je2yfyfr1xci8dao
-:10079 maxime.chambreuil@savoirfairelinux.com-20111020143445-l33ujjtuavq720df
+:2640 dsh@tinyerp.com-d9e8111057460fee3c771aa99c7fddff1b9189cd
 :2641 stw-7e757efa4c3f4fcd959e502a50f5ae0d5dc3a3b4
 :2642 dsh@tinyerp.com-21a501ee8db7ef90a8c36f56f95ba6d2306b53cc
 :2643 mra@tinyerp.com-e49f26d5fa6efd5421502dfb0a34bb3ef3bf4f0c
@@ -9864,7 +9860,7 @@
 :9077 codehost@crowberry-20100901041034-0gd7sxwphvmtsbxt
 :9074 codehost@crowberry-20100830041018-mzkgwwie3tqb63us
 :9075 renato@renato-laptop-20100830221709-pcc9qp9om7rogdvo
-:9072 renato@renato-laptop-20100830190205-3ciobwxynd65p4r5
+:10299 jesteve@zikzakmedia.com-20120418172007-zp48ozq2abx2b7o1
 :9073 codehost@crowberry-20100829035521-rjd9t36oxyr3kuib
 :9070 codehost@crowberry-20100827034902-1btnnzjgcn6zqbwy
 :9071 codehost@crowberry-20100828035058-jd44gnf10lyjsct7
@@ -9912,6 +9908,7 @@
 :1064 mra@tinyerp.com-d574495fcd001a6f64d8af36499455915a356a3b
 :5306 sbh@tinyerp.com-20090408111318-c3vtxgay9ux7nqd2
 :5307 mga@tinyerp.com-20090408122646-6407gjvu0wcy3w8n
+:690 ced-c9a8c2d90df2b4672c6b0f16d8b52189d326c326
 :4329 fp@tinyerp.com-20090122131004-s39c7drfwbm8kggw
 :4328 fp@tinyerp.com-20090122124943-19r3h3nxy7gdphfc
 :1505 dsh@tinyerp.com-bd5491ea31615da54e9c991e4f8e9e28fd18e06d
@@ -9971,7 +9968,7 @@
 :6618 mra@tinyerp.com-20090706103312-uvqmnx2vfh42vdgs
 :5083 rpa@tinyerp.com-20090324134649-2u3p38befg8hdb03
 :5082 asb@tinyerp.com-20090324130747-jlqwm4gx3k90du5g
-:3502 mansuri.sananaz@gmail.com-20081014085322-od071rvt6sslwyag
+:5081 pso@tinyerp.com-20090324130319-c9h25evcv37q0j51
 :5080 rpa@tinyerp.com-20090324121219-aqw2kdadw6ninwzm
 :3504 sahibsofia@gmail.com-20081014134655-cww1ug7scwj49vpu
 :3505 hmo@tinyerp.com-20081014134547-88zjhpd5gh0jurdc
@@ -9993,7 +9990,7 @@
 :1889 sso-4140acf80c12bb9c6f409cf79b4354e241727026
 :1888 sso-09dbf10367c9f602fd3891188bd00582e2772d18
 :3702 nch@tinyerp.com-20081120123158-c0ggdayf5qplgrdi
-:3703 fabian@tinyerp.com-20081120130528-uto5gu24panj0uv4
+:1886 sso-a0d0ac3103281075283c7ae5251b7822b5e52afd
 :1885 sso-653ba2686795822a3194d1c8e129128cdba1962c
 :3701 nch@tinyerp.com-20081120092745-n68cnu67pn7r3979
 :3706 fabian@tinyerp.com-20081120173806-9uyqi00lxpvw2x0a
@@ -10001,7 +9998,7 @@
 :1881 sso-72489ef2084541526b9b6265f7714968618b1649
 :3705 fabian@tinyerp.com-20081120152937-048zu3cmfe269z7o
 :2121 jvo@tinyerp.com-7aa76818ef16428aef34067f053b5cc451efd48d
-:2120 rpa-4744684ccf043a4c72e6754af5689b4f8a2b46f9
+:6446 pso@tinyerp.com-20090609152621-w4ek3efvn7vrvb59
 :2123 jvo@tinyerp.com-45e753025e159d62e0e27f7ea7dd19ee5fe0b5b2
 :2122 jvo@tinyerp.com-56100ece71f9b06aae2bb7ae39191f985a6059a0
 :2125 sso-f158f070fbc0de7322080cdd80cd6eeebeda789e
@@ -10013,11 +10010,12 @@
 :4666 vda@tinyerp.com-20090217121635-961u6zrlzqwblxh4
 :4667 jvo@tinyerp.com-20090217120847-a1xthwuyz9t02mxb
 :4660 sso@tinyerp.com-20090216122228-nr8fr4ytfot7ps06
-:6444 jra@jra-20090609134929-egxifgnxc0qivyb3
-:4910 fp@tinyerp.com-20090306132947-ing2gcl6kegrif5s
+:4913 vda@tinyerp.com-20090305123908-mbqpn7kn3jzgsy5w
+:4662 fp@tinyerp.com-20090216213703-444ugy6i3ufyu167
 :4911 mra@tinyerp.com-20090305115454-xenoxwzgdg0ai0dk
 :6445 mra@tinyerp.com-20090609144439-45q6u7v8vx9e2ca5
 :6910 pso@openerp.co.in-20090909122908-d4ksbiecc9pru7ha
+:7000 rpa@tinyerp.com-20091006082608-ja5ixpz2pimgan0f
 :6911 ysa@tinyerp.co.in-20090909135755-jsoxywwdod0htkxi
 :5173 mga@tinyerp.com-20090327134733-beye5i7ky8xj5cb0
 :5172 fp@tinyerp.com-20090330224459-km0tc0bcjffke6n9
@@ -10039,7 +10037,7 @@
 :134 pmo-06fc977565807da11636ecf87648c8129166466c
 :139 fp@tinyerp.com-ae35208ee1f4c983f23a0c21f81529d0225b34a1
 :138 pmo-d21409ab6e9c249849e5cb96b31427a6c3431fed
-:5924 sbh@tinyerp.com-20090416144232-95w73t1vf1bvamfv
+:1 fp@tinyerp.com-4e9a8b8aaf7f88969cad49cf877c92dc38d3a702
 :5925 stephane@tinyerp.com-20090417070520-96rygjr0b6ybwmlx
 :9689 lorenzo.battistini@agilebg.com-20110408123344-cdzy24n7ak8l3jvf
 :9688 lorenzo.battistini@agilebg.com-20110408123053-0sqcct4wwuj4xv41
@@ -10086,6 +10084,7 @@
 :87 pmo-b5148dd8358163d77fbedf1783105ff8478ef9df
 :84 bch-4810f0edba05c4c98b9d6d0748036ead34de38d0
 :85 bch-5631c44a49188b38c096ee1efd5073ed89c1fb02
+:9191 rvalyi@gmail.com-20101029175414-b9bx01ptw88t1sza
 :8804 codehost@crowberry-20100708040142-et9jljggs1du4ucg
 :8805 codehost@crowberry-20100709040720-34q2vgc03nt0g1ov
 :8806 codehost@crowberry-20100710040928-vjcwxq18y2w30o8c
@@ -10122,6 +10121,7 @@
 :7622 mra@tinyerp.com-20091216070347-rhkzxx34t6bs2q2p
 :7629 ysa@tinyerp.co.in-20091216095314-9bq4crso6bn3jb48
 :7628 mra@tinyerp.com-20091216092536-1vg18iueglhygn8p
+:185 bch-fa8fed42220c2b5b831756ade0b1a08ef5089c09
 :9878 jesteve@zikzakmedia.com-20110623165939-34mwqu7syhgrevr1
 :9879 jesteve@zikzakmedia.com-20110623170356-oe9i2hxy84r8d864
 :9876 jesteve@zikzakmedia.com-20110623165334-pjmzu2idm445g1k6
@@ -10164,7 +10164,7 @@
 :8325 ls@numerigraphe.fr-20100311153513-01w51f34np6ryokm
 :8324 ls@numerigraphe.fr-20100311153428-q3w9w68dnuwkj91e
 :6703 mra@tinyerp.com-20090722105717-j2bdenwvmegr5bfs
-:8326 pso@tinyerp.com-20100312065246-d4t07kgbcpvr0tcs
+:6702 dsh@tinyerp.com-20090722092737-4isjckb221rsvy5w
 :6994 mra@tinyerp.com-20091005132520-u56beyvr2iitlr9n
 :8321 dsh@tinyerp.com-20100311092231-vm4npwv6wtj4o61w
 :6704 vra@tinyerp.com-20090722110038-ml45h9wk6w0f6cud
@@ -10228,7 +10228,7 @@
 :2666 mra@tinyerp.com-5b702903b85ef9de99d237f91024c7bd7cfc8d48
 :4496 noz@tinyerp.com-20090204051926-m0ca3g7mdb7dxbc3
 :4495 jesteve@fontanilles-20090203192001-t0er19m0jtl2nrgz
-:2665 sso-870a21f96ee2067857b80af7231dbf2c4e23c149
+:4494 rvalyi@gmail.com-20090203185748-reby2frbtrdxrita
 :2662 mra@tinyerp.com-415c48991d770b45be68d1b4963aa355c35c66f9
 :4492 olt@tinyerp.com-20090203165242-t2cv9myyi00qxb0i
 :2660 sso-9ac1641d1a46dd627a7f2ded70b5bac1c1805cbc
@@ -10253,9 +10253,9 @@
 :5323 rvalyi@gmail.com-20090408150733-hnltra7ocdug5ybb
 :5320 fp@tinyerp.com-20090406142452-0rtq349m1sf0hry7
 :5321 fp@tinyerp.com-20090408161623-m74i6tx6iead8bnv
-:3799 fp@tinyerp.com-20081207124543-ypbt9g3b29tgtou4
+:1836 fp@tinyerp.com-46fc990e271f57596ab944235f5507e3519b33f0
 :5328 rvalyi@gmail.com-20090409162738-rslh9wj63xrch6dd
-:1837 fp@tinyerp.com-7d362b6e3e3be40895c910d52c85edb25a259176
+:5329 rvalyi@gmail.com-20090409164247-2avz5xaph33sbnlv
 :1396 mra@tinyerp.com-93e68479af0b84ac6c7385aad5e755ac04914594
 :1838 fp@tinyerp.com-ccf4bb7ed5499f36e423e343a2c2f964c9c6dd81
 :3796 fabian@tinyerp.com-20081203141044-43ni15temcvq8fok
@@ -10283,8 +10283,8 @@
 :739 nel-d7e178f914356ef3300a5b6dd97d63bdaf8234c4
 :738 fp@tinyerp.com-67d071ad4ff0da22f9c0506a8cd0a06e0d3bbadd
 :2151 mga@tinyerp.com-c1b3b25549265818389f70945fdcafe6ad006a4c
-:2152 mga@tinyerp.com-def40c9dccdced8b0143ad997fd3f39c90313c43
-:4986 fp@tinyerp.com-20090312092149-9fuaowtyu11wr2lr
+:2400 fbs-ff72ce5d9c449118ba6cf78d8af3dd9c722ba046
+:2153 mga@tinyerp.com-bad84640709e4c1b88e41a3acd17e6e9c4de490b
 :8567 codehost@crowberry-20100501040057-trej1meru3a6nome
 :8566 borjals@pexego.es-20100430154723-2mh02bi9mcarny2n
 :8565 borjals@pexego.es-20100430150732-sli2zmyn11yd2pl4
@@ -10410,7 +10410,7 @@
 :6839 ssi@tinyerp.co.in-20090827062653-8jfc2fiuwqxfgoih
 :6838 fabian@fabian-openerp-20090826152545-y81teo5ax6j4emyx
 :8558 mga@tinyerp.com-20100428125955-8cp3zerbjspgw828
-:8559 qdp-launchpad@tinyerp.com-20100428152933-h5jziga32x1zqlwc
+:8007 apa@tinyerp.com-20100119131934-bath1rtcieni7hhv
 :8822 codehost@crowberry-20100716034618-nfcgqnseeoim299z
 :8823 qdp-20100716125048-1wgby861iawk508x
 :8820 sbh@tinyerp.com-20100714070514-s7a7q3q96jdxrij5
@@ -10459,13 +10459,13 @@
 :1614 qdp-c018e15f49529e43f82b977c5d09b442b107007f
 :9012 rvalyi@gmail.com-20091111130752-twunvnh7wvpuhbqc
 :7927 ysa@tinyerp.co.in-20100113074340-wbpddw116h80jp35
-:1484 dsh@tinyerp.com-1527a66a30eefb966ae05f40371a647d751b88cf
+:10234 support@serpentcs.com-20120223112622-crv8qwf7hneyj32v
 :7292 dsh@tinyerp.com-20091119125930-n2g3u0hq16t2h1z6
 :5494 sbh@tinyerp.com-20090428104941-yr11kai1sj4zlpyx
 :7925 ssi@tinyerp.co.in-20100113071158-bkrf6ob2xjnekv2y
 :5495 fabian@tinyerp.com-20090428111301-lu2sumvijjmpp2v5
 :9137 renato@renato-laptop-20100928225417-haxtr7rak5v5vtm0
-:5496 mra@tinyerp.com-20090428120528-2yow4j5t9xqwp5yq
+:1489 dsh@tinyerp.com-e81d7411695adf6226de2fbf39d445c8b193e9f3
 :9136 rvalyi@gmail.com-20100928232015-v22nvebpyia3z4pw
 :3305 hda@tinyerp.com-20080819045454-imv30awb76muaa1b
 :9135 rvalyi@gmail.com-20100928231836-ly3nraqzqu9st4ok
@@ -10488,7 +10488,7 @@
 :1566 mra@tinyerp.com-8f85d0be993b2a48af7c6cea46c2ee3d3b9c3256
 :1295 fp@tinyerp.com-44f64649617f6cc85d40b1ee72902768276e0f43
 :10313 resteve@zikzakmedia.com-20120425130802-d5vauwulxdq2rtzi
-:10316 alexis@via.ecp.fr-20120425182613-58p9xvrvr9qgzegz
+:7928 ysa@tinyerp.co.in-20100113083836-p3d7vckoe01veqyi
 :7462 pso@tinyerp.com-20091208132116-hjnrg66nmcy2b8ro
 :7929 ysa@tinyerp.co.in-20100113092106-d0ge1kr2h0ho8l6f
 :5638 rpa@tinyerp.com-20090507140800-xzvr4l8c60rxyfw4
