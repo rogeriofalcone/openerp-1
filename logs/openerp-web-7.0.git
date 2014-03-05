@@ -1,24 +1,24 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      10000
-Total objects:            0 (         0 duplicates                  )
-      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:           44 (        10 duplicates                  )
+      blobs  :            8 (         4 duplicates          6 deltas of          8 attempts)
+      trees  :           30 (         6 duplicates          4 deltas of         30 attempts)
+      commits:            6 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:           4 (         0 loads     )
-      marks:        1048576 (      9410 unique    )
-      atoms:              0
-Memory total:          2516 KiB
-       pools:          2048 KiB
+Total branches:           5 (         1 loads     )
+      marks:        1048576 (      9416 unique    )
+      atoms:             79
+Memory total:          2579 KiB
+       pools:          2110 KiB
      objects:           468 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =       9461
-pack_report: pack_mmap_calls          =          2
-pack_report: pack_open_windows        =          2 /          2
-pack_report: pack_mapped              = 1073755287 / 1073755287
+pack_report: pack_used_ctr            =       9784
+pack_report: pack_mmap_calls          =          6
+pack_report: pack_open_windows        =          3 /          3
+pack_report: pack_mapped              = 1073813672 / 1073813672
 ---------------------------------------------------------------------
 
