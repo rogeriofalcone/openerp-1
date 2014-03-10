@@ -6,24 +6,24 @@ warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa8
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      65000
-Total objects:           21 (       123 duplicates                  )
-      blobs  :            1 (        48 duplicates          0 deltas of          1 attempts)
-      trees  :           17 (        67 duplicates          3 deltas of         17 attempts)
-      commits:            3 (         8 duplicates          0 deltas of          0 attempts)
+Total objects:            7 (        27 duplicates                  )
+      blobs  :            0 (        10 duplicates          0 deltas of          0 attempts)
+      trees  :            6 (        16 duplicates          0 deltas of          6 attempts)
+      commits:            1 (         1 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:        1940 (         1 loads     )
-      marks:        1048576 (     61208 unique    )
-      atoms:            447
-Memory total:          5219 KiB
-       pools:          2173 KiB
+      marks:        1048576 (     61210 unique    )
+      atoms:            361
+Memory total:          5157 KiB
+       pools:          2110 KiB
      objects:          3046 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     133665
+pack_report: pack_used_ctr            =     130834
 pack_report: pack_mmap_calls          =          5
-pack_report: pack_open_windows        =          3 /          3
-pack_report: pack_mapped              = 1074003778 / 1074003778
+pack_report: pack_open_windows        =          5 /          5
+pack_report: pack_mapped              = 1074157813 / 1074157813
 ---------------------------------------------------------------------
 
