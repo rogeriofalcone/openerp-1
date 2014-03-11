@@ -3,8 +3,8 @@ This may indicate an installation problem.
 bzrlib from ['/usr/local/lib/python2.6/dist-packages/bzrlib'] is version (2, 6, 0, 'final', 0)
 You have not informed bzr of your Launchpad ID, and you must do this to
 write to Launchpad or access private data.  See "bzr help launchpad-login".
-02:01:14 Calculating the revisions to include ...
-02:01:16 Starting export of 68156 revisions ...
+02:01:13 Calculating the revisions to include ...
+02:01:16 Starting export of 68158 revisions ...
 02:01:17 WARNING: not creating tag u'openerp-buildfail-393-8226' pointing to non-existent revision aag@tinyerp.co.in-20110406140443-wpprnhkwrhh7k3oh
 02:01:17 WARNING: not creating tag u'openerp-buildfail-393-8221' pointing to non-existent revision aag@tinyerp.co.in-20110406123607-t088sflpu6f59qxj
 02:01:17 WARNING: not creating tag u'openerp-buildfail-393-8318' pointing to non-existent revision aag@tinyerp.co.in-20110408064234-b0jawj9ntdrmae8a
@@ -326,4 +326,4 @@ write to Launchpad or access private data.  See "bzr help launchpad-login".
 02:01:17 WARNING: not creating tag u'openerp-buildfail-92-12612' pointing to non-existent revision qdp-launchpad@openerp.com-20110704102115-sjxvcy8i3zos37gx
 02:01:17 WARNING: not creating tag u'openerp-buildfail-906-12394' pointing to non-existent revision hmo@tinyerp.com-20110629064347-ehyg06x7ph0jnt3m
 02:01:17 WARNING: not creating tag u'openerp-buildfail-3-1177' pointing to non-existent revision hmo@tinyerp.com-20101011132252-wcej9vlsb6582w5x
-02:01:17 Exported 68156 revisions in 0:00:03
+02:01:18 Exported 68158 revisions in 0:00:05
