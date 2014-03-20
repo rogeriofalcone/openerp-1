@@ -662,7 +662,6 @@
 :3314 ame@tinyerp.com-20100109114922-4a1s5l503jdujbua
 :5481 fme@openerp.com-20101027133859-pfjauuq5t9s09ni7
 :5480 sma@tinyerp.com-20101027131806-b0pe6uhse3h1n10x
-:1635 ksh@tinyerp.com-5a3b8f8ca4b6f75b71e64e3cae46710128aec96f
 :5658 xmo@openerp.com-20101112135827-27shzls5wfu6651t
 :5659 xmo@openerp.com-20101112140416-6t32lht584pn8id0
 :5656 xmo@openerp.com-20101112135340-hi48nxgqezi0l6su
@@ -774,7 +773,6 @@
 :910 noz@tinyerp.com-a7339364d1f757056c2f8cb2375845e3848fc426
 :913 ame@tinyerp.com-12f2b09b2a2d540f4840bb7c571e3cdcc3c5716a
 :912 noz@tinyerp.com-05cdfcc6af6e327c81a1ad03d18accc42243eed4
-:509 ame@tinyerp.com-b43dfc9976df7423bf6c6648ae7f3773beaa80ca
 :1212 ame@tinyerp.com-f9cc973ce42d82aca84b4e537acc946f830929d6
 :631 ame@tinyerp.com-9c396607f62e776bad43a3a4a5a980b7861d6cd3
 :1210 ame@tinyerp.com-77607ef86053f4163ecbdeda23508c90e9b9a764
@@ -801,7 +799,7 @@
 :4585 noz@tinyerp.com-20100809073110-ee65nb9vfow2da3s
 :4856 jth@openerp.com-20100910180355-do99a116ws9vjama
 :2008 noz@tinyerp.com-20081115103907-cf3u5w64du4ygk2l
-:4854 xmo@openerp.com-20100910125629-uvr3clmlfez1dbsi
+:2009 noz@tinyerp.com-20081115112422-0gz61nwwxdv7ldny
 :4853 xmo@openerp.com-20100910082910-9b9h2b0fdx6pszqk
 :4580 vda@tinyerp.com-20100805122202-gjfhhg7rotrlltcw
 :2301 ame@tinyerp.com-20090120114053-yteh2bk147xmm5hc
@@ -931,7 +929,7 @@
 :6477 fme@openerp.com-20110119004406-nrb15cbqbd9fzu0u
 :6476 xmo@openerp.com-20110118234929-s7vmvsg8iy15yb1b
 :6475 xmo@openerp.com-20110118231644-0b66cfjwdxqfovvn
-:4586 vda@tinyerp.com-20100809093818-ufdh0n8iz5za2gu4
+:6474 fme@openerp.com-20110118232547-7wi6ztm5ac5quc6y
 :3939 xmo@openerp.com-20100603114900-th4i5vc0almfvlkd
 :3938 xmo@openerp.com-20100602131642-kncf3y0sf04b558e
 :3935 xmo@openerp.com-20100602092516-dnjdgtg2mjlux8c1
@@ -1071,7 +1069,6 @@
 :5596 xmo@openerp.com-20101105155853-ubm5wt7grek46yoi
 :5599 xmo@openerp.com-20101105162840-j02z4k4q46tk14rr
 :5598 fme@openerp.com-20101105164445-dwa97h3eu9x298ee
-:3979 xmo@openerp.com-20100611083517-ayxnyjpzfyt0ofhz
 :319 ame@tinyerp.com-9f505144dfc430c66d15c24872417d9756a97f8b
 :318 ame@tinyerp.com-fe5872226f021120c1b00d1de46863c32d403418
 :313 ame@tinyerp.com-022d2735549d20552475cc281e590b3a362f7050
@@ -1129,7 +1126,7 @@
 :2743 ame@tinyerp.com-20090514144342-ey8td1xc7uki2dp5
 :2742 ame@tinyerp.com-20090514120827-7gyli83vh0l3huoz
 :2745 noz@tinyerp.com-20090514121153-wx6jz5u52mthi1s1
-:4597 noz@tinyerp.com-20100810120829-lqqhzcupq3gb108q
+:4849 vda@tinyerp.com-20100909140506-rgxu3xr4syjlfjhf
 :4594 xmo@openerp.com-20100809134357-edo9ca0i34l3nexg
 :2746 ame@tinyerp.com-20090515052540-epto34jaend3dp07
 :4844 jra@tinyerp.com-20100909065510-9i2aa0j1qmzzk1tn
@@ -1258,6 +1255,7 @@
 :954 ame@tinyerp.com-42b29b694191ca768620c5a724688df6bb3111dc
 :957 ame@tinyerp.com-2a33acbc85d94e2865101c987ca176c05dd8ba1e
 :956 ame@tinyerp.com-f881a8b50800ddaf7f8aea7ec67f7f0b57255b2f
+:1859 ame@tinyerp.com-20080919093137-4xr9jxekun482ng2
 :6334 fme@openerp.com-20110111135903-m62fauq7e1o99lph
 :6335 fme@openerp.com-20110111145337-j5crlxhkm2p3lpe4
 :6336 xmo@openerp.com-20110111132309-swimgz6mqf00v5sk
@@ -1270,6 +1268,7 @@
 :6339 xmo@openerp.com-20110111165541-y1x5k8h0y8eegaqq
 :1855 ame@tinyerp.com-20080919062655-9azpr8oh7snrgrwd
 :718 ame@tinyerp.com-3e5ede173d3bd3594dd83525246047fcbd5eb43b
+:2171 mga@tinyerp.com-20081205113115-zlgtc1k2pv3weql8
 :2174 ame@tinyerp.com-20081205135703-g5wgahh6m3toton9
 :4968 xmo@openerp.com-20100920113244-pphi2fncxqycb6r3
 :716 ame@tinyerp.com-57b47d7f49ec5318da1cdc1d5a10ef729d2b9753
@@ -1321,7 +1320,7 @@
 :1409 ame@tinyerp.com-22769042efde87efd9e12b028dbbb5209135c364
 :1408 ame@tinyerp.com-05261641ee79b74279ffd15e9f9783284bdffb2b
 :1403 ame@tinyerp.com-10e3cdffba1526a3cb90cb18ccd6382ed6f8e74d
-:1402 ame@tinyerp.com-e5606b158ab24f896084c7be7eddce9c20a366d2
+:3962 xmo@openerp.com-20100609130130-coqrls12yaemh2jh
 :1401 ame@tinyerp.com-dc11e11434183926814848f1c270138e3b746ecc
 :1400 ame@tinyerp.com-0f28aacba9798ecb1333506f90960c088f716e44
 :1407 ame@tinyerp.com-426c098911784d245e9a5dbe744d49028d1d0a2a
@@ -1342,7 +1341,7 @@
 :691 ame@tinyerp.com-25ee0d7cb4d20ab76928ab1612ec8b906d86b35a
 :1542 ame@tinyerp.com-ac373dd28b59cf0fe830544465954519a4953f9d
 :1543 ame@tinyerp.com-71a6f8da1f70b486a0119bfadb685d62df3ab64c
-:1933 noz@tinyerp.com-20081010130623-k2ewk2kcil3heydn
+:3261 noz@tinyerp.com-20090730133407-m9ouvuoevblu9ed2
 :694 ame@tinyerp.com-0631dbeaa68ff590f616fee0c69ad58e62c913c4
 :5579 sma@tinyerp.com-20101104131158-koygaky3ncp5d166
 :5578 xmo@openerp.com-20101104114313-rrqfemdvy0icfojs
@@ -1420,7 +1419,7 @@
 :450 ame@tinyerp.com-b229dbc1eeddde2f4babc562b9a1fd610ac2b9af
 :451 ame@tinyerp.com-91aceb325165d8f3959685c4caa5039a909b841d
 :452 fp@tinyerp.com-6191cc1907f41db390675935db9ab6fe182c7bce
-:1343 ame@tinyerp.com-32c6e40e3693e93e11e639d645197189a9668842
+:453 ame@tinyerp.com-6d8295d4d3980e30c4ea97f89d7453b9758f026c
 :454 ame@tinyerp.com-1d68755732ad52447fdaf6f5149feb6d4815a9e7
 :1345 ame@tinyerp.com-c39f2b51de3ff5c2d055e9c4c1c3c83d7c5ac152
 :456 ame@tinyerp.com-a6f54f0b1ae467a4338d750741e52d118397af4f
@@ -1455,7 +1454,7 @@
 :3974 vda@tinyerp.com-20100611063204-9d9wjrzil6bq4344
 :3977 vda@tinyerp.com-20100611092312-7yb5710knm02gw23
 :3976 vda@tinyerp.com-20100611084958-hbe3jnqhbdy615tv
-:7096 launchpad_translations_on_behalf_of_openerp-20140318055649-hcw3o7o5k53cwu3x
+:3979 xmo@openerp.com-20100611083517-ayxnyjpzfyt0ofhz
 :3978 xmo@openerp.com-20100611083347-xk855fxqmn5gzzri
 :3629 xmo@tinyerp.com-20100420090426-n71isfex5pw44ce5
 :3628 xmo@tinyerp.com-20100420090357-8iax963zkaeadm0s
@@ -1622,6 +1621,7 @@
 :6122 xmo@openerp.com-20101217161520-9eg07w50tsv1n17k
 :6129 launchpad_translations_on_behalf_of_openerp-20101220044954-pxedmmoun26y4d2t
 :6128 launchpad_translations_on_behalf_of_openerp-20101219044606-m6ev43zddaw1kpo6
+:4854 xmo@openerp.com-20100910125629-uvr3clmlfez1dbsi
 :4633 xmo@openerp.com-20100816091949-7abbhw6gng7jecly
 :2191 mga@tinyerp.com-20081212084850-39gvj6ge8m0j22nu
 :2192 mga@tinyerp.com-20081212092446-n0rupjtli3o533y1
@@ -1862,7 +1862,7 @@
 :3834 vda@tinyerp.com-20100525102406-k1539iokzguv7ghr
 :3835 noz@tinyerp.com-20100525105242-v649qoxbfk3rl0wr
 :3836 noz@tinyerp.com-20100525105414-8jhxayr20vrbrm29
-:453 ame@tinyerp.com-6d8295d4d3980e30c4ea97f89d7453b9758f026c
+:3837 vda@tinyerp.com-20100525124650-xglkfq520a4xjboo
 :3830 vda@tinyerp.com-20100525071357-4phku4l4x3iq62nv
 :3831 vda@tinyerp.com-20100525082803-99f1krb006sa6sj5
 :3832 noz@tinyerp.com-20100525090054-gca73oi0jnyzdcth
@@ -2029,7 +2029,7 @@
 :3224 ame@tinyerp.com-20091112093246-m04uar77kwf7a6rr
 :1975 ame@tinyerp.com-20081024140801-4g4mslz0bjr0d15i
 :1974 ame@tinyerp.com-20081024105459-jiwx5lhh2fou5c6g
-:1605 ame@tinyerp.com-749c8c6075fa8abb7a089aebbc25d5f649bda151
+:3221 ame@tinyerp.com-20091110135625-moh9kqysstz14ppt
 :3220 ame@tinyerp.com-20091110135031-2n8d2ogg9tqjne0h
 :1607 ame@tinyerp.com-0db63ccedab78776750917fd3a45abaaebc3114a
 :1970 ame@tinyerp.com-20081024053023-acrt06j2f34bgnag
@@ -2107,7 +2107,6 @@
 :3815 vda@tinyerp.com-20100520090701-s43egbd0nbf2t5yf
 :3818 vda@tinyerp.com-20100520113310-d3re1o6i11lei5aa
 :3819 noz@tinyerp.com-20100520120640-01yz35xki4h1rv79
-:1973 ame@tinyerp.com-20081024103226-53ery2rckuhpuyt6
 :5125 vda@tinyerp.com-20101008051635-px20041bqjwucjgv
 :1972 ame@tinyerp.com-20081024082951-9od3dg8ne6mfafxq
 :4923 noz@tinyerp.com-20100915133449-54pfcg1xqnuiyj17
@@ -2235,13 +2234,12 @@
 :1056 noz@tinyerp.com-d8f86221582ad6ab77b24eeba0782bbbaae1ee2e
 :5350 xmo@openerp.com-20101020124732-3r4u0t3cnn1vc3ab
 :1059 noz@tinyerp.com-9386c7e61f18b02d057e3e2f33b61088f079c772
-:5329 vda@tinyerp.com-20101020102615-fkq0hk7tasvzhgl6
 :1832 ame@tinyerp.com-20080917092256-u72xwtv1p0jfcp9a
 :1833 ame@tinyerp.com-20080917104208-jtv0fqpmq72i67oi
 :1830 ame@tinyerp.com-20080916132411-s0qzhvscoc1nvfm5
 :1831 ame@tinyerp.com-20080917091244-c3fupgbrtgp2ud7c
 :1836 ame@tinyerp.com-20080917114525-7ve1c26l20ykxsul
-:3798 vda@tinyerp.com-20100503071745-pk8km6gg85wwqgdl
+:1837 ame@tinyerp.com-20080917120217-vbiq35t6tt9pv0bi
 :1834 ame@tinyerp.com-20080917104333-mxy3vzf9u6wg542z
 :1835 ame@tinyerp.com-20080917105107-kjv4jifn0mzyr14i
 :3795 vda@tinyerp.com-20100429103710-qov1d32zh4pqjjm5
@@ -2258,7 +2256,7 @@
 :4982 sma@tinyerp.com-20100922051751-3bvja0cncf4tz5xa
 :2150 ame@tinyerp.com-20081203110127-jvurcflk4bscveud
 :2151 mga@tinyerp.com-20081203115114-csg3nr1o1k9qbhhn
-:2400 ame@tinyerp.com-20090205105821-pwoautdiczf5ejmo
+:2152 mga@tinyerp.com-20081203121534-p3zf4qes4rhundxb
 :4986 jra@tinyerp.com-20100922113455-6n7fg0z3mz096ruf
 :4989 xmo@openerp.com-20100923064556-rxyw7msdql95nwra
 :4988 vda@tinyerp.com-20100923053225-3ct7oecse3xo6bq7
@@ -2296,7 +2294,7 @@
 :3308 ame@tinyerp.com-20100104104158-92jypyicgh56twq8
 :3309 ame@tinyerp.com-20100104114356-j0cbinhjw33xvuz5
 :3306 ame@tinyerp.com-20091224074928-z86nv5kp71jl27ni
-:5495 sma@tinyerp.com-20101028101158-rwjqrtzeou3braxm
+:3307 ame@tinyerp.com-20091231104948-2pxghp8cw7ueln0r
 :5496 sma@tinyerp.com-20101029072129-v2xp6mntnibx0zsc
 :1488 noz@tinyerp.com-a08cfa4f07f9a4592b3c6d4718d1061430ad9321
 :5490 vda@tinyerp.com-20101028083925-vuv6pb4gkk7pkwz4
@@ -2503,8 +2501,8 @@
 :2398 ame@tinyerp.com-20090205095330-0uksqqrxzq8gsky1
 :2399 ame@tinyerp.com-20090205101049-lloi4axfeujut40a
 :1858 ame@tinyerp.com-20080919082055-j7gnafbo8yd41fu9
-:1859 ame@tinyerp.com-20080919093137-4xr9jxekun482ng2
-:3840 noz@tinyerp.com-20100526084151-30z23h2cthex9wmm
+:5692 xmo@openerp.com-20101117150553-mhtqwh6tgwf3ftpv
+:5693 xmo@openerp.com-20101117150809-duphh1y3js97w5nf
 :1850 ame@tinyerp.com-20080918122721-2w7lfu3g4fz4no0e
 :1851 ame@tinyerp.com-20080918125332-k2g0jugdvjp1eb5h
 :1852 ame@tinyerp.com-20080918130933-4bu7543121my777n
@@ -2516,7 +2514,7 @@
 :2172 mga@tinyerp.com-20081205113327-p9oo5sogdqdhk25n
 :2173 ame@tinyerp.com-20081205125231-giktrfsh4uced0eb
 :2170 noz@tinyerp.com-20081205104645-drysejwym82st7ee
-:2171 mga@tinyerp.com-20081205113115-zlgtc1k2pv3weql8
+:3842 vda@tinyerp.com-20100527071247-sk1mqv04kkezl4pj
 :2176 noz@tinyerp.com-20081208064300-2n4cdjc50jzzf5t8
 :2177 ame@tinyerp.com-20081208083408-fv74iwhm0u2efn53
 :4969 xmo@openerp.com-20100920114446-fc43e1347xqfs2u1
@@ -2534,7 +2532,7 @@
 :1420 ame@tinyerp.com-400e938d66f7ac368f8d95ffec4e59ad4b883229
 :5695 cpa@tinyerp.com-20101118071105-k0ojyrqb79yhhvsa
 :1423 ame@tinyerp.com-0d772ab33a535ab95c44805f73fdc5620138cda7
-:3261 noz@tinyerp.com-20090730133407-m9ouvuoevblu9ed2
+:1933 noz@tinyerp.com-20081010130623-k2ewk2kcil3heydn
 :1932 ame@tinyerp.com-20081010125524-mpy2bs4kcln5hb9b
 :1931 ame@tinyerp.com-20081010123946-va940u9cl1785shj
 :3262 noz@tinyerp.com-20090731133327-3h8f8xc3s825xmkh
@@ -2753,6 +2751,7 @@
 :6665 sma@tinyerp.com-20110210124649-7xg1f5buyhzfu5p5
 :7 ame@tinyerp.com-3a59016ea33a44e7ff33f6b8c290fa0aaa3c7ee7
 :1602 ame@tinyerp.com-3af17cd54f094abb646d357ad1ed4e16b1bc6bf0
+:1605 ame@tinyerp.com-749c8c6075fa8abb7a089aebbc25d5f649bda151
 :2378 ame@tinyerp.com-20090203073037-i8xfx4126t8n1iys
 :2379 ame@tinyerp.com-20090203142334-2yhrvppdag9axp8e
 :2374 ame@tinyerp.com-20090202140712-hoh0ngzjfqa3e8nl
@@ -3015,7 +3014,6 @@
 :1042 ame@tinyerp.com-ee968af7f9ba7469a59b2ba29b261f6f930b99d1
 :1041 ame@tinyerp.com-69509b61cd7bbb7db3112e288aa5c7f06175a85c
 :5361 fme@openerp.com-20101020155131-bwplvjt54hhi58l0
-:4638 kch@tinyerp.com-20100816134030-ih2vml8vktdo00pq
 :1047 fp@tinyerp.com-3833d2efcb9d8307df172599cc58cbffdd98af2a
 :1046 ame@tinyerp.com-02ddc562210035d54245d2a7518cb30e907f9ac2
 :4571 vda@tinyerp.com-20100803071554-ymt57ovz113h6tm1
@@ -3047,7 +3045,7 @@
 :4691 vda@tinyerp.com-20100819123158-njv04sxe1cug4901
 :4922 mendapara.amit@gmail.com-20100915132541-tgcs1ckec666mdpg
 :4921 noz@tinyerp.com-20100915130208-proy59hrkg4csb7g
-:2135 mga@tinyerp.com-20081201053908-i6y2uea6ujx7hgn6
+:4692 vda@tinyerp.com-20100819125814-tm8ofgbtpix54blo
 :4927 xmo@openerp.com-20100916051101-vgxy9voqffs2s6fg
 :4926 xmo@openerp.com-20100915122217-dcweeeq3aw4to4dx
 :4697 cpa@tinyerp.com-20100820060915-z1dtr8av3iqibdon
@@ -3230,7 +3228,7 @@
 :5314 cpa@tinyerp.com-20101019110332-n93wx8s6jyqd9qor
 :1986 ame@tinyerp.com-20081104125328-jhx0s6h1ulhzt64d
 :1631 ame@tinyerp.com-bd5798d47a07857e0a4d15b55f47e02426b417a0
-:1632 ksh@tinyerp.com-827f785b62b17f94587df1d623cd0f24af47c3d3
+:1984 ame@tinyerp.com-20081104114900-kgvbzjkmsp18w53t
 :3153 ame@tinyerp.com-20091007140344-1efi0lnxm8n23z7j
 :3152 noz@tinyerp.com-20091007104859-90py082ncvsypusl
 :3151 ame@tinyerp.com-20091007091217-621f16gs7moq7ksb
@@ -3239,10 +3237,10 @@
 :3156 sma@tinyerp.com-20091009093253-bbafuwpp7a6ge293
 :3155 ame@tinyerp.com-20091008112250-g43tmy2zqwq6ylwy
 :3154 ame@tinyerp.com-20091007165521-curen7v9a8jmxggn
-:1634 ame@tinyerp.com-eacd1a31362727d4f8a0307f65040e076c505879
+:1982 ame@tinyerp.com-20081104071809-aayj20hot7n3orfd
 :3159 ame@tinyerp.com-20091009122402-fe03wpam1ign0n5c
 :3158 ame@tinyerp.com-20091009121905-zcgvzizwem7gkkzx
-:3211 sma@tinyerp.com-20091109101008-3dx37wqxrls70433
+:1635 ksh@tinyerp.com-5a3b8f8ca4b6f75b71e64e3cae46710128aec96f
 :1980 fabian@tinyerp.com-20081103132444-dddrfxl3g9nbvseu
 :1637 noz@tinyerp.com-9d68790aa82966f875c70597c2c0a6a869294720
 :2482 ame@tinyerp.com-20090313065153-i1f2qfzfi4x4vfc0
@@ -3289,7 +3287,6 @@
 :3712 xmo@openerp.com-20100514145557-u2u7nb1g0kq2h5g6
 :3719 vda@tinyerp.com-20100514100813-wzikv67dnzb6uogm
 :3718 vda@tinyerp.com-20100513120032-komkjgokh167xx1p
-:2711 noz@tinyerp.com-20090507075334-2ifevl1gxdyfg2qy
 :4909 cpa@tinyerp.com-20100915050132-1b81w6fw43466tq8
 :4908 mendapara.amit@gmail.com-20100914172340-n3fcpyq2o51q3uoo
 :4679 vda@tinyerp.com-20100819073038-qrl2q8uajgb97vlq
@@ -3397,7 +3394,7 @@
 :5081 xmo@openerp.com-20101005125234-jagiqj6wbr2k1ytl
 :3503 xmo@tinyerp.com-20100330125803-y8nydb3st3gwuwjw
 :5087 xmo@openerp.com-20101005135218-jjij4uoawanqsoh3
-:5086 xmo@openerp.com-20101005135044-m3i0upjwbi9qsrsq
+:3505 xmo@tinyerp.com-20100330130056-0re6jvvc52jgdv4q
 :3506 xmo@tinyerp.com-20100330130227-soy3v68emd6tmi8a
 :3507 xmo@tinyerp.com-20100330130327-k6c3ljr72jifo3pk
 :2671 ame@tinyerp.com-20090423094650-s0vkt0qaz4hae9c2
@@ -3487,6 +3484,7 @@
 :3725 xmo@openerp.com-20100518114441-cb91ow2emktwnj0x
 :4686 jra@tinyerp.com-20100819120543-z512062vad34mpam
 :4687 vda@tinyerp.com-20100819120747-8nueftijwyqev5al
+:1343 ame@tinyerp.com-32c6e40e3693e93e11e639d645197189a9668842
 :4932 jra@tinyerp.com-20100916094657-i4in5q1xmtratwdy
 :4933 cpa@tinyerp.com-20100916102215-p76vjxjcuc3v0kho
 :4934 vda@tinyerp.com-20100916102935-hud0jpwb74ktrew8
@@ -3768,7 +3766,7 @@
 :2198 ame@tinyerp.com-20081212140154-zi7i28457d7ws4i3
 :2199 noz@tinyerp.com-20081212120000-vjosjszbi3qn0nhm
 :4639 mendapara.amit@gmail.com-20100816135057-l95kk8jcy4wijyby
-:1071 ame@tinyerp.com-3407f944442dc753f2122a6bd41379e83acc4b2d
+:4638 kch@tinyerp.com-20100816134030-ih2vml8vktdo00pq
 :2046 ame@tinyerp.com-20081124092801-pw0haeb79fxl93d4
 :4812 vda@tinyerp.com-20100906062317-nofpdhyrufife6v1
 :2044 noz@tinyerp.com-20081124070626-x804ttkilxtqvnab
@@ -3899,6 +3897,7 @@
 :222 noz@tinyerp.com-02e6b9a89a4b930b983fa70e3cbcf7c10f2c2e62
 :221 noz@tinyerp.com-ee8c23e73bdfc3d262dc603ecd079e184dd07bef
 :220 noz@tinyerp.com-f9ecbdeeee1f84f903cac273c6be20af7e35d1c0
+:1192 ame@tinyerp.com-2460d2467778ba7cf3d0300423cb921d5f973e3c
 :1686 noz@tinyerp.com-20080714124023-2ct7mbs89t21fejm
 :2509 ame@tinyerp.com-20090325075115-9n4wme88kq3e7e5y
 :2508 ame@tinyerp.com-20090325074848-95vpq0od0tzm95vq
@@ -4006,7 +4005,7 @@
 :2712 ame@tinyerp.com-20090507085731-vl0mgg3jk5kdg9xo
 :2713 ame@tinyerp.com-20090507094451-mr0yqunnaa13nq2s
 :2710 ame@tinyerp.com-20090507072726-4xue370mmfi16vz5
-:1192 ame@tinyerp.com-2460d2467778ba7cf3d0300423cb921d5f973e3c
+:2711 noz@tinyerp.com-20090507075334-2ifevl1gxdyfg2qy
 :2716 sma@tinyerp.com-20090508053437-u9snxgv75n9ows7c
 :2717 noz@tinyerp.com-20090508055136-6gct0tnmt6bhzk14
 :2714 ame@tinyerp.com-20090507103512-fm6hinmvpx1cygb1
@@ -4239,7 +4238,6 @@
 :1722 ame@tinyerp.com-20080725114631-f5q5n8e8z7i1pxec
 :1723 noz@tinyerp.com-20080728050045-5ubsy959i1gegy2h
 :1894 noz@tinyerp.com-20080925072243-2gcr4h7yo74c52mo
-:3837 vda@tinyerp.com-20100525124650-xglkfq520a4xjboo
 :5243 xmo@openerp.com-20101015111050-q2elomp72v453cbe
 :3736 noz@tinyerp.com-20100323060431-bu9s8h4xpyc6brbh
 :5242 xmo@openerp.com-20101015110044-x83h41wq2qt6c2xn
@@ -4252,7 +4250,7 @@
 :2136 mga@tinyerp.com-20081201080112-xmx4v5sg6cub2paj
 :4690 jra@tinyerp.com-20100819123718-ni17ykh80os1gp9w
 :4693 xmo@openerp.com-20100819132630-0i60db64hgmp854s
-:4692 vda@tinyerp.com-20100819125814-tm8ofgbtpix54blo
+:2135 mga@tinyerp.com-20081201053908-i6y2uea6ujx7hgn6
 :4798 sma@tinyerp.com-20100831121609-h05v0dk2eu41w1g4
 :4799 xmo@openerp.com-20100901083902-cx49h881t9s4x148
 :4794 sma@tinyerp.com-20100830073926-qo6pb78xzm9s0mvp
@@ -4427,7 +4425,7 @@
 :1451 ame@tinyerp.com-ba5836311445ec5474346057ef038cbe45e7789e
 :3580 sma@tinyerp.com-20100409104945-geol2zgvhkrza7ew
 :3581 noz@tinyerp.com-20100409112000-vzds32r31kh17325
-:3582 vda@tinyerp.com-20100405111846-1twy93hgp7fl199q
+:5001 xmo@openerp.com-20100927075212-flrr9axbu2qakn9y
 :5000 vda@tinyerp.com-20100927073233-aqfm3hy59y819dz2
 :5007 jra@tinyerp.com-20100928120218-pneag5kl0pgev5d0
 :5006 kch@tinyerp.com-20100928100717-h6m69cimua9hpmup
@@ -4603,6 +4601,7 @@
 :3053 ame@tinyerp.com-20090827074540-hpriqc5tqz86t7yc
 :3050 ame@tinyerp.com-20090826121429-s3rppb4qj0goijbc
 :3051 ame@tinyerp.com-20090826122840-l4tkf1kstmljdosf
+:4597 noz@tinyerp.com-20100810120829-lqqhzcupq3gb108q
 :4595 xmo@openerp.com-20100810072125-txhygmxe80d49huo
 :8 ame@tinyerp.com-97a190aa0734470f277b519c49c075e51cc9d736
 :1317 ame@tinyerp.com-d8ac9d9ab99295ff6e4f83f47d858254f7aa8593
@@ -4620,14 +4619,13 @@
 :6916 launchpad_translations_on_behalf_of_openerp-20110424055201-5549gcpe3ka3i6mk
 :6445 xmo@openerp.com-20110118115023-0ft22j7fc0c6u423
 :6910 xmo@openerp.com-20110421072440-3ccs11fhwlcmo7px
-:6443 xmo@openerp.com-20110118113500-00kjepz06onz72k2
+:6911 xmo@openerp.com-20110421081839-dk9nar9nxc89oy1i
 :6912 launchpad_translations_on_behalf_of_openerp-20110429044319-1nguf36sba18kks7
 :6441 noz@tinyerp.com-20110118110046-h7xp18dw1zgf4dwz
 :6918 odo@openerp.com-20110505165118-uppn8hk2mtcbdskh
 :6919 launchpad_translations_on_behalf_of_openerp-20110507060123-lg0bl349hfb5thx4
 :6448 noz@tinyerp.com-20110118131755-on8pov4l9gbluwnj
 :6449 vda@tinyerp.com-20110118132314-2e85djdqcvk5ac37
-:3304 sma@tinyerp.com-20091224070015-uncfgparc5bsou57
 :3948 xmo@openerp.com-20100607130527-jn7ho3ss4jqxixkx
 :3949 xmo@openerp.com-20100607151712-h77cng69j52l4uif
 :3940 xmo@openerp.com-20100603115306-7hrshiwacr5m68gt
@@ -4648,7 +4646,6 @@
 :6704 noz@tinyerp.com-20110216060335-ng4mgpe51bjzj73i
 :6707 launchpad_translations_on_behalf_of_openerp-20110217043619-q0yt4ivw2u988xc8
 :6706 noz@tinyerp.com-20110216085733-zerubl1pnba1e05r
-:3841 sma@tinyerp.com-20100526101357-oa7b91vptpofedao
 :4057 sma@tinyerp.com-20100601055527-8ft81mogj3ipbuwz
 :4056 sma@tinyerp.com-20100601053425-hsns7tftp0qtsmle
 :4055 sma@tinyerp.com-20100531131639-6xy3n2iav54anyad
@@ -4747,7 +4744,6 @@
 :1673 ame@tinyerp.com-4ec2b6499a3094a768d7ebef340f5898367d3bd5
 :3965 xmo@openerp.com-20100609151433-t35fsjh3y6ymuu6o
 :1534 noz@tinyerp.com-b398c4660935647c1439c536e52111b486b89469
-:3962 xmo@openerp.com-20100609130130-coqrls12yaemh2jh
 :1418 ame@tinyerp.com-dbf8e3bcfd162e50944db732a0c46c5b5b5cacf3
 :1419 ame@tinyerp.com-e84d6c29e31a99d3d2f0d1928ce9813fc7076313
 :1410 ame@tinyerp.com-ac0c85f0184f56a9516d95571fb97b5b45ff6202
@@ -4801,6 +4797,7 @@
 :2777 ame@tinyerp.com-20090525113727-i8tumf9rvi26cq2v
 :6118 xmo@openerp.com-20101217135930-bh0cp0jzh9rel737
 :6119 xmo@openerp.com-20101217140448-84w849o3rk4ax4iv
+:1489 ame@tinyerp.com-20ad1f7c0d840ff53d19a3e1e1acfd5dc68717c2
 :6114 xmo@openerp.com-20101217123944-unik5sv463ab1q72
 :6115 xmo@openerp.com-20101217132311-znda9qtyf34cgqon
 :6116 xmo@openerp.com-20101217132530-4qekgrk6jtl39yxs
@@ -4831,7 +4828,7 @@
 :4857 vda@tinyerp.com-20100911052450-1yvcf75dwdd5zr4r
 :4584 kch@tinyerp.com-20100809071349-sx9zb7u5yrqnvi3t
 :4587 xmo@openerp.com-20100806122804-y5j10p4ibc74rr36
-:2009 noz@tinyerp.com-20081115112422-0gz61nwwxdv7ldny
+:4586 vda@tinyerp.com-20100809093818-ufdh0n8iz5za2gu4
 :4581 vda@tinyerp.com-20100805132935-blcmnk7s671h0qjn
 :4852 xmo@openerp.com-20100910082840-f8ob1utcgxahi2pj
 :4583 vda@tinyerp.com-20100807072801-y7jcomnvn6ji29ba
@@ -5044,11 +5041,11 @@
 :4664 xmo@openerp.com-20100818074708-a89ma53abro4e8hz
 :4917 sma@tinyerp.com-20100915113305-733lxs6ui67ztlv1
 :4666 cpa@tinyerp.com-20100818084956-5wnojxsddlphvmrg
-:4667 vda@tinyerp.com-20100818084224-9hyh5nre5o5wk2iq
+:4915 jra@tinyerp.com-20100915104012-36vvf176e0q0uwbs
 :4912 jra@tinyerp.com-20100915080423-svstrnnhl7wb0o2y
 :4913 jra@tinyerp.com-20100915093951-t703t6na6fojah5y
 :4662 vda@tinyerp.com-20100818052612-udxckca0mkhfe4cx
-:4911 xmo@openerp.com-20100915073948-u7ik7j79mryhibsy
+:4663 jra@tinyerp.com-20100818074639-3umc1i9fpkz3cyc5
 :322 ame@tinyerp.com-8caf2d40c9989dd2ba6321d886de4b9766347e99
 :323 ame@tinyerp.com-3c3a474713cb60368ecc3f0da74374be1f4b87b2
 :320 ame@tinyerp.com-216aec7eb2e8a06cdb60335315eb19c69c086595
@@ -5120,7 +5117,7 @@
 :2066 mga@tinyerp.com-20081127094728-tkenwip7fk9zqjzg
 :2795 ame@tinyerp.com-20090529105850-eyaeru44va66s5xr
 :3257 noz@tinyerp.com-20090716132715-3kzhka2mbt2kgnxn
-:5691 xmo@openerp.com-20101117101411-l5hs0x7373pd3nzw
+:7096 launchpad_translations_on_behalf_of_openerp-20140318055649-hcw3o7o5k53cwu3x
 :7094 launchpad_translations_on_behalf_of_openerp-20130927054907-ihshhx36om524009
 :7095 launchpad_translations_on_behalf_of_openerp-20131023043437-v6ykx53nrs3jy5y8
 :7092 launchpad_translations_on_behalf_of_openerp-20130427054408-kigadjwh0akpaovl
@@ -5228,9 +5225,9 @@
 :2906 noz@tinyerp.com-20090714081147-2pkvovb09opehg0x
 :3214 ame@tinyerp.com-20091109131401-zrpjytidjo83gjjx
 :1987 noz@tinyerp.com-20081104133815-tgo5a75c8v6cw4ce
-:1984 ame@tinyerp.com-20081104114900-kgvbzjkmsp18w53t
+:1632 ksh@tinyerp.com-827f785b62b17f94587df1d623cd0f24af47c3d3
 :1985 ame@tinyerp.com-20081104122856-wjcsd2m9fcy0nvwr
-:3210 sma@tinyerp.com-20091106125343-qpoawlfzsdlrflqn
+:1634 ame@tinyerp.com-eacd1a31362727d4f8a0307f65040e076c505879
 :1983 ame@tinyerp.com-20081104112752-nz8msckm86vjqla5
 :3212 sma@tinyerp.com-20091109104752-3n4wh5rcersvh7hc
 :1981 ame@tinyerp.com-20081104061543-1jhcw3e6utgoqc4a
@@ -5310,7 +5307,6 @@
 :6542 xmo@openerp.com-20110127160817-l2plf7sqy2qkgh35
 :6541 xmo@openerp.com-20110127113654-m4w6q26zj1wodph6
 :6540 vda@tinyerp.com-20110127111315-nzehq6947lranax2
-:4849 vda@tinyerp.com-20100909140506-rgxu3xr4syjlfjhf
 :6549 xmo@openerp.com-20110124141812-fba9zuchi9ctr0i5
 :6548 cpa@tinyerp.com-20110128110456-hc68y13tn6i0snh3
 :344 ame@tinyerp.com-df77eb255f27e0d9c1652b955fb727006992a45a
@@ -5449,11 +5445,11 @@
 :3225 ame@tinyerp.com-20091112104958-608n5g7rntkjy6yg
 :658 ame@tinyerp.com-d38df7492f2b2c81ff4612affe2e03b3656e14e5
 :1976 ame@tinyerp.com-20081024143809-8ik7n1ajkbu04abi
-:659 ame@tinyerp.com-6e2dc1c2133f31b83e38d11fe12fc7bb3ae2b860
+:3082 sma@tinyerp.com-20090907112637-9j2waqadd7h4ru6j
 :1603 ame@tinyerp.com-6c1058e86aac20786917d6369bae4f06930c6cc1
 :3226 ame@tinyerp.com-20091112112850-wy5d9y30xogjokxt
 :5497 olt@tinyerp.com-20101028134005-rvppvkmjrfd4jk6g
-:3221 ame@tinyerp.com-20091110135625-moh9kqysstz14ppt
+:1973 ame@tinyerp.com-20081024103226-53ery2rckuhpuyt6
 :4983 vda@tinyerp.com-20100922091745-r34r5hfbljvwfj5r
 :1604 ame@tinyerp.com-465d7a045753b342ca3548d01d778c30fa41f4c8
 :1971 ame@tinyerp.com-20081024061430-1x75aneby9kz72pm
@@ -5548,7 +5544,7 @@
 :3821 noz@tinyerp.com-20100521054249-9tjimynp4rr0bhep
 :3820 noz@tinyerp.com-20100520121237-260xsowvu2fgc7py
 :5471 olt@tinyerp.com-20101026133118-1a1gscefbtb7c77a
-:5001 xmo@openerp.com-20100927075212-flrr9axbu2qakn9y
+:3582 vda@tinyerp.com-20100405111846-1twy93hgp7fl199q
 :3829 noz@tinyerp.com-20100525072721-t6xkjd1helgtcscv
 :3828 vda@tinyerp.com-20100525061544-8m7mncg9eatzqd2p
 :3583 vda@tinyerp.com-20100409045506-g98yo1bvvwtvtb0v
@@ -5590,8 +5586,10 @@
 :2207 ame@tinyerp.com-20081216110909-6t5d0jqgss7q7zly
 :2208 ame@tinyerp.com-20081216113503-g39gf8tizf10nq2w
 :2209 ame@tinyerp.com-20081216114212-ckd70f22truow7x5
+:3210 sma@tinyerp.com-20091106125343-qpoawlfzsdlrflqn
 :4428 xmo@openerp.com-20100716102157-r79bb3nzbr0z3n75
 :4429 vda@tinyerp.com-20100716105258-vk8f7u0mo3bl647f
+:3211 sma@tinyerp.com-20091109101008-3dx37wqxrls70433
 :4839 cpa@tinyerp.com-20100908104951-8i88jf4j3lfb4nqb
 :4838 xmo@openerp.com-20100908094247-c3lqai1xfsr3u6fr
 :4529 xmo@openerp.com-20100723090511-7uo419r64ono4r38
@@ -5931,7 +5929,7 @@
 :5095 vda@tinyerp.com-20101006093711-pcw3m2l8d7hygvuu
 :3573 xmo@tinyerp.com-20100402093509-nlpvrlkgxwpzr8w3
 :5097 sma@tinyerp.com-20101006111000-es0ww7mzrtxi27nh
-:4497 noz@tinyerp.com-20100721070436-98kpkexp046ni1lp
+:2666 ame@tinyerp.com-20090423060529-wio1a548yusaqimo
 :4496 noz@tinyerp.com-20100721063627-suqahhgi4nmbodcy
 :4495 noz@tinyerp.com-20100721060000-djg6uvpns0bqw915
 :2665 ame@tinyerp.com-20090423053020-vkgmm2640uu9w0dz
@@ -6005,9 +6003,8 @@
 :67 ame@tinyerp.com-1cb9e00729cb41f7c16c9676faaf40924aa4bb7a
 :68 ame@tinyerp.com-816d98429a142ab609a6ebb62620b3d28ae60909
 :69 ame@tinyerp.com-be2d05018479ac1b0364ea6fe3a4fbd75905b206
-:6474 fme@openerp.com-20110118232547-7wi6ztm5ac5quc6y
 :508 noz@tinyerp.com-f2dc32e2fa532d441a0db6e2e5ea9fbdba108d2d
-:1982 ame@tinyerp.com-20081104071809-aayj20hot7n3orfd
+:509 ame@tinyerp.com-b43dfc9976df7423bf6c6648ae7f3773beaa80ca
 :506 ame@tinyerp.com-333c631728f0cac7d674d662bd780200598cd5ae
 :507 noz@tinyerp.com-d1cf5f5af78c934e7fa54b5a2b544623f88833aa
 :504 ame@tinyerp.com-9aca65704486e511d992bef5ff61704d03b22492
@@ -6090,6 +6087,7 @@
 :4564 mendapara.amit@gmail.com-20100730122132-79hblpxeifdqmut1
 :4569 vda@tinyerp.com-20100802130919-wx1nuzw6lfkbuf6m
 :4568 noz@tinyerp.com-20100802122357-363f53hvmqoe4g31
+:1402 ame@tinyerp.com-e5606b158ab24f896084c7be7eddce9c20a366d2
 :6064 sma@tinyerp.com-20101214111747-7hb4erfvz6xc6g8z
 :6065 sma@tinyerp.com-20101214112315-y1knmtpw24lwyz8e
 :6066 xmo@openerp.com-20101215101555-khqnlwsinp8jphf5
@@ -6323,10 +6321,10 @@
 :4135 vda@tinyerp.com-20100623055555-98kl7jr36bat2vmr
 :4136 vda@tinyerp.com-20100623072548-lu5w0xc17jtocvrx
 :4137 noz@tinyerp.com-20100623073040-1nln0z1lwgxnntiq
-:5692 xmo@openerp.com-20101117150553-mhtqwh6tgwf3ftpv
-:5693 xmo@openerp.com-20101117150809-duphh1y3js97w5nf
+:3841 sma@tinyerp.com-20100526101357-oa7b91vptpofedao
+:3840 noz@tinyerp.com-20100526084151-30z23h2cthex9wmm
 :3843 noz@tinyerp.com-20100527073401-ah4mg0xym1ri9otr
-:3842 vda@tinyerp.com-20100527071247-sk1mqv04kkezl4pj
+:5691 xmo@openerp.com-20101117101411-l5hs0x7373pd3nzw
 :5696 xmo@openerp.com-20101118084741-bbbbsvdsse9apeq2
 :5697 xmo@openerp.com-20101118091110-dg7j78kyav74m3zx
 :3847 vda@tinyerp.com-20100527085310-csgecrugu7467jtr
@@ -6377,6 +6375,7 @@
 :6047 fme@openerp.com-20101214092546-ak29k8wa9tm9frxj
 :6044 jra@tinyerp.com-20101214063152-y5g7ed3sx04jcm4m
 :6045 vda@tinyerp.com-20101214072309-5h22o7vbv24384go
+:1071 ame@tinyerp.com-3407f944442dc753f2122a6bd41379e83acc4b2d
 :6048 kch@tinyerp.com-20101213085654-wsewa3ypof57tctu
 :6049 fme@openerp.com-20101214123807-pkkfh8k0ffvwkfo3
 :2622 ame@tinyerp.com-20090420082921-eo9xc4x5o2ax03ze
@@ -6665,6 +6664,7 @@
 :2645 ame@tinyerp.com-20090421125240-89u30joyynhlzvcc
 :2646 ame@tinyerp.com-20090421182011-aliau9d26xxk9660
 :2647 ame@tinyerp.com-20090421185510-32gq2cet7vsyfw1p
+:3798 vda@tinyerp.com-20100503071745-pk8km6gg85wwqgdl
 :3557 xmo@tinyerp.com-20100409083450-3u5lk6wqlb9nt5zj
 :3556 sma@tinyerp.com-20100409100920-2viy20hffttz5w4d
 :3555 vda@tinyerp.com-20100409070745-62cs98dutn0mnn7i
@@ -6750,7 +6750,7 @@
 :3502 xmo@tinyerp.com-20100330125329-2np2kwo6liiy0mzm
 :5080 xmo@openerp.com-20101005124527-f37yfvj2vk8ppkcf
 :3504 xmo@tinyerp.com-20100330125908-7dq95aaewiv5r4vs
-:3505 xmo@tinyerp.com-20100330130056-0re6jvvc52jgdv4q
+:5086 xmo@openerp.com-20101005135044-m3i0upjwbi9qsrsq
 :5085 xmo@openerp.com-20101005131916-s4pd2hqx0qejj7dg
 :5084 xmo@openerp.com-20101005131848-ppk4f8uliz3etznb
 :2345 ame@tinyerp.com-20090123100518-i0eeums87fjse3y8
@@ -6786,14 +6786,14 @@
 :4916 noz@tinyerp.com-20100915105844-l2pft48yraoa0qnp
 :4665 kch@tinyerp.com-20100818075021-nmoj0nzj9znm6wqk
 :4914 vda@tinyerp.com-20100915094419-2havkks345dycgn5
-:4915 jra@tinyerp.com-20100915104012-36vvf176e0q0uwbs
+:4667 vda@tinyerp.com-20100818084224-9hyh5nre5o5wk2iq
 :4660 xmo@openerp.com-20100817151353-6mz3u0yuuwooxw7c
 :6444 noz@tinyerp.com-20110118114242-6xy5dod6rvsutrot
 :4910 cpa@tinyerp.com-20100915064047-7lkdrazbmp1nmfvm
-:4663 jra@tinyerp.com-20100818074639-3umc1i9fpkz3cyc5
+:4911 xmo@openerp.com-20100915073948-u7ik7j79mryhibsy
 :6917 launchpad_translations_on_behalf_of_openerp-20110428054821-v04itl4kuac9tf6b
 :6442 vda@tinyerp.com-20110118110727-fuy943shqu10fs5w
-:6911 xmo@openerp.com-20110421081839-dk9nar9nxc89oy1i
+:6443 xmo@openerp.com-20110118113500-00kjepz06onz72k2
 :5173 xmo@openerp.com-20101012121625-77mkcmtnbiyusg3k
 :5172 xmo@openerp.com-20101012115949-5wuej6f78mog1vby
 :5171 xmo@openerp.com-20101012115640-g7ss1nny2fkmho1m
@@ -6861,7 +6861,7 @@
 :3081 sma@tinyerp.com-20090907055514-fzp434itz03gddhn
 :3080 ame@tinyerp.com-20090904064929-vbzr871953ynwkhf
 :3083 sma@tinyerp.com-20090909043239-v6ddpvyslq66g4a9
-:3082 sma@tinyerp.com-20090907112637-9j2waqadd7h4ru6j
+:659 ame@tinyerp.com-6e2dc1c2133f31b83e38d11fe12fc7bb3ae2b860
 :3369 noz@tinyerp.com-20100203124705-net102okphxbenwj
 :3885 vda@tinyerp.com-20100604102506-1zbohpyt0offfje0
 :3884 vda@tinyerp.com-20100604063113-jgvpq6sizlmtasek
@@ -6910,7 +6910,7 @@
 :3570 xmo@tinyerp.com-20100402092403-qf3jkrn0l3ibkkwt
 :5096 noz@tinyerp.com-20101006103944-2ozdajtggi8w3ksk
 :3572 xmo@tinyerp.com-20100402093209-1g11hekfxlqsfwlw
-:2666 ame@tinyerp.com-20090423060529-wio1a548yusaqimo
+:4497 noz@tinyerp.com-20100721070436-98kpkexp046ni1lp
 :2667 ame@tinyerp.com-20090423060629-v0n2rjljmuk6uahc
 :2664 ame@tinyerp.com-20090422183537-w8hogpsi13mk09cg
 :4494 noz@tinyerp.com-20100721054407-0g3r7cw48fipqurh
@@ -6940,7 +6940,7 @@
 :5321 xmo@openerp.com-20101019134606-t8tsryxim3c304j2
 :3799 jra@tinyerp.com-20100510091218-rabfvljpkxcbaxez
 :5328 sma@tinyerp.com-20101020100946-blwzn77qfdyvcthi
-:1837 ame@tinyerp.com-20080917120217-vbiq35t6tt9pv0bi
+:5329 vda@tinyerp.com-20101020102615-fkq0hk7tasvzhgl6
 :1743 noz@tinyerp.com-20080814072013-za50lgmzila7chvb
 :1838 ame@tinyerp.com-20080917120459-fgzq8d27dofb3pvl
 :1839 ame@tinyerp.com-20080917142318-d6wr9kz9p07b7ttp
@@ -6968,7 +6968,7 @@
 :739 ame@tinyerp.com-fc5c6f68eb5f55fb59e31e6e234e25aec1340213
 :2402 ame@tinyerp.com-20090205152116-u6t3eiya7idjqefi
 :4984 xmo@openerp.com-20100921092557-paskv2s75r9946gb
-:2152 mga@tinyerp.com-20081203121534-p3zf4qes4rhundxb
+:2400 ame@tinyerp.com-20090205105821-pwoautdiczf5ejmo
 :2401 ame@tinyerp.com-20090205112327-sgwvhnqp44khmzqp
 :6639 xmo@openerp.com-20110203094002-7c5lgun4j6mtpxlb
 :6638 xmo@openerp.com-20110203093607-21c0iik202wgvb7y
@@ -7066,8 +7066,8 @@
 :1485 noz@tinyerp.com-e571ea1efa60b7e102bc8b44b614f33968b914f8
 :1484 noz@tinyerp.com-d657725e23757eac66d69b91d470aabebc846bd3
 :5494 sma@tinyerp.com-20101028100532-bs5rlem327ckc7xc
-:3307 ame@tinyerp.com-20091231104948-2pxghp8cw7ueln0r
-:1489 ame@tinyerp.com-20ad1f7c0d840ff53d19a3e1e1acfd5dc68717c2
+:5495 sma@tinyerp.com-20101028101158-rwjqrtzeou3braxm
+:3304 sma@tinyerp.com-20091224070015-uncfgparc5bsou57
 :3305 ame@tinyerp.com-20091224074814-pg3iz84e9uwdcbz7
 :3302 ame@tinyerp.com-20091223133714-tn02g4c9lqdur9fa
 :5491 sma@tinyerp.com-20101028091003-ku3gwvmu4s5cry3i
