@@ -3,24 +3,24 @@ This may indicate an installation problem.
 bzrlib from ['/usr/local/lib/python2.6/dist-packages/bzrlib'] is version (2, 6, 0, 'final', 0)
 You have not informed bzr of your Launchpad ID, and you must do this to
 write to Launchpad or access private data.  See "bzr help launchpad-login".
-02:00:20 Calculating the revisions to include ...
-02:00:20 Starting export of 3038 revisions ...
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-1088' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101008171837-iog32jb6x61fisv0
-02:00:20 WARNING: not creating tag u'openerp-buildfail-9-1690' pointing to non-existent revision vth@tinyerp.com-20101019110207-25cwcemt7div1mh0
-02:00:20 WARNING: not creating tag u'openerp-buildfail-14-3427' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101123092742-20ce62mxr9fts03f
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-3320' pointing to non-existent revision odo@openerp.com-20101116150324-hpk98g85rsgd58cn
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-1084' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101008160155-nwpaxwqyltc6d663
-02:00:20 WARNING: not creating tag u'openerp-buildfail-7-1685' pointing to non-existent revision hmo@tinyerp.com-20101019095659-mhdqmaxaylg333de
-02:00:20 WARNING: not creating tag u'6.0.0-rc2' pointing to non-existent revision launchpad_translations_on_behalf_of_openerp-20101231052227-rbby2m5910zai1xz
-02:00:20 WARNING: not creating tag u'6.0.0-rc1' pointing to non-existent revision stephane@openerp.com-20101018220208-c8rscyhz19vt3112
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-831' pointing to non-existent revision fp@tinyerp.com-20101004225629-vidur45sz7dmg9nn
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-1362' pointing to non-existent revision launchpad_translations_on_behalf_of_openerp-20101014044533-83rsj0azy18v1g4k
-02:00:20 WARNING: not creating tag u'openerp-buildfail-9-1280' pointing to non-existent revision mra@mra-laptop-20101013044334-jk5zyjfbdfid17ai
-02:00:20 WARNING: not creating tag u'3:04:83' pointing to non-existent revision nch@tinyerp.com-20090305093108-9yd50nbd1jwt8k12
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-3381' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101119125815-ffbbju48g2x9025u
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-564' pointing to non-existent revision fp@tinyerp.com-20100928215348-v9evn3bbt0f87fse
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-3383' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101119130033-38piah88n9b9w73e
-02:00:20 WARNING: not creating tag u'openerp-buildfail-1-3382' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101119125928-9145zxk2c3fs7ff3
+02:00:21 Calculating the revisions to include ...
+02:00:21 Starting export of 3038 revisions ...
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-1088' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101008171837-iog32jb6x61fisv0
+02:00:21 WARNING: not creating tag u'openerp-buildfail-9-1690' pointing to non-existent revision vth@tinyerp.com-20101019110207-25cwcemt7div1mh0
+02:00:21 WARNING: not creating tag u'openerp-buildfail-14-3427' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101123092742-20ce62mxr9fts03f
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-3320' pointing to non-existent revision odo@openerp.com-20101116150324-hpk98g85rsgd58cn
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-1084' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101008160155-nwpaxwqyltc6d663
+02:00:21 WARNING: not creating tag u'openerp-buildfail-7-1685' pointing to non-existent revision hmo@tinyerp.com-20101019095659-mhdqmaxaylg333de
+02:00:21 WARNING: not creating tag u'6.0.0-rc2' pointing to non-existent revision launchpad_translations_on_behalf_of_openerp-20101231052227-rbby2m5910zai1xz
+02:00:21 WARNING: not creating tag u'6.0.0-rc1' pointing to non-existent revision stephane@openerp.com-20101018220208-c8rscyhz19vt3112
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-831' pointing to non-existent revision fp@tinyerp.com-20101004225629-vidur45sz7dmg9nn
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-1362' pointing to non-existent revision launchpad_translations_on_behalf_of_openerp-20101014044533-83rsj0azy18v1g4k
+02:00:21 WARNING: not creating tag u'openerp-buildfail-9-1280' pointing to non-existent revision mra@mra-laptop-20101013044334-jk5zyjfbdfid17ai
+02:00:21 WARNING: not creating tag u'3:04:83' pointing to non-existent revision nch@tinyerp.com-20090305093108-9yd50nbd1jwt8k12
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-3381' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101119125815-ffbbju48g2x9025u
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-564' pointing to non-existent revision fp@tinyerp.com-20100928215348-v9evn3bbt0f87fse
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-3383' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101119130033-38piah88n9b9w73e
+02:00:21 WARNING: not creating tag u'openerp-buildfail-1-3382' pointing to non-existent revision qdp-launchpad@tinyerp.com-20101119125928-9145zxk2c3fs7ff3
 02:00:21 WARNING: not creating tag u'openerp-buildfail-1-3388' pointing to non-existent revision launchpad_translations_on_behalf_of_openerp-20101120050854-smocbr71l96xrsvh
 02:00:21 WARNING: not creating tag u'openerp-buildfail-1-1880' pointing to non-existent revision jvo@tinyerp.com-20101026113257-5vu05j7n3r5w0gai
 02:00:21 WARNING: not creating tag u'openerp-buildfail-1-1886' pointing to non-existent revision jvo@tinyerp.com-20101026124154-la1x697mpxrjkpdk
