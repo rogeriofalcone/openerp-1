@@ -21,4 +21,4 @@ write to Launchpad or access private data.  See "bzr help launchpad-login".
 02:00:29 WARNING: not creating tag u'5.0.9' pointing to non-existent revision stephane@openerp.com-20100406170651-ff72duo0h0idgew0
 02:00:29 WARNING: not creating tag u'5.0.7' pointing to non-existent revision sma@tinyerp.com-20100226104649-78zi1cqn670newb0
 02:00:29 WARNING: not creating tag u'delete' pointing to non-existent revision noz@tinyerp.com-20100421071024-5tel2fo0isgbhhz0
-02:00:29 Exported 7312 revisions in 0:00:00
+02:00:29 Exported 7312 revisions in 0:00:01
