@@ -67,7 +67,7 @@
 :91 al@openerp.com-20110317170808-lwqxymfye4obfssg
 :90 al@openerp.com-20110317162700-tv0iq7a9us986i9o
 :93 fme@openerp.com-20110317174932-hnlgoso4ezueuqbr
-:92 fme@openerp.com-20110317172508-fb1yxc1bcunqm2gt
+:2140 xmo@openerp.com-20110906093516-3nkjngcmt2l3wex4
 :95 xmo@openerp.com-20110318153241-816m0b1clxwuq4e2
 :94 al@openerp.com-20110318003817-7boupjexdqicauyn
 :97 xmo@openerp.com-20110318160026-7b3yf5szxymtxsh1
@@ -312,7 +312,7 @@
 :5717 mit@openerp.com-20120516122522-du590ixokm32z19r
 :4668 kch@tinyerp.com-20120216084237-egxidkgqbhjruks4
 :7118 fme@openerp.com-20120829081925-jstohijacc121chz
-:1983 jra@tinyerp.com-20110824060652-dplrpfvbwzn2kfzc
+:366 xmo@openerp.com-20110407060707-ylin2fndnb7cui8g
 :6778 xmo@openerp.com-20120611125454-nli5gkds9ffksmdm
 :6779 xmo@openerp.com-20120611144108-pw8pz5p06prsikxe
 :6774 xmo@openerp.com-20120611113238-wz516g9tl0xp1igd
@@ -403,7 +403,6 @@
 :8526 fme@openerp.com-20121211103357-csqirmhxehmszyu4
 :8525 xmo@openerp.com-20121211101901-1lqbca199wbce2ld
 :8524 xmo@openerp.com-20121211090610-qoh1zazzpp00sx5l
-:7990 fme@openerp.com-20121105103617-di2vpb8dird602t3
 :6938 al@openerp.com-20120808192855-dq2aje2qq7sqq2mc
 :4299 vme@tinyerp.com-20120112114047-bdq8msissyridbe1
 :4298 vme@tinyerp.com-20120112112204-ybdy5awniy9l0wt0
@@ -465,7 +464,7 @@
 :153 xmo@openerp.com-20110323122126-3qj7vkhjsc6l0x5x
 :152 xmo@openerp.com-20110323120806-uhas8xvxnpsa1dm2
 :155 al@openerp.com-20110324003835-va9wdokmzb92f65i
-:154 xmo@openerp.com-20110323122217-ehqru2nu2iq2jhvj
+:6901 apa@tinyerp.com-20120727052809-oezzaxn0qikgtkli
 :157 xmo@openerp.com-20110324071652-8i6rnyb9drkmsbb5
 :156 al@openerp.com-20110324010814-n8hk09002jfq65eg
 :159 al@openerp.com-20110324163449-26amfxhsx03h72jg
@@ -496,8 +495,8 @@
 :2720 fme@openerp.com-20111005083656-f5bq8v1km25s4orx
 :2729 al@openerp.com-20111005172010-ii718o6v1oe6gijk
 :2728 chs@openerp.com-20111005095505-vepaqeupdn5qywcc
-:7236 fme@openerp.com-20120905123532-oskxl7srmoabkqr5
-:9190 chm@openerp.com-20130607151339-t9n5iv2vap0kvimw
+:7944 xmo@openerp.com-20121106152148-33ctafxz5iy53nl1
+:7945 nicolas.vanhoren@openerp.com-20121106153929-8705y9r3u2b27i8u
 :7946 chm@openerp.com-20121031101959-t4o6qusszamx5qgu
 :7947 chm@openerp.com-20121031105604-952pxf2rhlvupsx1
 :9195 launchpad_translations_on_behalf_of_openerp-20130608075116-643xgspj93t8g1y9
@@ -524,12 +523,11 @@
 :693 fme@openerp.com-20110519125845-efw2dxjwwa6na7jq
 :7815 nicolas.vanhoren@openerp.com-20121025091132-zbja03rszs6jiavg
 :3088 valentin.lab@kalysto.org-20111004074842-txpar1ph0utc2eqd
-:3087 fme@openerp.com-20111027103301-kzyztkq8gbjqqm6x
 :7932 fme@openerp.com-20121025141140-2ab8pwwbc7kg3729
 :8866 fme@openerp.com-20130219181519-a1zdkr2y8a43dqgb
 :8867 vme@tinyerp.com-20130122055856-iby255hebyxb72rs
 :8864 fme@openerp.com-20130219141645-3c1avqxnk23gcn1g
-:8865 fme@openerp.com-20130219143215-68izxr278eu77sn0
+:92 fme@openerp.com-20110317172508-fb1yxc1bcunqm2gt
 :8862 fme@openerp.com-20130218133251-mskozjdbm0ry6uee
 :8863 fme@openerp.com-20130218180732-ivdxvenc2flgl32p
 :8860 fme@openerp.com-20130218114911-wpack9pfkr3pn0a2
@@ -684,7 +682,7 @@
 :797 nicolas.vanhoren@openerp.com-20110530111444-koe0m1yl1ftckkpr
 :2147 nicolas.vanhoren@openerp.com-20110902152622-marolbq8hkxu6wd0
 :795 cpa@tinyerp.com-20110520061650-servdz232c8bh4v3
-:9387 jke@openerp.com-20140203180637-er9c45xm0d9sk7ub
+:794 cpa@tinyerp.com-20110519125826-0rn7yiz9pm1sp05e
 :9380 chs@openerp.com-20140123170836-4qu0ei6zucaprwxs
 :9381 launchpad_translations_on_behalf_of_openerp-20140126051546-xdjoni3k2eium078
 :791 xmo@openerp.com-20110530070054-m8cbvexw72wpt4mq
@@ -709,7 +707,6 @@
 :1134 nicolas.vanhoren@openerp.com-20110704083858-n9d4bopimfmhdg32
 :2419 nicolas.vanhoren@openerp.com-20110915100101-ez65927vcycbgtjq
 :2418 nicolas.vanhoren@openerp.com-20110915095610-rt3c97230mzcb0ce
-:4977 sbh@tinyerp.com-20120405101254-35rtolfp7gjypaqg
 :7148 fme@openerp.com-20120904101916-wzkxutkcthgyv2fe
 :7149 xmo@openerp.com-20120904101139-xyl0dskdk6dbdfe1
 :7144 fp@openerp.com-20120902133023-dgdicbx0xnlht2l5
@@ -871,7 +868,7 @@
 :9004 fme@openerp.com-20130314115055-7vv9nw51hf284lz3
 :9003 fme@openerp.com-20130313162032-5jhh4nhk16z7qh1n
 :9002 fme@openerp.com-20130313154429-yjrbj0oklt7hd0qw
-:7283 aja@tinyerp.com-20120912104214-z34o1hyk2qt67jhu
+:7931 fme@openerp.com-20121025103748-4idbc0tvo7pzc285
 :5624 xmo@openerp.com-20120423095057-gytshtkft5002693
 :7025 nicolas.vanhoren@openerp.com-20120816094612-5lxnc7xpg8atr28b
 :7282 jam@tinyerp.com-20120911044231-15aoi4ow7dtc1gfx
@@ -893,7 +890,7 @@
 :1589 fme@openerp.com-20110803110550-i47i9bo5va0fm0j9
 :7285 jam@tinyerp.com-20120912113007-sypdbjvcm57vh6ah
 :1582 xmo@openerp.com-20110802091344-3lk1wk7ctjhs0j3p
-:1583 xmo@openerp.com-20110802091849-6jobmumdqw4o6j68
+:5483 nicolas.vanhoren@openerp.com-20120504133111-2c5v5jmiaj15islk
 :1580 xmo@openerp.com-20110802082803-at77u89v51et90uj
 :1581 xmo@openerp.com-20110802084312-yvbryccygitvfem8
 :1586 xmo@openerp.com-20110802094717-yxmi281j1l139tws
@@ -905,6 +902,7 @@
 :7938 fme@openerp.com-20121105194733-5yy3zqmk8byfj3v6
 :3316 fme@openerp.com-20111117090117-m5du8bph807nhpju
 :9104 odo@openerp.com-20130503102248-vjl1b8xju9uwfq97
+:1635 xmo@openerp.com-20110719123305-bd5s1pbcjpoc927g
 :7288 jam@tinyerp.com-20120913043644-t41gs5n4kp8a0j0e
 :5658 xmo@openerp.com-20120503154751-w5pojni831xwu6bv
 :5659 xmo@openerp.com-20120503155532-q2es166215yfgn7g
@@ -1058,7 +1056,7 @@
 :633 nicolas.vanhoren@openerp.com-20110513133914-nvezbww1r84mpiju
 :1216 xmo@openerp.com-20110617092436-s8b5v4v5ytbonvi1
 :3706 nicolas.vanhoren@openerp.com-20111207105008-bt3m5vytpb2r06lh
-:1217 xmo@openerp.com-20110617093222-8mx8tkshkcave3g1
+:635 nicolas.vanhoren@openerp.com-20110513141459-g5b19i83hqvy9cnh
 :1806 sma@tinyerp.com-20110812114402-u9u8vxxp1fnonq3m
 :1214 xmo@openerp.com-20110617091344-mlal79a9poagjwm3
 :1215 xmo@openerp.com-20110617091354-nus2mw3r7g2bvbrr
@@ -1088,7 +1086,7 @@
 :4851 fva@openerp.com-20120228103933-j92bexvam1hsfc7t
 :3705 xmo@openerp.com-20111207104942-w3x6trs3utk6fwpw
 :2300 jra@tinyerp.com-20110831061816-xqgbt9uo601o5yx1
-:6525 tde@openerp.com-20120612080733-kuvu2adf4yimwc0d
+:8268 bth@tinyerp.com-20121022132217-13oz992sx88ouumn
 :4850 fva@openerp.com-20120224163605-mibez8k95343x7oz
 :2303 jra@tinyerp.com-20110831065106-2c6t2daixcqmweni
 :6524 tde@openerp.com-20120611104153-6jdibqpb91j96yh2
@@ -1118,10 +1116,8 @@
 :5826 fme@openerp.com-20120604101145-5o9ssysf6lx4o450
 :5829 fme@openerp.com-20120604144211-hoyz2bekmoc7hods
 :5828 fme@openerp.com-20120604115322-szoj49tbkxc35n3s
-:1801 sma@tinyerp.com-20110810084528-059auhvl25neb63p
 :6916 vta@openerp.com-20120801135748-71rbhudbh5ipq7tb
 :1182 xmo@openerp.com-20110711113340-7dn062kv8c6w711a
-:8630 chs@openerp.com-20121108145001-pswe7r5ss4nzgu00
 :199 xmo@openerp.com-20110325130818-wgg4x3dgxsgdpkqy
 :198 xmo@openerp.com-20110325124315-k8tpt2cpwhohlljm
 :195 xmo@openerp.com-20110325105151-wkdf8llenaqlffhn
@@ -1175,9 +1171,9 @@
 :856 xmo@openerp.com-20110603115757-4z67r08g1sfogfgw
 :857 xmo@openerp.com-20110603122443-fvmfouuybh69b48g
 :3456 ysa@tinyerp.com-20111110110914-o5scsgjqoaedd4wr
-:851 xmo@openerp.com-20110603093817-om68h34w9s8qhxpv
+:3457 ysa@tinyerp.com-20111110111021-7srfslh8bsqwnd56
 :3454 ysa@tinyerp.com-20111110055031-hxu99dhrtljxal1t
-:3455 ysa@tinyerp.com-20111110090920-fgluhnpkw9o1ifwm
+:853 xmo@openerp.com-20110603103100-c0di95c1z5rd1ogh
 :3458 ysa@tinyerp.com-20111110121550-wg7k2oqgwh3v47km
 :3459 ysa@tinyerp.com-20111111050405-6gpraiqv7iw27n13
 :858 xmo@openerp.com-20110603132438-uhkzql3lsy6h9ptn
@@ -1267,7 +1263,7 @@
 :8335 jra@tinyerp.com-20121121052637-cw55pw6vktwjp1jy
 :6716 nicolas.vanhoren@openerp.com-20120726100111-c2y5x9viawnhryrd
 :6717 al@openerp.com-20120726100835-j0ol9h0wencpp037
-:6714 al@openerp.com-20120726092618-atzkidy1gpd25n6w
+:8338 vja@tinyerp.com-20121105063518-ng3qk7ljjxmbtuvi
 :6715 fva@openerp.com-20120716094637-n2mdh94pb147ggc0
 :6712 al@openerp.com-20120726091734-x930oturbzz37e8w
 :6713 al@openerp.com-20120726091920-1rnj1vw8ef1j8w98
@@ -1344,6 +1340,7 @@
 :970 nicolas.vanhoren@openerp.com-20110620083358-jbnmjfr3o9ddwnja
 :979 fme@openerp.com-20110621081846-inwoqep0ltubixt8
 :978 fme@openerp.com-20110620182641-u5vmyb5za7wvpefq
+:7952 tde@openerp.com-20121106145940-cji6varovqtgneiz
 :1243 fme@openerp.com-20110712091110-wa1v3s3p148g2nig
 :3728 xmo@openerp.com-20111208123846-dp3cgbsljl41q82k
 :3729 xmo@openerp.com-20111208141923-1p1rm4mu0hikls6m
@@ -1424,7 +1421,6 @@
 :316 nicolas.vanhoren@openerp.com-20110401121042-abg9zo1ldgwde0ht
 :315 al@openerp.com-20110405103835-33kf1ia7zg1b1fvr
 :314 fme@openerp.com-20110405103013-xmwwhip99xw1vdpn
-:3299 fme@openerp.com-20111115132914-74mhywoy36gm8pdd
 :7284 aja@tinyerp.com-20120912111943-3p8tsawxqr9xtn9a
 :4213 xmo@openerp.com-20120111074307-964mrrdr4ebefxs0
 :1335 nicolas.vanhoren@openerp.com-20110718142923-drk0tvdl8jj2z54f
@@ -1473,7 +1469,7 @@
 :7299 chm@openerp.com-20120914083540-t5bhzfksdxi2wqj5
 :9139 bth@bth-laptop-20130326093643-746n0kzeu3nlwfe2
 :9138 psa@tinyerp.com-20130320103207-6vbrf4dqnwo2s1u8
-:7704 nicolas.vanhoren@openerp.com-20121016084001-mqzq3blhb78t9e7o
+:39 xmo@openerp.com-20110309115746-4hkmq0oziwoi4jfs
 :7928 fme@openerp.com-20121024160525-rta4chbzjkj3a1sj
 :7929 fme@openerp.com-20121025080747-hr57jyhfe67xxco4
 :38 xmo@openerp.com-20110309111307-rpaueaqjdzg1dkgj
@@ -1488,6 +1484,7 @@
 :6291 nicolas.vanhoren@openerp.com-20120629135849-hrpn59w50iu8h0j1
 :6290 vja@tinyerp.com-20120621090425-wa3lrw5tait9lt9s
 :5574 fme@openerp.com-20120515074139-phc4hzbay2i13wzm
+:400 nicolas.vanhoren@openerp.com-20110411114529-332vb6wtrocrwjm0
 :35 xmo@openerp.com-20110309104058-oicx8oz67wq0cdq4
 :34 xmo@openerp.com-20110309104008-9g3efgflpz4j8am8
 :3438 ysa@tinyerp.com-20111108130327-iozuye9ll7tgb2pq
@@ -1639,6 +1636,7 @@
 :3604 ahu@openerp.com-20111125105435-f6uvdzqa9997e7em
 :3609 ahu@openerp.com-20111130102811-87venjx5ez3d46hp
 :3608 ahu@openerp.com-20111130102450-j82xrxm70j8x3msf
+:8146 nicolas.vanhoren@openerp.com-20121116151248-il59eiekk758suco
 :4453 nicolas.vanhoren@openerp.com-20120127160645-62bfd9j6dn1zl0c9
 :4452 xmo@openerp.com-20120127133508-wngtl9ezi6km85mp
 :4451 al@openerp.com-20120127132438-nth4lyqq1xp55hfc
@@ -1671,7 +1669,6 @@
 :6338 nicolas.vanhoren@openerp.com-20120703155540-0sp4m80yqa9r4ati
 :6339 launchpad_translations_on_behalf_of_openerp-20120705045735-cr2i52twdi6vdvku
 :1855 fme@openerp.com-20110818203147-3utl21mr2xpom01n
-:2171 xmo@openerp.com-20110906115316-4kybkc2bowpvkhyn
 :8909 xmo@openerp.com-20130301102555-1g7p8ugyorle7i0j
 :8908 msh@openerp.com-20130220101721-7rzlpdpy7p5em0g7
 :8905 al@openerp.com-20130227212507-ag6ibb9x3nz5deko
@@ -1684,7 +1681,7 @@
 :8902 nicolas.vanhoren@openerp.com-20130227141941-phigsnt3x3rj0atu
 :2174 nicolas.vanhoren@openerp.com-20110906125411-ux7oykhipu4xmort
 :2175 ysa@tinyerp.com-20110728095152-l8g2zqqro2mkr7ne
-:7128 vta@openerp.com-20120830072024-004ingk1ourozupn
+:716 fme@openerp.com-20110523144640-rnpiqxnzeuynjkr0
 :7129 vta@openerp.com-20120830074821-tm99gmsw3e7n93z1
 :7126 pso@tinyerp.com-20120821133021-7q49f2wn6swc2tky
 :7127 vta@openerp.com-20120830070501-qy3am8pj7q3xm0oi
@@ -1796,6 +1793,7 @@
 :5123 al@openerp.com-20120327222041-kum3fp8nopnnbcdp
 :1495 vda@tinyerp.com-20110601072441-y03c1h8ydau8os03
 :3195 fme@openerp.com-20111104180512-0awz3mvbsy3pxuai
+:1496 vda@tinyerp.com-20110601100952-opuguc2rxfrxcsdh
 :6109 xmo@openerp.com-20120606123115-hilv8huw72di4ovi
 :6108 xmo@openerp.com-20120606103353-k8z51yhp9j1u2irp
 :6107 launchpad_translations_on_behalf_of_openerp-20120606053111-in0n1qxhmy84ofxp
@@ -1824,7 +1822,7 @@
 :3412 ysa@tinyerp.com-20111104050601-igvnt3gqhe7bkfxp
 :3413 ysa@tinyerp.com-20111108051137-8rr281wtwm1kvcas
 :3410 ysa@tinyerp.com-20111103122520-neun6etb7dxr1ahw
-:8531 chm@openerp.com-20121130090347-xfwiwnktagbvyoqz
+:3411 ysa@tinyerp.com-20111103130455-u9i5okx02jioq3an
 :1931 xmo@openerp.com-20110825100643-k7nbcla8h38siozr
 :8532 chm@openerp.com-20121130114123-nwer85s4y6vs6438
 :3418 kch@tinyerp.com-20111005120212-tj2jhlxwjmtp91z6
@@ -1856,7 +1854,7 @@
 :450 xmo@openerp.com-20110412103727-rhx1jww4084e2eze
 :1341 al@openerp.com-20110719102707-qfy1lz5mjj006ok1
 :1342 kch@tinyerp.com-20110714095519-i0a0936hen9qidh3
-:453 xmo@openerp.com-20110412111712-j3ma06fcec7rhi47
+:1343 xmo@openerp.com-20110720081415-5fsk44p04x6i6et7
 :1344 xmo@openerp.com-20110720081518-1xitkhodpr2na8jt
 :1345 xmo@openerp.com-20110720082455-ghudln3hhbmgjbum
 :456 xmo@openerp.com-20110412123407-dl1udbc3vfatb0h6
@@ -1893,6 +1891,7 @@
 :8371 launchpad_translations_on_behalf_of_openerp-20121129052158-2gjacp96ppgmvr5t
 :8378 xmo@openerp.com-20121005131205-ffk746ac5xrua62j
 :8379 xmo@openerp.com-20121005142808-yx6o8nfnn0o4ms56
+:7128 vta@openerp.com-20120830072024-004ingk1ourozupn
 :9435 mat@openerp.com-20140327113401-s3ee7fnexhre9mwb
 :4008 fme@openerp.com-20111220183722-ox22w2fhmus0zir3
 :4009 fme@openerp.com-20111220201434-5gwo37br7qil1qp5
@@ -1956,7 +1955,7 @@
 :5341 nicolas.vanhoren@openerp.com-20120417143227-qzez1yxysqnw0sbv
 :793 nicolas.vanhoren@openerp.com-20110513154746-qn816lrpw4d3tamm
 :5342 nicolas.vanhoren@openerp.com-20120417154505-jhy2xhgx9s6qqd5z
-:1022 nicolas.vanhoren@openerp.com-20110623135124-8yvk56l18j9f6mwk
+:5343 launchpad_translations_on_behalf_of_openerp-20120418045743-hzbql3f1knlrc5yh
 :6312 tde@openerp.com-20120619073535-rgleb9j9g5xy2xeg
 :6313 tde@openerp.com-20120620073852-xatt6u4855i5g681
 :6310 tde@openerp.com-20120615081833-tyv0wl56wcppwstp
@@ -1968,10 +1967,10 @@
 :6318 tde@openerp.com-20120622110250-kb15r0651h0qm69a
 :6319 tde@openerp.com-20120625083249-fbhhfhpi3jfsroau
 :5348 nicolas.vanhoren@openerp.com-20120418122039-086kmrnz1em88sx2
-:3411 ysa@tinyerp.com-20111103130455-u9i5okx02jioq3an
 :1028 nicolas.vanhoren@openerp.com-20110623160008-9yt66d4ll48s9ftm
 :9308 launchpad_translations_on_behalf_of_openerp-20131113060848-04a2ehku5erssgvr
 :9309 mat@openerp.com-20131113082806-me6uy7cjj6holn56
+:8531 chm@openerp.com-20121130090347-xfwiwnktagbvyoqz
 :9304 launchpad_translations_on_behalf_of_openerp-20131112062321-q35iebzktzu6lw8m
 :9305 chs@openerp.com-20131108214255-cgx1r7x8sx1ak4ea
 :9306 chs@openerp.com-20131112143635-ek6yhfifb6ycynku
@@ -2121,6 +2120,7 @@
 :6129 msh@tinyerp.com-20120607072805-htfer9njseaty66w
 :6128 msh@tinyerp.com-20120522090826-f8hslx26drsxe83e
 :4854 xmo@openerp.com-20120229102948-jfl1pbbg3t1460il
+:3750 vme@tinyerp.com-20111207125814-gq5edmjo5upfcofc
 :8677 fme@openerp.com-20121219150025-h9h1956xey3tok57
 :3756 launchpad_translations_on_behalf_of_openerp-20111210052339-bpnw0helnigf6bay
 :4633 fme@openerp.com-20120214094430-p4gm11g0paau0tnh
@@ -2359,7 +2359,7 @@
 :3539 xmo@openerp.com-20111124101352-xo48bd8mrfsmbm4b
 :1438 ysa@tinyerp.com-20110714114143-rsrkae7ve1gpap00
 :3538 mit@openerp.com-20111124103337-b8d91r9p2exhi2u2
-:5408 tpa@tinyerp.com-20120404073016-ro6wuybho7npp9k4
+:1439 kch@tinyerp.com-20110714122825-0omxwj3z039f82g2
 :5458 al@openerp.com-20120426223257-c04x8o03fpr96dg1
 :1198 kch@tinyerp.com-20110517063718-bets5l1knkpwqhr5
 :3348 fme@openerp.com-20111117131816-991odq4m45146vfv
@@ -2367,7 +2367,7 @@
 :3342 fme@openerp.com-20111117111857-bot6h87bh4tv3dfw
 :1190 kch@tinyerp.com-20110408132824-vi85a34pg4in9ndw
 :3340 vja@vja-desktop-20111117071452-0n1pxy6zwbwgo3dg
-:3341 nicolas.vanhoren@openerp.com-20111117092845-oo427719x3mzpq7o
+:5453 stw@openerp.com-20120426152441-0laj03nnl67jvj68
 :5454 al@openerp.com-20120426220818-yvsr4zwlj824ql1q
 :3347 fme@openerp.com-20111117130913-lji983yp8b7vb0do
 :3344 chs@openerp.com-20111117130237-wqiqdrleiv2mwyf8
@@ -2418,7 +2418,7 @@
 :3834 xmo@openerp.com-20111215104145-lzffvxr7co3khck1
 :3835 kch@tinyerp.com-20111215102910-zjyp5rsp3wbugoyu
 :3836 fme@openerp.com-20111215105737-a3rg05amrxk7q9gc
-:1343 xmo@openerp.com-20110720081415-5fsk44p04x6i6et7
+:3837 xmo@openerp.com-20111215112942-zk73l2334on3kliq
 :3830 al@openerp.com-20111214180602-he53g6h13cfo45je
 :3831 xmo@openerp.com-20111215100652-8iujastl6bvi7feu
 :3832 xmo@openerp.com-20111215100827-01nokry6vxbw3swh
@@ -2441,7 +2441,7 @@
 :7525 nicolas.vanhoren@openerp.com-20121005135528-ridisb8ybcng1szi
 :371 xmo@openerp.com-20110407123824-6zys5lutnqt90zya
 :370 xmo@openerp.com-20110407121222-eipzf31zf3e9x45s
-:373 xmo@openerp.com-20110407132726-j04x68lzq5ylkaki
+:7528 fva@openerp.com-20121005152648-34x69lrsk7mbi068
 :7529 vme@tinyerp.com-20121003103428-fnr942tzl065rcei
 :375 xmo@openerp.com-20110407153527-6r8cb7oym1fp5r6x
 :374 xmo@openerp.com-20110407151319-vr7sc3n497y4ily0
@@ -2488,7 +2488,7 @@
 :4534 xmo@openerp.com-20120207132110-nv6hd2ea8zk7p17s
 :4535 xmo@openerp.com-20120207160158-kxbue424wa3nxz03
 :4824 launchpad_translations_on_behalf_of_openerp-20120311045640-215bmmq7nly1rwvc
-:4537 xmo@openerp.com-20120207170008-f3ct2wdmn587ci9r
+:4825 fme@openerp.com-20120312153743-i6qi3fzmondezrdh
 :4822 fme@openerp.com-20120308140636-qk2ekrmqlqpaa7uo
 :4531 nicolas.vanhoren@openerp.com-20120207130546-bu0m5fl99krcqbbb
 :4820 nicolas.vanhoren@openerp.com-20120307155529-t83uabjx0ocm8mjq
@@ -2551,6 +2551,7 @@
 :8621 chs@openerp.com-20121018150512-hhotrnx9pgjq6fv1
 :8622 chs@openerp.com-20121024114929-dwn0esxvlobxqle4
 :8151 xmo@openerp.com-20121119084203-0vz4v9myfizxz88u
+:3784 chs@openerp.com-20111213093557-3hab6yamep1pv9x2
 :414 fme@openerp.com-20110412120258-yz96u0r3qdoy1z26
 :415 nicolas.vanhoren@openerp.com-20110412122559-ebyjs30uo4gicpap
 :416 fme@openerp.com-20110412124014-s6b3i6gf1h6ke180
@@ -2564,14 +2565,14 @@
 :1386 fme@openerp.com-20110725142805-bsvio3q4tsgkc77b
 :1387 xmo@openerp.com-20110726100136-1i858bxyipiboz0o
 :418 nicolas.vanhoren@openerp.com-20110412131948-7vtg4cdg3lp4st1q
-:1381 nicolas.vanhoren@openerp.com-20110725122231-oe0glu5cxqm7n0bw
+:419 fme@openerp.com-20110412140701-4kl7b1juoxdxye6q
 :1382 nicolas.vanhoren@openerp.com-20110725122250-ma4ujs8uh190gwoh
 :1383 xmo@openerp.com-20110725133553-bs4x2f747vdj1a02
+:9194 odo@openerp.com-20130607194513-19an571lbpbbzlfz
 :5461 nicolas.vanhoren@openerp.com-20120502091053-o1knrm01225qdq0o
-:5274 mit@openerp.com-20120410110308-ca42xa6e2wv82dxi
+:1775 xmo@openerp.com-20110811084301-xp42ylhmv2ackhws
 :5460 al@openerp.com-20120430150244-wh38i70f6pweu4yy
 :5275 fme@openerp.com-20120410112834-zpux34tsk1yc916k
-:7224 mit@openerp.com-20120830130524-3szsbr80dltbenzm
 :1777 xmo@openerp.com-20110811131257-t6pdqsdrhuxgne22
 :5277 xmo@openerp.com-20120410112656-nced0rr1j4zf9lvy
 :1771 al@openerp.com-20110811031000-z0nkvickg6dkfe0d
@@ -2647,7 +2648,7 @@
 :1819 nicolas.vanhoren@openerp.com-20110816075635-db2i5kfiog9di8vq
 :4120 jra@tinyerp.com-20111229065727-egt8j4c2zlv3jh90
 :1150 xmo@openerp.com-20110622153626-zscyr6natsmvb726
-:4952 xmo@openerp.com-20120404062727-r5eoaw73pjw1izk0
+:2165 xmo@openerp.com-20110906111157-hyzm016cyjcm0kfn
 :2164 xmo@openerp.com-20110906095247-a5pkop20zzgqpdgg
 :2167 xmo@openerp.com-20110906111226-hx4zh9rjr2fj5sct
 :1609 xmo@openerp.com-20110704143402-e47xmd53obcou6b8
@@ -2681,7 +2682,7 @@
 :3320 vda@tinyerp.com-20110919095730-toavlykgeokcg4d0
 :5477 tpa@tinyerp.com-20120405103613-0q1dizma6lrg2si3
 :3322 vda@tinyerp.com-20110920171315-k1aambijdl9ih04n
-:3323 vda@tinyerp.com-20110920173031-ialtmcpub2c24k04
+:5475 xmo@openerp.com-20120507152531-8x2ozsvhbb5yemqt
 :5472 xmo@openerp.com-20120423095057-4x3zbwpapz52mvwc
 :3325 vda@tinyerp.com-20110921064640-0j7ikcpvuaivicc7
 :3326 vda@tinyerp.com-20110921073729-zqjijfseuz4ipc1h
@@ -2701,7 +2702,7 @@
 :5517 al@openerp.com-20120427221150-j3resq34s4mkazd6
 :3039 xavier.manach@xcg-consulting.fr-20111024143408-9zarpka33m3te2pf
 :537 xmo@openerp.com-20110504064642-48u0giakycwqufwr
-:536 nicolas.vanhoren@openerp.com-20110502151305-8kyi5dsvd8bntb8s
+:3034 kbh@bde-desktop-20111025062429-dvx4x0h1caqwg21i
 :535 nicolas.vanhoren@openerp.com-20110502143952-rgmw9v84rnjqxq23
 :534 vda@tinyerp.com-20110429054757-jev07s8ew7v2iozb
 :533 vda@tinyerp.com-20110428113340-88el65xrqd998wf5
@@ -2714,7 +2715,7 @@
 :1558 noz@tinyerp.com-20110726125508-gwdsshv0xmsrmxac
 :1909 xmo@openerp.com-20110822105656-f0x1iweoxbh8hcgu
 :3294 xmo@openerp.com-20111115094507-n0hs6ehjc1exua0u
-:5136 fme@openerp.com-20120329150136-iw5dirrxbqx53qjh
+:1907 xmo@openerp.com-20110822101308-2td5peezvg6snmk7
 :5135 fme@openerp.com-20120329143113-fhpks1tol8lso09s
 :6518 nicolas.vanhoren@openerp.com-20120720123528-fpskc2r42d06z28r
 :6519 nicolas.vanhoren@openerp.com-20120720124430-gbhow8qcipsrieb4
@@ -2909,7 +2910,6 @@
 :5701 xmo@openerp.com-20120522064607-2umxpgnltysjnmhq
 :5702 xmo@openerp.com-20120522132246-49w7jbkaytd7q3k2
 :5703 xmo@openerp.com-20120522132321-5x2gwps4gaj78agp
-:3315 fme@openerp.com-20111116222705-dg4u0lpw6p2o8nx1
 :3314 fme@openerp.com-20111116164639-y76q8quqj60r2w3j
 :5357 nicolas.vanhoren@openerp.com-20120418142714-gfq4f3lhjayo2qg9
 :1051 fme@openerp.com-20110627165752-0saluid6q3qu7sgt
@@ -2927,7 +2927,6 @@
 :7825 jra@tinyerp.com-20121016054400-14aecskaihyisudd
 :7824 jra@tinyerp.com-20121015115134-mit2bwyowaxle31t
 :1056 xmo@openerp.com-20110628082255-d3r94stgmxaq0q5q
-:3400 xmo@openerp.com-20111122143554-p1j1v8b1652djc58
 :4926 nicolas.vanhoren@openerp.com-20120326123003-pl9h05jlo47c4qrv
 :1431 ysa@tinyerp.com-20110713071641-1uwyq5feycks76ka
 :9368 mat@openerp.com-20140117101943-v7kz6pkxyv4dfvlk
@@ -3073,7 +3072,7 @@
 :8241 hip@tinyerp.com-20121119132142-go7qw4nyn9248gdz
 :8246 mdi@tinyerp.com-20121127103416-1zos04k7ohny9nvp
 :8795 odo@openerp.com-20130124140538-1wjjl4a12xnwn38o
-:8244 mdi@tinyerp.com-20121123054140-2mgtjrfmey4z7gb4
+:8796 xmo@openerp.com-20130124144018-0g3sl2nej2aj6syp
 :8245 mdi@tinyerp.com-20121126044751-82pvr9yxn0y5qfrs
 :3878 chs@openerp.com-20111122120806-mlg170fohfnx8gk8
 :3879 chs@openerp.com-20111122121655-7nqn1rvcd2iwy4mg
@@ -3158,7 +3157,6 @@
 :4579 xmo@openerp.com-20120210140021-uh5t5egr00dxdwr8
 :2099 vda@tinyerp.com-20110819121651-98fs6ktbbr1kjcbj
 :2098 vda@tinyerp.com-20110819080605-30gchbr3nhbm36wr
-:8423 fme@openerp.com-20121129120738-fgulo5hqib2uqeqa
 :4605 jra@tinyerp.com-20120209060216-7srqio91yxlu7yi0
 :6278 dhr@tinyerp.com-20120627125316-ft87ccisslbo5lma
 :8124 xmo@openerp.com-20121029120426-xdk03e5gvv1n03jw
@@ -3177,7 +3175,7 @@
 :9121 nicolas.vanhoren@openerp.com-20130515095413-tdvyurv8dwgvj0vd
 :9007 launchpad_translations_on_behalf_of_openerp-20130315064417-68iimts1xgj8bn5z
 :7022 al@openerp.com-20120815170321-7qfx3ol1selfjig1
-:9005 fme@openerp.com-20130314222616-gz7f0zpnpz0skq88
+:7021 al@openerp.com-20120815164630-yzc5grk2df2bzloe
 :7020 launchpad_translations_on_behalf_of_openerp-20120815045104-n4a0t10m25fegodp
 :7027 fme@openerp.com-20120816125540-avezmt4797lcaxfd
 :7026 nicolas.vanhoren@openerp.com-20120816100353-ltki8usmpxnax1a7
@@ -3314,7 +3312,7 @@
 :2172 xmo@openerp.com-20110906115507-lo5qblaw4nod11vz
 :2173 xmo@openerp.com-20110906115754-i19nn5oi9fhqpmbd
 :2170 xmo@openerp.com-20110906114945-b1nn0rd34fnmwjvb
-:3842 fme@openerp.com-20111215123536-wnsbnqakjhflle7x
+:2171 xmo@openerp.com-20110906115316-4kybkc2bowpvkhyn
 :2176 ysa@tinyerp.com-20110729090430-ilaaxzpl0waes3a2
 :2177 ysa@tinyerp.com-20110729090715-mabhgwkjb705in3p
 :4969 kjo@tinyerp.com-20120404061529-l4lg9s74mkqzphqs
@@ -3350,9 +3348,9 @@
 :5121 nicolas.vanhoren@openerp.com-20120327162513-7d4a58skbe0inv8n
 :5122 nicolas.vanhoren@openerp.com-20120327163417-qba5kkwtgulomjru
 :3369 fme@openerp.com-20111121134102-3eq99xmmwwu9pamw
-:7944 xmo@openerp.com-20121106152148-33ctafxz5iy53nl1
+:7236 fme@openerp.com-20120905123532-oskxl7srmoabkqr5
 :5434 nicolas.vanhoren@openerp.com-20120420092007-mu3fk95ft21ztm78
-:7945 nicolas.vanhoren@openerp.com-20121106153929-8705y9r3u2b27i8u
+:7237 fme@openerp.com-20120905134553-k6ryuelp5fhsw6z9
 :1426 ysa@tinyerp.com-20110712102118-zj85dz9nved836iv
 :7234 mit@openerp.com-20120906145326-8ykppthhs25xo5d4
 :3364 xmo@openerp.com-20111121100257-yrhui8kx9zodnzqx
@@ -3479,6 +3477,7 @@
 :4553 carlos.vasquez@clearcorp.co.cr-20120208083551-nev12pk8a4jnrou4
 :4550 xmo@openerp.com-20120208140445-xfgz3vm18r4t9ijb
 :4551 chs@openerp.com-20120207140628-4yxgxv849cjg5fl9
+:8865 fme@openerp.com-20130219143215-68izxr278eu77sn0
 :8582 vta@openerp.com-20121217085759-dpxwrkh4pa81k0pb
 :6077 xmo@openerp.com-20120515111147-4kbpy3rwtrqmly06
 :6076 cpa@tinyerp.com-20120511111527-4iz76pe2x815nd9n
@@ -3511,7 +3510,6 @@
 :7348 fme@openerp.com-20120919124859-l5fci8nwxf2jtu18
 :7349 fme@openerp.com-20120919130239-f7wcd91ng9x6kpo7
 :1971 jra@tinyerp.com-20110719063045-dllb5ehgga3zt45o
-:4546 xmo@openerp.com-20120208130738-pr92lh9qotki71o4
 :1414 nicolas.vanhoren@openerp.com-20110728144912-t3kml1yo8gt261ga
 :5424 nicolas.vanhoren@openerp.com-20120419134341-b6rcx58lghgvayia
 :7009 nicolas.vanhoren@openerp.com-20120813154011-hgq3vxxdps5s9w91
@@ -3642,6 +3640,7 @@
 :1873 nicolas.vanhoren@openerp.com-20110819144656-dbsul3smdx7qnkml
 :1870 fme@openerp.com-20110822111042-q20vvb1o0sfxh294
 :1871 fme@openerp.com-20110822122654-yh43we5egd52162n
+:2133 xmo@openerp.com-20110906082650-qnd5k7pe9wf2dq0d
 :1878 nicolas.vanhoren@openerp.com-20110822125355-uhgq0sqd6pw7x3wq
 :1879 nicolas.vanhoren@openerp.com-20110822125708-xd75m77jpvr6b4n1
 :4945 al@openerp.com-20120402075933-xqekei8hog3az99l
@@ -3725,7 +3724,7 @@
 :1262 xmo@openerp.com-20110712141934-qk3zfckzh32b8xu1
 :665 nicolas.vanhoren@openerp.com-20110517165358-tnx4d3yp2obzomib
 :1260 fme@openerp.com-20110713142502-r9xzs6crfusu5ccl
-:663 nicolas.vanhoren@openerp.com-20110517162238-q0xir331ywxgqyk0
+:1267 xmo@openerp.com-20110714095731-2kuqyl0p289ouut7
 :8258 chm@openerp.com-20121128083349-qfnl5rbaprq7hlh6
 :661 nicolas.vanhoren@openerp.com-20110517161832-wbnr0zja1gb42cgc
 :660 nicolas.vanhoren@openerp.com-20110517154716-xvvzi29o0ejvgj85
@@ -3769,7 +3768,7 @@
 :8042 tde@openerp.com-20121112154956-w4iyroc3hfmxn9l0
 :8515 fme@openerp.com-20121210145239-0x1sprin6hp66ghl
 :8512 tde@openerp.com-20121210131658-pgy3t9t71f0z2yd5
-:8513 vmt@openerp.com-20121210140411-ranw3jc3mwu3ymty
+:8045 xmo@openerp.com-20120523112314-618hfttpegn39qey
 :4129 nicolas.vanhoren@openerp.com-20120103163442-s6p8fythay0bgtch
 :4128 nicolas.vanhoren@openerp.com-20120103161831-q3lvgheqdcobmlx0
 :8046 xmo@openerp.com-20120523112941-botqwc4jpnk86571
@@ -3888,7 +3887,7 @@
 :5378 xmo@openerp.com-20120227094132-dk41nad2mx854s4p
 :1078 fme@openerp.com-20110628160103-jpkd4r1batz5nlfp
 :1079 nicolas.vanhoren@openerp.com-20110628150016-nw2ft9g7v3ornw6y
-:1076 nicolas.vanhoren@openerp.com-20110628145516-2ts81ufkvjuwirku
+:5375 xmo@openerp.com-20120224105753-hqf7o9xwwkc0xcok
 :5374 xmo@openerp.com-20120223123416-2zvxy6nqbe9gdhhw
 :1074 nicolas.vanhoren@openerp.com-20110628142759-r7j8t8u1lgleklbv
 :5376 xmo@openerp.com-20120224122620-ji9h2sckpxx3kask
@@ -3939,7 +3938,7 @@
 :8191 fva@openerp.com-20121123135818-ffawdp1f7nzxphop
 :2256 xmo@openerp.com-20110907141935-0tudrot0yc49ma4y
 :6433 fme@openerp.com-20120711093835-rfc1u13zncyrf3jh
-:8197 launchpad_translations_on_behalf_of_openerp-20121125064209-s515ia18188hl147
+:5408 tpa@tinyerp.com-20120404073016-ro6wuybho7npp9k4
 :8194 launchpad_translations_on_behalf_of_openerp-20121124070752-itto1xb6r6oao3z5
 :5187 xmo@openerp.com-20120328144442-lk2b78kbz9r1wmds
 :6430 fme@openerp.com-20120710095847-3ug1vdagysc2licl
@@ -4006,7 +4005,7 @@
 :2134 xmo@openerp.com-20110906085853-2a5tqi92jdnglejd
 :4920 fme@openerp.com-20120328100402-23zbekaomclkdwkf
 :2132 xmo@openerp.com-20110906082222-r0e0glqmr0hlub55
-:2133 xmo@openerp.com-20110906082650-qnd5k7pe9wf2dq0d
+:4694 al@openerp.com-20120221185853-6qjxwktk7pnehz9w
 :4697 fme@openerp.com-20120222115228-ay1ctx54k4zvxaf2
 :2131 xmo@openerp.com-20110906080930-0juky0v1b9pxe84f
 :4699 nicolas.vanhoren@openerp.com-20120221105229-h7609f8boalmvl6q
@@ -4041,7 +4040,7 @@
 :1799 sma@tinyerp.com-20110802063314-yb41yj6m53tobpso
 :664 nicolas.vanhoren@openerp.com-20110517165327-6stujq31j2sv72b8
 :1793 sma@tinyerp.com-20110718061722-8uy5eqw9tzu04bqg
-:1267 xmo@openerp.com-20110714095731-2kuqyl0p289ouut7
+:663 nicolas.vanhoren@openerp.com-20110517162238-q0xir331ywxgqyk0
 :1791 xmo@openerp.com-20110812121127-m50vupb36bv0tnjy
 :1790 xmo@openerp.com-20110812103643-2ew32jiqdsm71jqe
 :1797 sma@tinyerp.com-20110802061030-eqvqab8ruwxjhpuy
@@ -4061,8 +4060,8 @@
 :6845 xal@openerp.com-20120704174308-pe326nrcj8depk28
 :6590 xmo@openerp.com-20120702110658-7t8pu12uso55enrh
 :8232 chm@openerp.com-20121127135621-kmnb4o2kv21bsmwz
-:6592 xmo@openerp.com-20120702111026-twmh5gbg4i1fd4kj
-:6593 xmo@openerp.com-20120702122902-f349shdjslbbxd3k
+:8231 psa@tinyerp.com-20121127083630-odwky5bdy24gxoa4
+:8230 xmo@openerp.com-20121127094109-mojnq50mzsrcj3q0
 :6594 xmo@openerp.com-20120702132217-ni1byjkf7t6tr5a4
 :6595 xmo@openerp.com-20120702133451-e5b7uozm0p36jbpr
 :8235 chm@openerp.com-20121127150808-wqo8qh2vstagz4kj
@@ -4139,6 +4138,7 @@
 :1991 al@openerp.com-20110830232300-0f4hb3pk3jso0dii
 :1455 ysa@tinyerp.com-20110721051803-ljk33jb5oikrqgx3
 :8546 xmo@openerp.com-20121212131651-cgnfrmzv70w53fr3
+:154 xmo@openerp.com-20110323122217-ehqru2nu2iq2jhvj
 :6039 nicolas.vanhoren@openerp.com-20120622140951-9iw406yvo6rvzfxs
 :6038 nicolas.vanhoren@openerp.com-20120622133312-tvvhgr2kllag27pk
 :6033 fme@openerp.com-20120621161849-dzedftfw2g789vwn
@@ -4162,7 +4162,7 @@
 :2651 xmo@openerp.com-20110919151549-olblr39dlhtryfj0
 :2650 xmo@openerp.com-20110919144737-95xnotd34e4mrzos
 :2657 xmo@openerp.com-20110930081247-wl1d0i7hz206244o
-:2656 xmo@openerp.com-20110929090205-0vn4dt4qixao5us1
+:9208 chs@openerp.com-20130611145028-f98x6inytlr3ijjg
 :2655 xmo@openerp.com-20110920122820-5ql07msi0zjljhxn
 :2654 xmo@openerp.com-20110920112147-we4sqnc3we1v38lv
 :7388 al@openerp.com-20120927134149-1f65yn1cz9lvn0kl
@@ -4193,7 +4193,6 @@
 :3567 nch@tinyerp.com-20111125053225-cbckxm2gfuoaph06
 :3564 xmo@openerp.com-20111125143918-ja5wjs00905d58uz
 :3565 fme@openerp.com-20111128104943-3yf4xjphpzk3196e
-:3034 kbh@bde-desktop-20111025062429-dvx4x0h1caqwg21i
 :3568 vmt@openerp.com-20111125110715-lov9690uy5hnrpr1
 :3569 vmt@openerp.com-20111128133718-gu79b47hkoqeyv0u
 :4484 odo@openerp.com-20120201153617-04dpcxwglgfuvbxa
@@ -4217,7 +4216,7 @@
 :704 nicolas.vanhoren@openerp.com-20110519161835-blao1wa20xfmutsq
 :705 nicolas.vanhoren@openerp.com-20110519170041-kgkio0hp6nt6u4bn
 :706 nicolas.vanhoren@openerp.com-20110520100109-xn5wh6s991fuiagr
-:2908 jra@tinyerp.com-20111003122224-7t3wbx76d3tp421u
+:707 nicolas.vanhoren@openerp.com-20110520100657-unerurdsyv8nh2xv
 :700 nicolas.vanhoren@openerp.com-20110519170041-54w99bqotdr6atr6
 :701 xmo@openerp.com-20110520082343-y7uhx6vbf1afwfxj
 :702 nicolas.vanhoren@openerp.com-20110519151249-fgangasrt2ule5kr
@@ -4248,8 +4247,8 @@
 :3210 chs@openerp.com-20111102100511-f58vlgnv12cti8ry
 :3159 ysa@tinyerp.com-20111017051054-5l3pjg5sytilkjwg
 :3158 kch@tinyerp.com-20111014112101-0ch74erynmj56isc
-:1635 xmo@openerp.com-20110719123305-bd5s1pbcjpoc927g
-:1636 xmo@openerp.com-20110720061459-whpigz8x2yeorwqd
+:1983 jra@tinyerp.com-20110824060652-dplrpfvbwzn2kfzc
+:1980 jra@tinyerp.com-20110818132418-4n35o9q3i84ttjdi
 :3213 chs@openerp.com-20111103102828-wbx5aujiwdscb6hx
 :2485 al@openerp.com-20110925114051-y3eex2xnn4guu3d0
 :1459 kch@tinyerp.com-20110722062332-25joa55uysqtce73
@@ -4282,6 +4281,7 @@
 :7402 pna@tinyerp.com-20120921093747-lf6j8khl69dvgadm
 :2815 chs@openerp.com-20111012115744-sv7kvwqbt2p5vdio
 :569 fme@openerp.com-20110509100445-h527yh2q4j061nxq
+:2816 chs@openerp.com-20111012122622-dcuhelpcgv119s6g
 :6628 xmo@openerp.com-20120711081116-ao854p4ebsgyelp3
 :6629 xmo@openerp.com-20120711085926-dnsdnqmrd1tvl2oo
 :6626 xmo@openerp.com-20120710143228-mqfuaxw894x9khkc
@@ -4292,6 +4292,7 @@
 :6623 xmo@openerp.com-20120710103557-584hsyats0fdzpo1
 :6620 xmo@openerp.com-20120709110112-dgpm1jhb9o2lmweg
 :6621 xmo@openerp.com-20120709110426-w6v512ff5dskmr3x
+:2812 chs@openerp.com-20111010123432-619o61elz09jm9sy
 :564 xmo@openerp.com-20110509063227-eb66gzvc3y9ebnh9
 :2818 chs@openerp.com-20111010123116-8ibjek78ub83u7mp
 :2330 xmo@openerp.com-20110912120604-ojzbfhjkobgoueo6
@@ -4320,7 +4321,7 @@
 :4909 fme@openerp.com-20120326075751-g209vavjk42no32c
 :4908 vda@tinyerp.com-20120315062817-bzoimec5wz3o6la1
 :2488 kch@tinyerp.com-20110803123242-bpyq87hw0bfm0iiv
-:4678 nicolas.vanhoren@openerp.com-20120217101804-13biql9y8k3k3319
+:2489 kch@tinyerp.com-20110803130146-ur8a91zoe6w7qjml
 :4677 nicolas.vanhoren@openerp.com-20120217101731-3g9hrhs65qb32pkv
 :4676 nicolas.vanhoren@openerp.com-20120208111253-4p73dcczzpf80czu
 :4675 nicolas.vanhoren@openerp.com-20120208110909-nqdep9xvlkw8qky6
@@ -4328,7 +4329,7 @@
 :2482 al@openerp.com-20110925005523-krlap0jdgc5ukott
 :4672 xmo@openerp.com-20120216163155-wh8uory00i2qifxy
 :4907 launchpad_translations_on_behalf_of_openerp-20120324050757-v9pyejizu2mdbahw
-:4670 xmo@openerp.com-20120216150434-bnrku6qj8r10sltj
+:4906 launchpad_translations_on_behalf_of_openerp-20120323050105-hprtqc7nrwqfqj1z
 :8188 nicolas.vanhoren@openerp.com-20121123111603-55zlx8thwcgk8mxn
 :5148 nicolas.vanhoren@openerp.com-20120405120718-53ffxqhh7iuyoxex
 :5149 nicolas.vanhoren@openerp.com-20120405124433-6i1bfmrwdbdducww
@@ -4350,7 +4351,7 @@
 :127 xmo@openerp.com-20110321122328-u1u55gbf3rfks2xv
 :128 al@openerp.com-20110321135427-fb6w9c3lexsdautw
 :129 xmo@openerp.com-20110321154034-tqd03u8u7tpxm5vc
-:7221 mit@openerp.com-20120828111120-205x3qtpkrwoa5vs
+:7957 fp@openerp.com-20121106223912-yz8yyjpbd6d1kjn0
 :1188 kch@tinyerp.com-20110407133026-wtotf1dlj7m2wadf
 :7956 fme@openerp.com-20121106172036-d9jkebo9mj45thft
 :3378 ahu@openerp.com-20111027155001-v45n72ltb447vf97
@@ -4360,7 +4361,7 @@
 :1187 fme@openerp.com-20110711144851-wavg5u1l1us9atc8
 :7225 mit@openerp.com-20120831132304-qzmuvltopy1mdiwa
 :5427 nicolas.vanhoren@openerp.com-20120419151139-92ujq4get9gxbkl3
-:7952 tde@openerp.com-20121106145940-cji6varovqtgneiz
+:7224 mit@openerp.com-20120830130524-3szsbr80dltbenzm
 :5426 nicolas.vanhoren@openerp.com-20120419145051-41ywt5u35z04m8wm
 :7227 mit@openerp.com-20120831163153-8515c0vfr6sw09n1
 :3373 ahu@openerp.com-20111027111200-s9goagu6i0kihrub
@@ -4406,7 +4407,7 @@
 :8218 hip@tinyerp.com-20121108073952-p5zbzr21junjjvh0
 :8749 fp@openerp.com-20130103222515-y55td51r7kas75kf
 :6494 fp@tinyerp.com-20120716203552-u1co2og8xsa5xsfh
-:8211 nicolas.vanhoren@openerp.com-20121126100501-n6qd32x5sxqv5bp7
+:8747 chm@openerp.com-20130103145040-2j6906rmi8eh45pj
 :8210 fp@tinyerp.com-20121126084339-10z9t97tbc3izmm6
 :8213 fme@openerp.com-20121126104342-z4f0ndh68r3zikj0
 :8744 nicolas.vanhoren@openerp.com-20130103141945-11afh6khtpa7tapm
@@ -4461,7 +4462,7 @@
 :6018 jam@tinyerp.com-20120608102015-jpyv7zji3j0zocrg
 :9263 launchpad_translations_on_behalf_of_openerp-20130830052505-e346k0xxesqii63n
 :9262 mat@openerp.com-20130829124448-xr89v0gsuoukqhao
-:988 noz@tinyerp.com-20110621121926-4b6fhety4r2p1u2l
+:9261 launchpad_translations_on_behalf_of_openerp-20130826051253-70i5qzbp5ttpsmb7
 :989 fme@openerp.com-20110621123120-y2kucare2kes52ac
 :9267 launchpad_translations_on_behalf_of_openerp-20130906060737-4r2sin3a91544c6s
 :9266 launchpad_translations_on_behalf_of_openerp-20130905051839-5lbu7tnnilowbws2
@@ -4492,13 +4493,13 @@
 :5089 fme@openerp.com-20120326093347-dop01vdrwf7dok0b
 :5088 nicolas.vanhoren@openerp.com-20120323154013-40cllmyetz2k4moh
 :5083 nicolas.vanhoren@openerp.com-20120322124502-eqlchl96y3g664f4
-:3501 vme@tinyerp.com-20111111100232-6l0rhp55dn2e53q1
+:5082 fme@openerp.com-20120322111912-amvslup7pvfwkbuk
 :3502 vme@tinyerp.com-20111111101639-yqo8hgoe9m2hco9f
 :3503 vme@tinyerp.com-20111111133002-5shh06ts8vjumhqo
 :3504 vme@tinyerp.com-20111114062841-l3dwhedz0n3fm2in
-:5086 fme@openerp.com-20120322204634-8o3o81oton9a4fqj
+:3505 vme@tinyerp.com-20111114084123-el9szj2v0ukrcfqt
 :5085 mit@openerp.com-20120322133544-g0codu01ahygaii6
-:5084 fme@openerp.com-20120322132617-q6a4f0am02g2tayh
+:3507 vme@tinyerp.com-20111114101721-sz2dym1oho9b1c8b
 :2671 xmo@openerp.com-20111003115502-jivrqwcc9kcaa4kb
 :2670 kbh@bde-desktop-20111003071807-33zlrcc0vopiahoz
 :2673 xmo@openerp.com-20110930153110-k0pps1wl9d2o12c1
@@ -4576,7 +4577,7 @@
 :8552 fme@openerp.com-20121115165250-tte33jdai1zc6b34
 :8553 fme@openerp.com-20121115173656-jgyhg977m1y2b50l
 :8550 fme@openerp.com-20121113162107-1tenoncyon8hh9xz
-:794 cpa@tinyerp.com-20110519125826-0rn7yiz9pm1sp05e
+:9387 jke@openerp.com-20140203180637-er9c45xm0d9sk7ub
 :8556 fme@openerp.com-20121212150346-a7bdktrrlr8k8iex
 :8009 fme@openerp.com-20121108134703-g2icoizl44530fsi
 :8554 fme@openerp.com-20121115174831-bpsr6k3upz6crbcz
@@ -4612,10 +4613,9 @@
 :4686 nicolas.vanhoren@openerp.com-20120220100958-bujk0yuftdlzk3fz
 :4687 fme@openerp.com-20120220144322-e6ysl3qxsdhagls5
 :4932 fme@openerp.com-20120328153825-zbop4op55hsib2sc
-:4685 nicolas.vanhoren@openerp.com-20120220095238-lxwtctbpo46ekpul
-:2919 nicolas.vanhoren@openerp.com-20111017122326-t7t6g90g6gfiph0q
+:4933 fme@openerp.com-20120328155807-drwdvrp99zufkb0w
 :4934 contact@synconics.com-20120311102501-wdpox1dcwsrfggx5
-:4683 nicolas.vanhoren@openerp.com-20120217134701-7t3iklv6ndv30hln
+:4935 fme@openerp.com-20120328162357-yr3pbnou5c8yv2uj
 :4732 launchpad_translations_on_behalf_of_openerp-20120229045423-2qh1pp7cszj7akd7
 :4733 xmo@openerp.com-20120229085250-ihg2vgjrpl2eyd0i
 :4730 nicolas.vanhoren@openerp.com-20120228144024-ihavt9si03lorzsu
@@ -4873,6 +4873,7 @@
 :3528 xmo@openerp.com-20111123122957-416z2p458wpw7nic
 :3529 vme@tinyerp.com-20111123110518-vh6ep8bf32ym26sq
 :338 xmo@openerp.com-20110406071241-33dfj94imc0n4qmg
+:4670 xmo@openerp.com-20120216150434-bnrku6qj8r10sltj
 :3594 ahu@openerp.com-20111122161437-3d8q3v27uofvpii4
 :2699 fme@openerp.com-20110929123225-nkx9zx5kj8vc2pjm
 :2698 fme@openerp.com-20110929122441-x0o94teq3zbftyai
@@ -4989,7 +4990,7 @@
 :3758 ysa@tinyerp.com-20111212084417-w4r16uesqqz5w51c
 :1075 nicolas.vanhoren@openerp.com-20110628145413-ljqdmunxi7ykmytz
 :3751 vme@tinyerp.com-20111208055909-coh3vxbbqxo7j250
-:3750 vme@tinyerp.com-20111207125814-gq5edmjo5upfcofc
+:1072 nicolas.vanhoren@openerp.com-20110628140418-lxmclab51ll0iwdd
 :3753 vme@tinyerp.com-20111209055746-gel0yr4aum3gb76k
 :3752 vme@tinyerp.com-20111209055146-sbj4z1fb203yknop
 :3755 xmo@openerp.com-20111209144638-ppoxxlcn19sezyri
@@ -5009,7 +5010,7 @@
 :4639 fme@openerp.com-20120214121923-vp7i8z4jlcurao4m
 :4638 xmo@openerp.com-20120214120230-k0yti8ap15i4zcgi
 :2046 xmo@openerp.com-20110826150442-j00m8sy9jib0y6ce
-:2047 xmo@openerp.com-20110826152430-8li5tzzlzfr99nda
+:4812 xmo@openerp.com-20120301135900-w4aucd5boi9yzmod
 :2044 xmo@openerp.com-20110826141439-k8eawjbx46953z16
 :2045 xmo@openerp.com-20110826143914-1h9pfue36yg9e1ec
 :168 fme@openerp.com-20110325080108-7c155e8xc27m0zvb
@@ -5085,9 +5086,8 @@
 :8856 al@openerp.com-20130214170019-8c3kw6ehs15z5op3
 :8855 xmo@openerp.com-20130214142952-e59q9aoz4ngx9iwb
 :804 fme@openerp.com-20110531154933-5rf6kiyqo4my7bb4
-:8604 chs@openerp.com-20120917124637-f4v13kiah9dn6rz0
 :9284 launchpad_translations_on_behalf_of_openerp-20131020050513-83ofvmdau85nhc89
-:1775 xmo@openerp.com-20110811084301-xp42ylhmv2ackhws
+:5274 mit@openerp.com-20120410110308-ca42xa6e2wv82dxi
 :1774 xmo@openerp.com-20110811082818-hhgdmn0k10tnbxm4
 :5276 fme@openerp.com-20120410113411-n7v6fwhthgnnz2b9
 :1776 nicolas.vanhoren@openerp.com-20110811124813-ni1mdvcmp6gwvhsn
@@ -5197,7 +5197,7 @@
 :1525 noz@tinyerp.com-20110701051504-w2318tmgetaxax1r
 :1254 nicolas.vanhoren@openerp.com-20110713095949-242ibznw1f0qfwet
 :1255 al@openerp.com-20110713102612-0lu8s1ausql3j07s
-:1252 nicolas.vanhoren@openerp.com-20110713094411-wrbaa6m4zewm521m
+:1520 noz@tinyerp.com-20110629062103-hnq5d3266fr7jyd6
 :1253 nicolas.vanhoren@openerp.com-20110713095352-qcbmhca6r4bvx1j3
 :3207 chs@openerp.com-20111108145214-ahdaiyk0f616zq74
 :1250 nicolas.vanhoren@openerp.com-20110712141610-o6h1xa9zb8vfgygi
@@ -5228,7 +5228,7 @@
 :8514 xmo@openerp.com-20121210143808-wt4jmi4x0pg85xb8
 :8043 fme@openerp.com-20121112155332-eshqtkk5grn22tqm
 :8044 xmo@openerp.com-20120523104959-859cuucade83u11o
-:8045 xmo@openerp.com-20120523112314-618hfttpegn39qey
+:8513 vmt@openerp.com-20121210140411-ranw3jc3mwu3ymty
 :8510 tde@openerp.com-20121205101544-k4ui6thr0ibzw0vx
 :8511 tde@openerp.com-20121210125423-81wbh4af9sxdqjki
 :8048 xmo@openerp.com-20121107120955-xgnnm2pfvsqch8kn
@@ -5299,11 +5299,11 @@
 :2717 fme@openerp.com-20111005083521-ofyfzdp8olzpjnbd
 :2714 xmo@openerp.com-20111004155746-q13ieg0q6lsy1uf7
 :2715 xmo@openerp.com-20111004155918-c2vy0rwkesvdkmli
-:3346 fme@openerp.com-20111117130802-gyrzythtzs2nzmz5
+:1195 vda@tinyerp.com-20110418055228-kmyskjruyohckpsk
 :2718 vda@tinyerp.com-20111004094009-u1vkb6s0u90629rz
 :2719 vda@tinyerp.com-20111004133753-kptuu127azazrmg6
 :5455 al@openerp.com-20120426221732-qh642zduso1kl8fl
-:7957 fp@openerp.com-20121106223912-yz8yyjpbd6d1kjn0
+:7221 mit@openerp.com-20120828111120-205x3qtpkrwoa5vs
 :7220 mit@openerp.com-20120828111018-hyfqufalm9jukcxh
 :7223 mit@openerp.com-20120830112713-9wh0qe2wevd3ljmu
 :7222 mit@openerp.com-20120828180440-axp9g1n3y7dayofq
@@ -5411,6 +5411,7 @@
 :5668 xmo@openerp.com-20120509141242-5l75w08ruv4r8xtc
 :3197 fme@openerp.com-20111104212036-yet6hw89633qm7kq
 :3093 xmo@openerp.com-20111027135828-y1q85e8pq2uh3frz
+:5838 nicolas.vanhoren@openerp.com-20120531094100-ynh1zz5koclrkxbd
 :9385 launchpad_translations_on_behalf_of_openerp-20140203055616-29ji7mugvwf3jpmn
 :2741 xmo@openerp.com-20111006100235-2x41tzki77sk6i3v
 :6402 nicolas.vanhoren@openerp.com-20120711130845-w7w7yibjh1smymbg
@@ -5558,8 +5559,9 @@
 :6579 chs@openerp.com-20120723162223-amclassz6dzneayq
 :787 nicolas.vanhoren@openerp.com-20110527091223-h2n4s1r44lbo1y2n
 :407 fme@openerp.com-20110411225430-bdb1vfbl1tju8fe7
+:6593 xmo@openerp.com-20120702122902-f349shdjslbbxd3k
 :7159 fme@openerp.com-20120830161237-twthb37lkbv6yn3t
-:406 nicolas.vanhoren@openerp.com-20110411162239-70r6yom0hqnkbius
+:1370 fme@openerp.com-20110725103254-y66uxxfm3m104vm7
 :7157 odo@openerp.com-20120904132256-rbqw49dsc32z76sw
 :7156 xmo@openerp.com-20120904124921-yur5k231wp8gn7vy
 :7155 odo@openerp.com-20120904132206-m1pt0ytlinqk3nvw
@@ -5578,7 +5580,7 @@
 :8066 chm@openerp.com-20121113143220-zhwo06j7pl8rt2wi
 :8067 chm@openerp.com-20121113152842-qwe8eibf2pb5dsrv
 :8064 xmo@openerp.com-20121113143953-4rvozux8uurv16d4
-:1376 nicolas.vanhoren@openerp.com-20110725095232-fzy7rs43y1udha4b
+:8065 xmo@openerp.com-20121113153610-7yogikfyg4rxwsjp
 :8062 xmo@openerp.com-20121113131806-7fhog1f96gxnjr67
 :8063 chs@openerp.com-20121113140002-gq330rwod0c7qf5m
 :8060 xmo@openerp.com-20121113123047-jspflyhfb8gei24r
@@ -5594,7 +5596,7 @@
 :8603 chs@openerp.com-20120911123437-3gzoblvfpseujf0t
 :780 nicolas.vanhoren@openerp.com-20110527102527-p9qfobfo9tcjkvub
 :7489 vta@openerp.com-20121004070055-dq6kvaqlph6q1ei6
-:7488 launchpad_translations_on_behalf_of_openerp-20121004053337-541ss7diwg0ae2lw
+:2661 nicolas.vanhoren@openerp.com-20110930154612-d2q5z3fy1ouih1fm
 :9392 launchpad_translations_on_behalf_of_openerp-20140206062518-3g0oj0z7mlartzal
 :2899 jra@tinyerp.com-20110928065842-pl1skf0oyoo6jds4
 :2898 jra@tinyerp.com-20110928062519-9pqd1to80a0bwoye
@@ -5622,7 +5624,6 @@
 :5241 al@openerp.com-20120409200334-24j00uopwpofpbq3
 :1723 xmo@openerp.com-20110809090939-k8ru4p23lsnrnf0a
 :3737 mit@openerp.com-20111125182522-2dn2xt19rosv1sy6
-:3837 xmo@openerp.com-20111215112942-zk73l2334on3kliq
 :1720 xmo@openerp.com-20110809081136-1q1nowzq4xj4jcwu
 :1895 xmo@openerp.com-20110817133600-hl93utj2eh7pr5cd
 :5242 fme@openerp.com-20120409201017-auczo7u6kivvvbg2
@@ -5646,7 +5647,7 @@
 :4790 xmo@openerp.com-20120223145157-rkkwg6pwcr6hh7st
 :4791 launchpad_translations_on_behalf_of_openerp-20120225055258-f5ufpgcomzlqmahr
 :4792 launchpad_translations_on_behalf_of_openerp-20120227055623-0jhvbldsrq90jg22
-:4694 al@openerp.com-20120221185853-6qjxwktk7pnehz9w
+:4793 xmo@openerp.com-20120227152739-3pmu3dtqrbzx1x3m
 :5836 fme@openerp.com-20120605125332-qp6n92jowajmc54y
 :5837 nicolas.vanhoren@openerp.com-20120530125750-snapic7oylvcojv7
 :5834 launchpad_translations_on_behalf_of_openerp-20120605050706-i5cdrkj77zxk2ada
@@ -5656,14 +5657,13 @@
 :5830 chs@openerp.com-20120604153118-jcs04wy0kocr635a
 :5831 fp@tinyerp.com-20120604204449-ci68yf3p1837170h
 :4924 launchpad_translations_on_behalf_of_openerp-20120323051338-bheo7mng6p5unhxn
-:5838 nicolas.vanhoren@openerp.com-20120531094100-ynh1zz5koclrkxbd
+:8604 chs@openerp.com-20120917124637-f4v13kiah9dn6rz0
 :5839 nicolas.vanhoren@openerp.com-20120531094647-by15fj5di9a2m9kv
 :6904 sgo@tinyerp.com-20120719095139-6zwcjzs0d12m4wgm
 :6903 sgo@tinyerp.com-20120719091446-qg93k0j6gqlb8udj
 :6902 apa@tinyerp.com-20120730045803-ebbbyzawkgldul09
 :4 al@openerp.com-20110302192834-hk7s1841wz3uxxr6
 :2669 kbh@bde-desktop-20111003060239-l7bwy55n8t9fkz66
-:6901 apa@tinyerp.com-20120727052809-oezzaxn0qikgtkli
 :6021 jam@tinyerp.com-20120613041515-bi5iruz8nr71mbne
 :3004 nicolas.vanhoren@openerp.com-20111024084005-et884p0px0l08ge8
 :6900 apa@tinyerp.com-20120724053029-ae8ssu45cek8bjz3
@@ -5704,7 +5704,7 @@
 :5167 xmo@openerp.com-20120320144738-9jkdw78os1gect1e
 :6268 nicolas.vanhoren@openerp.com-20120628120423-1rjiwsg35oleucyq
 :6269 nicolas.vanhoren@openerp.com-20120628121053-nct0zo9go1bzdjrs
-:7528 fva@openerp.com-20121005152648-34x69lrsk7mbi068
+:373 xmo@openerp.com-20110407132726-j04x68lzq5ylkaki
 :847 nicolas.vanhoren@openerp.com-20110608094528-kht3wkv3jo6trprk
 :846 nicolas.vanhoren@openerp.com-20110608094426-nl8wdk7ywecrolzn
 :3465 ysa@tinyerp.com-20111114053004-e7ye0bn24ideah4p
@@ -5721,7 +5721,7 @@
 :8892 vme@tinyerp.com-20130122070310-pi2wfcdota1kn9kg
 :8891 launchpad_translations_on_behalf_of_openerp-20130226053448-joq378fpfc2p1rwv
 :3468 ysa@tinyerp.com-20111114100614-0fmzahtjx7uh9p2g
-:2406 fme@openerp.com-20110915081241-3q4us9bweru4iyx1
+:1583 xmo@openerp.com-20110802091849-6jobmumdqw4o6j68
 :4905 xmo@openerp.com-20120322113142-gim4svx01p336nxm
 :1739 xmo@openerp.com-20110809155516-f35pjfviu0zunkis
 :1738 xmo@openerp.com-20110809155429-lq17yzlukz804eby
@@ -5745,7 +5745,6 @@
 :3079 nicolas.vanhoren@openerp.com-20111026153944-bdk335em06dxxi2p
 :1599 fme@openerp.com-20110803140914-5qjtozi94i4ruica
 :1598 xmo@openerp.com-20110803134513-ftr0olg2fjcozgs3
-:4906 launchpad_translations_on_behalf_of_openerp-20120323050105-hprtqc7nrwqfqj1z
 :2402 al@openerp.com-20110914204057-cg8y5yy3py70ge62
 :6144 fme@openerp.com-20120611131822-rr5m8qzr68ujjoda
 :2403 fme@openerp.com-20110914210445-ul8aax7g1q5b47c6
@@ -5759,9 +5758,9 @@
 :5644 xmo@openerp.com-20120430150330-qdypxzwvrd4x4hkz
 :5647 xmo@openerp.com-20120502105847-4d95n628c6ituyp0
 :5646 xmo@openerp.com-20120430155912-c6tbyaqul6jc329u
+:1944 nicolas.vanhoren@openerp.com-20110825171451-9idtdh6dqcxrk873
 :8069 al@openerp.com-20121114005029-41tkuo2g93vbnz60
 :8757 chm@openerp.com-20130107133848-50ei3eioobx3z0a3
-:8065 xmo@openerp.com-20121113153610-7yogikfyg4rxwsjp
 :489 al@openerp.com-20110414135837-ov0y0olvol4omxzh
 :488 xmo@openerp.com-20110414133734-y8fv82rhutp0q0nr
 :487 xmo@openerp.com-20110414132310-qfuewowccf1f2fx9
@@ -5815,6 +5814,8 @@
 :6728 xmo@openerp.com-20120726113105-d73fere31qdy8wda
 :8309 jra@tinyerp.com-20121102111255-wu683od04sr9h8dg
 :8308 jra@tinyerp.com-20121031054445-0g0r5370q2wpbfc6
+:453 xmo@openerp.com-20110412111712-j3ma06fcec7rhi47
+:7488 launchpad_translations_on_behalf_of_openerp-20121004053337-541ss7diwg0ae2lw
 :14 al@openerp.com-20110307093214-df425vc8krhc1bqq
 :6099 xmo@openerp.com-20120518085105-job3luim44ih6nps
 :6098 launchpad_translations_on_behalf_of_openerp-20120519055746-39chgoaf0iqhh271
@@ -5829,7 +5830,7 @@
 :6096 launchpad_translations_on_behalf_of_openerp-20120517060750-snh5v1tjb0q83uv4
 :655 fme@openerp.com-20110517160058-1ye2lma0bu20umzz
 :837 fme@openerp.com-20110606133424-7ffjdm5kbvktht9k
-:3295 xmo@openerp.com-20111115105809-phttoirkmq4rzd1w
+:807 fme@openerp.com-20110601105652-wmtapmthal3yi9h6
 :2896 jra@tinyerp.com-20110927133232-9gakcgfto5v7yoah
 :1452 ysa@tinyerp.com-20110719130423-cs8nexdnyqa42ili
 :3678 xmo@openerp.com-20111205153813-nvgy5413oyf5zsla
@@ -5869,7 +5870,6 @@
 :5009 fme@openerp.com-20120313193443-0gjk1wmxfe946uyz
 :1101 nicolas.vanhoren@openerp.com-20110629162136-fmg79kt6549rd9gx
 :3290 nicolas.vanhoren@openerp.com-20111115071356-jj2p47qrn4scz5ef
-:8747 chm@openerp.com-20130103145040-2j6906rmi8eh45pj
 :902 nicolas.vanhoren@openerp.com-20110610145801-qq0t5vjx14ing2mf
 :903 nicolas.vanhoren@openerp.com-20110610150733-v53cr4uzdvakyub0
 :900 nicolas.vanhoren@openerp.com-20110610135835-a47gj5zwnbv5d841
@@ -5964,7 +5964,7 @@
 :5303 al@openerp.com-20120410153736-rjr6e9m305mnzk7f
 :5304 fme@openerp.com-20120410160509-o37i9mlipwkde1gn
 :1064 fme@openerp.com-20110628133044-dp9jm6aj7ixzc69p
-:5306 mit@openerp.com-20120410164204-63f67konnz7tpypu
+:1067 nicolas.vanhoren@openerp.com-20110628131254-2cj2l9k4zsuxb7u0
 :1066 nicolas.vanhoren@openerp.com-20110628121747-e8y1y3avglshzxv1
 :2288 nicolas.vanhoren@openerp.com-20110908154551-oti347kv6f7h0q2y
 :2289 nicolas.vanhoren@openerp.com-20110908160451-gh5josp0nmn3vn7u
@@ -5994,7 +5994,7 @@
 :9120 nicolas.vanhoren@openerp.com-20130515090231-pj7q042poo2183sp
 :8233 nicolas.vanhoren@openerp.com-20121127144140-14y700rqdmpd8w44
 :9122 nicolas.vanhoren@openerp.com-20130515140704-jo0ws3ucf81e6mdm
-:4825 fme@openerp.com-20120312153743-i6qi3fzmondezrdh
+:4537 xmo@openerp.com-20120207170008-f3ct2wdmn587ci9r
 :9124 xmo@openerp.com-20130516105908-exgtwwf785hrmedo
 :9125 xmo@openerp.com-20130516110335-dk803tjn1qpqd0ro
 :9126 acl@openerp.com-20130507092734-zmmm0g5c1t8va1dl
@@ -6002,7 +6002,7 @@
 :9128 xmo@openerp.com-20130516110949-o79aw68izo8poivu
 :4530 nicolas.vanhoren@openerp.com-20120207130125-xexqks24jb7mguy8
 :6737 nicolas.vanhoren@openerp.com-20120726154716-1sua5q2teqeba7r0
-:8231 psa@tinyerp.com-20121127083630-odwky5bdy24gxoa4
+:6592 xmo@openerp.com-20120702111026-twmh5gbg4i1fd4kj
 :4823 launchpad_translations_on_behalf_of_openerp-20120310050010-l613asfszifpa1il
 :7919 vme@tinyerp.com-20121101070828-jiznujjiacg69zl1
 :7918 vme@tinyerp.com-20121101070418-guunfniuhvgy8ot9
@@ -6037,7 +6037,7 @@
 :4925 launchpad_translations_on_behalf_of_openerp-20120324054029-3tmn15vi8y2j20d6
 :7984 fme@openerp.com-20121029142504-ax2bhjvw87n1vbrc
 :188 xmo@openerp.com-20110324192459-csylxhu32au9nns6
-:4793 xmo@openerp.com-20120227152739-3pmu3dtqrbzx1x3m
+:189 xmo@openerp.com-20110325072607-gbz2z3rsnv140fgu
 :9406 dle@openerp.com-20140221115855-ycny8ai1vyb23cdd
 :9405 mat@openerp.com-20140218143111-yot645o83gxvkujb
 :7987 fme@openerp.com-20121031173009-fxkz0ongj9b2v6f2
@@ -6143,7 +6143,7 @@
 :8328 psa@tinyerp.com-20121112131027-zrw4ioyjmjwyk442
 :8325 bth@tinyerp.com-20121109112628-pikbl2bk9exg5qeb
 :6700 jra@tinyerp.com-20120713110904-25smebblug0jawx2
-:6703 jra@tinyerp.com-20120716070523-iim1n7ghl1a0tg6o
+:8327 psa@tinyerp.com-20121112114603-6xhi21dpzp2nljtc
 :8326 jra@tinyerp.com-20121112060105-vgffoul2qqxhhysd
 :8321 bth@tinyerp.com-20121109065546-0k3rmulfy59kyl6g
 :6704 jra@tinyerp.com-20120716072644-ls2q54fr5o8fjyd7
@@ -6169,9 +6169,9 @@
 :3617 vme@tinyerp.com-20111124071416-4lbaex4ohouj31yb
 :3618 vme@tinyerp.com-20111124072707-x5m1w0fri63115xj
 :3619 vme@tinyerp.com-20111201053343-9utzehww16udk1g2
+:3842 fme@openerp.com-20111215123536-wnsbnqakjhflle7x
 :2569 ysa@tinyerp.com-20110919101632-wnz2rwsuhglawi6o
 :2568 ysa@tinyerp.com-20110919061827-vwo7bmn4co2xqq0p
-:2140 xmo@openerp.com-20110906093516-3nkjngcmt2l3wex4
 :2561 ysa@tinyerp.com-20110915083259-1esc0l6w36fx3nir
 :2560 ysa@tinyerp.com-20110915073603-5yvddorwgu0xwyt6
 :2563 ysa@tinyerp.com-20110916130049-ppachcw4xne1rzjw
@@ -6200,7 +6200,6 @@
 :4447 vda@tinyerp.com-20120125131528-twjtq49lhzr214vr
 :4448 xmo@openerp.com-20120127091938-z79e7aj6wjcmfmmz
 :4449 xmo@openerp.com-20120127113033-5jb9bcfothcd30ly
-:4490 xmo@openerp.com-20120203084906-xmhbmhdkamfbx0zo
 :964 nicolas.vanhoren@openerp.com-20110617160849-zevutg246ns1ghrk
 :965 nicolas.vanhoren@openerp.com-20110617160921-ekj9g5tij8u0ltai
 :966 nicolas.vanhoren@openerp.com-20110617163153-3d4vzctac8od1f9e
@@ -6212,7 +6211,6 @@
 :968 fme@openerp.com-20110620095558-qstmnthsio1ig3n6
 :969 nicolas.vanhoren@openerp.com-20110616164200-3dnkzhgmsmekiifl
 :1537 noz@tinyerp.com-20110706071546-w9fcjdsbxg473a90
-:4965 tde@openerp.com-20120402072422-tsjaxjbfrngqnodp
 :1536 noz@tinyerp.com-20110705134213-c83d7bxpxd676uu4
 :643 cpa@tinyerp.com-20110513071952-8zhi8afdb7oxsjl5
 :642 nicolas.vanhoren@openerp.com-20110509151757-16901jxeokul7auh
@@ -6251,7 +6249,6 @@
 :7114 launchpad_translations_on_behalf_of_openerp-20120828072410-7ndsu3tnyrjhtuor
 :7119 al@openerp.com-20120829102300-0a1m4f237wbmqzv4
 :1611 xmo@openerp.com-20110705114258-upkmqyzzqhebs34l
-:707 nicolas.vanhoren@openerp.com-20110520100657-unerurdsyv8nh2xv
 :3964 xmo@openerp.com-20111219145759-m10zgo3tcd6zjhcu
 :4499 xmo@openerp.com-20120206104138-fiq81k8v4ttf86j3
 :1678 fme@openerp.com-20110808171407-mfclmemaljegwsgg
@@ -6336,7 +6333,7 @@
 :6111 xmo@openerp.com-20120606123230-bjwrplz1xeekeecg
 :6112 rgo@tinyerp.com-20120517102359-7u10pq22ynd3219k
 :6113 rgo@tinyerp.com-20120521095011-4ji9wf6efbhr4yry
-:7931 fme@openerp.com-20121025103748-4idbc0tvo7pzc285
+:7283 aja@tinyerp.com-20120912104214-z34o1hyk2qt67jhu
 :7930 fme@openerp.com-20121025101601-at3yqs03shp6ho46
 :7933 fme@openerp.com-20121029100055-3h40w0egnzlwq7o4
 :7280 fp@tinyerp.com-20120912180258-gvmg8987f0stld0r
@@ -6447,7 +6444,7 @@
 :8692 nwi@openerp.com-20121220100417-g1l1i015ieuvl91y
 :7706 nicolas.vanhoren@openerp.com-20121016123559-g3gjf73uzqz4u1xv
 :7707 nicolas.vanhoren@openerp.com-20121016124135-xkll7ugawv9ae6bq
-:39 xmo@openerp.com-20110309115746-4hkmq0oziwoi4jfs
+:7704 nicolas.vanhoren@openerp.com-20121016084001-mqzq3blhb78t9e7o
 :7705 nicolas.vanhoren@openerp.com-20121016085249-2qpvp31br5kd4knk
 :7702 nicolas.vanhoren@openerp.com-20121012145143-oooxbdovspsjcxfk
 :7703 nicolas.vanhoren@openerp.com-20121015091656-5x8nxy3116y3q7jd
@@ -6609,7 +6606,7 @@
 :3399 xmo@openerp.com-20111122124353-kfibt1cdvmy2pzp4
 :3398 xmo@openerp.com-20111122120937-302onn00bu2drfui
 :5409 tpa@tinyerp.com-20120404091613-fp7el2lal3qb190r
-:1439 kch@tinyerp.com-20110714122825-0omxwj3z039f82g2
+:1381 nicolas.vanhoren@openerp.com-20110725122231-oe0glu5cxqm7n0bw
 :5230 fme@openerp.com-20120409184330-g8qp5pu5sonpc4tn
 :5231 al@openerp.com-20120409184445-nri84zeylu6ur21d
 :5232 al@openerp.com-20120409184913-ndgelv1lyfw4e6ix
@@ -6664,11 +6661,10 @@
 :4918 xmo@openerp.com-20120327151357-4en4skjqb66b816c
 :4862 xmo@openerp.com-20120305102516-3u14hvxs81qzgxd8
 :4919 fme@openerp.com-20120327193212-kflgwnvxp89lkqmb
-:4664 fme@openerp.com-20120215133653-t6fvjsv1sl9xlald
+:2129 vda@tinyerp.com-20110905080434-u8znc0wx7tasyct2
 :8447 fme@openerp.com-20121129222242-zcipil8lr0xct72g
 :2128 vda@tinyerp.com-20110905071916-dxowb0wjsc84j900
-:5453 stw@openerp.com-20120426152441-0laj03nnl67jvj68
-:4914 nicolas.vanhoren@openerp.com-20120326122835-m25pukdl5ye48fnn
+:4666 launchpad_translations_on_behalf_of_openerp-20120216052148-ta5bwtqg3bzmvp3i
 :4667 nicolas.vanhoren@openerp.com-20120216103535-txdh6m6nmwlew53o
 :4660 mikel@pcl2-20120214220615-j28302zaeoewdan6
 :2484 al@openerp.com-20110925104234-plzpwopgcdxgni8m
@@ -6717,9 +6713,9 @@
 :2242 xmo@openerp.com-20110907064041-zd58839fg5x7ag4k
 :2243 xmo@openerp.com-20110907064424-cm6gy11tf1370l3c
 :9209 launchpad_translations_on_behalf_of_openerp-20130614070438-ptd4opv50s2ctnxy
-:9208 chs@openerp.com-20130611145028-f98x6inytlr3ijjg
+:2656 xmo@openerp.com-20110929090205-0vn4dt4qixao5us1
 :3401 xmo@openerp.com-20111123093313-8qair3pai8ms4ch7
-:366 xmo@openerp.com-20110407060707-ylin2fndnb7cui8g
+:3400 xmo@openerp.com-20111122143554-p1j1v8b1652djc58
 :3403 vme@tinyerp.com-20111102070710-kijqa4q0xtu049ac
 :3402 xmo@openerp.com-20111123095232-t4vhfmchm3tlui8r
 :3405 vme@tinyerp.com-20111103061425-223ika1xh70zefu5
@@ -6728,7 +6724,7 @@
 :367 xmo@openerp.com-20110407060720-2ro8mm2dixi6u6pw
 :3409 ysa@tinyerp.com-20111103121730-ev0n4v6swetak1jw
 :3408 ysa@tinyerp.com-20111103120636-ed1ibkxkvfxcni7k
-:364 al@openerp.com-20110407221740-6dbryyx58alqxo0m
+:7537 vja@tinyerp.com-20121004133246-4atym1p9ib59kgk4
 :4875 xmo@openerp.com-20120306142010-zflycbrj4aq41mv3
 :4874 xmo@openerp.com-20120306085326-qdhgh2cj8zchasjw
 :4877 fme@openerp.com-20120306205955-zqgtbgtz1gtix4w9
@@ -6745,7 +6741,7 @@
 :2069 xmo@openerp.com-20110831121154-mx7qeu9r7ehhujgc
 :2798 nicolas.vanhoren@openerp.com-20111012082534-dzz1upvvntjs4b1s
 :2799 xmo@openerp.com-20111012085713-upc0xto0dqf9k4fb
-:360 fme@openerp.com-20110407135732-n6ukk0mw6rwr1vpe
+:7533 fp@tinyerp.com-20121008081137-bkcdpdavkiv3fsrp
 :2060 xmo@openerp.com-20110830130632-t96hsz4jxjp69crh
 :2793 al@openerp.com-20111011154700-2mnim3luoersk1c3
 :2062 xmo@openerp.com-20110830134305-iu354whbr0c0kvpw
@@ -6755,6 +6751,7 @@
 :2066 xmo@openerp.com-20110831110900-uocvplitkr10ob1r
 :2067 xmo@openerp.com-20110831111201-g0c5qpld5zjyafnk
 :451 xmo@openerp.com-20110412104659-3vp3w2pjq3xfx664
+:8211 nicolas.vanhoren@openerp.com-20121126100501-n6qd32x5sxqv5bp7
 :7096 pso@tinyerp.com-20120822130336-8g6itlmuq97wuvjw
 :7097 pso@tinyerp.com-20120822133035-totgh1ez1omty11r
 :7094 pso@tinyerp.com-20120821111206-8x2qjbv49xsafand
@@ -6915,7 +6912,7 @@
 :1633 xmo@openerp.com-20110719123219-lb9ebaeg8fzx001s
 :1634 xmo@openerp.com-20110719123246-av28luyczaoeoh7r
 :3211 al@openerp.com-20111108152723-2w6zpksjw4e1yx7q
-:1980 jra@tinyerp.com-20110818132418-4n35o9q3i84ttjdi
+:3212 chs@openerp.com-20111102111105-ibyupno1e47sv9ho
 :1981 jra@tinyerp.com-20110819130232-ixkvx5rgrs7dimce
 :1638 xmo@openerp.com-20110726125322-g3fd6qnk2h9cfo53
 :1639 xmo@openerp.com-20110726125324-yvf19kmqs17czybj
@@ -6929,11 +6926,11 @@
 :568 xmo@openerp.com-20110509091619-8kgrqcgj0jdvjwxw
 :2814 chs@openerp.com-20111012101802-fdrjaj80x03hx7xz
 :2817 fme@openerp.com-20111012135735-6o905df1db7tmybh
-:2816 chs@openerp.com-20111012122622-dcuhelpcgv119s6g
+:2908 jra@tinyerp.com-20111003122224-7t3wbx76d3tp421u
 :2811 xmo@openerp.com-20111012120938-9lpxm6mf8jbde6oj
 :2810 fme@openerp.com-20111012114331-7h9hask2nvy0m93d
 :2813 chs@openerp.com-20111012095426-qb3see19uic61jr1
-:2812 chs@openerp.com-20111010123432-619o61elz09jm9sy
+:4965 tde@openerp.com-20120402072422-tsjaxjbfrngqnodp
 :560 xmo@openerp.com-20110505064143-1e25gm967nxb9gyb
 :561 fme@openerp.com-20110505093853-c692wio8uaxy1ndk
 :562 xmo@openerp.com-20110506122837-a4ss76rjyg0rqo6s
@@ -7060,7 +7057,7 @@
 :8201 ggh@tinyerp.com-20121112130756-jtj6u56pcvxorxcr
 :9434 dle@openerp.com-20140326123513-jkful2m1n2zjgdmv
 :4813 xmo@openerp.com-20120305085532-0vcz6j0m985gjuz1
-:4812 xmo@openerp.com-20120301135900-w4aucd5boi9yzmod
+:2047 xmo@openerp.com-20110826152430-8li5tzzlzfr99nda
 :4811 xmo@openerp.com-20120301130008-dijd6r49js1227by
 :4810 xmo@openerp.com-20120307091254-x9kg0ua1twbjmxp9
 :4817 xmo@openerp.com-20120307095732-ckfuowa43i7dkapg
@@ -7083,7 +7080,6 @@
 :9419 launchpad_translations_on_behalf_of_openerp-20140307072433-0lqpjt07j1s8k8cs
 :3238 xmo@openerp.com-20111110100752-6x11ros4z1fhp0gc
 :5258 xmo@openerp.com-20120410083020-aysxa2hejfbgyw78
-:8230 xmo@openerp.com-20121127094109-mojnq50mzsrcj3q0
 :8237 launchpad_translations_on_behalf_of_openerp-20121128045740-q3cav2rhekdy6gq8
 :8236 al@openerp.com-20121127235942-oudu8auo2f9ctulo
 :600 fme@openerp.com-20110512144835-ygbu7nfxjz7hp160
@@ -7133,13 +7129,13 @@
 :4385 fme@openerp.com-20120124103847-qqui2y5vbrqejey3
 :4384 xmo@openerp.com-20120124101155-b52f8b3jd6otn7j9
 :1371 xmo@openerp.com-20110725091506-h4u4kp3ut8h0a6vc
-:1370 fme@openerp.com-20110725103254-y66uxxfm3m104vm7
+:406 nicolas.vanhoren@openerp.com-20110411162239-70r6yom0hqnkbius
 :405 fme@openerp.com-20110411155946-oqk9qlaxxcdtv32r
 :404 nicolas.vanhoren@openerp.com-20110411151059-q7gfmt0qjfmbv1kh
 :403 al@openerp.com-20110411143741-a1w4nb02gcm3l1qx
 :1374 xmo@openerp.com-20110725104630-vs4wi5740340dtyj
 :401 nicolas.vanhoren@openerp.com-20110411114649-gdu6t0cjvikxm1jf
-:400 nicolas.vanhoren@openerp.com-20110411114529-332vb6wtrocrwjm0
+:1376 nicolas.vanhoren@openerp.com-20110725095232-fzy7rs43y1udha4b
 :1379 nicolas.vanhoren@openerp.com-20110725121001-95af30c1incqg4kl
 :1378 nicolas.vanhoren@openerp.com-20110725120940-f6vfi6wu6xy9js8x
 :409 fme@openerp.com-20110412083831-1a8e37ozysgrs6y1
@@ -7159,6 +7155,7 @@
 :2746 al@openerp.com-20111006143457-i74b719vjic34ie4
 :5499 nicolas.vanhoren@openerp.com-20120509154607-tsylr5b8zydj6lyu
 :4980 tde@openerp.com-20120406102956-road14vsjwlaaxn6
+:4981 nicolas.vanhoren@openerp.com-20120406120347-rlsiwq209474vuw0
 :2459 xmo@openerp.com-20110920215137-j97tgkvekv6v2850
 :2458 xmo@openerp.com-20110920145823-ecvnotgcu6xltrrv
 :2455 fme@openerp.com-20110920134244-l15jq9y0c3h767a6
@@ -7204,7 +7201,7 @@
 :9339 msh@openerp.com-20130703131223-bwu6hl8v5y5sjt5w
 :7335 chm@openerp.com-20120918153238-s0vvfwy5thpk8imc
 :4982 nicolas.vanhoren@openerp.com-20120406123028-qjod7l590tzafimf
-:9291 launchpad_translations_on_behalf_of_openerp-20131027061322-op6b5ohzf6eiyiu2
+:7334 chm@openerp.com-20120918153035-xutvjflw057s8t18
 :9296 launchpad_translations_on_behalf_of_openerp-20131102062349-lu6ul1tda7q1xmf0
 :1508 vda@tinyerp.com-20110627102112-fdq1j7o7emt6en03
 :9297 launchpad_translations_on_behalf_of_openerp-20131103054349-cuyjpk6rrh1uxb65
@@ -7223,7 +7220,6 @@
 :4983 tde@openerp.com-20120330101036-5pnnu0wgp6n0aren
 :1604 xmo@openerp.com-20110701121903-bzrxzc6eynh7txe9
 :3223 nicolas.vanhoren@openerp.com-20111109104312-tn9vyykt27hyjpej
-:807 fme@openerp.com-20110601105652-wmtapmthal3yi9h6
 :3222 fme@openerp.com-20111109105146-pmfomcxoflk78f7o
 :3232 fme@openerp.com-20111109145902-cs2ivnki2t4tlcfm
 :3233 xmo@openerp.com-20111109150439-uwchwm5g06pp7ikf
@@ -7234,7 +7230,7 @@
 :3234 xmo@openerp.com-20111109151133-xchgr9jr507jtv98
 :3235 fme@openerp.com-20111109151239-um65xcy0ryf4czn1
 :5195 xmo@openerp.com-20120403074122-3kwoijz9952hcxfw
-:1617 xmo@openerp.com-20110714102243-kiyp0o6hjbhmxecd
+:5194 xmo@openerp.com-20120403073946-4zq4vmods3ot77ot
 :1614 xmo@openerp.com-20110707105323-ztjvlccxfpmgdxoj
 :5196 xmo@openerp.com-20120403075523-gzxqklvjhx1ikjlt
 :1612 xmo@openerp.com-20110706142536-dwxuq2v10u660703
@@ -7316,6 +7312,7 @@
 :7681 nicolas.vanhoren@openerp.com-20121016103252-njyt4rxk96fy5w6r
 :7680 nicolas.vanhoren@openerp.com-20121016095824-woasfpauu7unye5n
 :3324 vda@tinyerp.com-20110921050226-53g26gw9zoyx4pvd
+:5136 fme@openerp.com-20120329150136-iw5dirrxbqx53qjh
 :7689 nicolas.vanhoren@openerp.com-20121011154700-nm1j0nibq3xazaix
 :7688 nicolas.vanhoren@openerp.com-20121011153506-b91c4xm2jsf6a6t7
 :3827 chs@openerp.com-20111214160958-fb0dtboz2smakb6p
@@ -7350,11 +7347,11 @@
 :369 xmo@openerp.com-20110407090900-v65h22bdq6m057y5
 :7535 vta@openerp.com-20121008104047-sfsni7u3eugeepoz
 :7534 nicolas.vanhoren@openerp.com-20121008103700-8glev3xtzyue7for
-:7537 vja@tinyerp.com-20121004133246-4atym1p9ib59kgk4
+:364 al@openerp.com-20110407221740-6dbryyx58alqxo0m
 :7536 nicolas.vanhoren@openerp.com-20121008122552-822exc15j1onv6v6
 :362 al@openerp.com-20110407164106-odb0y1qogrg4x2js
 :7530 al@openerp.com-20121006162030-s5moj83dzegxlron
-:7533 fp@tinyerp.com-20121008081137-bkcdpdavkiv3fsrp
+:360 fme@openerp.com-20110407135732-n6ukk0mw6rwr1vpe
 :7532 al@openerp.com-20121006163238-7ni5r324c0yqi5a0
 :5008 fme@openerp.com-20120313174619-9kkjwa1amfrx07z2
 :2767 nicolas.vanhoren@openerp.com-20111010124516-5vtzop9sbr5z78r0
@@ -7400,7 +7397,7 @@
 :7993 fme@openerp.com-20121105204647-htkthnzz2ohs9x5j
 :7992 fme@openerp.com-20121105201717-91w9gwlumkvellmw
 :7991 fme@openerp.com-20121105110312-erxgjmqgg95hyu2m
-:3212 chs@openerp.com-20111102111105-ibyupno1e47sv9ho
+:7990 fme@openerp.com-20121105103617-di2vpb8dird602t3
 :7997 fme@openerp.com-20121106134145-uzijdxde2otoxdfy
 :7996 fme@openerp.com-20121106132633-ik8ae78cxa2os501
 :9438 launchpad_translations_on_behalf_of_openerp-20140329073044-67cql7rohzkmuub9
@@ -7435,7 +7432,7 @@
 :7337 chm@openerp.com-20120918170231-2kti7instt1x0nwa
 :9293 mat@openerp.com-20131028144738-qpanf41yu1i92klh
 :9290 launchpad_translations_on_behalf_of_openerp-20131026062534-cy8egi58c7w3cwns
-:7334 chm@openerp.com-20120918153035-xutvjflw057s8t18
+:9291 launchpad_translations_on_behalf_of_openerp-20131027061322-op6b5ohzf6eiyiu2
 :7333 fva@openerp.com-20120918162608-5hy0logekvg4z77s
 :7332 fva@openerp.com-20120918162532-xte92rwm6jemy09f
 :7331 fva@openerp.com-20120918161915-3aote0c6wk2qpup1
@@ -7468,7 +7465,7 @@
 :8633 chs@openerp.com-20121114223538-qp233873r33uh3e3
 :6991 al@openerp.com-20120812215517-qxqnd1fvc9hcxezh
 :8631 chs@openerp.com-20121108163458-wk7p4mf7fyh3winl
-:8146 nicolas.vanhoren@openerp.com-20121116151248-il59eiekk758suco
+:8630 chs@openerp.com-20121108145001-pswe7r5ss4nzgu00
 :2998 launchpad_translations_on_behalf_of_openerp-20111024051826-pkcngzrh3j8f3mg9
 :2999 chs@openerp.com-20111012161208-yto1rang9znmoh4i
 :59 xmo@openerp.com-20110310152536-w1idaxbl3piyoa31
@@ -7490,6 +7487,7 @@
 :50 xmo@openerp.com-20110310092356-xgfyjpdct2afotbv
 :2996 al@openerp.com-20111022202019-ng9s1fdy72yf26gu
 :2997 al@openerp.com-20111022203843-rfl716jden5m0pa9
+:536 nicolas.vanhoren@openerp.com-20110502151305-8kyi5dsvd8bntb8s
 :429 xmo@openerp.com-20110411062725-7eh31m9vtuasmsjz
 :428 xmo@openerp.com-20110411062541-mjib0mm8wk7ujlyy
 :1399 nicolas.vanhoren@openerp.com-20110727122229-hqdh03hux2lu6a3t
@@ -7503,14 +7501,13 @@
 :1391 nicolas.vanhoren@openerp.com-20110726153747-2zj63korpu6xct6e
 :1390 fme@openerp.com-20110727081448-fbspxdyx1oefmus4
 :854 xmo@openerp.com-20110603110639-9j17krhnsuf5q1bg
-:7237 fme@openerp.com-20120905134553-k6ryuelp5fhsw6z9
 :855 xmo@openerp.com-20110603111044-hcrqubshpnc6mzux
 :3450 vme@tinyerp.com-20111109064636-yv9q5636k562v2fj
 :3451 ysa@tinyerp.com-20111109083204-3yvfghukjplgsaf3
 :850 xmo@openerp.com-20110603093606-gw00iidxfakjmvt3
-:3457 ysa@tinyerp.com-20111110111021-7srfslh8bsqwnd56
+:851 xmo@openerp.com-20110603093817-om68h34w9s8qhxpv
 :852 xmo@openerp.com-20110603094302-hh09kzswb5kcfpye
-:853 xmo@openerp.com-20110603103100-c0di95c1z5rd1ogh
+:3455 ysa@tinyerp.com-20111110090920-fgluhnpkw9o1ifwm
 :1422 ysa@tinyerp.com-20110711114537-843beu7m00s225m7
 :8259 jra@tinyerp.com-20121018060444-p1dejrb3gcgqxmka
 :7232 mit@openerp.com-20120904170247-fcqvjiy8n46zyf38
@@ -7524,7 +7521,6 @@
 :2335 vda@tinyerp.com-20110912082426-snwh0cc5ac75g7xz
 :2336 vda@tinyerp.com-20110912085851-vzs4v3szihrl7xs0
 :4713 fme@openerp.com-20120222142323-mg2z3kndzm29xisg
-:5475 xmo@openerp.com-20120507152531-8x2ozsvhbb5yemqt
 :6699 jra@tinyerp.com-20120713101753-95dnac5u3cm3mwhn
 :6698 jra@tinyerp.com-20120712104925-3ouxmwk780x3pkra
 :7231 mit@openerp.com-20120904143436-3b11jkrxxxmmtn4s
@@ -7584,12 +7580,12 @@
 :3781 chs@openerp.com-20111209163114-23c0orpwbqom4js9
 :1803 sma@tinyerp.com-20110811071934-adjiwyspxegdpzk5
 :1802 sma@tinyerp.com-20110810094138-sb0ed029xsfrs239
-:3784 chs@openerp.com-20111213093557-3hab6yamep1pv9x2
+:1801 sma@tinyerp.com-20110810084528-059auhvl25neb63p
 :3785 chs@openerp.com-20111213103232-bhjrog6eaiaqrilu
 :8992 tde@openerp.com-20130311140838-g9pvncskvuibz1wm
 :8993 tde@openerp.com-20130313101756-r0b41kr2c4sxzfm8
 :3788 al@openerp.com-20111213105908-740uk5jf0r64lsdb
-:3789 xmo@openerp.com-20111213111953-diremmatzwwy5l6g
+:8991 tde@openerp.com-20130311090143-y1l5ow1rn6k4pzl7
 :8996 qdp-launchpad@openerp.com-20130314103233-icm1b664xrisy66k
 :8997 nicolas.vanhoren@openerp.com-20130314135141-lnifcsa405qzjp0j
 :8994 tde@openerp.com-20130313124727-q6cyn7tzqsiuus3q
@@ -7685,7 +7681,7 @@
 :6503 nicolas.vanhoren@openerp.com-20120717145525-hfs15vizjdzdwuht
 :6502 nicolas.vanhoren@openerp.com-20120717141354-3dw33sh8oohtbte0
 :6501 fp@tinyerp.com-20120717074428-rx5ats1eie4ct432
-:2489 kch@tinyerp.com-20110803130146-ur8a91zoe6w7qjml
+:4678 nicolas.vanhoren@openerp.com-20120217101804-13biql9y8k3k3319
 :6507 nicolas.vanhoren@openerp.com-20120718132735-t2lg790pl9g4ccgj
 :6506 nicolas.vanhoren@openerp.com-20120718101729-k1rxexdzozy5cx5i
 :6505 chs@openerp.com-20120717155611-ns8w0u1u0niq1q30
@@ -7740,7 +7736,7 @@
 :4178 fme@openerp.com-20120109141534-z1u4hc9ktlwg16m9
 :4179 fme@openerp.com-20120110100249-i6dqty9qmc83e7sd
 :995 nicolas.vanhoren@openerp.com-20110621141419-8hdegu5ob3uh1w3y
-:9271 launchpad_translations_on_behalf_of_openerp-20130915061126-sqjgy1285qq56ss2
+:994 nicolas.vanhoren@openerp.com-20110621141107-m7xcywalskoujsq0
 :9272 launchpad_translations_on_behalf_of_openerp-20130919045631-12f8i3qaw4d309mp
 :7396 fva@openerp.com-20120927131706-81d0sqqeaiy7c4c2
 :7391 fva@openerp.com-20120924141144-a5msie519hh9nl23
@@ -7788,6 +7784,7 @@
 :2087 xmo@openerp.com-20110901065354-voczdshato8oizmr
 :2084 xmo@openerp.com-20110831144948-rlrj1ib9xxho9ea5
 :2085 xmo@openerp.com-20110901064259-7j4z0upta98f6sqj
+:9005 fme@openerp.com-20130314222616-gz7f0zpnpz0skq88
 :7319 jra@tinyerp.com-20120914095921-302lgm4439cei0hn
 :7318 bth@tinyerp.com-20120911094508-eby3d04wo4cevhzn
 :7315 bth@tinyerp.com-20120911065711-hm4ka55a3g4g6e9j
@@ -7921,7 +7918,7 @@
 :4974 sbh@tinyerp.com-20120404112255-hklhnejqh9s3y5d7
 :4975 tde@openerp.com-20120405124945-lq1u2few7bl1fsl4
 :4976 sbh@tinyerp.com-20120405100623-l5g1099n8s3idg4s
-:4498 xmo@openerp.com-20120206103259-nt3wjmt9w9k7kegy
+:4977 sbh@tinyerp.com-20120405101254-35rtolfp7gjypaqg
 :4970 sbh@tinyerp.com-20120404111554-w6b09tmqbtc8lgtz
 :4971 sbh@tinyerp.com-20120404105719-gmy5t4r7suedrz44
 :4972 sbh@tinyerp.com-20120404105908-kzhrw6d94udgbdkg
@@ -7950,7 +7947,7 @@
 :3310 fme@openerp.com-20111116131045-b684j0ayu9i5asni
 :3313 fme@openerp.com-20111116164210-ktn35gjb703kdrek
 :3312 xmo@openerp.com-20111116134805-yd4ze31j8zc5fw7u
-:5483 nicolas.vanhoren@openerp.com-20120504133111-2c5v5jmiaj15islk
+:3315 fme@openerp.com-20111116222705-dg4u0lpw6p2o8nx1
 :5482 nicolas.vanhoren@openerp.com-20120504132449-wf088it695mot621
 :5481 nicolas.vanhoren@openerp.com-20120504110615-xk8u7x7d7zmnb4a5
 :5480 nicolas.vanhoren@openerp.com-20120503153305-vxdras5o5bb1t7zp
@@ -7982,7 +7979,7 @@
 :1210 kch@tinyerp.com-20110613113539-1fwmqzzd731cba2q
 :1211 xmo@openerp.com-20110616132347-nxv0fw4oe163q6au
 :634 nicolas.vanhoren@openerp.com-20110513135403-wcmctpibtw97fpah
-:635 nicolas.vanhoren@openerp.com-20110513141459-g5b19i83hqvy9cnh
+:1217 xmo@openerp.com-20110617093222-8mx8tkshkcave3g1
 :636 nicolas.vanhoren@openerp.com-20110513142038-wa87m5kbfviqstvr
 :637 cpa@tinyerp.com-20110415093253-qx78tf0001u1cg4d
 :638 cpa@tinyerp.com-20110428115703-z4spy22fvqnqv2m1
@@ -7993,7 +7990,7 @@
 :6520 nicolas.vanhoren@openerp.com-20120720130100-olttd8ovamdtywtt
 :6523 tde@openerp.com-20120611091430-tr0fu73jbe95xx16
 :6522 nicolas.vanhoren@openerp.com-20120720142023-8a1m5b30yvoywnbs
-:8268 bth@tinyerp.com-20121022132217-13oz992sx88ouumn
+:6525 tde@openerp.com-20120612080733-kuvu2adf4yimwc0d
 :8269 jra@tinyerp.com-20121023073338-kq24ipesw0yo22sp
 :6527 tde@openerp.com-20120615082243-ur6p3xkt6k5k1h3r
 :6526 tde@openerp.com-20120614084104-bq35p2qdkjw2bswb
@@ -8050,7 +8047,7 @@
 :6718 nicolas.vanhoren@openerp.com-20120725133917-9azjb6n59xqiz56l
 :6719 nicolas.vanhoren@openerp.com-20120725141333-ueaj3e0i8imlwvre
 :8138 xmo@openerp.com-20121116101417-mkcjrdtocl6w7408
-:8338 vja@tinyerp.com-20121105063518-ng3qk7ljjxmbtuvi
+:6714 al@openerp.com-20120726092618-atzkidy1gpd25n6w
 :8339 vja@tinyerp.com-20121107122818-gi2z8mnqhl6ashhy
 :8748 nicolas.vanhoren@openerp.com-20130103174214-zezyx4ieidugnl5q
 :5902 fp@tinyerp.com-20120507155501-sccb3bs847zu0erv
@@ -8086,6 +8083,7 @@
 :4569 xmo@openerp.com-20120209154844-zk2xuxdhhi57eqhp
 :4568 xmo@openerp.com-20120209151605-sqt0mzceqr8u160z
 :1402 nicolas.vanhoren@openerp.com-20110727140332-p1blww1imh3irn6u
+:9190 chm@openerp.com-20130607151339-t9n5iv2vap0kvimw
 :7659 fp@openerp.com-20121014195514-xnw8b23qtnjm1it2
 :6064 xal@openerp.com-20120420112812-pxxqg9zp61hetv2h
 :6065 xal@openerp.com-20120420122550-x4b27qzwa6hffrkf
@@ -8136,7 +8134,6 @@
 :7010 nicolas.vanhoren@openerp.com-20120813154555-rw4kh1jxdbmg8xab
 :7011 nicolas.vanhoren@openerp.com-20120814071632-jifvgwkj6lawrqo7
 :732 xmo@openerp.com-20110517140726-9yjdk66nwl7xh3pe
-:1195 vda@tinyerp.com-20110418055228-kmyskjruyohckpsk
 :8132 xmo@openerp.com-20121115091501-ys8opo0ccr3dq29h
 :753 nicolas.vanhoren@openerp.com-20110524145948-yr86gez1nsg4vpc2
 :752 nicolas.vanhoren@openerp.com-20110524141029-0j75qlq0azjzr7cw
@@ -8167,16 +8164,17 @@
 :5340 al@openerp.com-20120417133242-x76s3qfn28l40yzb
 :1020 nicolas.vanhoren@openerp.com-20110623125725-lzt263x8c7t0obmk
 :1023 nicolas.vanhoren@openerp.com-20110623141201-owd5gcomf6rdhyzq
-:5343 launchpad_translations_on_behalf_of_openerp-20120418045743-hzbql3f1knlrc5yh
+:1022 nicolas.vanhoren@openerp.com-20110623135124-8yvk56l18j9f6mwk
 :1800 sma@tinyerp.com-20110805072234-f4zvl4fnzhiewkcv
 :1029 fme@openerp.com-20110623172050-deldzkj98hcuhjjs
 :5349 nicolas.vanhoren@openerp.com-20120418122341-7c9bue6ed3v1pidb
+:3323 vda@tinyerp.com-20110920173031-ialtmcpub2c24k04
 :5456 al@openerp.com-20120426222552-rqm974o8c9v1s4lk
 :8990 tde@openerp.com-20130308131452-8mmmpc6was3lfse8
 :4365 xmo@openerp.com-20120123143614-c2cw93asd6n5qfqs
 :4364 xmo@openerp.com-20120123122512-up2x1ch4ci8u3f6e
 :4367 florent.xicluna@gmail.com-20120123130510-k1udncnop5t9d661
-:8991 tde@openerp.com-20130311090143-y1l5ow1rn6k4pzl7
+:3789 xmo@openerp.com-20111213111953-diremmatzwwy5l6g
 :4361 xmo@openerp.com-20120123095352-6853klxnh4ien9m9
 :4360 vda@tinyerp.com-20120120134120-ugqv7yzer7gp31z8
 :4363 simone.orsi@domsense.com-20120123100602-yvpg5m5kmg9h0pel
@@ -8285,7 +8283,7 @@
 :2169 xmo@openerp.com-20110906114921-q9c13srpjnjouu90
 :2168 xmo@openerp.com-20110906112734-obksfkt2d51kvt6b
 :1943 nicolas.vanhoren@openerp.com-20110825170410-omj3wrugqmslck8w
-:2165 xmo@openerp.com-20110906111157-hyzm016cyjcm0kfn
+:4952 xmo@openerp.com-20120404062727-r5eoaw73pjw1izk0
 :4953 xmo@openerp.com-20120404114647-t81pw90940canfwg
 :4950 xmo@openerp.com-20120403070849-d0m9aldt0yvbh8uw
 :4951 xmo@openerp.com-20120403135113-yac2m82nuwn4f23x
@@ -8297,11 +8295,11 @@
 :3254 bth@tinyerp.com-20111019110529-wu9jb6v847dutnww
 :3255 bth@tinyerp.com-20111019115055-296oz520fu2megh9
 :3298 fme@openerp.com-20111115124520-aqma1ti2d81oye8j
-:1944 nicolas.vanhoren@openerp.com-20110825171451-9idtdh6dqcxrk873
+:3299 fme@openerp.com-20111115132914-74mhywoy36gm8pdd
 :1908 xmo@openerp.com-20110822105028-vvzty9jx6nlupq0f
 :5138 al@openerp.com-20120401231212-dln0svoqcc0pmpxy
 :5137 al@openerp.com-20120401215507-yxxvpphhm788fq8f
-:1907 xmo@openerp.com-20110822101308-2td5peezvg6snmk7
+:3295 xmo@openerp.com-20111115105809-phttoirkmq4rzd1w
 :3296 xmo@openerp.com-20111115112906-e87sf40tgr8goqps
 :3257 jra@tinyerp.com-20111025061327-v676oxmsx3xz66s3
 :1902 xmo@openerp.com-20110819103955-gx0j7t3kxl8pjy56
@@ -8345,7 +8343,7 @@
 :8793 launchpad_translations_on_behalf_of_openerp-20130124053515-bl01lm43wsqnoenv
 :8794 xmo@openerp.com-20130124131102-s3342pppi2nhyk9g
 :8247 mdi@tinyerp.com-20121128042303-eu3ttdp9nvt99o2k
-:8796 xmo@openerp.com-20130124144018-0g3sl2nej2aj6syp
+:8244 mdi@tinyerp.com-20121123054140-2mgtjrfmey4z7gb4
 :8797 vja@tinyerp.com-20130124102411-rt3nyp5s4xgbio2t
 :3333 vda@tinyerp.com-20110929110145-z5fgyg84acx3nuyl
 :2043 al@openerp.com-20110905134704-vdns4eif0kc7u0kv
@@ -8359,7 +8357,7 @@
 :8424 xmo@openerp.com-20121129131301-scc38i4l55ea7lis
 :8425 xmo@openerp.com-20121129132738-fcnam8bkqyt7h8ey
 :8422 xmo@openerp.com-20121129112413-yrgncnesqs093jwf
-:1496 vda@tinyerp.com-20110601100952-opuguc2rxfrxcsdh
+:8423 fme@openerp.com-20121129120738-fgulo5hqib2uqeqa
 :8420 xmo@openerp.com-20121129103841-6qcl4sctekqmrt2q
 :8421 xmo@openerp.com-20121129112350-egvxrg8ii71wzdx6
 :3334 vda@tinyerp.com-20110930080000-7vuomze8cbun17oh
@@ -8384,7 +8382,7 @@
 :3598 ahu@openerp.com-20111124130253-zcmgizy9vmhk90yb
 :4138 nicolas.vanhoren@openerp.com-20120104104106-mithtsta4apwfccq
 :4139 nicolas.vanhoren@openerp.com-20120104105305-mli2denyl1jhyhyq
-:5375 xmo@openerp.com-20120224105753-hqf7o9xwwkc0xcok
+:1076 nicolas.vanhoren@openerp.com-20110628145516-2ts81ufkvjuwirku
 :4130 nicolas.vanhoren@openerp.com-20120103171713-qxviaorw7e8ccyvc
 :4131 launchpad_translations_on_behalf_of_openerp-20120104051810-r42jfkfmn23nypsg
 :4132 nicolas.vanhoren@openerp.com-20120104082957-oubgmw80tamp76ii
@@ -8425,7 +8423,7 @@
 :4545 xmo@openerp.com-20120208130651-7mdv7p1qcfgxczon
 :4544 xmo@openerp.com-20120208124634-qucyuwlangw15nqh
 :4547 fme@openerp.com-20120208132015-02fyx6fsbau335mr
-:1072 nicolas.vanhoren@openerp.com-20110628140418-lxmclab51ll0iwdd
+:4546 xmo@openerp.com-20120208130738-pr92lh9qotki71o4
 :2594 fme@openerp.com-20110926151044-plag9hjwsotbzlit
 :2595 nicolas.vanhoren@openerp.com-20110926160057-zss7934ji5hhtq44
 :2596 al@openerp.com-20110927001435-vttw23epyru5gm0b
@@ -8477,7 +8475,6 @@
 :9231 launchpad_translations_on_behalf_of_openerp-20130712063510-g2yq0kxqgrx9x1df
 :9232 launchpad_translations_on_behalf_of_openerp-20130713063533-7mjj5a7226xhtob6
 :9233 launchpad_translations_on_behalf_of_openerp-20130714055945-h6jn755mtdcubvei
-:189 xmo@openerp.com-20110325072607-gbz2z3rsnv140fgu
 :9058 fme@openerp.com-20130409122852-f4ikugl83otx8423
 :9059 fva@openerp.com-20130409144414-nqnmkny5cxrmyru1
 :7336 chm@openerp.com-20120918165902-c5nh169w4c1ur14v
@@ -8610,7 +8607,7 @@
 :2326 fme@openerp.com-20110912100819-w62t21ktvb9lwycb
 :4701 nicolas.vanhoren@openerp.com-20120221152212-yr6iaa2znq37mcsz
 :4700 nicolas.vanhoren@openerp.com-20120221144258-bird80qxxho1flbc
-:5194 xmo@openerp.com-20120403073946-4zq4vmods3ot77ot
+:1617 xmo@openerp.com-20110714102243-kiyp0o6hjbhmxecd
 :5197 xmo@openerp.com-20120403090807-6ct56fqkd1a6jcg1
 :1615 xmo@openerp.com-20110712113921-fwxu1p1fd5kx31l6
 :2369 nicolas.vanhoren@openerp.com-20110913102936-8xjjba5q1gmi8xts
@@ -8642,9 +8639,9 @@
 :4930 fme@openerp.com-20120328144620-iv3ubh747htn2ar7
 :4931 fme@openerp.com-20120328150031-6hdb9rwjoh3stfif
 :4684 launchpad_translations_on_behalf_of_openerp-20120218051809-skplocdgadkpyhjb
-:4933 fme@openerp.com-20120328155807-drwdvrp99zufkb0w
+:4685 nicolas.vanhoren@openerp.com-20120220095238-lxwtctbpo46ekpul
 :4682 nicolas.vanhoren@openerp.com-20120217134523-bleeq4c1x3skjn4t
-:4935 fme@openerp.com-20120328162357-yr3pbnou5c8yv2uj
+:4683 nicolas.vanhoren@openerp.com-20120217134701-7t3iklv6ndv30hln
 :4680 nicolas.vanhoren@openerp.com-20120217110152-x66rfhyfkqao04k0
 :4681 nicolas.vanhoren@openerp.com-20120217114357-5jeue9292eg2zoqf
 :4938 xal@openerp.com-20120329110839-3jvur9msnwwl7exu
@@ -8747,7 +8744,7 @@
 :1257 fme@openerp.com-20110713104351-wy7dwm2v8ywsz2tf
 :1526 noz@tinyerp.com-20110701051745-4t2i4a5n99x52e9k
 :1527 noz@tinyerp.com-20110701065842-a9nlwe33lrco3siu
-:1520 noz@tinyerp.com-20110629062103-hnq5d3266fr7jyd6
+:1252 nicolas.vanhoren@openerp.com-20110713094411-wrbaa6m4zewm521m
 :1521 noz@tinyerp.com-20110629103806-9rl6wmofsr1h0obz
 :1522 noz@tinyerp.com-20110629140051-4n4i8baqhpqiibu0
 :1251 nicolas.vanhoren@openerp.com-20110712161610-iduz56dva4iwcfhq
@@ -8769,8 +8766,9 @@
 :1055 xmo@openerp.com-20110628082228-xhm0c43qo91123w2
 :147 xmo@openerp.com-20110323072712-10gohth1mxrgh6o1
 :9175 vja@tinyerp.com-20130123105838-kd4isg7vcxcfk0su
-:9261 launchpad_translations_on_behalf_of_openerp-20130826051253-70i5qzbp5ttpsmb7
+:988 noz@tinyerp.com-20110621121926-4b6fhety4r2p1u2l
 :9260 launchpad_translations_on_behalf_of_openerp-20130825051959-4r4bun8nvl6neyi5
+:3341 nicolas.vanhoren@openerp.com-20111117092845-oo427719x3mzpq7o
 :5946 launchpad_translations_on_behalf_of_openerp-20120614044123-deayo2v3jjc74u8f
 :5947 nicolas.vanhoren@openerp.com-20120614094411-mqfsj1r8ct4hht20
 :5944 fme@openerp.com-20120613141016-8m2mj4b7d9zzk7a5
@@ -8781,6 +8779,7 @@
 :5941 fme@openerp.com-20120612133437-19d75fct3g844p84
 :5948 fme@openerp.com-20120614121719-tri5zx5gjjqj3ea6
 :5949 fme@openerp.com-20120614134819-rmfanstzir8kpyo3
+:3346 fme@openerp.com-20111117130802-gyrzythtzs2nzmz5
 :9269 acl@openerp.com-20130905155817-llmjnsmd252q3286
 :1446 ysa@tinyerp.com-20110718062459-2kf2z0zmgoes4ied
 :9268 acl@openerp.com-20130905092122-47ynnssvvvo4aef2
@@ -8847,7 +8846,7 @@
 :719 nicolas.vanhoren@openerp.com-20110524093737-0u1rkpwj9n3mpie3
 :2917 bth@tinyerp.com-20111012103015-0gva8otxwd9npcp5
 :717 fme@openerp.com-20110523145219-0nwzvkm94bm5liag
-:716 fme@openerp.com-20110523144640-rnpiqxnzeuynjkr0
+:2919 nicolas.vanhoren@openerp.com-20111017122326-t7t6g90g6gfiph0q
 :715 fme@openerp.com-20110523133840-slawlyaexyq4l3j1
 :714 xmo@openerp.com-20110523112026-5s87jljtx207umuk
 :713 fme@openerp.com-20110523081555-w94od66zxdo6036w
@@ -8862,7 +8861,7 @@
 :1062 fme@openerp.com-20110628103049-n7aje7d1a81zjnq3
 :1065 nicolas.vanhoren@openerp.com-20110627100956-izjwcr9n5pgjun41
 :5305 al@openerp.com-20120410154156-adbw5slg9v65jrgo
-:1067 nicolas.vanhoren@openerp.com-20110628131254-2cj2l9k4zsuxb7u0
+:5306 mit@openerp.com-20120410164204-63f67konnz7tpypu
 :5307 al@openerp.com-20120410164718-jq18rlohtpyrnffw
 :690 sma@tinyerp.com-20110516070956-4tvcak5ic1jeyj1b
 :4329 fme@openerp.com-20120117215255-2klsb78lfor3y6jb
@@ -8921,14 +8920,15 @@
 :6619 xmo@openerp.com-20120709092401-p1in6bvs5e2ptp5p
 :6618 xmo@openerp.com-20120709084652-rt1ffu2ea20scw53
 :3500 vme@tinyerp.com-20111111053703-r8gx2w67t0w38jp7
-:5082 fme@openerp.com-20120322111912-amvslup7pvfwkbuk
+:1636 xmo@openerp.com-20110720061459-whpigz8x2yeorwqd
+:3501 vme@tinyerp.com-20111111100232-6l0rhp55dn2e53q1
 :5081 fme@openerp.com-20120321163011-c716doaws4fupjqk
 :5080 fme@openerp.com-20120321155722-a3flfksq8gjonxf4
 :5087 nicolas.vanhoren@openerp.com-20120323150448-om2trotjpbee5j9o
-:3505 vme@tinyerp.com-20111114084123-el9szj2v0ukrcfqt
+:5086 fme@openerp.com-20120322204634-8o3o81oton9a4fqj
 :1637 xmo@openerp.com-20110726123626-l54udy078dwj9rjo
 :3506 vme@tinyerp.com-20111114101031-ltmfz1786jcqfo0q
-:3507 vme@tinyerp.com-20111114101721-sz2dym1oho9b1c8b
+:5084 fme@openerp.com-20120322132617-q6a4f0am02g2tayh
 :2345 nicolas.vanhoren@openerp.com-20110912132000-ibzm0fepg5p4o4ag
 :2344 nicolas.vanhoren@openerp.com-20110912130727-mm9n2473u4ta8bk8
 :2347 xmo@openerp.com-20110912133115-uiwj3fhxfjm441nk
@@ -8959,9 +8959,9 @@
 :4669 xmo@openerp.com-20120216123506-kp6izac28h31e0dq
 :2127 vda@tinyerp.com-20110902093611-6cxqhgewtbox45qd
 :2126 xmo@openerp.com-20110901082321-k1zamoqhgl2irj94
-:2129 vda@tinyerp.com-20110905080434-u8znc0wx7tasyct2
+:4664 fme@openerp.com-20120215133653-t6fvjsv1sl9xlald
 :4917 fme@openerp.com-20120327100518-p64ada2s831exv52
-:4666 launchpad_translations_on_behalf_of_openerp-20120216052148-ta5bwtqg3bzmvp3i
+:4914 nicolas.vanhoren@openerp.com-20120326122835-m25pukdl5ye48fnn
 :4915 nicolas.vanhoren@openerp.com-20120326142038-xr3wigzjmwj4qp21
 :4912 nicolas.vanhoren@openerp.com-20120326122334-44uf3k7jkck1gyp2
 :4913 nicolas.vanhoren@openerp.com-20120326122424-256pley0nfy8crpq
@@ -9076,7 +9076,7 @@
 :651 xmo@openerp.com-20110517095923-8lr1pjelf94nwu44
 :3085 xmo@openerp.com-20111027083617-medipetfasqvfacq
 :3084 xmo@openerp.com-20111027082436-46zcjurzxtg5n9zt
-:9194 odo@openerp.com-20130607194513-19an571lbpbbzlfz
+:3087 fme@openerp.com-20111027103301-kzyztkq8gbjqqm6x
 :3086 xmo@openerp.com-20111027095707-22brxk7fyg3w4svj
 :3081 xmo@openerp.com-20111027061727-0elo0jciwv7lu3mt
 :3080 xmo@openerp.com-20111025143738-yugscol5kabg8whv
@@ -9095,7 +9095,7 @@
 :3888 chs@openerp.com-20111213162730-w1p543ctjzpuf7f7
 :6701 jra@tinyerp.com-20120713130325-q0c6km66nkv2qi7p
 :8324 bth@tinyerp.com-20121109110243-bhlnf0knx1zqmx38
-:8327 psa@tinyerp.com-20121112114603-6xhi21dpzp2nljtc
+:6703 jra@tinyerp.com-20120716070523-iim1n7ghl1a0tg6o
 :6702 jra@tinyerp.com-20120713132723-t5f7kv5gak13lks2
 :6994 chs@openerp.com-20120813130955-1fwkyahlceotln5o
 :6705 jra@tinyerp.com-20120716073108-7zlweyipa1u4l1oh
@@ -9114,7 +9114,7 @@
 :6008 fme@openerp.com-20120620151453-9g32rrbv3x0b1v8p
 :6009 fme@openerp.com-20120620152951-z3dgkjm0iwnn56c0
 :7395 fva@openerp.com-20120925163122-zgxa0kyeo1q6maex
-:994 nicolas.vanhoren@openerp.com-20110621141107-m7xcywalskoujsq0
+:9271 launchpad_translations_on_behalf_of_openerp-20130915061126-sqjgy1285qq56ss2
 :997 fme@openerp.com-20110622100615-v93dcg2hshtvdc98
 :996 fme@openerp.com-20110621143804-b51tp8n0a393oixi
 :9274 launchpad_translations_on_behalf_of_openerp-20130920060157-qwah3z17ksnrmhzi
@@ -9156,9 +9156,9 @@
 :4493 odo@openerp.com-20120204001404-82kaxklke0olehko
 :4492 al@openerp.com-20120203132249-pbkdci0q5fxz1k33
 :4491 xmo@openerp.com-20120203125132-9crn5qgjqweoeg3a
-:2661 nicolas.vanhoren@openerp.com-20110930154612-d2q5z3fy1ouih1fm
+:4490 xmo@openerp.com-20120203084906-xmhbmhdkamfbx0zo
 :2668 xmo@openerp.com-20111003102721-d3eizbwef5ix18py
-:1749 fme@openerp.com-20110810121625-mxbmxmr8qdy10zu6
+:4498 xmo@openerp.com-20120206103259-nt3wjmt9w9k7kegy
 :2938 vda@tinyerp.com-20111018055400-2j1gvgvognuo6ka9
 :2939 vda@tinyerp.com-20111018093432-0ixihleg3vynpvwx
 :2936 ysa@tinyerp.com-20111017131849-u034vkz20cw8e31t
@@ -9194,7 +9194,7 @@
 :3163 ysa@tinyerp.com-20111021044543-1b1v2m4t32rifd33
 :3160 ysa@tinyerp.com-20111018045137-msfhlnn9lofb26xv
 :3161 ysa@tinyerp.com-20111019050434-b2uyjsget3ezfmpp
-:4981 nicolas.vanhoren@openerp.com-20120406120347-rlsiwq209474vuw0
+:2406 fme@openerp.com-20110915081241-3q4us9bweru4iyx1
 :2407 xmo@openerp.com-20110915084626-9rxv8jv65uxtq9ga
 :2404 fme@openerp.com-20110914210902-z08taar5woqmxnts
 :731 xmo@openerp.com-20110517140358-vtank237dh5hso8i
@@ -9245,7 +9245,6 @@
 :6636 xmo@openerp.com-20120711142048-covvchmiscjlhji0
 :3283 xmo@openerp.com-20111114144120-2rctezb1x63fytnr
 :4420 nicolas.vanhoren@openerp.com-20120125123933-kabfy3d6mhrjk3a7
-:7021 al@openerp.com-20120815164630-yzc5grk2df2bzloe
 :2008 nicolas.vanhoren@openerp.com-20110901142156-ywr95g2qe85kkhe8
 :2323 fme@openerp.com-20110912090727-hv3bslofmcpj06ld
 :2322 al@openerp.com-20110909160039-6ddslilpttvhubad
@@ -9317,6 +9316,7 @@
 :112 xmo@openerp.com-20110318165821-5zyvlfzi7xt25gu0
 :119 xmo@openerp.com-20110321081419-e2mv119gfm5kbaem
 :118 xmo@openerp.com-20110321081331-gvgb1qt6v80oq5hm
+:8197 launchpad_translations_on_behalf_of_openerp-20121125064209-s515ia18188hl147
 :7272 fme@openerp.com-20120912132215-qftamqpgekx0f3w9
 :7273 fme@openerp.com-20120912133656-z81oo9mi5s4yq22p
 :7270 fp@tinyerp.com-20120912123848-iyg7fcv12y003kcx
@@ -9378,7 +9378,7 @@
 :9016 launchpad_translations_on_behalf_of_openerp-20130321050354-6gc2gobnj24c9gso
 :7033 fme@openerp.com-20120814213708-zkm05nkr1pdf8qbu
 :1748 fme@openerp.com-20110810120548-697agu5xajf11tvx
-:419 fme@openerp.com-20110412140701-4kl7b1juoxdxye6q
+:1749 fme@openerp.com-20110810121625-mxbmxmr8qdy10zu6
 :1744 al@openerp.com-20110810013448-agtnui8hmn0hj9xk
 :1745 al@openerp.com-20110810015211-mwyex6w9pze8djk2
 :1746 fme@openerp.com-20110810103836-li6e7kx8tdk52iil
