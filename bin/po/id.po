@@ -8,14 +8,14 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2014-04-03 04:18+0000\n"
+"PO-Revision-Date: 2014-04-03 13:57+0000\n"
 "Last-Translator: Fattah Rizki H L <galamarv@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-03 05:58+0000\n"
-"X-Generator: Launchpad (build 16967)\n"
+"X-Launchpad-Export-Date: 2014-04-04 06:44+0000\n"
+"X-Generator: Launchpad (build 16976)\n"
 "Language: id\n"
 
 #: bin/common/common.py:88
@@ -65,7 +65,7 @@ msgstr ""
 #: bin/common/common.py:224
 #, python-format
 msgid "Ensure that the file %s is correct"
-msgstr ""
+msgstr "Pastikan bahwa berkas %s benar"
 
 #: bin/common/common.py:410
 msgid " has reported the following bug:\n"
@@ -232,7 +232,7 @@ msgstr ""
 
 #: bin/widget_search/char.py:45
 msgid "Error: "
-msgstr ""
+msgstr "Galat: "
 
 #: bin/widget_search/form.py:500
 msgid "The content of the form or exception if not valid"
@@ -273,7 +273,7 @@ msgstr "Jam tanggal bermasalah, gunakan tahun setelah 1899"
 
 #: bin/widget_search/wid_int.py:56
 msgid "The content of the widget or exception if not valid"
-msgstr ""
+msgstr "Isi dari widget atau exception tidak valid"
 
 #: bin/widget_search/checkbox.py:35 bin/widget_search/checkbox.py:42
 #: bin/widget_search/checkbox.py:55
@@ -296,7 +296,7 @@ msgstr "Tidak"
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:277
 msgid "is"
-msgstr ""
+msgstr "adalah"
 
 #: bin/widget_search/custom_filter_widgets.py:37
 #: bin/widget_search/custom_filter_widgets.py:64
@@ -310,7 +310,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:262
 #: bin/widget_search/custom_filter_widgets.py:278
 msgid "is not"
-msgstr ""
+msgstr "tidak"
 
 #: bin/widget_search/custom_filter_widgets.py:38
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -326,7 +326,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is Empty"
-msgstr ""
+msgstr "Kosong"
 
 #: bin/widget_search/custom_filter_widgets.py:39
 #: bin/widget_search/custom_filter_widgets.py:49
@@ -342,19 +342,19 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:252
 #: bin/widget_search/custom_filter_widgets.py:260
 msgid "is not Empty"
-msgstr ""
+msgstr "Tidak kosong"
 
 #: bin/widget_search/custom_filter_widgets.py:40
 #: bin/widget_search/custom_filter_widgets.py:67
 #: bin/widget_search/custom_filter_widgets.py:99
 msgid "contains"
-msgstr ""
+msgstr "memuat"
 
 #: bin/widget_search/custom_filter_widgets.py:41
 #: bin/widget_search/custom_filter_widgets.py:68
 #: bin/widget_search/custom_filter_widgets.py:99
 msgid "doesn't contain"
-msgstr ""
+msgstr "tidak memuat"
 
 #: bin/widget_search/custom_filter_widgets.py:89
 #: bin/widget/view/form_gtk/many2one.py:161
@@ -363,7 +363,7 @@ msgstr "Cari sumber ini"
 
 #: bin/widget_search/custom_filter_widgets.py:172
 msgid "Equals"
-msgstr ""
+msgstr "Sama Dengan"
 
 #: bin/widget_search/custom_filter_widgets.py:187
 #: bin/widget_search/custom_filter_widgets.py:201
@@ -376,7 +376,7 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:355
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "between"
-msgstr ""
+msgstr "di antara"
 
 #: bin/widget_search/custom_filter_widgets.py:190
 #: bin/widget_search/custom_filter_widgets.py:204
@@ -389,37 +389,37 @@ msgstr ""
 #: bin/widget_search/custom_filter_widgets.py:358
 #: bin/widget_search/custom_filter_widgets.py:367
 msgid "exclude range"
-msgstr ""
+msgstr "tidak termasuk jangkauan"
 
 #: bin/widget_search/custom_filter_widgets.py:295
 #: bin/widget_search/custom_filter_widgets.py:336
 msgid "is equal to"
-msgstr ""
+msgstr "sama dengan"
 
 #: bin/widget_search/custom_filter_widgets.py:296
 #: bin/widget_search/custom_filter_widgets.py:337
 msgid "is not equal to"
-msgstr ""
+msgstr "tidak sama dengan"
 
 #: bin/widget_search/custom_filter_widgets.py:297
 #: bin/widget_search/custom_filter_widgets.py:338
 msgid "greater than"
-msgstr ""
+msgstr "lebih besar dari"
 
 #: bin/widget_search/custom_filter_widgets.py:298
 #: bin/widget_search/custom_filter_widgets.py:339
 msgid "less than"
-msgstr ""
+msgstr "kurang dari"
 
 #: bin/widget_search/custom_filter_widgets.py:299
 #: bin/widget_search/custom_filter_widgets.py:340
 msgid "greater than equal to"
-msgstr ""
+msgstr "lebih besar dari sama dengan"
 
 #: bin/widget_search/custom_filter_widgets.py:300
 #: bin/widget_search/custom_filter_widgets.py:341
 msgid "less than equal to"
-msgstr ""
+msgstr "lebih kecil dari sama dengan"
 
 #: bin/plugins/__init__.py:27
 msgid "Print Workflow"
@@ -482,7 +482,7 @@ msgstr "Tidak dapat membuat grafik"
 #: bin/widget/view/graph_gtk/graph.py:125
 #: bin/widget/view/graph_gtk/graph.py:131 bin/widget/view/list.py:183
 msgid "Undefined"
-msgstr ""
+msgstr "Tidak terdefinisi"
 
 #: bin/widget/view/widget_parse.py:52
 #, python-format
@@ -491,7 +491,7 @@ msgstr "Tipe (%s) ini tidak didukung oleh GTK client !"
 
 #: bin/widget/view/widget_parse.py:69
 msgid "View Error!"
-msgstr ""
+msgstr "Galat Tilik!"
 
 #: bin/widget/view/widget_parse.py:76
 msgid "No valid view found for this object!"
@@ -511,35 +511,35 @@ msgstr ""
 
 #: bin/widget/view/diagram_gtk/xdot.py:1429
 msgid "Dot Viewer"
-msgstr ""
+msgstr "Pratilik Titik"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1719
 msgid "Add New Node"
-msgstr ""
+msgstr "Tambahkan Node Baru"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1720
 msgid "Add New Edge"
-msgstr ""
+msgstr "Tambahkan Edge Baru"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1721
 msgid "Enlarge the Diagram"
-msgstr ""
+msgstr "Perbesar Diagram"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1722
 msgid "Shrink the Diagram"
-msgstr ""
+msgstr "Perkecil Diagram"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1723
 msgid "Fit the diagram to the window"
-msgstr ""
+msgstr "Sesuaikan diagram dengan jendela"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1724
 msgid "Show the diagram at its normal size"
-msgstr ""
+msgstr "Tampilkan diagram pada ukuran normal"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1725
 msgid "Print the Diagram"
-msgstr ""
+msgstr "Cetak Diagram"
 
 #: bin/widget/view/diagram_gtk/xdot.py:1779
 #: bin/modules/gui/window/win_search.py:49
