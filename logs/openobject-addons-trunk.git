@@ -5,25 +5,25 @@ warning: Not updating refs/tags/5.0.7 (new tip cbefc1cc55a4c197d78fb3626cda2d9ca
 warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa85d7ba does not contain 0062bddbd99ea93ece955a2600b02a8ed026784f)
 git-fast-import statistics:
 ---------------------------------------------------------------------
-Alloc'd objects:      70000
-Total objects:            0 (         0 duplicates                  )
-      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
+Alloc'd objects:      75000
+Total objects:           98 (      6123 duplicates                  )
+      blobs  :           27 (      5679 duplicates         17 deltas of         27 attempts)
+      trees  :           59 (       444 duplicates         27 deltas of         59 attempts)
+      commits:           12 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:        1939 (         0 loads     )
-      marks:        1048576 (     68768 unique    )
-      atoms:              0
-Memory total:          5329 KiB
-       pools:          2048 KiB
-     objects:          3281 KiB
+Total branches:        1940 (         1 loads     )
+      marks:        1048576 (     68780 unique    )
+      atoms:           1539
+Memory total:          6126 KiB
+       pools:          2610 KiB
+     objects:          3515 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     138373
-pack_report: pack_mmap_calls          =          1
-pack_report: pack_open_windows        =          1 /          1
-pack_report: pack_mapped              = 1073741824 / 1073741824
+pack_report: pack_used_ctr            =     140065
+pack_report: pack_mmap_calls          =         20
+pack_report: pack_open_windows        =          2 /          2
+pack_report: pack_mapped              = 1073829919 / 1073829919
 ---------------------------------------------------------------------
 
