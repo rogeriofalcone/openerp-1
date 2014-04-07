@@ -8,19 +8,19 @@ msgstr ""
 "Project-Id-Version: openobject-client\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2011-11-29 14:25+0530\n"
-"PO-Revision-Date: 2014-04-03 13:57+0000\n"
+"PO-Revision-Date: 2014-04-06 14:17+0000\n"
 "Last-Translator: Fattah Rizki H L <galamarv@gmail.com>\n"
 "Language-Team: Indonesian <id@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Launchpad-Export-Date: 2014-04-04 06:44+0000\n"
+"X-Launchpad-Export-Date: 2014-04-07 06:44+0000\n"
 "X-Generator: Launchpad (build 16976)\n"
 "Language: id\n"
 
 #: bin/common/common.py:88
 msgid "Close current tip"
-msgstr ""
+msgstr "Tutup Tips ini"
 
 #: bin/common/common.py:89
 msgid ""
@@ -69,7 +69,7 @@ msgstr "Pastikan bahwa berkas %s benar"
 
 #: bin/common/common.py:410
 msgid " has reported the following bug:\n"
-msgstr ""
+msgstr " telah melaporkan kutu berikut:\n"
 
 #: bin/common/common.py:410
 msgid "remarks"
@@ -660,11 +660,11 @@ msgstr ""
 
 #: bin/widget/view/screen_container.py:73
 msgid "Save as a Filter"
-msgstr ""
+msgstr "Simpan sebagai Filter"
 
 #: bin/widget/view/screen_container.py:73
 msgid "Manage Filters"
-msgstr ""
+msgstr "Kelola Tapis"
 
 #: bin/widget/view/screen_container.py:88
 msgid "100"
