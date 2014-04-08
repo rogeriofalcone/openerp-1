@@ -6,14 +6,14 @@ warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa8
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      65000
-Total objects:            8 (        52 duplicates                  )
-      blobs  :            0 (        20 duplicates          0 deltas of          0 attempts)
-      trees  :            7 (        31 duplicates          0 deltas of          7 attempts)
-      commits:            1 (         1 duplicates          0 deltas of          0 attempts)
+Total objects:           15 (        19 duplicates                  )
+      blobs  :            1 (         7 duplicates          0 deltas of          1 attempts)
+      trees  :            9 (         9 duplicates          4 deltas of          9 attempts)
+      commits:            5 (         3 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:        1940 (         1 loads     )
-      marks:        1048576 (     61443 unique    )
-      atoms:            385
+      marks:        1048576 (     61451 unique    )
+      atoms:            293
 Memory total:          5157 KiB
        pools:          2110 KiB
      objects:          3046 KiB
@@ -21,9 +21,9 @@ Memory total:          5157 KiB
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     131083
-pack_report: pack_mmap_calls          =          9
-pack_report: pack_open_windows        =          9 /          9
-pack_report: pack_mapped              = 1074744408 / 1074744408
+pack_report: pack_used_ctr            =     131158
+pack_report: pack_mmap_calls          =         14
+pack_report: pack_open_windows        =         11 /         11
+pack_report: pack_mapped              = 1074792642 / 1074792642
 ---------------------------------------------------------------------
 
