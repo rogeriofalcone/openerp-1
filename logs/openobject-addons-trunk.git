@@ -1,4 +1,3 @@
-warning: Not updating refs/heads/openobject-addons/trunk (new tip f23f95327505fee983ca10924271af5f0c087a51 does not contain 1d468e420f677ff71528e2609c0a2c1ea1ff9a2a)
 warning: Not updating refs/tags/6.1.0-rc1 (new tip f9527ed1b5862447e9f3f07d3f75f734f9010c2a does not contain 0d63706015f3e8fcc6859e92701f050d4bd71625)
 warning: Not updating refs/tags/6.1.0 (new tip 7886bde977467ffb063a52aad8abecbd0fcd324f does not contain e6b3dcfb988d7e76f095fb945a49cc24b9dbcec8)
 warning: Not updating refs/tags/6.1.1 (new tip 27a1ccd5799831c156b49c8d277bd73ec02b3092 does not contain 2a41a1126dace14b40c670f4656be12fbafb217c)
@@ -6,25 +5,25 @@ warning: Not updating refs/tags/5.0.7 (new tip cbefc1cc55a4c197d78fb3626cda2d9ca
 warning: Not updating refs/tags/7.0 (new tip 57cb04ab26fa1cfab377bfc5afe51253fa85d7ba does not contain 0062bddbd99ea93ece955a2600b02a8ed026784f)
 git-fast-import statistics:
 ---------------------------------------------------------------------
-Alloc'd objects:     125000
-Total objects:         5646 (     85085 duplicates                  )
-      blobs  :         1670 (     72813 duplicates       1149 deltas of       1638 attempts)
-      trees  :         3140 (     12272 duplicates       2502 deltas of       2947 attempts)
-      commits:          836 (         0 duplicates          0 deltas of          0 attempts)
+Alloc'd objects:      80000
+Total objects:         5754 (         7 duplicates                  )
+      blobs  :         5468 (         7 duplicates       4970 deltas of       4971 attempts)
+      trees  :          285 (         0 duplicates          0 deltas of        285 attempts)
+      commits:            1 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:        1940 (         1 loads     )
-      marks:        1048576 (     70120 unique    )
-      atoms:           5172
-Memory total:          8594 KiB
-       pools:          2735 KiB
-     objects:          5859 KiB
+      marks:        1048576 (     70121 unique    )
+      atoms:           1125
+Memory total:          6298 KiB
+       pools:          2548 KiB
+     objects:          3750 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =     252372
-pack_report: pack_mmap_calls          =       1959
+pack_report: pack_used_ctr            =     140283
+pack_report: pack_mmap_calls          =          4
 pack_report: pack_open_windows        =          4 /          4
-pack_report: pack_mapped              = 1378861700 / 1378861700
+pack_report: pack_mapped              = 1099251105 / 1099251105
 ---------------------------------------------------------------------
 
