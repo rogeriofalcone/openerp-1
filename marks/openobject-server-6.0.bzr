@@ -126,7 +126,7 @@
 :4725 vir@tinyerp.com-20100806044425-g3gwk9pvrrsjvcfa
 :4724 dbr@tinyerp.com-20100805090241-af3wz2wvdlr4l6mc
 :2303 nch@tinyerp.com-20090504061401-p7q0ihqpgogu666m
-:2302 nch@tinyerp.com-20090504043556-fr6as4u0vwkri0bp
+:4726 amp@tinyerp.com-20100806071334-m6yw4lj4qbvncuib
 :2305 nch@tinyerp.com-20090504091226-knu1wtdmttpi7f1b
 :2304 nch@tinyerp.com-20090504085620-09y8tchv0ap14jwz
 :4723 vir@tinyerp.com-20100805043521-hqjcs0wrp0tdgilg
@@ -801,7 +801,7 @@
 :4582 noz@tinyerp.com-20100712061656-0u7rsbttel0fvgu8
 :4727 vir@tinyerp.com-20100807053245-qnre512e8k2s6fy9
 :5199 jas@tinyerp.com-20101001073729-jtdo3yd4yiuwkh7u
-:4726 amp@tinyerp.com-20100806071334-m6yw4lj4qbvncuib
+:2302 nch@tinyerp.com-20090504043556-fr6as4u0vwkri0bp
 :4721 vir@tinyerp.com-20100803044902-vafravdakxio5unr
 :4720 vir@tinyerp.com-20100802045609-w4prvj215xlc74cv
 :2307 hda@hda-20090504102459-vsgp15igigmcqzd4
@@ -860,7 +860,7 @@
 :3452 vir@tinyerp.com-20091230110356-wniauy1o1m5gow4g
 :3453 sbh@tinyerp.com-20100107131557-df9zr5ms75t2yky9
 :3450 hda@tinyerp.com-20100113073301-p8efntdkv1yanf8a
-:857 fp@tinyerp.com-3bf3ca5f392a63f5285035e50e972129f442ae35
+:3451 hda@tinyerp.com-20100113125341-69djvqrd7rkn6wj9
 :850 chs@tinyerp.com-af0c02b8b14f4ca511670cf5f5dd53c2c0c1b4d4
 :851 stw-b92000db2a408c9250048365f26959401ae36f98
 :3454 vir@tinyerp.com-20100108052317-z9qmz2qbqoyoq07q
@@ -986,7 +986,7 @@
 :5039 odo@openerp.com-20100917094100-uaebg1jbmtc3rwz8
 :5036 odo@openerp.com-20100916114726-9u10bm9k57nrwht5
 :5037 odo@openerp.com-20100916144644-thsb8624du8ik6rn
-:3599 codehost@crowberry-20100208044503-5edikkxk6cf4faz0
+:5034 odo@openerp.com-20100916114033-1aei222d22fkq23l
 :5035 odo@openerp.com-20100916114337-lkzxtd3owxz6qcmz
 :5032 qdp-launchpad@tinyerp.com-20100916110150-gyl2l75ugeg2thcg
 :5033 odo@openerp.com-20100916113906-vd9orn59s3s2t5ho
@@ -1409,6 +1409,7 @@
 :1937 stephane@tinyerp.com-20090106162421-w79hcim4hrlpp80a
 :3335 chs@tinyerp.com-20091208173724-cc749thka4ll4k5o
 :1934 stephane@tinyerp.com-20090106121653-q90ehhewmz0cmqb5
+:6835 launchpad_translations_on_behalf_of_openerp-20140417061901-mex1rsuyd45c1o66
 :458 ced-8eb51832fdd367c1baeddb83a96cf069c25d1af8
 :1349 stephane@tinyerp.com-20081027131009-286ilrlm1taqwfg3
 :1340 fp@tinyerp.com-20081027104650-1c3tf9xsx0rmmoat
@@ -1667,7 +1668,7 @@
 :4396 stephane@openerp.com-20100611155317-jfer5wyiuso533se
 :4397 codehost@crowberry-20100612034442-6bs1rvjwyuv3tr74
 :1366 stephane@tinyerp.com-20081031115117-nl913l8oz2b5svc8
-:3196 xmo@tinyerp.com-20091202072808-fozu0u3rjiggzwiu
+:473 ced-d85e6510f6667648092a15bb76a8a28316517059
 :1364 fp@tinyerp.com-20081030081019-gidbobppf74chajl
 :1365 stephane@tinyerp.com-20081030123127-7ay3jvziz8w9modj
 :476 ced-e994741ea56321dd5d274987b286977a50dc7832
@@ -1698,7 +1699,6 @@
 :3992 hda@tinyerp.com-20100408104205-zr8psx28wvw1e3eb
 :3991 hda@tinyerp.com-20100406104457-k5l60gj690d041bj
 :3990 ysa@tinyerp.co.in-20100406101538-h1eylutssi1q10i9
-:1653 stephane@tinyerp.com-20081211220009-el7lc2bb0pqc99pc
 :298 ced-bbeff4e918ea28b0cd4253491683d0001bdd3748
 :299 ced-0af742cede276df9dbbcf723a38b3dea755f4ff9
 :296 bch-057f4f98c6fefda291baacf3bff53e29664c3da5
@@ -1770,7 +1770,7 @@
 :553 ced-3e3bbc39c351c4f94b2eca9e0c1247a22dba2c73
 :552 ced-c62342f7b7c823aedc34bd3b4efceee06dc7d166
 :3539 rvalyi@gmail.com-20091214152104-evcck2uv66bbulnf
-:5409 launchpad_translations_on_behalf_of_openerp-20101022043833-wernhbhrqrvod7co
+:1438 stephane@tinyerp.com-20081117172526-1kxpcstje4czrkpx
 :3538 rvalyi@gmail.com-20091214122355-eta5tkktvouxiv6i
 :5408 odo@openerp.com-20101021163131-bbmtpygtwton3acv
 :1199 christophe@tinyerp.com-20080910131344-q45da6daffeaakpp
@@ -1781,7 +1781,7 @@
 :3343 chs@tinyerp.com-20091214145228-kl6ro0y09wc1kcgc
 :1193 stephane@tinyerp.com-20080910084640-bg1h1bre7mwky8s0
 :5453 apa@tinyerp.com-20101011125948-drvna1etzodmij6f
-:5454 apa@tinyerp.com-20101012044207-w005n4q1jh4p8ple
+:3346 hda@tinyerp.com-20091229130841-88yee2x111ymw0cd
 :1194 stephane@tinyerp.com-20080910114012-8tdfy7h258nuccp2
 :3344 jvo@tinyerp.com-20091221113116-a8kf0v96ln9s5dgw
 :5457 apa@tinyerp.com-20101012102718-pilkyz2lh8t720o1
@@ -2224,7 +2224,7 @@
 :5492 xmo@openerp.com-20101108110159-ptfhu5krjs4y0ald
 :3301 codehost@crowberry-20100101050200-lh0wymgz3ct1vjdj
 :1270 hda@tinyerp.com-20081003105511-o181pt3l5w2tj2pe
-:613 ced-01ea58b8502b977a772f07a5dd6fbc7cd42270f3
+:1271 fp@tinyerp.com-20081007050851-x0hbr5fpu9vmj34t
 :610 ced-8dd3ea98c4f9874cd442505c3e30628ccdd7edb1
 :611 ced-95329ecbf74237e1399443471809240fafa811c2
 :1274 olt@tinyerp.com-20081007141911-y534o95uoc8qu5jt
@@ -3128,7 +3128,7 @@
 :2819 p_christ@hol.gr-20090131114835-7go7yhsve0t8oks0
 :565 ced-b4ced4cbda512e55d93707039cccfc8835ede241
 :2330 christophe@tinyerp.com-20090512075747-zvir83kpkzgie1pj
-:2331 hda@hda-20090512104708-wo36wuanouglci8g
+:4715 vir@tinyerp.com-20100726044342-p2wx9fc5i1q91tvt
 :2332 fp@tinyerp.com-20090512135728-c3kx94s5q0a2b8ev
 :2333 fp@tinyerp.com-20090512140127-ur98ms2xmoebu6nn
 :2334 jvo@tinyerp.com-20090513051846-7qt47z4iwqhfs07a
@@ -3323,7 +3323,7 @@
 :1168 christophe@tinyerp.com-20080908075251-gbr4dp0vyl5dhv9u
 :1169 fp@tinyerp.com-20080908083033-fvtjb0yngumx42p3
 :472 ced-ccee7fefa69ac79031e83363b4c7dedc7a12de17
-:473 ced-d85e6510f6667648092a15bb76a8a28316517059
+:3196 xmo@tinyerp.com-20091202072808-fozu0u3rjiggzwiu
 :3195 xmo@tinyerp.com-20091127120938-arrvoqieit1bqx9c
 :3194 xmo@tinyerp.com-20091127110712-dmj8pwl8xcpxk0fj
 :3193 xmo@tinyerp.com-20091127110554-89eqy06fmla373u3
@@ -3334,7 +3334,7 @@
 :1712 christophe@cobalt-20081215115801-3x1ycw64uak5yvdk
 :1361 fp@tinyerp.com-20081029174749-7vuxl7j4yikbwq14
 :1711 stephane@tinyerp.com-20081215123633-ga5d140mv83wvg8c
-:1710 stephane@tinyerp.com-20081215122958-z9i0mdeydr7wuuh7
+:5251 vda@tinyerp.com-20101005111753-s54kt87wf1uflmzn
 :1717 nel@silver-20081215144403-3jtzlwxmaakramuk
 :1716 mga@tinyerp.com-20081215135145-r42mx93rqdz8qbnl
 :1715 christophe@cobalt-20081215134906-zvavnfbnb29e0053
@@ -3630,7 +3630,7 @@
 :4638 xmo@openerp.com-20100727150051-kx4l8uroxkypefpp
 :2046 nel@tinyerp.com-20090122115819-erokumgim7k3kep8
 :4812 qdp-launchpad@tinyerp.com-20100823151341-p121m9u4qpm017uh
-:4811 codehost@crowberry-20100823035853-lna61rv964ypumcx
+:2044 fp@tinyerp.com-20090121231539-ytxxlb27sg6ax2j3
 :4810 codehost@crowberry-20100822034810-e914n9p11jk1gam6
 :168 ced-f63aaed585010504f0d2ccbf96b1b35ca21ca861
 :169 fp@tinyerp.com-528dab59710d2dd717e8a7895e12222364d78c30
@@ -3867,7 +3867,7 @@
 :2717 mra@tinyerp.com-20091124113133-6zqwz2k7yh9i3ghj
 :2714 jvo@tinyerp.com-20091121072826-17mzy8gnfgn7n8g9
 :2715 chs@tinyerp.com-20091123170734-usmmwc5uzoik73hs
-:3346 hda@tinyerp.com-20091229130841-88yee2x111ymw0cd
+:1195 mga@tinyerp.com-20080910062654-6521393f7xn4554w
 :2718 vra@tinyerp.com-20091110124631-awfw0jb10bzo945j
 :2719 gpa@gpa-desktop-20091120134913-yeksffwd05mlrwoi
 :3347 jvo@tinyerp.com-20091231074511-tv6abhnbb9je2uka
@@ -3896,7 +3896,7 @@
 :5252 vda@tinyerp.com-20101006134329-bb9xbojglh0zqbth
 :5253 vda@tinyerp.com-20101007090334-jy9q574yo1gxg5ir
 :5250 vda@tinyerp.com-20101005100606-1o1rrm9heb2eg7qe
-:5251 vda@tinyerp.com-20101005111753-s54kt87wf1uflmzn
+:1710 stephane@tinyerp.com-20081215122958-z9i0mdeydr7wuuh7
 :5256 launchpad_translations_on_behalf_of_openerp-20101008043815-syw6e8kx0kyjfvht
 :5257 xmo@openerp.com-20101008083847-0jy9px2ey4wwok81
 :5254 vda@tinyerp.com-20101007092925-8vgld0kvm8pzy6c8
@@ -4176,7 +4176,7 @@
 :5236 jth@openerp.com-20101006092643-b91l3nazmrdf7bqn
 :1736 fp@tinyerp.com-20081216103620-khy4x2gv3efvh0m1
 :4907 odo@openerp.com-20100901164437-n03ubsu440oc9kwj
-:1595 fp@tinyerp.com-20081209143153-7t18385iv9bbwasn
+:3070 fp@tinyerp.com-20091128092548-41obpau18v3dnxew
 :2405 dsh@tinyerp.com-20090610122734-0kq9vh870pmme4q3
 :3072 rvalyi@gmail.com-20091028200443-2ciyhqaz7rczdusy
 :3073 rvalyi@gmail.com-20091028200703-u7298esyxktryqyk
@@ -4354,7 +4354,7 @@
 :5301 fp@tinyerp.com-20101012071227-khzuqvg1jfc3st7x
 :1063 fp@tinyerp.com-20080824150323-c7s9kwv4mjlumpz2
 :5303 ach@tinyerp.com-20101012052702-qrka8uld1apdpwg0
-:1065 chs@tinyerp.com-20080824220449-fby5txrm1s5hzarm
+:5304 ach@tinyerp.com-20101012061115-mlr5laakmficmoal
 :1064 fp@tinyerp.com-20080824171028-ul98prnl13wl1y13
 :1067 dharmesh247@gmail.com-20080825071226-5eovqe6kc8altmul
 :1066 fp@tinyerp.com-20080824232218-316vtgkh1ww0vu5n
@@ -4446,7 +4446,7 @@
 :3058 hmo@tinyerp.com-20091126093812-okdbgtuy7y6qwhwb
 :3059 hmo@tinyerp.com-20091126095458-z0zs3ubczvu2jgqr
 :3056 hmo@tinyerp.com-20091126082208-m910euc5gl1qggq2
-:3057 hmo@tinyerp.com-20091126093155-k8wdgq4elnlk1aag
+:4801 fp@tinyerp.com-20100824124639-awmiog304b56tktm
 :3054 hmo@tinyerp.com-20091125134116-n89ilj53bjmkcevw
 :3055 hmo@tinyerp.com-20091126063020-6kuq4ph29esf0fwe
 :3052 hmo@tinyerp.com-20091125071743-a83kvkwh3z3vw6je
@@ -4802,7 +4802,7 @@
 :1658 mga@tinyerp.com-20081212050948-z26pqudgh5cts1at
 :1659 mga@tinyerp.com-20081212064819-c818maklfe33a18q
 :1652 stephane@tinyerp.com-20081211212056-j8kxsswehue3go9x
-:410 ced-009a7375f2545d69e0a981f461b000cda1a09008
+:1653 stephane@tinyerp.com-20081211220009-el7lc2bb0pqc99pc
 :1650 fabian@tinyerp.com-20081211174628-m6dr3wdal9ntrpff
 :1651 stephane@tinyerp.com-20081211204442-drli4p5wxfy4jepo
 :1656 mga@tinyerp.com-20081212050738-z2hmzylp2bvls2gq
@@ -4839,7 +4839,7 @@
 :1431 stephane@tinyerp.com-20081114150602-cpp1eeo3d0837fev
 :3399 xmo@tinyerp.com-20091214083300-ranwzt38nh0lxhns
 :1380 stephane@tinyerp.com-20081103171602-yo8k8xw19mphdcmc
-:1438 stephane@tinyerp.com-20081117172526-1kxpcstje4czrkpx
+:5409 launchpad_translations_on_behalf_of_openerp-20101022043833-wernhbhrqrvod7co
 :1439 olt@tinyerp.com-20081117134417-jzmcrebr1cztidm5
 :1731 mga@tinyerp.com-20081216101809-ki2d8z3869qsm3dx
 :1730 stephane@tinyerp.com-20081216103950-cdcvcq0fnlt7cs27
@@ -4904,7 +4904,7 @@
 :325 fp@tinyerp.com-49fb56b4d1ebf9490c32da20ff2d4f7e67af953d
 :328 ced-dd34f7ef40054b2506a1d35010392fa7436898db
 :329 ced-f89f84a60449363abf24c94473c97aee009638eb
-:3070 fp@tinyerp.com-20091128092548-41obpau18v3dnxew
+:1595 fp@tinyerp.com-20081209143153-7t18385iv9bbwasn
 :6138 odo@openerp.com-20110112132828-a38e8ow7ahu97jy3
 :6139 odo@openerp.com-20110112143141-oezd2djlce1r3x6p
 :1594 fp@tinyerp.com-20081209141034-cj0f9clfgkr1eorz
@@ -4921,7 +4921,6 @@
 :1590 christophe@tinyerp.com-20081209123722-4kmv4pecjwiw3tm3
 :1593 fp@tinyerp.com-20081209080355-b3n01hbm3asej3mp
 :1592 christophe@tinyerp.com-20081209133540-zlb6wxs97cxa99nx
-:3252 codehost@crowberry-20091221044309-jdhl84asvzyjjuw2
 :2248 fp@tinyerp.com-20090315185532-fr2b6cpuow43yjta
 :2249 fp@tinyerp.com-20090315190701-996gxy21rdr47a8c
 :2244 fp@tinyerp.com-20090315180017-ubuf9fqtomy9e8rn
@@ -5190,7 +5189,7 @@
 :2265 hda@hda-20090406113027-qx4zbbzxe1e7ahay
 :4813 jvo@tinyerp.com-20100823194808-xg20amii2e2pfk5p
 :2047 stephane@tinyerp.com-20090122132238-yjx7n3g432s8ujzb
-:2044 fp@tinyerp.com-20090121231539-ytxxlb27sg6ax2j3
+:4811 codehost@crowberry-20100823035853-lna61rv964ypumcx
 :2045 fp@tinyerp.com-20090122074444-1zpp4psuz1uhh5j2
 :2042 christophe@tinyerp.com-20090121173728-pk4dkpqj79bjyntg
 :2043 fp@tinyerp.com-20090121200740-idaabyapuf9l24p1
@@ -5265,7 +5264,7 @@
 :5496 launchpad_translations_on_behalf_of_openerp-20101109044748-jx0843m3k1eh2ha2
 :4985 stephane@openerp.com-20100906140645-zxt6los8sl54qzj0
 :1601 nel@silver-20081210141128-oaknnb0rzj68htio
-:3083 jvo@tinyerp.com-20091113072656-ytd8372l270lho75
+:658 ced-c9b429ab628c867351beeaba59bd810ef9bb08cd
 :1600 nel@silver-20081210140856-easnep218it0bnqu
 :3082 hmo@tinyerp.com-20091113071418-6p79ugqwpqkv55ev
 :1603 christophe@tinyerp.com-20081210144357-d4v17cnsjycabexr
@@ -5450,6 +5449,7 @@
 :2997 p_christ@hol.gr-20090831093703-vysodh51eczb1hcd
 :55 ced-49d278ac44519a0dc4907238e927bb58412cd26b
 :2991 p_christ@hol.gr-20090824190056-mwxzroeyvsnv66wf
+:1940 stephane@tinyerp.com-20090107094520-lru4gr22nqdhgjdm
 :57 pinky-42646ca164f938abd312f6b2f8dccf73970f0c59
 :2993 p_christ@hol.gr-20090828142011-9ree0qumovrx9wt6
 :2994 p_christ@hol.gr-20090828143403-c48ylvbkzgnimvhr
@@ -5471,14 +5471,14 @@
 :854 stw-ffd07857fd1a61e1ef8757b11f12d3a8d6353709
 :855 chs@tinyerp.com-5b667f73c019d51003106098efae7151fb5b7f38
 :856 chs@tinyerp.com-366270ace15e512a77e222847a9c911cb7650772
-:3451 hda@tinyerp.com-20100113125341-69djvqrd7rkn6wj9
+:857 fp@tinyerp.com-3bf3ca5f392a63f5285035e50e972129f442ae35
 :3456 codehost@crowberry-20100114044859-14ytrzxloqj2p5p6
 :3457 codehost@crowberry-20100115043427-b3ifkalkkx5vtvxx
 :852 stw-114ce994c0ac140d2a1dbebd05c57e589853bb61
 :3455 hmo@tinyerp.com-20100113154824-wes2er4ort5c6sol
 :4714 vir@tinyerp.com-20100723065747-rvojpshfm5wjvk6h
 :1424 hda@tinyerp.com-20081112130509-ewddg85ivilq5u81
-:4715 vir@tinyerp.com-20100726044342-p2wx9fc5i1q91tvt
+:2331 hda@hda-20090512104708-wo36wuanouglci8g
 :4716 vir@tinyerp.com-20100727052343-l7ghjp7spz3y0vqv
 :4717 vir@tinyerp.com-20100728045419-d7se5lg21o2ol29z
 :4710 vir@tinyerp.com-20100719050409-yz302ghrhpx0zotl
@@ -5546,7 +5546,7 @@
 :1949 christophe@tinyerp.com-20090107184427-jnpi8sc14qduspwe
 :1942 christophe@tinyerp.com-20090106163615-spmbwi38782qbv0m
 :3251 codehost@crowberry-20091220043549-tedq3hfaca2elaka
-:1940 stephane@tinyerp.com-20090107094520-lru4gr22nqdhgjdm
+:3252 codehost@crowberry-20091221044309-jdhl84asvzyjjuw2
 :1941 christophe@tinyerp.com-20090106162838-fukq9grp6dk97v61
 :1946 stephane@tinyerp.com-20090107143317-8huptlakzzav0v2d
 :3255 codehost@crowberry-20091222043545-p615u32x9nsnpzoq
@@ -5903,7 +5903,7 @@
 :1190 stephane@tinyerp.com-20080910072335-3p3vsvhjp6o59s1c
 :1192 stephane@tinyerp.com-20080910075547-6iifqe6w6kw2u3v4
 :732 fp@tinyerp.com-dbf9cb2293206c3e728bd099c6140b647ef375df
-:1195 mga@tinyerp.com-20080910062654-6521393f7xn4554w
+:5454 apa@tinyerp.com-20101012044207-w005n4q1jh4p8ple
 :753 fp@tinyerp.com-c4d20747167f26b7ab2d03cc1e1be035b209278a
 :752 fp@tinyerp.com-f40939b7bd24b27497ead8daa85335ef727cef47
 :751 fp@tinyerp.com-55457de5949ef31ba3aa2b82612f3911afed2ecf
@@ -6060,7 +6060,7 @@
 :618 ced-8fb567822f7e6ec2bceac164c270ee9585bba95e
 :619 ced-db99f423795c79294f5241bc1c11cf8ed78968d3
 :612 fp@tinyerp.com-7cb0825c39add6770beb861bee10408f88bc127f
-:1271 fp@tinyerp.com-20081007050851-x0hbr5fpu9vmj34t
+:613 ced-01ea58b8502b977a772f07a5dd6fbc7cd42270f3
 :1272 ame@tinyerp.com-20081007095252-eojj5w687f1l5p8d
 :1273 fp@tinyerp.com-20081007132851-b6opi13860l8o6mo
 :616 fp@tinyerp.com-90f4dcf0c6477ec3c0983046d6449d7778eec570
@@ -6079,7 +6079,7 @@
 :5468 apa@tinyerp.com-20101025093738-i4160t6g3jsvmn0v
 :5038 odo@openerp.com-20100916150805-9ys3gydvu6sz0l8i
 :3594 xmo@tinyerp.com-20100131174844-ni2pkc2nj89m7qki
-:5034 odo@openerp.com-20100916114033-1aei222d22fkq23l
+:3599 codehost@crowberry-20100208044503-5edikkxk6cf4faz0
 :3598 codehost@crowberry-20100207043729-0c5bwboj4ywu1nyu
 :4138 hda@tinyerp.com-20100505141447-wicg8n72j309gjs2
 :4139 nch@tinyerp.com-20100505111630-ygnzg2lnwi832hsg
@@ -6266,7 +6266,6 @@
 :1617 stephane@tinyerp.com-20081210221104-j4gv4f22pxobigzf
 :1614 stephane@tinyerp.com-20081210214830-bzgox1uw469v6e5f
 :4708 vir@tinyerp.com-20100715051026-j36ybjsm82x0mbqf
-:4801 fp@tinyerp.com-20100824124639-awmiog304b56tktm
 :1914 christophe@cobalt-20090103002930-rfyzwj45nz0e9g1j
 :5196 hmo@tinyerp.com-20100929130831-wmuix2fwpvth0mxy
 :2369 fp@tinyerp.com-20090529002358-9ycrzw34oipo6emh
@@ -6393,6 +6392,7 @@
 :4118 stephane@openerp.com-20100505100241-o5w0twdccrs7ppx2
 :4119 stephane@openerp.com-20100505112007-rvxomqlha4f7uw1u
 :3340 jvo@tinyerp.com-20091211161917-u7fyq6abr0xsi8zv
+:3057 hmo@tinyerp.com-20091126093155-k8wdgq4elnlk1aag
 :3341 jvo@tinyerp.com-20091214073119-86u4q06r9fzur87t
 :5946 phongnt@phongnt-laptop-20101127080009-0bb6wjrcbqh5llv3
 :5947 fp@tinyerp.com-20101228155825-nstqujh3gheg7e0k
@@ -6456,7 +6456,7 @@
 :1060 christophe@tinyerp.com-20080822093914-bk6hahvstngwkgxj
 :5302 launchpad_translations_on_behalf_of_openerp-20101012045103-4ym19xvsbzg84btl
 :1062 jvo@tinyerp.com-20080822101841-pggf3wmh0b72g10n
-:5304 ach@tinyerp.com-20101012061115-mlr5laakmficmoal
+:1065 chs@tinyerp.com-20080824220449-fby5txrm1s5hzarm
 :5305 fp@tinyerp.com-20101012071335-qcwn8js6zewuqeci
 :5306 fp@tinyerp.com-20101012094147-4f7ecedzkm2sml0z
 :5307 xmo@openerp.com-20101012083613-dhil3g2k06i6lf60
@@ -6567,6 +6567,7 @@
 :139 ced-f4c6b454af6e330b5750d309649d77787de26e43
 :138 ced-a251396cdb6b946022863e56889585f6b6c59e66
 :5924 odo@openerp.com-20101223150253-zumk5entx9heb8q0
+:410 ced-009a7375f2545d69e0a981f461b000cda1a09008
 :88 pinky-8f13c901f23963c98bf0a55e00e33dfc7fe06cab
 :89 pinky-b6fcaf15165dfc43152cf575ac6a38aa0d8d9c02
 :82 bch-f7cd77c3a2e7084283c01ab781b2ccc0a874fab1
@@ -6602,7 +6603,7 @@
 :3086 jvo@tinyerp.com-20091117072234-fjb7gcupgnw4q22b
 :3081 mga@tinyerp.com-20091112075640-6860oi10qehw7dsf
 :3080 jvo@tinyerp.com-20091112062118-wrtw5fa64ta1j3lr
-:658 ced-c9b429ab628c867351beeaba59bd810ef9bb08cd
+:3083 jvo@tinyerp.com-20091113072656-ytd8372l270lho75
 :659 ced-58ad17d2808abe75b4889cd5468573e84ccb9123
 :3369 hda@tinyerp.com-20100113073118-m55980m261js142f
 :3885 odo@openerp.com-20100329085843-cliw31nbpvgr2skq
