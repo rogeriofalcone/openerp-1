@@ -1,24 +1,24 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
-Alloc'd objects:      10000
-Total objects:            0 (         0 duplicates                  )
-      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
+Alloc'd objects:      15000
+Total objects:           26 (       792 duplicates                  )
+      blobs  :            2 (       714 duplicates          1 deltas of          2 attempts)
+      trees  :           19 (        73 duplicates         13 deltas of         19 attempts)
+      commits:            5 (         5 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:           0 (         0 loads     )
-      marks:        1048576 (      9901 unique    )
-      atoms:              0
-Memory total:          2516 KiB
-       pools:          2048 KiB
-     objects:           468 KiB
+Total branches:           5 (         1 loads     )
+      marks:        1048576 (      9911 unique    )
+      atoms:            122
+Memory total:          2813 KiB
+       pools:          2110 KiB
+     objects:           703 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =       9946
-pack_report: pack_mmap_calls          =          3
-pack_report: pack_open_windows        =          3 /          3
-pack_report: pack_mapped              = 1073835725 / 1073835725
+pack_report: pack_used_ctr            =      10111
+pack_report: pack_mmap_calls          =         11
+pack_report: pack_open_windows        =          5 /          5
+pack_report: pack_mapped              = 1074382157 / 1074382157
 ---------------------------------------------------------------------
 
