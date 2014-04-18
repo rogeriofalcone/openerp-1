@@ -1,3 +1,7 @@
+warning: Not updating refs/tags/6.1.0-rc1 (new tip f9527ed1b5862447e9f3f07d3f75f734f9010c2a does not contain 0d63706015f3e8fcc6859e92701f050d4bd71625)
+warning: Not updating refs/tags/6.1.0 (new tip 7886bde977467ffb063a52aad8abecbd0fcd324f does not contain e6b3dcfb988d7e76f095fb945a49cc24b9dbcec8)
+warning: Not updating refs/tags/6.1.1 (new tip 27a1ccd5799831c156b49c8d277bd73ec02b3092 does not contain 2a41a1126dace14b40c670f4656be12fbafb217c)
+warning: Not updating refs/tags/5.0.7 (new tip cbefc1cc55a4c197d78fb3626cda2d9caf0094fd does not contain 2ed8b942d905fcba0ad8e95b20f6be4431d62ff5)
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      45000
@@ -6,7 +10,7 @@ Total objects:            0 (         0 duplicates                  )
       trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
       commits:            0 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:           0 (         0 loads     )
+Total branches:        1938 (         0 loads     )
       marks:        1048576 (     40178 unique    )
       atoms:              0
 Memory total:          4157 KiB
@@ -16,7 +20,7 @@ Memory total:          4157 KiB
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      40507
+pack_report: pack_used_ctr            =      86958
 pack_report: pack_mmap_calls          =          1
 pack_report: pack_open_windows        =          1 /          1
 pack_report: pack_mapped              = 1073741824 / 1073741824
