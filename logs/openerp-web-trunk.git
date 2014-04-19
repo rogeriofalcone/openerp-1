@@ -1,24 +1,24 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
-Alloc'd objects:      20000
-Total objects:          760 (      4725 duplicates                  )
-      blobs  :          143 (      4241 duplicates        109 deltas of        139 attempts)
-      trees  :          539 (       480 duplicates        385 deltas of        520 attempts)
-      commits:           78 (         4 duplicates          0 deltas of          0 attempts)
+Alloc'd objects:      15000
+Total objects:          377 (         0 duplicates                  )
+      blobs  :          345 (         0 duplicates        312 deltas of        314 attempts)
+      trees  :           29 (         0 duplicates          9 deltas of         29 attempts)
+      commits:            3 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
 Total branches:           5 (         1 loads     )
-      marks:        1048576 (     10922 unique    )
-      atoms:            717
-Memory total:          3048 KiB
+      marks:        1048576 (     10925 unique    )
+      atoms:            124
+Memory total:          2813 KiB
        pools:          2110 KiB
-     objects:           937 KiB
+     objects:           703 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      15555
-pack_report: pack_mmap_calls          =        162
-pack_report: pack_open_windows        =          6 /          6
-pack_report: pack_mapped              = 1077687327 / 1077687327
+pack_report: pack_used_ctr            =      11085
+pack_report: pack_mmap_calls          =         11
+pack_report: pack_open_windows        =          7 /          7
+pack_report: pack_mapped              = 1078224935 / 1078224935
 ---------------------------------------------------------------------
 
