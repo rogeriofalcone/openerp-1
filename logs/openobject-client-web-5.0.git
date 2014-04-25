@@ -1,3 +1,24 @@
+warning: Not updating refs/tags/5.0.7rc1 (new tip 5d90c0691fddad23e6adc7079f673f5ed49d662e does not contain 9d0dc3a6857aee0721b711f360a423d6e38fec9e)
+warning: Not updating refs/tags/5.0.7rc2 (new tip e348e8c30dedb1d2f9eb76990a9903b6be2f8dc5 does not contain 9ef71b03bb04845ab453da481ca57fe9b6353681)
+warning: Not updating refs/tags/5.0.10 (new tip 1ccc5989377f50ec9e6264973798b744007fb0bf does not contain e2a335649a22ac13dd43f1d5ee1850e75030bff1)
+warning: Not updating refs/tags/5.0.11 (new tip 95e17881c4cf32992880afe98573224373754e7e does not contain a3da84c3b23b156d9ad374759ed427f021450399)
+warning: Not updating refs/tags/5.0.12 (new tip 075afab3e64f9fdb0777f2b8a8c3607ae8d54c39 does not contain 00a31b41bc45edf4931cf57d3c4211c2c4852dc1)
+warning: Not updating refs/tags/5.0.13 (new tip f95cf9443f8ed01209e303172cad8e6c48829a18 does not contain 3b95350c4009b674fa0baf949c0f5821d2f8cdd4)
+warning: Not updating refs/tags/5.0.14 (new tip f28a5a03d251300d0d445d6824f2d7245ea80aac does not contain 3b95350c4009b674fa0baf949c0f5821d2f8cdd4)
+warning: Not updating refs/tags/5.0.15 (new tip 092cd66481e5d16b2e81ba732b94afc6098cd73e does not contain 752606fd2756bd4f5f123360000639f60cb24ef9)
+warning: Not updating refs/tags/5.0.16 (new tip 0851a7299c1788b627bed03021b9acecdfa0a8a0 does not contain 2f335b68937cbb4b5d448b0be911f7ec8201db38)
+warning: Not updating refs/tags/5.0.0-2 (new tip da317509e805107e8b1766e0f2c744bf2781239b does not contain 71c21ebe1e02e9311b056f39220b7cc7eca522ac)
+warning: Not updating refs/tags/5.0.0-3 (new tip ad6163b0fc3c3247cc419014ffdb8a451562c3d4 does not contain b5d5b56038c2c08380376e58ce321f32ada2468a)
+warning: Not updating refs/tags/5.0.0 (new tip 33dff3e75cbf091d75091acbd549607de14283a6 does not contain 16678cc1929f02b00a837797b3de9cb817863942)
+warning: Not updating refs/tags/5.0.1 (new tip f529e148168874bc0b2a88d265ca6eb372f15593 does not contain ee32203edfb3ff963f8ee17fc6a84759c52b614f)
+warning: Not updating refs/tags/5.0.2 (new tip 58847635d1e62c2ff0da4e14c35bdccfff6fa6aa does not contain 7b5fa9dcd8a3fd2f6153e396a5431f7e2400d2c8)
+warning: Not updating refs/tags/5.0.3 (new tip 09821fc0cbc2cb104a72120332373a131b2eb20a does not contain 94c9b31f4c9d8fba6929ba0d89bc4e91b5c8b0cc)
+warning: Not updating refs/tags/5.0.4 (new tip 0d9c01ebdaffd550914a09e1138f2d9d5d9ad6e4 does not contain d5b8a827d9f07c637b5ab675f324bb5e9158ce42)
+warning: Not updating refs/tags/5.0.5 (new tip 22ab4b0f4c691afd6da233d8fe45f4938a5a9ac8 does not contain 6bb3103ee67dd8220feffc686842bf419789be3b)
+warning: Not updating refs/tags/5.0.6 (new tip 22ab4b0f4c691afd6da233d8fe45f4938a5a9ac8 does not contain 1f1178beb2e45cff541e041155e9a249375d5d33)
+warning: Not updating refs/tags/5.0.7 (new tip 70ad98af554540de2b6abf0c98f6bf6cd78d5c70 does not contain 2ed8b942d905fcba0ad8e95b20f6be4431d62ff5)
+warning: Not updating refs/tags/5.0.8 (new tip 6d516ef92155832ff0197e8b35928beadfd3d74d does not contain 3238fb4f7e285449c71dee4a183ff34bb2d8bbf0)
+warning: Not updating refs/tags/5.0.9 (new tip 08d95fc3e33df8b14c4f7c30ec63a332eb1b6ac2 does not contain 7b86f14f00f42adefd7d3af70ab4a62ad3e1cd3f)
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:       5000
@@ -6,7 +27,7 @@ Total objects:            0 (         0 duplicates                  )
       trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
       commits:            0 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:           0 (         0 loads     )
+Total branches:          25 (         0 loads     )
       marks:        1048576 (      3336 unique    )
       atoms:              0
 Memory total:          2282 KiB
@@ -16,7 +37,7 @@ Memory total:          2282 KiB
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =       3338
+pack_report: pack_used_ctr            =      12590
 pack_report: pack_mmap_calls          =          1
 pack_report: pack_open_windows        =          1 /          1
 pack_report: pack_mapped              = 1073741824 / 1073741824
