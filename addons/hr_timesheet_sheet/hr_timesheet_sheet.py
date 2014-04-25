@@ -66,40 +66,20 @@ class hr_timesheet_sheet(osv.osv):
     def copy(self, cr, uid, ids, *args, **argv):
         raise osv.except_osv(_('Error!'), _('You cannot duplicate a timesheet.'))
 
-    def create(self, cr, uid, vals, *args, **argv):
+    def create(self, cr, uid, vals, context=None):
         if 'employee_id' in vals:
-            if not self.pool.get('hr.employee').browse(cr, uid, vals['employee_id']).user_id:
+            if not self.pool.get('hr.employee').browse(cr, uid, vals['employee_id'], context=context).user_id:
                 raise osv.except_osv(_('Error!'), _('In order to create a timesheet for this employee, you must assign it to a user.'))
-            if not self.pool.get('hr.employee').browse(cr, uid, vals['employee_id']).product_id:
+            if not self.pool.get('hr.employee').browse(cr, uid, vals['employee_id'], context=context).product_id:
                 raise osv.except_osv(_('Error!'), _('In order to create a timesheet for this employee, you must link the employee to a product, like \'Consultant\'.'))
-            if not self.pool.get('hr.employee').browse(cr, uid, vals['employee_id']).journal_id:
+            if not self.pool.get('hr.employee').browse(cr, uid, vals['employee_id'], context=context).journal_id:
                 raise osv.except_osv(_('Configuration Error!'), _('In order to create a timesheet for this employee, you must assign an analytic journal to the employee, like \'Timesheet Journal\'.'))
-        return super(hr_timesheet_sheet, self).create(cr, uid, vals, *args, **argv)
+        if vals.get('attendances_ids'):
+            # If attendances, we sort them by date asc before writing them, to satisfy the alternance constraint
+            vals['attendances_ids'] = self.sort_attendances(cr, uid, vals['attendances_ids'], context=context)
+        return super(hr_timesheet_sheet, self).create(cr, uid, vals, context=context)
 
     def write(self, cr, uid, ids, vals, context=None):
-        if vals.get('attendances_ids'):
-            obj_hr_att = self.pool.get('hr.attendance')
-            delete_ids = [act[1] for act in vals.get('attendances_ids') if act[0] == 2]
-            for delete_att in obj_hr_att.browse(cr, uid, delete_ids, context=context):
-                prev_att_ids = obj_hr_att.search(cr, uid, [('sheet_id', 'in', ids),
-                                                ('name', '<', delete_att.name),
-                                                ('id', 'not in', delete_ids)],
-                                                limit=1, context=context)
-                next_att_ids = obj_hr_att.search(cr, uid, [('sheet_id', 'in', ids),
-                                                ('name', '>', delete_att.name),
-                                                ('id', 'not in', delete_ids)],
-                                                limit=1, order="name", context=context) #by default it's descending but we require ascending to get first record
-                prev_atts = obj_hr_att.browse(cr, uid, prev_att_ids, context=context)
-                next_atts = obj_hr_att.browse(cr, uid, next_att_ids, context=context)
-
-                if prev_atts and next_atts:
-                    if prev_atts[0].action == next_atts[0].action:
-                        raise osv.except_osv(_('Warning !'), _('You are trying ' \
-                            'to delete inside attendance entry which is not ' \
-                            'allowed from here ! \n OR \n You are trying to ' \
-                            'delete same action entries ! \n Please try to ' \
-                            'delete this entry from Attendance list'))
-
         if 'employee_id' in vals:
             new_user_id = self.pool.get('hr.employee').browse(cr, uid, vals['employee_id'], context=context).user_id.id or False
             if not new_user_id:
@@ -110,7 +90,32 @@ class hr_timesheet_sheet(osv.osv):
                 raise osv.except_osv(_('Error!'), _('In order to create a timesheet for this employee, you must link the employee to a product.'))
             if not self.pool.get('hr.employee').browse(cr, uid, vals['employee_id'], context=context).journal_id:
                 raise osv.except_osv(_('Configuration Error!'), _('In order to create a timesheet for this employee, you must assign an analytic journal to the employee, like \'Timesheet Journal\'.'))
-        return super(hr_timesheet_sheet, self).write(cr, uid, ids, vals, context=context)
+        if vals.get('attendances_ids'):
+            # If attendances, we sort them by date asc before writing them, to satisfy the alternance constraint
+            # In addition to the date order, deleting attendances are done before inserting attendances
+            vals['attendances_ids'] = self.sort_attendances(cr, uid, vals['attendances_ids'], context=context)
+        res = super(hr_timesheet_sheet, self).write(cr, uid, ids, vals, context=context)
+        if vals.get('attendances_ids'):
+            for timesheet in self.browse(cr, uid, ids):
+                if not self.pool['hr.attendance']._altern_si_so(cr, uid, [att.id for att in timesheet.attendances_ids]):
+                    raise osv.except_osv(_('Warning !'), _('Error ! Sign in (resp. Sign out) must follow Sign out (resp. Sign in)'))
+        return res
+
+    def sort_attendances(self, cr, uid, attendance_tuples, context=None):
+        date_attendances = []
+        for att_tuple in attendance_tuples:
+            if att_tuple[0] in [0,1,4]:
+                if att_tuple[0] in [0,1]:
+                    name = att_tuple[2]['name']
+                else:
+                    name = self.pool['hr.attendance'].browse(cr, uid, att_tuple[1]).name
+                date_attendances.append((1, name, att_tuple))
+            elif att_tuple[0] in [2,3]:
+                date_attendances.append((0, self.pool['hr.attendance'].browse(cr, uid, att_tuple[1]).name, att_tuple))
+            else: 
+                date_attendances.append((0, False, att_tuple))
+        date_attendances.sort()
+        return [att[2] for att in date_attendances]
 
     def button_confirm(self, cr, uid, ids, context=None):
         for sheet in self.browse(cr, uid, ids, context=context):
