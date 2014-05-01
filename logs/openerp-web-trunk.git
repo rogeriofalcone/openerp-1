@@ -1,24 +1,24 @@
 git-fast-import statistics:
 ---------------------------------------------------------------------
 Alloc'd objects:      15000
-Total objects:            0 (         0 duplicates                  )
-      blobs  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      trees  :            0 (         0 duplicates          0 deltas of          0 attempts)
-      commits:            0 (         0 duplicates          0 deltas of          0 attempts)
+Total objects:          593 (      6367 duplicates                  )
+      blobs  :           98 (      5661 duplicates         73 deltas of         93 attempts)
+      trees  :          419 (       706 duplicates        310 deltas of        410 attempts)
+      commits:           76 (         0 duplicates          0 deltas of          0 attempts)
       tags   :            0 (         0 duplicates          0 deltas of          0 attempts)
-Total branches:           0 (         0 loads     )
-      marks:        1048576 (     10938 unique    )
-      atoms:              0
-Memory total:          2751 KiB
-       pools:          2048 KiB
+Total branches:           5 (         1 loads     )
+      marks:        1048576 (     11014 unique    )
+      atoms:            718
+Memory total:          2813 KiB
+       pools:          2110 KiB
      objects:           703 KiB
 ---------------------------------------------------------------------
 pack_report: getpagesize()            =       4096
 pack_report: core.packedGitWindowSize = 1073741824
 pack_report: core.packedGitLimit      = 8589934592
-pack_report: pack_used_ctr            =      10987
-pack_report: pack_mmap_calls          =          5
-pack_report: pack_open_windows        =          5 /          5
-pack_report: pack_mapped              = 1074518485 / 1074518485
+pack_report: pack_used_ctr            =      15437
+pack_report: pack_mmap_calls          =        138
+pack_report: pack_open_windows        =          7 /          7
+pack_report: pack_mapped              = 1423821911 / 1423821911
 ---------------------------------------------------------------------
 
