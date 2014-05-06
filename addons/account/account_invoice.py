@@ -519,8 +519,8 @@ class account_invoice(osv.osv):
                 acc_id = p.property_account_payable.id
                 partner_payment_term = p.property_supplier_payment_term and p.property_supplier_payment_term.id or False
             fiscal_position = p.property_account_position and p.property_account_position.id or False
-            if p.bank_ids:
-                bank_id = p.bank_ids[0].id
+            if p.commercial_partner_id.bank_ids:
+                bank_id = p.commercial_partner_id.bank_ids[0].id
 
         result = {'value': {
             'account_id': acc_id,
@@ -1022,7 +1022,7 @@ class account_invoice(osv.osv):
             line = self.finalize_invoice_move_lines(cr, uid, inv, line)
 
             move = {
-                'ref': inv.reference and inv.reference or inv.name,
+                'ref': inv.reference or inv.supplier_invoice_number or inv.name,
                 'line_id': line,
                 'journal_id': journal_id,
                 'date': date,
