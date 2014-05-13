@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openerp>
+    <data>
+
+        <record id="product_search_form_view_stock" model="ir.ui.view">
+            <field name="name">product.search.stock.form</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_search_form_view"/>
+            <field name="arch" type="xml">
+                <field name="pricelist_id" position="before">
+                    <field name="location_id" widget="selection" context="{'location': self}"/>
+                    <field name="warehouse_id" widget="selection" context="{'warehouse': self}"/>
+                </field>
+                <field name="categ_id" position="before">
+                    <separator/>
+                    <filter name="real_stock_available" string="Available Products" domain="[('qty_available','&gt;',0)]"/>
+                    <filter name="virtual_stock_available" string="Forecast Available Products" domain="[('virtual_available','&gt;',0)]"/>
+                    <filter name="real_stock_negative" string="Exhausted Stock" domain="[('qty_available','&lt;=',0)]"/>
+                    <filter name="virtual_stock_negative" string="Forecast Exhausted Stock" domain="[('virtual_available','&lt;=',0)]"/>
+                    
+                </field>
+            </field>
+        </record>
+
+        <record id="view_stock_product_tree" model="ir.ui.view">
+            <field name="name">product.stock.tree.inherit</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_product_tree_view"/>
+            <field name="arch" type="xml">
+
+                <field name="uom_id" position="after">
+                    <field name="qty_available"/>
+                    <field name="virtual_available"/>
+                </field>
+                <tree position="attributes">
+                    <attribute name="colors">{'red':virtual_available&lt;0, 'blue':virtual_available&gt;=0 and state in ('draft', 'end', 'obsolete'), 'black':virtual_available&gt;=0 and state not in ('draft', 'end', 'obsolete')}</attribute>
+                </tree>
+            </field>
+        </record>
+
+        <record id="view_template_property_form" model="ir.ui.view">
+            <field name="name">product.template.stock.property.form.inherit</field>
+            <field name="model">product.template</field>
+            <field name="inherit_id" ref="product.product_template_form_view"/>
+            <field name="arch" type="xml">
+                <xpath expr="//group[@name='sale_condition']" position="inside">
+                    <label for="sale_delay"/>
+                    <div>
+                        <field name="sale_delay" attrs="{'readonly':[('sale_ok','=',False)]}" class="oe_inline" style="vertical-align:baseline"/> days
+                    </div>
+                </xpath>
+                <xpath expr="//group[@name='status']" position="after">
+                    <group name="store" string="Storage Location">
+                        <field name="loc_rack"/>
+                        <field name="loc_row"/>
+                        <field name="loc_case"/>
+                    </group>
+                </xpath>
+                <xpath expr="//group[@name='weight']" position="after">
+                    <group string="Counter-Part Locations Properties" groups="stock.group_locations">
+                        <field name="property_stock_procurement" domain="[('usage','=','procurement')]"/>
+                        <field name="property_stock_production" domain="[('usage','=','production')]"/>
+                        <field name="property_stock_inventory" domain="[('usage','=','inventory')]"/>
+                    </group>
+                </xpath>
+                <field name="product_manager" position="attributes" version="7.0">
+                    <attribute name="context">{'default_groups_ref': ['base.group_user', 'base.group_sale_manager', 'stock.group_stock_manager']}</attribute>
+                </field>
+            </field>
+        </record>
+
+        <record id="action_receive_move" model="ir.actions.act_window">
+            <field name="name">Receptions</field>
+            <field name="res_model">stock.move</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="domain" eval="[('picking_id.picking_type_id.code','=','incoming'), ('location_id.usage','!=','internal'), ('location_dest_id.usage', '=', 'internal')]"/>
+            <field name="view_id" ref="view_move_tree_reception_picking"/>
+            <field name="context" eval="'{\'search_default_product_id\': [active_id]}'"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to register a reception for this product.
+              </p><p>
+                Here you will find the history of all receptions related to
+                this product, as well as all future receptions you are waiting
+                from your suppliers.
+              </p>
+            </field>
+        </record>
+
+        <record id="action_deliver_move" model="ir.actions.act_window">
+            <field name="name">Deliveries</field>
+            <field name="res_model">stock.move</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="view_id" ref="view_move_tree_reception_picking"/>
+            <field name="domain" eval="[('picking_type_id.code','=','outgoing'), ('location_id.usage','=','internal'), ('location_dest_id.usage', '!=', 'internal')]"/>
+            <field name="context" eval="'{\'search_default_product_id\': [active_id]}'"/>
+            <field name="help" type="html">
+              <p class="oe_view_nocontent_create">
+                Click to add a delivery order for this product.
+              </p><p>
+                Here you will find the history of all past deliveries related to
+                this product, as well as all the products you must deliver to
+                customers.
+              </p>
+            </field>
+        </record>
+
+        <record model="ir.ui.view" id="product_kanban_stock_view">
+            <field name="name">Product Kanban Stock</field>
+            <field name="model">product.product</field>
+            <field name="inherit_id" ref="product.product_kanban_view"/>
+            <field name="arch" type="xml">
+                <field name="list_price" position="after">
+                    <field name="reception_count"/>
+                    <field name="delivery_count"/>
+                </field>
+                <xpath expr="//div[@name='tags']" position="inside">
+                    <a name="%(action_receive_move)d" type="action" t-if="record.reception_count.raw_value&gt;1">
+                        <t t-esc="record.reception_count.value"/> Receptions
+                    </a>
+                    <a name="%(action_receive_move)d" type="action" t-if="record.reception_count.raw_value==1">
+                        <t t-esc="record.reception_count.value"/> Reception
+                    </a>
+                    <a name="%(action_deliver_move)d" type="action" t-if="record.delivery_count.raw_value&gt;1">
+                        <t t-esc="record.delivery_count.value"/> Deliveries
+                    </a>
+                    <a name="%(action_deliver_move)d" type="action" t-if="record.delivery_count.raw_value==1">
+                        <t t-esc="record.delivery_count.value"/> Delivery
+                    </a>
+                </xpath>
+                <ul position="inside">
+                    <li t-if="record.type.raw_value != 'service'">On hand: <field name="qty_available"/> <field name="uom_id"/></li>
+                    <li t-if="record.type.raw_value != 'service'">Forecasted: <field name="virtual_available"/> <field name="uom_id"/></li>
+                </ul>
+            </field>
+        </record>
+
+    </data>
+</openerp>
