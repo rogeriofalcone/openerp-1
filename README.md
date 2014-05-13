@@ -38,6 +38,7 @@ This repository is updated daily.
 * demo/6.0
 * demo/6.1
 * demo/7.0
+* demo/trunk
 * demo-ocb/6.1
 * demo-ocb/7.0
 
