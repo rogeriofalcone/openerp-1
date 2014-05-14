@@ -7,7 +7,9 @@
 #
 
 REMOTE = origin
-BRANCHES = "openerp-web/" "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/" "ocb-server/" "ocb-addons/" "ocb-web/"
+BRANCHES = "openerp-web/" "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/"
+BRANCHES += "ocb-server/" "ocb-addons/" "ocb-web/"
+BRANCHES += "~openerp/openerp-web/" "~openerp/openobject-addons/" "~openerp/openobject-server/"
 
 .SILENT: help update-master save-changes $(BRANCHES) update-all update-5.0 update-6.0 update-6.1 update-7.0 update-trunk update-demo-5.0 update-demo-6.0 update-demo-6.1 update-demo-7.0 update-demo-trunk
 
@@ -46,11 +48,12 @@ save-changes:
 #
 
 $(BRANCHES): BRANCH = $(subst ",,$@)$(VERSION)
-$(BRANCHES): BRANCH_FILE = $(subst /,-,$(BRANCH))
+$(BRANCHES): BRANCH_GIT = $(subst ~,custom/,$(BRANCH))
+$(BRANCHES): BRANCH_FILE = $(subst /,-,$(BRANCH_GIT))
 $(BRANCHES):
 	echo "Updating $(BRANCH)..."
 	-git branch -f -t $(BRANCH) $(REMOTE)/$(BRANCH)
-	-bzr fast-export --marks=marks/$(BRANCH_FILE).bzr --git-branch=$(BRANCH) lp:$(BRANCH) 2> logs/$(BRANCH_FILE).bzr \
+	-bzr fast-export --marks=marks/$(BRANCH_FILE).bzr --git-branch=$(BRANCH_GIT) lp:$(BRANCH) 2> logs/$(BRANCH_FILE).bzr \
 	    | git fast-import --import-marks-if-exists=marks/$(BRANCH_FILE).git --export-marks=marks/$(BRANCH_FILE).git > logs/$(BRANCH_FILE).git 2>&1
 
 demo-old:
@@ -93,6 +96,10 @@ update-all:
 	$(MAKE) -s update-demo-6.1
 	$(MAKE) -s update-demo-7.0
 	$(MAKE) -s update-demo-trunk
+	$(MAKE) -s update-saas-1
+	$(MAKE) -s update-saas-2
+	$(MAKE) -s update-saas-3
+	$(MAKE) -s update-saas-4
 
 update-5.0: VERSION = 5.0
 update-5.0: update-master "openobject-addons/" "openobject-addons/extra-" "openobject-client/" "openobject-client-web/" "openobject-server/" save-changes
@@ -124,3 +131,14 @@ update-demo-7.0: demo demo-ocb
 update-demo-trunk: VERSION = trunk
 update-demo-trunk: demo
 
+update-saas-1: VERSION = saas-1
+update-saas-1: update-master "~openerp/openerp-web/" "~openerp/openobject-addons/" "~openerp/openobject-server/" save-changes
+
+update-saas-2: VERSION = saas-2
+update-saas-2: update-master "~openerp/openerp-web/" "~openerp/openobject-addons/" "~openerp/openobject-server/" save-changes
+
+update-saas-3: VERSION = saas-3
+update-saas-3: update-master "~openerp/openerp-web/" "~openerp/openobject-addons/" "~openerp/openobject-server/" save-changes
+
+update-saas-4: VERSION = saas-4
+update-saas-4: update-master "~openerp/openerp-web/" "~openerp/openobject-addons/" "~openerp/openobject-server/" save-changes
